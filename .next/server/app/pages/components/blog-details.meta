@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/pages/layout,_N_T_/pages/components/layout,_N_T_/pages/components/blog-details/layout,_N_T_/pages/components/blog-details/page,_N_T_/pages/components/blog-details"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/pages/components/blog-details/__PAGE__",
+    "/pages/components/blog-details",
+    "/pages/components",
+    "/pages",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/dc41694a152c5a57.css","style"]
+:HL["/_next/static/chunks/6843e98ccea225be.css","style"]
+:HL["/_next/static/chunks/ef2b999abfcfaa6e.css","style"]
+:HL["/_next/static/chunks/04536d5777bc0d23.css","style"]
+:HL["/_next/static/chunks/458e011fad1252fe.css","style"]
+:HL["/_next/static/chunks/2ab1d7cb591d0990.css","style"]
+:HL["/_next/static/chunks/a43a78234243d6ec.css","style"]
+:HL["/_next/static/chunks/0a6ff56d9459c219.css","style"]
+:HC["/",""]
+0:{"buildId":"ConaZA9y_pGPV6vXESYeI","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"Insight","paramType":null,"paramKey":"Insight","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

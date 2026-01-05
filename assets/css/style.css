@@ -6869,7 +6869,7 @@ input:checked + .slider:before {
 }
 .checkbox label::before {
   content: "";
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   background-color: transparent;
   border: 1px solid var(--heading-color);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
@@ -12226,13 +12226,13 @@ margin-top: 20px;
   transition: var(--transition);
   opacity: 0;
 }
-.is__home__main .gallery__item::before img {
+/* .is__home__main .gallery__item::before img {
   border-radius: 6px 6px 0 0;
-}
-.is__home__main .gallery__item:hover::before {
+} */
+/* .is__home__main .gallery__item:hover::before {
   top: 0;
   opacity: 1;
-}
+} */
 .is__home__main .gallery__item:hover .gallery__popup {
   opacity: 1;
   visibility: visible;

@@ -1,1 +1,31 @@
-{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/src/app/Insight/page": [],
+    "[project]/src/app/_not-found/page": [],
+    "[project]/src/app/about/page": [],
+    "[project]/src/app/blog-details/page": [],
+    "[project]/src/app/blog/[slug]/page": [],
+    "[project]/src/app/blog/page": [],
+    "[project]/src/app/booking/page": [],
+    "[project]/src/app/contact/page": [],
+    "[project]/src/app/dining/page": [],
+    "[project]/src/app/gallery/page": [],
+    "[project]/src/app/living/page": [],
+    "[project]/src/app/neuroscience/page": [],
+    "[project]/src/app/page": [],
+    "[project]/src/app/pages/components/blog-details/page": [],
+    "[project]/src/app/privacy/page": [],
+    "[project]/src/app/research/page": [],
+    "[project]/src/app/room-four/page": [],
+    "[project]/src/app/room-home/page": [],
+    "[project]/src/app/room-three/page": [],
+    "[project]/src/app/room-two/page": [],
+    "[project]/src/app/room/[slug]/page": [],
+    "[project]/src/app/room2/[slug]/page": [],
+    "[project]/src/app/srilanka/page": [],
+    "[project]/src/app/weather/page": []
+  },
+  "appUsingSizeAdjust": false,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

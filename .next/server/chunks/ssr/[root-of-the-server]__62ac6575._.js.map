@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/app/pages/components/blog-details/page.jsx"],"sourcesContent":["export default function BlogDetails() {\r\n    return <div>Blog Details Page</div>;\r\n}"],"names":[],"mappings":"qVAAe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,qBAChB"}

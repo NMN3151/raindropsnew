@@ -1,0 +1,207 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/blog/[slug]",
+      "regex": "^/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/room/[slug]",
+      "regex": "^/room/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/room/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/room2/[slug]",
+      "regex": "^/room2/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/room2/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/api/smartsheet",
+      "regex": "^/api/smartsheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/smartsheet(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/blog-details",
+      "regex": "^/blog\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog\\-details(?:/)?$"
+    },
+    {
+      "page": "/booking",
+      "regex": "^/booking(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/booking(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/dining",
+      "regex": "^/dining(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dining(?:/)?$"
+    },
+    {
+      "page": "/gallery",
+      "regex": "^/gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gallery(?:/)?$"
+    },
+    {
+      "page": "/Insight",
+      "regex": "^/Insight(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Insight(?:/)?$"
+    },
+    {
+      "page": "/living",
+      "regex": "^/living(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/living(?:/)?$"
+    },
+    {
+      "page": "/neuroscience",
+      "regex": "^/neuroscience(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/neuroscience(?:/)?$"
+    },
+    {
+      "page": "/pages/components/blog-details",
+      "regex": "^/pages/components/blog\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pages/components/blog\\-details(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/research",
+      "regex": "^/research(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research(?:/)?$"
+    },
+    {
+      "page": "/room-four",
+      "regex": "^/room\\-four(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/room\\-four(?:/)?$"
+    },
+    {
+      "page": "/room-home",
+      "regex": "^/room\\-home(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/room\\-home(?:/)?$"
+    },
+    {
+      "page": "/room-three",
+      "regex": "^/room\\-three(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/room\\-three(?:/)?$"
+    },
+    {
+      "page": "/room-two",
+      "regex": "^/room\\-two(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/room\\-two(?:/)?$"
+    },
+    {
+      "page": "/srilanka",
+      "regex": "^/srilanka(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/srilanka(?:/)?$"
+    },
+    {
+      "page": "/weather",
+      "regex": "^/weather(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/weather(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
