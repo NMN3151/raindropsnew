@@ -194,3 +194,87 @@ It can also happen if the client has a browser extension installed which messes 
 [00:15:30.212] Server  LOG     ✓ Compiled in 681ms
 [00:15:32.026] Server  LOG     ✓ Compiled in 112ms
 [00:16:34.059] Server  LOG     ✓ Compiled in 190ms
+[00:26:56.508] Server  LOG     ✓ Compiled in 3.5s
+[00:27:01.929] Server  LOG     ✓ Compiled in 1167ms
+[00:27:08.441] Server  LOG     ✓ Compiled in 1639ms
+[00:27:12.677] Server  LOG     ✓ Compiled in 1295ms
+[00:27:15.202] Server  LOG     ✓ Compiled in 1274ms
+[00:27:20.487] Server  LOG     ✓ Compiled in 745ms
+[00:27:22.085] Server  LOG     ✓ Compiled in 689ms
+[00:27:25.681] Server  LOG     ✓ Compiled in 784ms
+[00:27:26.226] Server  LOG     ✓ Compiled in 196ms
+[00:27:32.309] Server  LOG     ✓ Compiled in 311ms
+[00:27:34.527] Server  LOG     ✓ Compiled in 182ms
+[00:27:35.554] Server  LOG     ✓ Compiled in 310ms
+[00:27:37.739] Server  LOG     ✓ Compiled in 303ms
+[00:27:39.911] Server  LOG     ✓ Compiled in 193ms
+[00:27:43.083] Server  LOG     ✓ Compiled in 1456ms
+[00:27:43.192] Server  LOG     ✓ Compiled in 110ms
+[00:27:43.205] Browser ERROR   ./assets/css/style.css:73:11
+Parsing CSS source code failed
+  71 |   /* typhography */
+  72 |   --glida: "Gilda Display", serif;
+> 73 |   --jost: "Jost ;
+     |           ^
+  74 |   --h1: 80px;
+  75 |   --h2: 34px;
+  76 |   --h3: 48px;
+
+Unexpected token BadString("Jost ;")
+
+Import trace:
+  Client Component Browser:
+    ./assets/css/style.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:27:44.436] Server  LOG     ✓ Compiled in 39ms
+[00:27:48.904] Server  LOG     ✓ Compiled in 166ms
+[00:27:49.866] Server  LOG     ✓ Compiled in 133ms
+[00:27:52.813] Server  LOG     ✓ Compiled in 57ms
+[00:30:14.556] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:15.793] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:30:15.793] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:30:15.793] Browser LOG     Autoplay started
+[00:30:15.793] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:30:15.793] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
