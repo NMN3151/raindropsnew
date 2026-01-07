@@ -57,7 +57,7 @@ function Bannerr() {
               </div>
             </div>
           </SwiperSlide>
-         
+          {/* new oen is added here */}
         </div>
         <div className="rts__slider__nav">
           <div className="rts__slide">
