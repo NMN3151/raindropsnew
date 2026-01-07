@@ -3744,17 +3744,33 @@ function HeaderOne() {
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                                                 role: "menuitem",
                                                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                    href: "/travelpartners",
+                                                                                                    onClick: (e)=>handleNavigation(e, "/travelpartners"),
+                                                                                                    children: "Travel Partners"
+                                                                                                }, void 0, false, {
+                                                                                                    fileName: "[project]/src/app/home-1/Header.jsx",
+                                                                                                    lineNumber: 516,
+                                                                                                    columnNumber: 35
+                                                                                                }, this)
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/src/app/home-1/Header.jsx",
+                                                                                                lineNumber: 515,
+                                                                                                columnNumber: 33
+                                                                                            }, this),
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                                role: "menuitem",
+                                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                                                     href: "/living",
                                                                                                     onClick: (e)=>handleNavigation(e, "/living"),
                                                                                                     children: "A Living Partnership"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                                    lineNumber: 515,
+                                                                                                    lineNumber: 528,
                                                                                                     columnNumber: 35
                                                                                                 }, this)
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                                lineNumber: 514,
+                                                                                                lineNumber: 527,
                                                                                                 columnNumber: 33
                                                                                             }, this)
                                                                                         ]
@@ -3777,12 +3793,12 @@ function HeaderOne() {
                                                                                     children: "Contact Us"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 527,
+                                                                                    lineNumber: 540,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 526,
+                                                                                lineNumber: 539,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -3793,12 +3809,12 @@ function HeaderOne() {
                                                                                     children: "Privacy & Policy"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 535,
+                                                                                    lineNumber: 548,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 534,
+                                                                                lineNumber: 547,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -3809,12 +3825,12 @@ function HeaderOne() {
                                                                                     children: "Location & Weather"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 543,
+                                                                                    lineNumber: 556,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 542,
+                                                                                lineNumber: 555,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -3825,12 +3841,12 @@ function HeaderOne() {
                                                                                     children: "Beautiful Sri Lanka"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 551,
+                                                                                    lineNumber: 564,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 550,
+                                                                                lineNumber: 563,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         ]
@@ -3889,17 +3905,17 @@ function HeaderOne() {
                                                             children: "Reserve Now"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 601,
+                                                            lineNumber: 614,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Header.jsx",
-                                                        lineNumber: 574,
+                                                        lineNumber: 587,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                    lineNumber: 569,
+                                                    lineNumber: 582,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3911,23 +3927,23 @@ function HeaderOne() {
                                                             alt: "menu"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 609,
+                                                            lineNumber: 622,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Header.jsx",
-                                                        lineNumber: 608,
+                                                        lineNumber: 621,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                    lineNumber: 604,
+                                                    lineNumber: 617,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                            lineNumber: 568,
+                                            lineNumber: 581,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -3956,7 +3972,7 @@ function HeaderOne() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                lineNumber: 616,
+                                lineNumber: 629,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4006,17 +4022,17 @@ function HeaderOne() {
                                                                     className: "jsx-3478accadf3750c2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                    lineNumber: 651,
+                                                                    lineNumber: 664,
                                                                     columnNumber: 29
                                                                 }, void 0)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                lineNumber: 641,
+                                                                lineNumber: 654,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 640,
+                                                            lineNumber: 653,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4056,7 +4072,7 @@ function HeaderOne() {
                                                                             children: "Adults/ Child/ Rooms"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 697,
+                                                                            lineNumber: 710,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4067,13 +4083,13 @@ function HeaderOne() {
                                                                             children: openGuest ? "▴" : "▾"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 700,
+                                                                            lineNumber: 713,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                    lineNumber: 674,
+                                                                    lineNumber: 687,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 openGuest && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4114,7 +4130,7 @@ function HeaderOne() {
                                                                                             children: "Adults"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 736,
+                                                                                            lineNumber: 749,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4126,13 +4142,13 @@ function HeaderOne() {
                                                                                             children: "Ages 13 or above"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 737,
+                                                                                            lineNumber: 750,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 735,
+                                                                                    lineNumber: 748,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4159,7 +4175,7 @@ function HeaderOne() {
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 748,
+                                                                                            lineNumber: 761,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4171,7 +4187,7 @@ function HeaderOne() {
                                                                                             children: adults
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 763,
+                                                                                            lineNumber: 776,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4190,19 +4206,19 @@ function HeaderOne() {
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 768,
+                                                                                            lineNumber: 781,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 741,
+                                                                                    lineNumber: 754,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 726,
+                                                                            lineNumber: 739,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4225,7 +4241,7 @@ function HeaderOne() {
                                                                                             children: "Children"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 797,
+                                                                                            lineNumber: 810,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4237,13 +4253,13 @@ function HeaderOne() {
                                                                                             children: "Ages 0–12"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 798,
+                                                                                            lineNumber: 811,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 796,
+                                                                                    lineNumber: 809,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4270,7 +4286,7 @@ function HeaderOne() {
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 809,
+                                                                                            lineNumber: 822,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4282,7 +4298,7 @@ function HeaderOne() {
                                                                                             children: children
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 824,
+                                                                                            lineNumber: 837,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4301,19 +4317,19 @@ function HeaderOne() {
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 829,
+                                                                                            lineNumber: 842,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 802,
+                                                                                    lineNumber: 815,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 787,
+                                                                            lineNumber: 800,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4336,7 +4352,7 @@ function HeaderOne() {
                                                                                             children: "Rooms"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 858,
+                                                                                            lineNumber: 871,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4347,13 +4363,13 @@ function HeaderOne() {
                                                                                             className: "jsx-3478accadf3750c2"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 859,
+                                                                                            lineNumber: 872,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 857,
+                                                                                    lineNumber: 870,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4380,7 +4396,7 @@ function HeaderOne() {
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 870,
+                                                                                            lineNumber: 883,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4392,7 +4408,7 @@ function HeaderOne() {
                                                                                             children: rooms
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 885,
+                                                                                            lineNumber: 898,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4411,19 +4427,19 @@ function HeaderOne() {
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 890,
+                                                                                            lineNumber: 903,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 863,
+                                                                                    lineNumber: 876,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 848,
+                                                                            lineNumber: 861,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4446,24 +4462,24 @@ function HeaderOne() {
                                                                                 children: "Done"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 916,
+                                                                                lineNumber: 929,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 909,
+                                                                            lineNumber: 922,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                    lineNumber: 707,
+                                                                    lineNumber: 720,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 670,
+                                                            lineNumber: 683,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4481,12 +4497,12 @@ function HeaderOne() {
                                                                 className: "jsx-3478accadf3750c2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                lineNumber: 935,
+                                                                lineNumber: 948,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 934,
+                                                            lineNumber: 947,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4511,38 +4527,38 @@ function HeaderOne() {
                                                                     children: "Check Availability"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                    lineNumber: 967,
+                                                                    lineNumber: 980,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                lineNumber: 954,
+                                                                lineNumber: 967,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 949,
+                                                            lineNumber: 962,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                    lineNumber: 638,
+                                                    lineNumber: 651,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                lineNumber: 637,
+                                                lineNumber: 650,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                            lineNumber: 636,
+                                            lineNumber: 649,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Header.jsx",
-                                        lineNumber: 635,
+                                        lineNumber: 648,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4552,7 +4568,7 @@ function HeaderOne() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                lineNumber: 631,
+                                lineNumber: 644,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -4576,7 +4592,7 @@ function HeaderOne() {
                 onClose: ()=>setIsOffcanvasOpen(false)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/Header.jsx",
-                lineNumber: 1105,
+                lineNumber: 1118,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$home$2d$1$2f$SideMenu$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4584,7 +4600,7 @@ function HeaderOne() {
                 onClose: ()=>setIsMenuOpen(false)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/Header.jsx",
-                lineNumber: 1110,
+                lineNumber: 1123,
                 columnNumber: 7
             }, this)
         ]
@@ -4949,7 +4965,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rellax$2f$rellax$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rellax/rellax.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
-'use client';
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
+"use client";
+;
 ;
 ;
 ;
@@ -4969,13 +4987,13 @@ function AboutOne() {
                     alt: ""
                 }, void 0, false, {
                     fileName: "[project]/src/app/home-1/About.jsx",
-                    lineNumber: 15,
-                    columnNumber: 17
+                    lineNumber: 16,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/About.jsx",
-                lineNumber: 14,
-                columnNumber: 13
+                lineNumber: 15,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
@@ -4993,24 +5011,27 @@ function AboutOne() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "jara-mask-1 jarallax image-height pt-0",
                                             "data-rellax-speed": "2",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/assets/images/about/N1.jpg",
+                                                alt: "Background",
+                                                fill: true,
+                                                sizes: "(max-width: 768px) 100vw, 50vw",
                                                 className: "jarallax-img rellax rellax-img",
-                                                alt: "Background"
+                                                priority: false
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 24,
-                                                columnNumber: 37
+                                                lineNumber: 31,
+                                                columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/About.jsx",
-                                            lineNumber: 22,
-                                            columnNumber: 33
+                                            lineNumber: 26,
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 21,
-                                        columnNumber: 29
+                                        lineNumber: 22,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "image__card radius-10 wow fadeInUp",
@@ -5022,64 +5043,66 @@ function AboutOne() {
                                                     className: "flaticon-people"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 33,
-                                                    columnNumber: 37
+                                                    lineNumber: 46,
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 32,
-                                                columnNumber: 33
+                                                lineNumber: 45,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "content",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: [
-                                                        " Exceptional Minds",
+                                                        " ",
+                                                        "Exceptional Minds",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/About.jsx",
-                                                            lineNumber: 37,
-                                                            columnNumber: 58
+                                                            lineNumber: 51,
+                                                            columnNumber: 38
                                                         }, this),
                                                         "At work"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 37,
-                                                    columnNumber: 37
+                                                    lineNumber: 49,
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 35,
-                                                columnNumber: 33
+                                                lineNumber: 48,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 31,
-                                        columnNumber: 29
+                                        lineNumber: 41,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "image__card__image wow fadeInUp",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             src: "/assets/images/about/N.jpg",
                                             width: 312,
                                             height: 230,
-                                            alt: "About"
+                                            alt: "About Rain Drops",
+                                            loading: "lazy"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/About.jsx",
-                                            lineNumber: 41,
-                                            columnNumber: 33
+                                            lineNumber: 56,
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 40,
-                                        columnNumber: 29
+                                        lineNumber: 55,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                lineNumber: 20,
-                                columnNumber: 25
+                                lineNumber: 21,
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "content",
@@ -5089,88 +5112,89 @@ function AboutOne() {
                                         children: "Where Mind Meets Nature"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 51,
-                                        columnNumber: 29
+                                        lineNumber: 67,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "content__subtitle wow fadeInUp",
                                         "data-wow-delay": ".3s",
                                         children: [
-                                            "A rare and refined wellness experience for those who seek more than a retreat,  they seek themselves. Just a mile from the ",
+                                            "A rare and refined wellness experience for those who seek more than a retreat, they seek themselves. Just a mile from the",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 style: {
-                                                    color: '#a8915b'
+                                                    color: "#a8915b"
                                                 },
                                                 children: "Sinharaja UNESCO Rainforest"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 56,
-                                                columnNumber: 53
+                                                lineNumber: 76,
+                                                columnNumber: 17
                                             }, this),
                                             ", Rain Drops is an intimate sanctuary where original mindfulness, advanced neuroscience, presidential-level culinary mastery, and a private research center come together exclusively for you.",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 57,
-                                                columnNumber: 33
+                                                lineNumber: 83,
+                                                columnNumber: 17
                                             }, this),
-                                            "  ",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 57,
-                                                columnNumber: 44
+                                                lineNumber: 83,
+                                                columnNumber: 27
                                             }, this),
                                             "Here, nature doesn’t just surround you, it welcomes you, aligns with you, and restores you. Your stay is curated to help you cultivate calm and truly enjoy it through: mind-designed cuisine, forest-guided meditations, real-time brain clarity tracking, and villa interiors crafted with natural luxury and quiet elegance.",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 64,
-                                                columnNumber: 34
+                                                lineNumber: 90,
+                                                columnNumber: 17
                                             }, this),
-                                            "  ",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 64,
-                                                columnNumber: 45
+                                                lineNumber: 90,
+                                                columnNumber: 27
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 children: "At Rain Drops, where luxury becomes personal, science becomes human, and the rainforest becomes your private guide to clarity."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 65,
-                                                columnNumber: 35
+                                                lineNumber: 91,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 54,
-                                        columnNumber: 29
+                                        lineNumber: 70,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                lineNumber: 49,
-                                columnNumber: 25
+                                lineNumber: 65,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/About.jsx",
-                        lineNumber: 19,
-                        columnNumber: 21
+                        lineNumber: 20,
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/home-1/About.jsx",
-                    lineNumber: 18,
-                    columnNumber: 17
+                    lineNumber: 19,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/About.jsx",
-                lineNumber: 17,
-                columnNumber: 13
+                lineNumber: 18,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/home-1/About.jsx",
-        lineNumber: 13,
-        columnNumber: 9
+        lineNumber: 14,
+        columnNumber: 5
     }, this);
 }
 const __TURBOPACK__default__export__ = AboutOne;

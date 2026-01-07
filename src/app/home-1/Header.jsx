@@ -511,6 +511,19 @@ function HeaderOne() {
                                     Insight Partners (You)
                                   </Link>
                                 </li>
+
+                                <li role="menuitem">
+                                  <Link
+                                    href="/travelpartners"
+                                    onClick={(e) =>
+                                      handleNavigation(e, "/travelpartners")
+                                    }
+                                  >
+                                    Travel Partners
+                                  </Link>
+                                </li>
+
+                                
                                 <li role="menuitem">
                                   <Link
                                     href="/living"

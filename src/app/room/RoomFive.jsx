@@ -22,6 +22,7 @@ function RoomFive({ posts = [] }) {
                                 </span>
                                 <h2 className="content__title h2 lh-1">Our Rooms</h2>
                             </div>
+                            
                             <div className="section__content__right">
                                 <p>
                                     Our rooms offer a harmonious blend of comfort and elegance,
