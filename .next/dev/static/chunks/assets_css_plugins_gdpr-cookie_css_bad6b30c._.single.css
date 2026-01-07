@@ -1,0 +1,66 @@
+/* [project]/assets/css/plugins/gdpr-cookie.css [app-client] (css) */
+.gdprcookie {
+  color: #fff;
+  background: var(--rts-gray);
+  max-width: 25em;
+  padding: 1rem;
+  font-size: .8em;
+  line-height: 1.5em;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.gdprcookie h1, .gdprcookie h2 {
+  margin-bottom: .5rem;
+  font-size: 1.2em;
+}
+
+.gdprcookie h2 {
+  font-size: 1.2em;
+}
+
+.gdprcookie a {
+  color: inherit;
+}
+
+.gdprcookie-buttons {
+  text-align: center;
+}
+
+.gdprcookie-buttons button {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: .05rem solid;
+  border-radius: .15rem;
+  margin: 0 .5rem;
+  padding: .4rem;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.gdprcookie-buttons button:disabled {
+  color: #ffffff80;
+}
+
+.gdprcookie-types ul {
+  margin: 0 0 1rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+.gdprcookie-types li {
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+.gdprcookie-types input[type="checkbox"] {
+  margin-right: .25rem;
+}
+
+/*# sourceMappingURL=assets_css_plugins_gdpr-cookie_css_bad6b30c._.single.css.map*/

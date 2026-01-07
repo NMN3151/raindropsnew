@@ -4,9 +4,9 @@ Author: Reacthemes
 Author URI: https://themeforest.net/user/reacthemes
 Tags: Hotel, Resturant, Spa, Message, Honeymoon, Booking
 Version: 1.0
-*/
-/* ---------------------
-All CSS Structure Follow this Order
+ 
+ 
+ 
 ----------------------
 
 1. Variable
@@ -138,9 +138,16 @@ All CSS Structure Follow this Order
 /*
   2. Remove default margin
 */
-* {
+
+
+*,
+*::before,
+*::after {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 
 /*
   Typographic tweaks!

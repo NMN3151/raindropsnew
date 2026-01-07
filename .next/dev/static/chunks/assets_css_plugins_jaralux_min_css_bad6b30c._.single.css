@@ -1,0 +1,18 @@
+/* [project]/assets/css/plugins/jaralux.min.css [app-client] (css) */
+.jarallax {
+  z-index: 0;
+  position: relative;
+}
+
+.jarallax > .jarallax-img, picture.jarallax-img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=assets_css_plugins_jaralux_min_css_bad6b30c._.single.css.map*/

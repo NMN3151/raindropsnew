@@ -1,0 +1,44 @@
+/* [project]/assets/css/plugins/cookit.min.css [app-client] (css) */
+body {
+  margin: 0;
+}
+
+#cookit {
+  z-index: 999;
+  width: 100%;
+  padding: .6rem 2rem;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+#cookit #cookit-container {
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+#cookit #cookit-container > * {
+  margin: .4rem;
+}
+
+#cookit #cookit-container p {
+  line-height: 1.4rem;
+}
+
+#cookit #cookit-container a {
+  text-decoration: none;
+}
+
+#cookit #cookit-container a:hover {
+  opacity: .9;
+}
+
+#cookit #cookit-container #cookit-button {
+  margin-left: auto;
+  padding: .5rem 1rem;
+}
+
+/*# sourceMappingURL=assets_css_plugins_cookit_min_css_bad6b30c._.single.css.map*/

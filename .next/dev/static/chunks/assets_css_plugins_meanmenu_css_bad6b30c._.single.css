@@ -1,0 +1,152 @@
+/* [project]/assets/css/plugins/meanmenu.css [app-client] (css) */
+a.meanmenu-reveal {
+  display: none;
+}
+
+.mean-container .mean-bar {
+  float: left;
+  z-index: 999999;
+  background: #0c1923;
+  width: 100%;
+  min-height: 42px;
+  padding: 4px 0;
+  position: relative;
+}
+
+.mean-container a.meanmenu-reveal {
+  cursor: pointer;
+  color: #fff;
+  text-indent: -9999em;
+  width: 22px;
+  height: 22px;
+  padding: 13px 13px 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.mean-container a.meanmenu-reveal span {
+  background: #fff;
+  height: 3px;
+  margin-top: 3px;
+  display: block;
+}
+
+.mean-container .mean-nav {
+  float: left;
+  background: #0c1923;
+  width: 100%;
+  margin-top: 44px;
+}
+
+.mean-container .mean-nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.mean-container .mean-nav ul li {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.mean-container .mean-nav ul li a {
+  float: left;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  border-top: 1px solid #ffffff80;
+  width: 90%;
+  margin: 0;
+  padding: 1em 5%;
+  text-decoration: none;
+  display: block;
+}
+
+.mean-container .mean-nav ul li li a {
+  opacity: .75;
+  width: 80%;
+  filter: alpha(opacity= 75);
+  visibility: visible;
+  border-top: 1px solid #ffffff40;
+  padding: 1em 10%;
+  text-shadow: none !important;
+}
+
+.mean-container .mean-nav ul li.mean-last a {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.mean-container .mean-nav ul li li li a {
+  width: 70%;
+  padding: 1em 15%;
+}
+
+.mean-container .mean-nav ul li li li li a {
+  width: 60%;
+  padding: 1em 20%;
+}
+
+.mean-container .mean-nav ul li li li li li a {
+  width: 50%;
+  padding: 1em 25%;
+}
+
+.mean-container .mean-nav ul li a:hover {
+  background: #ffffff1a;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+  text-align: center;
+  z-index: 2;
+  background: #ffffff1a;
+  width: 26px;
+  height: 32px;
+  margin-top: 1px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 0 !important;
+  border-bottom: 1px solid #fff3 !important;
+  border-left: 1px solid #fff6 !important;
+  border-right: 0 !important;
+  padding: 12px !important;
+}
+
+.mean-container .mean-nav ul li a.mean-expand:hover {
+  background: #000000e6;
+}
+
+.mean-container .mean-push {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mean-nav .wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mean-container .mean-bar, .mean-container .mean-bar * {
+  box-sizing: content-box;
+}
+
+.mean-remove {
+  display: none !important;
+}
+
+/*# sourceMappingURL=assets_css_plugins_meanmenu_css_bad6b30c._.single.css.map*/

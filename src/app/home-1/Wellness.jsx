@@ -547,6 +547,7 @@ function InnerDiscoverySection() {
             padding: 60px 20px;
             color: white;
             min-height: auto;
+            overflow: hidden;
           }
           .radio-group {
             display: grid;
