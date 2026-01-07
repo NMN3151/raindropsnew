@@ -6159,3 +6159,4 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [05:36:48.660] Server  LOG     ✓ Compiled in 465ms
 [05:37:03.827] Server  LOG     ✓ Compiled in 271ms
 [05:37:19.961] Server  LOG     ✓ Compiled in 97ms
+[05:59:31.534] Server  LOG     ✓ Finished writing to filesystem cache in 26.7s
