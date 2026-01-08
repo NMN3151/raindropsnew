@@ -10,32 +10,33 @@ function SideToSideContainers() {
       title: "IDEAL CLIENT PROFILES (WHO IT SELLS BEST TO)",
       subtitle: "RainDrops is best suited for:",
       imagePosition: "right",
-      image: "/assets/images/travelpartners/pickingteaplants.png",
+      image: "/assets/images/travelpartners/pickingteaplants.JPG",
       imageAlt: "Guest enjoying tea ceremony in lush garden setting",
       items: [
-        "CEOs, founders and exec leaders",
-        "High-net-worth couples seeking stillness",
-        "Overbuilt luxury travelers",
-        "Mature counsel (i.e. attorneys, healers)",
-        "Science-driven individuals (tech, doctors)",
-        "Clients who value privacy over trendy identity"
-      ]
+        "CEOs, founders and senior leaders",
+        "Couples seeking quiet, meaningful escapes",
+        "Conscious luxury travelers",
+        "Nature-focused soft-adventure travelers",
+        "Repeat guests seeking deeper reflection",
+        "Clients who value privacy over activity density",
+      ],
     },
     {
       id: 2,
-      title: "WHAT ADVISORS NEED TO KNOW (TRANSPARENCY BUILDS TRUST)",
+      title: "WHAT ADVISORS NEED TO KNOW",
+      titleSecondLine: "(TRANSPARENCY BUILDS TRUST)",
       subtitle: "",
       imagePosition: "left",
       image: "/assets/images/travelpartners/openpool.png",
       imageAlt: "Luxury villa with infinity pool overlooking rainforest",
       items: [
         "Only 6 villas—availability is limited",
-        "Advance booking of 6-day minimum required",
-        "No resort-style drinks menu or full-service spa",
-        "This experience is curated—not a hotel program",
-        "Private hosting by founder",
-        "Best for 2-6 pax, individual travelers and single or multiple couples"
-      ]
+        "Advance booking strongly recommended",
+        "Children are welcome with a quiet-respect policy",
+        "No spa or yoga studio (nature is the sanctuary)",
+        "Experiences are optional—not fixed programs",
+        "Ideal for 2–4 night immersive stays or longer retreats ",
+      ],
     },
     {
       id: 3,
@@ -45,39 +46,41 @@ function SideToSideContainers() {
       image: "/assets/images/travelpartners/homeattheforest.png",
       imageAlt: "Scenic view of rainforest villas nestled in nature",
       items: [
-        "Priority tier with Dilhari (founder)",
-        "30% tier rate (higher for very strongly Partners trusted)",
-        "Two complimentary site visits",
-        "Exclusive photos and marketing tools",
-        "Tailored access to bespoke itineraries",
-        "Quarterly partner webinars & updates"
-      ]
+        "Complimentary 1-night FAM stay",
+        "One free villa night for every 15 Insight Partners booked",
+        "Direct training with Dr. GB Hewawasam",
+        "Co-branded sales and marketing tools",
+        "Priority access to limited inventory",
+        "Ongoing relationship-based support",
+      ],
     },
     {
       id: 4,
       title: "WHY THIS WORKS FOR YOUR BRAND",
-      subtitle: "RainDrops is not competing with hotels—we are not selling a stay. We are offering:",
+      subtitle:
+        "RainDrops is not competing with hotels—we are not selling a stay. We are offering:",
       imagePosition: "left",
-      image: "/assets/images/travelpartners/manwithpath.png",
+      image: "/assets/images/travelpartners/manwithpath.jpg",
       imageAlt: "Sunlit forest path with towering trees",
       items: [
-        "Emotional transformation",
+        "Emotional assurance",
         "Authentic differentiation",
-        "Long-term ethical relationships",
-        "A deeply credible narrative you consistently stand behind"
+        "Long-term client satisfaction",
+        "A partnership rooted in trust and consistency",
       ],
-      footer: "RainDrops creates loyalty not—promoting your reputation while ensuring the experience you deliver."
-    }
+      footer:
+        "RainDrops stands beside you—protecting your reputation while elevating the experience you deliver.",
+    },
   ];
 
   const handleReadNowClick = () => {
     setShowPopup(true);
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
   };
 
   const handleClosePopup = () => {
     setShowPopup(false);
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = "auto";
   };
 
   return (
@@ -88,46 +91,123 @@ function SideToSideContainers() {
             key={section.id}
             className={`content-block ${
               section.imagePosition === "right" ? "image-right" : "image-left"
-            } ${index % 2 === 0 ? "bg-light" : "bg-white"}`}
+            } ${index % 2 === 0 ? "bg-light" : "bg-white"} ${
+              section.id === 4 ? "section-inline-layout" : ""
+            }`}
           >
             <div className="container">
               <div className="content-wrapper wow fadeInUp">
-                {/* Title - Always on top */}
-                <h2 className="section-title">{section.title}</h2>
+                {/* Conditional layout for section 4 */}
+                {section.id === 4 ? (
+                  <div className="inline-header-container">
+                    <div className="inline-header-content">
+                      <div className="flex-container">
+                        <div
+                          className={`text-content ${
+                            section.imagePosition === "right"
+                              ? "order-1"
+                              : "order-2"
+                          }`}
+                        >
+                          <h2 className="section-title inline-title">
+                            {section.title}
+                          </h2>
 
-                <div className="flex-container">
-                  {/* Text Content */}
-                  <div className={`text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`}>
-                    {section.subtitle && (
-                      <h3 className="section-subtitle">{section.subtitle}</h3>
-                    )}
-                    
-                    <ul className="items-list">
-                      {section.items.map((item, idx) => (
-                        <li key={idx} className="list-item">
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
+                          {section.subtitle && (
+                            <h3 className="section-subtitle">
+                              {section.subtitle}
+                            </h3>
+                          )}
 
-                    {section.footer && (
-                      <p className="section-footer">{section.footer}</p>
-                    )}
-                  </div>
+                          <ul className="items-list">
+                            {section.items.map((item, idx) => (
+                              <li key={idx} className="list-item">
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
 
-                  {/* Image */}
-                  <div className={`image-content ${section.imagePosition === "right" ? "order-2" : "order-1"}`}>
-                    <div className="image-container">
-                      <Image
-                        src={section.image}
-                        alt={section.imageAlt}
-                        width={600}
-                        height={400}
-                        className="section-image"
-                      />
+                          {section.footer && (
+                            <p className="section-footer">{section.footer}</p>
+                          )}
+                        </div>
+
+                        <div
+                          className={`image-content ${
+                            section.imagePosition === "right"
+                              ? "order-1"
+                              : "order-2"
+                          }`}
+                        >
+                          <img
+                            src={section.image}
+                            alt={section.imageAlt}
+                            className="section-image-container-manwalking"
+                          />
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
+                ) : (
+                  <>
+                    {/* Title - Always on top */}
+                    <h2 className="section-title">
+                      {section.title}
+                      {section.titleSecondLine && (
+                        <>
+                          <br />
+                          <span className="title-second-line">
+                            {section.titleSecondLine}
+                          </span>
+                        </>
+                      )}
+                    </h2>
+
+                    <div className="flex-container">
+                      {/* Text Content */}
+                      <div
+                        className={`text-content ${
+                          section.imagePosition === "right"
+                            ? "order-1"
+                            : "order-2"
+                        }`}
+                      >
+                        {section.subtitle && (
+                          <h3 className="section-subtitle">
+                            {section.subtitle}
+                          </h3>
+                        )}
+
+                        <ul className="items-list">
+                          {section.items.map((item, idx) => (
+                            <li key={idx} className="list-item">
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+
+                        {section.footer && (
+                          <p className="section-footer">{section.footer}</p>
+                        )}
+                      </div>
+
+                      {/* Image */}
+                      <div
+                        className={`image-content ${
+                          section.imagePosition === "right"
+                            ? "order-2"
+                            : "order-1"
+                        }`}
+                      >
+                        <img
+                          src={section.image}
+                          alt={section.imageAlt}
+                          className="section-image-container"
+                        />
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           </div>
@@ -140,9 +220,11 @@ function SideToSideContainers() {
               {/* Left Content */}
               <div className="join-us-content">
                 <h2 className="join-us-title">JOIN US</h2>
-                
-                <h3 className="join-us-subtitle">Become A RainDrops Insight Partner</h3>
-                
+
+                <h3 className="join-us-subtitle">
+                  Become A RainDrops Insight Partner
+                </h3>
+
                 <ul className="join-us-list">
                   <li>Experience the villas.</li>
                   <li>Share it with the right clients.</li>
@@ -150,8 +232,8 @@ function SideToSideContainers() {
                 </ul>
 
                 <p className="join-us-description">
-                  RainDrops represents Sri Lanka's new luxury—defined by calmness, 
-                  clarity and nature intelligence.
+                  RainDrops represents Sri Lanka's new luxury—defined by
+                  calmness, clarity and nature intelligence.
                 </p>
               </div>
 
@@ -164,16 +246,13 @@ function SideToSideContainers() {
                       src="/assets/images/travelpartners/bookcoverimage.png"
                       alt="RainDrops Insight Quarterly Magazine"
                       width={400}
-                      height={500}
+                      height={400}
                       className="magazine-img"
                     />
                   </div>
 
                   {/* Read Now Button */}
-                  <button 
-                    className="read-now-btn"
-                    onClick={handleReadNowClick}
-                  >
+                  <button className="read-now-btn" onClick={handleReadNowClick}>
                     Read Now
                   </button>
 
@@ -202,15 +281,29 @@ function SideToSideContainers() {
               ✕
             </button>
             <div className="popup-content">
-              <div style={{position:"relative", paddingTop:"max(60%,324px)", width:"100%", height:0}}>
-                <iframe 
-                  style={{position:"absolute", border:"none", width:"100%", height:"100%", left:0, top:0}} 
-                  src="https://online.fliphtml5.com/okzxa/1219-new-RD-TRAVEL-PARTNER/" 
-                  title="1219 new RD TRAVEL PARTNER" 
-                  seamless="seamless" 
-                  scrolling="no" 
-                  frameBorder="0" 
-                  allowTransparency="true" 
+              <div
+                style={{
+                  position: "relative",
+                  paddingTop: "max(60%,324px)",
+                  width: "100%",
+                  height: 0,
+                }}
+              >
+                <iframe
+                  style={{
+                    position: "absolute",
+                    border: "none",
+                    width: "100%",
+                    height: "100%",
+                    left: 0,
+                    top: 0,
+                  }}
+                  src="https://online.fliphtml5.com/okzxa/1219-new-RD-TRAVEL-PARTNER/"
+                  title="1219 new RD TRAVEL PARTNER"
+                  seamless="seamless"
+                  scrolling="no"
+                  frameBorder="0"
+                  allowTransparency="true"
                   allowFullScreen={true}
                 ></iframe>
               </div>
@@ -223,6 +316,23 @@ function SideToSideContainers() {
         /* Base styles */
         .side-to-side-section {
           width: 100%;
+        }
+
+        .section-image-container {
+          width: 500px;
+          height: 300px;
+          object-fit: cover;
+          border-radius: 8px;
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-image-container-manwalking {
+          width: 300px;
+          height: 500px;
+          object-fit: cover;
+          border-radius: 8px;
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .content-block {
@@ -250,7 +360,7 @@ function SideToSideContainers() {
 
         /* Title - Always centered at top */
         .section-title {
-          font-size: 1.8rem;
+          font-size: var(--h2);
           text-align: center;
           margin-bottom: 2.5rem;
           text-transform: uppercase;
@@ -258,6 +368,22 @@ function SideToSideContainers() {
           font-weight: 400;
           color: #2c2c2c;
           line-height: 1.3;
+        }
+
+        .title-second-line {
+          display: block;
+          margin-top: 0.5rem;
+        }
+
+        /* Inline layout for section 4 */
+        .inline-header-container {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .inline-title {
+          text-align: left;
+          margin-bottom: 2rem;
         }
 
         /* Flex container for text and image */
@@ -282,10 +408,10 @@ function SideToSideContainers() {
         }
 
         .section-subtitle {
-          font-size: 1.1rem;
+          font-size: var(--p);
           margin-bottom: 1.5rem;
           color: #333;
-          font-weight: 500;
+          font-weight: bold;
           line-height: 1.5;
         }
 
@@ -324,7 +450,9 @@ function SideToSideContainers() {
         /* Image content */
         .image-content {
           flex: 1;
-          min-width: 300px;
+          justify-content: space-around;
+          min-width: 200px;
+          display: flex;
         }
 
         .image-container {
@@ -342,17 +470,10 @@ function SideToSideContainers() {
           box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
         }
 
-        .section-image {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          display: block;
-        }
-
         /* Join Us Section */
         .join-us-section {
           background-color: #ffffff;
-          padding: 80px 0;
+          padding: 20px 0;
         }
 
         .join-us-wrapper {
@@ -370,7 +491,6 @@ function SideToSideContainers() {
           font-size: 2.5rem;
           font-weight: 400;
           letter-spacing: 3px;
-          margin-bottom: 1.5rem;
           color: #2c2c2c;
         }
 
@@ -599,16 +719,17 @@ function SideToSideContainers() {
             margin-bottom: 3rem;
           }
 
+          .inline-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+          }
+
           .flex-container {
             gap: 60px;
           }
 
           .image-container {
             height: 400px;
-          }
-
-          .content-block {
-            padding: 80px 0;
           }
 
           .magazine-cover {
@@ -635,6 +756,10 @@ function SideToSideContainers() {
             font-size: 1.7rem;
           }
 
+          .inline-title {
+            font-size: 1.7rem;
+          }
+
           .flex-container {
             gap: 45px;
           }
@@ -648,7 +773,7 @@ function SideToSideContainers() {
           }
 
           .join-us-wrapper {
-            gap: 40px;
+            gap: 50px;
           }
 
           .join-us-title {
@@ -680,6 +805,10 @@ function SideToSideContainers() {
             font-size: 1.5rem;
             letter-spacing: 1px;
             margin-bottom: 2rem;
+          }
+
+          .inline-title {
+            font-size: 1.5rem;
           }
 
           .flex-container {
@@ -721,10 +850,6 @@ function SideToSideContainers() {
             min-height: 380px;
           }
 
-          .magazine-cover {
-            width: 220px;
-          }
-
           .read-now-btn {
             left: 180px;
             top: 40%;
@@ -746,6 +871,17 @@ function SideToSideContainers() {
             letter-spacing: 0.5px;
             margin-bottom: 1.5rem;
             line-height: 1.25;
+          }
+
+          .inline-title {
+            font-size: 1.3rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+          }
+
+          .title-second-line {
+            font-size: 0.9em;
+            margin-top: 0.3rem;
           }
 
           .flex-container {
@@ -804,7 +940,7 @@ function SideToSideContainers() {
 
           .join-us-wrapper {
             flex-direction: column;
-            gap: 30px;
+            gap: 50px;
           }
 
           .join-us-content {
@@ -821,7 +957,6 @@ function SideToSideContainers() {
           }
 
           .magazine-cover {
-            width: 180px;
             position: relative;
             margin: 0 auto 20px;
           }
@@ -863,6 +998,15 @@ function SideToSideContainers() {
             font-size: 1.1rem;
             letter-spacing: 0.3px;
             margin-bottom: 1.2rem;
+          }
+
+          .inline-title {
+            font-size: 1.1rem;
+            text-align: center;
+          }
+
+          .title-second-line {
+            font-size: 0.85em;
           }
 
           .flex-container {
@@ -908,10 +1052,6 @@ function SideToSideContainers() {
             font-size: 1.05rem;
           }
 
-          .magazine-cover {
-            width: 160px;
-          }
-
           .read-now-btn {
             padding: 12px 30px;
             font-size: 0.95rem;
@@ -941,6 +1081,11 @@ function SideToSideContainers() {
             line-height: 1.2;
           }
 
+          .inline-title {
+            font-size: 1rem;
+            text-align: center;
+          }
+
           .section-subtitle {
             font-size: 0.9rem;
           }
@@ -959,10 +1104,6 @@ function SideToSideContainers() {
 
           .join-us-title {
             font-size: 1.4rem;
-          }
-
-          .magazine-cover {
-            width: 140px;
           }
         }
       `}</style>

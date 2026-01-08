@@ -1,8 +1,6 @@
 {
   "app": {
     "[project]/src/app/Insight/page": [],
-    "[project]/src/app/_not-found/page": [],
-    "[project]/src/app/about/page": [],
     "[project]/src/app/living/page": [],
     "[project]/src/app/page": [],
     "[project]/src/app/travelpartners/page": []

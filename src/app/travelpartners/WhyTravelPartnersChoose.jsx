@@ -8,18 +8,23 @@ function WhyTravelPartnersChoose() {
           <h2 className="content__title wow fadeInUp">
             WHY TRAVEL PARTNERS CHOOSE RAINDROPS
           </h2>
-          
+
           <p className="subtitle wow fadeInUp" data-wow-delay="0.2s">
-            <span className="raindrops-italic">RainDrops</span> is designed to protect your reputation while elevating the value you deliver to your most discerning clients.
+            <span className="raindrops-italic">RainDrops</span> is designed to
+            protect your reputation while elevating the value you deliver to
+            your most discerning clients.
           </p>
 
           <div className="partners-content-wrapper">
             {/* Left side - Text content */}
             <div className="partners-text-section">
-              <h3 className="section-subtitle wow fadeInUp" data-wow-delay="0.3s">
+              <h3
+                className="section-subtitle wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
                 What makes RainDrops different:
               </h3>
-              
+
               <ul className="features-list wow fadeInUp" data-wow-delay="0.4s">
                 <li>Only 6 private rainforest villas – true scarcity</li>
                 <li>Not a hotel, not mass wellness</li>
@@ -33,32 +38,28 @@ function WhyTravelPartnersChoose() {
 
             {/* Right side - Images */}
             <div className="partners-images-section">
-              <div className="image-container large-image wow fadeInUp" data-wow-delay="0.5s">
-
-
-                             <Image
-                                  src="/assets/images/travelpartners/blackhouse.png"
-                                  alt="Travel partners exploring nature with binoculars in rainforest"
-                                  width={600} 
-                                  height={400}  
-                                  className="partner-img"
-                                />
-
-
-                
-              </div>
-              
-              <div className="image-container small-image wow fadeInUp" data-wow-delay="0.6s">
-
-                              <Image
-                                  src="/assets/images/travelpartners/footsongrass.png"
-                                  alt="Travel partners exploring nature with binoculars in rainforest"
-                                  width={600} 
-                                  height={400}  
-                                  className="partner-img"
-                                />
-
+              <div
+                className="image-container large-image wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                <img
+                  src="/assets/images/travelpartners/blackhouse.png"
+                  alt="Travel partners exploring nature with binoculars in rainforest"
                  
+                  className="partner-img"
+                />
+              </div>
+
+              <div
+                className="image-container small-image wow fadeInUp"
+                data-wow-delay="0.6s"
+              >
+                <img
+                  src="/assets/images/travelpartners/footsongrass.png"
+                  alt="Travel partners exploring nature with binoculars in rainforest"
+                  
+                  className="partner-img"
+                />
               </div>
             </div>
           </div>
@@ -85,30 +86,27 @@ function WhyTravelPartnersChoose() {
 
         /* Title styling */
         .content__title {
-          font-size: 2.2rem;
+          font-size: var(--h2);
           margin-bottom: 1.5rem;
           text-transform: uppercase;
           letter-spacing: 2px;
           font-weight: 400;
-          text-align: center;
+          text-align: left;
           color: #2c2c2c;
         }
 
         /* Subtitle */
         .subtitle {
-          text-align: center;
-          font-size: 1.1rem;
+          text-align: left;
+          font-size: 15px;
           line-height: 1.6;
           color: #555;
-          margin-bottom: 3rem;
-          max-width: 800px;
-          margin-left: auto;
-          margin-right: auto;
+          max-width: 1000px;
         }
 
         .raindrops-italic {
           font-style: italic;
-          font-family: 'BrittanySignature', cursive;
+          font-family: "BrittanySignature", cursive;
           font-size: 1.3rem;
         }
 
@@ -127,10 +125,10 @@ function WhyTravelPartnersChoose() {
         }
 
         .section-subtitle {
-          font-size: 1.3rem;
+          font-size: 15px;
           margin-bottom: 1.5rem;
           color: #333;
-          font-weight: 400;
+          font-weight: bold;
         }
 
         .features-list {
@@ -168,7 +166,6 @@ function WhyTravelPartnersChoose() {
         }
 
         .image-container {
-          width: 100%;
           overflow: hidden;
           border-radius: 4px;
           transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -211,20 +208,18 @@ function WhyTravelPartnersChoose() {
         }
 
         /* Responsive Design */
-        
+
         /* Large Desktop */
         @media (min-width: 1200px) {
           .container {
             max-width: 1100px;
           }
-          
+
           .partners-content-wrapper {
             gap: 80px;
           }
 
-          .large-image {
-            height: 450px;
-          }
+       
 
           .small-image {
             height: 280px;

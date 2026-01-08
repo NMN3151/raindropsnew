@@ -22,9 +22,9 @@ export default function TravelPartners() {
                   and long-term client relationships.
                 </p>
 
-                <p>This is not mass wellness tourism.</p>
 
                 <p>
+                  This is not mass wellness tourism. <br />
                   This is <strong>quiet, intentional luxury</strong>, designed
                   for clients who seek calmness, depth and authenticity in one
                   of the world's most pristine rainforest settings.
@@ -37,9 +37,9 @@ export default function TravelPartners() {
                   something rare, refined and emotionally resonant.
                 </p>
 
-                <p>We do not call our visitors "guests."</p>
 
                 <p>
+                  We do not call our visitors "guests." <br />
                   We welcome <strong>Insight Partners</strong>—travelers who
                   value meaning, reflection and simplicity.
                 </p>
@@ -49,11 +49,9 @@ export default function TravelPartners() {
             {/* Right side - Image */}
             <div className="image-content wow fadeInUp" data-wow-delay="0.2s">
               <div className="image-container">
-                <Image
+                <img
                   src="/assets/images/travelpartners/showingsth.png"
-                  alt="Travel partners exploring nature with binoculars in rainforest"
-                  width={600} 
-                  height={400}  
+                  alt="Travel partners exploring nature with binoculars in rainforest" 
                   className="partner-image"
                 />
               </div>
@@ -107,18 +105,17 @@ export default function TravelPartners() {
           font-weight: 400;
           color: #666;
           margin-bottom: 2rem;
-          font-style: italic;
           line-height: 1.4;
         }
 
         .description {
-          font-size: 1.05rem;
           line-height: 1.8;
           color: #444;
         }
 
         .description p {
           margin-bottom: 1.2rem;
+          font-size: 15px;
         }
 
         .description p:last-child {
@@ -144,7 +141,7 @@ export default function TravelPartners() {
 
         .image-container {
           width: 100%;
-          height: 600px;
+          height: 560px;
           overflow: hidden;
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -158,6 +155,7 @@ export default function TravelPartners() {
           height: 100%;
           object-fit: cover;
           display: block;
+          margin-top: 85px;
         }
 
         /* Animation */
@@ -181,9 +179,7 @@ export default function TravelPartners() {
 
         /* Large Desktop */
         @media (min-width: 1200px) {
-          .container {
-            max-width: 1100px;
-          }
+          
 
           .main-title {
             font-size: 2.8rem;
@@ -191,7 +187,7 @@ export default function TravelPartners() {
           }
 
           .subtitle {
-            font-size: 1.4rem;
+            font-size: var(--p);
           }
 
           .description {
@@ -204,7 +200,7 @@ export default function TravelPartners() {
           }
 
           .image-container {
-            height: 650px;
+            height: 560px;
           }
 
           .section__padding {
@@ -214,9 +210,7 @@ export default function TravelPartners() {
 
         /* Desktop - Tablet Landscape */
         @media (min-width: 1024px) and (max-width: 1199px) {
-          .container {
-            max-width: 960px;
-          }
+          
 
           .main-title {
             font-size: 2.3rem;
@@ -237,7 +231,7 @@ export default function TravelPartners() {
           }
 
           .image-container {
-            height: 550px;
+            height: 560px;
           }
 
           .section__padding {
@@ -247,9 +241,7 @@ export default function TravelPartners() {
 
         /* Tablet */
         @media (min-width: 768px) and (max-width: 1023px) {
-          .container {
-            max-width: 720px;
-          }
+          
 
           .section__padding {
             padding: 60px 0;
@@ -336,10 +328,7 @@ export default function TravelPartners() {
 
         /* Mobile - Small */
         @media (max-width: 480px) {
-          .container {
-            padding: 0 15px;
-          }
-
+        
           .section__padding {
             padding: 40px 0;
           }

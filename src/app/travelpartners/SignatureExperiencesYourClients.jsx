@@ -62,12 +62,10 @@ function SignatureExperiencesYourClients() {
             <div className="content-column wow fadeInUp" data-wow-delay="0.3s">
               <div className="intro-text">
                 <p>
-                  These are not tours. They are <strong>inner journeys</strong>,
-                  optional, gentle and non-structured.
+                 These are not tours. They are inner journeys, optional, gentle and non-structured.
                 </p>
                 <p>
-                  Travel partners may recommend experiences individually or as
-                  curated combinations:
+                 Travel partners may recommend experiences individually or as curated combinations:
                 </p>
               </div>
 
@@ -133,7 +131,7 @@ function SignatureExperiencesYourClients() {
 
         /* Title */
         .main-title {
-          font-size: 2.2rem;
+          font-size: var(--h2);
           text-align: center;
           margin-bottom: 3rem;
           text-transform: uppercase;
@@ -180,10 +178,11 @@ function SignatureExperiencesYourClients() {
 
         .intro-text {
           margin-bottom: 2rem;
+          margin-top: 2rem;
         }
 
         .intro-text p {
-          font-size: 1.05rem;
+          font-size: var(--p);
           line-height: 1.7;
           color: #333;
           margin-bottom: 1rem;
@@ -231,7 +230,6 @@ function SignatureExperiencesYourClients() {
         .outcome-item {
           font-size: 1rem;
           color: #333;
-          margin-bottom: 0.3rem;
           padding-left: 25px;
           position: relative;
         }

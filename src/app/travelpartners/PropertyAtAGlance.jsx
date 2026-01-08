@@ -7,33 +7,41 @@ function PropertyAtAGlance() {
 
   const images = [
     {
-      src: "/assets/images/travelpartners/slider1.png",
+      src: "/assets/images/travelpartners/slider1.jpg",
       alt: "Rainforest villa exterior view",
     },
     {
-      src: "/assets/images/travelpartners/slider2.png",
+      src: "/assets/images/travelpartners/slider2.jpg",
       alt: "Meditation deck with forest views",
     },
     {
-      src: "/assets/images/travelpartners/slider3.png",
+      src: "/assets/images/travelpartners/slider3.jpg",
       alt: "Luxury bedroom with nature views",
     },
     {
-      src: "/assets/images/travelpartners/slider4.png",
+      src: "/assets/images/travelpartners/slider4.jpg",
+      alt: "Natural stream through property",
+    },
+    {
+      src: "/assets/images/travelpartners/slider5.jpg",
+      alt: "Natural stream through property",
+    },
+    {
+      src: "/assets/images/travelpartners/slider6.jpg",
       alt: "Natural stream through property",
     },
   ];
 
   const features = [
     "6 private, luxury villas",
-    "Designated couples and solo travelers",
-    "Rainforest & rice terrace views",
-    "Private lake swim + waterfall",
-    "Quiet, eco-privilege—not a nature 'park'",
-    "24/7 hosting without intrusion",
-    "Walking meditation path (Rahuna Bhavana)",
+    "Designed for couples and solo travelers",
+    " Rainforest & tea-estate views",
+    "Private balconies / verandas",
+    "Quiet-use infinity-edge nature pool",
+    "Private natural creek sanctuary",
+    "Walking meditation path (Sakman Bhavana)",
     "Resident naturalist",
-    "Personalized healing with attention to detail",
+    "Personalized hosting with attention to detail",
   ];
 
   const handlePrevious = () => {
@@ -160,7 +168,7 @@ function PropertyAtAGlance() {
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0, 0, 0, 0.6);
+          background: rgba(0, 0, 0, 0.4);
           z-index: 1;
         }
 
@@ -176,7 +184,7 @@ function PropertyAtAGlance() {
         .main-title {
           font-size: 2rem;
           color: white;
-          text-align: center;
+          text-align: left;
           margin-bottom: 3rem;
           text-transform: uppercase;
           letter-spacing: 2px;
@@ -199,9 +207,9 @@ function PropertyAtAGlance() {
 
         .features-title {
           color: white;
-          font-size: 1.2rem;
+          font-size: var(--p);
           margin-bottom: 1.5rem;
-          font-weight: 400;
+          font-weight: bold;
         }
 
         .features-list {
@@ -238,7 +246,6 @@ function PropertyAtAGlance() {
           height: 400px;
           border-radius: 5px;
           overflow: hidden;
-          box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
           transition: transform 0.3s ease;
         }
 
@@ -253,15 +260,16 @@ function PropertyAtAGlance() {
           display: block;
         }
 
-        /* Slider section */
+        /* Slider section - Now uses relative positioning for absolute buttons */
         .slider-section {
-          display: flex;
-          align-items: center;
-          gap: 20px;
+          position: relative;
           margin-top: 2rem;
         }
 
         .slider-btn {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
           background: rgba(255, 255, 255, 0.2);
           border: 2px solid rgba(255, 255, 255, 0.4);
           border-radius: 50%;
@@ -272,14 +280,22 @@ function PropertyAtAGlance() {
           justify-content: center;
           cursor: pointer;
           transition: all 0.3s ease;
-          flex-shrink: 0;
           backdrop-filter: blur(10px);
+          z-index: 10;
+        }
+
+        .prev-btn {
+          left: -25px;
+        }
+
+        .next-btn {
+          right: -25px;
         }
 
         .slider-btn:hover {
           background: rgba(255, 255, 255, 0.3);
           border-color: rgba(255, 255, 255, 0.6);
-          transform: scale(1.1);
+          transform: translateY(-50%) scale(1.1);
         }
 
         .slider-btn span {
@@ -291,13 +307,14 @@ function PropertyAtAGlance() {
 
         /* Thumbnails */
         .thumbnails-container {
-          flex: 1;
+          width: 100%;
           overflow: hidden;
         }
 
         .thumbnails-wrapper {
           display: flex;
           gap: 15px;
+          width: 100%;
           overflow-x: auto;
           scroll-behavior: smooth;
           padding: 10px 0;
@@ -389,12 +406,20 @@ function PropertyAtAGlance() {
           }
 
           .main-image-container {
-            height: 450px;
+            height: 400px;
           }
 
           .thumbnail-item {
             width: 180px;
             height: 130px;
+          }
+
+          .prev-btn {
+            left: -55px;
+          }
+
+          .next-btn {
+            right: -55px;
           }
         }
 
@@ -419,6 +444,14 @@ function PropertyAtAGlance() {
           .thumbnail-item {
             width: 140px;
             height: 95px;
+          }
+
+          .prev-btn {
+            left: -20px;
+          }
+
+          .next-btn {
+            right: -20px;
           }
         }
 
@@ -454,6 +487,14 @@ function PropertyAtAGlance() {
           .slider-btn {
             width: 45px;
             height: 45px;
+          }
+
+          .prev-btn {
+            left: -15px;
+          }
+
+          .next-btn {
+            right: -15px;
           }
 
           .thumbnail-item {
@@ -506,13 +547,17 @@ function PropertyAtAGlance() {
             height: 280px;
           }
 
-          .slider-section {
-            gap: 10px;
-          }
-
           .slider-btn {
             width: 40px;
             height: 40px;
+          }
+
+          .prev-btn {
+            left: -10px;
+          }
+
+          .next-btn {
+            right: -10px;
           }
 
           .slider-btn span {
@@ -560,6 +605,14 @@ function PropertyAtAGlance() {
             height: 36px;
           }
 
+          .prev-btn {
+            left: -5px;
+          }
+
+          .next-btn {
+            right: -5px;
+          }
+
           .slider-btn span {
             font-size: 1.6rem;
           }
@@ -592,6 +645,14 @@ function PropertyAtAGlance() {
           .slider-btn {
             width: 32px;
             height: 32px;
+          }
+
+          .prev-btn {
+            left: 0;
+          }
+
+          .next-btn {
+            right: 0;
           }
 
           .thumbnail-item {

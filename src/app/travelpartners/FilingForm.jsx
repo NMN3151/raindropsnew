@@ -8,7 +8,7 @@ function FilingForm() {
     email: "",
     phone: "",
     address: "",
-    message: "",
+    message: ""
   });
 
   const [errors, setErrors] = useState({});
@@ -18,16 +18,16 @@ function FilingForm() {
   // Handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({
+    setFormData(prev => ({
       ...prev,
-      [name]: value,
+      [name]: value
     }));
-
+    
     // Clear error for this field when user starts typing
     if (errors[name]) {
-      setErrors((prev) => ({
+      setErrors(prev => ({
         ...prev,
-        [name]: "",
+        [name]: ""
       }));
     }
   };
@@ -41,7 +41,7 @@ function FilingForm() {
   // Validate phone number (basic validation)
   const isValidPhone = (phone) => {
     const phoneRegex = /^[\d\s\-\+\(\)]+$/;
-    return phoneRegex.test(phone) && phone.replace(/\D/g, "").length >= 10;
+    return phoneRegex.test(phone) && phone.replace(/\D/g, '').length >= 10;
   };
 
   // Check if all required fields are filled and valid
@@ -58,13 +58,13 @@ function FilingForm() {
     );
   };
 
-  // Handle form submission
+  // Handle form submission with Web3Forms
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    
     // Validate all fields
     const newErrors = {};
-
+    
     if (!formData.name.trim()) newErrors.name = "Name is required";
     if (!formData.company.trim()) newErrors.company = "Company is required";
     if (!formData.email.trim()) {
@@ -87,30 +87,54 @@ function FilingForm() {
 
     setIsSubmitting(true);
 
-    // Simulate API call
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-
-      console.log("Form submitted:", formData);
-
-      setSubmitSuccess(true);
-
-      // Reset form after successful submission
-      setFormData({
-        name: "",
-        company: "",
-        email: "",
-        phone: "",
-        address: "",
-        message: "",
+      // Submit to Web3Forms
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "c4ede7c2-9615-4a2b-8a42-db0f89471f69",
+          name: formData.name,
+          company: formData.company,
+          email: formData.email,
+          phone: formData.phone,
+          address: formData.address,
+          message: formData.message,
+          subject: "New Travel Partner Registration - RainDrops",
+          from_name: "RainDrops Travel Partners",
+        }),
       });
 
-      // Hide success message after 5 seconds
-      setTimeout(() => {
-        setSubmitSuccess(false);
-      }, 5000);
+      const result = await response.json();
+
+      if (result.success) {
+        console.log("✅ Form submitted successfully:", result);
+        
+        setSubmitSuccess(true);
+        
+        // Reset form after successful submission
+        setFormData({
+          name: "",
+          company: "",
+          email: "",
+          phone: "",
+          address: "",
+          message: ""
+        });
+
+        // Hide success message after 5 seconds
+        setTimeout(() => {
+          setSubmitSuccess(false);
+        }, 5000);
+      } else {
+        throw new Error(result.message || "Submission failed");
+      }
+      
     } catch (error) {
-      console.error("Submission error:", error);
+      console.error("❌ Submission error:", error);
       alert("There was an error submitting the form. Please try again.");
     } finally {
       setIsSubmitting(false);
@@ -127,18 +151,11 @@ function FilingForm() {
 
           {submitSuccess && (
             <div className="success-message wow fadeInUp">
-              <p>
-                ✓ Thank you! Your message has been sent successfully. We'll get
-                back to you soon.
-              </p>
+              <p>✓ Thank you! Your message has been sent successfully. We'll get back to you soon.</p>
             </div>
           )}
 
-          <form
-            onSubmit={handleSubmit}
-            className="partner-form wow fadeInUp"
-            data-wow-delay="0.2s"
-          >
+          <form onSubmit={handleSubmit} className="partner-form wow fadeInUp" data-wow-delay="0.2s">
             <div className="form-row">
               {/* Name Field */}
               <div className="form-group">
@@ -151,12 +168,10 @@ function FilingForm() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className={`form-input ${errors.name ? "error" : ""}`}
+                  className={`form-input ${errors.name ? 'error' : ''}`}
                   placeholder="Enter your name"
                 />
-                {errors.name && (
-                  <span className="error-text">{errors.name}</span>
-                )}
+                {errors.name && <span className="error-text">{errors.name}</span>}
               </div>
 
               {/* Company Field */}
@@ -170,12 +185,10 @@ function FilingForm() {
                   name="company"
                   value={formData.company}
                   onChange={handleChange}
-                  className={`form-input ${errors.company ? "error" : ""}`}
+                  className={`form-input ${errors.company ? 'error' : ''}`}
                   placeholder="Enter your company name"
                 />
-                {errors.company && (
-                  <span className="error-text">{errors.company}</span>
-                )}
+                {errors.company && <span className="error-text">{errors.company}</span>}
               </div>
             </div>
 
@@ -191,12 +204,10 @@ function FilingForm() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className={`form-input ${errors.email ? "error" : ""}`}
+                  className={`form-input ${errors.email ? 'error' : ''}`}
                   placeholder="your.email@example.com"
                 />
-                {errors.email && (
-                  <span className="error-text">{errors.email}</span>
-                )}
+                {errors.email && <span className="error-text">{errors.email}</span>}
               </div>
 
               {/* Phone Field */}
@@ -210,12 +221,10 @@ function FilingForm() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className={`form-input ${errors.phone ? "error" : ""}`}
+                  className={`form-input ${errors.phone ? 'error' : ''}`}
                   placeholder="+1 (555) 123-4567"
                 />
-                {errors.phone && (
-                  <span className="error-text">{errors.phone}</span>
-                )}
+                {errors.phone && <span className="error-text">{errors.phone}</span>}
               </div>
             </div>
 
@@ -231,12 +240,10 @@ function FilingForm() {
                   name="address"
                   value={formData.address}
                   onChange={handleChange}
-                  className={`form-input ${errors.address ? "error" : ""}`}
+                  className={`form-input ${errors.address ? 'error' : ''}`}
                   placeholder="Enter your address"
                 />
-                {errors.address && (
-                  <span className="error-text">{errors.address}</span>
-                )}
+                {errors.address && <span className="error-text">{errors.address}</span>}
               </div>
 
               {/* Message Field */}
@@ -249,15 +256,11 @@ function FilingForm() {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  className={`form-input form-textarea ${
-                    errors.message ? "error" : ""
-                  }`}
+                  className={`form-input form-textarea ${errors.message ? 'error' : ''}`}
                   placeholder="Tell us about your interest in partnering with RainDrops..."
                   rows="4"
                 />
-                {errors.message && (
-                  <span className="error-text">{errors.message}</span>
-                )}
+                {errors.message && <span className="error-text">{errors.message}</span>}
               </div>
             </div>
 
@@ -276,19 +279,19 @@ function FilingForm() {
                 </p>
                 <div className="badges">
                   <div className="badge">
-                    <Image
-                      src="/assets/images/travelpartners/footerIATAimage.png"
-                      alt="Travel partners exploring nature with binoculars in rainforest"
-                      width={70}
-                      height={50}
-                      className="partner-image"
-                    />
+                   <Image
+                     src="/assets/images/travelpartners/footerIATAimage.png"
+                     alt="Travel partners exploring nature with binoculars in rainforest"
+                     width={70} 
+                     height={50}  
+                     className="partner-image"
+                   />
                   </div>
                   <div className="badge">
                     <Image
                       src="/assets/images/travelpartners/lionimage.png"
                       alt="Travel partners exploring nature with binoculars in rainforest"
-                      width={80}
+                      width={80} 
                       height={50}
                       className="partner-image"
                     />
@@ -318,7 +321,7 @@ function FilingForm() {
 
         /* Title */
         .form-title {
-          font-size: 2rem;
+          font-size: var(--h2);
           text-align: center;
           margin-bottom: 3rem;
           text-transform: uppercase;
@@ -346,7 +349,7 @@ function FilingForm() {
         /* Form */
         .partner-form {
           background: white;
-          padding: 40px;
+          padding: 10px 40px;
           border-radius: 8px;
         }
 
@@ -448,8 +451,9 @@ function FilingForm() {
         }
 
         .certification-text {
-          font-size: 0.9rem;
+          font-size:15px;
           color: #555;
+          max-width: 230px;
           margin: 0;
         }
 
@@ -463,15 +467,6 @@ function FilingForm() {
           justify-content: center;
           border-radius: 4px;
           font-weight: 600;
-        }
-
-        .badge-icon {
-          font-size: 1.2rem;
-          font-weight: bold;
-        }
-
-        .badge-text-small {
-          font-size: 0.75rem;
         }
 
         /* Animation */
@@ -492,8 +487,6 @@ function FilingForm() {
         }
 
         /* Responsive Design */
-
-        /* Large Desktop */
         @media (min-width: 1200px) {
           .container {
             max-width: 1000px;
@@ -504,7 +497,6 @@ function FilingForm() {
           }
         }
 
-        /* Tablet */
         @media (min-width: 768px) and (max-width: 1023px) {
           .section__padding {
             padding: 60px 0;
@@ -524,7 +516,6 @@ function FilingForm() {
           }
         }
 
-        /* Mobile */
         @media (max-width: 767px) {
           .section__padding {
             padding: 50px 0;
@@ -566,7 +557,6 @@ function FilingForm() {
           }
         }
 
-        /* Small Mobile */
         @media (max-width: 480px) {
           .container {
             padding: 0 15px;

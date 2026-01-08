@@ -5,7 +5,6 @@ export async function POST(req) {
     const formData = await req.json();
 
     // Debug log
-    console.log("Received form data:", formData);
 
     const response = await fetch(
       "https://api.smartsheet.com/2.0/sheets/xmFrrRJW7vh7549hFM6Rfqg259p2WV8mgh4Fm3w1/rows",
