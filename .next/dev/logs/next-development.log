@@ -1215,3 +1215,5 @@ Import traces:
 [03:11:04.357] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
 [03:11:08.566] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [03:11:08.865] Browser WARN    Image with src "/assets/images/travelpartners/magazinecover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:27:44.308] Server  LOG     ✓ Compiled in 16ms
+[03:27:45.771] Server  LOG     ✓ Compiled in 12ms

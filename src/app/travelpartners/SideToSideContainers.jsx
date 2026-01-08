@@ -551,6 +551,7 @@ function SideToSideContainers() {
           max-width: 650px;
           margin: 0 auto;
           min-height: 450px;
+          // min-height: 450px;
         }
 
         /* Magazine Cover - Top Layer */
