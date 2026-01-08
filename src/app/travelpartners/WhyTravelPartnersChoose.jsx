@@ -350,6 +350,11 @@ function WhyTravelPartnersChoose() {
 
         /* Mobile - Small */
         @media (max-width: 480px) {
+        .partner-img {
+         border-radius: 6;
+          object-fit: cover;
+          display: block;
+        }
           .container {
             padding: 0 15px;
           }

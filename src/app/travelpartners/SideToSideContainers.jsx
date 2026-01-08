@@ -7,7 +7,8 @@ function SideToSideContainers() {
   const sections = [
     {
       id: 1,
-      title: "IDEAL CLIENT PROFILES (WHO IT SELLS BEST TO)",
+      title: "IDEAL CLIENT PROFILES",
+      titleSecondLine: "(WHO IT SELLS BEST TO)",
       subtitle: "RainDrops is best suited for:",
       imagePosition: "right",
       image: "/assets/images/travelpartners/pickingteaplants.JPG",
@@ -88,20 +89,22 @@ function SideToSideContainers() {
       <div className="side-to-side-section">
         {sections.map((section, index) => (
           <div
-            key={section.id}
-            className={`content-block ${
-              section.imagePosition === "right" ? "image-right" : "image-left"
-            } ${index % 2 === 0 ? "bg-light" : "bg-white"} ${
-              section.id === 4 ? "section-inline-layout" : ""
-            }`}
-          >
+      key={section.id}
+      className={`content-block ${
+        section.imagePosition === "right" ? "image-right" : "image-left"
+      } ${section.id === 4 ? "section-inline-layout" : ""}`}
+    >
             <div className="container">
               <div className="content-wrapper wow fadeInUp">
                 {/* Conditional layout for section 4 */}
                 {section.id === 4 ? (
                   <div className="inline-header-container">
                     <div className="inline-header-content">
-                      <div className="flex-container">
+                      <div
+                  className={`flex-container ${
+                    index % 2 === 0 ? "bg-light-better" : "bg-white-better"
+                  }`}
+                >
                         <div
                           className={`text-content ${
                             section.imagePosition === "right"
@@ -163,7 +166,11 @@ function SideToSideContainers() {
                       )}
                     </h2>
 
-                    <div className="flex-container">
+                    <div
+                  className={`flex-container ${
+                    index % 2 === 0 ? "bg-light-better" : "bg-white-better"
+                  }`}
+                >
                       {/* Text Content */}
                       <div
                         className={`text-content ${
@@ -245,8 +252,8 @@ function SideToSideContainers() {
                     <Image
                       src="/assets/images/travelpartners/bookcoverimage.png"
                       alt="RainDrops Insight Quarterly Magazine"
-                      width={400}
-                      height={400}
+                      width={350}
+                      height={380}
                       className="magazine-img"
                     />
                   </div>
@@ -327,7 +334,7 @@ function SideToSideContainers() {
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .section-image-container-manwalking {
-          width: 300px;
+          width: 400px;
           height: 500px;
           object-fit: cover;
           border-radius: 8px;
@@ -340,12 +347,14 @@ function SideToSideContainers() {
           transition: background-color 0.3s ease;
         }
 
-        .bg-light {
-          background-color: #f9f9f9;
+        .bg-light-better {
+          background-color: #efefefaa;
+          padding: 20px 5px 20px 50px;
         }
 
-        .bg-white {
-          background-color: #ffffff;
+        .bg-white-better {
+          background-color: #ffffffff;
+          padding: 20px 5px 20px 50px;
         }
 
         .container {
@@ -553,6 +562,8 @@ function SideToSideContainers() {
           border-radius: 8px;
           overflow: hidden;
           transition: transform 0.3s ease;
+          margin-top: 20px;
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
         }
 
         .magazine-cover:hover {
@@ -986,6 +997,17 @@ function SideToSideContainers() {
 
         /* Mobile - Small */
         @media (max-width: 480px) {
+        .bg-light-better {
+          padding: 10px;
+        }
+
+        .bg-white-better {
+         padding: 10px;
+        }
+
+        .section-image-container-manwalking {
+          height: 300px; 
+        }
           .container {
             padding: 0 15px;
           }

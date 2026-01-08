@@ -4961,17 +4961,17 @@ function TravelPartners() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-4b6574f51b28adb5" + " " + "travel-partners-section section__padding",
+                className: "jsx-48aa025c5b1d1fa" + " " + "travel-partners-section section__padding",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-4b6574f51b28adb5" + " " + "container",
+                    className: "jsx-48aa025c5b1d1fa" + " " + "container",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-4b6574f51b28adb5" + " " + "content-wrapper",
+                        className: "jsx-48aa025c5b1d1fa" + " " + "content-wrapper",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-4b6574f51b28adb5" + " " + "text-content wow fadeInUp",
+                                className: "jsx-48aa025c5b1d1fa" + " " + "text-content wow fadeInUp",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "jsx-4b6574f51b28adb5" + " " + "main-title",
+                                        className: "jsx-48aa025c5b1d1fa" + " " + "main-title",
                                         children: "TRAVEL PARTNERS"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
@@ -4979,7 +4979,7 @@ function TravelPartners() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "jsx-4b6574f51b28adb5" + " " + "subtitle",
+                                        className: "jsx-48aa025c5b1d1fa" + " " + "subtitle",
                                         children: "Where Reputation Meets Meaningful Luxury"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
@@ -4987,13 +4987,13 @@ function TravelPartners() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-4b6574f51b28adb5" + " " + "description",
+                                        className: "jsx-48aa025c5b1d1fa" + " " + "description",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-4b6574f51b28adb5",
+                                                className: "jsx-48aa025c5b1d1fa",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "jsx-4b6574f51b28adb5" + " " + "raindrops-italic",
+                                                        className: "jsx-48aa025c5b1d1fa" + " " + "raindrops-italic",
                                                         children: "RainDrops"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
@@ -5008,11 +5008,11 @@ function TravelPartners() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-4b6574f51b28adb5",
+                                                className: "jsx-48aa025c5b1d1fa",
                                                 children: [
                                                     "This is not mass wellness tourism. ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                        className: "jsx-4b6574f51b28adb5"
+                                                        className: "jsx-48aa025c5b1d1fa"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
                                                         lineNumber: 27,
@@ -5020,7 +5020,7 @@ function TravelPartners() {
                                                     }, this),
                                                     "This is ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        className: "jsx-4b6574f51b28adb5",
+                                                        className: "jsx-48aa025c5b1d1fa",
                                                         children: "quiet, intentional luxury"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
@@ -5035,11 +5035,11 @@ function TravelPartners() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-4b6574f51b28adb5",
+                                                className: "jsx-48aa025c5b1d1fa",
                                                 children: [
                                                     "Located near the ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        className: "jsx-4b6574f51b28adb5",
+                                                        className: "jsx-48aa025c5b1d1fa",
                                                         children: "Sinharaja UNESCO Rainforest"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
@@ -5054,11 +5054,11 @@ function TravelPartners() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-4b6574f51b28adb5",
+                                                className: "jsx-48aa025c5b1d1fa",
                                                 children: [
                                                     'We do not call our visitors "guests." ',
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                        className: "jsx-4b6574f51b28adb5"
+                                                        className: "jsx-48aa025c5b1d1fa"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
                                                         lineNumber: 42,
@@ -5066,7 +5066,7 @@ function TravelPartners() {
                                                     }, this),
                                                     "We welcome ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        className: "jsx-4b6574f51b28adb5",
+                                                        className: "jsx-48aa025c5b1d1fa",
                                                         children: "Insight Partners"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
@@ -5094,13 +5094,13 @@ function TravelPartners() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 "data-wow-delay": "0.2s",
-                                className: "jsx-4b6574f51b28adb5" + " " + "image-content wow fadeInUp",
+                                className: "jsx-48aa025c5b1d1fa" + " " + "image-content wow fadeInUp",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-4b6574f51b28adb5" + " " + "image-container",
+                                    className: "jsx-48aa025c5b1d1fa" + " " + "image-container",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/assets/images/travelpartners/showingsth.png",
                                         alt: "Travel partners exploring nature with binoculars in rainforest",
-                                        className: "jsx-4b6574f51b28adb5" + " " + "partner-image"
+                                        className: "jsx-48aa025c5b1d1fa" + " " + "partner-image"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/TravePartners.jsx",
                                         lineNumber: 52,
@@ -5133,8 +5133,8 @@ function TravelPartners() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "4b6574f51b28adb5",
-                children: ".travel-partners-section.jsx-4b6574f51b28adb5{background-color:#fff;position:relative}.container.jsx-4b6574f51b28adb5{max-width:1200px;margin:0 auto;padding:0 20px}.section__padding.jsx-4b6574f51b28adb5{padding:80px 0}.content-wrapper.jsx-4b6574f51b28adb5{align-items:flex-start;gap:60px;display:flex}.text-content.jsx-4b6574f51b28adb5{flex:1;min-width:300px}.main-title.jsx-4b6574f51b28adb5{letter-spacing:3px;color:#2c2c2c;text-transform:uppercase;margin-bottom:1.5rem;font-size:2.5rem;font-weight:400;line-height:1.2}.subtitle.jsx-4b6574f51b28adb5{color:#666;margin-bottom:2rem;font-size:1.3rem;font-weight:400;line-height:1.4}.description.jsx-4b6574f51b28adb5{color:#444;line-height:1.8}.description.jsx-4b6574f51b28adb5 p.jsx-4b6574f51b28adb5{margin-bottom:1.2rem;font-size:15px}.description.jsx-4b6574f51b28adb5 p.jsx-4b6574f51b28adb5:last-child{margin-bottom:0}.raindrops-italic.jsx-4b6574f51b28adb5{font-family:BrittanySignature,cursive;font-size:1.3rem;font-style:italic}.description.jsx-4b6574f51b28adb5 strong.jsx-4b6574f51b28adb5{color:#2c2c2c;font-weight:600}.image-content.jsx-4b6574f51b28adb5{flex:1;min-width:300px}.image-container.jsx-4b6574f51b28adb5{width:100%;height:560px;transition:transform .3s,box-shadow .3s;overflow:hidden}.image-container.jsx-4b6574f51b28adb5:hover{transform:translateY(-8px)}.partner-image.jsx-4b6574f51b28adb5{object-fit:cover;width:100%;height:100%;margin-top:85px;display:block}.wow.fadeInUp.jsx-4b6574f51b28adb5{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.main-title.jsx-4b6574f51b28adb5{letter-spacing:4px;font-size:2.8rem}.subtitle.jsx-4b6574f51b28adb5{font-size:var(--p)}.description.jsx-4b6574f51b28adb5{font-size:1.1rem;line-height:1.9}.content-wrapper.jsx-4b6574f51b28adb5{gap:80px}.image-container.jsx-4b6574f51b28adb5{height:560px}.section__padding.jsx-4b6574f51b28adb5{padding:100px 0}}@media (width>=1024px) and (width<=1199px){.main-title.jsx-4b6574f51b28adb5{letter-spacing:2.5px;font-size:2.3rem}.subtitle.jsx-4b6574f51b28adb5{font-size:1.2rem}.description.jsx-4b6574f51b28adb5{font-size:1rem;line-height:1.75}.content-wrapper.jsx-4b6574f51b28adb5{gap:50px}.image-container.jsx-4b6574f51b28adb5{height:560px}.section__padding.jsx-4b6574f51b28adb5{padding:70px 0}}@media (width>=768px) and (width<=1023px){.section__padding.jsx-4b6574f51b28adb5{padding:60px 0}.main-title.jsx-4b6574f51b28adb5{letter-spacing:2px;font-size:2rem}.subtitle.jsx-4b6574f51b28adb5{margin-bottom:1.5rem;font-size:1.1rem}.description.jsx-4b6574f51b28adb5{font-size:.95rem;line-height:1.7}.description.jsx-4b6574f51b28adb5 p.jsx-4b6574f51b28adb5{margin-bottom:1rem}.content-wrapper.jsx-4b6574f51b28adb5{gap:40px}.image-container.jsx-4b6574f51b28adb5{height:480px}.raindrops-italic.jsx-4b6574f51b28adb5{font-size:1.2rem}}@media (width<=767px){.section__padding.jsx-4b6574f51b28adb5{padding:50px 0}.content-wrapper.jsx-4b6574f51b28adb5{flex-direction:column;gap:30px}.text-content.jsx-4b6574f51b28adb5,.image-content.jsx-4b6574f51b28adb5{width:100%;min-width:unset}.main-title.jsx-4b6574f51b28adb5{letter-spacing:1.5px;margin-bottom:1rem;font-size:1.8rem}.subtitle.jsx-4b6574f51b28adb5{margin-bottom:1.5rem;font-size:1rem}.description.jsx-4b6574f51b28adb5{font-size:.9rem;line-height:1.65}.description.jsx-4b6574f51b28adb5 p.jsx-4b6574f51b28adb5{margin-bottom:1rem}.raindrops-italic.jsx-4b6574f51b28adb5{font-size:1.1rem}.image-container.jsx-4b6574f51b28adb5{border-radius:6px;height:400px}}@media (width<=480px){.section__padding.jsx-4b6574f51b28adb5{padding:40px 0}.main-title.jsx-4b6574f51b28adb5{letter-spacing:1px;font-size:1.5rem;line-height:1.15}.subtitle.jsx-4b6574f51b28adb5{margin-bottom:1.2rem;font-size:.95rem}.description.jsx-4b6574f51b28adb5{font-size:.85rem;line-height:1.6}.description.jsx-4b6574f51b28adb5 p.jsx-4b6574f51b28adb5{margin-bottom:.9rem}.raindrops-italic.jsx-4b6574f51b28adb5{font-size:1rem}.content-wrapper.jsx-4b6574f51b28adb5{gap:25px}.image-container.jsx-4b6574f51b28adb5{height:320px}}@media (width<=360px){.section__padding.jsx-4b6574f51b28adb5{padding:35px 0}.main-title.jsx-4b6574f51b28adb5{letter-spacing:.5px;font-size:1.3rem}.subtitle.jsx-4b6574f51b28adb5{font-size:.9rem}.description.jsx-4b6574f51b28adb5{font-size:.8rem}.image-container.jsx-4b6574f51b28adb5{height:280px}}"
+                id: "48aa025c5b1d1fa",
+                children: ".travel-partners-section.jsx-48aa025c5b1d1fa{background-color:#fff;position:relative}.container.jsx-48aa025c5b1d1fa{max-width:1200px;margin:0 auto;padding:0 20px}.section__padding.jsx-48aa025c5b1d1fa{padding:80px 0}.content-wrapper.jsx-48aa025c5b1d1fa{align-items:flex-start;gap:60px;display:flex}.text-content.jsx-48aa025c5b1d1fa{flex:1;min-width:300px}.main-title.jsx-48aa025c5b1d1fa{letter-spacing:3px;color:#2c2c2c;text-transform:uppercase;margin-bottom:1.5rem;font-size:2.5rem;font-weight:400;line-height:1.2}.subtitle.jsx-48aa025c5b1d1fa{color:#666;margin-bottom:2rem;font-size:1.3rem;font-weight:400;line-height:1.4}.description.jsx-48aa025c5b1d1fa{color:#444;line-height:1.8}.description.jsx-48aa025c5b1d1fa p.jsx-48aa025c5b1d1fa{margin-bottom:1.2rem;font-size:15px}.description.jsx-48aa025c5b1d1fa p.jsx-48aa025c5b1d1fa:last-child{margin-bottom:0}.raindrops-italic.jsx-48aa025c5b1d1fa{font-family:BrittanySignature,cursive;font-size:1.3rem;font-style:italic}.description.jsx-48aa025c5b1d1fa strong.jsx-48aa025c5b1d1fa{color:#2c2c2c;font-weight:600}.image-content.jsx-48aa025c5b1d1fa{flex:1;min-width:300px}.image-container.jsx-48aa025c5b1d1fa{width:100%;height:560px;transition:transform .3s,box-shadow .3s;overflow:hidden}.image-container.jsx-48aa025c5b1d1fa:hover{transform:translateY(-8px)}.partner-image.jsx-48aa025c5b1d1fa{object-fit:cover;width:100%;height:100%;margin-top:85px;display:block}.wow.fadeInUp.jsx-48aa025c5b1d1fa{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.main-title.jsx-48aa025c5b1d1fa{font-size:var(--h2);letter-spacing:4px}.subtitle.jsx-48aa025c5b1d1fa{font-size:var(--p)}.description.jsx-48aa025c5b1d1fa{font-size:1.1rem;line-height:1.9}.content-wrapper.jsx-48aa025c5b1d1fa{gap:80px}.image-container.jsx-48aa025c5b1d1fa{height:560px}.section__padding.jsx-48aa025c5b1d1fa{padding:100px 0}}@media (width>=1024px) and (width<=1199px){.main-title.jsx-48aa025c5b1d1fa{font-size:var(--h1);letter-spacing:2.5px}.subtitle.jsx-48aa025c5b1d1fa{font-size:1.2rem}.description.jsx-48aa025c5b1d1fa{font-size:1rem;line-height:1.75}.content-wrapper.jsx-48aa025c5b1d1fa{gap:50px}.image-container.jsx-48aa025c5b1d1fa{height:560px}.section__padding.jsx-48aa025c5b1d1fa{padding:70px 0}}@media (width>=768px) and (width<=1023px){.section__padding.jsx-48aa025c5b1d1fa{padding:60px 0}.main-title.jsx-48aa025c5b1d1fa{letter-spacing:2px;font-size:2rem}.subtitle.jsx-48aa025c5b1d1fa{margin-bottom:1.5rem;font-size:1.1rem}.description.jsx-48aa025c5b1d1fa{font-size:.95rem;line-height:1.7}.description.jsx-48aa025c5b1d1fa p.jsx-48aa025c5b1d1fa{margin-bottom:1rem}.content-wrapper.jsx-48aa025c5b1d1fa{gap:40px}.image-container.jsx-48aa025c5b1d1fa{height:480px}.raindrops-italic.jsx-48aa025c5b1d1fa{font-size:1.2rem}}@media (width<=767px){.section__padding.jsx-48aa025c5b1d1fa{padding:50px 0}.content-wrapper.jsx-48aa025c5b1d1fa{flex-direction:column;gap:30px}.text-content.jsx-48aa025c5b1d1fa,.image-content.jsx-48aa025c5b1d1fa{width:100%;min-width:unset}.main-title.jsx-48aa025c5b1d1fa{letter-spacing:1.5px;margin-bottom:1rem;font-size:1.8rem}.subtitle.jsx-48aa025c5b1d1fa{margin-bottom:1.5rem;font-size:1rem}.description.jsx-48aa025c5b1d1fa{font-size:.9rem;line-height:1.65}.description.jsx-48aa025c5b1d1fa p.jsx-48aa025c5b1d1fa{margin-bottom:1rem}.raindrops-italic.jsx-48aa025c5b1d1fa{font-size:1.1rem}.image-container.jsx-48aa025c5b1d1fa{border-radius:6px;height:400px}}@media (width<=480px){.section__padding.jsx-48aa025c5b1d1fa{padding:40px 0}.main-title.jsx-48aa025c5b1d1fa{letter-spacing:1px;font-size:1.5rem;line-height:1.15}.subtitle.jsx-48aa025c5b1d1fa{margin-bottom:1.2rem;font-size:.95rem}.description.jsx-48aa025c5b1d1fa{font-size:.85rem;line-height:1.6}.description.jsx-48aa025c5b1d1fa p.jsx-48aa025c5b1d1fa{margin-bottom:.9rem}.raindrops-italic.jsx-48aa025c5b1d1fa{font-size:1rem}.content-wrapper.jsx-48aa025c5b1d1fa{gap:25px}.image-container.jsx-48aa025c5b1d1fa{height:320px}}@media (width<=360px){.section__padding.jsx-48aa025c5b1d1fa{padding:35px 0}.main-title.jsx-48aa025c5b1d1fa{letter-spacing:.5px;font-size:1.3rem}.subtitle.jsx-48aa025c5b1d1fa{font-size:.9rem}.description.jsx-48aa025c5b1d1fa{font-size:.8rem}.image-container.jsx-48aa025c5b1d1fa{height:280px}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
@@ -5165,12 +5165,12 @@ function WhyTravelPartnersChoose() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-d0b62bfec6d08b4b" + " " + "rts__section partners__section section__padding",
+                className: "jsx-7288c8503a160638" + " " + "rts__section partners__section section__padding",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-d0b62bfec6d08b4b" + " " + "container",
+                    className: "jsx-7288c8503a160638" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "jsx-d0b62bfec6d08b4b" + " " + "content__title wow fadeInUp",
+                            className: "jsx-7288c8503a160638" + " " + "content__title wow fadeInUp",
                             children: "WHY TRAVEL PARTNERS CHOOSE RAINDROPS"
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5179,10 +5179,10 @@ function WhyTravelPartnersChoose() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             "data-wow-delay": "0.2s",
-                            className: "jsx-d0b62bfec6d08b4b" + " " + "subtitle wow fadeInUp",
+                            className: "jsx-7288c8503a160638" + " " + "subtitle wow fadeInUp",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-d0b62bfec6d08b4b" + " " + "raindrops-italic",
+                                    className: "jsx-7288c8503a160638" + " " + "raindrops-italic",
                                     children: "RainDrops"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5197,14 +5197,14 @@ function WhyTravelPartnersChoose() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-d0b62bfec6d08b4b" + " " + "partners-content-wrapper",
+                            className: "jsx-7288c8503a160638" + " " + "partners-content-wrapper",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-d0b62bfec6d08b4b" + " " + "partners-text-section",
+                                    className: "jsx-7288c8503a160638" + " " + "partners-text-section",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             "data-wow-delay": "0.3s",
-                                            className: "jsx-d0b62bfec6d08b4b" + " " + "section-subtitle wow fadeInUp",
+                                            className: "jsx-7288c8503a160638" + " " + "section-subtitle wow fadeInUp",
                                             children: "What makes RainDrops different:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5213,10 +5213,10 @@ function WhyTravelPartnersChoose() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                             "data-wow-delay": "0.4s",
-                                            className: "jsx-d0b62bfec6d08b4b" + " " + "features-list wow fadeInUp",
+                                            className: "jsx-7288c8503a160638" + " " + "features-list wow fadeInUp",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "jsx-d0b62bfec6d08b4b",
+                                                    className: "jsx-7288c8503a160638",
                                                     children: "Only 6 private rainforest villas – true scarcity"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5224,7 +5224,7 @@ function WhyTravelPartnersChoose() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "jsx-d0b62bfec6d08b4b",
+                                                    className: "jsx-7288c8503a160638",
                                                     children: "Not a hotel, not mass wellness"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5232,7 +5232,7 @@ function WhyTravelPartnersChoose() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "jsx-d0b62bfec6d08b4b",
+                                                    className: "jsx-7288c8503a160638",
                                                     children: "High emotional satisfaction and repeat-stay potential"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5240,7 +5240,7 @@ function WhyTravelPartnersChoose() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "jsx-d0b62bfec6d08b4b",
+                                                    className: "jsx-7288c8503a160638",
                                                     children: "Calm-driven, non-religious mindfulness experiences"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5248,7 +5248,7 @@ function WhyTravelPartnersChoose() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "jsx-d0b62bfec6d08b4b",
+                                                    className: "jsx-7288c8503a160638",
                                                     children: "Science-guided, nature-based inner discovery"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5256,7 +5256,7 @@ function WhyTravelPartnersChoose() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "jsx-d0b62bfec6d08b4b",
+                                                    className: "jsx-7288c8503a160638",
                                                     children: "Discreet, highly personalized hosting"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5264,7 +5264,7 @@ function WhyTravelPartnersChoose() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "jsx-d0b62bfec6d08b4b",
+                                                    className: "jsx-7288c8503a160638",
                                                     children: "Designed for privacy, silence and depth—not crowds"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5284,15 +5284,15 @@ function WhyTravelPartnersChoose() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-d0b62bfec6d08b4b" + " " + "partners-images-section",
+                                    className: "jsx-7288c8503a160638" + " " + "partners-images-section",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             "data-wow-delay": "0.5s",
-                                            className: "jsx-d0b62bfec6d08b4b" + " " + "image-container large-image wow fadeInUp",
+                                            className: "jsx-7288c8503a160638" + " " + "image-container large-image wow fadeInUp",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/images/travelpartners/blackhouse.png",
                                                 alt: "Travel partners exploring nature with binoculars in rainforest",
-                                                className: "jsx-d0b62bfec6d08b4b" + " " + "partner-img"
+                                                className: "jsx-7288c8503a160638" + " " + "partner-img"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
                                                 lineNumber: 45,
@@ -5305,11 +5305,11 @@ function WhyTravelPartnersChoose() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             "data-wow-delay": "0.6s",
-                                            className: "jsx-d0b62bfec6d08b4b" + " " + "image-container small-image wow fadeInUp",
+                                            className: "jsx-7288c8503a160638" + " " + "image-container small-image wow fadeInUp",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/images/travelpartners/footsongrass.png",
                                                 alt: "Travel partners exploring nature with binoculars in rainforest",
-                                                className: "jsx-d0b62bfec6d08b4b" + " " + "partner-img"
+                                                className: "jsx-7288c8503a160638" + " " + "partner-img"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
                                                 lineNumber: 57,
@@ -5344,8 +5344,8 @@ function WhyTravelPartnersChoose() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "d0b62bfec6d08b4b",
-                children: '.rts__section.partners__section.jsx-d0b62bfec6d08b4b{background-color:#f9f9f9;position:relative;overflow:hidden}.container.jsx-d0b62bfec6d08b4b{max-width:1200px;margin:0 auto;padding:0 20px}.section__padding.jsx-d0b62bfec6d08b4b{padding:80px 0}.content__title.jsx-d0b62bfec6d08b4b{font-size:var(--h2);text-transform:uppercase;letter-spacing:2px;text-align:left;color:#2c2c2c;margin-bottom:1.5rem;font-weight:400}.subtitle.jsx-d0b62bfec6d08b4b{text-align:left;color:#555;max-width:1000px;font-size:15px;line-height:1.6}.raindrops-italic.jsx-d0b62bfec6d08b4b{font-family:BrittanySignature,cursive;font-size:1.3rem;font-style:italic}.partners-content-wrapper.jsx-d0b62bfec6d08b4b{align-items:flex-start;gap:60px;margin-top:40px;display:flex}.partners-text-section.jsx-d0b62bfec6d08b4b{flex:1;min-width:300px}.section-subtitle.jsx-d0b62bfec6d08b4b{color:#333;margin-bottom:1.5rem;font-size:15px;font-weight:700}.features-list.jsx-d0b62bfec6d08b4b{margin:0;padding:0;list-style:none}.features-list.jsx-d0b62bfec6d08b4b li.jsx-d0b62bfec6d08b4b{color:#444;margin-bottom:.3rem;padding-left:25px;font-size:1.05rem;font-weight:300;position:relative}.features-list.jsx-d0b62bfec6d08b4b li.jsx-d0b62bfec6d08b4b:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.partners-images-section.jsx-d0b62bfec6d08b4b{flex-direction:row;flex:1;gap:20px;min-width:300px;display:flex}.image-container.jsx-d0b62bfec6d08b4b{border-radius:4px;transition:transform .3s,box-shadow .3s;overflow:hidden}.image-container.jsx-d0b62bfec6d08b4b:hover{transform:translateY(-5px)}.large-image.jsx-d0b62bfec6d08b4b{height:400px}.small-image.jsx-d0b62bfec6d08b4b{height:250px}.partner-img.jsx-d0b62bfec6d08b4b{object-fit:contain;width:100%;height:100%;display:block}.wow.fadeInUp.jsx-d0b62bfec6d08b4b{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.container.jsx-d0b62bfec6d08b4b{max-width:1100px}.partners-content-wrapper.jsx-d0b62bfec6d08b4b{gap:80px}.small-image.jsx-d0b62bfec6d08b4b{height:280px}}@media (width>=1024px) and (width<=1199px){.container.jsx-d0b62bfec6d08b4b{max-width:960px}.content__title.jsx-d0b62bfec6d08b4b{font-size:2rem}.partners-content-wrapper.jsx-d0b62bfec6d08b4b{gap:50px}.large-image.jsx-d0b62bfec6d08b4b{height:380px}.small-image.jsx-d0b62bfec6d08b4b{height:240px}}@media (width>=768px) and (width<=1023px){.container.jsx-d0b62bfec6d08b4b{max-width:720px}.section__padding.jsx-d0b62bfec6d08b4b{padding:60px 0}.content__title.jsx-d0b62bfec6d08b4b{letter-spacing:1.5px;font-size:1.8rem}.subtitle.jsx-d0b62bfec6d08b4b{margin-bottom:2.5rem;font-size:1rem}.partners-content-wrapper.jsx-d0b62bfec6d08b4b{gap:40px}.section-subtitle.jsx-d0b62bfec6d08b4b{font-size:1.2rem}.features-list.jsx-d0b62bfec6d08b4b li.jsx-d0b62bfec6d08b4b{font-size:1rem}.large-image.jsx-d0b62bfec6d08b4b{height:320px}.small-image.jsx-d0b62bfec6d08b4b{height:200px}}@media (width<=767px){.section__padding.jsx-d0b62bfec6d08b4b{padding:50px 0}.content__title.jsx-d0b62bfec6d08b4b{letter-spacing:1px;margin-bottom:1rem;font-size:1.5rem}.subtitle.jsx-d0b62bfec6d08b4b{margin-bottom:2rem;padding:0 10px;font-size:.95rem}.raindrops-italic.jsx-d0b62bfec6d08b4b{font-size:1.1rem}.partners-content-wrapper.jsx-d0b62bfec6d08b4b{flex-direction:column;gap:30px}.partners-text-section.jsx-d0b62bfec6d08b4b,.partners-images-section.jsx-d0b62bfec6d08b4b{width:100%;min-width:unset}.section-subtitle.jsx-d0b62bfec6d08b4b{margin-bottom:1.2rem;font-size:1.1rem}.features-list.jsx-d0b62bfec6d08b4b li.jsx-d0b62bfec6d08b4b{margin-bottom:.7rem;padding-left:20px;font-size:.95rem;line-height:1.7}.features-list.jsx-d0b62bfec6d08b4b li.jsx-d0b62bfec6d08b4b:before{font-size:1.3rem}.large-image.jsx-d0b62bfec6d08b4b{height:280px}.small-image.jsx-d0b62bfec6d08b4b{height:200px}}@media (width<=480px){.container.jsx-d0b62bfec6d08b4b{padding:0 15px}.section__padding.jsx-d0b62bfec6d08b4b{padding:40px 0}.content__title.jsx-d0b62bfec6d08b4b{letter-spacing:.5px;font-size:1.3rem}.subtitle.jsx-d0b62bfec6d08b4b{font-size:.9rem;line-height:1.5}.raindrops-italic.jsx-d0b62bfec6d08b4b,.section-subtitle.jsx-d0b62bfec6d08b4b{font-size:1rem}.features-list.jsx-d0b62bfec6d08b4b li.jsx-d0b62bfec6d08b4b{padding-left:18px;font-size:.9rem;line-height:1.6}.large-image.jsx-d0b62bfec6d08b4b{height:240px}.small-image.jsx-d0b62bfec6d08b4b{height:180px}.image-container.jsx-d0b62bfec6d08b4b{border-radius:3px}}@media (width<=360px){.content__title.jsx-d0b62bfec6d08b4b{font-size:1.1rem}.subtitle.jsx-d0b62bfec6d08b4b,.features-list.jsx-d0b62bfec6d08b4b li.jsx-d0b62bfec6d08b4b{font-size:.85rem}.large-image.jsx-d0b62bfec6d08b4b{height:220px}.small-image.jsx-d0b62bfec6d08b4b{height:160px}}'
+                id: "7288c8503a160638",
+                children: '.rts__section.partners__section.jsx-7288c8503a160638{background-color:#f9f9f9;position:relative;overflow:hidden}.container.jsx-7288c8503a160638{max-width:1200px;margin:0 auto;padding:0 20px}.section__padding.jsx-7288c8503a160638{padding:80px 0}.content__title.jsx-7288c8503a160638{font-size:var(--h2);text-transform:uppercase;letter-spacing:2px;text-align:left;color:#2c2c2c;margin-bottom:1.5rem;font-weight:400}.subtitle.jsx-7288c8503a160638{text-align:left;color:#555;max-width:1000px;font-size:15px;line-height:1.6}.raindrops-italic.jsx-7288c8503a160638{font-family:BrittanySignature,cursive;font-size:1.3rem;font-style:italic}.partners-content-wrapper.jsx-7288c8503a160638{align-items:flex-start;gap:60px;margin-top:40px;display:flex}.partners-text-section.jsx-7288c8503a160638{flex:1;min-width:300px}.section-subtitle.jsx-7288c8503a160638{color:#333;margin-bottom:1.5rem;font-size:15px;font-weight:700}.features-list.jsx-7288c8503a160638{margin:0;padding:0;list-style:none}.features-list.jsx-7288c8503a160638 li.jsx-7288c8503a160638{color:#444;margin-bottom:.3rem;padding-left:25px;font-size:1.05rem;font-weight:300;position:relative}.features-list.jsx-7288c8503a160638 li.jsx-7288c8503a160638:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.partners-images-section.jsx-7288c8503a160638{flex-direction:row;flex:1;gap:20px;min-width:300px;display:flex}.image-container.jsx-7288c8503a160638{border-radius:4px;transition:transform .3s,box-shadow .3s;overflow:hidden}.image-container.jsx-7288c8503a160638:hover{transform:translateY(-5px)}.large-image.jsx-7288c8503a160638{height:400px}.small-image.jsx-7288c8503a160638{height:250px}.partner-img.jsx-7288c8503a160638{object-fit:contain;width:100%;height:100%;display:block}.wow.fadeInUp.jsx-7288c8503a160638{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.container.jsx-7288c8503a160638{max-width:1100px}.partners-content-wrapper.jsx-7288c8503a160638{gap:80px}.small-image.jsx-7288c8503a160638{height:280px}}@media (width>=1024px) and (width<=1199px){.container.jsx-7288c8503a160638{max-width:960px}.content__title.jsx-7288c8503a160638{font-size:2rem}.partners-content-wrapper.jsx-7288c8503a160638{gap:50px}.large-image.jsx-7288c8503a160638{height:380px}.small-image.jsx-7288c8503a160638{height:240px}}@media (width>=768px) and (width<=1023px){.container.jsx-7288c8503a160638{max-width:720px}.section__padding.jsx-7288c8503a160638{padding:60px 0}.content__title.jsx-7288c8503a160638{letter-spacing:1.5px;font-size:1.8rem}.subtitle.jsx-7288c8503a160638{margin-bottom:2.5rem;font-size:1rem}.partners-content-wrapper.jsx-7288c8503a160638{gap:40px}.section-subtitle.jsx-7288c8503a160638{font-size:1.2rem}.features-list.jsx-7288c8503a160638 li.jsx-7288c8503a160638{font-size:1rem}.large-image.jsx-7288c8503a160638{height:320px}.small-image.jsx-7288c8503a160638{height:200px}}@media (width<=767px){.section__padding.jsx-7288c8503a160638{padding:50px 0}.content__title.jsx-7288c8503a160638{letter-spacing:1px;margin-bottom:1rem;font-size:1.5rem}.subtitle.jsx-7288c8503a160638{margin-bottom:2rem;padding:0 10px;font-size:.95rem}.raindrops-italic.jsx-7288c8503a160638{font-size:1.1rem}.partners-content-wrapper.jsx-7288c8503a160638{flex-direction:column;gap:30px}.partners-text-section.jsx-7288c8503a160638,.partners-images-section.jsx-7288c8503a160638{width:100%;min-width:unset}.section-subtitle.jsx-7288c8503a160638{margin-bottom:1.2rem;font-size:1.1rem}.features-list.jsx-7288c8503a160638 li.jsx-7288c8503a160638{margin-bottom:.7rem;padding-left:20px;font-size:.95rem;line-height:1.7}.features-list.jsx-7288c8503a160638 li.jsx-7288c8503a160638:before{font-size:1.3rem}.large-image.jsx-7288c8503a160638{height:280px}.small-image.jsx-7288c8503a160638{height:200px}}@media (width<=480px){.partner-img.jsx-7288c8503a160638{object-fit:cover;border-radius:6px;display:block}.container.jsx-7288c8503a160638{padding:0 15px}.section__padding.jsx-7288c8503a160638{padding:40px 0}.content__title.jsx-7288c8503a160638{letter-spacing:.5px;font-size:1.3rem}.subtitle.jsx-7288c8503a160638{font-size:.9rem;line-height:1.5}.raindrops-italic.jsx-7288c8503a160638,.section-subtitle.jsx-7288c8503a160638{font-size:1rem}.features-list.jsx-7288c8503a160638 li.jsx-7288c8503a160638{padding-left:18px;font-size:.9rem;line-height:1.6}.large-image.jsx-7288c8503a160638{height:240px}.small-image.jsx-7288c8503a160638{height:180px}.image-container.jsx-7288c8503a160638{border-radius:3px}}@media (width<=360px){.content__title.jsx-7288c8503a160638{font-size:1.1rem}.subtitle.jsx-7288c8503a160638,.features-list.jsx-7288c8503a160638 li.jsx-7288c8503a160638{font-size:.85rem}.large-image.jsx-7288c8503a160638{height:220px}.small-image.jsx-7288c8503a160638{height:160px}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
@@ -5677,12 +5677,12 @@ function SignatureExperiencesYourClients() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-d95e595ea8695e01" + " " + "signature-section section__padding",
+                className: "jsx-f65daddf8c381f0f" + " " + "signature-section section__padding",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-d95e595ea8695e01" + " " + "container",
+                    className: "jsx-f65daddf8c381f0f" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "jsx-d95e595ea8695e01" + " " + "main-title wow fadeInUp",
+                            className: "jsx-f65daddf8c381f0f" + " " + "main-title wow fadeInUp",
                             children: "SIGNATURE EXPERIENCES YOUR CLIENTS REMEMBER"
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5690,27 +5690,24 @@ function SignatureExperiencesYourClients() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-d95e595ea8695e01" + " " + "experiences-wrapper",
+                            className: "jsx-f65daddf8c381f0f" + " " + "experiences-wrapper",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    "data-wow-delay": "0.2s",
-                                    className: "jsx-d95e595ea8695e01" + " " + "image-column left-image wow fadeInUp",
+                                    className: "jsx-f65daddf8c381f0f" + " " + "image-column left-image desktop-only",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-d95e595ea8695e01" + " " + "image-container",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        className: "jsx-f65daddf8c381f0f" + " " + "image-container",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: "/assets/images/travelpartners/bothwalking.png",
-                                            alt: "Travel partners exploring nature with binoculars in rainforest",
-                                            width: 600,
-                                            height: 600,
-                                            className: "partner-image"
+                                            alt: "Partners walking together",
+                                            className: "jsx-f65daddf8c381f0f" + " " + "partner-image"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 51,
+                                            lineNumber: 48,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                        lineNumber: 50,
+                                        lineNumber: 47,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
@@ -5719,56 +5716,55 @@ function SignatureExperiencesYourClients() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    "data-wow-delay": "0.3s",
-                                    className: "jsx-d95e595ea8695e01" + " " + "content-column wow fadeInUp",
+                                    className: "jsx-f65daddf8c381f0f" + " " + "content-column wow fadeInUp",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-d95e595ea8695e01" + " " + "intro-text",
+                                            className: "jsx-f65daddf8c381f0f" + " " + "intro-text",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-d95e595ea8695e01",
+                                                    className: "jsx-f65daddf8c381f0f",
                                                     children: "These are not tours. They are inner journeys, optional, gentle and non-structured."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 59,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-d95e595ea8695e01",
+                                                    className: "jsx-f65daddf8c381f0f",
                                                     children: "Travel partners may recommend experiences individually or as curated combinations:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 62,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 63,
+                                            lineNumber: 58,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-d95e595ea8695e01" + " " + "experiences-list",
+                                            className: "jsx-f65daddf8c381f0f" + " " + "experiences-list",
                                             children: experiences.map((exp, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-d95e595ea8695e01" + " " + "experience-item",
+                                                    className: "jsx-f65daddf8c381f0f" + " " + "experience-item",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "jsx-d95e595ea8695e01" + " " + "bullet",
+                                                            className: "jsx-f65daddf8c381f0f" + " " + "bullet",
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                            lineNumber: 75,
+                                                            lineNumber: 70,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-d95e595ea8695e01" + " " + "exp-content",
+                                                            className: "jsx-f65daddf8c381f0f" + " " + "exp-content",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                    className: "jsx-d95e595ea8695e01",
+                                                                    className: "jsx-f65daddf8c381f0f",
                                                                     children: exp.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                                    lineNumber: 77,
+                                                                    lineNumber: 72,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " – ",
@@ -5776,82 +5772,106 @@ function SignatureExperiencesYourClients() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                            lineNumber: 76,
+                                                            lineNumber: 71,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 69,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 72,
+                                            lineNumber: 67,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-d95e595ea8695e01" + " " + "outcomes-section",
+                                            className: "jsx-f65daddf8c381f0f" + " " + "outcomes-section",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-d95e595ea8695e01" + " " + "outcomes-intro",
+                                                    className: "jsx-f65daddf8c381f0f" + " " + "outcomes-intro",
                                                     children: "These experiences create:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 84,
+                                                    lineNumber: 79,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    className: "jsx-d95e595ea8695e01" + " " + "outcomes-list",
+                                                    className: "jsx-f65daddf8c381f0f" + " " + "outcomes-list",
                                                     children: outcomes.map((outcome, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-d95e595ea8695e01" + " " + "outcome-item",
+                                                            className: "jsx-f65daddf8c381f0f" + " " + "outcome-item",
                                                             children: outcome
                                                         }, index, false, {
                                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                            lineNumber: 87,
+                                                            lineNumber: 82,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 85,
+                                                    lineNumber: 80,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 83,
+                                            lineNumber: 78,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-f65daddf8c381f0f" + " " + "mobile-bottom-images",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: "/assets/images/travelpartners/bothwalking.png",
+                                                    alt: "Partners walking together",
+                                                    className: "jsx-f65daddf8c381f0f" + " " + "partner-image"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
+                                                    lineNumber: 91,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: "/assets/images/travelpartners/rainforest.png",
+                                                    alt: "Rainforest experience",
+                                                    className: "jsx-f65daddf8c381f0f" + " " + "partner-image"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
+                                                    lineNumber: 96,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
+                                            lineNumber: 90,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                    lineNumber: 62,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    "data-wow-delay": "0.4s",
-                                    className: "jsx-d95e595ea8695e01" + " " + "image-column right-image wow fadeInUp",
+                                    className: "jsx-f65daddf8c381f0f" + " " + "image-column right-image desktop-only",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-d95e595ea8695e01" + " " + "image-container",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        className: "jsx-f65daddf8c381f0f" + " " + "image-container",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: "/assets/images/travelpartners/rainforest.png",
-                                            alt: "Travel partners exploring nature with binoculars in rainforest",
-                                            width: 600,
-                                            height: 600,
-                                            className: "partner-image"
+                                            alt: "Rainforest experience",
+                                            className: "jsx-f65daddf8c381f0f" + " " + "partner-image"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 101,
+                                            lineNumber: 107,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                        lineNumber: 100,
+                                        lineNumber: 106,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                    lineNumber: 96,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -5872,8 +5892,8 @@ function SignatureExperiencesYourClients() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "d95e595ea8695e01",
-                children: '.signature-section.jsx-d95e595ea8695e01{background-color:#f5f5f5;position:relative;overflow:hidden}.container.jsx-d95e595ea8695e01{max-width:1200px;margin:0 auto;padding:0 20px}.section__padding.jsx-d95e595ea8695e01{padding:80px 0}.main-title.jsx-d95e595ea8695e01{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:2px;color:#2c2c2c;margin-bottom:3rem;font-weight:400}.experiences-wrapper.jsx-d95e595ea8695e01{align-items:flex-start;gap:20px;display:flex}.image-column.jsx-d95e595ea8695e01{flex:0 0 280px}.image-container.jsx-d95e595ea8695e01{border-radius:8px;width:100%;height:600px;overflow:hidden}.image-container.jsx-d95e595ea8695e01:hover{transform:translateY(-8px)}.experience-img.jsx-d95e595ea8695e01{object-fit:cover;width:100%;height:100%;display:block}.content-column.jsx-d95e595ea8695e01{flex:1;min-width:300px}.intro-text.jsx-d95e595ea8695e01{margin-top:2rem;margin-bottom:2rem}.intro-text.jsx-d95e595ea8695e01 p.jsx-d95e595ea8695e01{font-size:var(--p);color:#333;margin-bottom:1rem;line-height:1.7}.intro-text.jsx-d95e595ea8695e01 strong.jsx-d95e595ea8695e01{color:#2c2c2c;font-weight:600}.experience-item.jsx-d95e595ea8695e01{align-items:flex-start;display:flex}.bullet.jsx-d95e595ea8695e01{color:#000;flex-shrink:0;margin-right:12px;font-size:1.5rem;line-height:1.4}.exp-content.jsx-d95e595ea8695e01{color:#333;font-size:1rem}.exp-content.jsx-d95e595ea8695e01 strong.jsx-d95e595ea8695e01{color:#2c2c2c;font-weight:600}.outcomes-intro.jsx-d95e595ea8695e01{color:#333;font-size:1.05rem}.outcomes-list.jsx-d95e595ea8695e01{margin:0;padding:0;list-style:none}.outcome-item.jsx-d95e595ea8695e01{color:#333;padding-left:25px;font-size:1rem;position:relative}.outcome-item.jsx-d95e595ea8695e01:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.wow.fadeInUp.jsx-d95e595ea8695e01{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.main-title.jsx-d95e595ea8695e01{margin-bottom:3.5rem;font-size:2.3rem}.image-column.jsx-d95e595ea8695e01{flex:0 0 300px}}@media (width>=1024px) and (width<=1199px){.container.jsx-d95e595ea8695e01{max-width:960px}.main-title.jsx-d95e595ea8695e01{font-size:2rem}.image-column.jsx-d95e595ea8695e01{flex:0 0 240px}.image-container.jsx-d95e595ea8695e01{height:550px}.experiences-wrapper.jsx-d95e595ea8695e01{gap:35px}.intro-text.jsx-d95e595ea8695e01 p.jsx-d95e595ea8695e01,.outcomes-intro.jsx-d95e595ea8695e01{font-size:1rem}.exp-content.jsx-d95e595ea8695e01{font-size:.95rem}}@media (width>=768px) and (width<=1023px){.section__padding.jsx-d95e595ea8695e01{padding:60px 0}.main-title.jsx-d95e595ea8695e01{letter-spacing:1.5px;margin-bottom:2.5rem;font-size:1.7rem}.experiences-wrapper.jsx-d95e595ea8695e01{flex-direction:column;gap:30px}.image-column.jsx-d95e595ea8695e01{flex:none;width:100%}.image-container.jsx-d95e595ea8695e01{height:350px}.content-column.jsx-d95e595ea8695e01{width:100%;min-width:unset}.intro-text.jsx-d95e595ea8695e01 p.jsx-d95e595ea8695e01{font-size:1rem}.exp-content.jsx-d95e595ea8695e01{font-size:.95rem}}@media (width<=767px){.section__padding.jsx-d95e595ea8695e01{padding:50px 0}.main-title.jsx-d95e595ea8695e01{letter-spacing:1px;margin-bottom:2rem;font-size:1.4rem;line-height:1.3}.experiences-wrapper.jsx-d95e595ea8695e01{flex-direction:column;gap:25px}.image-column.jsx-d95e595ea8695e01{width:100%}.image-container.jsx-d95e595ea8695e01{border-radius:6px;height:300px}.content-column.jsx-d95e595ea8695e01{width:100%;min-width:unset}.intro-text.jsx-d95e595ea8695e01{margin-bottom:1.5rem}.intro-text.jsx-d95e595ea8695e01 p.jsx-d95e595ea8695e01{font-size:.95rem;line-height:1.6}.experiences-list.jsx-d95e595ea8695e01{margin-bottom:2rem}.experience-item.jsx-d95e595ea8695e01{margin-bottom:.9rem}.bullet.jsx-d95e595ea8695e01{margin-right:10px;font-size:1.3rem}.exp-content.jsx-d95e595ea8695e01{font-size:.9rem}.outcomes-intro.jsx-d95e595ea8695e01{font-size:.95rem}.outcome-item.jsx-d95e595ea8695e01{padding-left:22px;font-size:.9rem;line-height:1.7}.outcome-item.jsx-d95e595ea8695e01:before{font-size:1.3rem}}@media (width<=480px){.container.jsx-d95e595ea8695e01{padding:0 15px}.section__padding.jsx-d95e595ea8695e01{padding:40px 0}.main-title.jsx-d95e595ea8695e01{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.2rem}.image-container.jsx-d95e595ea8695e01{height:250px}.intro-text.jsx-d95e595ea8695e01 p.jsx-d95e595ea8695e01{font-size:.9rem;line-height:1.5}.experience-item.jsx-d95e595ea8695e01{margin-bottom:.8rem}.bullet.jsx-d95e595ea8695e01{margin-right:8px;font-size:1.2rem}.exp-content.jsx-d95e595ea8695e01{font-size:.85rem;line-height:1.6}.outcomes-intro.jsx-d95e595ea8695e01{font-size:.9rem}.outcome-item.jsx-d95e595ea8695e01{padding-left:20px;font-size:.85rem}.outcome-item.jsx-d95e595ea8695e01:before{font-size:1.2rem}}@media (width<=360px){.main-title.jsx-d95e595ea8695e01{font-size:1.1rem;line-height:1.25}.image-container.jsx-d95e595ea8695e01{height:220px}.intro-text.jsx-d95e595ea8695e01 p.jsx-d95e595ea8695e01{font-size:.85rem}.exp-content.jsx-d95e595ea8695e01{font-size:.8rem}.outcome-item.jsx-d95e595ea8695e01{font-size:.8rem;line-height:1.6}}'
+                id: "f65daddf8c381f0f",
+                children: '.signature-section.jsx-f65daddf8c381f0f{background-color:#f5f5f5;position:relative;overflow:hidden}.mobile-bottom-images.jsx-f65daddf8c381f0f{flex-direction:column;gap:16px;margin-top:2rem;display:none}.partner-image.jsx-f65daddf8c381f0f{object-fit:cover;width:100%;height:auto}.container.jsx-f65daddf8c381f0f{max-width:1200px;margin:0 auto;padding:0 20px}.section__padding.jsx-f65daddf8c381f0f{padding:80px 0}.main-title.jsx-f65daddf8c381f0f{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:2px;color:#2c2c2c;margin-bottom:3rem;font-weight:400}.experiences-wrapper.jsx-f65daddf8c381f0f{align-items:flex-start;gap:20px;display:flex}.image-column.jsx-f65daddf8c381f0f{flex:0 0 280px}.image-container.jsx-f65daddf8c381f0f{border-radius:8px;width:100%;height:600px;overflow:hidden}.image-container.jsx-f65daddf8c381f0f:hover{transform:translateY(-8px)}.experience-img.jsx-f65daddf8c381f0f{object-fit:cover;width:100%;height:100%;display:block}.content-column.jsx-f65daddf8c381f0f{flex:1;min-width:300px}.intro-text.jsx-f65daddf8c381f0f{margin-top:2rem;margin-bottom:2rem}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:var(--p);color:#333;margin-bottom:1rem;line-height:1.7}.intro-text.jsx-f65daddf8c381f0f strong.jsx-f65daddf8c381f0f{color:#2c2c2c;font-weight:600}.experience-item.jsx-f65daddf8c381f0f{align-items:flex-start;display:flex}.bullet.jsx-f65daddf8c381f0f{color:#000;flex-shrink:0;margin-right:12px;font-size:1.5rem;line-height:1.4}.exp-content.jsx-f65daddf8c381f0f{color:#333;font-size:1rem}.exp-content.jsx-f65daddf8c381f0f strong.jsx-f65daddf8c381f0f{color:#2c2c2c;font-weight:600}.outcomes-intro.jsx-f65daddf8c381f0f{color:#333;margin-top:2rem;font-size:1.05rem}.outcomes-list.jsx-f65daddf8c381f0f{margin:0;padding:0;list-style:none}.outcome-item.jsx-f65daddf8c381f0f{color:#333;padding-left:25px;font-size:1rem;position:relative}.outcome-item.jsx-f65daddf8c381f0f:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.wow.fadeInUp.jsx-f65daddf8c381f0f{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.main-title.jsx-f65daddf8c381f0f{margin-bottom:3.5rem;font-size:2.3rem}.image-column.jsx-f65daddf8c381f0f{flex:0 0 300px}}@media (width>=1024px) and (width<=1199px){.container.jsx-f65daddf8c381f0f{max-width:960px}.main-title.jsx-f65daddf8c381f0f{font-size:2rem}.image-column.jsx-f65daddf8c381f0f{flex:0 0 240px}.image-container.jsx-f65daddf8c381f0f{height:550px}.experiences-wrapper.jsx-f65daddf8c381f0f{gap:35px}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f,.outcomes-intro.jsx-f65daddf8c381f0f{font-size:1rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.95rem}}@media (width>=768px) and (width<=1023px){.section__padding.jsx-f65daddf8c381f0f{padding:60px 0}.main-title.jsx-f65daddf8c381f0f{letter-spacing:1.5px;margin-bottom:2.5rem;font-size:1.7rem}.experiences-wrapper.jsx-f65daddf8c381f0f{flex-direction:column;gap:30px}.image-column.jsx-f65daddf8c381f0f{flex:none;width:100%}.image-container.jsx-f65daddf8c381f0f{height:350px}.content-column.jsx-f65daddf8c381f0f{width:100%;min-width:unset}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:1rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.95rem}}@media (width<=767px){.experiences-wrapper.jsx-f65daddf8c381f0f{flex-direction:column}.desktop-only.jsx-f65daddf8c381f0f{display:none}.mobile-bottom-images.jsx-f65daddf8c381f0f{flex-direction:row;gap:15px;margin-top:20px;display:flex}.mobile-bottom-images.jsx-f65daddf8c381f0f img.jsx-f65daddf8c381f0f{height:220px}.section__padding.jsx-f65daddf8c381f0f{padding:50px 0}.main-title.jsx-f65daddf8c381f0f{letter-spacing:1px;margin-bottom:2rem;font-size:1.4rem;line-height:1.3}.experiences-wrapper.jsx-f65daddf8c381f0f{flex-direction:column;gap:25px}.image-column.jsx-f65daddf8c381f0f{width:100%}.image-container.jsx-f65daddf8c381f0f{border-radius:6px;height:300px}.content-column.jsx-f65daddf8c381f0f{width:100%;min-width:unset}.intro-text.jsx-f65daddf8c381f0f{margin-bottom:1.5rem}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:.95rem;line-height:1.6}.experiences-list.jsx-f65daddf8c381f0f{margin-bottom:2rem}.experience-item.jsx-f65daddf8c381f0f{margin-bottom:.9rem}.bullet.jsx-f65daddf8c381f0f{margin-right:10px;font-size:1.3rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.9rem}.outcomes-intro.jsx-f65daddf8c381f0f{font-size:.95rem}.outcome-item.jsx-f65daddf8c381f0f{padding-left:22px;font-size:.9rem;line-height:1.7}.outcome-item.jsx-f65daddf8c381f0f:before{font-size:1.3rem}}@media (width<=480px){.image-column.jsx-f65daddf8c381f0f{flex:0 0 0}.container.jsx-f65daddf8c381f0f{padding:0 15px}.section__padding.jsx-f65daddf8c381f0f{padding:40px 0}.main-title.jsx-f65daddf8c381f0f{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.2rem}.image-container.jsx-f65daddf8c381f0f{height:250px}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:.9rem;line-height:1.5}.experience-item.jsx-f65daddf8c381f0f{margin-bottom:.8rem}.bullet.jsx-f65daddf8c381f0f{margin-right:8px;font-size:1.2rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.85rem;line-height:1.6}.outcomes-intro.jsx-f65daddf8c381f0f{font-size:.9rem}.outcome-item.jsx-f65daddf8c381f0f{padding-left:20px;font-size:.85rem}.outcome-item.jsx-f65daddf8c381f0f:before{font-size:1.2rem}}@media (width<=360px){.main-title.jsx-f65daddf8c381f0f{font-size:1.1rem;line-height:1.25}.image-container.jsx-f65daddf8c381f0f{height:220px}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:.85rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.8rem}.outcome-item.jsx-f65daddf8c381f0f{font-size:.8rem;line-height:1.6}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
@@ -5908,7 +5928,8 @@ function SideToSideContainers() {
     const sections = [
         {
             id: 1,
-            title: "IDEAL CLIENT PROFILES (WHO IT SELLS BEST TO)",
+            title: "IDEAL CLIENT PROFILES",
+            titleSecondLine: "(WHO IT SELLS BEST TO)",
             subtitle: "RainDrops is best suited for:",
             imagePosition: "right",
             image: "/assets/images/travelpartners/pickingteaplants.JPG",
@@ -5982,121 +6003,121 @@ function SideToSideContainers() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-aed01ce204291147" + " " + "side-to-side-section",
+                className: "jsx-8aca84ccffb3b615" + " " + "side-to-side-section",
                 children: [
                     sections.map((section, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-aed01ce204291147" + " " + `content-block ${section.imagePosition === "right" ? "image-right" : "image-left"} ${index % 2 === 0 ? "bg-light" : "bg-white"} ${section.id === 4 ? "section-inline-layout" : ""}`,
+                            className: "jsx-8aca84ccffb3b615" + " " + `content-block ${section.imagePosition === "right" ? "image-right" : "image-left"} ${section.id === 4 ? "section-inline-layout" : ""}`,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-aed01ce204291147" + " " + "container",
+                                className: "jsx-8aca84ccffb3b615" + " " + "container",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-aed01ce204291147" + " " + "content-wrapper wow fadeInUp",
+                                    className: "jsx-8aca84ccffb3b615" + " " + "content-wrapper wow fadeInUp",
                                     children: section.id === 4 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-aed01ce204291147" + " " + "inline-header-container",
+                                        className: "jsx-8aca84ccffb3b615" + " " + "inline-header-container",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-aed01ce204291147" + " " + "inline-header-content",
+                                            className: "jsx-8aca84ccffb3b615" + " " + "inline-header-content",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-aed01ce204291147" + " " + "flex-container",
+                                                className: "jsx-8aca84ccffb3b615" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-aed01ce204291147" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-8aca84ccffb3b615" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                                className: "jsx-aed01ce204291147" + " " + "section-title inline-title",
+                                                                className: "jsx-8aca84ccffb3b615" + " " + "section-title inline-title",
                                                                 children: section.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 112,
+                                                                lineNumber: 115,
                                                                 columnNumber: 27
                                                             }, this),
                                                             section.subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "jsx-aed01ce204291147" + " " + "section-subtitle",
+                                                                className: "jsx-8aca84ccffb3b615" + " " + "section-subtitle",
                                                                 children: section.subtitle
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 117,
+                                                                lineNumber: 120,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                className: "jsx-aed01ce204291147" + " " + "items-list",
+                                                                className: "jsx-8aca84ccffb3b615" + " " + "items-list",
                                                                 children: section.items.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                        className: "jsx-aed01ce204291147" + " " + "list-item",
+                                                                        className: "jsx-8aca84ccffb3b615" + " " + "list-item",
                                                                         children: item
                                                                     }, idx, false, {
                                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                        lineNumber: 124,
+                                                                        lineNumber: 127,
                                                                         columnNumber: 31
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 122,
+                                                                lineNumber: 125,
                                                                 columnNumber: 27
                                                             }, this),
                                                             section.footer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-aed01ce204291147" + " " + "section-footer",
+                                                                className: "jsx-8aca84ccffb3b615" + " " + "section-footer",
                                                                 children: section.footer
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 131,
+                                                                lineNumber: 134,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 105,
+                                                        lineNumber: 108,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-aed01ce204291147" + " " + `image-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-8aca84ccffb3b615" + " " + `image-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: section.image,
                                                             alt: section.imageAlt,
-                                                            className: "jsx-aed01ce204291147" + " " + "section-image-container-manwalking"
+                                                            className: "jsx-8aca84ccffb3b615" + " " + "section-image-container-manwalking"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                            lineNumber: 142,
+                                                            lineNumber: 145,
                                                             columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 135,
+                                                        lineNumber: 138,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 104,
+                                                lineNumber: 103,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                            lineNumber: 103,
+                                            lineNumber: 102,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 101,
                                         columnNumber: 19
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-aed01ce204291147" + " " + "section-title",
+                                                className: "jsx-8aca84ccffb3b615" + " " + "section-title",
                                                 children: [
                                                     section.title,
                                                     section.titleSecondLine && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                                className: "jsx-aed01ce204291147"
+                                                                className: "jsx-8aca84ccffb3b615"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 158,
+                                                                lineNumber: 161,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "jsx-aed01ce204291147" + " " + "title-second-line",
+                                                                className: "jsx-8aca84ccffb3b615" + " " + "title-second-line",
                                                                 children: section.titleSecondLine
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 159,
+                                                                lineNumber: 162,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
@@ -6104,198 +6125,198 @@ function SideToSideContainers() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 154,
+                                                lineNumber: 157,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-aed01ce204291147" + " " + "flex-container",
+                                                className: "jsx-8aca84ccffb3b615" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-aed01ce204291147" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-8aca84ccffb3b615" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: [
                                                             section.subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "jsx-aed01ce204291147" + " " + "section-subtitle",
+                                                                className: "jsx-8aca84ccffb3b615" + " " + "section-subtitle",
                                                                 children: section.subtitle
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 176,
+                                                                lineNumber: 183,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                className: "jsx-aed01ce204291147" + " " + "items-list",
+                                                                className: "jsx-8aca84ccffb3b615" + " " + "items-list",
                                                                 children: section.items.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                        className: "jsx-aed01ce204291147" + " " + "list-item",
+                                                                        className: "jsx-8aca84ccffb3b615" + " " + "list-item",
                                                                         children: item
                                                                     }, idx, false, {
                                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                        lineNumber: 183,
+                                                                        lineNumber: 190,
                                                                         columnNumber: 29
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 181,
+                                                                lineNumber: 188,
                                                                 columnNumber: 25
                                                             }, this),
                                                             section.footer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-aed01ce204291147" + " " + "section-footer",
+                                                                className: "jsx-8aca84ccffb3b615" + " " + "section-footer",
                                                                 children: section.footer
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 197,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 168,
+                                                        lineNumber: 175,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-aed01ce204291147" + " " + `image-content ${section.imagePosition === "right" ? "order-2" : "order-1"}`,
+                                                        className: "jsx-8aca84ccffb3b615" + " " + `image-content ${section.imagePosition === "right" ? "order-2" : "order-1"}`,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: section.image,
                                                             alt: section.imageAlt,
-                                                            className: "jsx-aed01ce204291147" + " " + "section-image-container"
+                                                            className: "jsx-8aca84ccffb3b615" + " " + "section-image-container"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                            lineNumber: 202,
+                                                            lineNumber: 209,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 195,
+                                                        lineNumber: 202,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 166,
+                                                lineNumber: 169,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                    lineNumber: 99,
+                                    lineNumber: 98,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                lineNumber: 98,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, this)
                         }, section.id, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                            lineNumber: 90,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-aed01ce204291147" + " " + "join-us-section",
+                        className: "jsx-8aca84ccffb3b615" + " " + "join-us-section",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-aed01ce204291147" + " " + "container",
+                            className: "jsx-8aca84ccffb3b615" + " " + "container",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-aed01ce204291147" + " " + "join-us-wrapper wow fadeInUp",
+                                className: "jsx-8aca84ccffb3b615" + " " + "join-us-wrapper wow fadeInUp",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-aed01ce204291147" + " " + "join-us-content",
+                                        className: "jsx-8aca84ccffb3b615" + " " + "join-us-content",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-aed01ce204291147" + " " + "join-us-title",
+                                                className: "jsx-8aca84ccffb3b615" + " " + "join-us-title",
                                                 children: "JOIN US"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 222,
+                                                lineNumber: 229,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "jsx-aed01ce204291147" + " " + "join-us-subtitle",
+                                                className: "jsx-8aca84ccffb3b615" + " " + "join-us-subtitle",
                                                 children: "Become A RainDrops Insight Partner"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 224,
+                                                lineNumber: 231,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "jsx-aed01ce204291147" + " " + "join-us-list",
+                                                className: "jsx-8aca84ccffb3b615" + " " + "join-us-list",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-aed01ce204291147",
+                                                        className: "jsx-8aca84ccffb3b615",
                                                         children: "Experience the villas."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 229,
+                                                        lineNumber: 236,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-aed01ce204291147",
+                                                        className: "jsx-8aca84ccffb3b615",
                                                         children: "Share it with the right clients."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 230,
+                                                        lineNumber: 237,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-aed01ce204291147",
+                                                        className: "jsx-8aca84ccffb3b615",
                                                         children: "Understand the environment."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 238,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 228,
+                                                lineNumber: 235,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-aed01ce204291147" + " " + "join-us-description",
+                                                className: "jsx-8aca84ccffb3b615" + " " + "join-us-description",
                                                 children: "RainDrops represents Sri Lanka's new luxury—defined by calmness, clarity and nature intelligence."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 234,
+                                                lineNumber: 241,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                        lineNumber: 221,
+                                        lineNumber: 228,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-aed01ce204291147" + " " + "join-us-image-wrapper",
+                                        className: "jsx-8aca84ccffb3b615" + " " + "join-us-image-wrapper",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-aed01ce204291147" + " " + "magazine-stack",
+                                            className: "jsx-8aca84ccffb3b615" + " " + "magazine-stack",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-aed01ce204291147" + " " + "magazine-cover",
+                                                    className: "jsx-8aca84ccffb3b615" + " " + "magazine-cover",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         src: "/assets/images/travelpartners/bookcoverimage.png",
                                                         alt: "RainDrops Insight Quarterly Magazine",
-                                                        width: 400,
-                                                        height: 400,
+                                                        width: 350,
+                                                        height: 380,
                                                         className: "magazine-img"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 245,
+                                                        lineNumber: 252,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                    lineNumber: 244,
+                                                    lineNumber: 251,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: handleReadNowClick,
-                                                    className: "jsx-aed01ce204291147" + " " + "read-now-btn",
+                                                    className: "jsx-8aca84ccffb3b615" + " " + "read-now-btn",
                                                     children: "Read Now"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                    lineNumber: 255,
+                                                    lineNumber: 262,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-aed01ce204291147" + " " + "open-magazine",
+                                                    className: "jsx-8aca84ccffb3b615" + " " + "open-magazine",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         src: "/assets/images/travelpartners/magazinecover.png",
                                                         alt: "Open Magazine with Articles",
@@ -6304,65 +6325,65 @@ function SideToSideContainers() {
                                                         className: "open-magazine-img"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 261,
+                                                        lineNumber: 268,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                    lineNumber: 260,
+                                                    lineNumber: 267,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                            lineNumber: 242,
+                                            lineNumber: 249,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                        lineNumber: 241,
+                                        lineNumber: 248,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                lineNumber: 219,
+                                lineNumber: 226,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                            lineNumber: 218,
+                            lineNumber: 225,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                        lineNumber: 217,
+                        lineNumber: 224,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                lineNumber: 88,
+                lineNumber: 89,
                 columnNumber: 7
             }, this),
             showPopup && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 onClick: handleClosePopup,
-                className: "jsx-aed01ce204291147" + " " + "popup-overlay",
+                className: "jsx-8aca84ccffb3b615" + " " + "popup-overlay",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     onClick: (e)=>e.stopPropagation(),
-                    className: "jsx-aed01ce204291147" + " " + "popup-container",
+                    className: "jsx-8aca84ccffb3b615" + " " + "popup-container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: handleClosePopup,
-                            className: "jsx-aed01ce204291147" + " " + "close-btn",
+                            className: "jsx-8aca84ccffb3b615" + " " + "close-btn",
                             children: "✕"
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                            lineNumber: 280,
+                            lineNumber: 287,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-aed01ce204291147" + " " + "popup-content",
+                            className: "jsx-8aca84ccffb3b615" + " " + "popup-content",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     position: "relative",
@@ -6370,7 +6391,7 @@ function SideToSideContainers() {
                                     width: "100%",
                                     height: 0
                                 },
-                                className: "jsx-aed01ce204291147",
+                                className: "jsx-8aca84ccffb3b615",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
                                     style: {
                                         position: "absolute",
@@ -6387,36 +6408,36 @@ function SideToSideContainers() {
                                     frameBorder: "0",
                                     allowTransparency: "true",
                                     allowFullScreen: true,
-                                    className: "jsx-aed01ce204291147"
+                                    className: "jsx-8aca84ccffb3b615"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                    lineNumber: 292,
+                                    lineNumber: 299,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                lineNumber: 284,
+                                lineNumber: 291,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                            lineNumber: 283,
+                            lineNumber: 290,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                    lineNumber: 279,
+                    lineNumber: 286,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                lineNumber: 278,
+                lineNumber: 285,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "aed01ce204291147",
-                children: '.side-to-side-section.jsx-aed01ce204291147{width:100%}.section-image-container.jsx-aed01ce204291147{object-fit:cover;border-radius:8px;width:500px;height:300px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.section-image-container-manwalking.jsx-aed01ce204291147{object-fit:cover;border-radius:8px;width:300px;height:500px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.content-block.jsx-aed01ce204291147{padding:60px 0;transition:background-color .3s}.bg-light.jsx-aed01ce204291147{background-color:#f9f9f9}.bg-white.jsx-aed01ce204291147{background-color:#fff}.container.jsx-aed01ce204291147{max-width:1200px;margin:0 auto;padding:0 20px}.content-wrapper.jsx-aed01ce204291147{width:100%}.section-title.jsx-aed01ce204291147{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:1.5px;color:#2c2c2c;margin-bottom:2.5rem;font-weight:400;line-height:1.3}.title-second-line.jsx-aed01ce204291147{margin-top:.5rem;display:block}.inline-header-container.jsx-aed01ce204291147{flex-direction:column;display:flex}.inline-title.jsx-aed01ce204291147{text-align:left;margin-bottom:2rem}.flex-container.jsx-aed01ce204291147{align-items:center;gap:50px;display:flex}.text-content.jsx-aed01ce204291147{flex:1;min-width:300px}.order-1.jsx-aed01ce204291147{order:1}.order-2.jsx-aed01ce204291147{order:2}.section-subtitle.jsx-aed01ce204291147{font-size:var(--p);color:#333;margin-bottom:1.5rem;font-weight:700;line-height:1.5}.items-list.jsx-aed01ce204291147{margin:0;padding:0;list-style:none}.list-item.jsx-aed01ce204291147{color:#444;margin-bottom:.5rem;padding-left:25px;font-size:1rem;line-height:1.8;position:relative}.list-item.jsx-aed01ce204291147:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.section-footer.jsx-aed01ce204291147{color:#555;margin-top:1.5rem;font-size:.95rem;font-style:italic;line-height:1.7}.image-content.jsx-aed01ce204291147{flex:1;justify-content:space-around;min-width:200px;display:flex}.image-container.jsx-aed01ce204291147{border-radius:8px;width:100%;height:350px;transition:transform .3s,box-shadow .3s;position:relative;overflow:hidden;box-shadow:0 8px 25px #0000001f}.image-container.jsx-aed01ce204291147:hover{transform:translateY(-8px);box-shadow:0 12px 35px #0000002e}.join-us-section.jsx-aed01ce204291147{background-color:#fff;padding:20px 0}.join-us-wrapper.jsx-aed01ce204291147{align-items:center;gap:60px;display:flex}.join-us-content.jsx-aed01ce204291147{flex:1;max-width:450px}.join-us-title.jsx-aed01ce204291147{letter-spacing:3px;color:#2c2c2c;font-size:2.5rem;font-weight:400}.join-us-subtitle.jsx-aed01ce204291147{color:#333;margin-bottom:1.5rem;font-size:1.2rem;font-weight:400}.join-us-list.jsx-aed01ce204291147{margin:0 0 2rem;padding:0;list-style:none}.join-us-list.jsx-aed01ce204291147 li.jsx-aed01ce204291147{color:#333;margin-bottom:.5rem;padding-left:25px;font-size:1rem;position:relative}.join-us-list.jsx-aed01ce204291147 li.jsx-aed01ce204291147:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.join-us-description.jsx-aed01ce204291147{color:#333;font-size:1rem;line-height:1.7}.join-us-image-wrapper.jsx-aed01ce204291147{flex:1;position:relative}.magazine-stack.jsx-aed01ce204291147{width:100%;max-width:650px;min-height:450px;margin:0 auto;position:relative}.magazine-cover.jsx-aed01ce204291147{border-radius:8px;width:280px;transition:transform .3s;position:absolute;top:0;left:0;overflow:hidden}.magazine-cover.jsx-aed01ce204291147:hover{transform:translateY(-5px)}.magazine-img.jsx-aed01ce204291147{width:100%;height:auto;display:block}.read-now-btn.jsx-aed01ce204291147{color:#fff;cursor:pointer;z-index:4;white-space:nowrap;background-color:#b89968;border:none;border-radius:10px;padding:16px 40px;font-size:1.05rem;font-weight:500;transition:all .3s;position:absolute;top:45%;left:240px;transform:translateY(-50%)}.read-now-btn.jsx-aed01ce204291147:hover{background-color:#a08758;transform:translateY(-50%)scale(1.05);box-shadow:0 8px 25px #b8996880}.read-now-btn.jsx-aed01ce204291147:active{transform:translateY(-50%)scale(.98)}.open-magazine.jsx-aed01ce204291147{z-index:1;border-radius:8px;justify-content:flex-end;width:500px;display:flex;position:absolute;bottom:0;right:0;overflow:hidden}.open-magazine-img.jsx-aed01ce204291147{width:100%;height:auto;display:block}.popup-overlay.jsx-aed01ce204291147{z-index:9999;background-color:#000000d9;justify-content:center;align-items:center;width:100%;height:100%;padding:20px;animation:.3s fadeIn;display:flex;position:fixed;top:0;left:0}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.popup-container.jsx-aed01ce204291147{background-color:#fff;border-radius:12px;width:100%;max-width:1200px;animation:.4s slideUp;position:relative;overflow:hidden;box-shadow:0 20px 60px #00000080}@keyframes slideUp{0%{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}.close-btn.jsx-aed01ce204291147{color:#fff;cursor:pointer;z-index:10000;background-color:#000000b3;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;font-size:24px;transition:all .3s;display:flex;position:absolute;top:15px;right:15px}.close-btn.jsx-aed01ce204291147:hover{background-color:#b89968;transform:rotate(90deg)}.popup-content.jsx-aed01ce204291147{width:100%;padding:10px}.wow.fadeInUp.jsx-aed01ce204291147{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.container.jsx-aed01ce204291147{max-width:1100px}.section-title.jsx-aed01ce204291147{margin-bottom:3rem;font-size:2rem}.inline-title.jsx-aed01ce204291147{margin-bottom:2rem;font-size:2rem}.flex-container.jsx-aed01ce204291147{gap:60px}.image-container.jsx-aed01ce204291147{height:400px}.magazine-cover.jsx-aed01ce204291147{width:300px}.read-now-btn.jsx-aed01ce204291147{padding:18px 45px;left:260px}.open-magazine.jsx-aed01ce204291147{width:550px}}@media (width>=1024px) and (width<=1199px){.container.jsx-aed01ce204291147{max-width:960px}.section-title.jsx-aed01ce204291147,.inline-title.jsx-aed01ce204291147{font-size:1.7rem}.flex-container.jsx-aed01ce204291147{gap:45px}.image-container.jsx-aed01ce204291147{height:360px}.content-block.jsx-aed01ce204291147{padding:70px 0}.join-us-wrapper.jsx-aed01ce204291147{gap:50px}.join-us-title.jsx-aed01ce204291147{font-size:2.2rem}.magazine-cover.jsx-aed01ce204291147{width:260px}.read-now-btn.jsx-aed01ce204291147{padding:14px 35px;font-size:1rem;left:220px}.open-magazine.jsx-aed01ce204291147{width:450px}}@media (width>=768px) and (width<=1023px){.container.jsx-aed01ce204291147{max-width:720px}.section-title.jsx-aed01ce204291147{letter-spacing:1px;margin-bottom:2rem;font-size:1.5rem}.inline-title.jsx-aed01ce204291147{font-size:1.5rem}.flex-container.jsx-aed01ce204291147{gap:35px}.image-container.jsx-aed01ce204291147{height:320px}.section-subtitle.jsx-aed01ce204291147{font-size:1rem}.list-item.jsx-aed01ce204291147{font-size:.95rem}.content-block.jsx-aed01ce204291147,.join-us-section.jsx-aed01ce204291147{padding:60px 0}.join-us-wrapper.jsx-aed01ce204291147{flex-direction:column;gap:40px}.join-us-content.jsx-aed01ce204291147{text-align:center;max-width:100%}.magazine-stack.jsx-aed01ce204291147{max-width:500px;min-height:380px}.read-now-btn.jsx-aed01ce204291147{top:40%;left:180px}.open-magazine.jsx-aed01ce204291147{width:400px}}@media (width<=767px){.content-block.jsx-aed01ce204291147{padding:50px 0}.section-title.jsx-aed01ce204291147{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.3rem;line-height:1.25}.inline-title.jsx-aed01ce204291147{text-align:center;margin-bottom:1.5rem;font-size:1.3rem}.title-second-line.jsx-aed01ce204291147{margin-top:.3rem;font-size:.9em}.flex-container.jsx-aed01ce204291147{flex-direction:column;gap:25px}.text-content.jsx-aed01ce204291147,.image-content.jsx-aed01ce204291147{width:100%;min-width:unset}.order-1.jsx-aed01ce204291147,.order-2.jsx-aed01ce204291147{order:initial}.text-content.jsx-aed01ce204291147{order:1}.image-content.jsx-aed01ce204291147{order:2}.section-subtitle.jsx-aed01ce204291147{margin-bottom:1.2rem;font-size:1rem}.list-item.jsx-aed01ce204291147{padding-left:22px;font-size:.9rem;line-height:1.7}.list-item.jsx-aed01ce204291147:before{font-size:1.3rem}.section-footer.jsx-aed01ce204291147{margin-top:1.2rem;font-size:.9rem}.image-container.jsx-aed01ce204291147{border-radius:6px;height:280px}.join-us-section.jsx-aed01ce204291147{padding:50px 0}.join-us-wrapper.jsx-aed01ce204291147{flex-direction:column;gap:50px}.join-us-content.jsx-aed01ce204291147{max-width:100%}.join-us-title.jsx-aed01ce204291147{font-size:2rem}.magazine-stack.jsx-aed01ce204291147{max-width:100%;min-height:320px}.magazine-cover.jsx-aed01ce204291147{margin:0 auto 20px;position:relative}.read-now-btn.jsx-aed01ce204291147{margin:20px auto;padding:14px 35px;display:block;position:static;transform:none}.read-now-btn.jsx-aed01ce204291147:hover{transform:scale(1.05)}.open-magazine.jsx-aed01ce204291147{width:100%;margin-top:20px;position:relative}.popup-container.jsx-aed01ce204291147{max-width:95%}}@media (width<=480px){.container.jsx-aed01ce204291147{padding:0 15px}.content-block.jsx-aed01ce204291147{padding:40px 0}.section-title.jsx-aed01ce204291147{letter-spacing:.3px;margin-bottom:1.2rem;font-size:1.1rem}.inline-title.jsx-aed01ce204291147{text-align:center;font-size:1.1rem}.title-second-line.jsx-aed01ce204291147{font-size:.85em}.flex-container.jsx-aed01ce204291147{gap:20px}.section-subtitle.jsx-aed01ce204291147{margin-bottom:1rem;font-size:.95rem}.list-item.jsx-aed01ce204291147{margin-bottom:.7rem;padding-left:20px;font-size:.85rem;line-height:1.6}.list-item.jsx-aed01ce204291147:before{font-size:1.2rem}.section-footer.jsx-aed01ce204291147{margin-top:1rem;font-size:.85rem;line-height:1.6}.image-container.jsx-aed01ce204291147{height:240px}.join-us-section.jsx-aed01ce204291147{padding:40px 0}.join-us-title.jsx-aed01ce204291147{letter-spacing:2px;font-size:1.6rem}.join-us-subtitle.jsx-aed01ce204291147{font-size:1.05rem}.read-now-btn.jsx-aed01ce204291147{padding:12px 30px;font-size:.95rem}.popup-overlay.jsx-aed01ce204291147{padding:10px}.close-btn.jsx-aed01ce204291147{width:35px;height:35px;font-size:20px;top:10px;right:10px}}@media (width<=360px){.content-block.jsx-aed01ce204291147{padding:35px 0}.section-title.jsx-aed01ce204291147{font-size:1rem;line-height:1.2}.inline-title.jsx-aed01ce204291147{text-align:center;font-size:1rem}.section-subtitle.jsx-aed01ce204291147{font-size:.9rem}.list-item.jsx-aed01ce204291147,.section-footer.jsx-aed01ce204291147{font-size:.8rem}.image-container.jsx-aed01ce204291147{height:220px}.join-us-title.jsx-aed01ce204291147{font-size:1.4rem}}'
+                id: "8aca84ccffb3b615",
+                children: '.side-to-side-section.jsx-8aca84ccffb3b615{width:100%}.section-image-container.jsx-8aca84ccffb3b615{object-fit:cover;border-radius:8px;width:500px;height:300px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.section-image-container-manwalking.jsx-8aca84ccffb3b615{object-fit:cover;border-radius:8px;width:400px;height:500px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.content-block.jsx-8aca84ccffb3b615{padding:60px 0;transition:background-color .3s}.bg-light-better.jsx-8aca84ccffb3b615{background-color:#efefefaa;padding:20px 5px 20px 50px}.bg-white-better.jsx-8aca84ccffb3b615{background-color:#fff;padding:20px 5px 20px 50px}.container.jsx-8aca84ccffb3b615{max-width:1200px;margin:0 auto;padding:0 20px}.content-wrapper.jsx-8aca84ccffb3b615{width:100%}.section-title.jsx-8aca84ccffb3b615{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:1.5px;color:#2c2c2c;margin-bottom:2.5rem;font-weight:400;line-height:1.3}.title-second-line.jsx-8aca84ccffb3b615{margin-top:.5rem;display:block}.inline-header-container.jsx-8aca84ccffb3b615{flex-direction:column;display:flex}.inline-title.jsx-8aca84ccffb3b615{text-align:left;margin-bottom:2rem}.flex-container.jsx-8aca84ccffb3b615{align-items:center;gap:50px;display:flex}.text-content.jsx-8aca84ccffb3b615{flex:1;min-width:300px}.order-1.jsx-8aca84ccffb3b615{order:1}.order-2.jsx-8aca84ccffb3b615{order:2}.section-subtitle.jsx-8aca84ccffb3b615{font-size:var(--p);color:#333;margin-bottom:1.5rem;font-weight:700;line-height:1.5}.items-list.jsx-8aca84ccffb3b615{margin:0;padding:0;list-style:none}.list-item.jsx-8aca84ccffb3b615{color:#444;margin-bottom:.5rem;padding-left:25px;font-size:1rem;line-height:1.8;position:relative}.list-item.jsx-8aca84ccffb3b615:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.section-footer.jsx-8aca84ccffb3b615{color:#555;margin-top:1.5rem;font-size:.95rem;font-style:italic;line-height:1.7}.image-content.jsx-8aca84ccffb3b615{flex:1;justify-content:space-around;min-width:200px;display:flex}.image-container.jsx-8aca84ccffb3b615{border-radius:8px;width:100%;height:350px;transition:transform .3s,box-shadow .3s;position:relative;overflow:hidden;box-shadow:0 8px 25px #0000001f}.image-container.jsx-8aca84ccffb3b615:hover{transform:translateY(-8px);box-shadow:0 12px 35px #0000002e}.join-us-section.jsx-8aca84ccffb3b615{background-color:#fff;padding:20px 0}.join-us-wrapper.jsx-8aca84ccffb3b615{align-items:center;gap:60px;display:flex}.join-us-content.jsx-8aca84ccffb3b615{flex:1;max-width:450px}.join-us-title.jsx-8aca84ccffb3b615{letter-spacing:3px;color:#2c2c2c;font-size:2.5rem;font-weight:400}.join-us-subtitle.jsx-8aca84ccffb3b615{color:#333;margin-bottom:1.5rem;font-size:1.2rem;font-weight:400}.join-us-list.jsx-8aca84ccffb3b615{margin:0 0 2rem;padding:0;list-style:none}.join-us-list.jsx-8aca84ccffb3b615 li.jsx-8aca84ccffb3b615{color:#333;margin-bottom:.5rem;padding-left:25px;font-size:1rem;position:relative}.join-us-list.jsx-8aca84ccffb3b615 li.jsx-8aca84ccffb3b615:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.join-us-description.jsx-8aca84ccffb3b615{color:#333;font-size:1rem;line-height:1.7}.join-us-image-wrapper.jsx-8aca84ccffb3b615{flex:1;position:relative}.magazine-stack.jsx-8aca84ccffb3b615{width:100%;max-width:650px;min-height:450px;margin:0 auto;position:relative}.magazine-cover.jsx-8aca84ccffb3b615{border-radius:8px;width:280px;margin-top:20px;transition:transform .3s;position:absolute;top:0;left:0;overflow:hidden;box-shadow:0 8px 25px #0003}.magazine-cover.jsx-8aca84ccffb3b615:hover{transform:translateY(-5px)}.magazine-img.jsx-8aca84ccffb3b615{width:100%;height:auto;display:block}.read-now-btn.jsx-8aca84ccffb3b615{color:#fff;cursor:pointer;z-index:4;white-space:nowrap;background-color:#b89968;border:none;border-radius:10px;padding:16px 40px;font-size:1.05rem;font-weight:500;transition:all .3s;position:absolute;top:45%;left:240px;transform:translateY(-50%)}.read-now-btn.jsx-8aca84ccffb3b615:hover{background-color:#a08758;transform:translateY(-50%)scale(1.05);box-shadow:0 8px 25px #b8996880}.read-now-btn.jsx-8aca84ccffb3b615:active{transform:translateY(-50%)scale(.98)}.open-magazine.jsx-8aca84ccffb3b615{z-index:1;border-radius:8px;justify-content:flex-end;width:500px;display:flex;position:absolute;bottom:0;right:0;overflow:hidden}.open-magazine-img.jsx-8aca84ccffb3b615{width:100%;height:auto;display:block}.popup-overlay.jsx-8aca84ccffb3b615{z-index:9999;background-color:#000000d9;justify-content:center;align-items:center;width:100%;height:100%;padding:20px;animation:.3s fadeIn;display:flex;position:fixed;top:0;left:0}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.popup-container.jsx-8aca84ccffb3b615{background-color:#fff;border-radius:12px;width:100%;max-width:1200px;animation:.4s slideUp;position:relative;overflow:hidden;box-shadow:0 20px 60px #00000080}@keyframes slideUp{0%{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}.close-btn.jsx-8aca84ccffb3b615{color:#fff;cursor:pointer;z-index:10000;background-color:#000000b3;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;font-size:24px;transition:all .3s;display:flex;position:absolute;top:15px;right:15px}.close-btn.jsx-8aca84ccffb3b615:hover{background-color:#b89968;transform:rotate(90deg)}.popup-content.jsx-8aca84ccffb3b615{width:100%;padding:10px}.wow.fadeInUp.jsx-8aca84ccffb3b615{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.container.jsx-8aca84ccffb3b615{max-width:1100px}.section-title.jsx-8aca84ccffb3b615{margin-bottom:3rem;font-size:2rem}.inline-title.jsx-8aca84ccffb3b615{margin-bottom:2rem;font-size:2rem}.flex-container.jsx-8aca84ccffb3b615{gap:60px}.image-container.jsx-8aca84ccffb3b615{height:400px}.magazine-cover.jsx-8aca84ccffb3b615{width:300px}.read-now-btn.jsx-8aca84ccffb3b615{padding:18px 45px;left:260px}.open-magazine.jsx-8aca84ccffb3b615{width:550px}}@media (width>=1024px) and (width<=1199px){.container.jsx-8aca84ccffb3b615{max-width:960px}.section-title.jsx-8aca84ccffb3b615,.inline-title.jsx-8aca84ccffb3b615{font-size:1.7rem}.flex-container.jsx-8aca84ccffb3b615{gap:45px}.image-container.jsx-8aca84ccffb3b615{height:360px}.content-block.jsx-8aca84ccffb3b615{padding:70px 0}.join-us-wrapper.jsx-8aca84ccffb3b615{gap:50px}.join-us-title.jsx-8aca84ccffb3b615{font-size:2.2rem}.magazine-cover.jsx-8aca84ccffb3b615{width:260px}.read-now-btn.jsx-8aca84ccffb3b615{padding:14px 35px;font-size:1rem;left:220px}.open-magazine.jsx-8aca84ccffb3b615{width:450px}}@media (width>=768px) and (width<=1023px){.container.jsx-8aca84ccffb3b615{max-width:720px}.section-title.jsx-8aca84ccffb3b615{letter-spacing:1px;margin-bottom:2rem;font-size:1.5rem}.inline-title.jsx-8aca84ccffb3b615{font-size:1.5rem}.flex-container.jsx-8aca84ccffb3b615{gap:35px}.image-container.jsx-8aca84ccffb3b615{height:320px}.section-subtitle.jsx-8aca84ccffb3b615{font-size:1rem}.list-item.jsx-8aca84ccffb3b615{font-size:.95rem}.content-block.jsx-8aca84ccffb3b615,.join-us-section.jsx-8aca84ccffb3b615{padding:60px 0}.join-us-wrapper.jsx-8aca84ccffb3b615{flex-direction:column;gap:40px}.join-us-content.jsx-8aca84ccffb3b615{text-align:center;max-width:100%}.magazine-stack.jsx-8aca84ccffb3b615{max-width:500px;min-height:380px}.read-now-btn.jsx-8aca84ccffb3b615{top:40%;left:180px}.open-magazine.jsx-8aca84ccffb3b615{width:400px}}@media (width<=767px){.content-block.jsx-8aca84ccffb3b615{padding:50px 0}.section-title.jsx-8aca84ccffb3b615{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.3rem;line-height:1.25}.inline-title.jsx-8aca84ccffb3b615{text-align:center;margin-bottom:1.5rem;font-size:1.3rem}.title-second-line.jsx-8aca84ccffb3b615{margin-top:.3rem;font-size:.9em}.flex-container.jsx-8aca84ccffb3b615{flex-direction:column;gap:25px}.text-content.jsx-8aca84ccffb3b615,.image-content.jsx-8aca84ccffb3b615{width:100%;min-width:unset}.order-1.jsx-8aca84ccffb3b615,.order-2.jsx-8aca84ccffb3b615{order:initial}.text-content.jsx-8aca84ccffb3b615{order:1}.image-content.jsx-8aca84ccffb3b615{order:2}.section-subtitle.jsx-8aca84ccffb3b615{margin-bottom:1.2rem;font-size:1rem}.list-item.jsx-8aca84ccffb3b615{padding-left:22px;font-size:.9rem;line-height:1.7}.list-item.jsx-8aca84ccffb3b615:before{font-size:1.3rem}.section-footer.jsx-8aca84ccffb3b615{margin-top:1.2rem;font-size:.9rem}.image-container.jsx-8aca84ccffb3b615{border-radius:6px;height:280px}.join-us-section.jsx-8aca84ccffb3b615{padding:50px 0}.join-us-wrapper.jsx-8aca84ccffb3b615{flex-direction:column;gap:50px}.join-us-content.jsx-8aca84ccffb3b615{max-width:100%}.join-us-title.jsx-8aca84ccffb3b615{font-size:2rem}.magazine-stack.jsx-8aca84ccffb3b615{max-width:100%;min-height:320px}.magazine-cover.jsx-8aca84ccffb3b615{margin:0 auto 20px;position:relative}.read-now-btn.jsx-8aca84ccffb3b615{margin:20px auto;padding:14px 35px;display:block;position:static;transform:none}.read-now-btn.jsx-8aca84ccffb3b615:hover{transform:scale(1.05)}.open-magazine.jsx-8aca84ccffb3b615{width:100%;margin-top:20px;position:relative}.popup-container.jsx-8aca84ccffb3b615{max-width:95%}}@media (width<=480px){.bg-light-better.jsx-8aca84ccffb3b615,.bg-white-better.jsx-8aca84ccffb3b615{padding:10px}.section-image-container-manwalking.jsx-8aca84ccffb3b615{height:300px}.container.jsx-8aca84ccffb3b615{padding:0 15px}.content-block.jsx-8aca84ccffb3b615{padding:40px 0}.section-title.jsx-8aca84ccffb3b615{letter-spacing:.3px;margin-bottom:1.2rem;font-size:1.1rem}.inline-title.jsx-8aca84ccffb3b615{text-align:center;font-size:1.1rem}.title-second-line.jsx-8aca84ccffb3b615{font-size:.85em}.flex-container.jsx-8aca84ccffb3b615{gap:20px}.section-subtitle.jsx-8aca84ccffb3b615{margin-bottom:1rem;font-size:.95rem}.list-item.jsx-8aca84ccffb3b615{margin-bottom:.7rem;padding-left:20px;font-size:.85rem;line-height:1.6}.list-item.jsx-8aca84ccffb3b615:before{font-size:1.2rem}.section-footer.jsx-8aca84ccffb3b615{margin-top:1rem;font-size:.85rem;line-height:1.6}.image-container.jsx-8aca84ccffb3b615{height:240px}.join-us-section.jsx-8aca84ccffb3b615{padding:40px 0}.join-us-title.jsx-8aca84ccffb3b615{letter-spacing:2px;font-size:1.6rem}.join-us-subtitle.jsx-8aca84ccffb3b615{font-size:1.05rem}.read-now-btn.jsx-8aca84ccffb3b615{padding:12px 30px;font-size:.95rem}.popup-overlay.jsx-8aca84ccffb3b615{padding:10px}.close-btn.jsx-8aca84ccffb3b615{width:35px;height:35px;font-size:20px;top:10px;right:10px}}@media (width<=360px){.content-block.jsx-8aca84ccffb3b615{padding:35px 0}.section-title.jsx-8aca84ccffb3b615{font-size:1rem;line-height:1.2}.inline-title.jsx-8aca84ccffb3b615{text-align:center;font-size:1rem}.section-subtitle.jsx-8aca84ccffb3b615{font-size:.9rem}.list-item.jsx-8aca84ccffb3b615,.section-footer.jsx-8aca84ccffb3b615{font-size:.8rem}.image-container.jsx-8aca84ccffb3b615{height:220px}.join-us-title.jsx-8aca84ccffb3b615{font-size:1.4rem}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);

@@ -182,7 +182,7 @@ export default function TravelPartners() {
           
 
           .main-title {
-            font-size: 2.8rem;
+            font-size: var(--h2);
             letter-spacing: 4px;
           }
 
@@ -213,7 +213,7 @@ export default function TravelPartners() {
           
 
           .main-title {
-            font-size: 2.3rem;
+            font-size: var(--h1);
             letter-spacing: 2.5px;
           }
 

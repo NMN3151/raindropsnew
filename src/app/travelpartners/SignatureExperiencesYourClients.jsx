@@ -42,30 +42,25 @@ function SignatureExperiencesYourClients() {
           </h2>
 
           <div className="experiences-wrapper">
-            {/* Left Image */}
-            <div
-              className="image-column left-image wow fadeInUp"
-              data-wow-delay="0.2s"
-            >
+            {/* LEFT IMAGE – DESKTOP ONLY */}
+            <div className="image-column left-image desktop-only">
               <div className="image-container">
-                <Image
+                <img
                   src="/assets/images/travelpartners/bothwalking.png"
-                  alt="Travel partners exploring nature with binoculars in rainforest"
-                  width={600}
-                  height={600}
+                  alt="Partners walking together"
                   className="partner-image"
                 />
               </div>
             </div>
 
-            {/* Center Content */}
-            <div className="content-column wow fadeInUp" data-wow-delay="0.3s">
+            {/* CENTER CONTENT */}
+            <div className="content-column wow fadeInUp">
               <div className="intro-text">
                 <p>
-                 These are not tours. They are inner journeys, optional, gentle and non-structured.
+                  These are not tours. They are inner journeys, optional, gentle and non-structured.
                 </p>
                 <p>
-                 Travel partners may recommend experiences individually or as curated combinations:
+                  Travel partners may recommend experiences individually or as curated combinations:
                 </p>
               </div>
 
@@ -90,19 +85,28 @@ function SignatureExperiencesYourClients() {
                   ))}
                 </ul>
               </div>
+
+              {/* ✅ MOBILE BOTTOM IMAGES */}
+              <div className="mobile-bottom-images">
+                <img
+                  src="/assets/images/travelpartners/bothwalking.png"
+                  alt="Partners walking together"
+                  className="partner-image"
+                />
+                <img
+                  src="/assets/images/travelpartners/rainforest.png"
+                  alt="Rainforest experience"
+                  className="partner-image"
+                />
+              </div>
             </div>
 
-            {/* Right Image */}
-            <div
-              className="image-column right-image wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+            {/* RIGHT IMAGE – DESKTOP ONLY */}
+            <div className="image-column right-image desktop-only">
               <div className="image-container">
-                <Image
+                <img
                   src="/assets/images/travelpartners/rainforest.png"
-                  alt="Travel partners exploring nature with binoculars in rainforest"
-                  width={600}
-                  height={600}
+                  alt="Rainforest experience"
                   className="partner-image"
                 />
               </div>
@@ -118,6 +122,18 @@ function SignatureExperiencesYourClients() {
           background-color: #f5f5f5;
           overflow: hidden;
         }
+          .mobile-bottom-images {
+          display: none;
+          margin-top: 2rem;
+          gap: 16px;
+          flex-direction: column;
+        }
+
+          .partner-image{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
 
         .container {
           max-width: 1200px;
@@ -219,6 +235,7 @@ function SignatureExperiencesYourClients() {
         .outcomes-intro {
           font-size: 1.05rem;
           color: #333;
+          margin-top: 2rem;
         }
 
         .outcomes-list {
@@ -350,6 +367,24 @@ function SignatureExperiencesYourClients() {
 
         /* Mobile - Large */
         @media (max-width: 767px) {
+        .experiences-wrapper {
+            flex-direction: column;
+          }
+
+          .desktop-only {
+            display: none;
+          }
+
+          .mobile-bottom-images {
+          margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            flex-direction: row;
+          }
+
+          .mobile-bottom-images img {
+            height: 220px;
+          }
           .section__padding {
             padding: 50px 0;
           }
@@ -423,6 +458,9 @@ function SignatureExperiencesYourClients() {
 
         /* Mobile - Small */
         @media (max-width: 480px) {
+        .image-column {
+          flex: 0 0 0;
+        }
           .container {
             padding: 0 15px;
           }
