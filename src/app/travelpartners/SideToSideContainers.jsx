@@ -367,12 +367,12 @@ function SideToSideContainers() {
 
         .bg-light-better {
           background-color: #efefefaa;
-          padding: 20px 5px 20px 50px;
+          padding: 0px 5px 0px 50px;
         }
 
         .bg-white-better {
           background-color: #ffffffff;
-          padding: 20px 5px 20px 50px;
+          padding: 0px 5px 0px 50px;
         }
 
         .container {

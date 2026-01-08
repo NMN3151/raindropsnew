@@ -194,7 +194,6 @@ function SignatureExperiencesYourClients() {
 
         .intro-text {
           margin-bottom: 2rem;
-          margin-top: 2rem;
         }
 
         .intro-text p {

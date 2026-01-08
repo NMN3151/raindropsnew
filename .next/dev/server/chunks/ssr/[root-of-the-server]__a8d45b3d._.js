@@ -5573,12 +5573,12 @@ function SignatureExperiencesYourClients() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-f65daddf8c381f0f" + " " + "signature-section section__padding",
+                className: "jsx-c16a8ab235e75feb" + " " + "signature-section section__padding",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-f65daddf8c381f0f" + " " + "container",
+                    className: "jsx-c16a8ab235e75feb" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "jsx-f65daddf8c381f0f" + " " + "main-title wow fadeInUp",
+                            className: "jsx-c16a8ab235e75feb" + " " + "main-title wow fadeInUp",
                             children: "SIGNATURE EXPERIENCES YOUR CLIENTS REMEMBER"
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5586,16 +5586,16 @@ function SignatureExperiencesYourClients() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-f65daddf8c381f0f" + " " + "experiences-wrapper",
+                            className: "jsx-c16a8ab235e75feb" + " " + "experiences-wrapper",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-f65daddf8c381f0f" + " " + "image-column left-image desktop-only",
+                                    className: "jsx-c16a8ab235e75feb" + " " + "image-column left-image desktop-only",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-f65daddf8c381f0f" + " " + "image-container",
+                                        className: "jsx-c16a8ab235e75feb" + " " + "image-container",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: "/assets/images/travelpartners/bothwalking.png",
                                             alt: "Partners walking together",
-                                            className: "jsx-f65daddf8c381f0f" + " " + "partner-image"
+                                            className: "jsx-c16a8ab235e75feb" + " " + "partner-image"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
                                             lineNumber: 48,
@@ -5612,13 +5612,13 @@ function SignatureExperiencesYourClients() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-f65daddf8c381f0f" + " " + "content-column wow fadeInUp",
+                                    className: "jsx-c16a8ab235e75feb" + " " + "content-column wow fadeInUp",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-f65daddf8c381f0f" + " " + "intro-text",
+                                            className: "jsx-c16a8ab235e75feb" + " " + "intro-text",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-f65daddf8c381f0f",
+                                                    className: "jsx-c16a8ab235e75feb",
                                                     children: "These are not tours. They are inner journeys, optional, gentle and non-structured."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5626,7 +5626,7 @@ function SignatureExperiencesYourClients() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-f65daddf8c381f0f",
+                                                    className: "jsx-c16a8ab235e75feb",
                                                     children: "Travel partners may recommend experiences individually or as curated combinations:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5640,12 +5640,12 @@ function SignatureExperiencesYourClients() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-f65daddf8c381f0f" + " " + "experiences-list",
+                                            className: "jsx-c16a8ab235e75feb" + " " + "experiences-list",
                                             children: experiences.map((exp, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-f65daddf8c381f0f" + " " + "experience-item",
+                                                    className: "jsx-c16a8ab235e75feb" + " " + "experience-item",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "jsx-f65daddf8c381f0f" + " " + "bullet",
+                                                            className: "jsx-c16a8ab235e75feb" + " " + "bullet",
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5653,10 +5653,10 @@ function SignatureExperiencesYourClients() {
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-f65daddf8c381f0f" + " " + "exp-content",
+                                                            className: "jsx-c16a8ab235e75feb" + " " + "exp-content",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                    className: "jsx-f65daddf8c381f0f",
+                                                                    className: "jsx-c16a8ab235e75feb",
                                                                     children: exp.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5683,10 +5683,10 @@ function SignatureExperiencesYourClients() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-f65daddf8c381f0f" + " " + "outcomes-section",
+                                            className: "jsx-c16a8ab235e75feb" + " " + "outcomes-section",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-f65daddf8c381f0f" + " " + "outcomes-intro",
+                                                    className: "jsx-c16a8ab235e75feb" + " " + "outcomes-intro",
                                                     children: "These experiences create:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5694,9 +5694,9 @@ function SignatureExperiencesYourClients() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    className: "jsx-f65daddf8c381f0f" + " " + "outcomes-list",
+                                                    className: "jsx-c16a8ab235e75feb" + " " + "outcomes-list",
                                                     children: outcomes.map((outcome, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-f65daddf8c381f0f" + " " + "outcome-item",
+                                                            className: "jsx-c16a8ab235e75feb" + " " + "outcome-item",
                                                             children: outcome
                                                         }, index, false, {
                                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5715,12 +5715,12 @@ function SignatureExperiencesYourClients() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-f65daddf8c381f0f" + " " + "mobile-bottom-images",
+                                            className: "jsx-c16a8ab235e75feb" + " " + "mobile-bottom-images",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: "/assets/images/travelpartners/bothwalking.png",
                                                     alt: "Partners walking together",
-                                                    className: "jsx-f65daddf8c381f0f" + " " + "partner-image"
+                                                    className: "jsx-c16a8ab235e75feb" + " " + "partner-image"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
                                                     lineNumber: 91,
@@ -5729,7 +5729,7 @@ function SignatureExperiencesYourClients() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: "/assets/images/travelpartners/rainforest.png",
                                                     alt: "Rainforest experience",
-                                                    className: "jsx-f65daddf8c381f0f" + " " + "partner-image"
+                                                    className: "jsx-c16a8ab235e75feb" + " " + "partner-image"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
                                                     lineNumber: 96,
@@ -5748,13 +5748,13 @@ function SignatureExperiencesYourClients() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-f65daddf8c381f0f" + " " + "image-column right-image desktop-only",
+                                    className: "jsx-c16a8ab235e75feb" + " " + "image-column right-image desktop-only",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-f65daddf8c381f0f" + " " + "image-container",
+                                        className: "jsx-c16a8ab235e75feb" + " " + "image-container",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: "/assets/images/travelpartners/rainforest.png",
                                             alt: "Rainforest experience",
-                                            className: "jsx-f65daddf8c381f0f" + " " + "partner-image"
+                                            className: "jsx-c16a8ab235e75feb" + " " + "partner-image"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
                                             lineNumber: 107,
@@ -5788,8 +5788,8 @@ function SignatureExperiencesYourClients() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "f65daddf8c381f0f",
-                children: '.signature-section.jsx-f65daddf8c381f0f{background-color:#f5f5f5;position:relative;overflow:hidden}.mobile-bottom-images.jsx-f65daddf8c381f0f{flex-direction:column;gap:16px;margin-top:2rem;display:none}.partner-image.jsx-f65daddf8c381f0f{object-fit:cover;width:100%;height:auto}.container.jsx-f65daddf8c381f0f{max-width:1200px;margin:0 auto;padding:0 20px}.section__padding.jsx-f65daddf8c381f0f{padding:80px 0}.main-title.jsx-f65daddf8c381f0f{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:2px;color:#2c2c2c;margin-bottom:3rem;font-weight:400}.experiences-wrapper.jsx-f65daddf8c381f0f{align-items:flex-start;gap:20px;display:flex}.image-column.jsx-f65daddf8c381f0f{flex:0 0 280px}.image-container.jsx-f65daddf8c381f0f{border-radius:8px;width:100%;height:600px;overflow:hidden}.image-container.jsx-f65daddf8c381f0f:hover{transform:translateY(-8px)}.experience-img.jsx-f65daddf8c381f0f{object-fit:cover;width:100%;height:100%;display:block}.content-column.jsx-f65daddf8c381f0f{flex:1;min-width:300px}.intro-text.jsx-f65daddf8c381f0f{margin-top:2rem;margin-bottom:2rem}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:var(--p);color:#333;margin-bottom:1rem;line-height:1.7}.intro-text.jsx-f65daddf8c381f0f strong.jsx-f65daddf8c381f0f{color:#2c2c2c;font-weight:600}.experience-item.jsx-f65daddf8c381f0f{align-items:flex-start;display:flex}.bullet.jsx-f65daddf8c381f0f{color:#000;flex-shrink:0;margin-right:12px;font-size:1.5rem;line-height:1.4}.exp-content.jsx-f65daddf8c381f0f{color:#333;font-size:1rem}.exp-content.jsx-f65daddf8c381f0f strong.jsx-f65daddf8c381f0f{color:#2c2c2c;font-weight:600}.outcomes-intro.jsx-f65daddf8c381f0f{color:#333;margin-top:2rem;font-size:1.05rem}.outcomes-list.jsx-f65daddf8c381f0f{margin:0;padding:0;list-style:none}.outcome-item.jsx-f65daddf8c381f0f{color:#333;padding-left:25px;font-size:1rem;position:relative}.outcome-item.jsx-f65daddf8c381f0f:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.wow.fadeInUp.jsx-f65daddf8c381f0f{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.main-title.jsx-f65daddf8c381f0f{margin-bottom:3.5rem;font-size:2.3rem}.image-column.jsx-f65daddf8c381f0f{flex:0 0 300px}}@media (width>=1024px) and (width<=1199px){.container.jsx-f65daddf8c381f0f{max-width:960px}.main-title.jsx-f65daddf8c381f0f{font-size:2rem}.image-column.jsx-f65daddf8c381f0f{flex:0 0 240px}.image-container.jsx-f65daddf8c381f0f{height:550px}.experiences-wrapper.jsx-f65daddf8c381f0f{gap:35px}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f,.outcomes-intro.jsx-f65daddf8c381f0f{font-size:1rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.95rem}}@media (width>=768px) and (width<=1023px){.section__padding.jsx-f65daddf8c381f0f{padding:60px 0}.main-title.jsx-f65daddf8c381f0f{letter-spacing:1.5px;margin-bottom:2.5rem;font-size:1.7rem}.experiences-wrapper.jsx-f65daddf8c381f0f{flex-direction:column;gap:30px}.image-column.jsx-f65daddf8c381f0f{flex:none;width:100%}.image-container.jsx-f65daddf8c381f0f{height:350px}.content-column.jsx-f65daddf8c381f0f{width:100%;min-width:unset}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:1rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.95rem}}@media (width<=767px){.experiences-wrapper.jsx-f65daddf8c381f0f{flex-direction:column}.desktop-only.jsx-f65daddf8c381f0f{display:none}.mobile-bottom-images.jsx-f65daddf8c381f0f{flex-direction:row;gap:15px;margin-top:20px;display:flex}.mobile-bottom-images.jsx-f65daddf8c381f0f img.jsx-f65daddf8c381f0f{height:220px}.section__padding.jsx-f65daddf8c381f0f{padding:50px 0}.main-title.jsx-f65daddf8c381f0f{letter-spacing:1px;margin-bottom:2rem;font-size:1.4rem;line-height:1.3}.experiences-wrapper.jsx-f65daddf8c381f0f{flex-direction:column;gap:25px}.image-column.jsx-f65daddf8c381f0f{width:100%}.image-container.jsx-f65daddf8c381f0f{border-radius:6px;height:300px}.content-column.jsx-f65daddf8c381f0f{width:100%;min-width:unset}.intro-text.jsx-f65daddf8c381f0f{margin-bottom:1.5rem}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:.95rem;line-height:1.6}.experiences-list.jsx-f65daddf8c381f0f{margin-bottom:2rem}.experience-item.jsx-f65daddf8c381f0f{margin-bottom:.9rem}.bullet.jsx-f65daddf8c381f0f{margin-right:10px;font-size:1.3rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.9rem}.outcomes-intro.jsx-f65daddf8c381f0f{font-size:.95rem}.outcome-item.jsx-f65daddf8c381f0f{padding-left:22px;font-size:.9rem;line-height:1.7}.outcome-item.jsx-f65daddf8c381f0f:before{font-size:1.3rem}}@media (width<=480px){.image-column.jsx-f65daddf8c381f0f{flex:0 0 0}.container.jsx-f65daddf8c381f0f{padding:0 15px}.section__padding.jsx-f65daddf8c381f0f{padding:40px 0}.main-title.jsx-f65daddf8c381f0f{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.2rem}.image-container.jsx-f65daddf8c381f0f{height:250px}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:.9rem;line-height:1.5}.experience-item.jsx-f65daddf8c381f0f{margin-bottom:.8rem}.bullet.jsx-f65daddf8c381f0f{margin-right:8px;font-size:1.2rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.85rem;line-height:1.6}.outcomes-intro.jsx-f65daddf8c381f0f{font-size:.9rem}.outcome-item.jsx-f65daddf8c381f0f{padding-left:20px;font-size:.85rem}.outcome-item.jsx-f65daddf8c381f0f:before{font-size:1.2rem}}@media (width<=360px){.main-title.jsx-f65daddf8c381f0f{font-size:1.1rem;line-height:1.25}.image-container.jsx-f65daddf8c381f0f{height:220px}.intro-text.jsx-f65daddf8c381f0f p.jsx-f65daddf8c381f0f{font-size:.85rem}.exp-content.jsx-f65daddf8c381f0f{font-size:.8rem}.outcome-item.jsx-f65daddf8c381f0f{font-size:.8rem;line-height:1.6}}'
+                id: "c16a8ab235e75feb",
+                children: '.signature-section.jsx-c16a8ab235e75feb{background-color:#f5f5f5;position:relative;overflow:hidden}.mobile-bottom-images.jsx-c16a8ab235e75feb{flex-direction:column;gap:16px;margin-top:2rem;display:none}.partner-image.jsx-c16a8ab235e75feb{object-fit:cover;width:100%;height:auto}.container.jsx-c16a8ab235e75feb{max-width:1200px;margin:0 auto;padding:0 20px}.section__padding.jsx-c16a8ab235e75feb{padding:80px 0}.main-title.jsx-c16a8ab235e75feb{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:2px;color:#2c2c2c;margin-bottom:3rem;font-weight:400}.experiences-wrapper.jsx-c16a8ab235e75feb{align-items:flex-start;gap:20px;display:flex}.image-column.jsx-c16a8ab235e75feb{flex:0 0 280px}.image-container.jsx-c16a8ab235e75feb{border-radius:8px;width:100%;height:600px;overflow:hidden}.image-container.jsx-c16a8ab235e75feb:hover{transform:translateY(-8px)}.experience-img.jsx-c16a8ab235e75feb{object-fit:cover;width:100%;height:100%;display:block}.content-column.jsx-c16a8ab235e75feb{flex:1;min-width:300px}.intro-text.jsx-c16a8ab235e75feb{margin-bottom:2rem}.intro-text.jsx-c16a8ab235e75feb p.jsx-c16a8ab235e75feb{font-size:var(--p);color:#333;margin-bottom:1rem;line-height:1.7}.intro-text.jsx-c16a8ab235e75feb strong.jsx-c16a8ab235e75feb{color:#2c2c2c;font-weight:600}.experience-item.jsx-c16a8ab235e75feb{align-items:flex-start;display:flex}.bullet.jsx-c16a8ab235e75feb{color:#000;flex-shrink:0;margin-right:12px;font-size:1.5rem;line-height:1.4}.exp-content.jsx-c16a8ab235e75feb{color:#333;font-size:1rem}.exp-content.jsx-c16a8ab235e75feb strong.jsx-c16a8ab235e75feb{color:#2c2c2c;font-weight:600}.outcomes-intro.jsx-c16a8ab235e75feb{color:#333;margin-top:2rem;font-size:1.05rem}.outcomes-list.jsx-c16a8ab235e75feb{margin:0;padding:0;list-style:none}.outcome-item.jsx-c16a8ab235e75feb{color:#333;padding-left:25px;font-size:1rem;position:relative}.outcome-item.jsx-c16a8ab235e75feb:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.wow.fadeInUp.jsx-c16a8ab235e75feb{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.main-title.jsx-c16a8ab235e75feb{margin-bottom:3.5rem;font-size:2.3rem}.image-column.jsx-c16a8ab235e75feb{flex:0 0 300px}}@media (width>=1024px) and (width<=1199px){.container.jsx-c16a8ab235e75feb{max-width:960px}.main-title.jsx-c16a8ab235e75feb{font-size:2rem}.image-column.jsx-c16a8ab235e75feb{flex:0 0 240px}.image-container.jsx-c16a8ab235e75feb{height:550px}.experiences-wrapper.jsx-c16a8ab235e75feb{gap:35px}.intro-text.jsx-c16a8ab235e75feb p.jsx-c16a8ab235e75feb,.outcomes-intro.jsx-c16a8ab235e75feb{font-size:1rem}.exp-content.jsx-c16a8ab235e75feb{font-size:.95rem}}@media (width>=768px) and (width<=1023px){.section__padding.jsx-c16a8ab235e75feb{padding:60px 0}.main-title.jsx-c16a8ab235e75feb{letter-spacing:1.5px;margin-bottom:2.5rem;font-size:1.7rem}.experiences-wrapper.jsx-c16a8ab235e75feb{flex-direction:column;gap:30px}.image-column.jsx-c16a8ab235e75feb{flex:none;width:100%}.image-container.jsx-c16a8ab235e75feb{height:350px}.content-column.jsx-c16a8ab235e75feb{width:100%;min-width:unset}.intro-text.jsx-c16a8ab235e75feb p.jsx-c16a8ab235e75feb{font-size:1rem}.exp-content.jsx-c16a8ab235e75feb{font-size:.95rem}}@media (width<=767px){.experiences-wrapper.jsx-c16a8ab235e75feb{flex-direction:column}.desktop-only.jsx-c16a8ab235e75feb{display:none}.mobile-bottom-images.jsx-c16a8ab235e75feb{flex-direction:row;gap:15px;margin-top:20px;display:flex}.mobile-bottom-images.jsx-c16a8ab235e75feb img.jsx-c16a8ab235e75feb{height:220px}.section__padding.jsx-c16a8ab235e75feb{padding:50px 0}.main-title.jsx-c16a8ab235e75feb{letter-spacing:1px;margin-bottom:2rem;font-size:1.4rem;line-height:1.3}.experiences-wrapper.jsx-c16a8ab235e75feb{flex-direction:column;gap:25px}.image-column.jsx-c16a8ab235e75feb{width:100%}.image-container.jsx-c16a8ab235e75feb{border-radius:6px;height:300px}.content-column.jsx-c16a8ab235e75feb{width:100%;min-width:unset}.intro-text.jsx-c16a8ab235e75feb{margin-bottom:1.5rem}.intro-text.jsx-c16a8ab235e75feb p.jsx-c16a8ab235e75feb{font-size:.95rem;line-height:1.6}.experiences-list.jsx-c16a8ab235e75feb{margin-bottom:2rem}.experience-item.jsx-c16a8ab235e75feb{margin-bottom:.9rem}.bullet.jsx-c16a8ab235e75feb{margin-right:10px;font-size:1.3rem}.exp-content.jsx-c16a8ab235e75feb{font-size:.9rem}.outcomes-intro.jsx-c16a8ab235e75feb{font-size:.95rem}.outcome-item.jsx-c16a8ab235e75feb{padding-left:22px;font-size:.9rem;line-height:1.7}.outcome-item.jsx-c16a8ab235e75feb:before{font-size:1.3rem}}@media (width<=480px){.image-column.jsx-c16a8ab235e75feb{flex:0 0 0}.container.jsx-c16a8ab235e75feb{padding:0 15px}.section__padding.jsx-c16a8ab235e75feb{padding:40px 0}.main-title.jsx-c16a8ab235e75feb{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.2rem}.image-container.jsx-c16a8ab235e75feb{height:250px}.intro-text.jsx-c16a8ab235e75feb p.jsx-c16a8ab235e75feb{font-size:.9rem;line-height:1.5}.experience-item.jsx-c16a8ab235e75feb{margin-bottom:.8rem}.bullet.jsx-c16a8ab235e75feb{margin-right:8px;font-size:1.2rem}.exp-content.jsx-c16a8ab235e75feb{font-size:.85rem;line-height:1.6}.outcomes-intro.jsx-c16a8ab235e75feb{font-size:.9rem}.outcome-item.jsx-c16a8ab235e75feb{padding-left:20px;font-size:.85rem}.outcome-item.jsx-c16a8ab235e75feb:before{font-size:1.2rem}}@media (width<=360px){.main-title.jsx-c16a8ab235e75feb{font-size:1.1rem;line-height:1.25}.image-container.jsx-c16a8ab235e75feb{height:220px}.intro-text.jsx-c16a8ab235e75feb p.jsx-c16a8ab235e75feb{font-size:.85rem}.exp-content.jsx-c16a8ab235e75feb{font-size:.8rem}.outcome-item.jsx-c16a8ab235e75feb{font-size:.8rem;line-height:1.6}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
@@ -5891,26 +5891,26 @@ function SideToSideContainers() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-1739af8fdf331a21" + " " + "side-to-side-section",
+                className: "jsx-c9bb22109e591fde" + " " + "side-to-side-section",
                 children: [
                     sections.map((section, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-1739af8fdf331a21" + " " + `content-block ${section.imagePosition === "right" ? "image-right" : "image-left"} ${section.id === 4 ? "section-inline-layout" : ""}`,
+                            className: "jsx-c9bb22109e591fde" + " " + `content-block ${section.imagePosition === "right" ? "image-right" : "image-left"} ${section.id === 4 ? "section-inline-layout" : ""}`,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-1739af8fdf331a21" + " " + "container",
+                                className: "jsx-c9bb22109e591fde" + " " + "container",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-1739af8fdf331a21" + " " + "content-wrapper wow fadeInUp",
+                                    className: "jsx-c9bb22109e591fde" + " " + "content-wrapper wow fadeInUp",
                                     children: section.id === 4 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-1739af8fdf331a21" + " " + "inline-header-container",
+                                        className: "jsx-c9bb22109e591fde" + " " + "inline-header-container",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-1739af8fdf331a21" + " " + "inline-header-content",
+                                            className: "jsx-c9bb22109e591fde" + " " + "inline-header-content",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-1739af8fdf331a21" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
+                                                className: "jsx-c9bb22109e591fde" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-1739af8fdf331a21" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-c9bb22109e591fde" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                                className: "jsx-1739af8fdf331a21" + " " + "section-title inline-title",
+                                                                className: "jsx-c9bb22109e591fde" + " " + "section-title inline-title",
                                                                 children: section.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -5918,7 +5918,7 @@ function SideToSideContainers() {
                                                                 columnNumber: 27
                                                             }, this),
                                                             section.subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "jsx-1739af8fdf331a21" + " " + "section-subtitle",
+                                                                className: "jsx-c9bb22109e591fde" + " " + "section-subtitle",
                                                                 children: section.subtitle
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -5926,9 +5926,9 @@ function SideToSideContainers() {
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                className: "jsx-1739af8fdf331a21" + " " + "items-list",
+                                                                className: "jsx-c9bb22109e591fde" + " " + "items-list",
                                                                 children: section.items.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                        className: "jsx-1739af8fdf331a21" + " " + "list-item",
+                                                                        className: "jsx-c9bb22109e591fde" + " " + "list-item",
                                                                         children: item
                                                                     }, idx, false, {
                                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -5941,7 +5941,7 @@ function SideToSideContainers() {
                                                                 columnNumber: 27
                                                             }, this),
                                                             section.footer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-1739af8fdf331a21" + " " + "section-footer",
+                                                                className: "jsx-c9bb22109e591fde" + " " + "section-footer",
                                                                 children: section.footer
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -5955,11 +5955,11 @@ function SideToSideContainers() {
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-1739af8fdf331a21" + " " + `image-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-c9bb22109e591fde" + " " + `image-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: section.image,
                                                             alt: section.imageAlt,
-                                                            className: "jsx-1739af8fdf331a21" + " " + "section-image-container-manwalking"
+                                                            className: "jsx-c9bb22109e591fde" + " " + "section-image-container-manwalking"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
                                                             lineNumber: 145,
@@ -5988,20 +5988,20 @@ function SideToSideContainers() {
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-1739af8fdf331a21" + " " + `section-title ${section.id === 1 ? "single-line-desktop-title" : ""}`,
+                                                className: "jsx-c9bb22109e591fde" + " " + `section-title ${section.id === 1 ? "single-line-desktop-title" : ""}`,
                                                 children: [
                                                     section.title,
                                                     section.titleSecondLine && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                                className: "jsx-1739af8fdf331a21"
+                                                                className: "jsx-c9bb22109e591fde"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
                                                                 lineNumber: 165,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "jsx-1739af8fdf331a21" + " " + "title-second-line",
+                                                                className: "jsx-c9bb22109e591fde" + " " + "title-second-line",
                                                                 children: section.titleSecondLine
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6017,13 +6017,13 @@ function SideToSideContainers() {
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-1739af8fdf331a21" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
+                                                className: "jsx-c9bb22109e591fde" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-1739af8fdf331a21" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-c9bb22109e591fde" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: [
                                                             section.subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "jsx-1739af8fdf331a21" + " " + "section-subtitle",
+                                                                className: "jsx-c9bb22109e591fde" + " " + "section-subtitle",
                                                                 children: section.subtitle
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6031,9 +6031,9 @@ function SideToSideContainers() {
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                className: "jsx-1739af8fdf331a21" + " " + "items-list",
+                                                                className: "jsx-c9bb22109e591fde" + " " + "items-list",
                                                                 children: section.items.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                        className: "jsx-1739af8fdf331a21" + " " + "list-item",
+                                                                        className: "jsx-c9bb22109e591fde" + " " + "list-item",
                                                                         children: item
                                                                     }, idx, false, {
                                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6046,7 +6046,7 @@ function SideToSideContainers() {
                                                                 columnNumber: 25
                                                             }, this),
                                                             section.footer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-1739af8fdf331a21" + " " + "section-footer",
+                                                                className: "jsx-c9bb22109e591fde" + " " + "section-footer",
                                                                 children: section.footer
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6060,11 +6060,11 @@ function SideToSideContainers() {
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-1739af8fdf331a21" + " " + `image-content ${section.imagePosition === "right" ? "order-2" : "order-1"}`,
+                                                        className: "jsx-c9bb22109e591fde" + " " + `image-content ${section.imagePosition === "right" ? "order-2" : "order-1"}`,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: section.image,
                                                             alt: section.imageAlt,
-                                                            className: "jsx-1739af8fdf331a21" + " " + "section-image-container"
+                                                            className: "jsx-c9bb22109e591fde" + " " + "section-image-container"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
                                                             lineNumber: 213,
@@ -6099,17 +6099,17 @@ function SideToSideContainers() {
                             columnNumber: 11
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-1739af8fdf331a21" + " " + "join-us-section",
+                        className: "jsx-c9bb22109e591fde" + " " + "join-us-section",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-1739af8fdf331a21" + " " + "container",
+                            className: "jsx-c9bb22109e591fde" + " " + "container",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-1739af8fdf331a21" + " " + "join-us-wrapper wow fadeInUp",
+                                className: "jsx-c9bb22109e591fde" + " " + "join-us-wrapper wow fadeInUp",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-1739af8fdf331a21" + " " + "join-us-content",
+                                        className: "jsx-c9bb22109e591fde" + " " + "join-us-content",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-1739af8fdf331a21" + " " + "join-us-title",
+                                                className: "jsx-c9bb22109e591fde" + " " + "join-us-title",
                                                 children: "JOIN US"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6117,7 +6117,7 @@ function SideToSideContainers() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "jsx-1739af8fdf331a21" + " " + "join-us-subtitle",
+                                                className: "jsx-c9bb22109e591fde" + " " + "join-us-subtitle",
                                                 children: "Become A RainDrops Insight Partner"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6125,10 +6125,10 @@ function SideToSideContainers() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "jsx-1739af8fdf331a21" + " " + "join-us-list",
+                                                className: "jsx-c9bb22109e591fde" + " " + "join-us-list",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-1739af8fdf331a21",
+                                                        className: "jsx-c9bb22109e591fde",
                                                         children: "Experience the villas."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6136,7 +6136,7 @@ function SideToSideContainers() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-1739af8fdf331a21",
+                                                        className: "jsx-c9bb22109e591fde",
                                                         children: "Share it with the right clients."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6144,7 +6144,7 @@ function SideToSideContainers() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-1739af8fdf331a21",
+                                                        className: "jsx-c9bb22109e591fde",
                                                         children: "Understand the environment."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6158,7 +6158,7 @@ function SideToSideContainers() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-1739af8fdf331a21" + " " + "join-us-description",
+                                                className: "jsx-c9bb22109e591fde" + " " + "join-us-description",
                                                 children: "RainDrops represents Sri Lanka's new luxury—defined by calmness, clarity and nature intelligence."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6172,12 +6172,12 @@ function SideToSideContainers() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-1739af8fdf331a21" + " " + "join-us-image-wrapper",
+                                        className: "jsx-c9bb22109e591fde" + " " + "join-us-image-wrapper",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-1739af8fdf331a21" + " " + "magazine-stack",
+                                            className: "jsx-c9bb22109e591fde" + " " + "magazine-stack",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-1739af8fdf331a21" + " " + "magazine-cover",
+                                                    className: "jsx-c9bb22109e591fde" + " " + "magazine-cover",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         src: "/assets/images/travelpartners/bookcoverimage.png",
                                                         alt: "RainDrops Insight Quarterly Magazine",
@@ -6196,7 +6196,7 @@ function SideToSideContainers() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: handleReadNowClick,
-                                                    className: "jsx-1739af8fdf331a21" + " " + "read-now-btn",
+                                                    className: "jsx-c9bb22109e591fde" + " " + "read-now-btn",
                                                     children: "Read Now"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6204,7 +6204,7 @@ function SideToSideContainers() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-1739af8fdf331a21" + " " + "open-magazine",
+                                                    className: "jsx-c9bb22109e591fde" + " " + "open-magazine",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         src: "/assets/images/travelpartners/magazinecover.png",
                                                         alt: "Open Magazine with Articles",
@@ -6256,14 +6256,14 @@ function SideToSideContainers() {
             }, this),
             showPopup && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 onClick: handleClosePopup,
-                className: "jsx-1739af8fdf331a21" + " " + "popup-overlay",
+                className: "jsx-c9bb22109e591fde" + " " + "popup-overlay",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     onClick: (e)=>e.stopPropagation(),
-                    className: "jsx-1739af8fdf331a21" + " " + "popup-container",
+                    className: "jsx-c9bb22109e591fde" + " " + "popup-container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: handleClosePopup,
-                            className: "jsx-1739af8fdf331a21" + " " + "close-btn",
+                            className: "jsx-c9bb22109e591fde" + " " + "close-btn",
                             children: "✕"
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6271,7 +6271,7 @@ function SideToSideContainers() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-1739af8fdf331a21" + " " + "popup-content",
+                            className: "jsx-c9bb22109e591fde" + " " + "popup-content",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     position: "relative",
@@ -6279,7 +6279,7 @@ function SideToSideContainers() {
                                     width: "100%",
                                     height: 0
                                 },
-                                className: "jsx-1739af8fdf331a21",
+                                className: "jsx-c9bb22109e591fde",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
                                     style: {
                                         position: "absolute",
@@ -6296,7 +6296,7 @@ function SideToSideContainers() {
                                     frameBorder: "0",
                                     allowTransparency: "true",
                                     allowFullScreen: true,
-                                    className: "jsx-1739af8fdf331a21"
+                                    className: "jsx-c9bb22109e591fde"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
                                     lineNumber: 303,
@@ -6324,8 +6324,8 @@ function SideToSideContainers() {
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "1739af8fdf331a21",
-                children: '.side-to-side-section.jsx-1739af8fdf331a21{width:100%}.single-line-desktop-title.jsx-1739af8fdf331a21 br.jsx-1739af8fdf331a21{display:none}.single-line-desktop-title.jsx-1739af8fdf331a21{white-space:nowrap}.single-line-desktop-title.jsx-1739af8fdf331a21 .title-second-line.jsx-1739af8fdf331a21{margin-left:8px;display:inline}.section-image-container.jsx-1739af8fdf331a21{object-fit:cover;border-radius:8px;width:500px;height:300px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.section-image-container-manwalking.jsx-1739af8fdf331a21{object-fit:cover;border-radius:8px;width:400px;height:500px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.content-block.jsx-1739af8fdf331a21{padding:60px 0;transition:background-color .3s}.bg-light-better.jsx-1739af8fdf331a21{background-color:#efefefaa;padding:20px 5px 20px 50px}.bg-white-better.jsx-1739af8fdf331a21{background-color:#fff;padding:20px 5px 20px 50px}.container.jsx-1739af8fdf331a21{max-width:1200px;margin:0 auto;padding:0 20px}.content-wrapper.jsx-1739af8fdf331a21{width:100%}.section-title.jsx-1739af8fdf331a21{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:1.5px;color:#2c2c2c;margin-bottom:2.5rem;font-weight:400;line-height:1.3}.title-second-line.jsx-1739af8fdf331a21{margin-top:.5rem;display:block}.inline-header-container.jsx-1739af8fdf331a21{flex-direction:column;display:flex}.inline-title.jsx-1739af8fdf331a21{text-align:left;margin-bottom:2rem}.flex-container.jsx-1739af8fdf331a21{align-items:center;gap:50px;display:flex}.text-content.jsx-1739af8fdf331a21{flex:1;min-width:300px}.order-1.jsx-1739af8fdf331a21{order:1}.order-2.jsx-1739af8fdf331a21{order:2}.section-subtitle.jsx-1739af8fdf331a21{font-size:var(--p);color:#333;margin-bottom:1.5rem;font-weight:700;line-height:1.5}.items-list.jsx-1739af8fdf331a21{margin:0;padding:0;list-style:none}.list-item.jsx-1739af8fdf331a21{color:#444;margin-bottom:.5rem;padding-left:25px;font-size:1rem;line-height:1.8;position:relative}.list-item.jsx-1739af8fdf331a21:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.section-footer.jsx-1739af8fdf331a21{color:#555;margin-top:1.5rem;font-size:.95rem;font-style:italic;line-height:1.7}.image-content.jsx-1739af8fdf331a21{flex:1;justify-content:space-around;min-width:200px;display:flex}.image-container.jsx-1739af8fdf331a21{border-radius:8px;width:100%;height:350px;transition:transform .3s,box-shadow .3s;position:relative;overflow:hidden;box-shadow:0 8px 25px #0000001f}.image-container.jsx-1739af8fdf331a21:hover{transform:translateY(-8px);box-shadow:0 12px 35px #0000002e}.join-us-section.jsx-1739af8fdf331a21{background-color:#fff;padding:20px 0}.join-us-wrapper.jsx-1739af8fdf331a21{align-items:center;gap:60px;display:flex}.join-us-content.jsx-1739af8fdf331a21{flex:1;max-width:450px}.join-us-title.jsx-1739af8fdf331a21{letter-spacing:3px;color:#2c2c2c;font-size:2.5rem;font-weight:400}.join-us-subtitle.jsx-1739af8fdf331a21{color:#333;margin-bottom:1.5rem;font-size:1.2rem;font-weight:400}.join-us-list.jsx-1739af8fdf331a21{margin:0 0 2rem;padding:0;list-style:none}.join-us-list.jsx-1739af8fdf331a21 li.jsx-1739af8fdf331a21{color:#333;margin-bottom:.5rem;padding-left:25px;font-size:1rem;position:relative}.join-us-list.jsx-1739af8fdf331a21 li.jsx-1739af8fdf331a21:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.join-us-description.jsx-1739af8fdf331a21{color:#333;font-size:1rem;line-height:1.7}.join-us-image-wrapper.jsx-1739af8fdf331a21{flex:1;position:relative}.magazine-stack.jsx-1739af8fdf331a21{width:100%;max-width:650px;min-height:450px;margin:0 auto;position:relative}.magazine-cover.jsx-1739af8fdf331a21{border-radius:8px;width:280px;margin-top:20px;transition:transform .3s;position:absolute;top:0;left:0;overflow:hidden;box-shadow:0 8px 25px #0003}.magazine-cover.jsx-1739af8fdf331a21:hover{transform:translateY(-5px)}.magazine-img.jsx-1739af8fdf331a21{width:100%;height:auto;display:block}.read-now-btn.jsx-1739af8fdf331a21{color:#fff;cursor:pointer;z-index:4;white-space:nowrap;background-color:#b89968;border:none;border-radius:10px;padding:16px 40px;font-size:1.05rem;font-weight:500;transition:all .3s;position:absolute;top:45%;left:240px;transform:translateY(-50%)}.read-now-btn.jsx-1739af8fdf331a21:hover{background-color:#a08758;transform:translateY(-50%)scale(1.05);box-shadow:0 8px 25px #b8996880}.read-now-btn.jsx-1739af8fdf331a21:active{transform:translateY(-50%)scale(.98)}.open-magazine.jsx-1739af8fdf331a21{z-index:1;border-radius:8px;justify-content:flex-end;width:500px;display:flex;position:absolute;bottom:0;right:0;overflow:hidden}.open-magazine-img.jsx-1739af8fdf331a21{width:100%;height:auto;display:block}.popup-overlay.jsx-1739af8fdf331a21{z-index:9999;background-color:#000000d9;justify-content:center;align-items:center;width:100%;height:100%;padding:20px;animation:.3s fadeIn;display:flex;position:fixed;top:0;left:0}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.popup-container.jsx-1739af8fdf331a21{background-color:#fff;border-radius:12px;width:100%;max-width:1200px;animation:.4s slideUp;position:relative;overflow:hidden;box-shadow:0 20px 60px #00000080}@keyframes slideUp{0%{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}.close-btn.jsx-1739af8fdf331a21{color:#fff;cursor:pointer;z-index:10000;background-color:#000000b3;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;font-size:24px;transition:all .3s;display:flex;position:absolute;top:15px;right:15px}.close-btn.jsx-1739af8fdf331a21:hover{background-color:#b89968;transform:rotate(90deg)}.popup-content.jsx-1739af8fdf331a21{width:100%;padding:10px}.wow.fadeInUp.jsx-1739af8fdf331a21{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.container.jsx-1739af8fdf331a21{max-width:1100px}.section-title.jsx-1739af8fdf331a21{margin-bottom:3rem;font-size:2rem}.inline-title.jsx-1739af8fdf331a21{margin-bottom:2rem;font-size:2rem}.flex-container.jsx-1739af8fdf331a21{gap:60px}.image-container.jsx-1739af8fdf331a21{height:400px}.magazine-cover.jsx-1739af8fdf331a21{width:300px}.read-now-btn.jsx-1739af8fdf331a21{padding:18px 45px;left:260px}.open-magazine.jsx-1739af8fdf331a21{width:550px}}@media (width>=1024px) and (width<=1199px){.container.jsx-1739af8fdf331a21{max-width:960px}.section-title.jsx-1739af8fdf331a21,.inline-title.jsx-1739af8fdf331a21{font-size:1.7rem}.flex-container.jsx-1739af8fdf331a21{gap:45px}.image-container.jsx-1739af8fdf331a21{height:360px}.content-block.jsx-1739af8fdf331a21{padding:70px 0}.join-us-wrapper.jsx-1739af8fdf331a21{gap:50px}.join-us-title.jsx-1739af8fdf331a21{font-size:2.2rem}.magazine-cover.jsx-1739af8fdf331a21{width:260px}.read-now-btn.jsx-1739af8fdf331a21{padding:14px 35px;font-size:1rem;left:220px}.open-magazine.jsx-1739af8fdf331a21{width:450px}}@media (width>=768px) and (width<=1023px){.container.jsx-1739af8fdf331a21{max-width:720px}.section-title.jsx-1739af8fdf331a21{letter-spacing:1px;margin-bottom:2rem;font-size:1.5rem}.inline-title.jsx-1739af8fdf331a21{font-size:1.5rem}.flex-container.jsx-1739af8fdf331a21{gap:35px}.image-container.jsx-1739af8fdf331a21{height:320px}.section-subtitle.jsx-1739af8fdf331a21{font-size:1rem}.list-item.jsx-1739af8fdf331a21{font-size:.95rem}.content-block.jsx-1739af8fdf331a21,.join-us-section.jsx-1739af8fdf331a21{padding:60px 0}.join-us-wrapper.jsx-1739af8fdf331a21{flex-direction:column;gap:40px}.join-us-content.jsx-1739af8fdf331a21{text-align:center;max-width:100%}.magazine-stack.jsx-1739af8fdf331a21{max-width:500px;min-height:380px}.read-now-btn.jsx-1739af8fdf331a21{top:40%;left:180px}.open-magazine.jsx-1739af8fdf331a21{width:400px}}@media (width<=767px){.single-line-desktop-title.jsx-1739af8fdf331a21{white-space:normal}.single-line-desktop-title.jsx-1739af8fdf331a21 br.jsx-1739af8fdf331a21{display:block}.single-line-desktop-title.jsx-1739af8fdf331a21 .title-second-line.jsx-1739af8fdf331a21{margin-top:.3rem;margin-left:0;display:block}.content-block.jsx-1739af8fdf331a21{padding:50px 0}.section-title.jsx-1739af8fdf331a21{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.3rem;line-height:1.25}.inline-title.jsx-1739af8fdf331a21{text-align:center;margin-bottom:1.5rem;font-size:1.3rem}.title-second-line.jsx-1739af8fdf331a21{margin-top:.3rem;font-size:.9em}.flex-container.jsx-1739af8fdf331a21{flex-direction:column;gap:25px}.text-content.jsx-1739af8fdf331a21,.image-content.jsx-1739af8fdf331a21{width:100%;min-width:unset}.order-1.jsx-1739af8fdf331a21,.order-2.jsx-1739af8fdf331a21{order:initial}.text-content.jsx-1739af8fdf331a21{order:1}.image-content.jsx-1739af8fdf331a21{order:2}.section-subtitle.jsx-1739af8fdf331a21{margin-bottom:1.2rem;font-size:1rem}.list-item.jsx-1739af8fdf331a21{padding-left:22px;font-size:.9rem;line-height:1.7}.list-item.jsx-1739af8fdf331a21:before{font-size:1.3rem}.section-footer.jsx-1739af8fdf331a21{margin-top:1.2rem;font-size:.9rem}.image-container.jsx-1739af8fdf331a21{border-radius:6px;height:280px}.join-us-section.jsx-1739af8fdf331a21{padding:50px 0}.join-us-wrapper.jsx-1739af8fdf331a21{flex-direction:column;gap:50px}.join-us-content.jsx-1739af8fdf331a21{max-width:100%}.join-us-title.jsx-1739af8fdf331a21{font-size:2rem}.magazine-stack.jsx-1739af8fdf331a21{max-width:100%;min-height:320px}.magazine-cover.jsx-1739af8fdf331a21{margin:0 auto 20px;position:relative}.read-now-btn.jsx-1739af8fdf331a21{margin:20px auto;padding:14px 35px;display:block;position:static;transform:none}.read-now-btn.jsx-1739af8fdf331a21:hover{transform:scale(1.05)}.open-magazine.jsx-1739af8fdf331a21{width:100%;margin-top:20px;position:relative}.popup-container.jsx-1739af8fdf331a21{max-width:95%}}@media (width<=480px){.bg-light-better.jsx-1739af8fdf331a21,.bg-white-better.jsx-1739af8fdf331a21{padding:10px}.section-image-container-manwalking.jsx-1739af8fdf331a21{height:300px}.container.jsx-1739af8fdf331a21{padding:0 15px}.content-block.jsx-1739af8fdf331a21{padding:40px 0}.section-title.jsx-1739af8fdf331a21{letter-spacing:.3px;margin-bottom:1.2rem;font-size:1.1rem}.inline-title.jsx-1739af8fdf331a21{text-align:center;font-size:1.1rem}.title-second-line.jsx-1739af8fdf331a21{font-size:.85em}.flex-container.jsx-1739af8fdf331a21{gap:20px}.section-subtitle.jsx-1739af8fdf331a21{margin-bottom:1rem;font-size:.95rem}.list-item.jsx-1739af8fdf331a21{margin-bottom:.7rem;padding-left:20px;font-size:.85rem;line-height:1.6}.list-item.jsx-1739af8fdf331a21:before{font-size:1.2rem}.section-footer.jsx-1739af8fdf331a21{margin-top:1rem;font-size:.85rem;line-height:1.6}.image-container.jsx-1739af8fdf331a21{height:240px}.join-us-section.jsx-1739af8fdf331a21{padding:40px 0}.join-us-title.jsx-1739af8fdf331a21{letter-spacing:2px;font-size:1.6rem}.join-us-subtitle.jsx-1739af8fdf331a21{font-size:1.05rem}.read-now-btn.jsx-1739af8fdf331a21{padding:12px 30px;font-size:.95rem}.popup-overlay.jsx-1739af8fdf331a21{padding:10px}.close-btn.jsx-1739af8fdf331a21{width:35px;height:35px;font-size:20px;top:10px;right:10px}}@media (width<=360px){.content-block.jsx-1739af8fdf331a21{padding:35px 0}.section-title.jsx-1739af8fdf331a21{font-size:1rem;line-height:1.2}.inline-title.jsx-1739af8fdf331a21{text-align:center;font-size:1rem}.section-subtitle.jsx-1739af8fdf331a21{font-size:.9rem}.list-item.jsx-1739af8fdf331a21,.section-footer.jsx-1739af8fdf331a21{font-size:.8rem}.image-container.jsx-1739af8fdf331a21{height:220px}.join-us-title.jsx-1739af8fdf331a21{font-size:1.4rem}}'
+                id: "c9bb22109e591fde",
+                children: '.side-to-side-section.jsx-c9bb22109e591fde{width:100%}.single-line-desktop-title.jsx-c9bb22109e591fde br.jsx-c9bb22109e591fde{display:none}.single-line-desktop-title.jsx-c9bb22109e591fde{white-space:nowrap}.single-line-desktop-title.jsx-c9bb22109e591fde .title-second-line.jsx-c9bb22109e591fde{margin-left:8px;display:inline}.section-image-container.jsx-c9bb22109e591fde{object-fit:cover;border-radius:8px;width:500px;height:300px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.section-image-container-manwalking.jsx-c9bb22109e591fde{object-fit:cover;border-radius:8px;width:400px;height:500px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.content-block.jsx-c9bb22109e591fde{padding:60px 0;transition:background-color .3s}.bg-light-better.jsx-c9bb22109e591fde{background-color:#efefefaa;padding:0 5px 0 50px}.bg-white-better.jsx-c9bb22109e591fde{background-color:#fff;padding:0 5px 0 50px}.container.jsx-c9bb22109e591fde{max-width:1200px;margin:0 auto;padding:0 20px}.content-wrapper.jsx-c9bb22109e591fde{width:100%}.section-title.jsx-c9bb22109e591fde{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:1.5px;color:#2c2c2c;margin-bottom:2.5rem;font-weight:400;line-height:1.3}.title-second-line.jsx-c9bb22109e591fde{margin-top:.5rem;display:block}.inline-header-container.jsx-c9bb22109e591fde{flex-direction:column;display:flex}.inline-title.jsx-c9bb22109e591fde{text-align:left;margin-bottom:2rem}.flex-container.jsx-c9bb22109e591fde{align-items:center;gap:50px;display:flex}.text-content.jsx-c9bb22109e591fde{flex:1;min-width:300px}.order-1.jsx-c9bb22109e591fde{order:1}.order-2.jsx-c9bb22109e591fde{order:2}.section-subtitle.jsx-c9bb22109e591fde{font-size:var(--p);color:#333;margin-bottom:1.5rem;font-weight:700;line-height:1.5}.items-list.jsx-c9bb22109e591fde{margin:0;padding:0;list-style:none}.list-item.jsx-c9bb22109e591fde{color:#444;margin-bottom:.5rem;padding-left:25px;font-size:1rem;line-height:1.8;position:relative}.list-item.jsx-c9bb22109e591fde:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.section-footer.jsx-c9bb22109e591fde{color:#555;margin-top:1.5rem;font-size:.95rem;font-style:italic;line-height:1.7}.image-content.jsx-c9bb22109e591fde{flex:1;justify-content:space-around;min-width:200px;display:flex}.image-container.jsx-c9bb22109e591fde{border-radius:8px;width:100%;height:350px;transition:transform .3s,box-shadow .3s;position:relative;overflow:hidden;box-shadow:0 8px 25px #0000001f}.image-container.jsx-c9bb22109e591fde:hover{transform:translateY(-8px);box-shadow:0 12px 35px #0000002e}.join-us-section.jsx-c9bb22109e591fde{background-color:#fff;padding:20px 0}.join-us-wrapper.jsx-c9bb22109e591fde{align-items:center;gap:60px;display:flex}.join-us-content.jsx-c9bb22109e591fde{flex:1;max-width:450px}.join-us-title.jsx-c9bb22109e591fde{letter-spacing:3px;color:#2c2c2c;font-size:2.5rem;font-weight:400}.join-us-subtitle.jsx-c9bb22109e591fde{color:#333;margin-bottom:1.5rem;font-size:1.2rem;font-weight:400}.join-us-list.jsx-c9bb22109e591fde{margin:0 0 2rem;padding:0;list-style:none}.join-us-list.jsx-c9bb22109e591fde li.jsx-c9bb22109e591fde{color:#333;margin-bottom:.5rem;padding-left:25px;font-size:1rem;position:relative}.join-us-list.jsx-c9bb22109e591fde li.jsx-c9bb22109e591fde:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.join-us-description.jsx-c9bb22109e591fde{color:#333;font-size:1rem;line-height:1.7}.join-us-image-wrapper.jsx-c9bb22109e591fde{flex:1;position:relative}.magazine-stack.jsx-c9bb22109e591fde{width:100%;max-width:650px;min-height:450px;margin:0 auto;position:relative}.magazine-cover.jsx-c9bb22109e591fde{border-radius:8px;width:280px;margin-top:20px;transition:transform .3s;position:absolute;top:0;left:0;overflow:hidden;box-shadow:0 8px 25px #0003}.magazine-cover.jsx-c9bb22109e591fde:hover{transform:translateY(-5px)}.magazine-img.jsx-c9bb22109e591fde{width:100%;height:auto;display:block}.read-now-btn.jsx-c9bb22109e591fde{color:#fff;cursor:pointer;z-index:4;white-space:nowrap;background-color:#b89968;border:none;border-radius:10px;padding:16px 40px;font-size:1.05rem;font-weight:500;transition:all .3s;position:absolute;top:45%;left:240px;transform:translateY(-50%)}.read-now-btn.jsx-c9bb22109e591fde:hover{background-color:#a08758;transform:translateY(-50%)scale(1.05);box-shadow:0 8px 25px #b8996880}.read-now-btn.jsx-c9bb22109e591fde:active{transform:translateY(-50%)scale(.98)}.open-magazine.jsx-c9bb22109e591fde{z-index:1;border-radius:8px;justify-content:flex-end;width:500px;display:flex;position:absolute;bottom:0;right:0;overflow:hidden}.open-magazine-img.jsx-c9bb22109e591fde{width:100%;height:auto;display:block}.popup-overlay.jsx-c9bb22109e591fde{z-index:9999;background-color:#000000d9;justify-content:center;align-items:center;width:100%;height:100%;padding:20px;animation:.3s fadeIn;display:flex;position:fixed;top:0;left:0}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.popup-container.jsx-c9bb22109e591fde{background-color:#fff;border-radius:12px;width:100%;max-width:1200px;animation:.4s slideUp;position:relative;overflow:hidden;box-shadow:0 20px 60px #00000080}@keyframes slideUp{0%{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}.close-btn.jsx-c9bb22109e591fde{color:#fff;cursor:pointer;z-index:10000;background-color:#000000b3;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;font-size:24px;transition:all .3s;display:flex;position:absolute;top:15px;right:15px}.close-btn.jsx-c9bb22109e591fde:hover{background-color:#b89968;transform:rotate(90deg)}.popup-content.jsx-c9bb22109e591fde{width:100%;padding:10px}.wow.fadeInUp.jsx-c9bb22109e591fde{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.container.jsx-c9bb22109e591fde{max-width:1100px}.section-title.jsx-c9bb22109e591fde{margin-bottom:3rem;font-size:2rem}.inline-title.jsx-c9bb22109e591fde{margin-bottom:2rem;font-size:2rem}.flex-container.jsx-c9bb22109e591fde{gap:60px}.image-container.jsx-c9bb22109e591fde{height:400px}.magazine-cover.jsx-c9bb22109e591fde{width:300px}.read-now-btn.jsx-c9bb22109e591fde{padding:18px 45px;left:260px}.open-magazine.jsx-c9bb22109e591fde{width:550px}}@media (width>=1024px) and (width<=1199px){.container.jsx-c9bb22109e591fde{max-width:960px}.section-title.jsx-c9bb22109e591fde,.inline-title.jsx-c9bb22109e591fde{font-size:1.7rem}.flex-container.jsx-c9bb22109e591fde{gap:45px}.image-container.jsx-c9bb22109e591fde{height:360px}.content-block.jsx-c9bb22109e591fde{padding:70px 0}.join-us-wrapper.jsx-c9bb22109e591fde{gap:50px}.join-us-title.jsx-c9bb22109e591fde{font-size:2.2rem}.magazine-cover.jsx-c9bb22109e591fde{width:260px}.read-now-btn.jsx-c9bb22109e591fde{padding:14px 35px;font-size:1rem;left:220px}.open-magazine.jsx-c9bb22109e591fde{width:450px}}@media (width>=768px) and (width<=1023px){.container.jsx-c9bb22109e591fde{max-width:720px}.section-title.jsx-c9bb22109e591fde{letter-spacing:1px;margin-bottom:2rem;font-size:1.5rem}.inline-title.jsx-c9bb22109e591fde{font-size:1.5rem}.flex-container.jsx-c9bb22109e591fde{gap:35px}.image-container.jsx-c9bb22109e591fde{height:320px}.section-subtitle.jsx-c9bb22109e591fde{font-size:1rem}.list-item.jsx-c9bb22109e591fde{font-size:.95rem}.content-block.jsx-c9bb22109e591fde,.join-us-section.jsx-c9bb22109e591fde{padding:60px 0}.join-us-wrapper.jsx-c9bb22109e591fde{flex-direction:column;gap:40px}.join-us-content.jsx-c9bb22109e591fde{text-align:center;max-width:100%}.magazine-stack.jsx-c9bb22109e591fde{max-width:500px;min-height:380px}.read-now-btn.jsx-c9bb22109e591fde{top:40%;left:180px}.open-magazine.jsx-c9bb22109e591fde{width:400px}}@media (width<=767px){.single-line-desktop-title.jsx-c9bb22109e591fde{white-space:normal}.single-line-desktop-title.jsx-c9bb22109e591fde br.jsx-c9bb22109e591fde{display:block}.single-line-desktop-title.jsx-c9bb22109e591fde .title-second-line.jsx-c9bb22109e591fde{margin-top:.3rem;margin-left:0;display:block}.content-block.jsx-c9bb22109e591fde{padding:50px 0}.section-title.jsx-c9bb22109e591fde{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.3rem;line-height:1.25}.inline-title.jsx-c9bb22109e591fde{text-align:center;margin-bottom:1.5rem;font-size:1.3rem}.title-second-line.jsx-c9bb22109e591fde{margin-top:.3rem;font-size:.9em}.flex-container.jsx-c9bb22109e591fde{flex-direction:column;gap:25px}.text-content.jsx-c9bb22109e591fde,.image-content.jsx-c9bb22109e591fde{width:100%;min-width:unset}.order-1.jsx-c9bb22109e591fde,.order-2.jsx-c9bb22109e591fde{order:initial}.text-content.jsx-c9bb22109e591fde{order:1}.image-content.jsx-c9bb22109e591fde{order:2}.section-subtitle.jsx-c9bb22109e591fde{margin-bottom:1.2rem;font-size:1rem}.list-item.jsx-c9bb22109e591fde{padding-left:22px;font-size:.9rem;line-height:1.7}.list-item.jsx-c9bb22109e591fde:before{font-size:1.3rem}.section-footer.jsx-c9bb22109e591fde{margin-top:1.2rem;font-size:.9rem}.image-container.jsx-c9bb22109e591fde{border-radius:6px;height:280px}.join-us-section.jsx-c9bb22109e591fde{padding:50px 0}.join-us-wrapper.jsx-c9bb22109e591fde{flex-direction:column;gap:50px}.join-us-content.jsx-c9bb22109e591fde{max-width:100%}.join-us-title.jsx-c9bb22109e591fde{font-size:2rem}.magazine-stack.jsx-c9bb22109e591fde{max-width:100%;min-height:320px}.magazine-cover.jsx-c9bb22109e591fde{margin:0 auto 20px;position:relative}.read-now-btn.jsx-c9bb22109e591fde{margin:20px auto;padding:14px 35px;display:block;position:static;transform:none}.read-now-btn.jsx-c9bb22109e591fde:hover{transform:scale(1.05)}.open-magazine.jsx-c9bb22109e591fde{width:100%;margin-top:20px;position:relative}.popup-container.jsx-c9bb22109e591fde{max-width:95%}}@media (width<=480px){.bg-light-better.jsx-c9bb22109e591fde,.bg-white-better.jsx-c9bb22109e591fde{padding:10px}.section-image-container-manwalking.jsx-c9bb22109e591fde{height:300px}.container.jsx-c9bb22109e591fde{padding:0 15px}.content-block.jsx-c9bb22109e591fde{padding:40px 0}.section-title.jsx-c9bb22109e591fde{letter-spacing:.3px;margin-bottom:1.2rem;font-size:1.1rem}.inline-title.jsx-c9bb22109e591fde{text-align:center;font-size:1.1rem}.title-second-line.jsx-c9bb22109e591fde{font-size:.85em}.flex-container.jsx-c9bb22109e591fde{gap:20px}.section-subtitle.jsx-c9bb22109e591fde{margin-bottom:1rem;font-size:.95rem}.list-item.jsx-c9bb22109e591fde{margin-bottom:.7rem;padding-left:20px;font-size:.85rem;line-height:1.6}.list-item.jsx-c9bb22109e591fde:before{font-size:1.2rem}.section-footer.jsx-c9bb22109e591fde{margin-top:1rem;font-size:.85rem;line-height:1.6}.image-container.jsx-c9bb22109e591fde{height:240px}.join-us-section.jsx-c9bb22109e591fde{padding:40px 0}.join-us-title.jsx-c9bb22109e591fde{letter-spacing:2px;font-size:1.6rem}.join-us-subtitle.jsx-c9bb22109e591fde{font-size:1.05rem}.read-now-btn.jsx-c9bb22109e591fde{padding:12px 30px;font-size:.95rem}.popup-overlay.jsx-c9bb22109e591fde{padding:10px}.close-btn.jsx-c9bb22109e591fde{width:35px;height:35px;font-size:20px;top:10px;right:10px}}@media (width<=360px){.content-block.jsx-c9bb22109e591fde{padding:35px 0}.section-title.jsx-c9bb22109e591fde{font-size:1rem;line-height:1.2}.inline-title.jsx-c9bb22109e591fde{text-align:center;font-size:1rem}.section-subtitle.jsx-c9bb22109e591fde{font-size:.9rem}.list-item.jsx-c9bb22109e591fde,.section-footer.jsx-c9bb22109e591fde{font-size:.8rem}.image-container.jsx-c9bb22109e591fde{height:220px}.join-us-title.jsx-c9bb22109e591fde{font-size:1.4rem}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);

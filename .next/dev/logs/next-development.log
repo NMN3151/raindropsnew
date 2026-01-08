@@ -1235,3 +1235,12 @@ Import traces:
 [03:44:29.326] Browser WARN    Image with src "/assets/images/travelpartners/slider6.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
 [03:44:31.224] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
 [03:44:32.261] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[03:52:20.679] Server  LOG     ✓ Compiled in 13ms
+[03:52:21.993] Server  LOG     ✓ Compiled in 14ms
+[03:52:23.049] Server  LOG     ✓ Compiled in 11ms
+[03:52:25.341] Server  LOG     ✓ Compiled in 10ms
+[03:52:30.201] Server  LOG     ✓ Compiled in 12ms
+[03:52:38.980] Server  LOG     ✓ Compiled in 12ms
+[03:55:55.826] Server  LOG     ✓ Compiled in 9ms
+[03:56:00.000] Server  LOG     ✓ Compiled in 9ms
+[03:56:06.196] Server  LOG     ✓ Compiled in 9ms
