@@ -120,6 +120,7 @@ function SideMenu({ isOpen, onClose }) {
           dropdown: [
             { label: "The Story", href: "/about" },
             { label: "Insight Partners (You) ", href: "/Insight" },
+            { label: "Travel Partners", href: "/travelpartners" },
             { label: "A Living Partnership", href: "/living" },
           ],
         },

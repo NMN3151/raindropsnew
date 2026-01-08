@@ -1700,6 +1700,10 @@ function SideMenu({ isOpen, onClose }) {
                             href: "/Insight"
                         },
                         {
+                            label: "Travel Partners",
+                            href: "/travelpartners"
+                        },
+                        {
                             label: "A Living Partnership",
                             href: "/living"
                         }
@@ -1791,7 +1795,7 @@ function SideMenu({ isOpen, onClose }) {
                                 children: "×"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 182,
+                                lineNumber: 183,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1821,17 +1825,17 @@ function SideMenu({ isOpen, onClose }) {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 231,
+                                        lineNumber: 232,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                    lineNumber: 227,
+                                    lineNumber: 228,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 215,
+                                lineNumber: 216,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -1890,7 +1894,7 @@ function SideMenu({ isOpen, onClose }) {
                                                             children: item.label
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 284,
+                                                            lineNumber: 285,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1904,13 +1908,13 @@ function SideMenu({ isOpen, onClose }) {
                                                             children: "▼"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 312,
+                                                            lineNumber: 313,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 271,
+                                                    lineNumber: 272,
                                                     columnNumber: 21
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     onClick: ()=>handleNavigation(item.href),
@@ -1944,7 +1948,7 @@ function SideMenu({ isOpen, onClose }) {
                                                     children: item.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 328,
+                                                    lineNumber: 329,
                                                     columnNumber: 21
                                                 }, this),
                                                 item.dropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2004,18 +2008,18 @@ function SideMenu({ isOpen, onClose }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 424,
+                                                                                    lineNumber: 425,
                                                                                     columnNumber: 35
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 382,
+                                                                            lineNumber: 383,
                                                                             columnNumber: 33
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                        lineNumber: 381,
+                                                                        lineNumber: 382,
                                                                         columnNumber: 31
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2060,22 +2064,22 @@ function SideMenu({ isOpen, onClose }) {
                                                                                         children: nestedItem.label
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                        lineNumber: 459,
+                                                                                        lineNumber: 460,
                                                                                         columnNumber: 39
                                                                                     }, this)
                                                                                 }, `nested-${index}-${subIndex}-${nestedIndex}`, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 456,
+                                                                                    lineNumber: 457,
                                                                                     columnNumber: 37
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 442,
+                                                                            lineNumber: 443,
                                                                             columnNumber: 33
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                        lineNumber: 441,
+                                                                        lineNumber: 442,
                                                                         columnNumber: 31
                                                                     }, this)
                                                                 ]
@@ -2113,38 +2117,38 @@ function SideMenu({ isOpen, onClose }) {
                                                                     children: subItem.label
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 506,
+                                                                    lineNumber: 507,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 505,
+                                                                lineNumber: 506,
                                                                 columnNumber: 29
                                                             }, this)
                                                         }, `sub-${index}-${subIndex}`, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 377,
+                                                            lineNumber: 378,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 365,
+                                                    lineNumber: 366,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, `menu-${index}`, true, {
                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                            lineNumber: 254,
+                                            lineNumber: 255,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                    lineNumber: 252,
+                                    lineNumber: 253,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 245,
+                                lineNumber: 246,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2162,13 +2166,13 @@ function SideMenu({ isOpen, onClose }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 558,
+                                lineNumber: 559,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                        lineNumber: 159,
+                        lineNumber: 160,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2219,7 +2223,7 @@ function SideMenu({ isOpen, onClose }) {
                                 children: "×"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 605,
+                                lineNumber: 606,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2242,7 +2246,7 @@ function SideMenu({ isOpen, onClose }) {
                                         children: "FEATURED EXPERIENCES"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 648,
+                                        lineNumber: 649,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2294,17 +2298,17 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "VILLA EXPERIENCE"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 710,
+                                                                lineNumber: 711,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 698,
+                                                            lineNumber: 699,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 678,
+                                                        lineNumber: 679,
                                                         columnNumber: 17
                                                     }, this),
                                                     isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2323,7 +2327,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "Villa Experience"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 729,
+                                                                lineNumber: 730,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2336,7 +2340,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "Nestled in the heart of the Sinharaja rainforest, Raindrops Villa offers a serene retreat surrounded by lush greenery."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 740,
+                                                                lineNumber: 741,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2362,25 +2366,25 @@ function SideMenu({ isOpen, onClose }) {
                                                                         children: "→"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                        lineNumber: 767,
+                                                                        lineNumber: 768,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 751,
+                                                                lineNumber: 752,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 724,
+                                                        lineNumber: 725,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 671,
+                                                lineNumber: 672,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2424,17 +2428,17 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "WELLNESS WITH MUSE"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 813,
+                                                                lineNumber: 814,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 801,
+                                                            lineNumber: 802,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 781,
+                                                        lineNumber: 782,
                                                         columnNumber: 17
                                                     }, this),
                                                     isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2453,7 +2457,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "Wellness with Muse"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 832,
+                                                                lineNumber: 833,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2466,7 +2470,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "Real-time EEG brainwave tracking for improved focus and optimized mental performance."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 843,
+                                                                lineNumber: 844,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2492,31 +2496,31 @@ function SideMenu({ isOpen, onClose }) {
                                                                         children: "→"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                        lineNumber: 870,
+                                                                        lineNumber: 871,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 854,
+                                                                lineNumber: 855,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 827,
+                                                        lineNumber: 828,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 774,
+                                                lineNumber: 775,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 662,
+                                        lineNumber: 663,
                                         columnNumber: 13
                                     }, this),
                                     !isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2540,7 +2544,7 @@ function SideMenu({ isOpen, onClose }) {
                                                         children: "Villa Experience"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 889,
+                                                        lineNumber: 890,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2553,7 +2557,7 @@ function SideMenu({ isOpen, onClose }) {
                                                         children: "Nestled in the heart of the Sinharaja rainforest, Raindrops Villa offers a serene retreat surrounded by lush greenery."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 900,
+                                                        lineNumber: 901,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2582,19 +2586,19 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "→"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 930,
+                                                                lineNumber: 931,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 911,
+                                                        lineNumber: 912,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 888,
+                                                lineNumber: 889,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2610,7 +2614,7 @@ function SideMenu({ isOpen, onClose }) {
                                                         children: "Wellness with Muse"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 936,
+                                                        lineNumber: 937,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2623,7 +2627,7 @@ function SideMenu({ isOpen, onClose }) {
                                                         children: "Real-time EEG brainwave tracking for improved focus and optimized mental performance."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 947,
+                                                        lineNumber: 948,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2652,31 +2656,31 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "→"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 977,
+                                                                lineNumber: 978,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 958,
+                                                        lineNumber: 959,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 935,
+                                                lineNumber: 936,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 879,
+                                        lineNumber: 880,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 640,
+                                lineNumber: 641,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2701,7 +2705,7 @@ function SideMenu({ isOpen, onClose }) {
                                         children: "GET IN TOUCH"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 995,
+                                        lineNumber: 996,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2748,7 +2752,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Villa - Location"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1040,
+                                                                            lineNumber: 1041,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2762,26 +2766,26 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "Rain drops Wellness Villa Sinharaja, ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1058,
+                                                                                    lineNumber: 1059,
                                                                                     columnNumber: 62
                                                                                 }, this),
                                                                                 "Dolagahawaththa,",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1060,
+                                                                                    lineNumber: 1061,
                                                                                     columnNumber: 25
                                                                                 }, this),
                                                                                 "Mederipitiya ,Deniyaya."
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1050,
+                                                                            lineNumber: 1051,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1039,
+                                                                    lineNumber: 1040,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2799,7 +2803,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Head Office - Sri Lanka"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1066,
+                                                                            lineNumber: 1067,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2813,26 +2817,26 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "INTT Leisure Private Limited",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1085,
+                                                                                    lineNumber: 1086,
                                                                                     columnNumber: 25
                                                                                 }, this),
                                                                                 "No.26/6, Major LV Gunaratna Mawatha, Station Road, Dehiwala,",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1088,
+                                                                                    lineNumber: 1089,
                                                                                     columnNumber: 25
                                                                                 }, this),
                                                                                 "Sri Lanka."
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1076,
+                                                                            lineNumber: 1077,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1065,
+                                                                    lineNumber: 1066,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2847,7 +2851,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Head Office - USA"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1094,
+                                                                            lineNumber: 1095,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2861,32 +2865,32 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "INT Terminal, ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1112,
+                                                                                    lineNumber: 1113,
                                                                                     columnNumber: 39
                                                                                 }, this),
                                                                                 "1803 Wicklow Road Naperville, ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1113,
+                                                                                    lineNumber: 1114,
                                                                                     columnNumber: 55
                                                                                 }, this),
                                                                                 " IL 60564, Chicago, USA."
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1104,
+                                                                            lineNumber: 1105,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1093,
+                                                                    lineNumber: 1094,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 1033,
+                                                            lineNumber: 1034,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2910,7 +2914,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Telephone"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1127,
+                                                                            lineNumber: 1128,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2924,20 +2928,20 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "+94 774 48 48 48 ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1145,
+                                                                                    lineNumber: 1146,
                                                                                     columnNumber: 42
                                                                                 }, this),
                                                                                 "+1 312-242-1662"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1137,
+                                                                            lineNumber: 1138,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1126,
+                                                                    lineNumber: 1127,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2952,7 +2956,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Email"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1151,
+                                                                            lineNumber: 1152,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2966,37 +2970,37 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "info@raindrops.lk ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1169,
+                                                                                    lineNumber: 1170,
                                                                                     columnNumber: 43
                                                                                 }, this),
                                                                                 "info@intterminal.com"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1161,
+                                                                            lineNumber: 1162,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1150,
+                                                                    lineNumber: 1151,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 1120,
+                                                            lineNumber: 1121,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 1024,
+                                                    lineNumber: 1025,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 1015,
+                                                lineNumber: 1016,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3036,36 +3040,36 @@ function SideMenu({ isOpen, onClose }) {
                                                     children: "Book Now"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 1184,
+                                                    lineNumber: 1185,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 1178,
+                                                lineNumber: 1179,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 1008,
+                                        lineNumber: 1009,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 985,
+                                lineNumber: 986,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                        lineNumber: 581,
+                        lineNumber: 582,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                lineNumber: 139,
+                lineNumber: 140,
                 columnNumber: 7
             }, this),
             shouldRender && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3082,7 +3086,7 @@ function SideMenu({ isOpen, onClose }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                lineNumber: 1224,
+                lineNumber: 1225,
                 columnNumber: 9
             }, this)
         ]
