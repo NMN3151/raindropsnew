@@ -154,7 +154,11 @@ function SideToSideContainers() {
                 ) : (
                   <>
                     {/* Title - Always on top */}
-                    <h2 className="section-title">
+                   <h2
+                  className={`section-title ${
+                    section.id === 1 ? "single-line-desktop-title" : ""
+                  }`}
+                >
                       {section.title}
                       {section.titleSecondLine && (
                         <>
@@ -324,6 +328,20 @@ function SideToSideContainers() {
         .side-to-side-section {
           width: 100%;
         }
+
+        .single-line-desktop-title br {
+          display: none;
+        }
+
+        .single-line-desktop-title {
+          white-space: nowrap;
+        }
+
+        .single-line-desktop-title .title-second-line {
+          display: inline;
+          margin-left: 8px;
+        }
+
 
         .section-image-container {
           width: 500px;
@@ -874,6 +892,21 @@ function SideToSideContainers() {
 
         /* Mobile - Large */
         @media (max-width: 767px) {
+
+        .single-line-desktop-title {
+          white-space: normal;
+        }
+
+        .single-line-desktop-title br {
+          display: block;
+        }
+
+        .single-line-desktop-title .title-second-line {
+          display: block;
+          margin-left: 0;
+          margin-top: 0.3rem;
+        }
+
           .content-block {
             padding: 50px 0;
           }
