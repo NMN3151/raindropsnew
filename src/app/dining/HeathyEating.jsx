@@ -25,6 +25,7 @@ function Healthyeating() {
                                         src="/assets/images/nutrition/healthy1.png"
                                         className="jarallax-img rellax rellax-img"
                                         alt="Background"
+                                        loading="lazy"
                                     />
                                 </div>
                             </div>
@@ -43,6 +44,7 @@ function Healthyeating() {
                                     width={312}
                                     height={230}
                                     alt="About"
+                                    loading="lazy"
                                 />
                             </div>
                         </div>

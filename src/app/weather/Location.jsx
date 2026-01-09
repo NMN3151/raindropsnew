@@ -34,6 +34,7 @@ function Location() {
                   src="/assets/images/weather/wl4.png"
                   alt="Philosophy"
                   className="rounded-3 small-image-philosophy"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -49,6 +50,7 @@ function Location() {
                   src="/assets/images/weather/wl5.png"
                   alt="Philosophy"
                   className="rounded-3 small-image-philosophy"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -64,6 +66,7 @@ function Location() {
                   src="/assets/images/weather/wl6.png"
                   alt="Philosophy"
                   className="rounded-3 small-image-philosophy"
+                  loading="lazy"
                 />
               </div>
              
@@ -83,6 +86,7 @@ function Location() {
                   e.target.innerHTML = "Philosophy Image";
                   e.target.classList.add("fallback-image");
                 }}
+                loading="lazy"
               />
             </div>
           </div>

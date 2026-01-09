@@ -141,9 +141,7 @@ function BannerOne() {
                         zIndex: 3,
                       }}
                     >
-                      <span className="h6 subtitle__icon">
-                        Welcome to Our Wellness Villa
-                      </span>
+                      
                       <h1>
                         Luxury Stay, Villa Experience Comfort &amp; Elegance
                       </h1>

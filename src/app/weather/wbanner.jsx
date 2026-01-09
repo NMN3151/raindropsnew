@@ -64,13 +64,7 @@ function WBannerOne() {
                       zIndex: 3,
                     }}
                   >
-                    <span
-                      className="h6 subtitle__icon"
-                      data-aos="fade-up"
-                      data-aos-delay="200"
-                    >
-                      It's Time to
-                    </span>
+                     
                     <h1 data-aos="fade-up" data-aos-delay="400">
                       Visit Sinharaja
                     </h1>

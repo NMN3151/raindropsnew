@@ -1244,3 +1244,824 @@ Import traces:
 [03:55:55.826] Server  LOG     ✓ Compiled in 9ms
 [03:56:00.000] Server  LOG     ✓ Compiled in 9ms
 [03:56:06.196] Server  LOG     ✓ Compiled in 9ms
+[19:25:51.394] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency
+[19:26:01.666] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <head> body  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <Script>
+                          <Script>
+>                         <body>
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                                  <Page params={Promise} searchParams={Promise}>
+                                    <SEO>
+>                                   <head>
+                                    ...
+                            ...
+                  ...
+
+[19:26:01.666] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. body <head>
+[19:26:02.355] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[19:26:02.355] Browser LOG     Autoplay started
+[19:26:02.355] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[19:26:02.355] Browser LOG     Autoplay started
+[19:26:02.355] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[19:26:02.355] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[22:15:34.244] Server  LOG     ○ Compiling /research ...
+[22:15:39.946] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:16:41.444] Server  LOG     ✓ Compiled in 20ms
+[22:16:43.878] Server  LOG     ✓ Compiled in 18ms
+[22:16:49.125] Server  LOG     ✓ Compiled in 18ms
+[22:16:51.309] Server  LOG     ✓ Compiled in 20ms
+[22:16:53.711] Server  LOG     ✓ Compiled in 19ms
+[22:16:55.725] Server  LOG     ✓ Compiled in 18ms
+[22:17:01.101] Server  LOG     ✓ Compiled in 17ms
+[22:17:02.695] Server  LOG     ✓ Compiled in 18ms
+[22:18:09.017] Server  LOG     ✓ Compiled in 21ms
+[22:18:16.140] Server  LOG     ✓ Compiled in 13ms
+[22:18:20.997] Server  LOG     ✓ Compiled in 15ms
+[22:18:24.470] Server  LOG     ✓ Compiled in 18ms
+[22:18:24.547] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. clsassName clsassname
+[22:18:27.091] Server  LOG     ✓ Compiled in 16ms
+[22:18:27.168] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. clsasdassName clsasdassname
+[22:18:28.736] Server  LOG     ✓ Compiled in 14ms
+[22:18:35.428] Server  LOG     ✓ Compiled in 14ms
+[22:18:38.426] Server  LOG     ✓ Compiled in 12ms
+[22:18:41.693] Server  LOG     ✓ Compiled in 16ms
+[22:18:57.643] Server  LOG     ✓ Compiled in 13ms
+[22:19:04.482] Server  LOG     ✓ Compiled in 16ms
+[22:19:06.946] Server  LOG     ✓ Compiled in 14ms
+[22:19:09.507] Server  LOG     ✓ Compiled in 15ms
+[22:19:11.746] Server  LOG     ✓ Compiled in 13ms
+[22:19:14.400] Server  LOG     ✓ Compiled in 21ms
+[22:19:21.899] Server  LOG     ✓ Compiled in 14ms
+[22:19:25.107] Server  LOG     ✓ Compiled in 20ms
+[22:19:36.489] Server  LOG     ✓ Compiled in 18ms
+[22:19:38.727] Server  LOG     ✓ Compiled in 15ms
+[22:19:56.777] Server  LOG     ✓ Compiled in 14ms
+[22:20:00.371] Server  LOG     ✓ Compiled in 14ms
+[22:20:02.170] Server  LOG     ✓ Compiled in 13ms
+[22:20:03.349] Server  LOG     ✓ Compiled in 14ms
+[22:20:05.270] Server  LOG     ✓ Compiled in 12ms
+[22:23:48.959] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:23:48.959] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:24:40.284] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:24:40.430] Server  LOG     ✓ Compiled in 10ms
+[22:24:40.934] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:24:43.082] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:24:43.082] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:24:58.949] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/neuroscience/Mindmeets.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:24:59.160] Server  LOG     ✓ Compiled in 8ms
+[22:24:59.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:24:59.773] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:24:59.773] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:25:01.731] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/neuroscience/Mindmeets.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:25:01.912] Server  LOG     ✓ Compiled in 7ms
+[22:25:02.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:25:02.325] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:25:02.325] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:25:18.864] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/neuroscience/Mindmeets.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:25:19.045] Server  LOG     ✓ Compiled in 7ms
+[22:25:19.196] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:25:19.423] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:25:19.423] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:25:22.439] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/neuroscience/Mindmeets.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:25:22.614] Server  LOG     ✓ Compiled in 6ms
+[22:25:22.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:25:22.997] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:25:22.997] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:25:54.495] Server  LOG     ✓ Compiled in 6ms
+[22:25:56.760] Server  LOG     ✓ Compiled in 6ms
+[22:26:25.040] Server  LOG     ✓ Compiled in 7ms
+[22:26:26.261] Server  LOG     ✓ Compiled in 8ms
+[22:29:48.681] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[22:30:03.087] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:30:03.260] Server  LOG     ✓ Compiled in 7ms
+[22:30:03.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:30:05.658] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:30:05.852] Server  LOG     ✓ Compiled in 9ms
+[22:30:06.045] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:30:13.963] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:30:14.178] Server  LOG     ✓ Compiled in 8ms
+[22:30:14.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:30:15.672] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:30:15.872] Server  LOG     ✓ Compiled in 9ms
+[22:30:16.044] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:30:36.519] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/SRE.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:30:36.695] Server  LOG     ✓ Compiled in 9ms
+[22:30:36.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:30:37.389] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/SRE.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:30:37.574] Server  LOG     ✓ Compiled in 9ms
+[22:30:37.703] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:30:46.654] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[22:31:02.789] Server  LOG     ✓ Compiled in 9ms
+[22:31:04.442] Server  LOG     ✓ Compiled in 8ms
+[22:31:06.177] Server  LOG     ✓ Compiled in 7ms
+[22:31:07.659] Server  LOG     ✓ Compiled in 6ms
+[22:31:10.539] Server  LOG     ✓ Compiled in 6ms
+[22:31:11.750] Browser WARN    Image with src "/assets/images/nutrition/tt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:31:28.586] Server  LOG     ✓ Compiled in 8ms
+[22:31:33.477] Server  LOG     ✓ Compiled in 9ms
+[22:31:55.853] Server  LOG     ✓ Compiled in 6ms
+[22:32:08.639] Browser WARN    Image with src "/assets/images/nutrition/meal4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:32:08.639] Browser WARN    Image with src "/assets/images/nutrition/meal2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:32:08.639] Browser WARN    Image with src "/assets/images/nutrition/meal1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:32:08.639] Browser WARN    Image with src "/assets/images/nutrition/meal3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:33:15.569] Server  LOG     ✓ Compiled in 8ms
+[22:33:27.844] Server  LOG     ✓ Compiled in 7ms
+[22:33:32.814] Server  LOG     ✓ Compiled in 7ms
+[22:33:35.334] Server  LOG     ✓ Compiled in 9ms
+[22:33:41.966] Browser WARN    Image with src "/assets/images/founders/3f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:33:41.966] Browser WARN    Image with src "/assets/images/founders/GB2nd_img.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:33:42.471] Browser WARN    Image with src "/assets/images/founders/1f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:33:42.471] Browser WARN    Image with src "/assets/images/founders/4f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:34:26.541] Server  LOG     ✓ Compiled in 15ms
+[22:34:27.999] Server  LOG     ✓ Compiled in 11ms
+[22:34:34.411] Server  LOG     ✓ Compiled in 11ms
+[22:34:37.836] Server  LOG     ✓ Compiled in 9ms
+[22:34:42.570] Server  LOG     ✓ Compiled in 9ms
+[22:34:47.819] Server  LOG     ✓ Compiled in 11ms
+[22:34:53.260] Server  LOG     ✓ Compiled in 11ms
+[22:35:21.887] Server  LOG     ✓ Compiled in 13ms
+[22:35:23.534] Server  LOG     ✓ Compiled in 9ms
+[22:36:02.942] Server  LOG     ✓ Compiled in 43ms
+[22:36:05.794] Server  LOG     ✓ Compiled in 14ms
+[22:36:07.691] Server  LOG     ✓ Compiled in 14ms
+[22:36:08.627] Server  LOG     ✓ Compiled in 12ms
+[22:36:14.008] Server  LOG     ✓ Compiled in 13ms
+[22:36:28.410] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:36:28.411] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+                                <div className="paragraph-...">
+>                                 <p className="intro-text">
+                                ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:36:28.411] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[22:36:28.411] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+>                               <div className="paragraph-group">
+                                ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:36:28.411] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[22:36:28.411] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+                                <div>
+                                <div className="support-se...">
+                                  <p>
+>                                 <ul className="mt-6 space-y-3 text-gray-700">
+                                  ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:36:28.411] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <ul>
+[22:36:49.329] Server  LOG     ✓ Compiled in 12ms
+[22:36:50.645] Server  LOG     ✓ Compiled in 8ms
+[22:37:08.496] Server  LOG     ✓ Compiled in 32ms
+[22:37:08.542] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:37:11.164] Server  LOG     ✓ Compiled in 13ms
+[22:37:11.227] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:37:53.535] Server  LOG     ✓ Compiled in 11ms
+[22:37:55.300] Server  LOG     ✓ Compiled in 58ms
+[22:37:55.363] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/about/ab2.png" has both "priority" and "loading='lazy'" properties. Only one should be used.
+[22:38:00.804] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:38:01.027] Server  LOG     ✓ Compiled in 7ms
+[22:38:01.029] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:01.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:38:01.322] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:01.322] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+>                             <div className="text-content-inner">
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:01.322] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:01.322] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+                                <div className="paragraph-...">
+>                                 <p className="intro-text">
+                                ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:01.322] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[22:38:01.322] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+                                <div>
+                                <div className="support-se...">
+                                  <p>
+>                                 <ul className="mt-6 space-y-3 text-gray-700">
+                                  ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:01.322] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <ul>
+[22:38:01.322] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[22:38:04.736] Server  LOG     ✓ Compiled in 26ms
+[22:38:04.782] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/about/ab2.png" has both "priority" and "loading='lazy'" properties. Only one should be used.
+[22:38:07.170] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:38:07.348] Server  LOG     ✓ Compiled in 9ms
+[22:38:07.348] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:07.476] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:38:07.635] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:07.635] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+>                             <div className="text-content-inner">
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:07.635] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:07.635] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+                                <div className="paragraph-...">
+>                                 <p className="intro-text">
+                                ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:07.635] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[22:38:07.635] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+                                <div>
+                                <div className="support-se...">
+                                  <p>
+>                                 <ul className="mt-6 space-y-3 text-gray-700">
+                                  ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:07.635] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <ul>
+[22:38:07.635] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[22:38:12.600] Server  LOG     ✓ Compiled in 10ms
+[22:38:12.654] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/about/ab2.png" has both "priority" and "loading='lazy'" properties. Only one should be used.
+[22:38:13.762] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:38:13.946] Server  LOG     ✓ Compiled in 8ms
+[22:38:13.946] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:14.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:38:14.188] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:14.188] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+>                             <div className="text-content-inner">
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:14.188] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[22:38:14.188] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+                                <div className="paragraph-...">
+>                                 <p className="intro-text">
+                                ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:14.188] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[22:38:14.188] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="Insight/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Partnership>
+                <Guardians>
+                  <div className="jsx-4f8255...">
+                    <div className="jsx-4f8255...">
+                      <div>
+                      <div className="jsx-4f8255...">
+                        <div>
+                        <div className="jsx-4f8255...">
+                          <div className="jsx-4f8255...">
+                            <p>
+>                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                              <div className="text-conte...">
+                                <div>
+                                <div className="support-se...">
+                                  <p>
+>                                 <ul className="mt-6 space-y-3 text-gray-700">
+                                  ...
+                            ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[22:38:14.188] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <ul>
+[22:38:14.188] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[22:39:01.914] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[22:39:02.872] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:39:02.872] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[22:39:07.766] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:39:53.401] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:39:53.401] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[22:39:54.462] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:39:54.462] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[22:39:54.874] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:39:54.874] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[22:39:56.281] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:39:56.281] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[22:50:19.374] Server  LOG     ✓ Compiled in 22ms
+[22:50:20.904] Server  LOG     ✓ Compiled in 10ms
+[22:50:48.757] Server  LOG     ✓ Compiled in 8ms
+[22:50:50.802] Server  LOG     ✓ Compiled in 8ms
+[22:51:05.422] Server  LOG     ✓ Compiled in 12ms
+[22:51:10.899] Server  LOG     ✓ Compiled in 15ms
+[22:51:30.010] Server  LOG     ✓ Compiled in 9ms
+[22:51:32.575] Server  LOG     ✓ Compiled in 8ms
+[22:51:34.404] Server  LOG     ✓ Compiled in 12ms
+[22:51:57.993] Server  LOG     ✓ Compiled in 12ms
+[22:52:03.607] Server  LOG     ✓ Compiled in 13ms
+[22:52:39.223] Server  LOG     ✓ Compiled in 48ms
+[22:52:40.650] Server  LOG     ✓ Compiled in 10ms
+[22:52:42.578] Server  LOG     ✓ Compiled in 12ms
+[22:52:52.822] Browser WARN    Image with src "/assets/images/about/abi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:52:52.822] Browser WARN    Image with src "/assets/images/about/partnership/community2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:52:52.822] Browser WARN    Image with src "/assets/images/about/partnership/community3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:52:52.822] Browser WARN    Image with src "/assets/images/about/partnership/partner1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:53:21.423] Server  LOG     ✓ Compiled in 47ms
+[22:53:22.883] Server  LOG     ✓ Compiled in 9ms
+[22:53:42.987] Server  LOG     ✓ Compiled in 12ms
+[22:53:43.745] Server  LOG     ✓ Compiled in 9ms
+[22:53:54.391] Server  LOG     ✓ Compiled in 13ms
+[22:54:00.533] Server  LOG     ✓ Compiled in 9ms
+[22:54:07.253] Server  LOG     ✓ Compiled in 8ms
+[22:54:10.292] Server  LOG     ✓ Compiled in 10ms
+[22:54:11.178] Server  LOG     ✓ Compiled in 9ms
+[22:54:26.805] Server  LOG     ✓ Compiled in 26ms
+[22:54:29.876] Server  LOG     ✓ Compiled in 12ms
+[22:54:33.155] Server  LOG     ✓ Compiled in 13ms
+[22:54:44.112] Server  LOG     ✓ Compiled in 21ms
+[22:54:45.493] Server  LOG     ✓ Compiled in 9ms
+[22:54:48.589] Server  LOG     ✓ Compiled in 13ms
+[22:54:53.645] Server  LOG     ✓ Compiled in 9ms
+[22:55:06.809] Server  LOG     ✓ Compiled in 12ms
+[22:55:08.507] Server  LOG     ✓ Compiled in 7ms
+[22:55:13.749] Server  LOG     ✓ Compiled in 8ms
+[22:55:39.395] Server  LOG     ✓ Compiled in 11ms
+[22:55:40.091] Server  LOG     ✓ Compiled in 11ms
+[22:56:21.622] Server  LOG     ✓ Compiled in 10ms
+[22:56:23.325] Server  LOG     ✓ Compiled in 10ms
+[22:56:30.422] Server  LOG     ✓ Compiled in 12ms
+[22:56:32.016] Server  LOG     ✓ Compiled in 12ms
+[22:56:39.418] Server  LOG     ✓ Compiled in 13ms
+[22:56:43.550] Server  LOG     ✓ Compiled in 12ms
+[22:56:46.342] Server  LOG     ✓ Compiled in 11ms
+[22:56:48.674] Browser WARN    Image with src "/assets/images/weather/bsnake.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:56:48.674] Browser WARN    Image with src "/assets/images/weather/snake-6704375_1280.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:56:58.550] Server  LOG     ✓ Compiled in 8ms
+[22:57:00.072] Server  LOG     ✓ Compiled in 9ms
+[22:57:08.474] Server  LOG     ✓ Compiled in 9ms
+[22:57:10.995] Server  LOG     ✓ Compiled in 9ms
+[22:57:45.021] Server  LOG     ✓ Compiled in 8ms
+[22:57:46.048] Server  LOG     ✓ Compiled in 9ms
+[22:57:52.809] Server  LOG     ✓ Compiled in 9ms
+[22:57:55.009] Server  LOG     ✓ Compiled in 9ms
+[22:57:57.086] Server  LOG     ✓ Compiled in 9ms
+[22:57:58.373] Server  LOG     ✓ Compiled in 10ms
+[22:59:12.031] Server  LOG     ✓ Compiled in 8ms
+[22:59:13.096] Server  LOG     ✓ Compiled in 8ms
+[22:59:19.353] Server  LOG     ✓ Compiled in 9ms
+[22:59:40.140] Server  LOG     ✓ Compiled in 9ms
+[22:59:41.850] Server  LOG     ✓ Compiled in 10ms
+[22:59:44.454] Server  LOG     ✓ Compiled in 8ms
+[24:56:55.997] Server  LOG     ✓ Compiled in 89ms
+[24:56:58.078] Server  LOG     ✓ Compiled in 13ms
+[24:57:03.092] Server  LOG     ✓ Compiled in 8ms
+[24:57:17.091] Server  LOG     ✓ Compiled in 8ms
+[24:57:19.240] Server  LOG     ✓ Compiled in 9ms
+[24:57:24.798] Server  LOG     ✓ Compiled in 8ms
+[25:06:50.303] Server  LOG     ✓ Compiled in 15ms
+[25:07:13.353] Server  LOG     ✓ Compiled in 10ms
+[25:07:15.413] Server  LOG     ✓ Compiled in 7ms
+[25:07:23.237] Server  LOG     ✓ Compiled in 9ms
+[25:08:07.107] Server  LOG     ✓ Compiled in 8ms
+[25:08:19.598] Server  LOG     ✓ Compiled in 10ms
+[25:08:23.563] Browser WARN    Image with src "/assets/images/nutrition/tt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:08:24.672] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <head> body  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <Script>
+                          <Script>
+>                         <body>
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                                  <Page params={Promise} searchParams={Promise}>
+                                    <SEO>
+>                                   <head>
+                                    ...
+                            ...
+                  ...
+
+[25:08:24.672] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. body <head>
+[25:08:24.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:08:24.672] Browser LOG     Autoplay started
+[25:08:24.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:08:24.672] Browser LOG     Autoplay started
+[25:08:24.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:08:24.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:09:26.289] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:09:26.289] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:09:36.959] Browser WARN    Image with src "/assets/images/founders/GB2nd_img.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:09:36.959] Browser WARN    Image with src "/assets/images/founders/3f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:13:54.364] Browser LOG     Autoplay started
+[25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:13:54.364] Browser LOG     Autoplay started
+[25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters

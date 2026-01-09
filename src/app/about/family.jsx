@@ -143,6 +143,7 @@ function WebsitePortfolio() {
                                                     e.target.style.display = 'none';
                                                     e.target.nextElementSibling.style.display = 'flex';
                                                 }}
+                                                loading="lazy"
                                             />
                                             <div className="logo__fallback">
                                                 <span className="fallback__text">{website.name}</span>

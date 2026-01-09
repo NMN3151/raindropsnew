@@ -14,6 +14,7 @@ export default function PartnershipSection() {
             e.target.style.display = 'none';
             e.target.nextElementSibling.style.display = 'block';
           }}
+          loading="lazy"
         />
         <div className="background-fallback"></div>
       </div>

@@ -36,6 +36,7 @@ function Setting() {
                   src="/assets/images/weather/wl15.png"
                   alt="Rainforest cloud view"
                   className="setting-img-1"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -50,6 +51,7 @@ function Setting() {
                     src="/assets/images/weather/wl14.png"
                     alt="Rainforest scenery"
                     className="setting-img-2"
+                     loading="lazy"
                   />
                 </div>
 
@@ -58,6 +60,7 @@ function Setting() {
                     src="/assets/images/weather/wl13.png"
                     alt="Rainforest scenery"
                     className="setting-img-3"
+                     loading="lazy"
                   />
                 </div>
               </div>

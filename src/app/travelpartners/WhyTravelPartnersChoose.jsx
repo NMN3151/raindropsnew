@@ -47,6 +47,7 @@ function WhyTravelPartnersChoose() {
                   alt="Travel partners exploring nature with binoculars in rainforest"
                  
                   className="partner-img"
+                  loading="lazy"
                 />
               </div>
 
@@ -59,6 +60,7 @@ function WhyTravelPartnersChoose() {
                   alt="Travel partners exploring nature with binoculars in rainforest"
                   
                   className="partner-img"
+                  loading="lazy"
                 />
               </div>
             </div>

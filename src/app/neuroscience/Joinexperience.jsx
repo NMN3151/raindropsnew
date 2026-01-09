@@ -67,6 +67,7 @@ export default function JoinexperiencePage() {
                   e.target.innerHTML = 'Neuroscience Image';
                   e.target.classList.add('fallback-image');
                 }}
+                loading="lazy"
               />
             </div>
 

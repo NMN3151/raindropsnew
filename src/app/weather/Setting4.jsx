@@ -19,6 +19,7 @@ export default function Setting4() {
                   e.target.style.display = "none";
                   e.target.nextSibling.style.display = "flex";
                 }}
+                 loading="lazy"
               />
               <div className="image-fallback">
                 <div className="fallback-content"></div>
@@ -73,6 +74,7 @@ export default function Setting4() {
                   e.target.style.display = "none";
                   e.target.nextSibling.style.display = "flex";
                 }}
+                 loading="lazy"
               />
               <div className="image-fallback">
                 <div className="fallback-content"></div>

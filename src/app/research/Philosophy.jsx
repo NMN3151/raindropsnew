@@ -24,6 +24,7 @@ function mindmeets() {
                   e.target.innerHTML = "Philosophy Image";
                   e.target.classList.add("fallback-image");
                 }}
+                loading="lazy"
               />
             </div>
           </div>

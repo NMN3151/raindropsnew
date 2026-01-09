@@ -39,6 +39,7 @@ function Setting3() {
                 src="/assets/images/weather/wl21.png"
                 alt="Rainforest scenery showing safety features"
                 className="support-image"
+                 loading="lazy"
               />
             </div>
           </div>

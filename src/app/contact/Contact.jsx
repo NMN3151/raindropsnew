@@ -82,6 +82,7 @@ export default function ContactOne() {
                         width={20}
                         height={20}
                         alt=""
+                        loading="lazy"
                       />
                     </div>
                   </div>

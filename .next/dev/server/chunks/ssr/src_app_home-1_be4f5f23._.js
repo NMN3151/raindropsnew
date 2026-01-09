@@ -4768,19 +4768,11 @@ function BannerOne() {
                                                     zIndex: 3
                                                 },
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "h6 subtitle__icon",
-                                                        children: "Welcome to Our Wellness Villa"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                        lineNumber: 144,
-                                                        columnNumber: 23
-                                                    }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                         children: "Luxury Stay, Villa Experience Comfort & Elegance"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 145,
                                                         columnNumber: 23
                                                     }, this),
                                                     isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4792,17 +4784,17 @@ function BannerOne() {
                                                                 children: "Reserve Now"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                                lineNumber: 158,
+                                                                lineNumber: 156,
                                                                 columnNumber: 29
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                            lineNumber: 154,
+                                                            lineNumber: 152,
                                                             columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 151,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
@@ -4866,7 +4858,7 @@ function BannerOne() {
                                                 fill: "#F1F1F1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                lineNumber: 189,
+                                                lineNumber: 187,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -4874,23 +4866,23 @@ function BannerOne() {
                                                 fill: "#F1F1F1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                lineNumber: 193,
+                                                lineNumber: 191,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                                        lineNumber: 182,
+                                        lineNumber: 180,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/Banner.jsx",
-                                    lineNumber: 181,
+                                    lineNumber: 179,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                lineNumber: 180,
+                                lineNumber: 178,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4910,7 +4902,7 @@ function BannerOne() {
                                                 fill: "#F1F1F1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                lineNumber: 209,
+                                                lineNumber: 207,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -4918,29 +4910,29 @@ function BannerOne() {
                                                 fill: "#F1F1F1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                lineNumber: 213,
+                                                lineNumber: 211,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                                        lineNumber: 202,
+                                        lineNumber: 200,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/Banner.jsx",
-                                    lineNumber: 201,
+                                    lineNumber: 199,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                lineNumber: 200,
+                                lineNumber: 198,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                        lineNumber: 168,
+                        lineNumber: 166,
                         columnNumber: 11
                     }, this)
                 ]
@@ -6065,6 +6057,7 @@ function TestimonialOne() {
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: "https://i.postimg.cc/kgz1YJtL/ludema.jpg",
                                                                 alt: "",
+                                                                loading: "lazy",
                                                                 className: "jsx-28b5419449c9da3e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
@@ -6091,12 +6084,12 @@ function TestimonialOne() {
                                                                             children: "Where Beauty Meets Mindfulness"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 192,
+                                                                            lineNumber: 193,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 191,
+                                                                        lineNumber: 192,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6108,7 +6101,7 @@ function TestimonialOne() {
                                                                         children: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation. That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 199,
+                                                                        lineNumber: 200,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6123,28 +6116,28 @@ function TestimonialOne() {
                                                                                 children: "Dr. Jim Ludema"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                lineNumber: 212,
+                                                                                lineNumber: 213,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 211,
+                                                                            lineNumber: 212,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 210,
+                                                                        lineNumber: 211,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 191,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 189,
+                                                            lineNumber: 190,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
@@ -6167,15 +6160,16 @@ function TestimonialOne() {
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: "https://i.postimg.cc/XYGxCRDB/ludema2.jpg",
                                                                 alt: "",
+                                                                loading: "lazy",
                                                                 className: "jsx-28b5419449c9da3e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 227,
+                                                                lineNumber: 228,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 226,
+                                                            lineNumber: 227,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6193,12 +6187,12 @@ function TestimonialOne() {
                                                                             children: "An Unforgettable Journey"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 235,
+                                                                            lineNumber: 237,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 234,
+                                                                        lineNumber: 236,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6210,7 +6204,7 @@ function TestimonialOne() {
                                                                         children: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years. Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 242,
+                                                                        lineNumber: 244,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6225,39 +6219,39 @@ function TestimonialOne() {
                                                                                 children: "Dr. Beverly Ludema"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                lineNumber: 255,
+                                                                                lineNumber: 257,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 254,
+                                                                            lineNumber: 256,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 253,
+                                                                        lineNumber: 255,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 233,
+                                                                lineNumber: 235,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 232,
+                                                            lineNumber: 234,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                    lineNumber: 225,
+                                                    lineNumber: 226,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 224,
+                                                lineNumber: 225,
                                                 columnNumber: 19
                                             }, this)
                                         ]

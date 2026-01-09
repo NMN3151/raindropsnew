@@ -86,6 +86,7 @@ export default function Partnership() {
                   e.target.innerHTML = "Neuroscience Image";
                   e.target.classList.add("fallback-image");
                 }}
+                loading="lazy"
               />
             </div>
 

@@ -46,6 +46,7 @@ function Setting2() {
                       src="/assets/images/weather/wl20.png"
                       alt="Rainforest scenery"
                       className="setting-img"
+                       loading="lazy"
                     />
                   </div>
                   <div className="image-item">
@@ -53,6 +54,7 @@ function Setting2() {
                       src="/assets/images/weather/wl12.png"
                       alt="Rainforest scenery"
                       className="setting-img"
+                       loading="lazy"
                     />
                   </div>
                   <div className="image-item">
@@ -60,6 +62,7 @@ function Setting2() {
                       src="/assets/images/weather/wl11.png"
                       alt="Rainforest scenery"
                       className="setting-img"
+                       loading="lazy"
                     />
                   </div>
                 </div>

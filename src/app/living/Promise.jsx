@@ -22,6 +22,7 @@ function Promise() {
                     src="/assets/images/about/partnership/promise1.png"
                     alt="Rainforest scenery"
                     className="setting-img-2"
+                    loading="lazy"
                   />
                 </div>
 
@@ -31,6 +32,7 @@ function Promise() {
                     src="/assets/images/about/partnership/promise2.png"
                     alt="Rainforest scenery"
                     className="setting-img-3"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -81,6 +83,7 @@ function Promise() {
                   src="/assets/images/about/partnership/promise3.png"
                   alt="Rainforest cloud view"
                   className="setting-img-1"
+                  loading="lazy"
                 />
               </div>
             </div>

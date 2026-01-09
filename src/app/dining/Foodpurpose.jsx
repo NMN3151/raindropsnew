@@ -58,6 +58,7 @@ export default function Foodpurpose() {
                   e.target.innerHTML = "Food with Purpose";
                   e.target.classList.add("fallback-image");
                 }}
+                loading="lazy"
               />
             </div>
 

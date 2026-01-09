@@ -42,6 +42,7 @@ export default function Meal() {
                   alt="Meal 1"
                   fill
                   style={{ objectFit: "cover" }}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -53,6 +54,7 @@ export default function Meal() {
                   alt="Meal 2"
                   fill
                   style={{ objectFit: "cover" }}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -64,6 +66,7 @@ export default function Meal() {
                   alt="Meal 3"
                   fill
                   style={{ objectFit: "cover" }}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -75,6 +78,7 @@ export default function Meal() {
                   alt="Meal 4"
                   fill
                   style={{ objectFit: "cover" }}
+                  loading="lazy"
                 />
               </div>
             </div>

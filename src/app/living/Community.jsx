@@ -39,6 +39,8 @@ export default function Community() {
                     width={350}
                     height={350}
                     className="section-image"
+                    loading="lazy"
+                    
                   />
                   <div className="image-overlay"></div>
                 </div>

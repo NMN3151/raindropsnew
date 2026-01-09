@@ -68,6 +68,7 @@ function Unique() {
                   src="/assets/images/about/partnership/teaworkers.png"
                   alt="Temple architecture"
                   className="landscape-image"
+                  loading="lazy"
                 />
                 <div className="image-caption"></div>
               </div>
@@ -77,6 +78,7 @@ function Unique() {
                   src="/assets/images/about/partnership/treeclimb.png"
                   alt="Coastal scenery"
                   className="landscape-image small"
+                  loading="lazy"
                 />
                 <p className="image-text">
                   When the community is secure, the forest is protected. When

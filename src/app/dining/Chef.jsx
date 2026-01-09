@@ -19,6 +19,7 @@ function Chef() {
                   className="jarallax-img rellax rellax-img img-fluid chef-image"
                   src="/assets/images/nutrition/cheff.png"
                   alt="Chef Saffarunan - Rain Drops Wellness Resort"
+                  loading="lazy"
                 />
                 
                

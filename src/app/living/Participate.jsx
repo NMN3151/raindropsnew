@@ -45,6 +45,7 @@ export default function Participate() {
                 alt="Food with Purpose"
                 className="foodpurpose-image"
                 style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                loading="lazy"
                
               />
             </div>

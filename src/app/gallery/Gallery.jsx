@@ -206,6 +206,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G.jpg"
                 alt="Luxury Villa Interior"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -224,6 +225,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G1.jpg"
                 alt="Modern Bedroom"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -242,6 +244,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G2.jpg"
                 alt="Elegant Bathroom"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -260,6 +263,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G3.jpg"
                 alt="Spacious Living Area"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -278,6 +282,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G4.jpg"
                 alt="Outdoor Patio"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -296,6 +301,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G5.jpg"
                 alt="Dining Area"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -314,6 +320,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G6.jpg"
                 alt="Modern Kitchen"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -332,6 +339,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G16.jpg"
                 alt="Swimming Pool"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -350,6 +358,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G8.jpg"
                 alt="Garden View"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -368,6 +377,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G9.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -385,6 +395,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G10.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -402,6 +413,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G11.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -419,6 +431,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G12.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -436,6 +449,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G19.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -453,6 +467,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G14.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -470,6 +485,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G15.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -487,6 +503,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G7.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -504,6 +521,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G17.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -521,6 +539,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G18.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -538,6 +557,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G13.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -555,6 +575,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G20.png"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -572,6 +593,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G21.png"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -589,6 +611,7 @@ function GalleryFive() {
                 src="/assets/images/insta/N1.jpg"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">
@@ -606,6 +629,7 @@ function GalleryFive() {
                 src="/assets/images/insta/G22.png"
                 alt="Luxury Suite"
                 className="gallery-image"
+                loading="lazy"
               />
               <div className="gallery-overlay"></div>
               <div className="gallery-icon">

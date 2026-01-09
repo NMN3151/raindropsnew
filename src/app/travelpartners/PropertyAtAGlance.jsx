@@ -100,6 +100,7 @@ function PropertyAtAGlance() {
                   fill
                   style={{ objectFit: "cover" }}
                   priority={false}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -129,6 +130,7 @@ function PropertyAtAGlance() {
                       src={image.src}
                       alt={image.alt}
                       className="thumbnail-image"
+                      loading="lazy"
                     />
                     {index === selectedImageIndex && (
                       <div className="active-overlay"></div>

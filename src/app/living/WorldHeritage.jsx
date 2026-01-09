@@ -38,6 +38,7 @@ function WorldHeritage() {
                   alt="Ancient Buddhist site in Sri Lanka"
                   width={758}
                   height={400}
+                  loading="lazy"
                 />
               </div>
             </div>

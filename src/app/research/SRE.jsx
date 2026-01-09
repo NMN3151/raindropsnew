@@ -81,6 +81,7 @@ function sre() {
                     e.target.innerHTML = "Research Image";
                     e.target.classList.add("fallback-image");
                   }}
+                  loading="lazy"
                 />
               </div>
             </div>

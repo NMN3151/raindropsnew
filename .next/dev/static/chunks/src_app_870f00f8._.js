@@ -5292,6 +5292,7 @@ function WhyTravelPartnersChoose() {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/images/travelpartners/blackhouse.png",
                                                 alt: "Travel partners exploring nature with binoculars in rainforest",
+                                                loading: "lazy",
                                                 className: "jsx-7288c8503a160638" + " " + "partner-img"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
@@ -5309,15 +5310,16 @@ function WhyTravelPartnersChoose() {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/images/travelpartners/footsongrass.png",
                                                 alt: "Travel partners exploring nature with binoculars in rainforest",
+                                                loading: "lazy",
                                                 className: "jsx-7288c8503a160638" + " " + "partner-img"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
-                                                lineNumber: 57,
+                                                lineNumber: 58,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/WhyTravelPartnersChoose.jsx",
-                                            lineNumber: 53,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -5495,7 +5497,8 @@ function PropertyAtAGlance() {
                                                 style: {
                                                     objectFit: "cover"
                                                 },
-                                                priority: false
+                                                priority: false,
+                                                loading: "lazy"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
                                                 lineNumber: 97,
@@ -5530,12 +5533,12 @@ function PropertyAtAGlance() {
                                             children: "‹"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                            lineNumber: 115,
+                                            lineNumber: 116,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                        lineNumber: 110,
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5549,33 +5552,34 @@ function PropertyAtAGlance() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: image.src,
                                                             alt: image.alt,
+                                                            loading: "lazy",
                                                             className: "jsx-d70f0202c70ab990" + " " + "thumbnail-image"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 129,
                                                             columnNumber: 21
                                                         }, this),
                                                         index === selectedImageIndex && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "jsx-d70f0202c70ab990" + " " + "active-overlay"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                                            lineNumber: 134,
+                                                            lineNumber: 136,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                                    lineNumber: 121,
+                                                    lineNumber: 122,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                            lineNumber: 119,
+                                            lineNumber: 120,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                        lineNumber: 118,
+                                        lineNumber: 119,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5587,18 +5591,18 @@ function PropertyAtAGlance() {
                                             children: "›"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                            lineNumber: 146,
+                                            lineNumber: 148,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                        lineNumber: 141,
+                                        lineNumber: 143,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/travelpartners/PropertyAtAGlance.jsx",
-                                lineNumber: 109,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -5699,6 +5703,7 @@ function SignatureExperiencesYourClients() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: "/assets/images/travelpartners/bothwalking.png",
                                             alt: "Partners walking together",
+                                            loading: "lazy",
                                             className: "jsx-c16a8ab235e75feb" + " " + "partner-image"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
@@ -5726,7 +5731,7 @@ function SignatureExperiencesYourClients() {
                                                     children: "These are not tours. They are inner journeys, optional, gentle and non-structured."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 59,
+                                                    lineNumber: 61,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5734,13 +5739,13 @@ function SignatureExperiencesYourClients() {
                                                     children: "Travel partners may recommend experiences individually or as curated combinations:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 64,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 58,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5753,7 +5758,7 @@ function SignatureExperiencesYourClients() {
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                            lineNumber: 70,
+                                                            lineNumber: 72,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5764,7 +5769,7 @@ function SignatureExperiencesYourClients() {
                                                                     children: exp.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                                    lineNumber: 72,
+                                                                    lineNumber: 74,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " – ",
@@ -5772,18 +5777,18 @@ function SignatureExperiencesYourClients() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                            lineNumber: 71,
+                                                            lineNumber: 73,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 69,
+                                                    lineNumber: 71,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 67,
+                                            lineNumber: 69,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5794,7 +5799,7 @@ function SignatureExperiencesYourClients() {
                                                     children: "These experiences create:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 81,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5804,18 +5809,18 @@ function SignatureExperiencesYourClients() {
                                                             children: outcome
                                                         }, index, false, {
                                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                            lineNumber: 82,
+                                                            lineNumber: 84,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 82,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 80,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5824,31 +5829,33 @@ function SignatureExperiencesYourClients() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: "/assets/images/travelpartners/bothwalking.png",
                                                     alt: "Partners walking together",
+                                                    loading: "lazy",
                                                     className: "jsx-c16a8ab235e75feb" + " " + "partner-image"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 93,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: "/assets/images/travelpartners/rainforest.png",
                                                     alt: "Rainforest experience",
+                                                    loading: "lazy",
                                                     className: "jsx-c16a8ab235e75feb" + " " + "partner-image"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 99,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 92,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                    lineNumber: 57,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5858,20 +5865,21 @@ function SignatureExperiencesYourClients() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: "/assets/images/travelpartners/rainforest.png",
                                             alt: "Rainforest experience",
+                                            loading: "lazy",
                                             className: "jsx-c16a8ab235e75feb" + " " + "partner-image"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                            lineNumber: 107,
+                                            lineNumber: 111,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                        lineNumber: 106,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/SignatureExperiencesYourClients.jsx",
-                                    lineNumber: 105,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -6071,6 +6079,7 @@ function SideToSideContainers() {
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: section.image,
                                                             alt: section.imageAlt,
+                                                            loading: "lazy",
                                                             className: "jsx-c9bb22109e591fde" + " " + "section-image-container-manwalking"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6109,7 +6118,7 @@ function SideToSideContainers() {
                                                                 className: "jsx-c9bb22109e591fde"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 165,
+                                                                lineNumber: 166,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6117,7 +6126,7 @@ function SideToSideContainers() {
                                                                 children: section.titleSecondLine
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 166,
+                                                                lineNumber: 167,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
@@ -6125,7 +6134,7 @@ function SideToSideContainers() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 157,
+                                                lineNumber: 158,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6139,7 +6148,7 @@ function SideToSideContainers() {
                                                                 children: section.subtitle
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 187,
+                                                                lineNumber: 188,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6149,12 +6158,12 @@ function SideToSideContainers() {
                                                                         children: item
                                                                     }, idx, false, {
                                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                        lineNumber: 194,
+                                                                        lineNumber: 195,
                                                                         columnNumber: 29
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 192,
+                                                                lineNumber: 193,
                                                                 columnNumber: 25
                                                             }, this),
                                                             section.footer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6162,13 +6171,13 @@ function SideToSideContainers() {
                                                                 children: section.footer
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                                lineNumber: 201,
+                                                                lineNumber: 202,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 180,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6176,21 +6185,22 @@ function SideToSideContainers() {
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: section.image,
                                                             alt: section.imageAlt,
+                                                            loading: "lazy",
                                                             className: "jsx-c9bb22109e591fde" + " " + "section-image-container"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                            lineNumber: 213,
+                                                            lineNumber: 214,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 206,
+                                                        lineNumber: 207,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 173,
+                                                lineNumber: 174,
                                                 columnNumber: 21
                                             }, this)
                                         ]
@@ -6225,7 +6235,7 @@ function SideToSideContainers() {
                                                 children: "JOIN US"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 233,
+                                                lineNumber: 235,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -6233,7 +6243,7 @@ function SideToSideContainers() {
                                                 children: "Become A RainDrops Insight Partner"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 235,
+                                                lineNumber: 237,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6244,7 +6254,7 @@ function SideToSideContainers() {
                                                         children: "Experience the villas."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 240,
+                                                        lineNumber: 242,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -6252,7 +6262,7 @@ function SideToSideContainers() {
                                                         children: "Share it with the right clients."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 241,
+                                                        lineNumber: 243,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -6260,13 +6270,13 @@ function SideToSideContainers() {
                                                         children: "Understand the environment."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 242,
+                                                        lineNumber: 244,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 239,
+                                                lineNumber: 241,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6274,13 +6284,13 @@ function SideToSideContainers() {
                                                 children: "RainDrops represents Sri Lanka's new luxury—defined by calmness, clarity and nature intelligence."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                lineNumber: 245,
+                                                lineNumber: 247,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                        lineNumber: 232,
+                                        lineNumber: 234,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6298,12 +6308,12 @@ function SideToSideContainers() {
                                                         className: "magazine-img"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 256,
+                                                        lineNumber: 258,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                    lineNumber: 255,
+                                                    lineNumber: 257,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6312,7 +6322,7 @@ function SideToSideContainers() {
                                                     children: "Read Now"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                    lineNumber: 266,
+                                                    lineNumber: 268,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6325,39 +6335,39 @@ function SideToSideContainers() {
                                                         className: "open-magazine-img"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                        lineNumber: 272,
+                                                        lineNumber: 274,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                                    lineNumber: 271,
+                                                    lineNumber: 273,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                            lineNumber: 253,
+                                            lineNumber: 255,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                        lineNumber: 252,
+                                        lineNumber: 254,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                lineNumber: 230,
+                                lineNumber: 232,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                            lineNumber: 229,
+                            lineNumber: 231,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                        lineNumber: 228,
+                        lineNumber: 230,
                         columnNumber: 9
                     }, this)
                 ]
@@ -6379,7 +6389,7 @@ function SideToSideContainers() {
                             children: "✕"
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                            lineNumber: 291,
+                            lineNumber: 293,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6411,28 +6421,28 @@ function SideToSideContainers() {
                                     className: "jsx-c9bb22109e591fde"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                    lineNumber: 303,
+                                    lineNumber: 305,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                                lineNumber: 295,
+                                lineNumber: 297,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                            lineNumber: 294,
+                            lineNumber: 296,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                    lineNumber: 290,
+                    lineNumber: 292,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
-                lineNumber: 289,
+                lineNumber: 291,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -8227,7 +8237,8 @@ function FilingForm() {
                                                                 alt: "Travel partners exploring nature with binoculars in rainforest",
                                                                 width: 70,
                                                                 height: 50,
-                                                                className: "partner-image"
+                                                                className: "partner-image",
+                                                                loading: "lazy"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/FilingForm.jsx",
                                                                 lineNumber: 282,
@@ -8245,15 +8256,16 @@ function FilingForm() {
                                                                 alt: "Travel partners exploring nature with binoculars in rainforest",
                                                                 width: 80,
                                                                 height: 50,
-                                                                className: "partner-image"
+                                                                className: "partner-image",
+                                                                loading: "lazy"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/FilingForm.jsx",
-                                                                lineNumber: 291,
+                                                                lineNumber: 292,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/FilingForm.jsx",
-                                                            lineNumber: 290,
+                                                            lineNumber: 291,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]

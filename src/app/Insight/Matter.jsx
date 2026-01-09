@@ -10,6 +10,7 @@ export default function Matter() {
       {/* Background Image */}
       <div className="background-image-container">
         <Image
+          
           src="/assets/images/about/ab2.png"
           alt="Partnership Background"
           className="background-image"

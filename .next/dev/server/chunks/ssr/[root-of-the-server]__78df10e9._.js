@@ -5081,7 +5081,8 @@ function Partnership() {
                                             e.target.style.fontWeight = "500";
                                             e.target.innerHTML = "Neuroscience Image";
                                             e.target.classList.add("fallback-image");
-                                        }
+                                        },
+                                        loading: "lazy"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/living/Partnership.jsx",
                                         lineNumber: 71,
@@ -5104,17 +5105,17 @@ function Partnership() {
                                             children: "Discover Now"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/living/Partnership.jsx",
-                                            lineNumber: 95,
+                                            lineNumber: 96,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/living/Partnership.jsx",
-                                        lineNumber: 94,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/living/Partnership.jsx",
-                                    lineNumber: 93,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -5204,7 +5205,8 @@ function WorldHeritage() {
                                             src: "/assets/images/about/partnership/partner2.png",
                                             alt: "Ancient Buddhist site in Sri Lanka",
                                             width: 758,
-                                            height: 400
+                                            height: 400,
+                                            loading: "lazy"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/living/WorldHeritage.jsx",
                                             lineNumber: 36,
@@ -5230,7 +5232,7 @@ function WorldHeritage() {
                                                 children: "The RainDrops Community has protected this forest for generations because:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                                lineNumber: 47,
+                                                lineNumber: 48,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5244,7 +5246,7 @@ function WorldHeritage() {
                                                         children: "It is there water"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                                        lineNumber: 52,
+                                                        lineNumber: 53,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -5252,7 +5254,7 @@ function WorldHeritage() {
                                                         children: "It is there food"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 54,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -5260,13 +5262,13 @@ function WorldHeritage() {
                                                         children: "It is there future"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                                        lineNumber: 54,
+                                                        lineNumber: 55,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                                lineNumber: 51,
+                                                lineNumber: 52,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5276,23 +5278,23 @@ function WorldHeritage() {
                                                     children: "RainDrops exists to strengthen that protection, ensuring that global attention supports local dignity and that preservation is sustainable, human, and enduring."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                                    lineNumber: 58,
+                                                    lineNumber: 59,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                                lineNumber: 57,
+                                                lineNumber: 58,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                        lineNumber: 46,
+                                        lineNumber: 47,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/living/WorldHeritage.jsx",
-                                    lineNumber: 45,
+                                    lineNumber: 46,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -5387,7 +5389,8 @@ function Community() {
                                                     alt: section.title,
                                                     width: 350,
                                                     height: 350,
-                                                    className: "section-image"
+                                                    className: "section-image",
+                                                    loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/living/Community.jsx",
                                                     lineNumber: 36,
@@ -5397,7 +5400,7 @@ function Community() {
                                                     className: "jsx-79e87bc9bd61dc37" + " " + "image-overlay"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/living/Community.jsx",
-                                                    lineNumber: 43,
+                                                    lineNumber: 45,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
@@ -5416,7 +5419,7 @@ function Community() {
                                         children: section.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/living/Community.jsx",
-                                        lineNumber: 46,
+                                        lineNumber: 48,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5424,7 +5427,7 @@ function Community() {
                                         children: section.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/living/Community.jsx",
-                                        lineNumber: 47,
+                                        lineNumber: 49,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -5661,6 +5664,7 @@ function Unique() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/images/about/partnership/teaworkers.png",
                                                 alt: "Temple architecture",
+                                                loading: "lazy",
                                                 className: "jsx-b04810f98dccd6b6" + " " + "landscape-image"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/living/Unique.jsx",
@@ -5671,7 +5675,7 @@ function Unique() {
                                                 className: "jsx-b04810f98dccd6b6" + " " + "image-caption"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/living/Unique.jsx",
-                                                lineNumber: 72,
+                                                lineNumber: 73,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -5686,10 +5690,11 @@ function Unique() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/images/about/partnership/treeclimb.png",
                                                 alt: "Coastal scenery",
+                                                loading: "lazy",
                                                 className: "jsx-b04810f98dccd6b6" + " " + "landscape-image small"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/living/Unique.jsx",
-                                                lineNumber: 76,
+                                                lineNumber: 77,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5700,7 +5705,7 @@ function Unique() {
                                                         className: "jsx-b04810f98dccd6b6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Unique.jsx",
-                                                        lineNumber: 84,
+                                                        lineNumber: 86,
                                                         columnNumber: 41
                                                     }, this),
                                                     " ",
@@ -5708,7 +5713,7 @@ function Unique() {
                                                         className: "jsx-b04810f98dccd6b6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Unique.jsx",
-                                                        lineNumber: 84,
+                                                        lineNumber: 86,
                                                         columnNumber: 48
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -5719,26 +5724,26 @@ function Unique() {
                                                                 className: "jsx-b04810f98dccd6b6"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/living/Unique.jsx",
-                                                                lineNumber: 86,
+                                                                lineNumber: 88,
                                                                 columnNumber: 46
                                                             }, this),
                                                             "This is a shared process."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/living/Unique.jsx",
-                                                        lineNumber: 85,
+                                                        lineNumber: 87,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/living/Unique.jsx",
-                                                lineNumber: 81,
+                                                lineNumber: 83,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/living/Unique.jsx",
-                                        lineNumber: 75,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -5756,7 +5761,7 @@ function Unique() {
                             className: "jsx-b04810f98dccd6b6"
                         }, void 0, false, {
                             fileName: "[project]/src/app/living/Unique.jsx",
-                            lineNumber: 93,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this)
                     ]
@@ -5822,6 +5827,7 @@ function Promise() {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: "/assets/images/about/partnership/promise1.png",
                                                     alt: "Rainforest scenery",
+                                                    loading: "lazy",
                                                     className: "jsx-bbc80c0ca36ebd7c" + " " + "setting-img-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/living/Promise.jsx",
@@ -5838,15 +5844,16 @@ function Promise() {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: "/assets/images/about/partnership/promise2.png",
                                                     alt: "Rainforest scenery",
+                                                    loading: "lazy",
                                                     className: "jsx-bbc80c0ca36ebd7c" + " " + "setting-img-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/living/Promise.jsx",
-                                                    lineNumber: 30,
+                                                    lineNumber: 31,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/living/Promise.jsx",
-                                                lineNumber: 29,
+                                                lineNumber: 30,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -5878,7 +5885,7 @@ function Promise() {
                                                         children: "RainDrops"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 43,
+                                                        lineNumber: 45,
                                                         columnNumber: 19
                                                     }, this),
                                                     " ",
@@ -5888,7 +5895,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 55,
                                                         columnNumber: 19
                                                     }, this),
                                                     " ",
@@ -5896,7 +5903,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 55,
                                                         columnNumber: 26
                                                     }, this),
                                                     "We will grow only as nature allows. ",
@@ -5904,7 +5911,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 54,
+                                                        lineNumber: 56,
                                                         columnNumber: 55
                                                     }, this),
                                                     "We will succeed only if our community thrives. ",
@@ -5912,7 +5919,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 55,
+                                                        lineNumber: 57,
                                                         columnNumber: 66
                                                     }, this),
                                                     "We will protect what the world has trusted us to be part of.",
@@ -5921,7 +5928,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 59,
                                                         columnNumber: 19
                                                     }, this),
                                                     " ",
@@ -5929,7 +5936,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 59,
                                                         columnNumber: 26
                                                     }, this),
                                                     "This is not a program. ",
@@ -5937,7 +5944,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 60,
                                                         columnNumber: 42
                                                     }, this),
                                                     "This is our way of being. ",
@@ -5945,7 +5952,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 61,
                                                         columnNumber: 45
                                                     }, this),
                                                     " ",
@@ -5953,7 +5960,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 61,
                                                         columnNumber: 52
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5966,7 +5973,7 @@ function Promise() {
                                                         children: "RainDrops"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 62,
                                                         columnNumber: 19
                                                     }, this),
                                                     " ",
@@ -5974,7 +5981,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 71,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Where Insight Partners Belong. ",
@@ -5982,7 +5989,7 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 70,
+                                                        lineNumber: 72,
                                                         columnNumber: 50
                                                     }, this),
                                                     "Where Community and Nature Are One. ",
@@ -5990,19 +5997,19 @@ function Promise() {
                                                         className: "jsx-bbc80c0ca36ebd7c"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/living/Promise.jsx",
-                                                        lineNumber: 71,
+                                                        lineNumber: 73,
                                                         columnNumber: 55
                                                     }, this),
                                                     "Where Calm Is Cultivated Together."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/living/Promise.jsx",
-                                                lineNumber: 42,
+                                                lineNumber: 44,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/living/Promise.jsx",
-                                            lineNumber: 41,
+                                            lineNumber: 43,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6011,21 +6018,22 @@ function Promise() {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/images/about/partnership/promise3.png",
                                                 alt: "Rainforest cloud view",
+                                                loading: "lazy",
                                                 className: "jsx-bbc80c0ca36ebd7c" + " " + "setting-img-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/living/Promise.jsx",
-                                                lineNumber: 80,
+                                                lineNumber: 82,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/living/Promise.jsx",
-                                            lineNumber: 76,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/living/Promise.jsx",
-                                    lineNumber: 40,
+                                    lineNumber: 42,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -6201,6 +6209,7 @@ function Participate() {
                                             width: "100%",
                                             height: "100%"
                                         },
+                                        loading: "lazy",
                                         className: "jsx-82d858489ff74c1a" + " " + "foodpurpose-image"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/living/Participate.jsx",

@@ -184,6 +184,7 @@ function TestimonialOne() {
                         <img
                           src="https://i.postimg.cc/kgz1YJtL/ludema.jpg"
                           alt=""
+                          loading="lazy"
                         />
                       </div>
                       <div className="testimonial__content">
@@ -227,6 +228,7 @@ function TestimonialOne() {
                         <img
                           src="https://i.postimg.cc/XYGxCRDB/ludema2.jpg"
                           alt=""
+                          loading="lazy"
                         />
                       </div>
                       <div className="testimonial__content">

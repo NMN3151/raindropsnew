@@ -23,6 +23,7 @@ export default function FoundersVisionaries() {
                 width={380}
                 height={360}
                 className="founder-img"
+                loading="lazy"
               />
             </div>
             <a href="https://www.linkedin.com/in/gaminihewawasam">
@@ -38,6 +39,7 @@ export default function FoundersVisionaries() {
                 className="forbes"
                 src="/assets/images/logo/forbes_logo.png"
                 alt=""
+                loading="lazy"
               />
             </a>
             </div>
@@ -65,6 +67,7 @@ export default function FoundersVisionaries() {
                 width={380}
                 height={360}
                 className="founder-img"
+                loading="lazy"
               />
             </div>
             <a href="https://diangomes.com/">
@@ -80,6 +83,7 @@ export default function FoundersVisionaries() {
                   className="gomeslogo"
                   src="/assets/images/logo/gomes_logo.png"
                   alt=""
+                  loading="lazy"
                 />
               </a>
             </div>

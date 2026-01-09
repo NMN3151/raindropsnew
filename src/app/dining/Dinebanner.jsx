@@ -56,21 +56,12 @@ function DineBannerOne() {
                       zIndex: 3,
                     }}
                   >
-                    <span className="h6 subtitle__icon">
-                      Welcome to Our Wellness Villa
-                    </span>
                     <h1>Mindful Eating</h1>
-                    {/* <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
-                                            </p> */}
-                    {/* <Link
-                                                href="/room-home"
-                                                className="theme-btn btn-style fill no-border "
-                                            >
-                                                <span>Discover Room</span>
-                                            </Link> */}
+
+                    <p data-aos="fade-up" data-aos-delay="600">
+                      where every image tells a story of luxury, comfort, and
+                      unparalleled hospitality
+                    </p>
                   </div>
                 </div>
               </div>

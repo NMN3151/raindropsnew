@@ -49,6 +49,8 @@ function SignatureExperiencesYourClients() {
                   src="/assets/images/travelpartners/bothwalking.png"
                   alt="Partners walking together"
                   className="partner-image"
+                  loading="lazy"
+
                 />
               </div>
             </div>
@@ -92,11 +94,13 @@ function SignatureExperiencesYourClients() {
                   src="/assets/images/travelpartners/bothwalking.png"
                   alt="Partners walking together"
                   className="partner-image"
+                  loading="lazy"
                 />
                 <img
                   src="/assets/images/travelpartners/rainforest.png"
                   alt="Rainforest experience"
                   className="partner-image"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -108,6 +112,7 @@ function SignatureExperiencesYourClients() {
                   src="/assets/images/travelpartners/rainforest.png"
                   alt="Rainforest experience"
                   className="partner-image"
+                  loading="lazy"
                 />
               </div>
             </div>

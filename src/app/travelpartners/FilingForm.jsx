@@ -285,6 +285,7 @@ function FilingForm() {
                      width={70} 
                      height={50}  
                      className="partner-image"
+                     loading="lazy"
                    />
                   </div>
                   <div className="badge">
@@ -294,6 +295,7 @@ function FilingForm() {
                       width={80} 
                       height={50}
                       className="partner-image"
+                      loading="lazy"
                     />
                   </div>
                 </div>

@@ -146,6 +146,7 @@ function SideToSideContainers() {
                             src={section.image}
                             alt={section.imageAlt}
                             className="section-image-container-manwalking"
+                            loading="lazy"
                           />
                         </div>
                       </div>
@@ -214,6 +215,7 @@ function SideToSideContainers() {
                           src={section.image}
                           alt={section.imageAlt}
                           className="section-image-container"
+                          loading="lazy"
                         />
                       </div>
                     </div>

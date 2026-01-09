@@ -15,6 +15,8 @@ function mindmeets() {
               <img
                 src="/assets/images/neroscience/mindmeets/mind.png"
                 alt="Mind Meets NeuroScience"
+                loading="lazy"
+
                 className="philosophy-image w-0 rounded-3"
                 style={{ width: "100%", height: "480px", objectFit: "cover" }}
                 onError={(e) => {
