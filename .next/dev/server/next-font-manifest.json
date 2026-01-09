@@ -8,8 +8,10 @@
     "[project]/src/app/living/page": [],
     "[project]/src/app/neuroscience/page": [],
     "[project]/src/app/page": [],
+    "[project]/src/app/privacy/page": [],
     "[project]/src/app/research/page": [],
     "[project]/src/app/room-home/page": [],
+    "[project]/src/app/room/[slug]/page": [],
     "[project]/src/app/srilanka/page": [],
     "[project]/src/app/travelpartners/page": [],
     "[project]/src/app/weather/page": []

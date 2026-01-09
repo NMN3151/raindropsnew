@@ -7,8 +7,10 @@
   "/living/page": "app/living/page.js",
   "/neuroscience/page": "app/neuroscience/page.js",
   "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
   "/research/page": "app/research/page.js",
   "/room-home/page": "app/room-home/page.js",
+  "/room/[slug]/page": "app/room/[slug]/page.js",
   "/srilanka/page": "app/srilanka/page.js",
   "/travelpartners/page": "app/travelpartners/page.js",
   "/weather/page": "app/weather/page.js"

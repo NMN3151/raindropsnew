@@ -51,13 +51,7 @@ function PBannerOne() {
                       zIndex: 3,
                     }}
                   >
-                    <span
-                      className="h6 subtitle__icon"
-                      data-aos="fade-up"
-                      data-aos-delay="200"
-                    >
-                      Rain drops
-                    </span>
+                     
                     <h1 data-aos="fade-up" data-aos-delay="400">
                       Safeguarding Your Privacy with Care
                     </h1>

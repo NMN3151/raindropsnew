@@ -2065,3 +2065,70 @@ See this log for the ancestor stack trace. body <head>
 [25:13:54.364] Browser LOG     Autoplay started
 [25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:19:06.899] Server  LOG     ✓ Compiled in 107ms
+[25:20:18.856] Browser WARN    Image with src "/assets/images/founders/4f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:20:18.856] Browser WARN    Image with src "/assets/images/founders/1f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:20:25.040] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[25:20:29.245] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:20:29.245] Browser LOG     Autoplay started
+[25:20:29.245] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:20:29.245] Browser LOG     Autoplay started
+[25:20:29.245] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:20:29.245] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:21:03.215] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[25:21:31.643] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:21:31.886] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[25:21:31.886] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[25:21:32.358] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:21:39.976] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:21:40.227] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[25:21:40.227] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[25:21:40.623] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:22:20.701] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:22:20.950] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[25:22:20.950] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[25:22:20.950] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[25:22:46.811] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <head> body  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <Script>
+                          <Script>
+>                         <body>
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                                  <Page params={Promise} searchParams={Promise}>
+                                    <SEO>
+>                                   <head>
+                                    ...
+                            ...
+                  ...
+
+[25:22:46.811] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. body <head>
+[25:22:47.108] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:22:47.108] Browser LOG     Autoplay started
+[25:22:47.108] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:22:47.108] Browser LOG     Autoplay started
+[25:22:47.108] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:22:47.108] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[25:24:08.162] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior

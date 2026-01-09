@@ -4710,23 +4710,13 @@ function WBannerOne() {
                                                 zIndex: 3
                                             },
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "h6 subtitle__icon",
-                                                    "data-aos": "fade-up",
-                                                    "data-aos-delay": "200",
-                                                    children: "Rain Drops"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                                    lineNumber: 69,
-                                                    columnNumber: 21
-                                                }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                     "data-aos": "fade-up",
                                                     "data-aos-delay": "400",
                                                     children: "Insight Patners"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 70,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4735,7 +4725,7 @@ function WBannerOne() {
                                                     children: "Research-Guided Calm, Community-Led Protection."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 73,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
@@ -4790,7 +4780,7 @@ function WBannerOne() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                            lineNumber: 162,
+                                            lineNumber: 156,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -4798,23 +4788,23 @@ function WBannerOne() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                            lineNumber: 166,
+                                            lineNumber: 160,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                    lineNumber: 155,
+                                    lineNumber: 149,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                lineNumber: 154,
+                                lineNumber: 148,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/Insight/IBanner.jsx",
-                            lineNumber: 153,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4834,7 +4824,7 @@ function WBannerOne() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                            lineNumber: 182,
+                                            lineNumber: 176,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -4842,29 +4832,29 @@ function WBannerOne() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                            lineNumber: 186,
+                                            lineNumber: 180,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                    lineNumber: 175,
+                                    lineNumber: 169,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Insight/IBanner.jsx",
-                                lineNumber: 174,
+                                lineNumber: 168,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/Insight/IBanner.jsx",
-                            lineNumber: 173,
+                            lineNumber: 167,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/Insight/IBanner.jsx",
-                    lineNumber: 152,
+                    lineNumber: 146,
                     columnNumber: 9
                 }, this)
             ]
