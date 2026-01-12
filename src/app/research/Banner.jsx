@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css"; 
 import { Navigation } from "swiper/modules";
@@ -8,8 +8,22 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Bannerr() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: "ease-in-out",
+      offset: 0, // 👈 IMPORTANT
+      anchorPlacement: "top-bottom",
+    });
+
+    AOS.refreshHard(); // 👈 force recalculation
+  }, []);
+
   return (
     <>
       <div
@@ -21,26 +35,13 @@ function Bannerr() {
           overflow: "hidden",
         }}
       >
-        {/* <Swiper
-                    className="banner__slider overflow-hidden"
-                    modules={[Navigation]}
-                    direction="horizontal"
-                    slidesPerView={1}
-                    loop={true}
-                    navigation={{
-                        nextEl: ".next",
-                        prevEl: ".prev",
-                    }}
-                    speed={1000}
-                    effect="slide"
-                > */}
+        
         <div className="swiper-wrapper">
           <SwiperSlide>
             <div className="banner__slider__image">
               <img
                 src="https://res.cloudinary.com/dbkxkqkik/image/upload/v1766056882/reb_e3vdyi.jpg"
                 alt=""
-                // {/* <video src="/assets/images/banner/banner.mp4" */}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -59,11 +60,14 @@ function Bannerr() {
                       zIndex: 3,
                     }}
                   >
-                    {/* <span className="h6 subtitle__icon"> */}
-                    {/* Welcome to Our Wellness Villa */}
-                    {/* </span> */}
-                    <h1> Rain Lab </h1>
-                    <p className="sub__text">
+                    <h1 data-aos="fade-up" data-aos-delay="400">
+                      Rain Lab
+                    </h1>
+                    <p
+                      className="sub__text"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
                       Wellness with Rain drops – Where Peace Flows Natural
                     </p>
                   </div>
@@ -71,60 +75,7 @@ function Bannerr() {
               </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
-                            <div className="banner__slider__image">
-                                <img src="/assets/images/banner/banner2.jpg" alt="" />
-                            </div>
-                            <div className="container">
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-10">
-                                        <div className="banner__slide__content">
-                                            <span className="h6 subtitle__icon"> Welcome to Our Villa</span>
-                                            <h1>Luxury Stay Villa Experience Comfort &amp; Elegance</h1>
-                                            <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
-                                            </p>
-                                            <Link
-                                                href="/room-one"
-                                                className="theme-btn btn-style fill no-border "
-                                            >
-                                                <span>Discover Room</span>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide> */}
-          {/* single slider item end */}
-          {/* single slider item */}
-          {/* <SwiperSlide>
-                            <div className="banner__slider__image">
-                                <img src="/assets/images/banner/banner-3.webp" alt="" />
-                            </div>
-                            <div className="container">
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-10">
-                                        <div className="banner__slide__content">
-                                            <span className="h6 subtitle__icon">Welcome to Our Villa</span>
-                                            <h1>Luxury Stay Villa Experience Comfort &amp; Elegance</h1>
-                                            <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
-                                            </p>
-                                            <Link
-                                                href="/room-one"
-                                                className="theme-btn btn-style fill no-border "
-                                            >
-                                                <span>Discover Room</span>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide> */}
+           
         </div>
         <div className="rts__slider__nav">
           <div className="rts__slide">

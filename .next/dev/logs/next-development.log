@@ -1,6 +1,6 @@
-[00:00:02.372] Server  LOG     ✓ Ready in 1930ms
-[00:00:05.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.787] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:02.635] Server  LOG     ✓ Ready in 2.2s
+[00:04:12.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:12.917] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -43,29 +43,47 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
       ...
 
-[00:00:05.787] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:05.787] Browser LOG     Autoplay started
-[00:00:05.787] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:05.787] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:17.004] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:18.188] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:18.188] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:00:18.573] Browser WARN    Image with src "/assets/images/travelpartners/rainforest.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.573] Browser WARN    Image with src "/assets/images/travelpartners/bothwalking.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:13.818] Server  LOG     ✓ Compiled in 70ms
-[00:01:18.067] Server  LOG     ✓ Compiled in 7ms
-[00:01:19.477] Server  LOG     ✓ Compiled in 12ms
-[00:01:22.553] Server  LOG     ✓ Compiled in 12ms
-[00:01:25.183] Server  LOG     ✓ Compiled in 7ms
-[00:01:56.567] Server  LOG     ✓ Compiled in 8ms
-[00:02:01.339] Server  LOG     ✓ Compiled in 7ms
-[00:02:05.522] Server  LOG     ✓ Compiled in 8ms
-[00:02:07.490] Server  LOG     ✓ Compiled in 9ms
-[00:03:01.472] Server  LOG     ✓ Compiled in 7ms
-[00:03:04.754] Server  LOG     ✓ Compiled in 13ms
-[00:03:05.534] Server  LOG     ✓ Compiled in 11ms
-[00:03:40.713] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[00:03:40.713] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:04:12.917] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:04:12.917] Browser LOG     Autoplay started
+[00:04:12.917] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:04:12.917] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:06:42.739] Server  LOG     ✓ Compiled in 112ms
+[00:06:44.140] Server  LOG     ✓ Compiled in 6ms
+[00:08:13.188] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:10:38.678] Server  LOG     ✓ Compiled in 130ms
+[00:10:43.885] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:44.096] Browser WARN    Image with src "/assets/images/nutrition/meal1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:44.096] Browser WARN    Image with src "/assets/images/nutrition/meal2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:44.096] Browser WARN    Image with src "/assets/images/nutrition/meal3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:44.096] Browser WARN    Image with src "/assets/images/nutrition/meal4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:45.769] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:45.942] Browser WARN    Image with src "/assets/images/nutrition/meal1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:45.942] Browser WARN    Image with src "/assets/images/nutrition/meal2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:45.942] Browser WARN    Image with src "/assets/images/nutrition/meal3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:45.942] Browser WARN    Image with src "/assets/images/nutrition/meal4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:46.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:46.811] Browser WARN    Image with src "/assets/images/nutrition/meal1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:46.811] Browser WARN    Image with src "/assets/images/nutrition/meal2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:46.811] Browser WARN    Image with src "/assets/images/nutrition/meal3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:46.811] Browser WARN    Image with src "/assets/images/nutrition/meal4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:37.304] Server  LOG     ✓ Compiled in 16ms
+[00:11:44.700] Server  LOG     ✓ Compiled in 5ms
+[00:12:50.688] Server  LOG     ✓ Compiled in 68ms
+[00:12:56.044] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:56.233] Browser WARN    Image with src "/assets/images/nutrition/meal1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:56.233] Browser WARN    Image with src "/assets/images/nutrition/meal2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:56.233] Browser WARN    Image with src "/assets/images/nutrition/meal3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:56.233] Browser WARN    Image with src "/assets/images/nutrition/meal4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:03.771] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:03.954] Browser WARN    Image with src "/assets/images/nutrition/meal1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:03.954] Browser WARN    Image with src "/assets/images/nutrition/meal2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:03.954] Browser WARN    Image with src "/assets/images/nutrition/meal3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:03.954] Browser WARN    Image with src "/assets/images/nutrition/meal4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:09.606] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:13:12.004] Browser WARN    Image with src "/assets/images/founders/GB2nd_img.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:12.004] Browser WARN    Image with src "/assets/images/founders/3f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:14.409] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[00:13:14.409] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <p> p 
 
   ...
@@ -101,9 +119,9 @@ This will cause a hydration error.%s <p> p
           ...
         ...
 
-[00:03:40.713] Browser ERROR   <%s> cannot contain a nested %s.
+[00:13:14.409] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <p>
-[00:03:40.713] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:13:14.409] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -138,9 +156,9 @@ This will cause a hydration error.%s <div> p
           ...
         ...
 
-[00:03:40.713] Browser ERROR   <%s> cannot contain a nested %s.
+[00:13:14.409] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:03:40.713] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:13:14.409] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <ul> p 
 
   ...
@@ -178,12 +196,20 @@ This will cause a hydration error.%s <ul> p
           ...
         ...
 
-[00:03:40.713] Browser ERROR   <%s> cannot contain a nested %s.
+[00:13:14.409] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <ul>
-[00:03:50.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:50.741] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:50.741] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:03:54.670] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:13:21.529] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:21.529] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:54.296] Server  LOG     ✓ Compiled in 54ms
+[00:13:55.834] Server  LOG     ✓ Compiled in 6ms
+[00:14:52.505] Server  LOG     ✓ Compiled in 66ms
+[00:14:57.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:57.709] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:14:57.709] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:15:00.789] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:00.989] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:00.989] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:15:09.054] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <ul> p 
 
   ...
@@ -220,1439 +246,267 @@ This will cause a hydration error.%s <ul> p
             ...
           ...
 
-[00:03:54.670] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:03:54.670] Browser WARN    Image with src "/assets/images/about/partnership/partner1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:55.454] Browser WARN    Image with src "/assets/images/about/abi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:55.454] Browser WARN    Image with src "/assets/images/about/partnership/community3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:55.454] Browser WARN    Image with src "/assets/images/about/partnership/community2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:30.096] Server  LOG     ✓ Compiled in 9ms
-[00:05:43.436] Server  LOG     ✓ Compiled in 8ms
-[00:05:58.485] Server  LOG     ✓ Compiled in 8ms
-[00:06:10.985] Server  LOG     ✓ Compiled in 7ms
-[00:06:14.618] Server  LOG     ✓ Compiled in 11ms
-[00:06:17.067] Server  LOG     ✓ Compiled in 11ms
-[00:06:19.368] Server  LOG     ✓ Compiled in 8ms
-[00:06:22.984] Server  LOG     ✓ Compiled in 12ms
-[00:07:21.768] Server  LOG     ✓ Compiled in 9ms
-[00:07:23.483] Server  LOG     ✓ Compiled in 9ms
-[00:07:25.419] Server  LOG     ✓ Compiled in 8ms
-[00:07:28.851] Server  LOG     ✓ Compiled in 10ms
-[00:07:30.029] Server  LOG     ✓ Compiled in 10ms
-[00:07:41.768] Server  LOG     ✓ Compiled in 8ms
-[00:07:51.468] Server  LOG     ✓ Compiled in 8ms
-[00:07:54.317] Server  LOG     ✓ Compiled in 7ms
-[00:07:57.671] Server  LOG     ✓ Compiled in 10ms
-[00:08:21.633] Server  LOG     ✓ Compiled in 9ms
-[00:08:26.735] Server  LOG     ✓ Compiled in 8ms
-[00:08:29.950] Server  LOG     ✓ Compiled in 11ms
-[00:08:32.067] Server  LOG     ✓ Compiled in 7ms
-[00:09:01.089] Server  LOG     ✓ Compiled in 13ms
-[00:09:34.119] Server  LOG     ✓ Compiled in 8ms
-[00:09:53.966] Server  LOG     ✓ Compiled in 8ms
-[00:11:24.085] Server  LOG     ✓ Compiled in 8ms
-[00:11:36.633] Server  LOG     ✓ Compiled in 9ms
-[00:11:42.936] Server  LOG     ✓ Compiled in 10ms
-[00:12:59.578] Server  LOG     ✓ Compiled in 23ms
-[00:13:45.401] Server  LOG     ✓ Compiled in 8ms
-[00:13:48.134] Server  LOG     ✓ Compiled in 8ms
-[00:13:52.000] Server  LOG     ✓ Compiled in 10ms
-[00:14:09.253] Server  LOG     ✓ Compiled in 10ms
-[00:14:15.335] Server  LOG     ✓ Compiled in 8ms
-[00:14:45.003] Server  LOG     ✓ Compiled in 8ms
-[00:14:46.220] Server  LOG     ✓ Compiled in 8ms
-[00:15:14.469] Server  LOG     ✓ Compiled in 8ms
-[00:15:17.539] Server  LOG     ✓ Compiled in 10ms
-[00:15:19.835] Server  LOG     ✓ Compiled in 9ms
-[00:15:26.653] Server  LOG     ✓ Compiled in 7ms
-[00:15:28.378] Server  LOG     ✓ Compiled in 8ms
-[00:16:27.053] Server  LOG     ✓ Compiled in 7ms
-[00:16:28.724] Server  LOG     ✓ Compiled in 8ms
-[00:16:49.718] Server  LOG     ✓ Compiled in 8ms
-[00:17:35.369] Server  LOG     ✓ Compiled in 11ms
-[00:17:36.625] Server  LOG     ✓ Compiled in 10ms
-[00:17:50.207] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:51.904] Server  LOG     ✓ Compiled in 8ms
-[00:19:53.525] Server  LOG     ✓ Compiled in 10ms
-[00:20:01.219] Server  LOG     ✓ Compiled in 8ms
-[00:20:04.053] Server  LOG     ✓ Compiled in 8ms
-[00:20:06.053] Server  LOG     ✓ Compiled in 10ms
-[00:45:59.180] Server  LOG     ✓ Compiled in 10ms
-[00:47:55.640] Server  LOG     ✓ Compiled in 17ms
-[00:48:00.293] Server  LOG     ✓ Compiled in 10ms
-[00:49:00.539] Server  LOG     ✓ Compiled in 9ms
-[00:49:01.924] Server  LOG     ✓ Compiled in 9ms
-[00:49:05.254] Server  LOG     ✓ Compiled in 13ms
-[00:49:07.903] Server  LOG     ✓ Compiled in 9ms
-[00:49:09.873] Server  LOG     ✓ Compiled in 12ms
-[00:49:10.361] Server  LOG     ✓ Compiled in 10ms
-[00:49:46.791] Server  LOG     ✓ Compiled in 11ms
-[00:49:49.089] Server  LOG     ✓ Compiled in 9ms
-[00:49:52.907] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:49:52.907] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:50:13.847] Server  LOG     ✓ Compiled in 18ms
-[00:50:14.556] Browser ERROR   ./src/app/travelpartners/PropertyAtAGlance.jsx:41:1
-Parsing ecmascript source code failed
-  39 |     "6 private, luxury villas",
-  40 |     "Designed for couples and solo travelers
-> 41 | ",
-     | ^^
-  42 |     "Rainforest & rice terrace views",
-  43 |     "Private lake swim + waterfall",
-  44 |     "Quiet, eco-privilege—not a nature 'park'",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/PropertyAtAGlance.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/PropertyAtAGlance.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[00:50:14.556] Browser ERROR   ./src/app/travelpartners/PropertyAtAGlance.jsx:41:1
-Parsing ecmascript source code failed
-  39 |     "6 private, luxury villas",
-  40 |     "Designed for couples and solo travelers
-> 41 | ",
-     | ^^
-  42 |     "Rainforest & rice terrace views",
-  43 |     "Private lake swim + waterfall",
-  44 |     "Quiet, eco-privilege—not a nature 'park'",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/PropertyAtAGlance.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/PropertyAtAGlance.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[00:50:22.450] Server  LOG     ✓ Compiled in 10ms
-[00:50:22.553] Browser ERROR   ./src/app/travelpartners/PropertyAtAGlance.jsx:42:1
-Parsing ecmascript source code failed
-  40 |     "Designed for couples and solo travelers",
-  41 |     " Rainforest & tea-estate views
-> 42 | ",
-     | ^^
-  43 |     "Private lake swim + waterfall",
-  44 |     "Quiet, eco-privilege—not a nature 'park'",
-  45 |     "24/7 hosting without intrusion",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/PropertyAtAGlance.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/PropertyAtAGlance.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[00:50:22.553] Browser ERROR   ./src/app/travelpartners/PropertyAtAGlance.jsx:42:1
-Parsing ecmascript source code failed
-  40 |     "Designed for couples and solo travelers",
-  41 |     " Rainforest & tea-estate views
-> 42 | ",
-     | ^^
-  43 |     "Private lake swim + waterfall",
-  44 |     "Quiet, eco-privilege—not a nature 'park'",
-  45 |     "24/7 hosting without intrusion",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/PropertyAtAGlance.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/PropertyAtAGlance.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[00:50:33.044] Server  LOG     ✓ Compiled in 9ms
-[00:50:54.869] Server  LOG     ✓ Compiled in 9ms
-[00:51:01.295] Server  LOG     ✓ Compiled in 10ms
-[00:51:08.274] Server  LOG     ✓ Compiled in 10ms
-[00:51:19.840] Server  LOG     ✓ Compiled in 9ms
-[00:53:56.292] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:56.292] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:54:29.569] Server  LOG     ✓ Compiled in 18ms
-[00:54:31.275] Server  LOG     ✓ Compiled in 9ms
-[00:55:07.107] Server  LOG     ✓ Compiled in 10ms
-[00:55:10.706] Server  LOG     ✓ Compiled in 12ms
-[00:55:12.222] Server  LOG     ✓ Compiled in 9ms
-[00:55:59.089] Server  LOG     ✓ Compiled in 10ms
-[00:56:17.887] Server  LOG     ✓ Compiled in 8ms
-[00:56:28.690] Server  LOG     ✓ Compiled in 8ms
-[00:56:38.190] Server  LOG     ✓ Compiled in 8ms
-[00:56:57.905] Server  LOG     ✓ Compiled in 8ms
-[00:57:03.857] Server  LOG     ✓ Compiled in 11ms
-[00:57:05.956] Server  LOG     ✓ Compiled in 9ms
-[00:57:09.474] Server  LOG     ✓ Compiled in 11ms
-[00:57:14.040] Server  LOG     ✓ Compiled in 9ms
-[00:57:16.524] Server  LOG     ✓ Compiled in 9ms
-[00:57:46.190] Server  LOG     ✓ Compiled in 104ms
-[00:57:47.738] Server  LOG     ✓ Compiled in 17ms
-[00:58:07.307] Server  LOG     ✓ Compiled in 11ms
-[00:58:07.393] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:58:12.605] Server  LOG     ✓ Compiled in 11ms
-[00:58:18.839] Server  LOG     ✓ Compiled in 19ms
-[00:58:20.596] Server  LOG     ✓ Compiled in 16ms
-[00:58:25.008] Server  LOG     ✓ Compiled in 17ms
-[00:58:28.289] Server  LOG     ✓ Compiled in 14ms
-[00:58:42.040] Server  LOG     ✓ Compiled in 9ms
-[00:58:43.125] Server  LOG     ✓ Compiled in 10ms
-[00:58:49.575] Server  LOG     ✓ Compiled in 10ms
-[00:58:55.372] Server  LOG     ✓ Compiled in 9ms
-[00:59:36.662] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:59:36.662] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:59:36.966] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:59:36.966] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:00:33.206] Server  LOG     ✓ Compiled in 10ms
-[01:00:34.744] Server  LOG     ✓ Compiled in 13ms
-[01:00:47.008] Server  LOG     ✓ Compiled in 8ms
-[01:00:49.707] Server  LOG     ✓ Compiled in 9ms
-[01:00:51.721] Server  LOG     ✓ Compiled in 9ms
-[01:00:55.024] Server  LOG     ✓ Compiled in 10ms
-[01:01:12.840] Server  LOG     ✓ Compiled in 8ms
-[01:01:17.039] Server  LOG     ✓ Compiled in 9ms
-[01:01:20.572] Server  LOG     ✓ Compiled in 11ms
-[01:01:27.389] Server  LOG     ✓ Compiled in 9ms
-[01:01:30.574] Server  LOG     ✓ Compiled in 10ms
-[01:02:28.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:29.290] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:02:29.290] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:02:29.435] Browser WARN    Image with src "/assets/images/travelpartners/bothwalking.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:02:29.435] Browser WARN    Image with src "/assets/images/travelpartners/rainforest.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:03:17.557] Server  LOG     ✓ Compiled in 10ms
-[01:03:18.809] Server  LOG     ✓ Compiled in 10ms
-[01:03:20.493] Server  LOG     ✓ Compiled in 9ms
-[01:03:52.009] Server  LOG     ✓ Compiled in 9ms
-[01:03:54.444] Server  LOG     ✓ Compiled in 11ms
-[01:04:44.272] Server  LOG     ✓ Compiled in 13ms
-[01:04:45.554] Server  LOG     ✓ Compiled in 9ms
-[01:04:49.091] Server  LOG     ✓ Compiled in 12ms
-[01:05:07.425] Server  LOG     ✓ Compiled in 9ms
-[01:07:52.175] Server  LOG     ✓ Compiled in 11ms
-[01:08:05.182] Server  LOG     ✓ Compiled in 12ms
-[01:08:08.157] Server  LOG     ✓ Compiled in 8ms
-[01:08:11.409] Server  LOG     ✓ Compiled in 12ms
-[01:09:29.672] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:09:30.338] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:09:30.338] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:09:30.338] Browser WARN    Image with src "/assets/images/travelpartners/bothwalking.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:09:30.338] Browser WARN    Image with src "/assets/images/travelpartners/rainforest.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:13:07.967] Server  LOG     ✓ Compiled in 11ms
-[01:13:12.928] Browser WARN    Image with src "/assets/images/travelpartners/slider6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:13:12.928] Browser WARN    Image with src "/assets/images/travelpartners/slider6.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:13:13.555] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:13:13.555] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:13:15.566] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:13:15.566] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:13:15.921] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:13:15.921] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:13:16.202] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:13:16.202] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:13:52.526] Server  LOG     ✓ Compiled in 9ms
-[01:13:54.721] Server  LOG     ✓ Compiled in 11ms
-[01:13:56.658] Server  LOG     ✓ Compiled in 12ms
-[01:14:23.418] Server  LOG     ✓ Compiled in 10ms
-[01:16:17.229] Server  LOG     ✓ Compiled in 8ms
-[01:16:19.739] Server  LOG     ✓ Compiled in 9ms
-[01:16:21.956] Server  LOG     ✓ Compiled in 9ms
-[01:16:28.202] Server  LOG     ✓ Compiled in 9ms
-[01:16:57.465] Server  LOG     ✓ Compiled in 9ms
-[01:17:44.809] Server  LOG     ✓ Compiled in 23ms
-[01:17:45.311] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:17:48.521] Server  LOG     ✓ Compiled in 15ms
-[01:18:07.557] Server  LOG     ✓ Compiled in 11ms
-[01:18:13.522] Server  LOG     ✓ Compiled in 9ms
-[01:18:22.658] Server  LOG     ✓ Compiled in 11ms
-[01:18:48.095] Server  LOG     ✓ Compiled in 14ms
-[01:18:49.695] Server  LOG     ✓ Compiled in 13ms
-[01:19:01.323] Server  LOG     ✓ Compiled in 11ms
-[01:19:04.600] Server  LOG     ✓ Compiled in 12ms
-[01:19:07.893] Server  LOG     ✓ Compiled in 10ms
-[01:19:25.007] Server  LOG     ✓ Compiled in 10ms
-[01:19:28.373] Server  LOG     ✓ Compiled in 11ms
-[01:19:33.928] Server  LOG     ✓ Compiled in 9ms
-[01:19:40.076] Server  LOG     ✓ Compiled in 10ms
-[01:20:28.913] Server  LOG     ✓ Compiled in 10ms
-[01:20:42.897] Server  LOG     ✓ Compiled in 10ms
-[01:21:10.664] Server  LOG     ✓ Compiled in 9ms
-[01:21:25.928] Server  LOG     ✓ Compiled in 9ms
-[01:21:28.346] Server  LOG     ✓ Compiled in 16ms
-[01:21:30.789] Server  LOG     ✓ Compiled in 10ms
-[01:24:28.372] Server  LOG     ✓ Compiled in 15ms
-[01:26:41.117] Server  LOG     ✓ Compiled in 11ms
-[01:27:13.360] Server  LOG     ✓ Compiled in 12ms
-[01:27:15.186] Server  LOG     ✓ Compiled in 10ms
-[01:27:32.338] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:27:32.885] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:27:32.885] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:27:32.885] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:28:55.063] Server  LOG     ✓ Compiled in 16ms
-[01:28:57.475] Server  LOG     ✓ Compiled in 10ms
-[01:29:12.694] Server  LOG     ✓ Compiled in 9ms
-[01:29:14.769] Server  LOG     ✓ Compiled in 10ms
-[01:29:17.894] Server  LOG     ✓ Compiled in 11ms
-[01:29:20.533] Server  LOG     ✓ Compiled in 10ms
-[01:29:21.868] Server  LOG     ✓ Compiled in 12ms
-[01:29:25.221] Server  LOG     ✓ Compiled in 11ms
-[01:29:26.206] Server  LOG     ✓ Compiled in 12ms
-[01:29:59.965] Server  LOG     ✓ Compiled in 9ms
-[01:30:05.120] Server  LOG     ✓ Compiled in 10ms
-[01:30:06.799] Server  LOG     ✓ Compiled in 10ms
-[01:30:39.517] Server  LOG     ✓ Compiled in 30ms
-[01:30:49.192] Browser WARN    Image with src "/assets/images/travelpartners/rainforest.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:30:49.192] Browser WARN    Image with src "/assets/images/travelpartners/bothwalking.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:31:01.914] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:31:01.914] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:31:02.247] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:31:02.248] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:31:02.489] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:31:02.489] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:31:02.690] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:31:02.690] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:31:02.875] Browser WARN    Image with src "/assets/images/travelpartners/slider6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:31:02.875] Browser WARN    Image with src "/assets/images/travelpartners/slider6.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:32:06.883] Server  LOG     ✓ Compiled in 12ms
-[01:32:07.985] Server  LOG     ✓ Compiled in 11ms
-[01:32:21.607] Server  LOG     ✓ Compiled in 8ms
-[01:36:47.518] Server  LOG     ✓ Compiled in 16ms
-[01:38:30.398] Server  LOG     ✓ Compiled in 11ms
-[01:38:36.437] Server  LOG     ✓ Compiled in 63ms
-[01:38:36.551] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:92:26
-Parsing ecmascript source code failed
-  90 |             className={`content-block ${
-  91 |               section.imagePosition === "right" ? "image-right" : "image-left"
-> 92 |             } ${index %  === 0 ? "bg-light" : "bg-white"} ${section.id === 4 ? "section-inline-layout" : ""}`}
-     |                          ^^^
-  93 |           >
-  94 |             <div className="container">
-  95 |               <div className="content-wrapper wow fadeInUp">
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[01:38:36.554] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:92:26
-Parsing ecmascript source code failed
-  90 |             className={`content-block ${
-  91 |               section.imagePosition === "right" ? "image-right" : "image-left"
-> 92 |             } ${index %  === 0 ? "bg-light" : "bg-white"} ${section.id === 4 ? "section-inline-layout" : ""}`}
-     |                          ^^^
-  93 |           >
-  94 |             <div className="container">
-  95 |               <div className="content-wrapper wow fadeInUp">
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[01:38:44.451] Server  LOG     ✓ Compiled in 10ms
-[01:43:09.344] Server  LOG     ✓ Compiled in 10ms
-[01:43:29.330] Server  LOG     ✓ Compiled in 10ms
-[01:43:32.415] Server  LOG     ✓ Compiled in 12ms
-[01:43:38.157] Server  LOG     ✓ Compiled in 10ms
-[01:43:44.735] Server  LOG     ✓ Compiled in 10ms
-[01:43:53.229] Server  LOG     ✓ Compiled in 12ms
-[01:44:22.585] Server  LOG     ✓ Compiled in 10ms
-[01:44:37.482] Server  LOG     ✓ Compiled in 11ms
-[01:44:41.945] Server  LOG     ✓ Compiled in 11ms
-[01:44:45.319] Server  LOG     ✓ Compiled in 11ms
-[01:44:47.502] Server  LOG     ✓ Compiled in 11ms
-[01:44:51.359] Server  LOG     ✓ Compiled in 13ms
-[01:44:57.620] Server  LOG     ✓ Compiled in 10ms
-[01:44:57.726] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:103:42
-Parsing ecmascript source code failed
-  101 |                       
-  102 |                       <div className="flex-container">
-> 103 |                         <div className={`text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`}>
-      |                                          ^^^^
-  104 |                           {section.subtitle && (
-  105 |                             <h3 className="section-subtitle">{section.subtitle}</h3>
-  106 |                           )}
-
-Expected '</', got 'text'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[01:44:58.562] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:103:42
-Parsing ecmascript source code failed
-  101 |                       
-  102 |                       <div className="flex-container">
-> 103 |                         <div className={`text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`}>
-      |                                          ^^^^
-  104 |                           {section.subtitle && (
-  105 |                             <h3 className="section-subtitle">{section.subtitle}</h3>
-  106 |                           )}
-
-Expected '</', got 'text'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[01:45:20.762] Server  LOG     ✓ Compiled in 10ms
-[01:45:31.429] Server  LOG     ✓ Compiled in 10ms
-[01:45:34.593] Server  LOG     ✓ Compiled in 12ms
-[01:47:07.834] Server  LOG     ✓ Compiled in 11ms
-[01:47:10.904] Server  LOG     ✓ Compiled in 13ms
-[01:47:21.005] Server  LOG     ✓ Compiled in 17ms
-[01:47:22.066] Server  LOG     ✓ Compiled in 20ms
-[01:47:28.356] Server  LOG     ✓ Compiled in 16ms
-[01:47:37.570] Server  LOG     ✓ Compiled in 14ms
-[01:47:40.238] Server  LOG     ✓ Compiled in 14ms
-[01:48:00.997] Server  LOG     ✓ Compiled in 16ms
-[01:48:19.310] Server  LOG     ✓ Compiled in 60ms
-[01:48:23.012] Server  LOG     ✓ Compiled in 18ms
-[01:48:28.927] Server  LOG     ✓ Compiled in 10ms
-[01:50:23.170] Server  LOG     ✓ Compiled in 15ms
-[01:50:25.890] Server  LOG     ✓ Compiled in 15ms
-[01:50:27.024] Server  LOG     ✓ Compiled in 16ms
-[01:50:40.137] Server  LOG     ✓ Compiled in 15ms
-[01:50:45.223] Server  LOG     ✓ Compiled in 13ms
-[01:50:48.152] Server  LOG     ✓ Compiled in 15ms
-[01:50:53.223] Server  LOG     ✓ Compiled in 15ms
-[01:50:55.420] Server  LOG     ✓ Compiled in 15ms
-[01:50:56.800] Server  LOG     ✓ Compiled in 17ms
-[01:50:59.126] Server  LOG     ✓ Compiled in 16ms
-[01:51:00.920] Server  LOG     ✓ Compiled in 18ms
-[01:51:04.557] Server  LOG     ✓ Compiled in 20ms
-[01:51:14.926] Server  LOG     ✓ Compiled in 14ms
-[01:51:17.776] Server  LOG     ✓ Compiled in 16ms
-[01:51:28.413] Server  LOG     ✓ Compiled in 14ms
-[01:51:31.607] Server  LOG     ✓ Compiled in 16ms
-[01:51:48.161] Server  LOG     ✓ Compiled in 17ms
-[01:51:49.216] Server  LOG     ✓ Compiled in 12ms
-[01:51:50.879] Server  LOG     ✓ Compiled in 15ms
-[01:51:57.604] Server  LOG     ✓ Compiled in 16ms
-[01:51:59.663] Server  LOG     ✓ Compiled in 16ms
-[01:52:13.990] Server  LOG     ✓ Compiled in 11ms
-[01:52:36.283] Server  LOG     ✓ Compiled in 12ms
-[01:52:40.584] Server  LOG     ✓ Compiled in 10ms
-[01:52:53.434] Server  LOG     ✓ Compiled in 11ms
-[01:52:57.147] Server  LOG     ✓ Compiled in 12ms
-[01:53:29.115] Server  LOG     ✓ Compiled in 10ms
-[01:53:33.246] Server  LOG     ✓ Compiled in 10ms
-[01:53:40.876] Server  LOG     ✓ Compiled in 13ms
-[01:53:42.585] Server  LOG     ✓ Compiled in 10ms
-[01:53:48.621] Server  LOG     ✓ Compiled in 11ms
-[01:53:51.169] Server  LOG     ✓ Compiled in 10ms
-[01:53:57.404] Server  LOG     ✓ Compiled in 10ms
-[01:55:08.621] Server  LOG     ✓ Compiled in 10ms
-[01:55:33.560] Server  LOG     ✓ Compiled in 17ms
-[01:55:35.085] Server  LOG     ✓ Compiled in 16ms
-[01:55:37.722] Server  LOG     ✓ Compiled in 15ms
-[01:55:48.747] Server  LOG     ✓ Compiled in 16ms
-[01:56:05.870] Server  LOG     ✓ Compiled in 15ms
-[01:56:11.690] Server  LOG     ✓ Compiled in 11ms
-[01:56:39.438] Server  LOG     ✓ Compiled in 11ms
-[01:56:41.711] Server  LOG     ✓ Compiled in 10ms
-[01:56:43.873] Server  LOG     ✓ Compiled in 11ms
-[01:57:50.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:57:50.805] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:57:50.805] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:57:50.805] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:57:56.704] Browser WARN    Image with src "/assets/images/travelpartners/rainforest.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:57:56.704] Browser WARN    Image with src "/assets/images/travelpartners/bothwalking.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:58:06.599] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:58:06.599] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:59:04.019] Server  LOG     ✓ Compiled in 10ms
-[01:59:27.736] Server  LOG     ✓ Compiled in 15ms
-[02:00:32.621] Server  LOG     ✓ Compiled in 10ms
-[02:00:55.870] Server  LOG     ✓ Compiled in 12ms
-[02:00:58.205] Server  LOG     ✓ Compiled in 9ms
-[02:01:01.008] Server  LOG     ✓ Compiled in 12ms
-[02:01:05.735] Server  LOG     ✓ Compiled in 18ms
-[02:01:06.553] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:19:1
-Parsing ecmascript source code failed
-  17 |         "Couples seeking quiet, meaningful escapes",
-  18 |         "Conscious luxury travelers
-> 19 | ",
-     | ^^
-  20 |         "Mature counsel (i.e. attorneys, healers)",
-  21 |         "Science-driven individuals (tech, doctors)",
-  22 |         "Clients who value privacy over trendy identity",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:01:06.553] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:19:1
-Parsing ecmascript source code failed
-  17 |         "Couples seeking quiet, meaningful escapes",
-  18 |         "Conscious luxury travelers
-> 19 | ",
-     | ^^
-  20 |         "Mature counsel (i.e. attorneys, healers)",
-  21 |         "Science-driven individuals (tech, doctors)",
-  22 |         "Clients who value privacy over trendy identity",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:01:15.935] Server  LOG     ✓ Compiled in 10ms
-[02:01:21.342] Server  LOG     ✓ Compiled in 11ms
-[02:01:21.558] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:21:1
-Parsing ecmascript source code failed
-  19 |         "Nature-focused soft-adventure travelers",
-  20 |         "Repeat guests seeking deeper reflection
-> 21 | ",
-     | ^^
-  22 |         "Clients who value privacy over trendy identity",
-  23 |       ],
-  24 |     },
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:01:21.559] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:21:1
-Parsing ecmascript source code failed
-  19 |         "Nature-focused soft-adventure travelers",
-  20 |         "Repeat guests seeking deeper reflection
-> 21 | ",
-     | ^^
-  22 |         "Clients who value privacy over trendy identity",
-  23 |       ],
-  24 |     },
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:01:27.767] Server  LOG     ✓ Compiled in 11ms
-[02:01:48.571] Server  LOG     ✓ Compiled in 19ms
-[02:01:49.560] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:35:1
-Parsing ecmascript source code failed
-  33 |         "Only 6 villas—availability is limited",
-  34 |         "Advance booking strongly recommended
-> 35 | ",
-     | ^^
-  36 |         "No resort-style drinks menu or full-service spa",
-  37 |         "This experience is curated—not a hotel program",
-  38 |         "Private hosting by founder",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:01:49.560] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:35:1
-Parsing ecmascript source code failed
-  33 |         "Only 6 villas—availability is limited",
-  34 |         "Advance booking strongly recommended
-> 35 | ",
-     | ^^
-  36 |         "No resort-style drinks menu or full-service spa",
-  37 |         "This experience is curated—not a hotel program",
-  38 |         "Private hosting by founder",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:01:56.025] Server  LOG     ✓ Compiled in 15ms
-[02:02:02.418] Server  LOG     ✓ Compiled in 14ms
-[02:02:02.554] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:37:1
-Parsing ecmascript source code failed
-  35 |         "Children are welcome with a quiet-respect policy",
-  36 |         "No spa or yoga studio (nature is the sanctuary)
-> 37 | ",
-     | ^^
-  38 |         "Private hosting by founder",
-  39 |         "Best for 2-6 pax, individual travelers and single or multiple couples",
-  40 |       ],
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:02:02.555] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:37:1
-Parsing ecmascript source code failed
-  35 |         "Children are welcome with a quiet-respect policy",
-  36 |         "No spa or yoga studio (nature is the sanctuary)
-> 37 | ",
-     | ^^
-  38 |         "Private hosting by founder",
-  39 |         "Best for 2-6 pax, individual travelers and single or multiple couples",
-  40 |       ],
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:02:10.696] Server  LOG     ✓ Compiled in 12ms
-[02:02:11.555] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:38:1
-Parsing ecmascript source code failed
-  36 |         "No spa or yoga studio (nature is the sanctuary)",
-  37 |         "Experiences are optional—not fixed programs
-> 38 | ",
-     | ^^
-  39 |         "Best for 2-6 pax, individual travelers and single or multiple couples",
-  40 |       ],
-  41 |     },
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:02:11.555] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:38:1
-Parsing ecmascript source code failed
-  36 |         "No spa or yoga studio (nature is the sanctuary)",
-  37 |         "Experiences are optional—not fixed programs
-> 38 | ",
-     | ^^
-  39 |         "Best for 2-6 pax, individual travelers and single or multiple couples",
-  40 |       ],
-  41 |     },
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:02:18.840] Server  LOG     ✓ Compiled in 12ms
-[02:02:21.085] Server  LOG     ✓ Compiled in 21ms
-[02:02:37.244] Server  LOG     ✓ Compiled in 15ms
-[02:02:42.451] Server  LOG     ✓ Compiled in 12ms
-[02:02:42.555] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:51:1
-Parsing ecmascript source code failed
-  49 |         "Complimentary 1-night FAM stay",
-  50 |         "One free villa night for every 15 Insight Partners booked
-> 51 | ",
-     | ^^
-  52 |         "Two complimentary site visits",
-  53 |         "Exclusive photos and marketing tools",
-  54 |         "Tailored access to bespoke itineraries",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:02:42.555] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:51:1
-Parsing ecmascript source code failed
-  49 |         "Complimentary 1-night FAM stay",
-  50 |         "One free villa night for every 15 Insight Partners booked
-> 51 | ",
-     | ^^
-  52 |         "Two complimentary site visits",
-  53 |         "Exclusive photos and marketing tools",
-  54 |         "Tailored access to bespoke itineraries",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:02:50.216] Server  LOG     ✓ Compiled in 10ms
-[02:02:55.390] Server  LOG     ✓ Compiled in 12ms
-[02:03:01.731] Server  LOG     ✓ Compiled in 11ms
-[02:03:02.555] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:54:1
-Parsing ecmascript source code failed
-  52 |         "Co-branded sales and marketing tools",
-  53 |         "Priority access to limited inventory
-> 54 | ",
-     | ^^
-  55 |         "Quarterly partner webinars & updates",
-  56 |       ],
-  57 |     },
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:03:02.555] Browser ERROR   ./src/app/travelpartners/SideToSideContainers.jsx:54:1
-Parsing ecmascript source code failed
-  52 |         "Co-branded sales and marketing tools",
-  53 |         "Priority access to limited inventory
-> 54 | ",
-     | ^^
-  55 |         "Quarterly partner webinars & updates",
-  56 |       ],
-  57 |     },
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Client Component Browser]
-    ./src/app/travelpartners/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/travelpartners/SideToSideContainers.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Client Component SSR]
-    ./src/app/travelpartners/page.jsx [Server Component]
-[02:03:08.946] Server  LOG     ✓ Compiled in 10ms
-[02:03:20.236] Server  LOG     ✓ Compiled in 11ms
-[02:03:26.079] Server  LOG     ✓ Compiled in 11ms
-[02:03:28.218] Server  LOG     ✓ Compiled in 11ms
-[02:03:33.864] Server  LOG     ✓ Compiled in 11ms
-[02:03:39.240] Server  LOG     ✓ Compiled in 10ms
-[02:03:46.779] Server  LOG     ✓ Compiled in 10ms
-[02:03:47.247] Server  LOG     ✓ Compiled in 10ms
-[02:08:06.306] Server  LOG     ✓ Compiled in 51ms
-[02:08:12.708] Server  LOG     ✓ Compiled in 16ms
-[02:08:17.572] Server  LOG     ✓ Compiled in 17ms
-[02:08:23.565] Server  LOG     ✓ Compiled in 16ms
-[02:08:29.879] Server  LOG     ✓ Compiled in 33ms
-[02:08:31.896] Server  LOG     ✓ Compiled in 17ms
-[02:09:05.916] Server  LOG     ✓ Compiled in 17ms
-[02:09:16.517] Server  LOG     ✓ Compiled in 24ms
-[02:09:20.512] Server  LOG     ✓ Compiled in 22ms
-[02:27:24.386] Server  LOG     ✓ Compiled in 11ms
-[02:27:25.975] Server  LOG     ✓ Compiled in 7ms
-[02:27:41.289] Server  LOG     ✓ Compiled in 6ms
-[02:27:42.993] Server  LOG     ✓ Compiled in 8ms
-[02:27:51.002] Server  LOG     ✓ Compiled in 8ms
-[02:27:55.341] Server  LOG     ✓ Compiled in 7ms
-[02:28:04.298] Server  LOG     ✓ Compiled in 8ms
-[02:28:06.168] Server  LOG     ✓ Compiled in 8ms
-[02:28:07.313] Server  LOG     ✓ Compiled in 9ms
-[02:28:18.217] Server  LOG     ✓ Compiled in 8ms
-[02:29:07.741] Server  LOG     ✓ Compiled in 17ms
-[02:29:13.114] Server  LOG     ✓ Compiled in 11ms
-[02:29:17.007] Server  LOG     ✓ Compiled in 16ms
-[02:30:08.709] Server  LOG     ✓ Compiled in 13ms
-[02:30:13.268] Server  LOG     ✓ Compiled in 11ms
-[02:30:15.826] Server  LOG     ✓ Compiled in 13ms
-[02:31:17.900] Server  LOG     ✓ Compiled in 8ms
-[02:31:27.928] Server  LOG     ✓ Compiled in 9ms
-[02:31:31.069] Server  LOG     ✓ Compiled in 10ms
-[02:31:35.470] Server  LOG     ✓ Compiled in 8ms
-[02:31:37.977] Server  LOG     ✓ Compiled in 8ms
-[02:31:40.876] Server  LOG     ✓ Compiled in 7ms
-[02:32:11.034] Server  LOG     ✓ Compiled in 8ms
-[02:32:12.774] Server  LOG     ✓ Compiled in 8ms
-[02:32:19.756] Server  LOG     ✓ Compiled in 10ms
-[02:32:22.748] Server  LOG     ✓ Compiled in 8ms
-[02:32:24.600] Server  LOG     ✓ Compiled in 11ms
-[02:32:29.251] Server  LOG     ✓ Compiled in 36ms
-[02:32:30.820] Server  LOG     ✓ Compiled in 8ms
-[02:32:32.765] Server  LOG     ✓ Compiled in 8ms
-[02:32:39.919] Server  LOG     ✓ Compiled in 9ms
-[02:32:51.750] Server  LOG     ✓ Compiled in 8ms
-[02:32:53.434] Server  LOG     ✓ Compiled in 8ms
-[02:33:00.600] Server  LOG     ✓ Compiled in 8ms
-[02:33:02.059] Server  LOG     ✓ Compiled in 10ms
-[02:33:03.913] Server  LOG     ✓ Compiled in 8ms
-[02:33:06.375] Server  LOG     ✓ Compiled in 8ms
-[02:33:09.328] Server  LOG     ✓ Compiled in 7ms
-[02:33:14.126] Server  LOG     ✓ Compiled in 7ms
-[02:33:18.725] Server  LOG     ✓ Compiled in 9ms
-[02:33:19.878] Server  LOG     ✓ Compiled in 11ms
-[02:33:24.005] Server  LOG     ✓ Compiled in 9ms
-[02:33:27.347] Server  LOG     ✓ Compiled in 13ms
-[02:33:34.031] Server  LOG     ✓ Compiled in 9ms
-[02:33:36.400] Server  LOG     ✓ Compiled in 8ms
-[02:33:39.302] Server  LOG     ✓ Compiled in 9ms
-[02:33:42.561] Server  LOG     ✓ Compiled in 11ms
-[02:33:44.627] Server  LOG     ✓ Compiled in 9ms
-[02:33:48.866] Server  LOG     ✓ Compiled in 7ms
-[02:33:51.802] Server  LOG     ✓ Compiled in 8ms
-[02:34:39.461] Server  LOG     ✓ Compiled in 9ms
-[02:34:42.019] Server  LOG     ✓ Compiled in 8ms
-[02:36:04.670] Server  LOG     ✓ Compiled in 11ms
-[02:36:11.319] Server  LOG     ✓ Compiled in 12ms
-[02:36:13.369] Server  LOG     ✓ Compiled in 10ms
-[02:36:35.065] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:36:35.844] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[02:36:35.844] Browser WARN    Image with src "/assets/images/travelpartners/bothwalking.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:36:35.844] Browser WARN    Image with src "/assets/images/travelpartners/rainforest.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:36:35.844] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:42:02.109] Server  LOG     ✓ Compiled in 13ms
-[02:42:22.746] Server  LOG     ✓ Compiled in 11ms
-[02:43:13.490] Server  LOG     ✓ Compiled in 11ms
-[02:44:18.722] Server  LOG     ✓ Compiled in 12ms
-[02:44:30.094] Server  LOG     ✓ Compiled in 12ms
-[02:44:38.412] Server  LOG     ✓ Compiled in 12ms
-[02:44:41.414] Server  LOG     ✓ Compiled in 11ms
-[02:46:14.687] Server  LOG     ✓ Compiled in 11ms
-[02:46:17.746] Server  LOG     ✓ Compiled in 14ms
-[02:46:21.198] Server  LOG     ✓ Compiled in 12ms
-[02:46:33.629] Server  LOG     ✓ Compiled in 9ms
-[02:46:37.314] Server  LOG     ✓ Compiled in 15ms
-[02:46:41.660] Server  LOG     ✓ Compiled in 11ms
-[02:46:44.480] Server  LOG     ✓ Compiled in 11ms
-[02:46:52.474] Server  LOG     ✓ Compiled in 13ms
-[02:50:18.586] Server  LOG     ✓ Compiled in 12ms
-[02:50:38.028] Server  LOG     ✓ Compiled in 12ms
-[02:51:53.012] Server  LOG     ✓ Compiled in 16ms
-[02:52:15.147] Server  LOG     ✓ Compiled in 11ms
-[02:52:18.397] Server  LOG     ✓ Compiled in 12ms
-[02:52:24.673] Server  LOG     ✓ Compiled in 11ms
-[02:52:38.094] Server  LOG     ✓ Compiled in 11ms
-[02:52:45.331] Server  LOG     ✓ Compiled in 13ms
-[02:52:47.646] Server  LOG     ✓ Compiled in 11ms
-[02:52:48.759] Server  LOG     ✓ Compiled in 24ms
-[02:52:54.938] Server  LOG     ✓ Compiled in 11ms
-[02:52:56.189] Server  LOG     ✓ Compiled in 11ms
-[02:53:06.249] Server  LOG     ✓ Compiled in 11ms
-[02:53:07.428] Server  LOG     ✓ Compiled in 11ms
-[02:53:10.571] Server  LOG     ✓ Compiled in 19ms
-[02:53:11.586] Server  LOG     ✓ Compiled in 11ms
-[02:53:15.855] Server  LOG     ✓ Compiled in 11ms
-[02:53:17.299] Server  LOG     ✓ Compiled in 12ms
-[02:53:21.029] Server  LOG     ✓ Compiled in 16ms
-[02:53:23.515] Server  LOG     ✓ Compiled in 11ms
-[02:53:26.257] Server  LOG     ✓ Compiled in 11ms
-[02:53:35.226] Server  LOG     ✓ Compiled in 15ms
-[02:53:42.749] Server  LOG     ✓ Compiled in 10ms
-[02:53:47.831] Server  LOG     ✓ Compiled in 12ms
-[02:53:56.170] Server  LOG     ✓ Compiled in 12ms
-[02:54:01.658] Server  LOG     ✓ Compiled in 15ms
-[02:54:47.326] Server  LOG     ✓ Compiled in 9ms
-[02:54:48.475] Server  LOG     ✓ Compiled in 9ms
-[02:54:54.128] Server  LOG     ✓ Compiled in 9ms
-[02:55:43.050] Server  LOG     ✓ Compiled in 13ms
-[02:55:44.944] Server  LOG     ✓ Compiled in 16ms
-[02:55:46.267] Server  LOG     ✓ Compiled in 13ms
-[02:55:48.692] Server  LOG     ✓ Compiled in 11ms
-[02:55:54.616] Server  LOG     ✓ Compiled in 14ms
-[02:56:00.472] Server  LOG     ✓ Compiled in 11ms
-[02:57:22.603] Server  LOG     ✓ Compiled in 9ms
-[02:57:22.706] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/travelpartners/rainforest.png" is missing required "width" property.
-[02:57:24.535] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:57:24.763] Server  LOG     ✓ Compiled in 12ms
-[02:57:25.175] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:57:25.772] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[02:57:32.185] Server  LOG     ✓ Compiled in 9ms
-[02:57:32.290] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/travelpartners/bothwalking.png" is missing required "width" property.
-[02:57:33.934] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:57:34.143] Server  LOG     ✓ Compiled in 30ms
-[02:57:34.509] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:57:35.081] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[02:58:00.232] Server  LOG     ✓ Compiled in 9ms
-[02:58:01.705] Server  LOG     ✓ Compiled in 8ms
-[02:58:03.661] Server  LOG     ✓ Compiled in 14ms
-[02:58:05.942] Server  LOG     ✓ Compiled in 9ms
-[02:58:07.501] Server  LOG     ✓ Compiled in 9ms
-[02:58:08.555] Server  LOG     ✓ Compiled in 9ms
-[03:01:23.657] Server  LOG     ✓ Compiled in 14ms
-[03:01:42.162] Server  LOG     ✓ Compiled in 8ms
-[03:02:07.337] Server  LOG     ✓ Compiled in 9ms
-[03:02:21.992] Server  LOG     ✓ Compiled in 9ms
-[03:02:23.871] Server  LOG     ✓ Compiled in 9ms
-[03:02:26.839] Server  LOG     ✓ Compiled in 10ms
-[03:02:29.660] Server  LOG     ✓ Compiled in 10ms
-[03:03:22.043] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:03:23.079] Browser WARN    Image with src "/assets/images/travelpartners/magazinecover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:04:19.027] Server  LOG     ✓ Compiled in 13ms
-[03:04:20.786] Server  LOG     ✓ Compiled in 10ms
-[03:04:37.008] Server  LOG     ✓ Compiled in 10ms
-[03:04:39.845] Server  LOG     ✓ Compiled in 11ms
-[03:04:42.369] Server  LOG     ✓ Compiled in 10ms
-[03:04:51.703] Server  LOG     ✓ Compiled in 12ms
-[03:05:10.541] Server  LOG     ✓ Compiled in 11ms
-[03:05:13.839] Server  LOG     ✓ Compiled in 14ms
-[03:05:16.764] Server  LOG     ✓ Compiled in 12ms
-[03:05:19.380] Server  LOG     ✓ Compiled in 245ms
-[03:05:20.170] Server  LOG     ✓ Compiled in 13ms
-[03:05:22.998] Server  LOG     ✓ Compiled in 12ms
-[03:05:24.224] Server  LOG     ✓ Compiled in 12ms
-[03:05:30.257] Server  LOG     ✓ Compiled in 14ms
-[03:05:36.122] Server  LOG     ✓ Compiled in 10ms
-[03:06:14.260] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency
-[03:06:57.496] Server  LOG     ✓ Compiled in 8ms
-[03:07:31.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:07:32.550] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[03:07:41.883] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:07:42.582] Browser WARN    Image with src "/assets/images/travelpartners/magazinecover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:08:42.695] Server  LOG     ✓ Compiled in 10ms
-[03:08:49.475] Server  LOG     ✓ Compiled in 10ms
-[03:08:52.616] Server  LOG     ✓ Compiled in 12ms
-[03:08:54.876] Server  LOG     ✓ Compiled in 9ms
-[03:08:58.276] Server  LOG     ✓ Compiled in 11ms
-[03:09:01.177] Server  LOG     ✓ Compiled in 8ms
-[03:09:05.924] Server  LOG     ✓ Compiled in 112ms
-[03:09:10.587] Server  LOG     ✓ Compiled in 9ms
-[03:11:03.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:11:04.357] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[03:11:08.566] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:11:08.865] Browser WARN    Image with src "/assets/images/travelpartners/magazinecover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:27:44.308] Server  LOG     ✓ Compiled in 16ms
-[03:27:45.771] Server  LOG     ✓ Compiled in 12ms
-[03:37:28.698] Server  LOG     ✓ Compiled in 13ms
-[03:37:30.669] Server  LOG     ✓ Compiled in 14ms
-[03:39:51.052] Server  LOG     ✓ Compiled in 13ms
-[03:39:54.458] Server  LOG     ✓ Compiled in 12ms
-[03:39:56.046] Server  LOG     ✓ Compiled in 10ms
-[03:40:16.490] Server  LOG     ✓ Compiled in 11ms
-[03:40:28.630] Server  LOG     ✓ Compiled in 28ms
-[03:40:50.958] Server  LOG     ✓ Compiled in 11ms
-[03:42:14.671] Server  LOG     ✓ Compiled in 13ms
-[03:42:42.155] Server  LOG     ✓ Compiled in 11ms
-[03:43:05.807] Server  LOG     ✓ Compiled in 12ms
-[03:43:42.435] Server  LOG     ✓ Compiled in 12ms
-[03:43:48.363] Server  LOG     ✓ Compiled in 12ms
-[03:44:26.953] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[03:44:28.045] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[03:44:29.326] Browser WARN    Image with src "/assets/images/travelpartners/slider6.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[03:44:31.224] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[03:44:32.261] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[03:52:20.679] Server  LOG     ✓ Compiled in 13ms
-[03:52:21.993] Server  LOG     ✓ Compiled in 14ms
-[03:52:23.049] Server  LOG     ✓ Compiled in 11ms
-[03:52:25.341] Server  LOG     ✓ Compiled in 10ms
-[03:52:30.201] Server  LOG     ✓ Compiled in 12ms
-[03:52:38.980] Server  LOG     ✓ Compiled in 12ms
-[03:55:55.826] Server  LOG     ✓ Compiled in 9ms
-[03:56:00.000] Server  LOG     ✓ Compiled in 9ms
-[03:56:06.196] Server  LOG     ✓ Compiled in 9ms
-[19:25:51.394] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency
-[19:26:01.666] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <head> body  
+[00:15:09.054] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:15:09.054] Browser WARN    Image with src "/assets/images/about/partnership/partner1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:09.054] Browser WARN    Image with src "/assets/images/about/abi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:09.054] Browser WARN    Image with src "/assets/images/about/partnership/community2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:09.054] Browser WARN    Image with src "/assets/images/about/partnership/community3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:19.523] Server  LOG     ✓ Compiled in 19ms
+[00:15:20.991] Server  LOG     ✓ Compiled in 7ms
+[00:16:20.304] Server  LOG     ✓ Compiled in 54ms
+[00:16:23.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:24.067] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <Script>
-                          <Script>
->                         <body>
-                            ...
-                              <SegmentViewNode type="page" pagePath="page.tsx">
-                                <SegmentTrieNode>
-                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                                  <Page params={Promise} searchParams={Promise}>
-                                    <SEO>
->                                   <head>
-                                    ...
-                            ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/living" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="living/pag...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+                <page params={Promise} searchParams={Promise}>
+                  <TopBar>
+                  <HeaderOne>
+                  <div>
+                  <Partnership>
+                    <div className="jsx-c38c49...">
+                      <div className="jsx-c38c49...">
+                        <div className="jsx-c38c49...">
+                          <div className="jsx-c38c49...">
+                            <div className={"jsx-c38c..."}>
+                              <h2>
+                              <p>
+                              <p>
+                              <p>
+                              <p>
+                              <p>
+                              <p>
+>                             <p className="jsx-c38c495bfad18a52 neuroscience__tagline mb-3">
+                                <br>
+>                               <ul className="jsx-c38c495bfad18a52">
+                          ...
+                      ...
                   ...
+            ...
+          ...
 
-[19:26:01.666] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. body <head>
-[19:26:02.355] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[19:26:02.355] Browser LOG     Autoplay started
-[19:26:02.355] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[19:26:02.355] Browser LOG     Autoplay started
-[19:26:02.355] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[19:26:02.355] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[22:15:34.244] Server  LOG     ○ Compiling /research ...
-[22:15:39.946] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:16:41.444] Server  LOG     ✓ Compiled in 20ms
-[22:16:43.878] Server  LOG     ✓ Compiled in 18ms
-[22:16:49.125] Server  LOG     ✓ Compiled in 18ms
-[22:16:51.309] Server  LOG     ✓ Compiled in 20ms
-[22:16:53.711] Server  LOG     ✓ Compiled in 19ms
-[22:16:55.725] Server  LOG     ✓ Compiled in 18ms
-[22:17:01.101] Server  LOG     ✓ Compiled in 17ms
-[22:17:02.695] Server  LOG     ✓ Compiled in 18ms
-[22:18:09.017] Server  LOG     ✓ Compiled in 21ms
-[22:18:16.140] Server  LOG     ✓ Compiled in 13ms
-[22:18:20.997] Server  LOG     ✓ Compiled in 15ms
-[22:18:24.470] Server  LOG     ✓ Compiled in 18ms
-[22:18:24.547] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. clsassName clsassname
-[22:18:27.091] Server  LOG     ✓ Compiled in 16ms
-[22:18:27.168] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. clsasdassName clsasdassname
-[22:18:28.736] Server  LOG     ✓ Compiled in 14ms
-[22:18:35.428] Server  LOG     ✓ Compiled in 14ms
-[22:18:38.426] Server  LOG     ✓ Compiled in 12ms
-[22:18:41.693] Server  LOG     ✓ Compiled in 16ms
-[22:18:57.643] Server  LOG     ✓ Compiled in 13ms
-[22:19:04.482] Server  LOG     ✓ Compiled in 16ms
-[22:19:06.946] Server  LOG     ✓ Compiled in 14ms
-[22:19:09.507] Server  LOG     ✓ Compiled in 15ms
-[22:19:11.746] Server  LOG     ✓ Compiled in 13ms
-[22:19:14.400] Server  LOG     ✓ Compiled in 21ms
-[22:19:21.899] Server  LOG     ✓ Compiled in 14ms
-[22:19:25.107] Server  LOG     ✓ Compiled in 20ms
-[22:19:36.489] Server  LOG     ✓ Compiled in 18ms
-[22:19:38.727] Server  LOG     ✓ Compiled in 15ms
-[22:19:56.777] Server  LOG     ✓ Compiled in 14ms
-[22:20:00.371] Server  LOG     ✓ Compiled in 14ms
-[22:20:02.170] Server  LOG     ✓ Compiled in 13ms
-[22:20:03.349] Server  LOG     ✓ Compiled in 14ms
-[22:20:05.270] Server  LOG     ✓ Compiled in 12ms
-[22:23:48.959] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:23:48.959] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:24:40.284] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:24:40.430] Server  LOG     ✓ Compiled in 10ms
-[22:24:40.934] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:24:43.082] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:24:43.082] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:24:58.949] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/neuroscience/Mindmeets.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:24:59.160] Server  LOG     ✓ Compiled in 8ms
-[22:24:59.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:24:59.773] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:24:59.773] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:25:01.731] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/neuroscience/Mindmeets.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:25:01.912] Server  LOG     ✓ Compiled in 7ms
-[22:25:02.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:25:02.325] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:25:02.325] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:25:18.864] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/neuroscience/Mindmeets.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:25:19.045] Server  LOG     ✓ Compiled in 7ms
-[22:25:19.196] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:25:19.423] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:25:19.423] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:25:22.439] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/neuroscience/Mindmeets.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:25:22.614] Server  LOG     ✓ Compiled in 6ms
-[22:25:22.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:25:22.997] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:25:22.997] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:25:54.495] Server  LOG     ✓ Compiled in 6ms
-[22:25:56.760] Server  LOG     ✓ Compiled in 6ms
-[22:26:25.040] Server  LOG     ✓ Compiled in 7ms
-[22:26:26.261] Server  LOG     ✓ Compiled in 8ms
-[22:29:48.681] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[22:30:03.087] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:30:03.260] Server  LOG     ✓ Compiled in 7ms
-[22:30:03.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:30:05.658] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:30:05.852] Server  LOG     ✓ Compiled in 9ms
-[22:30:06.045] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:30:13.963] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:30:14.178] Server  LOG     ✓ Compiled in 8ms
-[22:30:14.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:30:15.672] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/Philosophy.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:30:15.872] Server  LOG     ✓ Compiled in 9ms
-[22:30:16.044] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:30:36.519] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/SRE.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:30:36.695] Server  LOG     ✓ Compiled in 9ms
-[22:30:36.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:30:37.389] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/research/SRE.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[22:30:37.574] Server  LOG     ✓ Compiled in 9ms
-[22:30:37.703] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:30:46.654] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[22:31:02.789] Server  LOG     ✓ Compiled in 9ms
-[22:31:04.442] Server  LOG     ✓ Compiled in 8ms
-[22:31:06.177] Server  LOG     ✓ Compiled in 7ms
-[22:31:07.659] Server  LOG     ✓ Compiled in 6ms
-[22:31:10.539] Server  LOG     ✓ Compiled in 6ms
-[22:31:11.750] Browser WARN    Image with src "/assets/images/nutrition/tt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:31:28.586] Server  LOG     ✓ Compiled in 8ms
-[22:31:33.477] Server  LOG     ✓ Compiled in 9ms
-[22:31:55.853] Server  LOG     ✓ Compiled in 6ms
-[22:32:08.639] Browser WARN    Image with src "/assets/images/nutrition/meal4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:32:08.639] Browser WARN    Image with src "/assets/images/nutrition/meal2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:32:08.639] Browser WARN    Image with src "/assets/images/nutrition/meal1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:32:08.639] Browser WARN    Image with src "/assets/images/nutrition/meal3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:33:15.569] Server  LOG     ✓ Compiled in 8ms
-[22:33:27.844] Server  LOG     ✓ Compiled in 7ms
-[22:33:32.814] Server  LOG     ✓ Compiled in 7ms
-[22:33:35.334] Server  LOG     ✓ Compiled in 9ms
-[22:33:41.966] Browser WARN    Image with src "/assets/images/founders/3f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:33:41.966] Browser WARN    Image with src "/assets/images/founders/GB2nd_img.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:33:42.471] Browser WARN    Image with src "/assets/images/founders/1f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:33:42.471] Browser WARN    Image with src "/assets/images/founders/4f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:34:26.541] Server  LOG     ✓ Compiled in 15ms
-[22:34:27.999] Server  LOG     ✓ Compiled in 11ms
-[22:34:34.411] Server  LOG     ✓ Compiled in 11ms
-[22:34:37.836] Server  LOG     ✓ Compiled in 9ms
-[22:34:42.570] Server  LOG     ✓ Compiled in 9ms
-[22:34:47.819] Server  LOG     ✓ Compiled in 11ms
-[22:34:53.260] Server  LOG     ✓ Compiled in 11ms
-[22:35:21.887] Server  LOG     ✓ Compiled in 13ms
-[22:35:23.534] Server  LOG     ✓ Compiled in 9ms
-[22:36:02.942] Server  LOG     ✓ Compiled in 43ms
-[22:36:05.794] Server  LOG     ✓ Compiled in 14ms
-[22:36:07.691] Server  LOG     ✓ Compiled in 14ms
-[22:36:08.627] Server  LOG     ✓ Compiled in 12ms
-[22:36:14.008] Server  LOG     ✓ Compiled in 13ms
-[22:36:28.410] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:36:28.411] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:16:24.067] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[00:16:24.067] Browser WARN    Image with src "/assets/images/about/partnership/partner1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:31.615] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:31.766] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/living" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="living/pag...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+                <page params={Promise} searchParams={Promise}>
+                  <TopBar>
+                  <HeaderOne>
+                  <div>
+                  <Partnership>
+                    <div className="jsx-c38c49...">
+                      <div className="jsx-c38c49...">
+                        <div className="jsx-c38c49...">
+                          <div className="jsx-c38c49...">
+                            <div className={"jsx-c38c..."}>
+                              <h2>
+                              <p>
+                              <p>
+                              <p>
+                              <p>
+                              <p>
+                              <p>
+>                             <p className="jsx-c38c495bfad18a52 neuroscience__tagline mb-3">
+                                <br>
+>                               <ul className="jsx-c38c495bfad18a52">
+                          ...
+                      ...
+                  ...
+            ...
+          ...
+
+[00:16:31.766] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[00:16:31.766] Browser WARN    Image with src "/assets/images/about/partnership/partner1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:33.177] Browser WARN    Image with src "/assets/images/about/abi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:33.177] Browser WARN    Image with src "/assets/images/about/partnership/community2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:33.177] Browser WARN    Image with src "/assets/images/about/partnership/community3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:39.807] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:16:46.043] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <p> p 
 
   ...
     <RedirectBoundary>
       <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
+        <InnerLayoutRouter url="/weather" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="weather/pa...">
             <SegmentTrieNode>
             <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
               <page params={Promise} searchParams={Promise}>
                 <TopBar>
                 <HeaderOne>
                 <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
+                <Location>
+                <Setting>
+                <Setting2>
+                <Setting3>
+                <Setting4>
+                <Weather>
+                  <div className="jsx-34eb03...">
+                    <div className="jsx-34eb03...">
                       <div>
-                      <div className="jsx-4f8255...">
+                      <div className="jsx-34eb03...">
                         <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                        <div className="jsx-34eb03...">
+                          <div className="jsx-34eb03...">
+                            <h2>
+>                           <p className="jsx-34eb03450f2a251c philosophy__highlight">
                               <div className="text-conte...">
                                 <div className="paragraph-...">
 >                                 <p className="intro-text">
+                                  ...
                                 ...
                             ...
+                      ...
                       ...
                     ...
                 ...
           ...
         ...
 
-[22:36:28.411] Browser ERROR   <%s> cannot contain a nested %s.
+[00:16:46.043] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <p>
-[22:36:28.411] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:16:46.043] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
     <RedirectBoundary>
       <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
+        <InnerLayoutRouter url="/weather" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="weather/pa...">
             <SegmentTrieNode>
             <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
               <page params={Promise} searchParams={Promise}>
                 <TopBar>
                 <HeaderOne>
                 <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
+                <Location>
+                <Setting>
+                <Setting2>
+                <Setting3>
+                <Setting4>
+                <Weather>
+                  <div className="jsx-34eb03...">
+                    <div className="jsx-34eb03...">
                       <div>
-                      <div className="jsx-4f8255...">
+                      <div className="jsx-34eb03...">
                         <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
+                        <div className="jsx-34eb03...">
+                          <div className="jsx-34eb03...">
+                            <h2>
+>                           <p className="jsx-34eb03450f2a251c philosophy__highlight">
                               <div className="text-conte...">
 >                               <div className="paragraph-group">
                                 ...
                             ...
                       ...
+                      ...
                     ...
                 ...
           ...
         ...
 
-[22:36:28.411] Browser ERROR   <%s> cannot contain a nested %s.
+[00:16:46.043] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[22:36:28.411] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <ul> p 
+[00:17:30.788] Server  LOG     ✓ Compiled in 74ms
+[00:17:30.821] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
-                              <div className="text-conte...">
-                                <div>
-                                <div className="support-se...">
-                                  <p>
->                                 <ul className="mt-6 space-y-3 text-gray-700">
-                                  ...
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true la la true la
+[00:17:31.988] Server  LOG     ✓ Compiled in 13ms
+[00:17:32.055] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-[22:36:28.411] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <ul>
-[22:36:49.329] Server  LOG     ✓ Compiled in 12ms
-[22:36:50.645] Server  LOG     ✓ Compiled in 8ms
-[22:37:08.496] Server  LOG     ✓ Compiled in 32ms
-[22:37:08.542] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:37:11.164] Server  LOG     ✓ Compiled in 13ms
-[22:37:11.227] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:37:53.535] Server  LOG     ✓ Compiled in 11ms
-[22:37:55.300] Server  LOG     ✓ Compiled in 58ms
-[22:37:55.363] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/about/ab2.png" has both "priority" and "loading='lazy'" properties. Only one should be used.
-[22:38:00.804] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[22:38:01.027] Server  LOG     ✓ Compiled in 7ms
-[22:38:01.029] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:01.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:38:01.322] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:01.322] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true laz laz true laz
+[00:17:33.038] Server  LOG     ✓ Compiled in 9ms
+[00:19:03.439] Server  LOG     ✓ Compiled in 9ms
+[00:19:06.073] Server  LOG     ✓ Compiled in 7ms
+[00:19:09.239] Server  LOG     ✓ Compiled in 11ms
+[00:19:12.938] Server  LOG     ✓ Compiled in 11ms
+[01:00:07.740] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[01:00:17.195] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:17.195] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[01:00:20.644] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:00:57.288] Server  LOG     ✓ Compiled in 81ms
+[01:01:03.143] Server  LOG     ✓ Compiled in 27ms
+[01:06:47.558] Server  LOG     ✓ Compiled in 25ms
+[01:06:59.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:59.272] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:06:59.272] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[01:06:59.382] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:07:14.622] Server  LOG     ✓ Compiled in 19ms
+[01:07:20.169] Server  LOG     ✓ Compiled in 21ms
+[01:07:52.012] Server  LOG     ✓ Compiled in 19ms
+[01:07:53.505] Server  LOG     ✓ Compiled in 19ms
+[01:07:56.189] Server  LOG     ✓ Compiled in 19ms
+[01:10:42.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:43.258] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:10:43.258] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[01:10:43.259] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:12:57.413] Server  LOG     ✓ Compiled in 295ms
+[01:12:57.516] Browser ERROR   ./assets/css/style.css:7064:6
+Parsing CSS source code failed
+  7062 |   min-width: 150px;
+  7063 |   background: var(--rts-white);
+> 7064 |   pad
+       |      ^
+  7065 |   z-index: 1024;
+  7066 |   display: inline-block;
+  7067 |   opacity: 0;
 
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
->                             <div className="text-content-inner">
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
+Unexpected token Ident("z-index")
 
-[22:38:01.322] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:01.322] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
-                              <div className="text-conte...">
-                                <div className="paragraph-...">
->                                 <p className="intro-text">
-                                ...
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
-
-[22:38:01.322] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[22:38:01.322] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <ul> p 
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
-                              <div className="text-conte...">
-                                <div>
-                                <div className="support-se...">
-                                  <p>
->                                 <ul className="mt-6 space-y-3 text-gray-700">
-                                  ...
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
-
-[22:38:01.322] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <ul>
-[22:38:01.322] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+Import trace:
+  Client Component Browser:
+    ./assets/css/style.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:12:59.950] Server  LOG     ✓ Compiled in 46ms
+[01:14:11.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:12.660] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:12.660] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[01:14:12.788] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:18:22.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:18:23.143] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:18:23.143] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[01:18:23.280] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:20:42.585] Server  LOG     ✓ Compiled in 73ms
+[01:20:44.391] Server  LOG     ✓ Compiled in 13ms
+[01:23:15.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:16.366] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -1662,473 +516,40 @@ See this log for the ancestor stack trace. p <ul>
 
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-https://react.dev/link/hydration-mismatch
-[22:38:04.736] Server  LOG     ✓ Compiled in 26ms
-[22:38:04.782] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/about/ab2.png" has both "priority" and "loading='lazy'" properties. Only one should be used.
-[22:38:07.170] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[22:38:07.348] Server  LOG     ✓ Compiled in 9ms
-[22:38:07.348] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:07.476] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:38:07.635] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:07.635] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
+%s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
->                             <div className="text-content-inner">
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
-
-[22:38:07.635] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:07.635] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
-                              <div className="text-conte...">
-                                <div className="paragraph-...">
->                                 <p className="intro-text">
-                                ...
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
-
-[22:38:07.635] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[22:38:07.635] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <ul> p 
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
-                              <div className="text-conte...">
-                                <div>
-                                <div className="support-se...">
-                                  <p>
->                                 <ul className="mt-6 space-y-3 text-gray-700">
-                                  ...
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
-
-[22:38:07.635] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <ul>
-[22:38:07.635] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[22:38:12.600] Server  LOG     ✓ Compiled in 10ms
-[22:38:12.654] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/about/ab2.png" has both "priority" and "loading='lazy'" properties. Only one should be used.
-[22:38:13.762] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[22:38:13.946] Server  LOG     ✓ Compiled in 8ms
-[22:38:13.946] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:14.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[22:38:14.188] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:14.188] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
->                             <div className="text-content-inner">
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
-
-[22:38:14.188] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[22:38:14.188] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
-                              <div className="text-conte...">
-                                <div className="paragraph-...">
->                                 <p className="intro-text">
-                                ...
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
-
-[22:38:14.188] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[22:38:14.188] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <ul> p 
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/Insight" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="Insight/pa...">
-            <SegmentTrieNode>
-            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-              <page params={Promise} searchParams={Promise}>
-                <TopBar>
-                <HeaderOne>
-                <div>
-                <Partnership>
-                <Guardians>
-                  <div className="jsx-4f8255...">
-                    <div className="jsx-4f8255...">
-                      <div>
-                      <div className="jsx-4f8255...">
-                        <div>
-                        <div className="jsx-4f8255...">
-                          <div className="jsx-4f8255...">
-                            <p>
->                           <p className="jsx-4f825596f188b230 philosophy__highlight">
-                              <div className="text-conte...">
-                                <div>
-                                <div className="support-se...">
-                                  <p>
->                                 <ul className="mt-6 space-y-3 text-gray-700">
-                                  ...
-                            ...
-                      ...
-                    ...
-                ...
-          ...
-        ...
-
-[22:38:14.188] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <ul>
-[22:38:14.188] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[22:39:01.914] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[22:39:02.872] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:39:02.872] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[22:39:07.766] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:39:53.401] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:39:53.401] Browser WARN    Image with src "/assets/images/travelpartners/slider3.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[22:39:54.462] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:39:54.462] Browser WARN    Image with src "/assets/images/travelpartners/slider4.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[22:39:54.874] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:39:54.874] Browser WARN    Image with src "/assets/images/travelpartners/slider2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[22:39:56.281] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[22:39:56.281] Browser WARN    Image with src "/assets/images/travelpartners/slider5.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[22:50:19.374] Server  LOG     ✓ Compiled in 22ms
-[22:50:20.904] Server  LOG     ✓ Compiled in 10ms
-[22:50:48.757] Server  LOG     ✓ Compiled in 8ms
-[22:50:50.802] Server  LOG     ✓ Compiled in 8ms
-[22:51:05.422] Server  LOG     ✓ Compiled in 12ms
-[22:51:10.899] Server  LOG     ✓ Compiled in 15ms
-[22:51:30.010] Server  LOG     ✓ Compiled in 9ms
-[22:51:32.575] Server  LOG     ✓ Compiled in 8ms
-[22:51:34.404] Server  LOG     ✓ Compiled in 12ms
-[22:51:57.993] Server  LOG     ✓ Compiled in 12ms
-[22:52:03.607] Server  LOG     ✓ Compiled in 13ms
-[22:52:39.223] Server  LOG     ✓ Compiled in 48ms
-[22:52:40.650] Server  LOG     ✓ Compiled in 10ms
-[22:52:42.578] Server  LOG     ✓ Compiled in 12ms
-[22:52:52.822] Browser WARN    Image with src "/assets/images/about/abi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:52:52.822] Browser WARN    Image with src "/assets/images/about/partnership/community2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:52:52.822] Browser WARN    Image with src "/assets/images/about/partnership/community3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:52:52.822] Browser WARN    Image with src "/assets/images/about/partnership/partner1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:53:21.423] Server  LOG     ✓ Compiled in 47ms
-[22:53:22.883] Server  LOG     ✓ Compiled in 9ms
-[22:53:42.987] Server  LOG     ✓ Compiled in 12ms
-[22:53:43.745] Server  LOG     ✓ Compiled in 9ms
-[22:53:54.391] Server  LOG     ✓ Compiled in 13ms
-[22:54:00.533] Server  LOG     ✓ Compiled in 9ms
-[22:54:07.253] Server  LOG     ✓ Compiled in 8ms
-[22:54:10.292] Server  LOG     ✓ Compiled in 10ms
-[22:54:11.178] Server  LOG     ✓ Compiled in 9ms
-[22:54:26.805] Server  LOG     ✓ Compiled in 26ms
-[22:54:29.876] Server  LOG     ✓ Compiled in 12ms
-[22:54:33.155] Server  LOG     ✓ Compiled in 13ms
-[22:54:44.112] Server  LOG     ✓ Compiled in 21ms
-[22:54:45.493] Server  LOG     ✓ Compiled in 9ms
-[22:54:48.589] Server  LOG     ✓ Compiled in 13ms
-[22:54:53.645] Server  LOG     ✓ Compiled in 9ms
-[22:55:06.809] Server  LOG     ✓ Compiled in 12ms
-[22:55:08.507] Server  LOG     ✓ Compiled in 7ms
-[22:55:13.749] Server  LOG     ✓ Compiled in 8ms
-[22:55:39.395] Server  LOG     ✓ Compiled in 11ms
-[22:55:40.091] Server  LOG     ✓ Compiled in 11ms
-[22:56:21.622] Server  LOG     ✓ Compiled in 10ms
-[22:56:23.325] Server  LOG     ✓ Compiled in 10ms
-[22:56:30.422] Server  LOG     ✓ Compiled in 12ms
-[22:56:32.016] Server  LOG     ✓ Compiled in 12ms
-[22:56:39.418] Server  LOG     ✓ Compiled in 13ms
-[22:56:43.550] Server  LOG     ✓ Compiled in 12ms
-[22:56:46.342] Server  LOG     ✓ Compiled in 11ms
-[22:56:48.674] Browser WARN    Image with src "/assets/images/weather/bsnake.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:56:48.674] Browser WARN    Image with src "/assets/images/weather/snake-6704375_1280.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[22:56:58.550] Server  LOG     ✓ Compiled in 8ms
-[22:57:00.072] Server  LOG     ✓ Compiled in 9ms
-[22:57:08.474] Server  LOG     ✓ Compiled in 9ms
-[22:57:10.995] Server  LOG     ✓ Compiled in 9ms
-[22:57:45.021] Server  LOG     ✓ Compiled in 8ms
-[22:57:46.048] Server  LOG     ✓ Compiled in 9ms
-[22:57:52.809] Server  LOG     ✓ Compiled in 9ms
-[22:57:55.009] Server  LOG     ✓ Compiled in 9ms
-[22:57:57.086] Server  LOG     ✓ Compiled in 9ms
-[22:57:58.373] Server  LOG     ✓ Compiled in 10ms
-[22:59:12.031] Server  LOG     ✓ Compiled in 8ms
-[22:59:13.096] Server  LOG     ✓ Compiled in 8ms
-[22:59:19.353] Server  LOG     ✓ Compiled in 9ms
-[22:59:40.140] Server  LOG     ✓ Compiled in 9ms
-[22:59:41.850] Server  LOG     ✓ Compiled in 10ms
-[22:59:44.454] Server  LOG     ✓ Compiled in 8ms
-[24:56:55.997] Server  LOG     ✓ Compiled in 89ms
-[24:56:58.078] Server  LOG     ✓ Compiled in 13ms
-[24:57:03.092] Server  LOG     ✓ Compiled in 8ms
-[24:57:17.091] Server  LOG     ✓ Compiled in 8ms
-[24:57:19.240] Server  LOG     ✓ Compiled in 9ms
-[24:57:24.798] Server  LOG     ✓ Compiled in 8ms
-[25:06:50.303] Server  LOG     ✓ Compiled in 15ms
-[25:07:13.353] Server  LOG     ✓ Compiled in 10ms
-[25:07:15.413] Server  LOG     ✓ Compiled in 7ms
-[25:07:23.237] Server  LOG     ✓ Compiled in 9ms
-[25:08:07.107] Server  LOG     ✓ Compiled in 8ms
-[25:08:19.598] Server  LOG     ✓ Compiled in 10ms
-[25:08:23.563] Browser WARN    Image with src "/assets/images/nutrition/tt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:08:24.672] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <head> body  
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
                       <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <Script>
-                          <Script>
->                         <body>
-                            ...
-                              <SegmentViewNode type="page" pagePath="page.tsx">
-                                <SegmentTrieNode>
-                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                                  <Page params={Promise} searchParams={Promise}>
-                                    <SEO>
->                                   <head>
-                                    ...
-                            ...
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
                   ...
+      ...
 
-[25:08:24.672] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. body <head>
-[25:08:24.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:08:24.672] Browser LOG     Autoplay started
-[25:08:24.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:08:24.672] Browser LOG     Autoplay started
-[25:08:24.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:08:24.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:09:26.289] Browser WARN    Image with src "/assets/images/exeperience/ex1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:09:26.289] Browser WARN    Image with src "/assets/images/exeperience/ex.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:09:36.959] Browser WARN    Image with src "/assets/images/founders/GB2nd_img.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:09:36.959] Browser WARN    Image with src "/assets/images/founders/3f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:13:54.364] Browser LOG     Autoplay started
-[25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:13:54.364] Browser LOG     Autoplay started
-[25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:13:54.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:19:06.899] Server  LOG     ✓ Compiled in 107ms
-[25:20:18.856] Browser WARN    Image with src "/assets/images/founders/4f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:20:18.856] Browser WARN    Image with src "/assets/images/founders/1f.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:20:25.040] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[25:20:29.245] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:20:29.245] Browser LOG     Autoplay started
-[25:20:29.245] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:20:29.245] Browser LOG     Autoplay started
-[25:20:29.245] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:20:29.245] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:21:03.215] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
-[25:21:31.643] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[25:21:31.886] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[25:21:31.886] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[25:21:32.358] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:21:39.976] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[25:21:40.227] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[25:21:40.227] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[25:21:40.623] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:22:20.701] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[25:22:20.950] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[25:22:20.950] Browser WARN    Image with src "/assets/images/travelpartners/slider1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[25:22:20.950] Browser WARN    Image with src "/assets/images/travelpartners/bookcoverimage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[25:22:46.811] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <head> body  
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <Script>
-                          <Script>
->                         <body>
-                            ...
-                              <SegmentViewNode type="page" pagePath="page.tsx">
-                                <SegmentTrieNode>
-                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                                  <Page params={Promise} searchParams={Promise}>
-                                    <SEO>
->                                   <head>
-                                    ...
-                            ...
-                  ...
-
-[25:22:46.811] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. body <head>
-[25:22:47.108] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:22:47.108] Browser LOG     Autoplay started
-[25:22:47.108] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:22:47.108] Browser LOG     Autoplay started
-[25:22:47.108] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:22:47.108] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[25:24:08.162] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:23:16.366] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[01:23:16.366] Browser LOG     Autoplay started
+[01:23:16.366] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[01:23:16.366] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters

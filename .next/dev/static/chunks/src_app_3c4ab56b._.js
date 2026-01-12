@@ -4886,12 +4886,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/swiper/swiper-react.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/index.mjs [app-client] (ecmascript) <locals>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$aos$2f$dist$2f$aos$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/aos/dist/aos.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
-;
 ;
 ;
 ;
@@ -4908,8 +4906,11 @@ function ABanner() {
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$aos$2f$dist$2f$aos$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].init({
                 duration: 800,
                 once: true,
-                easing: 'ease-in-out'
+                easing: 'ease-in-out',
+                offset: 0,
+                anchorPlacement: 'top-bottom'
             });
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$aos$2f$dist$2f$aos$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].refreshHard(); // 👈 force recalculation
         }
     }["ABanner.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -4917,7 +4918,7 @@ function ABanner() {
             className: "rts__section banner__area is__home__one",
             style: {
                 width: '100%',
-                height: '102vh',
+                height: '100vh',
                 position: 'relative',
                 overflow: 'hidden'
             },
@@ -4933,12 +4934,12 @@ function ABanner() {
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/ABanner.jsx",
-                                    lineNumber: 49,
+                                    lineNumber: 40,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/ABanner.jsx",
-                                lineNumber: 48,
+                                lineNumber: 39,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4965,7 +4966,7 @@ function ABanner() {
                                                     children: "The Story"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/ABanner.jsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 54,
                                                     columnNumber: 45
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4974,39 +4975,39 @@ function ABanner() {
                                                     children: "Welcome to Rain drops, where luxury meets comfort"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/ABanner.jsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 61,
                                                     columnNumber: 45
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/about/ABanner.jsx",
-                                            lineNumber: 54,
+                                            lineNumber: 45,
                                             columnNumber: 41
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/ABanner.jsx",
-                                        lineNumber: 53,
+                                        lineNumber: 44,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/ABanner.jsx",
-                                    lineNumber: 52,
+                                    lineNumber: 43,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/ABanner.jsx",
-                                lineNumber: 51,
+                                lineNumber: 42,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about/ABanner.jsx",
-                        lineNumber: 47,
+                        lineNumber: 38,
                         columnNumber: 25
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/about/ABanner.jsx",
-                    lineNumber: 45,
+                    lineNumber: 36,
                     columnNumber: 21
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5029,7 +5030,7 @@ function ABanner() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/ABanner.jsx",
-                                            lineNumber: 159,
+                                            lineNumber: 86,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -5037,23 +5038,23 @@ function ABanner() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/ABanner.jsx",
-                                            lineNumber: 163,
+                                            lineNumber: 90,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/about/ABanner.jsx",
-                                    lineNumber: 152,
+                                    lineNumber: 79,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/ABanner.jsx",
-                                lineNumber: 151,
+                                lineNumber: 78,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/ABanner.jsx",
-                            lineNumber: 150,
+                            lineNumber: 77,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5073,7 +5074,7 @@ function ABanner() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/ABanner.jsx",
-                                            lineNumber: 179,
+                                            lineNumber: 106,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -5081,35 +5082,35 @@ function ABanner() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/ABanner.jsx",
-                                            lineNumber: 183,
+                                            lineNumber: 110,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/about/ABanner.jsx",
-                                    lineNumber: 172,
+                                    lineNumber: 99,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/ABanner.jsx",
-                                lineNumber: 171,
+                                lineNumber: 98,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/ABanner.jsx",
-                            lineNumber: 170,
+                            lineNumber: 97,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/about/ABanner.jsx",
-                    lineNumber: 149,
+                    lineNumber: 76,
                     columnNumber: 21
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/about/ABanner.jsx",
-            lineNumber: 26,
+            lineNumber: 30,
             columnNumber: 13
         }, this)
     }, void 0, false);

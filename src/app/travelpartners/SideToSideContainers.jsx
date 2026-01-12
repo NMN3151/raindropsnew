@@ -346,12 +346,14 @@ function SideToSideContainers() {
 
 
         .section-image-container {
-          width: 500px;
-          height: 300px;
-          object-fit: cover;
+          object-fit: cover; /* Changed from 'unset' to 'cover' for better image display */
           border-radius: 8px;
-          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          width: 100%; /* Changed from fixed 500px to responsive */
+          max-width: 500px; /* Added max-width to prevent oversizing */
+          height: 300px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added easing */
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12); /* Fixed rgba format */
+          display: block; /* Ensures proper rendering */
         }
         .section-image-container-manwalking {
           width: 400px;

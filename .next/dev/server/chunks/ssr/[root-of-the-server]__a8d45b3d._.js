@@ -4001,24 +4001,24 @@ function HeaderOne() {
                                 style: {
                                     marginTop: "-20px"
                                 },
-                                className: "jsx-3478accadf3750c2" + " " + "rts__section advance__search__section is__home__one",
+                                className: "jsx-b2864fe93c2b8958" + " " + "rts__section advance__search__section is__home__one",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-3478accadf3750c2" + " " + "container",
+                                        className: "jsx-b2864fe93c2b8958" + " " + "container",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-3478accadf3750c2" + " " + "row",
+                                            className: "jsx-b2864fe93c2b8958" + " " + "row",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                                 action: "#",
                                                 method: "post",
-                                                className: "jsx-3478accadf3750c2" + " " + "advance__search",
+                                                className: "jsx-b2864fe93c2b8958" + " " + "advance__search",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-3478accadf3750c2" + " " + "advance__search__wrapper",
+                                                    className: "jsx-b2864fe93c2b8958" + " " + "advance__search__wrapper",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             style: {
                                                                 minWidth: 260
                                                             },
-                                                            className: "jsx-3478accadf3750c2" + " " + "query__input",
+                                                            className: "jsx-b2864fe93c2b8958" + " " + "query__input",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$datepicker$2f$dist$2f$index$2e$es$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                 ref: datePickerRef,
                                                                 placeholderText: " 📆︎ Check-In / Check-Out",
@@ -4041,7 +4041,7 @@ function HeaderOne() {
                                                                         cursor: "pointer",
                                                                         backgroundColor: "#fff"
                                                                     },
-                                                                    className: "jsx-3478accadf3750c2"
+                                                                    className: "jsx-b2864fe93c2b8958"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
                                                                     lineNumber: 664,
@@ -4061,7 +4061,7 @@ function HeaderOne() {
                                                             style: {
                                                                 position: "relative"
                                                             },
-                                                            className: "jsx-3478accadf3750c2" + " " + "query__input guest-input",
+                                                            className: "jsx-b2864fe93c2b8958" + " " + "query__input guest-input",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                     id: "guests",
@@ -4084,13 +4084,13 @@ function HeaderOne() {
                                                                         zIndex: 1,
                                                                         marginLeft: "4px"
                                                                     },
-                                                                    className: "jsx-3478accadf3750c2" + " " + "guest-summary",
+                                                                    className: "jsx-b2864fe93c2b8958" + " " + "guest-summary",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             style: {
                                                                                 color: "#666"
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2",
+                                                                            className: "jsx-b2864fe93c2b8958",
                                                                             children: "Adults/ Child/ Rooms"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4101,7 +4101,7 @@ function HeaderOne() {
                                                                             style: {
                                                                                 marginLeft: 8
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2",
+                                                                            className: "jsx-b2864fe93c2b8958",
                                                                             children: openGuest ? "▴" : "▾"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4130,7 +4130,7 @@ function HeaderOne() {
                                                                         borderRadius: 8,
                                                                         boxShadow: "0 6px 18px rgba(0,0,0,0.08)"
                                                                     },
-                                                                    className: "jsx-3478accadf3750c2" + " " + "guest-dropdown",
+                                                                    className: "jsx-b2864fe93c2b8958" + " " + "guest-dropdown",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             style: {
@@ -4139,16 +4139,16 @@ function HeaderOne() {
                                                                                 alignItems: "center",
                                                                                 marginBottom: 10
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2" + " " + "guest-row",
+                                                                            className: "jsx-b2864fe93c2b8958" + " " + "guest-row",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                             style: {
                                                                                                 fontWeight: 600
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Adults"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4160,7 +4160,7 @@ function HeaderOne() {
                                                                                                 fontSize: 12,
                                                                                                 color: "#666"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Ages 13 or above"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4179,7 +4179,7 @@ function HeaderOne() {
                                                                                         alignItems: "center",
                                                                                         gap: 8
                                                                                     },
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                             type: "button",
@@ -4193,7 +4193,7 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4205,7 +4205,7 @@ function HeaderOne() {
                                                                                                 minWidth: 24,
                                                                                                 textAlign: "center"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: adults
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4224,7 +4224,7 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4250,16 +4250,16 @@ function HeaderOne() {
                                                                                 alignItems: "center",
                                                                                 marginBottom: 10
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2" + " " + "guest-row",
+                                                                            className: "jsx-b2864fe93c2b8958" + " " + "guest-row",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                             style: {
                                                                                                 fontWeight: 600
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Children"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4271,7 +4271,7 @@ function HeaderOne() {
                                                                                                 fontSize: 12,
                                                                                                 color: "#666"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Ages 0–12"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4290,7 +4290,7 @@ function HeaderOne() {
                                                                                         alignItems: "center",
                                                                                         gap: 8
                                                                                     },
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                             type: "button",
@@ -4304,7 +4304,7 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4316,7 +4316,7 @@ function HeaderOne() {
                                                                                                 minWidth: 24,
                                                                                                 textAlign: "center"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: children
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4335,7 +4335,7 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4361,16 +4361,16 @@ function HeaderOne() {
                                                                                 alignItems: "center",
                                                                                 marginBottom: 6
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2" + " " + "guest-row",
+                                                                            className: "jsx-b2864fe93c2b8958" + " " + "guest-row",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                             style: {
                                                                                                 fontWeight: 600
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Rooms"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4382,7 +4382,7 @@ function HeaderOne() {
                                                                                                 fontSize: 12,
                                                                                                 color: "#666"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2"
+                                                                                            className: "jsx-b2864fe93c2b8958"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
                                                                                             lineNumber: 872,
@@ -4400,7 +4400,7 @@ function HeaderOne() {
                                                                                         alignItems: "center",
                                                                                         gap: 8
                                                                                     },
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                             type: "button",
@@ -4414,7 +4414,7 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4426,7 +4426,7 @@ function HeaderOne() {
                                                                                                 minWidth: 24,
                                                                                                 textAlign: "center"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: rooms
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4445,7 +4445,7 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4470,7 +4470,7 @@ function HeaderOne() {
                                                                                 justifyContent: "flex-end",
                                                                                 gap: 8
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2",
+                                                                            className: "jsx-b2864fe93c2b8958",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                 type: "button",
                                                                                 onClick: ()=>setOpenGuest(false),
@@ -4480,7 +4480,7 @@ function HeaderOne() {
                                                                                     border: "1px solid #ddd",
                                                                                     background: "#fff"
                                                                                 },
-                                                                                className: "jsx-3478accadf3750c2",
+                                                                                className: "jsx-b2864fe93c2b8958",
                                                                                 children: "Done"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4505,7 +4505,7 @@ function HeaderOne() {
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-3478accadf3750c2" + " " + "query__input",
+                                                            className: "jsx-b2864fe93c2b8958" + " " + "query__input",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                 style: {
                                                                     marginLeft: "4px",
@@ -4516,7 +4516,7 @@ function HeaderOne() {
                                                                 },
                                                                 type: "text",
                                                                 placeholder: " Promo Code",
-                                                                className: "jsx-3478accadf3750c2"
+                                                                className: "jsx-b2864fe93c2b8958"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
                                                                 lineNumber: 948,
@@ -4531,7 +4531,7 @@ function HeaderOne() {
                                                             href: buildHotelUrl(),
                                                             target: "_blank",
                                                             rel: "noopener noreferrer",
-                                                            className: "jsx-3478accadf3750c2",
+                                                            className: "jsx-b2864fe93c2b8958",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                 style: {
                                                                     background: "#ffff",
@@ -4543,9 +4543,9 @@ function HeaderOne() {
                                                                 },
                                                                 type: "button",
                                                                 disabled: !startDate || !endDate,
-                                                                className: "jsx-3478accadf3750c2" + " " + "theme-btn search__btn",
+                                                                className: "jsx-b2864fe93c2b8958" + " " + "theme-btn search__btn",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-3478accadf3750c2",
+                                                                    className: "jsx-b2864fe93c2b8958",
                                                                     children: "Check Availability"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
@@ -4584,8 +4584,8 @@ function HeaderOne() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        id: "3478accadf3750c2",
-                                        children: ".advance__search__wrapper.jsx-3478accadf3750c2{z-index:10;position:relative;overflow:visible}.guest-dropdown.jsx-3478accadf3750c2{z-index:9999}.rts__section.advance__search__section.jsx-3478accadf3750c2{z-index:20;position:relative}.react-datepicker.jsx-3478accadf3750c2{transition:opacity .2s}.navigation__menu--item__link.jsx-3478accadf3750c2{cursor:pointer;text-decoration:none;transition:color .3s}.navigation__menu--item__link.jsx-3478accadf3750c2:hover{color:#ab8a62}@media screen and (width<=767px){.desktop-reserve-btn.jsx-3478accadf3750c2{display:none!important}.top-banner-header.jsx-3478accadf3750c2 .container.jsx-3478accadf3750c2>div.jsx-3478accadf3750c2 a[href=\\/].jsx-3478accadf3750c2{left:50%;transform:translate(-50%)}}@media screen and (width<=768px){.advance__search.jsx-3478accadf3750c2{display:none}.container.jsx-3478accadf3750c2>div.jsx-3478accadf3750c2:first-child{margin-top:18px!important}.top-banner-header.jsx-3478accadf3750c2{padding:0 px}.main__header__wrapper.jsx-3478accadf3750c2{align-items:center!important;height:auto!important;min-height:auto!important;padding:10px 0!important}.top-banner-header.jsx-3478accadf3750c2 .container.jsx-3478accadf3750c2>div.jsx-3478accadf3750c2{padding:15px 0}.topbar.jsx-3478accadf3750c2{margin-top:-80px}.top-banner-header.jsx-3478accadf3750c2 img.jsx-3478accadf3750c2{width:140px!important;height:46px!important}}.line.jsx-3478accadf3750c2{display:none}.main__header__wrapper.jsx-3478accadf3750c2{align-items:center!important;height:auto!important;min-height:auto!important;padding:10px 0!important}.topbar.jsx-3478accadf3750c2{margin-top:-80px}.container.jsx-3478accadf3750c2>div.jsx-3478accadf3750c2:first-child{margin-top:18px!important}@media (width>=768px) and (width<=991px){.logo__class.jsx-3478accadf3750c2{margin-right:50px!important}}@media (width>=992px) and (width<=1199px){.logo__class.jsx-3478accadf3750c2{margin-right:80px!important}}@media (width>=1200px) and (width<=1399px){.logo__class.jsx-3478accadf3750c2{margin-right:50px!important}}@media (width>=1400px){.logo__class.jsx-3478accadf3750c2{margin-right:10px!important}}@media screen and (width>=769px) and (width<=1440px){.main__header__wrapper.jsx-3478accadf3750c2{display:none}}"
+                                        id: "b2864fe93c2b8958",
+                                        children: ".advance__search__wrapper.jsx-b2864fe93c2b8958{z-index:10;position:relative;overflow:visible}.guest-dropdown.jsx-b2864fe93c2b8958{z-index:9999}.rts__section.advance__search__section.jsx-b2864fe93c2b8958{z-index:20;position:relative}.react-datepicker.jsx-b2864fe93c2b8958{transition:opacity .2s}.navigation__menu--item__link.jsx-b2864fe93c2b8958{cursor:pointer;text-decoration:none;transition:color .3s}.navigation__menu--item__link.jsx-b2864fe93c2b8958:hover{color:#ab8a62}.sub-submenu.jsx-b2864fe93c2b8958 li[role=menuitem].jsx-b2864fe93c2b8958:last-child{background-color:red;padding-bottom:15px}.submenu.jsx-b2864fe93c2b8958>li[role=menuitem].jsx-b2864fe93c2b8958:last-child{padding-bottom:15px}@media screen and (width<=767px){.desktop-reserve-btn.jsx-b2864fe93c2b8958{display:none!important}.top-banner-header.jsx-b2864fe93c2b8958 .container.jsx-b2864fe93c2b8958>div.jsx-b2864fe93c2b8958 a[href=\\/].jsx-b2864fe93c2b8958{left:50%;transform:translate(-50%)}}@media screen and (width<=768px){.advance__search.jsx-b2864fe93c2b8958{display:none}.container.jsx-b2864fe93c2b8958>div.jsx-b2864fe93c2b8958:first-child{margin-top:18px!important}.top-banner-header.jsx-b2864fe93c2b8958{padding:0 px}.main__header__wrapper.jsx-b2864fe93c2b8958{align-items:center!important;height:auto!important;min-height:auto!important;padding:10px 0!important}.top-banner-header.jsx-b2864fe93c2b8958 .container.jsx-b2864fe93c2b8958>div.jsx-b2864fe93c2b8958{padding:15px 0}.topbar.jsx-b2864fe93c2b8958{margin-top:-80px}.top-banner-header.jsx-b2864fe93c2b8958 img.jsx-b2864fe93c2b8958{width:140px!important;height:46px!important}}.line.jsx-b2864fe93c2b8958{display:none}.main__header__wrapper.jsx-b2864fe93c2b8958{align-items:center!important;height:auto!important;min-height:auto!important;padding:10px 0!important}.topbar.jsx-b2864fe93c2b8958{margin-top:-80px}.container.jsx-b2864fe93c2b8958>div.jsx-b2864fe93c2b8958:first-child{margin-top:18px!important}@media (width>=768px) and (width<=991px){.logo__class.jsx-b2864fe93c2b8958{margin-right:50px!important}}@media (width>=992px) and (width<=1199px){.logo__class.jsx-b2864fe93c2b8958{margin-right:80px!important}}@media (width>=1200px) and (width<=1399px){.logo__class.jsx-b2864fe93c2b8958{margin-right:50px!important}}@media (width>=1400px){.logo__class.jsx-b2864fe93c2b8958{margin-right:10px!important}}@media screen and (width>=769px) and (width<=1440px){.main__header__wrapper.jsx-b2864fe93c2b8958{display:none}}"
                                     }, void 0, false, void 0, this)
                                 ]
                             }, void 0, true, {
@@ -4614,7 +4614,7 @@ function HeaderOne() {
                 onClose: ()=>setIsOffcanvasOpen(false)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/Header.jsx",
-                lineNumber: 1118,
+                lineNumber: 1128,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$home$2d$1$2f$SideMenu$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4622,7 +4622,7 @@ function HeaderOne() {
                 onClose: ()=>setIsMenuOpen(false)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/Header.jsx",
-                lineNumber: 1123,
+                lineNumber: 1133,
                 columnNumber: 7
             }, this)
         ]
@@ -4641,7 +4641,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/swiper/swiper-react.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/index.mjs [app-ssr] (ecmascript) <locals>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$aos$2f$dist$2f$aos$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/aos/dist/aos.js [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
@@ -4652,7 +4652,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
+;
 function Bannerr() {
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$aos$2f$dist$2f$aos$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].init({
+            duration: 800,
+            once: true,
+            easing: "ease-in-out",
+            offset: 0,
+            anchorPlacement: "top-bottom"
+        });
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$aos$2f$dist$2f$aos$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].refreshHard(); // 👈 force recalculation
+    }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "rts__section banner__area is__home__one",
@@ -4679,12 +4690,12 @@ function Bannerr() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                    lineNumber: 29,
+                                    lineNumber: 41,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                lineNumber: 28,
+                                lineNumber: 40,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4706,50 +4717,54 @@ function Bannerr() {
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    children: " TRAVEL PARTNERS "
+                                                    "data-aos": "fade-up",
+                                                    "data-aos-delay": "400",
+                                                    children: "TRAVEL PARTNERS"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 62,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "sub__text",
+                                                    "data-aos": "fade-up",
+                                                    "data-aos-delay": "600",
                                                     children: "Calm. Depth. Authenticity."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 68,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                            lineNumber: 38,
+                                            lineNumber: 50,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                        lineNumber: 37,
+                                        lineNumber: 49,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                    lineNumber: 36,
+                                    lineNumber: 48,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                lineNumber: 35,
+                                lineNumber: 47,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                        lineNumber: 27,
+                        lineNumber: 39,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                    lineNumber: 25,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4772,55 +4787,11 @@ function Bannerr() {
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                            lineNumber: 72,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            d: "M11.0077 0.00274277C11.3286 0.00274277 11.6495 0.124063 11.8921 0.370618C12.3813 0.859813 12.3813 1.65426 11.8921 2.14346L2.13955 11.896C1.65036 12.3852 0.855906 12.3852 0.366712 11.896C-0.122483 11.4068 -0.122483 10.6124 0.366712 10.1232L10.1193 0.370618C10.3658 0.124063 10.6868 0.00274277 11.0077 0.00274277Z",
-                                            fill: "#F1F1F1"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                            lineNumber: 76,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                    lineNumber: 65,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                                lineNumber: 64,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                            lineNumber: 63,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "rts__slide",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "prev",
-                                role: "button",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    width: 40,
-                                    height: 22,
-                                    viewBox: "0 0 40 22",
-                                    fill: "none",
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            d: "M39.0377 12.2445L1.25234 12.2445C0.559636 12.2445 -2.04305e-06 11.6849 -1.92194e-06 10.9922C-1.80082e-06 10.2995 0.559637 9.73987 1.25234 9.73987L36.0125 9.73987L28.4124 2.13974C27.9232 1.65055 27.9232 0.856096 28.4124 0.366901C28.9016 -0.122294 29.6961 -0.122293 30.1853 0.366901L39.9261 10.1077C40.2861 10.4678 40.3918 11.004 40.1961 11.4736C40.0005 11.9393 39.5426 12.2445 39.0377 12.2445Z",
-                                            fill: "#F1F1F1"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/travelpartners/Banner.jsx",
                                             lineNumber: 92,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            d: "M29.2852 21.9973C28.9643 21.9973 28.6433 21.8759 28.4007 21.6294C27.9115 21.1402 27.9115 20.3457 28.4007 19.8565L38.1533 10.104C38.6425 9.61476 39.4369 9.61476 39.9261 10.104C40.4153 10.5932 40.4153 11.3876 39.9261 11.8768L30.1736 21.6294C29.927 21.8759 29.6061 21.9973 29.2852 21.9973Z",
+                                            d: "M11.0077 0.00274277C11.3286 0.00274277 11.6495 0.124063 11.8921 0.370618C12.3813 0.859813 12.3813 1.65426 11.8921 2.14346L2.13955 11.896C1.65036 12.3852 0.855906 12.3852 0.366712 11.896C-0.122483 11.4068 -0.122483 10.6124 0.366712 10.1232L10.1193 0.370618C10.3658 0.124063 10.6868 0.00274277 11.0077 0.00274277Z",
                                             fill: "#F1F1F1"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/travelpartners/Banner.jsx",
@@ -4842,17 +4813,61 @@ function Bannerr() {
                             fileName: "[project]/src/app/travelpartners/Banner.jsx",
                             lineNumber: 83,
                             columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "rts__slide",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "prev",
+                                role: "button",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                    width: 40,
+                                    height: 22,
+                                    viewBox: "0 0 40 22",
+                                    fill: "none",
+                                    xmlns: "http://www.w3.org/2000/svg",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: "M39.0377 12.2445L1.25234 12.2445C0.559636 12.2445 -2.04305e-06 11.6849 -1.92194e-06 10.9922C-1.80082e-06 10.2995 0.559637 9.73987 1.25234 9.73987L36.0125 9.73987L28.4124 2.13974C27.9232 1.65055 27.9232 0.856096 28.4124 0.366901C28.9016 -0.122294 29.6961 -0.122293 30.1853 0.366901L39.9261 10.1077C40.2861 10.4678 40.3918 11.004 40.1961 11.4736C40.0005 11.9393 39.5426 12.2445 39.0377 12.2445Z",
+                                            fill: "#F1F1F1"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/travelpartners/Banner.jsx",
+                                            lineNumber: 112,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: "M29.2852 21.9973C28.9643 21.9973 28.6433 21.8759 28.4007 21.6294C27.9115 21.1402 27.9115 20.3457 28.4007 19.8565L38.1533 10.104C38.6425 9.61476 39.4369 9.61476 39.9261 10.104C40.4153 10.5932 40.4153 11.3876 39.9261 11.8768L30.1736 21.6294C29.927 21.8759 29.6061 21.9973 29.2852 21.9973Z",
+                                            fill: "#F1F1F1"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/travelpartners/Banner.jsx",
+                                            lineNumber: 116,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/travelpartners/Banner.jsx",
+                                    lineNumber: 105,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/travelpartners/Banner.jsx",
+                                lineNumber: 104,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/travelpartners/Banner.jsx",
+                            lineNumber: 103,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/travelpartners/Banner.jsx",
-                    lineNumber: 62,
+                    lineNumber: 82,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/travelpartners/Banner.jsx",
-            lineNumber: 15,
+            lineNumber: 28,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -5899,26 +5914,26 @@ function SideToSideContainers() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-c9bb22109e591fde" + " " + "side-to-side-section",
+                className: "jsx-ff425c797956bb17" + " " + "side-to-side-section",
                 children: [
                     sections.map((section, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-c9bb22109e591fde" + " " + `content-block ${section.imagePosition === "right" ? "image-right" : "image-left"} ${section.id === 4 ? "section-inline-layout" : ""}`,
+                            className: "jsx-ff425c797956bb17" + " " + `content-block ${section.imagePosition === "right" ? "image-right" : "image-left"} ${section.id === 4 ? "section-inline-layout" : ""}`,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-c9bb22109e591fde" + " " + "container",
+                                className: "jsx-ff425c797956bb17" + " " + "container",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-c9bb22109e591fde" + " " + "content-wrapper wow fadeInUp",
+                                    className: "jsx-ff425c797956bb17" + " " + "content-wrapper wow fadeInUp",
                                     children: section.id === 4 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-c9bb22109e591fde" + " " + "inline-header-container",
+                                        className: "jsx-ff425c797956bb17" + " " + "inline-header-container",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-c9bb22109e591fde" + " " + "inline-header-content",
+                                            className: "jsx-ff425c797956bb17" + " " + "inline-header-content",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-c9bb22109e591fde" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
+                                                className: "jsx-ff425c797956bb17" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-c9bb22109e591fde" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-ff425c797956bb17" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                                className: "jsx-c9bb22109e591fde" + " " + "section-title inline-title",
+                                                                className: "jsx-ff425c797956bb17" + " " + "section-title inline-title",
                                                                 children: section.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -5926,7 +5941,7 @@ function SideToSideContainers() {
                                                                 columnNumber: 27
                                                             }, this),
                                                             section.subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "jsx-c9bb22109e591fde" + " " + "section-subtitle",
+                                                                className: "jsx-ff425c797956bb17" + " " + "section-subtitle",
                                                                 children: section.subtitle
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -5934,9 +5949,9 @@ function SideToSideContainers() {
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                className: "jsx-c9bb22109e591fde" + " " + "items-list",
+                                                                className: "jsx-ff425c797956bb17" + " " + "items-list",
                                                                 children: section.items.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                        className: "jsx-c9bb22109e591fde" + " " + "list-item",
+                                                                        className: "jsx-ff425c797956bb17" + " " + "list-item",
                                                                         children: item
                                                                     }, idx, false, {
                                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -5949,7 +5964,7 @@ function SideToSideContainers() {
                                                                 columnNumber: 27
                                                             }, this),
                                                             section.footer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-c9bb22109e591fde" + " " + "section-footer",
+                                                                className: "jsx-ff425c797956bb17" + " " + "section-footer",
                                                                 children: section.footer
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -5963,12 +5978,12 @@ function SideToSideContainers() {
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-c9bb22109e591fde" + " " + `image-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-ff425c797956bb17" + " " + `image-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: section.image,
                                                             alt: section.imageAlt,
                                                             loading: "lazy",
-                                                            className: "jsx-c9bb22109e591fde" + " " + "section-image-container-manwalking"
+                                                            className: "jsx-ff425c797956bb17" + " " + "section-image-container-manwalking"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
                                                             lineNumber: 145,
@@ -5997,20 +6012,20 @@ function SideToSideContainers() {
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-c9bb22109e591fde" + " " + `section-title ${section.id === 1 ? "single-line-desktop-title" : ""}`,
+                                                className: "jsx-ff425c797956bb17" + " " + `section-title ${section.id === 1 ? "single-line-desktop-title" : ""}`,
                                                 children: [
                                                     section.title,
                                                     section.titleSecondLine && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                                className: "jsx-c9bb22109e591fde"
+                                                                className: "jsx-ff425c797956bb17"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
                                                                 lineNumber: 166,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "jsx-c9bb22109e591fde" + " " + "title-second-line",
+                                                                className: "jsx-ff425c797956bb17" + " " + "title-second-line",
                                                                 children: section.titleSecondLine
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6026,13 +6041,13 @@ function SideToSideContainers() {
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-c9bb22109e591fde" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
+                                                className: "jsx-ff425c797956bb17" + " " + `flex-container ${index % 2 === 0 ? "bg-light-better" : "bg-white-better"}`,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-c9bb22109e591fde" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
+                                                        className: "jsx-ff425c797956bb17" + " " + `text-content ${section.imagePosition === "right" ? "order-1" : "order-2"}`,
                                                         children: [
                                                             section.subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "jsx-c9bb22109e591fde" + " " + "section-subtitle",
+                                                                className: "jsx-ff425c797956bb17" + " " + "section-subtitle",
                                                                 children: section.subtitle
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6040,9 +6055,9 @@ function SideToSideContainers() {
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                className: "jsx-c9bb22109e591fde" + " " + "items-list",
+                                                                className: "jsx-ff425c797956bb17" + " " + "items-list",
                                                                 children: section.items.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                        className: "jsx-c9bb22109e591fde" + " " + "list-item",
+                                                                        className: "jsx-ff425c797956bb17" + " " + "list-item",
                                                                         children: item
                                                                     }, idx, false, {
                                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6055,7 +6070,7 @@ function SideToSideContainers() {
                                                                 columnNumber: 25
                                                             }, this),
                                                             section.footer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-c9bb22109e591fde" + " " + "section-footer",
+                                                                className: "jsx-ff425c797956bb17" + " " + "section-footer",
                                                                 children: section.footer
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6069,12 +6084,12 @@ function SideToSideContainers() {
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-c9bb22109e591fde" + " " + `image-content ${section.imagePosition === "right" ? "order-2" : "order-1"}`,
+                                                        className: "jsx-ff425c797956bb17" + " " + `image-content ${section.imagePosition === "right" ? "order-2" : "order-1"}`,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: section.image,
                                                             alt: section.imageAlt,
                                                             loading: "lazy",
-                                                            className: "jsx-c9bb22109e591fde" + " " + "section-image-container"
+                                                            className: "jsx-ff425c797956bb17" + " " + "section-image-container"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
                                                             lineNumber: 214,
@@ -6109,17 +6124,17 @@ function SideToSideContainers() {
                             columnNumber: 11
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c9bb22109e591fde" + " " + "join-us-section",
+                        className: "jsx-ff425c797956bb17" + " " + "join-us-section",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-c9bb22109e591fde" + " " + "container",
+                            className: "jsx-ff425c797956bb17" + " " + "container",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-c9bb22109e591fde" + " " + "join-us-wrapper wow fadeInUp",
+                                className: "jsx-ff425c797956bb17" + " " + "join-us-wrapper wow fadeInUp",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-c9bb22109e591fde" + " " + "join-us-content",
+                                        className: "jsx-ff425c797956bb17" + " " + "join-us-content",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-c9bb22109e591fde" + " " + "join-us-title",
+                                                className: "jsx-ff425c797956bb17" + " " + "join-us-title",
                                                 children: "JOIN US"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6127,7 +6142,7 @@ function SideToSideContainers() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "jsx-c9bb22109e591fde" + " " + "join-us-subtitle",
+                                                className: "jsx-ff425c797956bb17" + " " + "join-us-subtitle",
                                                 children: "Become A RainDrops Insight Partner"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6135,10 +6150,10 @@ function SideToSideContainers() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "jsx-c9bb22109e591fde" + " " + "join-us-list",
+                                                className: "jsx-ff425c797956bb17" + " " + "join-us-list",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-c9bb22109e591fde",
+                                                        className: "jsx-ff425c797956bb17",
                                                         children: "Experience the villas."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6146,7 +6161,7 @@ function SideToSideContainers() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-c9bb22109e591fde",
+                                                        className: "jsx-ff425c797956bb17",
                                                         children: "Share it with the right clients."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6154,7 +6169,7 @@ function SideToSideContainers() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "jsx-c9bb22109e591fde",
+                                                        className: "jsx-ff425c797956bb17",
                                                         children: "Understand the environment."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6168,7 +6183,7 @@ function SideToSideContainers() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-c9bb22109e591fde" + " " + "join-us-description",
+                                                className: "jsx-ff425c797956bb17" + " " + "join-us-description",
                                                 children: "RainDrops represents Sri Lanka's new luxury—defined by calmness, clarity and nature intelligence."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6182,12 +6197,12 @@ function SideToSideContainers() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-c9bb22109e591fde" + " " + "join-us-image-wrapper",
+                                        className: "jsx-ff425c797956bb17" + " " + "join-us-image-wrapper",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-c9bb22109e591fde" + " " + "magazine-stack",
+                                            className: "jsx-ff425c797956bb17" + " " + "magazine-stack",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-c9bb22109e591fde" + " " + "magazine-cover",
+                                                    className: "jsx-ff425c797956bb17" + " " + "magazine-cover",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         src: "/assets/images/travelpartners/bookcoverimage.png",
                                                         alt: "RainDrops Insight Quarterly Magazine",
@@ -6206,7 +6221,7 @@ function SideToSideContainers() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: handleReadNowClick,
-                                                    className: "jsx-c9bb22109e591fde" + " " + "read-now-btn",
+                                                    className: "jsx-ff425c797956bb17" + " " + "read-now-btn",
                                                     children: "Read Now"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6214,7 +6229,7 @@ function SideToSideContainers() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-c9bb22109e591fde" + " " + "open-magazine",
+                                                    className: "jsx-ff425c797956bb17" + " " + "open-magazine",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         src: "/assets/images/travelpartners/magazinecover.png",
                                                         alt: "Open Magazine with Articles",
@@ -6266,14 +6281,14 @@ function SideToSideContainers() {
             }, this),
             showPopup && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 onClick: handleClosePopup,
-                className: "jsx-c9bb22109e591fde" + " " + "popup-overlay",
+                className: "jsx-ff425c797956bb17" + " " + "popup-overlay",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     onClick: (e)=>e.stopPropagation(),
-                    className: "jsx-c9bb22109e591fde" + " " + "popup-container",
+                    className: "jsx-ff425c797956bb17" + " " + "popup-container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: handleClosePopup,
-                            className: "jsx-c9bb22109e591fde" + " " + "close-btn",
+                            className: "jsx-ff425c797956bb17" + " " + "close-btn",
                             children: "✕"
                         }, void 0, false, {
                             fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
@@ -6281,7 +6296,7 @@ function SideToSideContainers() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-c9bb22109e591fde" + " " + "popup-content",
+                            className: "jsx-ff425c797956bb17" + " " + "popup-content",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     position: "relative",
@@ -6289,7 +6304,7 @@ function SideToSideContainers() {
                                     width: "100%",
                                     height: 0
                                 },
-                                className: "jsx-c9bb22109e591fde",
+                                className: "jsx-ff425c797956bb17",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
                                     style: {
                                         position: "absolute",
@@ -6306,7 +6321,7 @@ function SideToSideContainers() {
                                     frameBorder: "0",
                                     allowTransparency: "true",
                                     allowFullScreen: true,
-                                    className: "jsx-c9bb22109e591fde"
+                                    className: "jsx-ff425c797956bb17"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/travelpartners/SideToSideContainers.jsx",
                                     lineNumber: 305,
@@ -6334,8 +6349,8 @@ function SideToSideContainers() {
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "c9bb22109e591fde",
-                children: '.side-to-side-section.jsx-c9bb22109e591fde{width:100%}.single-line-desktop-title.jsx-c9bb22109e591fde br.jsx-c9bb22109e591fde{display:none}.single-line-desktop-title.jsx-c9bb22109e591fde{white-space:nowrap}.single-line-desktop-title.jsx-c9bb22109e591fde .title-second-line.jsx-c9bb22109e591fde{margin-left:8px;display:inline}.section-image-container.jsx-c9bb22109e591fde{object-fit:cover;border-radius:8px;width:500px;height:300px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.section-image-container-manwalking.jsx-c9bb22109e591fde{object-fit:cover;border-radius:8px;width:400px;height:500px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.content-block.jsx-c9bb22109e591fde{padding:60px 0;transition:background-color .3s}.bg-light-better.jsx-c9bb22109e591fde{background-color:#efefefaa;padding:0 5px 0 50px}.bg-white-better.jsx-c9bb22109e591fde{background-color:#fff;padding:0 5px 0 50px}.container.jsx-c9bb22109e591fde{max-width:1200px;margin:0 auto;padding:0 20px}.content-wrapper.jsx-c9bb22109e591fde{width:100%}.section-title.jsx-c9bb22109e591fde{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:1.5px;color:#2c2c2c;margin-bottom:2.5rem;font-weight:400;line-height:1.3}.title-second-line.jsx-c9bb22109e591fde{margin-top:.5rem;display:block}.inline-header-container.jsx-c9bb22109e591fde{flex-direction:column;display:flex}.inline-title.jsx-c9bb22109e591fde{text-align:left;margin-bottom:2rem}.flex-container.jsx-c9bb22109e591fde{align-items:center;gap:50px;display:flex}.text-content.jsx-c9bb22109e591fde{flex:1;min-width:300px}.order-1.jsx-c9bb22109e591fde{order:1}.order-2.jsx-c9bb22109e591fde{order:2}.section-subtitle.jsx-c9bb22109e591fde{font-size:var(--p);color:#333;margin-bottom:1.5rem;font-weight:700;line-height:1.5}.items-list.jsx-c9bb22109e591fde{margin:0;padding:0;list-style:none}.list-item.jsx-c9bb22109e591fde{color:#444;margin-bottom:.5rem;padding-left:25px;font-size:1rem;line-height:1.8;position:relative}.list-item.jsx-c9bb22109e591fde:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.section-footer.jsx-c9bb22109e591fde{color:#555;margin-top:1.5rem;font-size:.95rem;font-style:italic;line-height:1.7}.image-content.jsx-c9bb22109e591fde{flex:1;justify-content:space-around;min-width:200px;display:flex}.image-container.jsx-c9bb22109e591fde{border-radius:8px;width:100%;height:350px;transition:transform .3s,box-shadow .3s;position:relative;overflow:hidden;box-shadow:0 8px 25px #0000001f}.image-container.jsx-c9bb22109e591fde:hover{transform:translateY(-8px);box-shadow:0 12px 35px #0000002e}.join-us-section.jsx-c9bb22109e591fde{background-color:#fff;padding:20px 0}.join-us-wrapper.jsx-c9bb22109e591fde{align-items:center;gap:60px;display:flex}.join-us-content.jsx-c9bb22109e591fde{flex:1;max-width:450px}.join-us-title.jsx-c9bb22109e591fde{letter-spacing:3px;color:#2c2c2c;font-size:2.5rem;font-weight:400}.join-us-subtitle.jsx-c9bb22109e591fde{color:#333;margin-bottom:1.5rem;font-size:1.2rem;font-weight:400}.join-us-list.jsx-c9bb22109e591fde{margin:0 0 2rem;padding:0;list-style:none}.join-us-list.jsx-c9bb22109e591fde li.jsx-c9bb22109e591fde{color:#333;margin-bottom:.5rem;padding-left:25px;font-size:1rem;position:relative}.join-us-list.jsx-c9bb22109e591fde li.jsx-c9bb22109e591fde:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.join-us-description.jsx-c9bb22109e591fde{color:#333;font-size:1rem;line-height:1.7}.join-us-image-wrapper.jsx-c9bb22109e591fde{flex:1;position:relative}.magazine-stack.jsx-c9bb22109e591fde{width:100%;max-width:650px;min-height:450px;margin:0 auto;position:relative}.magazine-cover.jsx-c9bb22109e591fde{border-radius:8px;width:280px;margin-top:20px;transition:transform .3s;position:absolute;top:0;left:0;overflow:hidden;box-shadow:0 8px 25px #0003}.magazine-cover.jsx-c9bb22109e591fde:hover{transform:translateY(-5px)}.magazine-img.jsx-c9bb22109e591fde{width:100%;height:auto;display:block}.read-now-btn.jsx-c9bb22109e591fde{color:#fff;cursor:pointer;z-index:4;white-space:nowrap;background-color:#b89968;border:none;border-radius:10px;padding:16px 40px;font-size:1.05rem;font-weight:500;transition:all .3s;position:absolute;top:45%;left:240px;transform:translateY(-50%)}.read-now-btn.jsx-c9bb22109e591fde:hover{background-color:#a08758;transform:translateY(-50%)scale(1.05);box-shadow:0 8px 25px #b8996880}.read-now-btn.jsx-c9bb22109e591fde:active{transform:translateY(-50%)scale(.98)}.open-magazine.jsx-c9bb22109e591fde{z-index:1;border-radius:8px;justify-content:flex-end;width:500px;display:flex;position:absolute;bottom:0;right:0;overflow:hidden}.open-magazine-img.jsx-c9bb22109e591fde{width:100%;height:auto;display:block}.popup-overlay.jsx-c9bb22109e591fde{z-index:9999;background-color:#000000d9;justify-content:center;align-items:center;width:100%;height:100%;padding:20px;animation:.3s fadeIn;display:flex;position:fixed;top:0;left:0}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.popup-container.jsx-c9bb22109e591fde{background-color:#fff;border-radius:12px;width:100%;max-width:1200px;animation:.4s slideUp;position:relative;overflow:hidden;box-shadow:0 20px 60px #00000080}@keyframes slideUp{0%{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}.close-btn.jsx-c9bb22109e591fde{color:#fff;cursor:pointer;z-index:10000;background-color:#000000b3;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;font-size:24px;transition:all .3s;display:flex;position:absolute;top:15px;right:15px}.close-btn.jsx-c9bb22109e591fde:hover{background-color:#b89968;transform:rotate(90deg)}.popup-content.jsx-c9bb22109e591fde{width:100%;padding:10px}.wow.fadeInUp.jsx-c9bb22109e591fde{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.container.jsx-c9bb22109e591fde{max-width:1100px}.section-title.jsx-c9bb22109e591fde{margin-bottom:3rem;font-size:2rem}.inline-title.jsx-c9bb22109e591fde{margin-bottom:2rem;font-size:2rem}.flex-container.jsx-c9bb22109e591fde{gap:60px}.image-container.jsx-c9bb22109e591fde{height:400px}.magazine-cover.jsx-c9bb22109e591fde{width:300px}.read-now-btn.jsx-c9bb22109e591fde{padding:18px 45px;left:260px}.open-magazine.jsx-c9bb22109e591fde{width:550px}}@media (width>=1024px) and (width<=1199px){.container.jsx-c9bb22109e591fde{max-width:960px}.section-title.jsx-c9bb22109e591fde,.inline-title.jsx-c9bb22109e591fde{font-size:1.7rem}.flex-container.jsx-c9bb22109e591fde{gap:45px}.image-container.jsx-c9bb22109e591fde{height:360px}.content-block.jsx-c9bb22109e591fde{padding:70px 0}.join-us-wrapper.jsx-c9bb22109e591fde{gap:50px}.join-us-title.jsx-c9bb22109e591fde{font-size:2.2rem}.magazine-cover.jsx-c9bb22109e591fde{width:260px}.read-now-btn.jsx-c9bb22109e591fde{padding:14px 35px;font-size:1rem;left:220px}.open-magazine.jsx-c9bb22109e591fde{width:450px}}@media (width>=768px) and (width<=1023px){.container.jsx-c9bb22109e591fde{max-width:720px}.section-title.jsx-c9bb22109e591fde{letter-spacing:1px;margin-bottom:2rem;font-size:1.5rem}.inline-title.jsx-c9bb22109e591fde{font-size:1.5rem}.flex-container.jsx-c9bb22109e591fde{gap:35px}.image-container.jsx-c9bb22109e591fde{height:320px}.section-subtitle.jsx-c9bb22109e591fde{font-size:1rem}.list-item.jsx-c9bb22109e591fde{font-size:.95rem}.content-block.jsx-c9bb22109e591fde,.join-us-section.jsx-c9bb22109e591fde{padding:60px 0}.join-us-wrapper.jsx-c9bb22109e591fde{flex-direction:column;gap:40px}.join-us-content.jsx-c9bb22109e591fde{text-align:center;max-width:100%}.magazine-stack.jsx-c9bb22109e591fde{max-width:500px;min-height:380px}.read-now-btn.jsx-c9bb22109e591fde{top:40%;left:180px}.open-magazine.jsx-c9bb22109e591fde{width:400px}}@media (width<=767px){.single-line-desktop-title.jsx-c9bb22109e591fde{white-space:normal}.single-line-desktop-title.jsx-c9bb22109e591fde br.jsx-c9bb22109e591fde{display:block}.single-line-desktop-title.jsx-c9bb22109e591fde .title-second-line.jsx-c9bb22109e591fde{margin-top:.3rem;margin-left:0;display:block}.content-block.jsx-c9bb22109e591fde{padding:50px 0}.section-title.jsx-c9bb22109e591fde{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.3rem;line-height:1.25}.inline-title.jsx-c9bb22109e591fde{text-align:center;margin-bottom:1.5rem;font-size:1.3rem}.title-second-line.jsx-c9bb22109e591fde{margin-top:.3rem;font-size:.9em}.flex-container.jsx-c9bb22109e591fde{flex-direction:column;gap:25px}.text-content.jsx-c9bb22109e591fde,.image-content.jsx-c9bb22109e591fde{width:100%;min-width:unset}.order-1.jsx-c9bb22109e591fde,.order-2.jsx-c9bb22109e591fde{order:initial}.text-content.jsx-c9bb22109e591fde{order:1}.image-content.jsx-c9bb22109e591fde{order:2}.section-subtitle.jsx-c9bb22109e591fde{margin-bottom:1.2rem;font-size:1rem}.list-item.jsx-c9bb22109e591fde{padding-left:22px;font-size:.9rem;line-height:1.7}.list-item.jsx-c9bb22109e591fde:before{font-size:1.3rem}.section-footer.jsx-c9bb22109e591fde{margin-top:1.2rem;font-size:.9rem}.image-container.jsx-c9bb22109e591fde{border-radius:6px;height:280px}.join-us-section.jsx-c9bb22109e591fde{padding:50px 0}.join-us-wrapper.jsx-c9bb22109e591fde{flex-direction:column;gap:50px}.join-us-content.jsx-c9bb22109e591fde{max-width:100%}.join-us-title.jsx-c9bb22109e591fde{font-size:2rem}.magazine-stack.jsx-c9bb22109e591fde{max-width:100%;min-height:320px}.magazine-cover.jsx-c9bb22109e591fde{margin:0 auto 20px;position:relative}.read-now-btn.jsx-c9bb22109e591fde{margin:20px auto;padding:14px 35px;display:block;position:static;transform:none}.read-now-btn.jsx-c9bb22109e591fde:hover{transform:scale(1.05)}.open-magazine.jsx-c9bb22109e591fde{width:100%;margin-top:20px;position:relative}.popup-container.jsx-c9bb22109e591fde{max-width:95%}}@media (width<=480px){.bg-light-better.jsx-c9bb22109e591fde,.bg-white-better.jsx-c9bb22109e591fde{padding:10px}.section-image-container-manwalking.jsx-c9bb22109e591fde{height:300px}.container.jsx-c9bb22109e591fde{padding:0 15px}.content-block.jsx-c9bb22109e591fde{padding:40px 0}.section-title.jsx-c9bb22109e591fde{letter-spacing:.3px;margin-bottom:1.2rem;font-size:1.1rem}.inline-title.jsx-c9bb22109e591fde{text-align:center;font-size:1.1rem}.title-second-line.jsx-c9bb22109e591fde{font-size:.85em}.flex-container.jsx-c9bb22109e591fde{gap:20px}.section-subtitle.jsx-c9bb22109e591fde{margin-bottom:1rem;font-size:.95rem}.list-item.jsx-c9bb22109e591fde{margin-bottom:.7rem;padding-left:20px;font-size:.85rem;line-height:1.6}.list-item.jsx-c9bb22109e591fde:before{font-size:1.2rem}.section-footer.jsx-c9bb22109e591fde{margin-top:1rem;font-size:.85rem;line-height:1.6}.image-container.jsx-c9bb22109e591fde{height:240px}.join-us-section.jsx-c9bb22109e591fde{padding:40px 0}.join-us-title.jsx-c9bb22109e591fde{letter-spacing:2px;font-size:1.6rem}.join-us-subtitle.jsx-c9bb22109e591fde{font-size:1.05rem}.read-now-btn.jsx-c9bb22109e591fde{padding:12px 30px;font-size:.95rem}.popup-overlay.jsx-c9bb22109e591fde{padding:10px}.close-btn.jsx-c9bb22109e591fde{width:35px;height:35px;font-size:20px;top:10px;right:10px}}@media (width<=360px){.content-block.jsx-c9bb22109e591fde{padding:35px 0}.section-title.jsx-c9bb22109e591fde{font-size:1rem;line-height:1.2}.inline-title.jsx-c9bb22109e591fde{text-align:center;font-size:1rem}.section-subtitle.jsx-c9bb22109e591fde{font-size:.9rem}.list-item.jsx-c9bb22109e591fde,.section-footer.jsx-c9bb22109e591fde{font-size:.8rem}.image-container.jsx-c9bb22109e591fde{height:220px}.join-us-title.jsx-c9bb22109e591fde{font-size:1.4rem}}'
+                id: "ff425c797956bb17",
+                children: '.side-to-side-section.jsx-ff425c797956bb17{width:100%}.single-line-desktop-title.jsx-ff425c797956bb17 br.jsx-ff425c797956bb17{display:none}.single-line-desktop-title.jsx-ff425c797956bb17{white-space:nowrap}.single-line-desktop-title.jsx-ff425c797956bb17 .title-second-line.jsx-ff425c797956bb17{margin-left:8px;display:inline}.section-image-container.jsx-ff425c797956bb17{object-fit:cover;border-radius:8px;width:100%;max-width:500px;height:300px;transition:transform .3s,box-shadow .3s;display:block;box-shadow:0 8px 25px #0000001f}.section-image-container-manwalking.jsx-ff425c797956bb17{object-fit:cover;border-radius:8px;width:400px;height:500px;transition:transform .3s,box-shadow .3s;box-shadow:0 8px 25px #0000001f}.content-block.jsx-ff425c797956bb17{padding:60px 0;transition:background-color .3s}.bg-light-better.jsx-ff425c797956bb17{background-color:#efefefaa;padding:0 5px 0 50px}.bg-white-better.jsx-ff425c797956bb17{background-color:#fff;padding:0 5px 0 50px}.container.jsx-ff425c797956bb17{max-width:1200px;margin:0 auto;padding:0 20px}.content-wrapper.jsx-ff425c797956bb17{width:100%}.section-title.jsx-ff425c797956bb17{font-size:var(--h2);text-align:center;text-transform:uppercase;letter-spacing:1.5px;color:#2c2c2c;margin-bottom:2.5rem;font-weight:400;line-height:1.3}.title-second-line.jsx-ff425c797956bb17{margin-top:.5rem;display:block}.inline-header-container.jsx-ff425c797956bb17{flex-direction:column;display:flex}.inline-title.jsx-ff425c797956bb17{text-align:left;margin-bottom:2rem}.flex-container.jsx-ff425c797956bb17{align-items:center;gap:50px;display:flex}.text-content.jsx-ff425c797956bb17{flex:1;min-width:300px}.order-1.jsx-ff425c797956bb17{order:1}.order-2.jsx-ff425c797956bb17{order:2}.section-subtitle.jsx-ff425c797956bb17{font-size:var(--p);color:#333;margin-bottom:1.5rem;font-weight:700;line-height:1.5}.items-list.jsx-ff425c797956bb17{margin:0;padding:0;list-style:none}.list-item.jsx-ff425c797956bb17{color:#444;margin-bottom:.5rem;padding-left:25px;font-size:1rem;line-height:1.8;position:relative}.list-item.jsx-ff425c797956bb17:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.section-footer.jsx-ff425c797956bb17{color:#555;margin-top:1.5rem;font-size:.95rem;font-style:italic;line-height:1.7}.image-content.jsx-ff425c797956bb17{flex:1;justify-content:space-around;min-width:200px;display:flex}.image-container.jsx-ff425c797956bb17{border-radius:8px;width:100%;height:350px;transition:transform .3s,box-shadow .3s;position:relative;overflow:hidden;box-shadow:0 8px 25px #0000001f}.image-container.jsx-ff425c797956bb17:hover{transform:translateY(-8px);box-shadow:0 12px 35px #0000002e}.join-us-section.jsx-ff425c797956bb17{background-color:#fff;padding:20px 0}.join-us-wrapper.jsx-ff425c797956bb17{align-items:center;gap:60px;display:flex}.join-us-content.jsx-ff425c797956bb17{flex:1;max-width:450px}.join-us-title.jsx-ff425c797956bb17{letter-spacing:3px;color:#2c2c2c;font-size:2.5rem;font-weight:400}.join-us-subtitle.jsx-ff425c797956bb17{color:#333;margin-bottom:1.5rem;font-size:1.2rem;font-weight:400}.join-us-list.jsx-ff425c797956bb17{margin:0 0 2rem;padding:0;list-style:none}.join-us-list.jsx-ff425c797956bb17 li.jsx-ff425c797956bb17{color:#333;margin-bottom:.5rem;padding-left:25px;font-size:1rem;position:relative}.join-us-list.jsx-ff425c797956bb17 li.jsx-ff425c797956bb17:before{content:"•";color:#000;font-size:1.5rem;line-height:1.4;position:absolute;left:0}.join-us-description.jsx-ff425c797956bb17{color:#333;font-size:1rem;line-height:1.7}.join-us-image-wrapper.jsx-ff425c797956bb17{flex:1;position:relative}.magazine-stack.jsx-ff425c797956bb17{width:100%;max-width:650px;min-height:450px;margin:0 auto;position:relative}.magazine-cover.jsx-ff425c797956bb17{border-radius:8px;width:280px;margin-top:20px;transition:transform .3s;position:absolute;top:0;left:0;overflow:hidden;box-shadow:0 8px 25px #0003}.magazine-cover.jsx-ff425c797956bb17:hover{transform:translateY(-5px)}.magazine-img.jsx-ff425c797956bb17{width:100%;height:auto;display:block}.read-now-btn.jsx-ff425c797956bb17{color:#fff;cursor:pointer;z-index:4;white-space:nowrap;background-color:#b89968;border:none;border-radius:10px;padding:16px 40px;font-size:1.05rem;font-weight:500;transition:all .3s;position:absolute;top:45%;left:240px;transform:translateY(-50%)}.read-now-btn.jsx-ff425c797956bb17:hover{background-color:#a08758;transform:translateY(-50%)scale(1.05);box-shadow:0 8px 25px #b8996880}.read-now-btn.jsx-ff425c797956bb17:active{transform:translateY(-50%)scale(.98)}.open-magazine.jsx-ff425c797956bb17{z-index:1;border-radius:8px;justify-content:flex-end;width:500px;display:flex;position:absolute;bottom:0;right:0;overflow:hidden}.open-magazine-img.jsx-ff425c797956bb17{width:100%;height:auto;display:block}.popup-overlay.jsx-ff425c797956bb17{z-index:9999;background-color:#000000d9;justify-content:center;align-items:center;width:100%;height:100%;padding:20px;animation:.3s fadeIn;display:flex;position:fixed;top:0;left:0}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.popup-container.jsx-ff425c797956bb17{background-color:#fff;border-radius:12px;width:100%;max-width:1200px;animation:.4s slideUp;position:relative;overflow:hidden;box-shadow:0 20px 60px #00000080}@keyframes slideUp{0%{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}.close-btn.jsx-ff425c797956bb17{color:#fff;cursor:pointer;z-index:10000;background-color:#000000b3;border:none;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;font-size:24px;transition:all .3s;display:flex;position:absolute;top:15px;right:15px}.close-btn.jsx-ff425c797956bb17:hover{background-color:#b89968;transform:rotate(90deg)}.popup-content.jsx-ff425c797956bb17{width:100%;padding:10px}.wow.fadeInUp.jsx-ff425c797956bb17{opacity:0;animation:.8s forwards fadeInUp}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (width>=1200px){.container.jsx-ff425c797956bb17{max-width:1100px}.section-title.jsx-ff425c797956bb17{margin-bottom:3rem;font-size:2rem}.inline-title.jsx-ff425c797956bb17{margin-bottom:2rem;font-size:2rem}.flex-container.jsx-ff425c797956bb17{gap:60px}.image-container.jsx-ff425c797956bb17{height:400px}.magazine-cover.jsx-ff425c797956bb17{width:300px}.read-now-btn.jsx-ff425c797956bb17{padding:18px 45px;left:260px}.open-magazine.jsx-ff425c797956bb17{width:550px}}@media (width>=1024px) and (width<=1199px){.container.jsx-ff425c797956bb17{max-width:960px}.section-title.jsx-ff425c797956bb17,.inline-title.jsx-ff425c797956bb17{font-size:1.7rem}.flex-container.jsx-ff425c797956bb17{gap:45px}.image-container.jsx-ff425c797956bb17{height:360px}.content-block.jsx-ff425c797956bb17{padding:70px 0}.join-us-wrapper.jsx-ff425c797956bb17{gap:50px}.join-us-title.jsx-ff425c797956bb17{font-size:2.2rem}.magazine-cover.jsx-ff425c797956bb17{width:260px}.read-now-btn.jsx-ff425c797956bb17{padding:14px 35px;font-size:1rem;left:220px}.open-magazine.jsx-ff425c797956bb17{width:450px}}@media (width>=768px) and (width<=1023px){.container.jsx-ff425c797956bb17{max-width:720px}.section-title.jsx-ff425c797956bb17{letter-spacing:1px;margin-bottom:2rem;font-size:1.5rem}.inline-title.jsx-ff425c797956bb17{font-size:1.5rem}.flex-container.jsx-ff425c797956bb17{gap:35px}.image-container.jsx-ff425c797956bb17{height:320px}.section-subtitle.jsx-ff425c797956bb17{font-size:1rem}.list-item.jsx-ff425c797956bb17{font-size:.95rem}.content-block.jsx-ff425c797956bb17,.join-us-section.jsx-ff425c797956bb17{padding:60px 0}.join-us-wrapper.jsx-ff425c797956bb17{flex-direction:column;gap:40px}.join-us-content.jsx-ff425c797956bb17{text-align:center;max-width:100%}.magazine-stack.jsx-ff425c797956bb17{max-width:500px;min-height:380px}.read-now-btn.jsx-ff425c797956bb17{top:40%;left:180px}.open-magazine.jsx-ff425c797956bb17{width:400px}}@media (width<=767px){.single-line-desktop-title.jsx-ff425c797956bb17{white-space:normal}.single-line-desktop-title.jsx-ff425c797956bb17 br.jsx-ff425c797956bb17{display:block}.single-line-desktop-title.jsx-ff425c797956bb17 .title-second-line.jsx-ff425c797956bb17{margin-top:.3rem;margin-left:0;display:block}.content-block.jsx-ff425c797956bb17{padding:50px 0}.section-title.jsx-ff425c797956bb17{letter-spacing:.5px;margin-bottom:1.5rem;font-size:1.3rem;line-height:1.25}.inline-title.jsx-ff425c797956bb17{text-align:center;margin-bottom:1.5rem;font-size:1.3rem}.title-second-line.jsx-ff425c797956bb17{margin-top:.3rem;font-size:.9em}.flex-container.jsx-ff425c797956bb17{flex-direction:column;gap:25px}.text-content.jsx-ff425c797956bb17,.image-content.jsx-ff425c797956bb17{width:100%;min-width:unset}.order-1.jsx-ff425c797956bb17,.order-2.jsx-ff425c797956bb17{order:initial}.text-content.jsx-ff425c797956bb17{order:1}.image-content.jsx-ff425c797956bb17{order:2}.section-subtitle.jsx-ff425c797956bb17{margin-bottom:1.2rem;font-size:1rem}.list-item.jsx-ff425c797956bb17{padding-left:22px;font-size:.9rem;line-height:1.7}.list-item.jsx-ff425c797956bb17:before{font-size:1.3rem}.section-footer.jsx-ff425c797956bb17{margin-top:1.2rem;font-size:.9rem}.image-container.jsx-ff425c797956bb17{border-radius:6px;height:280px}.join-us-section.jsx-ff425c797956bb17{padding:50px 0}.join-us-wrapper.jsx-ff425c797956bb17{flex-direction:column;gap:50px}.join-us-content.jsx-ff425c797956bb17{max-width:100%}.join-us-title.jsx-ff425c797956bb17{font-size:2rem}.magazine-stack.jsx-ff425c797956bb17{max-width:100%;min-height:320px}.magazine-cover.jsx-ff425c797956bb17{margin:0 auto 20px;position:relative}.read-now-btn.jsx-ff425c797956bb17{margin:20px auto;padding:14px 35px;display:block;position:static;transform:none}.read-now-btn.jsx-ff425c797956bb17:hover{transform:scale(1.05)}.open-magazine.jsx-ff425c797956bb17{width:100%;margin-top:20px;position:relative}.popup-container.jsx-ff425c797956bb17{max-width:95%}}@media (width<=480px){.bg-light-better.jsx-ff425c797956bb17,.bg-white-better.jsx-ff425c797956bb17{padding:10px}.section-image-container-manwalking.jsx-ff425c797956bb17{height:300px}.container.jsx-ff425c797956bb17{padding:0 15px}.content-block.jsx-ff425c797956bb17{padding:40px 0}.section-title.jsx-ff425c797956bb17{letter-spacing:.3px;margin-bottom:1.2rem;font-size:1.1rem}.inline-title.jsx-ff425c797956bb17{text-align:center;font-size:1.1rem}.title-second-line.jsx-ff425c797956bb17{font-size:.85em}.flex-container.jsx-ff425c797956bb17{gap:20px}.section-subtitle.jsx-ff425c797956bb17{margin-bottom:1rem;font-size:.95rem}.list-item.jsx-ff425c797956bb17{margin-bottom:.7rem;padding-left:20px;font-size:.85rem;line-height:1.6}.list-item.jsx-ff425c797956bb17:before{font-size:1.2rem}.section-footer.jsx-ff425c797956bb17{margin-top:1rem;font-size:.85rem;line-height:1.6}.image-container.jsx-ff425c797956bb17{height:240px}.join-us-section.jsx-ff425c797956bb17{padding:40px 0}.join-us-title.jsx-ff425c797956bb17{letter-spacing:2px;font-size:1.6rem}.join-us-subtitle.jsx-ff425c797956bb17{font-size:1.05rem}.read-now-btn.jsx-ff425c797956bb17{padding:12px 30px;font-size:.95rem}.popup-overlay.jsx-ff425c797956bb17{padding:10px}.close-btn.jsx-ff425c797956bb17{width:35px;height:35px;font-size:20px;top:10px;right:10px}}@media (width<=360px){.content-block.jsx-ff425c797956bb17{padding:35px 0}.section-title.jsx-ff425c797956bb17{font-size:1rem;line-height:1.2}.inline-title.jsx-ff425c797956bb17{text-align:center;font-size:1rem}.section-subtitle.jsx-ff425c797956bb17{font-size:.9rem}.list-item.jsx-ff425c797956bb17,.section-footer.jsx-ff425c797956bb17{font-size:.8rem}.image-container.jsx-ff425c797956bb17{height:220px}.join-us-title.jsx-ff425c797956bb17{font-size:1.4rem}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);

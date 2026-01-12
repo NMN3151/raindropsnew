@@ -1,14 +1,27 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
-import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Bannerr() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: "ease-in-out",
+      offset: 0, // 👈 IMPORTANT
+      anchorPlacement: "top-bottom",
+    });
+
+    AOS.refreshHard(); // 👈 force recalculation
+  }, []);
+
   return (
     <>
       {/* banner*/}
@@ -21,7 +34,6 @@ function Bannerr() {
           overflow: "hidden",
         }}
       >
-        
         <div className="swiper-wrapper">
           {/* single slider item */}
           <SwiperSlide>
@@ -47,10 +59,18 @@ function Bannerr() {
                       zIndex: 3,
                     }}
                   >
-                
-                    <h1> TRAVEL PARTNERS </h1>
-                    <p className="sub__text">
-                     Calm. Depth. Authenticity.
+                    <h1 
+                      data-aos="fade-up" 
+                      data-aos-delay="400"
+                    >
+                      TRAVEL PARTNERS
+                    </h1>
+                    <p 
+                      className="sub__text"
+                      data-aos="fade-up" 
+                      data-aos-delay="600"
+                    >
+                      Calm. Depth. Authenticity.
                     </p>
                   </div>
                 </div>

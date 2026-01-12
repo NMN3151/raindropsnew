@@ -1017,6 +1017,16 @@ function HeaderOne() {
                   color: #ab8a62;
                 }
 
+                /* Add padding-bottom to specific submenu items */
+                .sub-submenu li[role="menuitem"]:last-child {
+                  padding-bottom: 15px;
+                  background-color: red;
+                }
+
+                .submenu > li[role="menuitem"]:last-child {
+                  padding-bottom: 15px;
+                }
+
                 /* Hide Reserve Now button on mobile */
                 @media screen and (max-width: 767px) {
                   .desktop-reserve-btn {

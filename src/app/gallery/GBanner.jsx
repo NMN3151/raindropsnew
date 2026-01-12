@@ -12,13 +12,17 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function GBannerOne() {
-    useEffect(() => {
-        AOS.init({
-            duration: 800,
-            once: true,
-            easing: 'ease-in-out',
-        });
-    }, []);
+ useEffect(() => {
+  AOS.init({
+    duration: 800,
+    once: true,
+    easing: 'ease-in-out',
+    offset: 0,                 // 👈 IMPORTANT
+    anchorPlacement: 'top-bottom',
+  });
+
+  AOS.refreshHard();           // 👈 force recalculation
+}, []);
 
     return (
         <>

@@ -7,41 +7,32 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
-import Link from 'next/link';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function ABanner() {
-    useEffect(() => {
-        AOS.init({
-            duration: 800,
-            once: true,
-            easing: 'ease-in-out',
-        });
-    }, []);
+ useEffect(() => {
+  AOS.init({
+    duration: 800,
+    once: true,
+    easing: 'ease-in-out',
+    offset: 0,                 // 👈 IMPORTANT
+    anchorPlacement: 'top-bottom',
+  });
+
+  AOS.refreshHard();           // 👈 force recalculation
+}, []);
+
 
     return (
         <>
             {/* banner area */}
             <div className="rts__section banner__area is__home__one" style={{ 
                 width: '100%', 
-                height: '102vh', 
+                height: '100vh', 
                 position: 'relative',
                 overflow: 'hidden'
-            }}>
-                {/* <Swiper
-                    className="banner__slider overflow-hidden"
-                    modules={[Navigation]}
-                    direction="horizontal"
-                    slidesPerView={1}
-                    loop={true}
-                    navigation={{
-                        nextEl: ".next",
-                        prevEl: ".prev",
-                    }}
-                    speed={1000}
-                    effect="slide"
-                > */}
+            }}> 
                     <div className="swiper-wrapper">
                         {/* single slider item */}
                         <SwiperSlide>
@@ -60,91 +51,27 @@ function ABanner() {
                                             width: '100%',
                                             zIndex: 3
                                         }}>
-                                             
                                             <h1 
                                                 data-aos="fade-up"
                                                 data-aos-delay="400"
                                             >
-                                           The Story
+                                              The Story
                                             </h1>
+
                                             <p 
                                                 data-aos="fade-up"
                                                 data-aos-delay="600"
                                             >
                                               Welcome to Rain drops, where luxury meets comfort
                                             </p>
-                                           
-                                           
-                                           
-                                           
-                                            {/* <Link
-                                                href="/room-home"
-                                                className="theme-btn btn-style fill no-border "
-                                            >
-                                                <span>Discover Room</span>
-                                            </Link> */}
+                                             
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </SwiperSlide>
-                        {/* single slider item end */}
-                        {/* single slider item */}
-                        {/* <SwiperSlide>
-                            <div className="banner__slider__image">
-                                <img src="/assets/images/banner/banner2.jpg" alt="" />
-                            </div>
-                            <div className="container">
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-10">
-                                        <div className="banner__slide__content">
-                                            <span className="h6 subtitle__icon"> Welcome to Our Villa</span>
-                                            <h1>Luxury Stay Villa Experience Comfort &amp; Elegance</h1>
-                                            <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
-                                            </p>
-                                            <Link
-                                                href="/room-one"
-                                                className="theme-btn btn-style fill no-border "
-                                            >
-                                                <span>Discover Room</span>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide> */}
-                        {/* single slider item end */}
-                        {/* single slider item */}
-                        {/* <SwiperSlide>
-                            <div className="banner__slider__image">
-                                <img src="/assets/images/banner/banner-3.webp" alt="" />
-                            </div>
-                            <div className="container">
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-10">
-                                        <div className="banner__slide__content">
-                                            <span className="h6 subtitle__icon">Welcome to Our Villa</span>
-                                            <h1>Luxury Stay Villa Experience Comfort &amp; Elegance</h1>
-                                            <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
-                                            </p>
-                                            <Link
-                                                href="/room-one"
-                                                className="theme-btn btn-style fill no-border "
-                                            >
-                                                <span>Discover Room</span>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide> */}
-                        {/* single slider item end */}
+                         
                     </div>
                     <div className="rts__slider__nav">
                         <div className="rts__slide">
@@ -188,9 +115,7 @@ function ABanner() {
                             </div>
                         </div>
                     </div>
-                {/* </Swiper> */}
             </div>
-            {/* banner area end */}
         </>
 
     )

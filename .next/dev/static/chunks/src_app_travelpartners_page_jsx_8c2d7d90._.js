@@ -7,7 +7,7 @@
   "static/chunks/node_modules_@floating-ui_react_dist_22386cb2._.js",
   "static/chunks/node_modules_react-datepicker_dist_index_es_4982a1c7.js",
   "static/chunks/node_modules_swiper_6c4c78b6._.js",
-  "static/chunks/node_modules_86324569._.js"
+  "static/chunks/node_modules_2eaab370._.js"
 ],
     source: "dynamic"
 });

@@ -16,6 +16,7 @@ function Landscapepage() {
                   src="/assets/images/sri lanka/sl.png"
                   alt="Sri Lankan rainforest landscape"
                   className="landscape-image"
+                  loading="lazy"
                 />
                 <div className="image-caption"></div>
               </div>
@@ -25,6 +26,7 @@ function Landscapepage() {
                   src="/assets/images/sri lanka/sl1.png"
                   alt="Tea gardens in Sri Lanka"
                   className="landscape-image"
+                  loading="lazy"
                 />
                 <div className="image-caption"></div>
               </div>
@@ -34,6 +36,7 @@ function Landscapepage() {
                   src="/assets/images/sri lanka/sl2.png"
                   alt="Temple architecture"
                   className="landscape-image"
+                  loading="lazy"
                 />
                 <div className="image-caption"></div>
               </div>
@@ -43,6 +46,7 @@ function Landscapepage() {
                   src="/assets/images/sri lanka/sl3.png"
                   alt="Coastal scenery"
                   className="landscape-image"
+                  loading="lazy"
                 />
                 <div className="image-caption"></div>
               </div>
