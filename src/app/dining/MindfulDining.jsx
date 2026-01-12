@@ -71,7 +71,7 @@ export default function MindfulDining() {
 
       <style jsx>{`
         .signature__outer {
-          padding: 9rem 0;
+          padding: 6rem 0;
           position: relative;
           overflow: hidden;
           width: 100%;

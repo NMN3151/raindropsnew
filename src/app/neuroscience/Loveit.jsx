@@ -71,7 +71,7 @@ export default function WhyYouLoveIt() {
 
         /* Why You'll Love It Section */
         .why-love-container {
-          padding: 5rem 2rem 4rem;
+          padding: 6rem 2rem 6rem;
           max-width: 1400px;
           margin: 0 auto;
         }

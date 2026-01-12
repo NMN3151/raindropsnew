@@ -204,7 +204,8 @@ export default function TravelPartners() {
           }
 
           .section__padding {
-            padding: 100px 0;
+             paddding-top: 6rem;
+             padding-bottom: 0rem;
           }
         }
 

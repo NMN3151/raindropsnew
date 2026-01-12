@@ -227,14 +227,18 @@ function PropertyAtAGlance() {
           padding-left: 25px;
           position: relative;
           font-weight: 300;
+          line-height: 1.6;
         }
 
         .feature-item:before {
           content: "•";
           position: absolute;
           left: 0;
+          top: 50%;
+          transform: translateY(-50%);
           color: #ffffffff;
           font-size: 1.5rem;
+          line-height: 1;
         }
 
         /* Main image section */
@@ -480,6 +484,7 @@ function PropertyAtAGlance() {
 
           .feature-item {
             font-size: 0.95rem;
+            line-height: 1.6;
           }
 
           .main-image-container {
@@ -638,6 +643,7 @@ function PropertyAtAGlance() {
 
           .feature-item {
             font-size: 0.8rem;
+            line-height: 1.6;
           }
 
           .main-image-container {

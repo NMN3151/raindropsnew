@@ -149,12 +149,16 @@ function WhyTravelPartnersChoose() {
         }
 
         .features-list li:before {
+
           content: "•";
           position: absolute;
           left: 0;
+          top: 50%;
+          transform: translateY(-50%);
           color: #000000ff;
           font-size: 1.5rem;
-          line-height: 1.4;
+          line-height: 1;
+
         }
 
         /* Right images section */

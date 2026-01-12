@@ -235,7 +235,6 @@ function InnerDiscoverySection() {
               <form className="discovery-form" onSubmit={onSubmit}>
                 <select
                   className="input-field"
-                  style={{ color: "black" }}
                   name="program"
                   required
                   defaultValue=""
@@ -365,7 +364,6 @@ function InnerDiscoverySection() {
                 <form className="discovery-form" onSubmit={onSubmit}>
                   <select
                     className="input-field"
-                    style={{ color: "black" }}
                     name="program"
                     required
                     defaultValue=""
@@ -574,7 +572,7 @@ function InnerDiscoverySection() {
             display: none; /* Hidden by default, shown only on mobile */
           }
 
-          /* FORM — optimized (unchanged from original) */
+          /* FORM — optimized with consistent gray colors */
           .main-title {
             color: #ffffff;
             line-height: 1.1;
@@ -609,19 +607,41 @@ function InnerDiscoverySection() {
             grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
             gap: 14px;
           }
+          
+          /* UPDATED: Consistent gray colors for all inputs */
           .input-field {
             background: rgba(255, 255, 255, 1);
             border: 1px solid rgba(0, 0, 0, 1);
             border-radius: 6px;
             padding: 12px 16px;
-            color: black;
+            color: rgba(103, 103, 103, 1); /* Gray text color */
             font-size: 0.95rem;
             min-height: 46px;
           }
+          
+          /* Gray placeholder color */
           .input-field::placeholder {
-            color: rgba(37, 3, 3, 1);
+            color: rgba(103, 103, 103, 1); /* Same gray as input text */
             font-size: 0.9rem;
+            opacity: 1;
           }
+          
+          /* Select dropdown styling - gray colors */
+          .input-field option {
+            color: rgba(103, 103, 103, 1); /* Gray for all options */
+            background: white;
+          }
+          
+          /* Placeholder option (disabled) - gray color */
+          .input-field option:disabled {
+            color: rgba(103, 103, 103, 1); /* Same gray */
+          }
+          
+          /* Date input calendar icon color */
+          .input-field::-webkit-calendar-picker-indicator {
+            filter: opacity(0.5);
+          }
+          
           .textarea {
             min-height: 70px;
             resize: vertical;

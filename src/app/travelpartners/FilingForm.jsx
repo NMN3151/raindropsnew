@@ -390,7 +390,7 @@ function FilingForm() {
 
         .form-input:focus {
           outline: none;
-          border-color: #6b8e23;
+          border-color: #6f6f6f6a;
           box-shadow: 0 0 0 3px rgba(107, 142, 35, 0.1);
         }
 

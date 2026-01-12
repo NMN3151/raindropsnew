@@ -212,6 +212,26 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                 Insight Partners (You)
                               </Link>
                             </li>
+
+                            <li role="menuitem">
+                              <Link
+                                href="/travelpartners"
+                                onClick={(e) =>
+                                  handleNavigation(e, "/travelpartners")
+                                }
+                              >
+                                Travel Partners
+                              </Link>
+                            </li>
+
+                            <li role="menuitem">
+                              <Link
+                                href="/living"
+                                onClick={(e) => handleNavigation(e, "/living")}
+                              >
+                                A Living Partnership
+                              </Link>
+                            </li>
                           </ul>
                         </li>
 

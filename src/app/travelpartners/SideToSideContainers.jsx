@@ -354,6 +354,7 @@ function SideToSideContainers() {
           transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added easing */
           box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12); /* Fixed rgba format */
           display: block; /* Ensures proper rendering */
+          object-position: left center;
         }
         .section-image-container-manwalking {
           width: 400px;
@@ -462,12 +463,17 @@ function SideToSideContainers() {
         }
 
         .list-item:before {
-          content: "•";
+        
+          
+
+           content: "•";
           position: absolute;
           left: 0;
+          top: 50%;
+          transform: translateY(-50%);
           color: #000000ff;
           font-size: 1.5rem;
-          line-height: 1.4;
+          line-height: 1;
         }
 
         .section-footer {
