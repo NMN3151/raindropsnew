@@ -1,18 +1,9 @@
 {
   "app": {
-    "[project]/src/app/Insight/page": [],
-    "[project]/src/app/about/page": [],
-    "[project]/src/app/contact/page": [],
     "[project]/src/app/dining/page": [],
-    "[project]/src/app/gallery/page": [],
-    "[project]/src/app/living/page": [],
-    "[project]/src/app/neuroscience/page": [],
     "[project]/src/app/page": [],
-    "[project]/src/app/privacy/page": [],
     "[project]/src/app/research/page": [],
-    "[project]/src/app/srilanka/page": [],
-    "[project]/src/app/travelpartners/page": [],
-    "[project]/src/app/weather/page": []
+    "[project]/src/app/room-home/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

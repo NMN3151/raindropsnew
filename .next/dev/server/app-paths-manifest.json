@@ -1,15 +1,6 @@
 {
-  "/Insight/page": "app/Insight/page.js",
-  "/about/page": "app/about/page.js",
-  "/contact/page": "app/contact/page.js",
   "/dining/page": "app/dining/page.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/living/page": "app/living/page.js",
-  "/neuroscience/page": "app/neuroscience/page.js",
   "/page": "app/page.js",
-  "/privacy/page": "app/privacy/page.js",
   "/research/page": "app/research/page.js",
-  "/srilanka/page": "app/srilanka/page.js",
-  "/travelpartners/page": "app/travelpartners/page.js",
-  "/weather/page": "app/weather/page.js"
+  "/room-home/page": "app/room-home/page.js"
 }

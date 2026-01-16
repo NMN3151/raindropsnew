@@ -5863,127 +5863,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$sw
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/index.mjs [app-ssr] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$navigation$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/navigation.mjs [app-ssr] (ecmascript) <export default as Navigation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$autoplay$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Autoplay$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/autoplay.mjs [app-ssr] (ecmascript) <export default as Autoplay>");
-// 'use client'
-// import React from 'react'
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/swiper-bundle.css'; // Core Swiper styles
-// import { Navigation } from 'swiper/modules';
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/scrollbar';
-// function TestimonialOne() {
-//     return (
-//         <>
-//             {/* client testimonial  */}
-//             <div className="rts__section section__padding testimonial has__shape">
-//                 <div className="container">
-//                     <div className="row mb-40">
-//                         <div className="d-flex align-items-center justify-content-between position-relative">
-//                             <div className="section__content__left">
-//                                 <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-//                                     Testimonial
-//                                 </span>
-//                                 <h2 className="content__title h2 lh-1">What Our Client Say</h2>
-//                             </div>
-//                             <div className="slider__navigation">
-//                                 <div className="nav__btn button-next">
-//                                     <img src="/assets/images/icon/arrow-left-short.svg" alt="" />
-//                                 </div>
-//                                 <div className="nav__btn button-prev">
-//                                     <img src="/assets/images/icon/arrow-right-short.svg" alt="" />
-//                                 </div>
-//                             </div>
-//                         </div>
-//                     </div>
-//                     <div className="row">
-//                         <div className="col-lg-11">
-//                             <div className="">
-//                                 <Swiper
-//                                     className="testimonial__slider overflow-hidden"
-//                                     modules={[Navigation]}
-//                                     direction="horizontal"
-//                                     slidesPerView={1}
-//                                     spaceBetween={0}
-//                                     loop={true}
-//                                     centeredSlides={true}
-//                                     autoplay="false"
-//                                     navigation={{
-//                                         nextEl: ".button-next",
-//                                         prevEl: ".button-prev",
-//                                     }}
-//                                     speed={1000}
-//                                     effect="slide"
-//                                 >
-//                                     <SwiperSlide>
-//                                         <div className="testimonial__item__content">
-//                                             <div className="author__icon">
-//                                                   <img src="https://i.postimg.cc/kgz1YJtL/ludema.jpg" alt="" />
-//                                             </div>
-//                                             <div className="testimonial__content">
-//                                                 <div className="single__slider__item ">
-//                                                     <div className="slider__rating mb-20">
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star-sharp-half-stroke" /> */}
-//                                                          <h4 className="topic-title"style={{ fontSize: '1.8rem' }}>Where Beauty Meets Mindfulness</h4>
-//                                                     </div>
-//                                                    <span className="slider__text d-block mb-20" style={{ fontSize: '1.125rem', lineHeight: '1.3' }}>
-//                                                        Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation.
-// That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends.
-//                                                     </span>
-//                                                     <div className="slider__author__info">
-//                                                         <div className="slider__author__info__content">
-//                                                             <h6 className="mb-0"style={{ fontSize: '1.2rem' }}>Dr. Jim Ludema</h6>
-//                                                             {/* <span>COO of Apex Solutions</span> */}
-//                                                         </div>
-//                                                     </div>
-//                                                 </div>
-//                                             </div>
-//                                         </div>
-//                                     </SwiperSlide>
-//                                     <SwiperSlide>
-//                                         <div className="testimonial__item__content">
-//                                             <div className="author__icon">
-//                                                 <img src="https://i.postimg.cc/XYGxCRDB/ludema2.jpg" alt="" />
-//                                             </div>
-//                                             <div className="testimonial__content">
-//                                                 <div className="single__slider__item ">
-//                                                     <div className="slider__rating mb-20">
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star-sharp-half-stroke" /> */}
-//                                                          <h4 className="topic-title"style={{ fontSize: '1.8rem' }}>An Unforgettable Journey</h4>
-//                                                     </div>
-//                                                   <span className="slider__text d-block mb-20" style={{ fontSize: '1.125rem', lineHeight: '1.3' }}>
-//                                                        The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years.
-//                                                        Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life.
-//                                                     </span>
-//                                                     <div className="slider__author__info">
-//                                                         <div className="slider__author__info__content">
-//                                                             <h6 className="mb-0"style={{ fontSize: '1.2rem' }}>Dr. Beverly Ludema</h6>
-//                                                             {/* <span>COO of Apex Solutions</span> */}
-//                                                         </div>
-//                                                     </div>
-//                                                 </div>
-//                                             </div>
-//                                         </div>
-//                                     </SwiperSlide>
-//                                 </Swiper>
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//             {/* client testimonial  end */}
-//         </>
-//     )
-// }
-// export default TestimonialOne
 "use client";
 ;
 ;
@@ -5999,64 +5878,64 @@ function TestimonialOne() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-28b5419449c9da3e" + " " + "rts__section section__padding testimonial has__shape",
+                className: "jsx-589c09c631ba1ca1" + " " + "rts__section section__padding testimonial has__shape",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-28b5419449c9da3e" + " " + "container",
+                    className: "jsx-589c09c631ba1ca1" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-28b5419449c9da3e" + " " + "row ",
+                            className: "jsx-589c09c631ba1ca1" + " " + "row ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-28b5419449c9da3e" + " " + "row justify-content-center text-center mb-40",
+                                className: "jsx-589c09c631ba1ca1" + " " + "row justify-content-center text-center mb-40",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-aos": "fade-up",
                                     "data-aos-delay": "300",
-                                    className: "jsx-28b5419449c9da3e" + " " + "col-lg-6",
+                                    className: "jsx-589c09c631ba1ca1" + " " + "col-lg-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-28b5419449c9da3e" + " " + "section__topbar",
+                                        className: "jsx-589c09c631ba1ca1" + " " + "section__topbar",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-28b5419449c9da3e" + " " + "h6 subtitle__icon__three mx-auto",
+                                                className: "jsx-589c09c631ba1ca1" + " " + "h6 subtitle__icon__three mx-auto",
                                                 children: "Testimonial"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 148,
+                                                lineNumber: 21,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-28b5419449c9da3e" + " " + "content__title h2 lh-1",
+                                                className: "jsx-589c09c631ba1ca1" + " " + "content__title h2 lh-1",
                                                 children: "what our client say"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 151,
+                                                lineNumber: 24,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                        lineNumber: 147,
+                                        lineNumber: 20,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                    lineNumber: 146,
+                                    lineNumber: 19,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                lineNumber: 145,
+                                lineNumber: 18,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                            lineNumber: 144,
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-28b5419449c9da3e" + " " + "row",
+                            className: "jsx-589c09c631ba1ca1" + " " + "row",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-28b5419449c9da3e" + " " + "col-lg-11",
+                                className: "jsx-589c09c631ba1ca1" + " " + "col-lg-11",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-28b5419449c9da3e" + " " + "",
+                                    className: "jsx-589c09c631ba1ca1" + " " + "",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Swiper"], {
                                         className: "testimonial__slider overflow-hidden",
                                         modules: [
@@ -6082,245 +5961,225 @@ function TestimonialOne() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-28b5419449c9da3e" + " " + "testimonial__item__content",
+                                                    className: "jsx-589c09c631ba1ca1" + " " + "testimonial__item__content",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-28b5419449c9da3e" + " " + "author__icon",
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "author__icon",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: "https://i.postimg.cc/kgz1YJtL/ludema.jpg",
-                                                                alt: "",
+                                                                alt: "Dr. Jim Ludema",
                                                                 loading: "lazy",
-                                                                className: "jsx-28b5419449c9da3e"
+                                                                className: "jsx-589c09c631ba1ca1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 57,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 183,
+                                                            lineNumber: 56,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-28b5419449c9da3e" + " " + "testimonial__content",
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "testimonial__content",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-28b5419449c9da3e" + " " + "single__slider__item ",
+                                                                className: "jsx-589c09c631ba1ca1" + " " + "single__slider__item",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__rating mb-20",
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__rating mb-20",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                            style: {
-                                                                                fontSize: "1.8rem"
-                                                                            },
-                                                                            className: "jsx-28b5419449c9da3e" + " " + "topic-title",
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "topic-title",
                                                                             children: "Where Beauty Meets Mindfulness"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 193,
+                                                                            lineNumber: 66,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 192,
+                                                                        lineNumber: 65,
                                                                         columnNumber: 27
                                                                     }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        style: {
-                                                                            fontSize: "1.125rem",
-                                                                            lineHeight: "1.3"
-                                                                        },
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__text d-block mb-20",
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__text",
                                                                         children: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation. That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 200,
+                                                                        lineNumber: 70,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__author__info",
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-28b5419449c9da3e" + " " + "slider__author__info__content",
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info__content",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                                                                style: {
-                                                                                    fontSize: "1.2rem"
-                                                                                },
-                                                                                className: "jsx-28b5419449c9da3e" + " " + "mb-0",
+                                                                                className: "jsx-589c09c631ba1ca1" + " " + "author-name",
                                                                                 children: "Dr. Jim Ludema"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                lineNumber: 213,
+                                                                                lineNumber: 80,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 212,
+                                                                            lineNumber: 79,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 211,
+                                                                        lineNumber: 78,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 191,
+                                                                lineNumber: 64,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 190,
+                                                            lineNumber: 63,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                    lineNumber: 182,
+                                                    lineNumber: 55,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 181,
+                                                lineNumber: 54,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-28b5419449c9da3e" + " " + "testimonial__item__content",
+                                                    className: "jsx-589c09c631ba1ca1" + " " + "testimonial__item__content",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-28b5419449c9da3e" + " " + "author__icon",
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "author__icon",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: "https://i.postimg.cc/XYGxCRDB/ludema2.jpg",
-                                                                alt: "",
+                                                                alt: "Dr. Beverly Ludema",
                                                                 loading: "lazy",
-                                                                className: "jsx-28b5419449c9da3e"
+                                                                className: "jsx-589c09c631ba1ca1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 228,
+                                                                lineNumber: 92,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 227,
+                                                            lineNumber: 91,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-28b5419449c9da3e" + " " + "testimonial__content",
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "testimonial__content",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-28b5419449c9da3e" + " " + "single__slider__item ",
+                                                                className: "jsx-589c09c631ba1ca1" + " " + "single__slider__item",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__rating mb-20",
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__rating mb-20",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                            style: {
-                                                                                fontSize: "1.8rem"
-                                                                            },
-                                                                            className: "jsx-28b5419449c9da3e" + " " + "topic-title",
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "topic-title",
                                                                             children: "An Unforgettable Journey"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 237,
+                                                                            lineNumber: 101,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 236,
+                                                                        lineNumber: 100,
                                                                         columnNumber: 27
                                                                     }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        style: {
-                                                                            fontSize: "1.125rem",
-                                                                            lineHeight: "1.3"
-                                                                        },
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__text d-block mb-20",
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__text",
                                                                         children: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years. Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 244,
+                                                                        lineNumber: 105,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__author__info",
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-28b5419449c9da3e" + " " + "slider__author__info__content",
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info__content",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                                                                style: {
-                                                                                    fontSize: "1.2rem"
-                                                                                },
-                                                                                className: "jsx-28b5419449c9da3e" + " " + "mb-0",
+                                                                                className: "jsx-589c09c631ba1ca1" + " " + "author-name",
                                                                                 children: "Dr. Beverly Ludema"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                lineNumber: 257,
+                                                                                lineNumber: 115,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 256,
+                                                                            lineNumber: 114,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 255,
+                                                                        lineNumber: 113,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 235,
+                                                                lineNumber: 99,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 234,
+                                                            lineNumber: 98,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                    lineNumber: 226,
+                                                    lineNumber: 90,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 225,
+                                                lineNumber: 89,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                        lineNumber: 161,
+                                        lineNumber: 34,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                    lineNumber: 160,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                lineNumber: 159,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                            lineNumber: 158,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                    lineNumber: 143,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                lineNumber: 142,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "28b5419449c9da3e",
-                children: "@media (width<=768px){.testimonial__item__content{text-align:center!important;flex-direction:column!important;align-items:center!important;display:flex!important}.author__icon{justify-content:center!important;margin-bottom:25px!important;display:flex!important}.author__icon img{object-fit:cover!important;border:4px solid #c8b08a!important;border-radius:50%!important;width:100px!important;height:300px!important}.testimonial__content{text-align:center!important;width:100%!important}.slider__rating{text-align:center!important;margin-bottom:15px!important}.slider__rating h4{text-align:center!important;margin:0 auto!important;font-size:1.4rem!important}.slider__text{text-align:center!important;margin-bottom:20px!important;padding:0 10px!important;font-size:1rem!important;line-height:1.5!important}.slider__author__info{text-align:center!important;justify-content:center!important}.slider__author__info__content h6{text-align:center!important;font-size:1.1rem!important}@media (width<=320px){.author__icon img{object-fit:cover;width:50px;height:50px;border:3px solid #c8b08a!important;border-radius:50%!important}.testimonial__item__content{justify-content:center!important;align-items:center!important;gap:15px!important;padding:20px 0!important}.slider__rating h4{font-size:1.2rem!important}.slider__text{padding:0 5px!important;font-size:.9rem!important}.slider__author__info__content h6{font-size:1rem!important}@media (width>=769px) and (width<=1024px){.author__icon img{width:140px!important;height:140px!important}.slider__rating h4{font-size:1.6rem!important}.slider__text{font-size:1.1rem!important}}.testimonial__item__content{justify-content:center;align-items:center;gap:30px;padding:30px 0;display:flex}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px}.testimonial__content{flex:1;max-width:700px}}}"
+                id: "589c09c631ba1ca1",
+                children: ".testimonial__item__content{justify-content:center;align-items:center;gap:40px;padding:40px 0;display:flex}.author__icon{flex-shrink:0}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px;transition:transform .3s}.author__icon img:hover{transform:scale(1.05)}.testimonial__content{flex:1;max-width:700px}.single__slider__item{text-align:left}.slider__rating{margin-bottom:20px}.topic-title{color:#1b1b1b;margin:0;font-size:1.5rem;font-weight:600;line-height:1.3}.slider__text{font-size:var(--p);margin-bottom:20px;line-height:1.6}.slider__author__info{align-items:center;gap:15px;display:flex}.author-name{color:#1b1b1b;margin:0;font-size:1.1rem;font-weight:600}@media (width>=769px) and (width<=1024px){.testimonial__item__content{gap:30px;padding:35px 0}.author__icon img{border:4px solid #c8b08a;width:140px;height:140px}.topic-title{font-size:1.4rem}.slider__text{font-size:.95rem}.author-name{font-size:1.05rem}}@media (width<=768px){.testimonial__item__content{text-align:center;flex-direction:column;align-items:center;gap:25px;padding:30px 15px}.author__icon{justify-content:center;margin-bottom:0;display:flex}.author__icon img{border:4px solid #c8b08a;width:120px;height:120px}.testimonial__content{text-align:center;width:100%}.single__slider__item{text-align:center}.slider__rating{text-align:center;margin-bottom:15px}.topic-title{text-align:center;font-size:1.3rem}.slider__text{text-align:center;margin-bottom:15px;font-size:.95rem}.slider__author__info{text-align:center;justify-content:center}.author-name{text-align:center;font-size:1rem}}@media (width<=480px){.testimonial__item__content{gap:20px;padding:25px 10px}.author__icon img{border:3px solid #c8b08a;width:100px;height:100px}.topic-title{font-size:1.2rem}.slider__text{font-size:.9rem}.author-name{font-size:.95rem}}@media (width<=320px){.testimonial__item__content{gap:15px;padding:20px 8px}.author__icon img{border:3px solid #c8b08a;width:80px;height:80px}.topic-title{font-size:1.1rem}.slider__text{font-size:.85rem}.author-name{font-size:.9rem}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
@@ -6404,16 +6263,16 @@ function SignaturePrograms() {
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: sectionRef,
-        className: "jsx-c4ef81ff73a1d87b" + " " + "signature__outer",
+        className: "jsx-19f71b9c766f777b" + " " + "signature__outer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-c4ef81ff73a1d87b" + " " + "container",
+                className: "jsx-19f71b9c766f777b" + " " + "container",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c4ef81ff73a1d87b" + " " + "header-section",
+                        className: "jsx-19f71b9c766f777b" + " " + "header-section",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "h6 subtitle__icon__three mx-auto",
+                                className: "jsx-19f71b9c766f777b" + " " + "h6 subtitle__icon__three mx-auto",
                                 children: "Story"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6424,7 +6283,7 @@ function SignaturePrograms() {
                                 style: {
                                     marginBottom: "70px"
                                 },
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "section__title",
+                                className: "jsx-19f71b9c766f777b" + " " + "section__title",
                                 children: [
                                     " ",
                                     "The Story"
@@ -6441,10 +6300,10 @@ function SignaturePrograms() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c4ef81ff73a1d87b" + " " + `story-content ${isVisible ? "animate-in delay-2" : ""}`,
+                        className: "jsx-19f71b9c766f777b" + " " + `story-content ${isVisible ? "animate-in delay-2" : ""}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text1",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text1",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
@@ -6452,7 +6311,7 @@ function SignaturePrograms() {
                                             fontFamily: "BrittanySignature",
                                             fontSize: 19
                                         },
-                                        className: "jsx-c4ef81ff73a1d87b",
+                                        className: "jsx-19f71b9c766f777b",
                                         children: [
                                             " ",
                                             "Rain Drops"
@@ -6466,7 +6325,7 @@ function SignaturePrograms() {
                                     "was born from a simple but powerful idea:",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        className: "jsx-c4ef81ff73a1d87b",
+                                        className: "jsx-19f71b9c766f777b",
                                         children: "when nature and the human mind meet, clarity happens."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6480,18 +6339,18 @@ function SignaturePrograms() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text",
                                 children: [
                                     "Business icon",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "https://diangomes.com/",
-                                        className: "jsx-c4ef81ff73a1d87b",
+                                        className: "jsx-19f71b9c766f777b",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                             style: {
                                                 color: "#AB8A62"
                                             },
-                                            className: "jsx-c4ef81ff73a1d87b",
+                                            className: "jsx-19f71b9c766f777b",
                                             children: "Dian Gomes"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6508,12 +6367,12 @@ function SignaturePrograms() {
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "https://www.linkedin.com/in/gaminihewawasam",
-                                        className: "jsx-c4ef81ff73a1d87b",
+                                        className: "jsx-19f71b9c766f777b",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                             style: {
                                                 color: "#AB8A62"
                                             },
-                                            className: "jsx-c4ef81ff73a1d87b",
+                                            className: "jsx-19f71b9c766f777b",
                                             children: "Dr. GB Hewawasam"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6534,7 +6393,7 @@ function SignaturePrograms() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text"
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Story.jsx",
                                 lineNumber: 128,
@@ -6547,16 +6406,16 @@ function SignaturePrograms() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c4ef81ff73a1d87b" + " " + `pillars-hero ${isVisible ? "animate-in delay-3" : ""}`,
+                        className: "jsx-19f71b9c766f777b" + " " + `pillars-hero ${isVisible ? "animate-in delay-3" : ""}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-c4ef81ff73a1d87b" + " " + "hero-image-container",
+                            className: "jsx-19f71b9c766f777b" + " " + "hero-image-container",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-c4ef81ff73a1d87b" + " " + "slideshow-wrapper",
+                                    className: "jsx-19f71b9c766f777b" + " " + "slideshow-wrapper",
                                     children: images.map((image, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: image,
                                             alt: `Pillar ${index + 1}`,
-                                            className: "jsx-c4ef81ff73a1d87b" + " " + `hero-image ${index === currentImageIndex ? "active" : ""}`
+                                            className: "jsx-19f71b9c766f777b" + " " + `hero-image ${index === currentImageIndex ? "active" : ""}`
                                         }, index, false, {
                                             fileName: "[project]/src/app/home-1/Story.jsx",
                                             lineNumber: 139,
@@ -6568,23 +6427,23 @@ function SignaturePrograms() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-c4ef81ff73a1d87b" + " " + "pillars-overlay",
+                                    className: "jsx-19f71b9c766f777b" + " " + "pillars-overlay",
                                     children: pillars.map((pillar, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             onMouseEnter: ()=>{
                                                 handlePillarHover(index);
                                                 setActiveHover(pillar.id);
                                             },
                                             onMouseLeave: ()=>setActiveHover(null),
-                                            className: "jsx-c4ef81ff73a1d87b" + " " + `pillar-overlay-item ${currentImageIndex !== index ? "disabled" : ""}`,
+                                            className: "jsx-19f71b9c766f777b" + " " + `pillar-overlay-item ${currentImageIndex !== index ? "disabled" : ""}`,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 onClick: ()=>setActiveHover(activeHover === pillar.id ? null : pillar.id),
-                                                className: "jsx-c4ef81ff73a1d87b" + " " + `pillar-content ${activeHover === pillar.id ? "show-description" : ""}`,
+                                                className: "jsx-19f71b9c766f777b" + " " + `pillar-content ${activeHover === pillar.id ? "show-description" : ""}`,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         style: {
                                                             fontWeight: "600"
                                                         },
-                                                        className: "jsx-c4ef81ff73a1d87b" + " " + "pillar-overlay-title",
+                                                        className: "jsx-19f71b9c766f777b" + " " + "pillar-overlay-title",
                                                         children: pillar.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6595,7 +6454,7 @@ function SignaturePrograms() {
                                                         style: {
                                                             fontWeight: "600"
                                                         },
-                                                        className: "jsx-c4ef81ff73a1d87b" + " " + "pillar-overlay-description",
+                                                        className: "jsx-19f71b9c766f777b" + " " + "pillar-overlay-description",
                                                         children: pillar.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6630,13 +6489,13 @@ function SignaturePrograms() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c4ef81ff73a1d87b" + " " + `bottom-content ${isVisible ? "animate-in delay-6" : ""}`,
+                        className: "jsx-19f71b9c766f777b" + " " + `bottom-content ${isVisible ? "animate-in delay-6" : ""}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 style: {
                                     fontSize: "18px"
                                 },
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text-des",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text-des",
                                 children: "Study, Investigate, practice"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6644,7 +6503,7 @@ function SignaturePrograms() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text-des",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text-des",
                                 children: "These principles shape everything we do, from mindful architecture to the way we help guests understand themselves through nature. Rain Drops is not just a place to stay. It is a place to slow down, learn, and transform. Come experience the rainforest in quiet luxury. Discover a new skill, new insight, or new clarity that travels home with you. Because at Rain Drops, we believe:"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6652,9 +6511,9 @@ function SignaturePrograms() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text2",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text2",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    className: "jsx-c4ef81ff73a1d87b",
+                                    className: "jsx-19f71b9c766f777b",
                                     children: '"Nature is not outside of you — it is within you."'
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6679,8 +6538,8 @@ function SignaturePrograms() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "c4ef81ff73a1d87b",
-                children: '.signature__outer.jsx-c4ef81ff73a1d87b{background:#fff;padding:6rem 0;position:relative;overflow:hidden}.container.jsx-c4ef81ff73a1d87b{max-width:1200px;margin:0 auto;padding:0 2rem}.header-section.jsx-c4ef81ff73a1d87b{text-align:center;margin-bottom:1rem;transform:translateY(-20px)}.header-section.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s forwards fadeInDown}.section_title.jsx-c4ef81ff73a1d87b:before,.section_title.jsx-c4ef81ff73a1d87b:after{content:"⟡";color:#c9a961;font-size:1.5rem;position:absolute;top:50%;transform:translateY(-50%)}.section_title1.jsx-c4ef81ff73a1d87b{margin-bottom:-1rem}.section_title.jsx-c4ef81ff73a1d87b:before{left:0}.section_title.jsx-c4ef81ff73a1d87b:after{right:0}.subtitle.jsx-c4ef81ff73a1d87b{text-align:center;color:#666;opacity:0;margin-bottom:5rem;font-size:16px;transform:translateY(-20px)}.subtitle.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s .2s forwards fadeInDown}.story-content.jsx-c4ef81ff73a1d87b{opacity:0;max-width:1200px;margin:0 auto 5rem;transform:translateY(20px)}.story-content.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s .4s forwards fadeInUp}.story-text1.jsx-c4ef81ff73a1d87b{text-align:center;margin-top:-50px;font-size:16px}.story-text2.jsx-c4ef81ff73a1d87b{text-align:center}.story-text.jsx-c4ef81ff73a1d87b{color:#444;text-align:left;margin-bottom:2rem;font-size:16px}.story-text-des.jsx-c4ef81ff73a1d87b{color:#444;text-align:left;margin-top:-30px;margin-bottom:2rem;font-size:16px}.story-text.highlight.jsx-c4ef81ff73a1d87b{color:#333;font-size:1.3rem;font-weight:400}.story-text.jsx-c4ef81ff73a1d87b strong.jsx-c4ef81ff73a1d87b{color:#000;font-weight:600}.pillars-hero.jsx-c4ef81ff73a1d87b{opacity:0;margin:5rem 0;transform:translateY(30px)}.pillars-hero.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s .6s forwards fadeInUp}.hero-image-container.jsx-c4ef81ff73a1d87b{border-radius:4px;width:100%;max-width:1200px;margin:0 auto;position:relative;overflow:hidden}.slideshow-wrapper.jsx-c4ef81ff73a1d87b{width:100%;min-height:600px;position:relative}.hero-image.jsx-c4ef81ff73a1d87b{object-fit:cover;opacity:0;width:100%;height:100%;min-height:600px;transition:opacity 1s ease-in-out;position:absolute;top:0;left:0}.hero-image.active.jsx-c4ef81ff73a1d87b{opacity:1}.pillars-overlay.jsx-c4ef81ff73a1d87b{z-index:5;background:linear-gradient(#0000 0%,#0009 100%);justify-content:space-around;align-items:flex-end;padding:0;display:flex;position:absolute;bottom:0;left:0;right:0}.pillar-overlay-item.jsx-c4ef81ff73a1d87b{color:#fff;cursor:pointer;flex:1;align-items:flex-end;min-height:120px;display:flex;position:relative}.pillar-overlay-item.disabled.jsx-c4ef81ff73a1d87b{opacity:.4;cursor:not-allowed}.pillar-overlay-item.disabled.jsx-c4ef81ff73a1d87b:hover .pillar-content.jsx-c4ef81ff73a1d87b{transform:translateY(0)}.pillar-overlay-item.jsx-c4ef81ff73a1d87b:not(:last-child):after{content:"";background-image:url(/assets/images/story/png.png);background-position:50%;background-repeat:no-repeat;background-size:contain;width:40px;height:100px;position:absolute;bottom:40px;right:0}.pillar-content.jsx-c4ef81ff73a1d87b{cursor:pointer;width:100%;padding:2rem;transition:transform .4s;transform:translateY(0)}.pillar-content.show-description.jsx-c4ef81ff73a1d87b{transform:translateY(-30px)}.pillar-overlay-item.disabled.jsx-c4ef81ff73a1d87b .pillar-content.jsx-c4ef81ff73a1d87b{cursor:default}.pillar-overlay-title.jsx-c4ef81ff73a1d87b{color:#fff;font-size:1.5rem;font-weight:300;font-family:var(--jost);letter-spacing:2px;text-transform:capitalize;margin:0 0 1rem;transition:all .3s}.pillar-overlay-description.jsx-c4ef81ff73a1d87b{opacity:0;text-shadow:1px 1px 6px #000000e6;max-height:0;margin:0;font-size:1rem;font-weight:300;line-height:1.6;transition:max-height .4s,opacity .4s;overflow:hidden}.pillar-content.show-description.jsx-c4ef81ff73a1d87b .pillar-overlay-description.jsx-c4ef81ff73a1d87b{opacity:1;max-height:150px}.bottom-content.jsx-c4ef81ff73a1d87b{opacity:0;max-width:1200px;margin:4rem auto 0;transform:translateY(20px)}.bottom-content.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s 1.2s forwards fadeInUp}@keyframes fadeInDown{to{opacity:1;transform:translateY(0)}}@keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}@media (width<=1024px){.section_title.jsx-c4ef81ff73a1d87b{padding:0 3rem;font-size:2.2rem}.pillar-overlay-title.jsx-c4ef81ff73a1d87b{font-size:2rem}.pillar-content.jsx-c4ef81ff73a1d87b{padding:1.5rem}}@media (width<=768px){.signature__outer.jsx-c4ef81ff73a1d87b{padding:4rem 0}.container.jsx-c4ef81ff73a1d87b{padding:0 1.5rem}.section_title.jsx-c4ef81ff73a1d87b{letter-spacing:2px;padding:0 2.5rem;font-size:1.8rem}.section_title.jsx-c4ef81ff73a1d87b:before,.section_title.jsx-c4ef81ff73a1d87b:after{font-size:1.2rem}.slideshow-wrapper.jsx-c4ef81ff73a1d87b,.hero-image.jsx-c4ef81ff73a1d87b{min-height:500px}.pillars-overlay.jsx-c4ef81ff73a1d87b{flex-direction:column;align-items:stretch;gap:0}.pillar-overlay-item.jsx-c4ef81ff73a1d87b{min-height:100px}.pillar-overlay-item.jsx-c4ef81ff73a1d87b:not(:last-child):after{display:none}.pillar-overlay-title.jsx-c4ef81ff73a1d87b{font-size:1.8rem}.pillar-content.jsx-c4ef81ff73a1d87b{padding:1.5rem}.story-text.jsx-c4ef81ff73a1d87b{font-size:1rem}}@media (width<=480px){.signature__outer.jsx-c4ef81ff73a1d87b{padding:6rem 0}.container.jsx-c4ef81ff73a1d87b{padding:0 1rem}.section_title.jsx-c4ef81ff73a1d87b{letter-spacing:1px;padding:0 2rem;font-size:1.4rem}.section_title.jsx-c4ef81ff73a1d87b:before,.section_title.jsx-c4ef81ff73a1d87b:after{font-size:1rem}.subtitle.jsx-c4ef81ff73a1d87b{margin-bottom:5rem;font-size:1rem}.slideshow-wrapper.jsx-c4ef81ff73a1d87b,.hero-image.jsx-c4ef81ff73a1d87b{min-height:400px}.pillar-overlay-item.jsx-c4ef81ff73a1d87b{min-height:80px}.pillar-overlay-title.jsx-c4ef81ff73a1d87b{font-size:1.5rem}.pillar-overlay-description.jsx-c4ef81ff73a1d87b{font-size:.9rem}.pillar-content.jsx-c4ef81ff73a1d87b{padding:1rem}.pillar-content.show-description.jsx-c4ef81ff73a1d87b{transform:translateY(-20px)}.story-text.jsx-c4ef81ff73a1d87b,.story-text-des.jsx-c4ef81ff73a1d87b{text-align:center;justify-content:center;font-size:.95rem}}'
+                id: "19f71b9c766f777b",
+                children: '.signature__outer.jsx-19f71b9c766f777b{background:#fff;padding:6rem 0 120px;position:relative;overflow:hidden}.container.jsx-19f71b9c766f777b{max-width:1200px;margin:0 auto;padding:0 2rem}.header-section.jsx-19f71b9c766f777b{text-align:center;margin-bottom:1rem;transform:translateY(-20px)}.header-section.animate-in.jsx-19f71b9c766f777b{animation:.8s forwards fadeInDown}.section_title.jsx-19f71b9c766f777b:before,.section_title.jsx-19f71b9c766f777b:after{content:"⟡";color:#c9a961;font-size:1.5rem;position:absolute;top:50%;transform:translateY(-50%)}.section_title1.jsx-19f71b9c766f777b{margin-bottom:-1rem}.section_title.jsx-19f71b9c766f777b:before{left:0}.section_title.jsx-19f71b9c766f777b:after{right:0}.subtitle.jsx-19f71b9c766f777b{text-align:center;color:#666;opacity:0;margin-bottom:5rem;font-size:16px;transform:translateY(-20px)}.subtitle.animate-in.jsx-19f71b9c766f777b{animation:.8s .2s forwards fadeInDown}.story-content.jsx-19f71b9c766f777b{opacity:0;max-width:1200px;margin:0 auto 5rem;transform:translateY(20px)}.story-content.animate-in.jsx-19f71b9c766f777b{animation:.8s .4s forwards fadeInUp}.story-text1.jsx-19f71b9c766f777b{text-align:center;margin-top:-50px;font-size:16px}.story-text2.jsx-19f71b9c766f777b{text-align:center}.story-text.jsx-19f71b9c766f777b{color:#444;text-align:left;margin-bottom:2rem;font-size:16px}.story-text-des.jsx-19f71b9c766f777b{color:#444;text-align:left;margin-top:-30px;margin-bottom:2rem;font-size:16px}.story-text.highlight.jsx-19f71b9c766f777b{color:#333;font-size:1.3rem;font-weight:400}.story-text.jsx-19f71b9c766f777b strong.jsx-19f71b9c766f777b{color:#000;font-weight:600}.pillars-hero.jsx-19f71b9c766f777b{opacity:0;margin:5rem 0;transform:translateY(30px)}.pillars-hero.animate-in.jsx-19f71b9c766f777b{animation:.8s .6s forwards fadeInUp}.hero-image-container.jsx-19f71b9c766f777b{border-radius:4px;width:100%;max-width:1200px;margin:0 auto;position:relative;overflow:hidden}.slideshow-wrapper.jsx-19f71b9c766f777b{width:100%;min-height:600px;position:relative}.hero-image.jsx-19f71b9c766f777b{object-fit:cover;opacity:0;width:100%;height:100%;min-height:600px;transition:opacity 1s ease-in-out;position:absolute;top:0;left:0}.hero-image.active.jsx-19f71b9c766f777b{opacity:1}.pillars-overlay.jsx-19f71b9c766f777b{z-index:5;background:linear-gradient(#0000 0%,#0009 100%);justify-content:space-around;align-items:flex-end;padding:0;display:flex;position:absolute;bottom:0;left:0;right:0}.pillar-overlay-item.jsx-19f71b9c766f777b{color:#fff;cursor:pointer;flex:1;align-items:flex-end;min-height:120px;display:flex;position:relative}.pillar-overlay-item.disabled.jsx-19f71b9c766f777b{opacity:.4;cursor:not-allowed}.pillar-overlay-item.disabled.jsx-19f71b9c766f777b:hover .pillar-content.jsx-19f71b9c766f777b{transform:translateY(0)}.pillar-overlay-item.jsx-19f71b9c766f777b:not(:last-child):after{content:"";background-image:url(/assets/images/story/png.png);background-position:50%;background-repeat:no-repeat;background-size:contain;width:40px;height:100px;position:absolute;bottom:40px;right:0}.pillar-content.jsx-19f71b9c766f777b{cursor:pointer;width:100%;padding:2rem;transition:transform .4s;transform:translateY(0)}.pillar-content.show-description.jsx-19f71b9c766f777b{transform:translateY(-30px)}.pillar-overlay-item.disabled.jsx-19f71b9c766f777b .pillar-content.jsx-19f71b9c766f777b{cursor:default}.pillar-overlay-title.jsx-19f71b9c766f777b{color:#fff;font-size:1.5rem;font-weight:300;font-family:var(--jost);letter-spacing:2px;text-transform:capitalize;margin:0 0 1rem;transition:all .3s}.pillar-overlay-description.jsx-19f71b9c766f777b{opacity:0;text-shadow:1px 1px 6px #000000e6;max-height:0;margin:0;font-size:1rem;font-weight:300;line-height:1.6;transition:max-height .4s,opacity .4s;overflow:hidden}.pillar-content.show-description.jsx-19f71b9c766f777b .pillar-overlay-description.jsx-19f71b9c766f777b{opacity:1;max-height:150px}.bottom-content.jsx-19f71b9c766f777b{opacity:0;max-width:1200px;margin:4rem auto 0;transform:translateY(20px)}.bottom-content.animate-in.jsx-19f71b9c766f777b{animation:.8s 1.2s forwards fadeInUp}@keyframes fadeInDown{to{opacity:1;transform:translateY(0)}}@keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}@media (width<=1024px){.section_title.jsx-19f71b9c766f777b{padding:0 3rem;font-size:2.2rem}.pillar-overlay-title.jsx-19f71b9c766f777b{font-size:2rem}.pillar-content.jsx-19f71b9c766f777b{padding:1.5rem}}@media (width<=768px){.signature__outer.jsx-19f71b9c766f777b{padding:4rem 0}.container.jsx-19f71b9c766f777b{padding:0 1.5rem}.section_title.jsx-19f71b9c766f777b{letter-spacing:2px;padding:0 2.5rem;font-size:1.8rem}.section_title.jsx-19f71b9c766f777b:before,.section_title.jsx-19f71b9c766f777b:after{font-size:1.2rem}.slideshow-wrapper.jsx-19f71b9c766f777b,.hero-image.jsx-19f71b9c766f777b{min-height:500px}.pillars-overlay.jsx-19f71b9c766f777b{flex-direction:column;align-items:stretch;gap:0}.pillar-overlay-item.jsx-19f71b9c766f777b{min-height:100px}.pillar-overlay-item.jsx-19f71b9c766f777b:not(:last-child):after{display:none}.pillar-overlay-title.jsx-19f71b9c766f777b{font-size:1.8rem}.pillar-content.jsx-19f71b9c766f777b{padding:1.5rem}.story-text.jsx-19f71b9c766f777b{font-size:1rem}}@media (width<=480px){.signature__outer.jsx-19f71b9c766f777b{padding:6rem 0}.container.jsx-19f71b9c766f777b{padding:0 1rem}.section_title.jsx-19f71b9c766f777b{letter-spacing:1px;padding:0 2rem;font-size:1.4rem}.section_title.jsx-19f71b9c766f777b:before,.section_title.jsx-19f71b9c766f777b:after{font-size:1rem}.subtitle.jsx-19f71b9c766f777b{margin-bottom:5rem;font-size:1rem}.slideshow-wrapper.jsx-19f71b9c766f777b,.hero-image.jsx-19f71b9c766f777b{min-height:400px}.pillar-overlay-item.jsx-19f71b9c766f777b{min-height:80px}.pillar-overlay-title.jsx-19f71b9c766f777b{font-size:1.5rem}.pillar-overlay-description.jsx-19f71b9c766f777b{font-size:.9rem}.pillar-content.jsx-19f71b9c766f777b{padding:1rem}.pillar-content.show-description.jsx-19f71b9c766f777b{transform:translateY(-20px)}.story-text.jsx-19f71b9c766f777b,.story-text-des.jsx-19f71b9c766f777b{text-align:center;justify-content:center;font-size:.95rem}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
@@ -6927,7 +6786,7 @@ function Mindmeets() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
             [
-                "8f1f6d9b48061eba",
+                "89478c465edf95a",
                 [
                     phi1Width * 0.3,
                     phi1Height * 0.3,
@@ -6950,7 +6809,7 @@ function Mindmeets() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                     [
-                        "8f1f6d9b48061eba",
+                        "89478c465edf95a",
                         [
                             phi1Width * 0.3,
                             phi1Height * 0.3,
@@ -6972,7 +6831,7 @@ function Mindmeets() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                         [
-                            "8f1f6d9b48061eba",
+                            "89478c465edf95a",
                             [
                                 phi1Width * 0.3,
                                 phi1Height * 0.3,
@@ -6995,7 +6854,7 @@ function Mindmeets() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                 [
-                                    "8f1f6d9b48061eba",
+                                    "89478c465edf95a",
                                     [
                                         phi1Width * 0.3,
                                         phi1Height * 0.3,
@@ -7017,7 +6876,7 @@ function Mindmeets() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                     [
-                                        "8f1f6d9b48061eba",
+                                        "89478c465edf95a",
                                         [
                                             phi1Width * 0.3,
                                             phi1Height * 0.3,
@@ -7046,7 +6905,7 @@ function Mindmeets() {
                                         },
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7076,7 +6935,7 @@ function Mindmeets() {
                                             },
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                 [
-                                                    "8f1f6d9b48061eba",
+                                                    "89478c465edf95a",
                                                     [
                                                         phi1Width * 0.3,
                                                         phi1Height * 0.3,
@@ -7124,7 +6983,7 @@ function Mindmeets() {
                                         },
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7162,7 +7021,7 @@ function Mindmeets() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                 [
-                                    "8f1f6d9b48061eba",
+                                    "89478c465edf95a",
                                     [
                                         phi1Width * 0.3,
                                         phi1Height * 0.3,
@@ -7184,7 +7043,7 @@ function Mindmeets() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                     [
-                                        "8f1f6d9b48061eba",
+                                        "89478c465edf95a",
                                         [
                                             phi1Width * 0.3,
                                             phi1Height * 0.3,
@@ -7207,7 +7066,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7235,7 +7094,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7263,7 +7122,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7285,7 +7144,7 @@ function Mindmeets() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                 [
-                                                    "8f1f6d9b48061eba",
+                                                    "89478c465edf95a",
                                                     [
                                                         phi1Width * 0.3,
                                                         phi1Height * 0.3,
@@ -7317,7 +7176,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7339,7 +7198,7 @@ function Mindmeets() {
                                         children: points.map((p, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                     [
-                                                        "8f1f6d9b48061eba",
+                                                        "89478c465edf95a",
                                                         [
                                                             phi1Width * 0.3,
                                                             phi1Height * 0.3,
@@ -7369,7 +7228,7 @@ function Mindmeets() {
                                                         },
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                             [
-                                                                "8f1f6d9b48061eba",
+                                                                "89478c465edf95a",
                                                                 [
                                                                     phi1Width * 0.3,
                                                                     phi1Height * 0.3,
@@ -7396,7 +7255,7 @@ function Mindmeets() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                             [
-                                                                "8f1f6d9b48061eba",
+                                                                "89478c465edf95a",
                                                                 [
                                                                     phi1Width * 0.3,
                                                                     phi1Height * 0.3,
@@ -7420,7 +7279,7 @@ function Mindmeets() {
                                                             p.italic && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                                     [
-                                                                        "8f1f6d9b48061eba",
+                                                                        "89478c465edf95a",
                                                                         [
                                                                             phi1Width * 0.3,
                                                                             phi1Height * 0.3,
@@ -7449,7 +7308,7 @@ function Mindmeets() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                                     [
-                                                                        "8f1f6d9b48061eba",
+                                                                        "89478c465edf95a",
                                                                         [
                                                                             phi1Width * 0.3,
                                                                             phi1Height * 0.3,
@@ -7476,7 +7335,7 @@ function Mindmeets() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                                     [
-                                                                        "8f1f6d9b48061eba",
+                                                                        "89478c465edf95a",
                                                                         [
                                                                             phi1Width * 0.3,
                                                                             phi1Height * 0.3,
@@ -7500,7 +7359,7 @@ function Mindmeets() {
                                                                     p.italic && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                                             [
-                                                                                "8f1f6d9b48061eba",
+                                                                                "89478c465edf95a",
                                                                                 [
                                                                                     phi1Width * 0.3,
                                                                                     phi1Height * 0.3,
@@ -7551,7 +7410,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7579,7 +7438,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7607,7 +7466,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7631,7 +7490,7 @@ function Mindmeets() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                     [
-                                                        "8f1f6d9b48061eba",
+                                                        "89478c465edf95a",
                                                         [
                                                             phi1Width * 0.3,
                                                             phi1Height * 0.3,
@@ -7665,7 +7524,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7688,7 +7547,7 @@ function Mindmeets() {
                                             href: "/research",
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                 [
-                                                    "8f1f6d9b48061eba",
+                                                    "89478c465edf95a",
                                                     [
                                                         phi1Width * 0.3,
                                                         phi1Height * 0.3,
@@ -7741,7 +7600,7 @@ function Mindmeets() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "8f1f6d9b48061eba",
+                id: "89478c465edf95a",
                 dynamic: [
                     phi1Width * 0.3,
                     phi1Height * 0.3,
@@ -7758,7 +7617,7 @@ function Mindmeets() {
                     phi1Width,
                     phi1Height
                 ],
-                children: `.philosophy__section.__jsx-style-dynamic-selector{background:#fff;padding:60px 0}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{line-height:1.6}.philosophy-image.__jsx-style-dynamic-selector{height:715px;transition:transform .4s}.philosophy-image.__jsx-style-dynamic-selector:hover{transform:translateY(-8px)}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{transition:transform .3s;box-shadow:0 10px 30px #00000026}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector:hover{transform:scale(1.05)}.learn-more-btn.__jsx-style-dynamic-selector{color:#fff;cursor:pointer;background:#ab8a62;border:none;border-radius:6px;padding:12px 28px;font-size:1rem;font-weight:500;text-decoration:none;transition:all .3s;display:inline-block}.learn-more-btn.__jsx-style-dynamic-selector:hover{background:#7a6432;transform:translateY(-3px);box-shadow:0 5px 15px #0003}@media (width<=375px){.philosophy__section.__jsx-style-dynamic-selector{padding:30px 0}.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.85rem}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.85rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:8px;height:200px;margin-bottom:1rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:120px!important;right:-10px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.3}px!important;height:${phi1Height * 0.3}px!important;border:3px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start;margin-bottom:1rem}.philosophy__point.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{flex-shrink:0;width:20px!important;height:20px!important;margin-right:10px!important}.learn-more-btn.__jsx-style-dynamic-selector{align-items:center;margin-left:70px;padding:11px 24px;font-size:15px}}@media (width>=375px) and (width<=423px){.philosophy__section.__jsx-style-dynamic-selector{padding:35px 0}.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1.2rem;font-size:1.6rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.9rem}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.9rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:8px;height:220px;margin-bottom:1rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:140px!important;right:-12px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.35}px!important;height:${phi1Height * 0.35}px!important;border:3px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start;margin-bottom:1rem}.learn-more-btn.__jsx-style-dynamic-selector{width:auto;margin-left:100px;padding:11px 24px;font-size:.95rem}.text2.__jsx-style-dynamic-selector{margin-left:85px}}@media (width>=424px) and (width<=767px){.philosophy__section.__jsx-style-dynamic-selector{padding:40px 0}.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1.5rem;font-size:1.8rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.95rem}.philosophy__highlight.__jsx-style-dynamic-selector{text-align:left}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.95rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:10px;height:280px;margin-bottom:1.5rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:180px!important;right:-15px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.45}px!important;height:${phi1Height * 0.45}px!important;border:4px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start}.learn-more-btn.__jsx-style-dynamic-selector{align-items:center;margin-left:120px;padding:11px 24px;font-size:15px}.text2.__jsx-style-dynamic-selector{margin-left:90px}}@media (width>=768px) and (width<=991px){.philosophy__section.__jsx-style-dynamic-selector{padding:50px 0}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:1.5rem;font-size:2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:1rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:12px;height:420px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:280px!important;right:-20px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.6}px!important;height:${phi1Height * 0.6}px!important;border:4px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start}.text2.__jsx-style-dynamic-selector{margin-left:95px}}@media (width>=992px) and (width<=1199px){.philosophy__section.__jsx-style-dynamic-selector{padding:60px 0}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:1.8rem;font-size:2.5rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left}.philosophy-image.__jsx-style-dynamic-selector{border-radius:12px;height:700px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:620px!important;right:-25px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.75}px!important;height:${phi1Height * 0.75}px!important;border:4px solid #fff!important}.text2.__jsx-style-dynamic-selector{margin-left:95px}}@media (width>=1200px) and (width<=1399px){.philosophy__section.__jsx-style-dynamic-selector{padding:70px 0}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left}.philosophy-image.__jsx-style-dynamic-selector{border-radius:15px;height:600px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:450px!important;right:-25px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.85}px!important;height:${phi1Height * 0.85}px!important;border:5px solid #fff!important}.text2.__jsx-style-dynamic-selector{margin-left:115px}}@media (width>=1400px){.philosophy__section.__jsx-style-dynamic-selector{padding:80px 0}.text2.__jsx-style-dynamic-selector{margin-left:95px}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:2.2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left;line-height:1.7}.philosophy-image.__jsx-style-dynamic-selector{border-radius:15px;height:615px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:420px!important;right:-30px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width}px!important;height:${phi1Height}px!important;border:5px solid #fff!important}}@media (height<=500px) and (orientation:landscape){.philosophy-image.__jsx-style-dynamic-selector{height:250px!important}.small-top-image.__jsx-style-dynamic-selector{top:160px!important}}.fallback-image.__jsx-style-dynamic-selector{font-size:1.2rem;font-weight:500}.philosophy-image-wrapper.__jsx-style-dynamic-selector{margin-bottom:2rem}.philosophy-content.__jsx-style-dynamic-selector{padding:0 15px}.philosophy__point.__jsx-style-dynamic-selector{align-items:flex-start}.point-text.__jsx-style-dynamic-selector{flex:1}`
+                children: `.philosophy__section.__jsx-style-dynamic-selector{background:#fff;padding:6rem 0 120px}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{line-height:1.6}.philosophy-image.__jsx-style-dynamic-selector{height:715px;transition:transform .4s}.philosophy-image.__jsx-style-dynamic-selector:hover{transform:translateY(-8px)}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{transition:transform .3s;box-shadow:0 10px 30px #00000026}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector:hover{transform:scale(1.05)}.learn-more-btn.__jsx-style-dynamic-selector{color:#fff;cursor:pointer;background:#ab8a62;border:none;border-radius:6px;padding:12px 28px;font-size:1rem;font-weight:500;text-decoration:none;transition:all .3s;display:inline-block}.learn-more-btn.__jsx-style-dynamic-selector:hover{background:#7a6432;transform:translateY(-3px);box-shadow:0 5px 15px #0003}@media (width<=375px){.philosophy__section.__jsx-style-dynamic-selector{padding:30px 0}.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.85rem}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.85rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:8px;height:200px;margin-bottom:1rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:120px!important;right:-10px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.3}px!important;height:${phi1Height * 0.3}px!important;border:3px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start;margin-bottom:1rem}.philosophy__point.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{flex-shrink:0;width:20px!important;height:20px!important;margin-right:10px!important}.learn-more-btn.__jsx-style-dynamic-selector{align-items:center;margin-left:70px;padding:11px 24px;font-size:15px}}@media (width>=375px) and (width<=423px){.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1.2rem;font-size:1.6rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.9rem}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.9rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:8px;height:220px;margin-bottom:1rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:140px!important;right:-12px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.35}px!important;height:${phi1Height * 0.35}px!important;border:3px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start;margin-bottom:1rem}.learn-more-btn.__jsx-style-dynamic-selector{width:auto;margin-left:100px;padding:11px 24px;font-size:.95rem}.text2.__jsx-style-dynamic-selector{margin-left:85px}}@media (width>=424px) and (width<=767px){.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1.5rem;font-size:1.8rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.95rem}.philosophy__highlight.__jsx-style-dynamic-selector{text-align:left}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.95rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:10px;height:280px;margin-bottom:1.5rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:180px!important;right:-15px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.45}px!important;height:${phi1Height * 0.45}px!important;border:4px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start}.learn-more-btn.__jsx-style-dynamic-selector{align-items:center;margin-left:120px;padding:11px 24px;font-size:15px}.text2.__jsx-style-dynamic-selector{margin-left:90px}}@media (width>=768px) and (width<=991px){.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:1.5rem;font-size:2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:1rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:12px;height:420px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:280px!important;right:-20px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.6}px!important;height:${phi1Height * 0.6}px!important;border:4px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start}.text2.__jsx-style-dynamic-selector{margin-left:95px}}@media (width>=992px) and (width<=1199px){.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:1.8rem;font-size:2.5rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left}.philosophy-image.__jsx-style-dynamic-selector{border-radius:12px;height:700px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:620px!important;right:-25px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.75}px!important;height:${phi1Height * 0.75}px!important;border:4px solid #fff!important}.text2.__jsx-style-dynamic-selector{margin-left:95px}}@media (width>=1200px) and (width<=1399px){.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left}.philosophy-image.__jsx-style-dynamic-selector{border-radius:15px;height:600px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:450px!important;right:-25px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.85}px!important;height:${phi1Height * 0.85}px!important;border:5px solid #fff!important}.text2.__jsx-style-dynamic-selector{margin-left:115px}}@media (width>=1400px){.text2.__jsx-style-dynamic-selector{margin-left:95px}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:2.2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left;line-height:1.7}.philosophy-image.__jsx-style-dynamic-selector{border-radius:15px;height:615px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:420px!important;right:-30px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width}px!important;height:${phi1Height}px!important;border:5px solid #fff!important}}@media (height<=500px) and (orientation:landscape){.philosophy-image.__jsx-style-dynamic-selector{height:250px!important}.small-top-image.__jsx-style-dynamic-selector{top:160px!important}}.fallback-image.__jsx-style-dynamic-selector{font-size:1.2rem;font-weight:500}.philosophy-image-wrapper.__jsx-style-dynamic-selector{margin-bottom:2rem}.philosophy-content.__jsx-style-dynamic-selector{padding:0 15px}.philosophy__point.__jsx-style-dynamic-selector{align-items:flex-start}.point-text.__jsx-style-dynamic-selector{flex:1}`
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
@@ -8813,18 +8672,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function NutritionPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-bf19cb3d38549572" + " " + "rts__section nutrition__section section__padding position-relative",
+        className: "jsx-344eab78471e4eb4" + " " + "rts__section nutrition__section section__padding position-relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-bf19cb3d38549572" + " " + "container",
+                className: "jsx-344eab78471e4eb4" + " " + "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-bf19cb3d38549572" + " " + "row g-5 align-items-start",
+                    className: "jsx-344eab78471e4eb4" + " " + "row g-5 align-items-start",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-bf19cb3d38549572" + " " + "col-12 col-lg-6 order-2 order-lg-1",
+                            className: "jsx-344eab78471e4eb4" + " " + "col-12 col-lg-6 order-2 order-lg-1",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-bf19cb3d38549572" + " " + "nutrition-image-wrapper",
+                                    className: "jsx-344eab78471e4eb4" + " " + "nutrition-image-wrapper",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/assets/images/nutrition/nutrition.png",
                                         alt: "Mindful Dining",
@@ -8842,7 +8701,7 @@ function NutritionPage() {
                                             e.target.innerHTML = "Nutrition Image";
                                             e.target.classList.add("fallback-image");
                                         },
-                                        className: "jsx-bf19cb3d38549572" + " " + "nutrition-image w-100 rounded-3"
+                                        className: "jsx-344eab78471e4eb4" + " " + "nutrition-image w-100 rounded-3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                         lineNumber: 13,
@@ -8854,14 +8713,14 @@ function NutritionPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-bf19cb3d38549572" + " " + "d-block d-lg-none text-center mt-4",
+                                    className: "jsx-344eab78471e4eb4" + " " + "d-block d-lg-none text-center mt-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/dining",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             style: {
                                                 maxWidth: "280px"
                                             },
-                                            className: "jsx-bf19cb3d38549572" + " " + "nutrition__btn w-100",
+                                            className: "jsx-344eab78471e4eb4" + " " + "nutrition__btn w-100",
                                             children: "Discover Our Menu"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -8885,13 +8744,13 @@ function NutritionPage() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-bf19cb3d38549572" + " " + "col-12 col-lg-6 order-1 order-lg-2 position-relative",
+                            className: "jsx-344eab78471e4eb4" + " " + "col-12 col-lg-6 order-1 order-lg-2 position-relative",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-bf19cb3d38549572" + " " + "nutrition-content",
+                                    className: "jsx-344eab78471e4eb4" + " " + "nutrition-content",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "section__title",
+                                            className: "jsx-344eab78471e4eb4" + " " + "section__title",
                                             children: "Mindful Eating — Crafted by a Presidential Chef"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -8899,7 +8758,7 @@ function NutritionPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "nutrition__subtitle mb-2",
+                                            className: "jsx-344eab78471e4eb4" + " " + "nutrition__subtitle mb-2",
                                             children: "Where Culinary Art Meets Inner Clarity"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -8908,18 +8767,18 @@ function NutritionPage() {
                                         }, this),
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                            className: "jsx-bf19cb3d38549572"
+                                            className: "jsx-344eab78471e4eb4"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                             lineNumber: 53,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "nutrition__description mb-3",
+                                            className: "jsx-344eab78471e4eb4" + " " + "nutrition__description mb-3",
                                             children: [
                                                 "At Rain Drops, dining becomes a mindful ritual. Every dish is designed to calm the mind, awaken the senses, and nourish the body from within. At the center of this experience is Chef Sadha, Sri Lanka’s Presidential Chef, whose rare mastery elevates food into wellness. Guided by intention, compassion, and the rhythm of nature, he creates cuisine that harmonizes luxury with purity. ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                    className: "jsx-bf19cb3d38549572"
+                                                    className: "jsx-344eab78471e4eb4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                                     lineNumber: 62,
@@ -8927,7 +8786,7 @@ function NutritionPage() {
                                                 }, this),
                                                 " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                    className: "jsx-bf19cb3d38549572"
+                                                    className: "jsx-344eab78471e4eb4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                                     lineNumber: 62,
@@ -8940,14 +8799,14 @@ function NutritionPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "mt-1",
+                                            className: "jsx-344eab78471e4eb4" + " " + "mt-1 our-kitchen-list",
                                             children: [
                                                 "Our kitchen draws from:",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    className: "jsx-bf19cb3d38549572" + " " + "mt-2",
+                                                    className: "jsx-344eab78471e4eb4" + " " + "mt-2",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-bf19cb3d38549572",
+                                                            className: "jsx-344eab78471e4eb4",
                                                             children: "Rainforest-fresh, locally sourced ingredients"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -8955,7 +8814,7 @@ function NutritionPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-bf19cb3d38549572",
+                                                            className: "jsx-344eab78471e4eb4",
                                                             children: "Menus shaped by neuroscience and original mindfulness"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -8963,7 +8822,7 @@ function NutritionPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-bf19cb3d38549572",
+                                                            className: "jsx-344eab78471e4eb4",
                                                             children: "Guidance from our U.S.-based nutrition advisor"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -8971,7 +8830,7 @@ function NutritionPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-bf19cb3d38549572",
+                                                            className: "jsx-344eab78471e4eb4",
                                                             children: "Seasonal dishes that promote calm, clarity, and natural energy"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -8985,11 +8844,11 @@ function NutritionPage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-bf19cb3d38549572" + " " + "_subtitle",
+                                                    className: "jsx-344eab78471e4eb4" + " " + "_subtitle",
                                                     children: [
                                                         "From sunrise teas to serene evening meals, every plate at RainDrops gently brings you back to yourself.",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                            className: "jsx-bf19cb3d38549572"
+                                                            className: "jsx-344eab78471e4eb4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                                             lineNumber: 79,
@@ -8997,7 +8856,7 @@ function NutritionPage() {
                                                         }, this),
                                                         " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                            className: "jsx-bf19cb3d38549572"
+                                                            className: "jsx-344eab78471e4eb4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                                             lineNumber: 79,
@@ -9016,10 +8875,10 @@ function NutritionPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "_subtitle",
+                                            className: "jsx-344eab78471e4eb4" + " " + "_subtitle",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    className: "jsx-bf19cb3d38549572",
+                                                    className: "jsx-344eab78471e4eb4",
                                                     children: "“Food becomes healing when cooked with intention and eaten with awareness.” -"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9027,7 +8886,7 @@ function NutritionPage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-bf19cb3d38549572" + " " + "chef-signature",
+                                                    className: "jsx-344eab78471e4eb4" + " " + "chef-signature",
                                                     children: "Chef Sadha"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9041,11 +8900,11 @@ function NutritionPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "d-none d-lg-block mt-3",
+                                            className: "jsx-344eab78471e4eb4" + " " + "d-none d-lg-block mt-3",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/dining",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: "jsx-bf19cb3d38549572" + " " + "nutrition__btn",
+                                                    className: "jsx-344eab78471e4eb4" + " " + "nutrition__btn",
                                                     children: "Discover Our Menu"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9069,11 +8928,11 @@ function NutritionPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-bf19cb3d38549572" + " " + "watermark_img",
+                                    className: "jsx-344eab78471e4eb4" + " " + "watermark_img",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/assets/images/nutrition/wm.png",
                                         alt: "Mindful Eating",
-                                        className: "jsx-bf19cb3d38549572"
+                                        className: "jsx-344eab78471e4eb4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                         lineNumber: 98,
@@ -9102,8 +8961,8 @@ function NutritionPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "bf19cb3d38549572",
-                children: '.nutrition__section.jsx-bf19cb3d38549572{background:#fff;margin-top:20px}.nutrition__subtitle.jsx-bf19cb3d38549572{font-size:20px;line-height:1.5}@font-face{font-family:BrittanyAngella-Ear54;src:url(/font/BrittanySignature.ttf)format("truetype");font-weight:400;font-style:normal;font-display:swap}.chef-signature.jsx-bf19cb3d38549572{letter-spacing:.02em;color:#b19852;margin-bottom:20px;margin-left:8px;font-family:BrittanyAngella-Ear54,Great Vibes,cursive;font-size:1.9rem;font-style:italic;line-height:1.8;display:inline-block}.nutrition__description.mb-3.jsx-bf19cb3d38549572{margin-bottom:.75rem!important}.mt-2.jsx-bf19cb3d38549572{margin-top:.5rem!important}.mt-3.jsx-bf19cb3d38549572{margin-top:1rem}.watermark_img.jsx-bf19cb3d38549572{pointer-events:none;z-index:10;opacity:.92;width:420px;height:420px;position:absolute;bottom:-40px;right:-100px}.watermark_img.jsx-bf19cb3d38549572 img.jsx-bf19cb3d38549572{object-fit:contain;width:100%;height:100%}@media (width<=1399px){.watermark_img.jsx-bf19cb3d38549572{width:380px;height:380px;bottom:-80px;right:-80px}}@media (width<=1199px){.watermark_img.jsx-bf19cb3d38549572{width:340px;height:340px;bottom:0;right:-60px}.chef-signature.jsx-bf19cb3d38549572{display:block}}@media (width<=991px){.watermark_img.jsx-bf19cb3d38549572{width:280px;height:280px;bottom:-60px;right:-40px}}@media (width<=767px){.watermark_img.jsx-bf19cb3d38549572{width:240px;height:240px;bottom:-30px;right:-30px}}@media (width<=575px){.watermark_img.jsx-bf19cb3d38549572{opacity:.7;width:200px;height:200px;bottom:10px;right:10px}.section__title.jsx-bf19cb3d38549572,.nutrition__subtitle.jsx-bf19cb3d38549572,.nutrition__description.jsx-bf19cb3d38549572,._subtitle.jsx-bf19cb3d38549572{text-align:center}.nutrition-image-wrapper.jsx-bf19cb3d38549572 img.jsx-bf19cb3d38549572{height:80%}}.nutrition-image.jsx-bf19cb3d38549572{height:760px;transition:transform .4s}.nutrition-image.jsx-bf19cb3d38549572:hover{transform:translateY(-8px)}.nutrition__btn.jsx-bf19cb3d38549572{color:#fff;background-color:#ab8a62;border:none;border-radius:10px;padding:12px 32px;font-size:16px;font-weight:500;transition:all .3s;box-shadow:0 4px 12px #d9770633}.nutrition__btn.jsx-bf19cb3d38549572:hover{background-color:#b8955e;transform:translateY(-2px)}@media (width<=575px){.watermark_img.jsx-bf19cb3d38549572{opacity:.7;width:250px;height:250px;bottom:60px}}'
+                id: "344eab78471e4eb4",
+                children: '.nutrition__section.jsx-344eab78471e4eb4{background:#fff;padding:6rem 0 120px}.our-kitchen-list.jsx-344eab78471e4eb4{font-size:var(--p)}.nutrition__subtitle.jsx-344eab78471e4eb4{font-size:20px;line-height:1.5}@font-face{font-family:BrittanyAngella-Ear54;src:url(/font/BrittanySignature.ttf)format("truetype");font-weight:400;font-style:normal;font-display:swap}.chef-signature.jsx-344eab78471e4eb4{letter-spacing:.02em;color:#b19852;margin-bottom:20px;margin-left:8px;font-family:BrittanyAngella-Ear54,Great Vibes,cursive;font-size:1.9rem;font-style:italic;line-height:1.8;display:inline-block}.nutrition__description.mb-3.jsx-344eab78471e4eb4{font-size:var(--p);margin-bottom:.75rem!important}.mt-2.jsx-344eab78471e4eb4{margin-top:.5rem!important}.mt-3.jsx-344eab78471e4eb4{margin-top:1rem}.watermark_img.jsx-344eab78471e4eb4{pointer-events:none;z-index:10;opacity:.92;width:420px;height:420px;position:absolute;bottom:-40px;right:-100px}.watermark_img.jsx-344eab78471e4eb4 img.jsx-344eab78471e4eb4{object-fit:contain;width:100%;height:100%}@media (width<=1399px){.watermark_img.jsx-344eab78471e4eb4{width:380px;height:380px;bottom:-80px;right:-80px}}@media (width<=1199px){.watermark_img.jsx-344eab78471e4eb4{width:340px;height:340px;bottom:0;right:-60px}.chef-signature.jsx-344eab78471e4eb4{display:block}}@media (width<=991px){.watermark_img.jsx-344eab78471e4eb4{width:280px;height:280px;bottom:-60px;right:-40px}}@media (width<=767px){.watermark_img.jsx-344eab78471e4eb4{width:240px;height:240px;bottom:-30px;right:-30px}}@media (width<=575px){.watermark_img.jsx-344eab78471e4eb4{opacity:.7;width:200px;height:200px;bottom:10px;right:10px}.section__title.jsx-344eab78471e4eb4,.nutrition__subtitle.jsx-344eab78471e4eb4,.nutrition__description.jsx-344eab78471e4eb4,._subtitle.jsx-344eab78471e4eb4{text-align:center}.nutrition-image-wrapper.jsx-344eab78471e4eb4 img.jsx-344eab78471e4eb4{height:80%}}.nutrition-image.jsx-344eab78471e4eb4{height:760px;transition:transform .4s}.nutrition-image.jsx-344eab78471e4eb4:hover{transform:translateY(-8px)}.nutrition__btn.jsx-344eab78471e4eb4{color:#fff;background-color:#ab8a62;border:none;border-radius:10px;padding:12px 32px;font-size:16px;font-weight:500;transition:all .3s;box-shadow:0 4px 12px #d9770633}.nutrition__btn.jsx-344eab78471e4eb4:hover{background-color:#b8955e;transform:translateY(-2px)}@media (width<=575px){.watermark_img.jsx-344eab78471e4eb4{opacity:.7;width:250px;height:250px;bottom:60px}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
@@ -9132,20 +8991,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function MindfulnessNeurosciencePage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-591e8871eb5780a" + " " + "rts__section neuroscience__section section__padding",
+        className: "jsx-eee6333cbb5892b2" + " " + "rts__section neuroscience__section section__padding",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-591e8871eb5780a" + " " + "container",
+                className: "jsx-eee6333cbb5892b2" + " " + "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-591e8871eb5780a" + " " + "row g-5 align-items-start",
+                    className: "jsx-eee6333cbb5892b2" + " " + "row g-5 align-items-start",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-591e8871eb5780a" + " " + "col-12 col-lg-6 order-1 order-lg-1",
+                            className: "jsx-eee6333cbb5892b2" + " " + "col-12 col-lg-6 order-1 order-lg-1",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-591e8871eb5780a" + " " + "neuroscience-content",
+                                className: "jsx-eee6333cbb5892b2" + " " + "neuroscience-content",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "jsx-591e8871eb5780a" + " " + "section__title",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "section__title",
                                         children: " Mindfulness Meets Neuroscience at Rain drops"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9153,7 +9012,7 @@ function MindfulnessNeurosciencePage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience__subtitle mb-4",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__subtitle mb-4",
                                         children: "Experience Calm, Measured by Nature and Mind"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9161,7 +9020,7 @@ function MindfulnessNeurosciencePage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience__description mb-4",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__description mb-4",
                                         children: "At Rain Drops Wellness Resort, ancient mindfulness meets modern science. Join our signature Mindfulness of Breathing and Loving-Friendliness Session, guided by Dr. GB Hewawasam and enhanced by Muse™ neurofeedback headbands — the same technology used by neuroscientists to track real-time calm and focus. Each guest receives a complimentary one-hour session, surrounded by the living serenity of the Sinharaja Rainforest. Feel your mind settle, your breath deepen, and your awareness expand — as nature, science, and mindfulness become one."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9172,9 +9031,9 @@ function MindfulnessNeurosciencePage() {
                                         style: {
                                             fontStyle: 'italic'
                                         },
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience__description wow fadeInUp",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__description wow fadeInUp",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                            className: "jsx-591e8871eb5780a",
+                                            className: "jsx-eee6333cbb5892b2",
                                             children: "Rain Drops — Where the Mind Learns to Breathe."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9190,9 +9049,9 @@ function MindfulnessNeurosciencePage() {
                                         style: {
                                             fontStyle: 'italic'
                                         },
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience__description wow fadeInUp",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__description wow fadeInUp",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                            className: "jsx-591e8871eb5780a",
+                                            className: "jsx-eee6333cbb5892b2",
                                             children: " Discover the Experience — Book Your Stay Today."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9205,11 +9064,11 @@ function MindfulnessNeurosciencePage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-591e8871eb5780a" + " " + "d-none d-lg-block",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "d-none d-lg-block",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             href: "/neuroscience",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "jsx-591e8871eb5780a" + " " + "neuroscience__btn",
+                                                className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__btn",
                                                 children: "Discover Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9238,10 +9097,10 @@ function MindfulnessNeurosciencePage() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-591e8871eb5780a" + " " + "col-12 col-lg-6 order-2 order-lg-2",
+                            className: "jsx-eee6333cbb5892b2" + " " + "col-12 col-lg-6 order-2 order-lg-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-591e8871eb5780a" + " " + "neuroscience-image-wrapper",
+                                    className: "jsx-eee6333cbb5892b2" + " " + "neuroscience-image-wrapper",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/assets/images/neroscience/muse2.jpg",
                                         alt: "Mindfulness Meets Neuroscience",
@@ -9259,7 +9118,7 @@ function MindfulnessNeurosciencePage() {
                                             e.target.innerHTML = 'Neuroscience Image';
                                             e.target.classList.add('fallback-image');
                                         },
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience-image w-100 rounded-3"
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience-image w-100 rounded-3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Neroscience.jsx",
                                         lineNumber: 49,
@@ -9271,14 +9130,14 @@ function MindfulnessNeurosciencePage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-591e8871eb5780a" + " " + "d-block d-lg-none text-center mt-4",
+                                    className: "jsx-eee6333cbb5892b2" + " " + "d-block d-lg-none text-center mt-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/neuroscience",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             style: {
                                                 maxWidth: '280px'
                                             },
-                                            className: "jsx-591e8871eb5780a" + " " + "neuroscience__btn w-100",
+                                            className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__btn w-100",
                                             children: "Discover Now"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9313,8 +9172,8 @@ function MindfulnessNeurosciencePage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "591e8871eb5780a",
-                children: ".neuroscience__section.jsx-591e8871eb5780a{background:#f8f5f0;margin-top:-50px}.content__title.jsx-591e8871eb5780a{text-align:center;justify-content:center;line-height:1.2}.neuroscience__tagline.jsx-591e8871eb5780a,.neuroscience__cta-text.jsx-591e8871eb5780a{font-size:15px}.neuroscience-image.jsx-591e8871eb5780a{height:671px;transition:transform .4s}.neuroscience-image.jsx-591e8871eb5780a:hover{transform:translateY(-8px)}.neuroscience__btn.jsx-591e8871eb5780a{color:#fff;cursor:pointer;background-color:#ab8a62;border:none;border-radius:8px;margin-top:30px;padding:14px 36px;font-size:16px;font-weight:500;transition:all .3s;box-shadow:0 4px 12px #bda6714d}.neuroscience__btn.jsx-591e8871eb5780a:hover{background-color:#b8955e;transform:translateY(-2px);box-shadow:0 6px 16px #bda67166}.neuroscience__btn.jsx-591e8871eb5780a:active{transform:translateY(0)}@media (width<=575.98px){.content__title.jsx-591e8871eb5780a{text-align:center;font-size:1.6rem}.neuroscience__section.jsx-591e8871eb5780a{background:#f8f5f0;margin-top:20px}.section__title.jsx-591e8871eb5780a{text-align:center;margin-bottom:1rem}.neuroscience__subtitle.jsx-591e8871eb5780a{text-align:center;font-size:1.5rem}.neuroscience__description.jsx-591e8871eb5780a{text-align:center;font-size:.95rem}.neuroscience__tagline.jsx-591e8871eb5780a,.neuroscience__cta-text.jsx-591e8871eb5780a{text-align:center;font-size:.9rem}.neuroscience-image.jsx-591e8871eb5780a{border-radius:8px;height:220px}.neuroscience__btn.jsx-591e8871eb5780a{padding:12px 28px;font-size:15px}}@media (width>=576px) and (width<=767.98px){.content__title.jsx-591e8871eb5780a{text-align:left;font-size:1.8rem}.neuroscience__subtitle.jsx-591e8871eb5780a{font-size:1.6rem}.neuroscience__description.jsx-591e8871eb5780a{font-size:1rem}.neuroscience-image.jsx-591e8871eb5780a{height:300px}}@media (width>=768px) and (width<=991.98px){.content__title.jsx-591e8871eb5780a{font-size:2rem}.neuroscience__subtitle.jsx-591e8871eb5780a{font-size:1.8rem}.neuroscience__description.jsx-591e8871eb5780a{font-size:1.05rem}.neuroscience-image.jsx-591e8871eb5780a{height:420px}}@media (width>=992px) and (width<=1199.98px){.content__title.jsx-591e8871eb5780a{font-size:2.25rem}.neuroscience__subtitle.jsx-591e8871eb5780a{font-size:2rem}.neuroscience__description.jsx-591e8871eb5780a{font-size:1.125rem}.neuroscience-image.jsx-591e8871eb5780a{height:550px}}@media (width>=1200px){.content__title.jsx-591e8871eb5780a{font-size:2.6rem}.neuroscience__subtitle.jsx-591e8871eb5780a{font-size:20px}.neuroscience__description.jsx-591e8871eb5780a{font-size:18px}.neuroscience__tagline.jsx-591e8871eb5780a,.neuroscience__cta-text.jsx-591e8871eb5780a{font-size:15px}.neuroscience-image.jsx-591e8871eb5780a{height:671px}}.fallback-image.jsx-591e8871eb5780a{font-size:1.2rem;font-weight:500}"
+                id: "eee6333cbb5892b2",
+                children: ".neuroscience__section.jsx-eee6333cbb5892b2{background:#f8f5f0;margin-top:-50px}.content__title.jsx-eee6333cbb5892b2{text-align:center;justify-content:center;line-height:1.2}.neuroscience__subtitle.jsx-eee6333cbb5892b2,.neuroscience__description.jsx-eee6333cbb5892b2,.neuroscience__tagline.jsx-eee6333cbb5892b2,.neuroscience__cta-text.jsx-eee6333cbb5892b2{line-height:1.6;font-size:var(--p)}.neuroscience__tagline.jsx-eee6333cbb5892b2,.neuroscience__cta-text.jsx-eee6333cbb5892b2{font-size:15px}.neuroscience-image.jsx-eee6333cbb5892b2{height:671px;transition:transform .4s}.neuroscience-image.jsx-eee6333cbb5892b2:hover{transform:translateY(-8px)}.neuroscience__btn.jsx-eee6333cbb5892b2{color:#fff;cursor:pointer;background-color:#ab8a62;border:none;border-radius:8px;margin-top:30px;padding:14px 36px;font-size:16px;font-weight:500;transition:all .3s;box-shadow:0 4px 12px #bda6714d}.neuroscience__btn.jsx-eee6333cbb5892b2:hover{background-color:#b8955e;transform:translateY(-2px);box-shadow:0 6px 16px #bda67166}.neuroscience__btn.jsx-eee6333cbb5892b2:active{transform:translateY(0)}@media (width<=575.98px){.content__title.jsx-eee6333cbb5892b2{text-align:center;font-size:1.6rem}.neuroscience__section.jsx-eee6333cbb5892b2{background:#f8f5f0;margin-top:20px}.section__title.jsx-eee6333cbb5892b2{text-align:center;margin-bottom:1rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{text-align:center;font-size:1.5rem}.neuroscience__tagline.jsx-eee6333cbb5892b2,.neuroscience__cta-text.jsx-eee6333cbb5892b2{text-align:center;font-size:.9rem}.neuroscience-image.jsx-eee6333cbb5892b2{border-radius:8px;height:220px}.neuroscience__btn.jsx-eee6333cbb5892b2{padding:12px 28px;font-size:15px}}@media (width>=576px) and (width<=767.98px){.content__title.jsx-eee6333cbb5892b2{text-align:left;font-size:1.8rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{font-size:1.6rem}.neuroscience-image.jsx-eee6333cbb5892b2{height:300px}}@media (width>=768px) and (width<=991.98px){.content__title.jsx-eee6333cbb5892b2{font-size:2rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{font-size:1.8rem}.neuroscience-image.jsx-eee6333cbb5892b2{height:420px}}@media (width>=992px) and (width<=1199.98px){.content__title.jsx-eee6333cbb5892b2{font-size:2.25rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{font-size:2rem}.neuroscience-image.jsx-eee6333cbb5892b2{height:550px}}@media (width>=1200px){.content__title.jsx-eee6333cbb5892b2{font-size:2.6rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{font-size:20px}.neuroscience__tagline.jsx-eee6333cbb5892b2,.neuroscience__cta-text.jsx-eee6333cbb5892b2{font-size:15px}.neuroscience-image.jsx-eee6333cbb5892b2{height:671px}}.fallback-image.jsx-eee6333cbb5892b2{font-size:1.2rem;font-weight:500}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {

@@ -94,9 +94,9 @@ export default function MindfulnessNeurosciencePage() {
         .neuroscience__description,
         .neuroscience__tagline,
         .neuroscience__cta-text {
-        line-height: 1.6;
+             line-height: 1.6;
         
- markdown
+          font-size: var(--p);
         }
 
         .neuroscience__tagline,
@@ -156,11 +156,7 @@ export default function MindfulnessNeurosciencePage() {
             font-size: 1.5rem;
             text-align: center;
           }
-
-          .neuroscience__description {
-            font-size: 0.95rem;
-            text-align: center;
-          }
+ 
 
           .neuroscience__tagline,
           .neuroscience__cta-text {
@@ -190,9 +186,7 @@ export default function MindfulnessNeurosciencePage() {
             font-size: 1.6rem;
           }
 
-          .neuroscience__description {
-            font-size: 1rem;
-          }
+       
 
           .neuroscience-image {
             height: 300px;
@@ -209,9 +203,7 @@ export default function MindfulnessNeurosciencePage() {
             font-size: 1.8rem;
           }
 
-          .neuroscience__description {
-            font-size: 1.05rem;
-          }
+          
 
           .neuroscience-image {
             height: 420px;
@@ -227,10 +219,7 @@ export default function MindfulnessNeurosciencePage() {
           .neuroscience__subtitle {
             font-size: 2rem;
           }
-
-          .neuroscience__description {
-            font-size: 1.125rem;
-          }
+ 
 
           .neuroscience-image {
             height: 550px;
@@ -247,9 +236,7 @@ export default function MindfulnessNeurosciencePage() {
             font-size:  20px;
           }
 
-          .neuroscience__description {
-            font-size: 18px;
-          }
+         
 
           .neuroscience__tagline,
           .neuroscience__cta-text {

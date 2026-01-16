@@ -1,129 +1,3 @@
-// 'use client'
-// import React from 'react'
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/swiper-bundle.css'; // Core Swiper styles
-// import { Navigation } from 'swiper/modules';
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/scrollbar';
-
-// function TestimonialOne() {
-//     return (
-//         <>
-//             {/* client testimonial  */}
-//             <div className="rts__section section__padding testimonial has__shape">
-//                 <div className="container">
-//                     <div className="row mb-40">
-//                         <div className="d-flex align-items-center justify-content-between position-relative">
-//                             <div className="section__content__left">
-//                                 <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-//                                     Testimonial
-//                                 </span>
-//                                 <h2 className="content__title h2 lh-1">What Our Client Say</h2>
-//                             </div>
-//                             <div className="slider__navigation">
-//                                 <div className="nav__btn button-next">
-//                                     <img src="/assets/images/icon/arrow-left-short.svg" alt="" />
-//                                 </div>
-//                                 <div className="nav__btn button-prev">
-//                                     <img src="/assets/images/icon/arrow-right-short.svg" alt="" />
-//                                 </div>
-//                             </div>
-//                         </div>
-//                     </div>
-//                     <div className="row">
-//                         <div className="col-lg-11">
-//                             <div className="">
-//                                 <Swiper
-//                                     className="testimonial__slider overflow-hidden"
-//                                     modules={[Navigation]}
-//                                     direction="horizontal"
-//                                     slidesPerView={1}
-//                                     spaceBetween={0}
-//                                     loop={true}
-//                                     centeredSlides={true}
-//                                     autoplay="false"
-//                                     navigation={{
-//                                         nextEl: ".button-next",
-//                                         prevEl: ".button-prev",
-//                                     }}
-//                                     speed={1000}
-//                                     effect="slide"
-//                                 >
-//                                     <SwiperSlide>
-//                                         <div className="testimonial__item__content">
-//                                             <div className="author__icon">
-//                                                   <img src="https://i.postimg.cc/kgz1YJtL/ludema.jpg" alt="" />
-//                                             </div>
-//                                             <div className="testimonial__content">
-//                                                 <div className="single__slider__item ">
-//                                                     <div className="slider__rating mb-20">
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star-sharp-half-stroke" /> */}
-//                                                          <h4 className="topic-title"style={{ fontSize: '1.8rem' }}>Where Beauty Meets Mindfulness</h4>
-//                                                     </div>
-//                                                    <span className="slider__text d-block mb-20" style={{ fontSize: '1.125rem', lineHeight: '1.3' }}>
-//                                                        Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation.
-// That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends.
-
-//                                                     </span>
-//                                                     <div className="slider__author__info">
-//                                                         <div className="slider__author__info__content">
-//                                                             <h6 className="mb-0"style={{ fontSize: '1.2rem' }}>Dr. Jim Ludema</h6>
-//                                                             {/* <span>COO of Apex Solutions</span> */}
-//                                                         </div>
-//                                                     </div>
-//                                                 </div>
-//                                             </div>
-//                                         </div>
-//                                     </SwiperSlide>
-//                                     <SwiperSlide>
-//                                         <div className="testimonial__item__content">
-//                                             <div className="author__icon">
-//                                                 <img src="https://i.postimg.cc/XYGxCRDB/ludema2.jpg" alt="" />
-//                                             </div>
-//                                             <div className="testimonial__content">
-//                                                 <div className="single__slider__item ">
-//                                                     <div className="slider__rating mb-20">
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star-sharp-half-stroke" /> */}
-//                                                          <h4 className="topic-title"style={{ fontSize: '1.8rem' }}>An Unforgettable Journey</h4>
-//                                                     </div>
-//                                                   <span className="slider__text d-block mb-20" style={{ fontSize: '1.125rem', lineHeight: '1.3' }}>
-//                                                        The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years.
-//                                                        Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life.
-//                                                     </span>
-//                                                     <div className="slider__author__info">
-//                                                         <div className="slider__author__info__content">
-//                                                             <h6 className="mb-0"style={{ fontSize: '1.2rem' }}>Dr. Beverly Ludema</h6>
-//                                                             {/* <span>COO of Apex Solutions</span> */}
-//                                                         </div>
-//                                                     </div>
-//                                                 </div>
-//                                             </div>
-//                                         </div>
-//                                     </SwiperSlide>
-//                                 </Swiper>
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//             {/* client testimonial  end */}
-//         </>
-
-//     )
-// }
-
-// export default TestimonialOne
-
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -138,7 +12,6 @@ import "swiper/css/autoplay";
 function TestimonialOne() {
   return (
     <>
-     
       <div className="rts__section section__padding testimonial has__shape">
         <div className="container">
           <div className="row ">
@@ -183,37 +56,28 @@ function TestimonialOne() {
                       <div className="author__icon">
                         <img
                           src="https://i.postimg.cc/kgz1YJtL/ludema.jpg"
-                          alt=""
+                          alt="Dr. Jim Ludema"
                           loading="lazy"
                         />
                       </div>
                       <div className="testimonial__content">
-                        <div className="single__slider__item ">
+                        <div className="single__slider__item">
                           <div className="slider__rating mb-20">
-                            <h4
-                              className="topic-title"
-                              style={{ fontSize: "1.8rem" }}
-                            >
+                            <h4 className="topic-title">
                               Where Beauty Meets Mindfulness
                             </h4>
                           </div>
-                          <span
-                            className="slider__text d-block mb-20"
-                            style={{ fontSize: "1.125rem", lineHeight: "1.3" }}
-                          >
+                          <p className="slider__text">
                             Sri Lanka's natural beauty was both awe-inspiring
                             and soothing. A true highlight for Beverly and me
                             was discovering Buddhist mindfulness and meditation.
                             That quiet moment of learning brought clarity,
                             peace, and gratitude—something we'll carry with us
                             long after this beautiful journey ends.
-                          </span>
+                          </p>
                           <div className="slider__author__info">
                             <div className="slider__author__info__content">
-                              <h6
-                                className="mb-0"
-                                style={{ fontSize: "1.2rem" }}
-                              >
+                              <h6 className="author-name">
                                 Dr. Jim Ludema
                               </h6>
                             </div>
@@ -227,37 +91,28 @@ function TestimonialOne() {
                       <div className="author__icon">
                         <img
                           src="https://i.postimg.cc/XYGxCRDB/ludema2.jpg"
-                          alt=""
+                          alt="Dr. Beverly Ludema"
                           loading="lazy"
                         />
                       </div>
                       <div className="testimonial__content">
-                        <div className="single__slider__item ">
+                        <div className="single__slider__item">
                           <div className="slider__rating mb-20">
-                            <h4
-                              className="topic-title"
-                              style={{ fontSize: "1.8rem" }}
-                            >
+                            <h4 className="topic-title">
                               An Unforgettable Journey
                             </h4>
                           </div>
-                          <span
-                            className="slider__text d-block mb-20"
-                            style={{ fontSize: "1.125rem", lineHeight: "1.3" }}
-                          >
+                          <p className="slider__text">
                             The serene landscapes and rich cultural experiences
                             in Lanka exceeded all our expectations. We found
                             ourselves immersed in traditions that date back
                             thousands of years. Each day brought new discoveries
                             and moments of connection that transformed not just
                             our vacation, but our perspective on life.
-                          </span>
+                          </p>
                           <div className="slider__author__info">
                             <div className="slider__author__info__content">
-                              <h6
-                                className="mb-0"
-                                style={{ fontSize: "1.2rem" }}
-                              >
+                              <h6 className="author-name">
                                 Dr. Beverly Ludema
                               </h6>
                             </div>
@@ -272,116 +127,19 @@ function TestimonialOne() {
           </div>
         </div>
       </div>
+      
       <style jsx global>{`
-      
-        @media (max-width: 768px) {
-          .testimonial__item__content {
-            display: flex !important;
-            flex-direction: column !important;
-            align-items: center !important;
-            text-align: center !important;
-          }
-          
-          .author__icon {
-            display: flex !important;
-            justify-content: center !important;
-            margin-bottom: 25px !important;
-          }
-          
-          .author__icon img {
-            width: 100px !important;
-            height: 300px !important;
-            border-radius: 50% !important;
-            object-fit: cover !important;
-            border: 4px solid #c8b08a !important;
-          }
-          
-          .testimonial__content {
-            width: 100% !important;
-            text-align: center !important;
-          }
-          
-          .slider__rating {
-            text-align: center !important;
-            margin-bottom: 15px !important;
-          }
-          
-          .slider__rating h4 {
-            font-size: 1.4rem !important;
-            text-align: center !important;
-            margin: 0 auto !important;
-          }
-          
-          .slider__text {
-            text-align: center !important;
-            font-size: 1rem !important;
-            line-height: 1.5 !important;
-            margin-bottom: 20px !important;
-            padding: 0 10px !important;
-          }
-          
-          .slider__author__info {
-            justify-content: center !important;
-            text-align: center !important;
-          }
-          
-          .slider__author__info__content h6 {
-            text-align: center !important;
-            font-size: 1.1rem !important;
-          }
-          
-          @media (max-width: 320px) {
-            .author__icon img {
-              width: 50px ;
-              height: 50px ;
-              border-radius: 50% !important;
-              object-fit: cover ;
-              border: 3px solid #c8b08a !important;
-            }
-            
-            .testimonial__item__content {
-              align-items: center !important;
-              justify-content: center !important;
-              gap: 15px !important;
-              padding: 20px 0 !important;
-            }
-            
-            .slider__rating h4 {
-              font-size: 1.2rem !important;
-            }
-            
-            .slider__text {
-              font-size: 0.9rem !important;
-              padding: 0 5px !important;
-            }
-            
-            .slider__author__info__content h6 {
-              font-size: 1rem !important;
-            }
-  
-       
-        @media (min-width: 769px) and (max-width: 1024px) {
-          .author__icon img {
-            width: 140px !important;
-            height: 140px !important;
-          }
-          
-          .slider__rating h4 {
-            font-size: 1.6rem !important;
-          }
-          
-          .slider__text {
-            font-size: 1.1rem !important;
-          }
-        }
-        
-      
+        /* ========== DESKTOP STYLES (Default) ========== */
         .testimonial__item__content {
           display: flex;
           align-items: center;
           justify-content: center;
-          gap: 30px;
-          padding: 30px 0;
+          gap: 40px;
+          padding: 40px 0;
+        }
+        
+        .author__icon {
+          flex-shrink: 0;
         }
         
         .author__icon img {
@@ -390,14 +148,189 @@ function TestimonialOne() {
           border-radius: 50%;
           object-fit: cover;
           border: 5px solid #c8b08a;
+          transition: transform 0.3s ease;
+        }
+        
+        .author__icon img:hover {
+          transform: scale(1.05);
         }
         
         .testimonial__content {
           flex: 1;
           max-width: 700px;
         }
-      `}</style>
+        
+        .single__slider__item {
+          text-align: left;
+        }
+        
+        .slider__rating {
+          margin-bottom: 20px;
+        }
+        
+        .topic-title {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.3;
+          margin: 0;
+          color: #1b1b1b;
+        }
+        
+        .slider__text {
+          font-size: var(--p);
+          margin-bottom: 20px;
+          line-height: 1.6;
+        }
+        
+        .slider__author__info {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+        }
+        
+        .author-name {
+          font-size: 1.1rem;
+          font-weight: 600;
+          margin: 0;
+          color: #1b1b1b;
+        }
 
+        /* ========== TABLET (769px - 1024px) ========== */
+        @media (min-width: 769px) and (max-width: 1024px) {
+          .testimonial__item__content {
+            gap: 30px;
+            padding: 35px 0;
+          }
+          
+          .author__icon img {
+            width: 140px;
+            height: 140px;
+            border: 4px solid #c8b08a;
+          }
+          
+          .topic-title {
+            font-size: 1.4rem;
+          }
+          
+          .slider__text {
+            font-size: 0.95rem;
+          }
+          
+          .author-name {
+            font-size: 1.05rem;
+          }
+        }
+
+        /* ========== MOBILE (max-width: 768px) ========== */
+        @media (max-width: 768px) {
+          .testimonial__item__content {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 25px;
+            padding: 30px 15px;
+          }
+          
+          .author__icon {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0;
+          }
+          
+          .author__icon img {
+            width: 120px;
+            height: 120px;
+            border: 4px solid #c8b08a;
+          }
+          
+          .testimonial__content {
+            width: 100%;
+            text-align: center;
+          }
+          
+          .single__slider__item {
+            text-align: center;
+          }
+          
+          .slider__rating {
+            text-align: center;
+            margin-bottom: 15px;
+          }
+          
+          .topic-title {
+            font-size: 1.3rem;
+            text-align: center;
+          }
+          
+          .slider__text {
+            font-size: 0.95rem;
+            text-align: center;
+            margin-bottom: 15px;
+          }
+          
+          .slider__author__info {
+            justify-content: center;
+            text-align: center;
+          }
+          
+          .author-name {
+            font-size: 1rem;
+            text-align: center;
+          }
+        }
+
+        /* ========== SMALL MOBILE (max-width: 480px) ========== */
+        @media (max-width: 480px) {
+          .testimonial__item__content {
+            gap: 20px;
+            padding: 25px 10px;
+          }
+          
+          .author__icon img {
+            width: 100px;
+            height: 100px;
+            border: 3px solid #c8b08a;
+          }
+          
+          .topic-title {
+            font-size: 1.2rem;
+          }
+          
+          .slider__text {
+            font-size: 0.9rem;
+          }
+          
+          .author-name {
+            font-size: 0.95rem;
+          }
+        }
+
+        /* ========== EXTRA SMALL MOBILE (max-width: 320px) ========== */
+        @media (max-width: 320px) {
+          .testimonial__item__content {
+            gap: 15px;
+            padding: 20px 8px;
+          }
+          
+          .author__icon img {
+            width: 80px;
+            height: 80px;
+            border: 3px solid #c8b08a;
+          }
+          
+          .topic-title {
+            font-size: 1.1rem;
+          }
+          
+          .slider__text {
+            font-size: 0.85rem;
+          }
+          
+          .author-name {
+            font-size: 0.9rem;
+          }
+        }
+      `}</style>
     </>
   );
 }

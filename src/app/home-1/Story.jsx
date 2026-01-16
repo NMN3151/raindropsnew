@@ -212,7 +212,7 @@ export default function SignaturePrograms() {
 
       <style jsx>{`
         .signature__outer {
-          padding: 6rem 0;
+          padding: 6rem 0 120px;
           background: #ffffff;
           position: relative;
           overflow: hidden;

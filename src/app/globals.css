@@ -6,6 +6,7 @@
   --foreground: #171717;
   --header-height: 80px; /* Add this for scroll offset calculation */
   --scroll-speed: 0.5s; /* Custom scroll speed */
+  --new-padding:   6rem 0 120px;
 }
 
 /* Enhanced smooth scrolling */

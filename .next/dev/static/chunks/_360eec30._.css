@@ -34574,18 +34574,18 @@ p:last-child {
 }
 
 .pt-120 {
-  padding-top: 120px;
+  padding: 6rem 0 120px;
 }
 
 @media screen and (max-width: 1200px) {
   .pt-120 {
-    padding-top: 100px;
+    padding: 6rem 0 120px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .pt-120 {
-    padding-top: 80px;
+    padding: 6rem 0 120px;
   }
 }
 
@@ -38126,7 +38126,7 @@ textarea:focus, input:focus, textarea:focus-visible, input:focus-visible {
 }
 
 .facilities__area.py-90 {
-  padding: 90px 0;
+  padding: 6rem 0 120px;
 }
 
 .section__wrapper {
@@ -40042,13 +40042,6 @@ textarea:focus, input:focus, textarea:focus-visible, input:focus-visible {
 .testimonial__item__content .slider__rating i {
   color: var(--heading-color);
   font-size: 25px;
-}
-
-.testimonial__item__content .slider__text {
-  font-size: 28px;
-  line-height: 42px;
-  font-family: var(--jost);
-  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 768px) {

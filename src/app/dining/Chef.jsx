@@ -55,6 +55,21 @@ function Chef() {
                   Trained in multicultural cuisines and known for exceptional performance under pressure, he has mastered the balance between flavor, nutrition, and artistry. His philosophy is simple:
                   "Healthy food must taste divine — and make your body feel lighter."
                   Every dish at Rain Drops reflects:</p>
+
+
+               <p className="chef-quote wow fadeInUp" data-wow-delay=".3s">
+                   Trained in multicultural cuisines and known for exceptional performance under pressure, he has mastered the balance between flavor, nutrition, and artistry. His philosophy is simple:
+                  "Healthy food must taste divine — and make your body feel lighter."
+                  Every dish at Rain Drops reflects:</p>
+
+
+
+                  <blockquote className="chef-quote"></blockquote>
+
+
+
+           
+
                   <ul className="chef-features">
                     <li> Fresh,seasonal,locally sourced ingredients</li>
                     <li> Wellness-driven preparation</li>
@@ -75,15 +90,31 @@ function Chef() {
     
         <style jsx>{`
           .facility__area.is__about {
-            position: relative;
-            padding: 60px 0;
-            min-height: auto;
-            // background-image: url('/assets/images/nutrition/tt.png'); /* Add your background image path */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-          }
+    position: relative;
+    padding: 60px 0;
+    min-height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .content__subtitle {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .chef-quote {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+    border: none;
+    font-style: normal;
+  }
+
 
           .facility__area.is__about::before {
             content: "";
@@ -132,16 +163,20 @@ function Chef() {
           .chef-subtitle {
             margin-bottom: 1.5rem;
           }
+ 
 
-          .chef-features {
-            padding-left: 1.5rem;
-            margin: 1.5rem 0;
-          }
+           .chef-features {
+              text-align: left;
+              padding-left: 1.2rem;
+              margin: 1rem 0;
+            }
 
-          .chef-features li {
-            margin-bottom: 0.75rem;
-            line-height: 1.5;
-          }
+            .chef-features li {
+              font-size: 0.95rem;
+              line-height: 1.4;
+              margin-bottom: 0.5rem;
+            }
+
 
          
           .chef-text-box-overlay {
@@ -280,23 +315,8 @@ function Chef() {
               margin-bottom: 1rem;
             }
 
-            .content__subtitle {
-              font-size: 0.95rem;
-              line-height: 1.6;
-              margin-bottom: 1rem;
-            }
-
-            .chef-features {
-              text-align: left;
-              padding-left: 1.2rem;
-              margin: 1rem 0;
-            }
-
-            .chef-features li {
-              font-size: 0.9rem;
-              line-height: 1.4;
-              margin-bottom: 0.5rem;
-            }
+            
+            
           }
 
           @media (max-width: 575px) {
@@ -350,10 +370,8 @@ function Chef() {
               font-size: 0.95rem;
             }
 
-            .content__subtitle,
-            .chef-features li {
-              font-size: 0.85rem;
-            }
+          
+          
           }
 
           @media (min-width: 768px) and (max-width: 991px) {
@@ -406,14 +424,9 @@ function Chef() {
               object-fit: contain;
             }
 
-            .content__subtitle {
-              font-size: 1rem;
-              line-height: 1.6;
-            }
+           
 
-            .chef-features li {
-              font-size: 0.95rem;
-            }
+           
           }
 
       
@@ -490,9 +503,7 @@ function Chef() {
               font-weight: 600;
             }
 
-            .chef-features li {
-              font-size: 1rem;
-            }
+           
           }
 
           @media (min-width: 1400px) {

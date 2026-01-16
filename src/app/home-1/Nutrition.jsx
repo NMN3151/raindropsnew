@@ -62,7 +62,7 @@ function NutritionPage() {
                 luxury with purity. <br /> <br />
               </p>
               {/* This div now has mt-2 instead of big gap */}
-              <div className="mt-1">
+              <div className="mt-1 our-kitchen-list">
                 Our kitchen draws from:
                 <ul className="mt-2">
                   <li>Rainforest-fresh, locally sourced ingredients</li>
@@ -105,8 +105,12 @@ function NutritionPage() {
         /* Your original styles + only gap fix */
         .nutrition__section {
           background: #ffffff;
-          margin-top: 20px;
+          padding: 6rem 0 120px;
+
         }
+          .our-kitchen-list{
+            font-size: var(--p);
+          }
 
         .nutrition__subtitle {
           font-size: 20px;
@@ -137,6 +141,7 @@ function NutritionPage() {
         /* Reduced the big gap you highlighted */
         .nutrition__description.mb-3 {
           margin-bottom: 0.75rem !important;
+          font-size: var(--p);
         }
         .mt-2 {
           margin-top: 0.5rem !important;

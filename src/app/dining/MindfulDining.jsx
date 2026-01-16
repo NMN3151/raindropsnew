@@ -1,23 +1,32 @@
-'use client';
-import React from 'react';
-import Image from 'next/image';
+"use client";
+import React from "react";
+import Image from "next/image";
 
 export default function MindfulDining() {
   return (
     <div className="signature__outer">
       <div className="container">
-        <div className="section_content_left" style={{justifyContent: 'center', textAlign: 'center', marginBottom: '3rem'}}>
+        <div
+          className="section_content_left"
+          style={{
+            justifyContent: "center",
+            textAlign: "center",
+            marginBottom: "3rem",
+          }}
+        >
           <h2 className="content__title h2 lh-1">Mindfulness Dining</h2>
         </div>
-        
+
         <div className="layout-wrapper">
-          
           {/* Left Side Text Column */}
           <div className="side-column left-column">
             <div className="text-box">
               <div className="text-content">
                 <p className="text-description">
-                  At Rain Drops, dining is an experience that connects your five senses with nature.We invite you to slow down, breathe, and truly enjoy each flavor — just as the rainforest does everything, calmly and completely.
+                  At Rain Drops, dining is an experience that connects your five
+                  senses with nature.We invite you to slow down, breathe, and
+                  truly enjoy each flavor — just as the rainforest does
+                  everything, calmly and completely.
                 </p>
               </div>
             </div>
@@ -29,12 +38,14 @@ export default function MindfulDining() {
               <Image
                 src="/assets/images/nutrition/tt.png"
                 alt="Mindful Dining Experience"
-                width={700}
-                height={700}
+                fill
                 className="center-image"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 700px"
                 onError={(e) => {
-                  e.target.style.display = 'none';
-                  e.target.nextSibling.style.display = 'flex';
+                  e.target.style.display = "none";
+                  e.target.parentElement.querySelector(
+                    ".image-fallback"
+                  ).style.display = "flex";
                 }}
               />
               {/* content */}
@@ -52,20 +63,33 @@ export default function MindfulDining() {
             <div className="text-box">
               <div className="text-content-right">
                 <p className="text-description">
-                  <span style={{fontWeight: "600"}}> You'll find our meals: </span><br /><br />
-                  <span style={{fontWeight: "600"}}> Naturally sourced - </span><br />
-                  fresh, local, and pure <br /><br />
-                  <span style={{fontWeight: "600"}}>Scientifically balanced - <br /></span>
-                  designed to support energy, <br /> focus, and calm <br /><br />
-                  <span style={{fontWeight: "600"}}>Mindfully prepared - <br /></span>
+                  <span style={{ fontWeight: "600" }}>
+                    {" "}
+                    You'll find our meals:{" "}
+                  </span>
+                  <br />
+                  <br />
+                  <span style={{ fontWeight: "600" }}>
+                    {" "}
+                    Naturally sourced -{" "}
+                  </span>
+                  <br />
+                  fresh, local, and pure <br />
+                  <br />
+                  <span style={{ fontWeight: "600" }}>
+                    Scientifically balanced - <br />
+                  </span>
+                  designed to support energy, <br /> focus, and calm <br />
+                  <br />
+                  <span style={{ fontWeight: "600" }}>
+                    Mindfully prepared - <br />
+                  </span>
                   cooked with care and loving attention
                 </p>
-                <div className="feature-list">
-                </div>
+                <div className="feature-list"></div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -125,7 +149,7 @@ export default function MindfulDining() {
         .left-column .text-box {
           margin-right: -180px;
           z-index: 2;
-          background: #A8B49C;
+          background: #a8b49c;
         }
 
         .right-column .text-box {
@@ -157,7 +181,7 @@ export default function MindfulDining() {
         }
 
         .text-title::after {
-          content: '';
+          content: "";
           position: absolute;
           bottom: 0;
           left: 50%;
@@ -236,9 +260,8 @@ export default function MindfulDining() {
         }
 
         .center-image {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
+          object-fit: contain; /* Changed from 'cover' to 'contain' */
+          object-position: center;
           transition: all 0.4s ease;
           position: relative;
           z-index: 3;
@@ -288,17 +311,17 @@ export default function MindfulDining() {
             min-height: 550px;
             height: 550px;
           }
-          
+
           .text-box {
             min-height: 450px;
             max-height: 500px;
           }
-          
+
           .image-container {
             min-height: 600px;
             max-height: 650px;
           }
-          
+
           .left-column .text-box {
             margin-right: -200px;
           }
@@ -309,74 +332,70 @@ export default function MindfulDining() {
         }
 
         /* ---------- LAPTOP FIX (1024px - 1600px) ---------- */
-          @media (min-width: 1024px) and (max-width: 1600px) {
+        @media (min-width: 1024px) and (max-width: 1600px) {
+          .layout-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr 1fr;
+            align-items: center;
+            gap: 0px;
+            width: 100%;
+            padding: 20px 40px;
 
-            .layout-wrapper {
-              display: grid;
-              grid-template-columns: 1fr 1.2fr 1fr;
-              align-items: center;
-              gap: 0px;
-              width: 100%;
-              padding: 20px 40px;
-
-              /* IMPORTANT: Removes fixed height problems */
-              height: auto;
-              min-height: 420px;
-            }
-
-            /* ---- TEXT BOXES ---- */
-            .text-box {
-              padding: 2rem 1.6rem;
-              width: 90%;
-              
-              /* Automatic, no forcing */
-              height: auto;
-            }
-
-            /* 🔥 Overlap balanced (works on all laptops) */
-            .left-column .text-box {
-              margin-right: -80px;     /* Balanced overlap */
-            }
-
-            .right-column .text-box {
-              margin-left: -80px;      /* Balanced overlap */
-            }
-
-            /* Font scaling safe */
-            .text-description {
-              font-size: 1rem;
-              line-height: 1.6;
-            }
-
-            /* ---- CENTER IMAGE ---- */
-            .center-column {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-
-            .image-container {
-              width: 100%;
-              max-width: 520px;
-
-              /* 🔥 Dynamic height — prevents tall image issue */
-              height: auto;
-
-              /* Maintain aspect ratio */
-              aspect-ratio: 3 / 4;
-
-              overflow: hidden;
-             
-            }
-
-            .image-container img {
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-            }
+            /* IMPORTANT: Removes fixed height problems */
+            height: auto;
+            min-height: 420px;
           }
 
+          /* ---- TEXT BOXES ---- */
+          .text-box {
+            padding: 2rem 1.6rem;
+            width: 90%;
 
+            /* Automatic, no forcing */
+            height: auto;
+          }
+
+          /* 🔥 Overlap balanced (works on all laptops) */
+          .left-column .text-box {
+            margin-right: -80px; /* Balanced overlap */
+          }
+
+          .right-column .text-box {
+            margin-left: -80px; /* Balanced overlap */
+          }
+
+          /* Font scaling safe */
+          .text-description {
+            font-size: 1rem;
+            line-height: 1.6;
+          }
+
+          /* ---- CENTER IMAGE ---- */
+          .center-column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .image-container {
+            width: 100%;
+            max-width: 520px;
+
+            /* 🔥 Dynamic height — prevents tall image issue */
+            height: auto;
+
+            /* Maintain aspect ratio */
+            aspect-ratio: 3 / 4;
+
+            overflow: hidden;
+          }
+
+          .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
 
         /* Tablet (768px - 1023px) */
         @media (min-width: 768px) and (max-width: 1023px) {
@@ -493,7 +512,6 @@ export default function MindfulDining() {
           .text-description {
             font-size: 1rem;
             line-height: 1.6;
-           
           }
 
           .feature-item {

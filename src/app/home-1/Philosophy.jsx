@@ -154,7 +154,7 @@ function Mindmeets() {
       <style jsx>{`
         .philosophy__section {
           background: #ffffff;
-          padding: 60px 0;
+          padding: 6rem 0 120px;
         }
 
         .philosophy__intro,
@@ -269,9 +269,7 @@ function Mindmeets() {
 
         /* Small Mobile Devices (375px to 575px) */
         @media (min-width: 375px) and (max-width: 423px) {
-          .philosophy__section {
-            padding: 35px 0;
-          }
+        
 
           .section__title {
             font-size: 1.6rem;
@@ -329,9 +327,7 @@ function Mindmeets() {
 
         /* Mobile Large (576px to 767px) */
         @media (min-width: 424px) and (max-width: 767px) {
-          .philosophy__section {
-            padding: 40px 0;
-          }
+         
 
           .section__title {
             font-size: 1.8rem;
@@ -391,10 +387,7 @@ function Mindmeets() {
 
         /* Tablet (768px to 991px) */
         @media (min-width: 768px) and (max-width: 991px) {
-          .philosophy__section {
-            padding: 50px 0;
-          }
-
+         
           .section__title {
             font-size: 2rem;
             text-align: left;
@@ -438,9 +431,7 @@ function Mindmeets() {
 
         /* Small Laptop (992px to 1199px) */
         @media (min-width: 992px) and (max-width: 1199px) {
-          .philosophy__section {
-            padding: 60px 0;
-          }
+          
 
           .section__title {
             font-size: 2.5rem;
@@ -480,9 +471,7 @@ function Mindmeets() {
 
         /* Desktop (1200px to 1399px) */
         @media (min-width: 1200px) and (max-width: 1399px) {
-          .philosophy__section {
-            padding: 70px 0;
-          }
+          
 
           .section__title {
             text-align: left;
@@ -521,9 +510,7 @@ function Mindmeets() {
 
         /* Large Desktop (1400px and above) */
         @media (min-width: 1400px) {
-          .philosophy__section {
-            padding: 80px 0;
-          }
+          
           .text2 {
             margin-left: 95px;
           }
