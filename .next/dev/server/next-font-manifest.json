@@ -1,9 +1,7 @@
 {
   "app": {
     "[project]/src/app/dining/page": [],
-    "[project]/src/app/page": [],
-    "[project]/src/app/research/page": [],
-    "[project]/src/app/room-home/page": []
+    "[project]/src/app/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

@@ -29,17 +29,10 @@ export default function Foodpurpose() {
                 “It’s not about eating less — it’s about eating right, with
                 awareness.”
               </p>
-
-              {/* Button only in content on desktop */}
-              {/* <div className="d-none d-lg-block"> */}
-              {/* <button className="foodpurpose__btn"> */}
-              {/* Discover Our Menu */}
-              {/* </button> */}
-              {/* </div> */}
+ 
             </div>
           </div>
 
-          {/* Image + Button (on mobile only) */}
           <div className="col-12 col-lg-6 order-2 order-lg-2">
             <div className="foodpurpose-image-wrapper">
               <img
