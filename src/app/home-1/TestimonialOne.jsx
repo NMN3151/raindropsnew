@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css"; 
 import { Navigation, Autoplay } from "swiper/modules";
@@ -11,12 +11,26 @@ import "swiper/css/autoplay";
 
 function TestimonialOne() {
   const [expandedSlides, setExpandedSlides] = useState({});
+  const swiperRef = useRef(null);
 
   const toggleReadMore = (slideIndex) => {
+    const isExpanding = !expandedSlides[slideIndex];
+    
     setExpandedSlides(prev => ({
       ...prev,
       [slideIndex]: !prev[slideIndex]
     }));
+
+    // Control autoplay based on expand/collapse
+    if (swiperRef.current && swiperRef.current.autoplay) {
+      if (isExpanding) {
+        // Stop autoplay when expanding
+        swiperRef.current.autoplay.stop();
+      } else {
+        // Resume autoplay when collapsing
+        swiperRef.current.autoplay.start();
+      }
+    }
   };
 
   const testimonials = [
@@ -71,6 +85,9 @@ function TestimonialOne() {
             <div className="col-lg-11">
               <div className="">
                 <Swiper
+                  onSwiper={(swiper) => {
+                    swiperRef.current = swiper;
+                  }}
                   className="testimonial__slider overflow-hidden"
                   modules={[Navigation, Autoplay]} 
                   direction="horizontal"
@@ -113,17 +130,15 @@ function TestimonialOne() {
                                   ? testimonial.text 
                                   : testimonial.shortText}
 
-                                  {testimonial.text !== testimonial.shortText && (
-                                <span 
-                                  className="see-more-link"
-                                  onClick={() => toggleReadMore(testimonial.id)}
-                                >
-                                  {expandedSlides[testimonial.id] ? 'See less' : 'See more'}
-                                </span>
-                              )}
-
+                                {testimonial.text !== testimonial.shortText && (
+                                  <span 
+                                    className="see-more-link"
+                                    onClick={() => toggleReadMore(testimonial.id)}
+                                  >
+                                    {expandedSlides[testimonial.id] ? ' See less' : ' See more'}
+                                  </span>
+                                )}
                               </p>
-                              
                             </div>
                             <div className="slider__author__info">
                               <div className="slider__author__info__content">
@@ -148,11 +163,10 @@ function TestimonialOne() {
         /* ========== DESKTOP STYLES (Default) ========== */
         .testimonial__item__content {
           display: flex;
-          align-items: flex-start;
+          align-items: center;
           justify-content: center;
           gap: 40px;
           padding: 40px 0;
-          align-items: center;
         }
         
         .author__icon {
@@ -203,7 +217,7 @@ function TestimonialOne() {
           line-height: 1.6;
           color: #333;
           white-space: pre-line;
-          transition: max-height 0.3s ease;
+          transition: max-height 0.4s ease-in-out;
         }
         
         .slider__text.collapsed {
@@ -221,7 +235,7 @@ function TestimonialOne() {
         }
         
         .see-more-link {
-          display: inline-block;
+          display: inline;
           color: #c8b08a;
           font-size: var(--p);
           font-weight: 500;
@@ -229,7 +243,6 @@ function TestimonialOne() {
           text-decoration: none;
           transition: all 0.2s ease;
           font-family: inherit;
-          margin-left: 10px;
         }
         
         .see-more-link:hover {
@@ -333,9 +346,8 @@ function TestimonialOne() {
           }
           
           .see-more-link {
-            display: block;
+            display: inline;
             text-align: center;
-            margin: 8px auto 0;
             font-size: 0.95rem;
           }
           

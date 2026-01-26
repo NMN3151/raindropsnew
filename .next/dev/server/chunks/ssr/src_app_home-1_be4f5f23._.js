@@ -5876,11 +5876,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$mo
 ;
 function TestimonialOne() {
     const [expandedSlides, setExpandedSlides] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
+    const swiperRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const toggleReadMore = (slideIndex)=>{
+        const isExpanding = !expandedSlides[slideIndex];
         setExpandedSlides((prev)=>({
                 ...prev,
                 [slideIndex]: !prev[slideIndex]
             }));
+        // Control autoplay based on expand/collapse
+        if (swiperRef.current && swiperRef.current.autoplay) {
+            if (isExpanding) {
+                // Stop autoplay when expanding
+                swiperRef.current.autoplay.stop();
+            } else {
+                // Resume autoplay when collapsing
+                swiperRef.current.autoplay.start();
+            }
+        }
     };
     const testimonials = [
         {
@@ -5914,65 +5926,68 @@ function TestimonialOne() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-d28eeda0550bc52" + " " + "rts__section section__padding testimonial has__shape",
+                className: "jsx-40127537325a9236" + " " + "rts__section section__padding testimonial has__shape",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-d28eeda0550bc52" + " " + "container",
+                    className: "jsx-40127537325a9236" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-d28eeda0550bc52" + " " + "row ",
+                            className: "jsx-40127537325a9236" + " " + "row ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-d28eeda0550bc52" + " " + "row justify-content-center text-center mb-40",
+                                className: "jsx-40127537325a9236" + " " + "row justify-content-center text-center mb-40",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-aos": "fade-up",
                                     "data-aos-delay": "300",
-                                    className: "jsx-d28eeda0550bc52" + " " + "col-lg-6",
+                                    className: "jsx-40127537325a9236" + " " + "col-lg-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-d28eeda0550bc52" + " " + "section__topbar",
+                                        className: "jsx-40127537325a9236" + " " + "section__topbar",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-d28eeda0550bc52" + " " + "h6 subtitle__icon__three mx-auto",
+                                                className: "jsx-40127537325a9236" + " " + "h6 subtitle__icon__three mx-auto",
                                                 children: "Testimonial"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 60,
+                                                lineNumber: 74,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-d28eeda0550bc52" + " " + "content__title h2 lh-1",
+                                                className: "jsx-40127537325a9236" + " " + "content__title h2 lh-1",
                                                 children: "what our client say"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 63,
+                                                lineNumber: 77,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 73,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 72,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                lineNumber: 57,
+                                lineNumber: 71,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                            lineNumber: 56,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-d28eeda0550bc52" + " " + "row",
+                            className: "jsx-40127537325a9236" + " " + "row",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-d28eeda0550bc52" + " " + "col-lg-11",
+                                className: "jsx-40127537325a9236" + " " + "col-lg-11",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-d28eeda0550bc52" + " " + "",
+                                    className: "jsx-40127537325a9236" + " " + "",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Swiper"], {
+                                        onSwiper: (swiper)=>{
+                                            swiperRef.current = swiper;
+                                        },
                                         className: "testimonial__slider overflow-hidden",
                                         modules: [
                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$navigation$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__["Navigation"],
@@ -5996,149 +6011,149 @@ function TestimonialOne() {
                                         effect: "slide",
                                         children: testimonials.map((testimonial)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-d28eeda0550bc52" + " " + "testimonial__item__content",
+                                                    className: "jsx-40127537325a9236" + " " + "testimonial__item__content",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-d28eeda0550bc52" + " " + "author__icon",
+                                                            className: "jsx-40127537325a9236" + " " + "author__icon",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: testimonial.image,
                                                                 alt: testimonial.alt,
                                                                 loading: "lazy",
-                                                                className: "jsx-d28eeda0550bc52"
+                                                                className: "jsx-40127537325a9236"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 97,
+                                                                lineNumber: 114,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 96,
+                                                            lineNumber: 113,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-d28eeda0550bc52" + " " + "testimonial__content",
+                                                            className: "jsx-40127537325a9236" + " " + "testimonial__content",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-d28eeda0550bc52" + " " + "single__slider__item",
+                                                                className: "jsx-40127537325a9236" + " " + "single__slider__item",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-d28eeda0550bc52" + " " + "slider__rating mb-20",
+                                                                        className: "jsx-40127537325a9236" + " " + "slider__rating mb-20",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                            className: "jsx-d28eeda0550bc52" + " " + "topic-title",
+                                                                            className: "jsx-40127537325a9236" + " " + "topic-title",
                                                                             children: testimonial.title
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 106,
+                                                                            lineNumber: 123,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 105,
+                                                                        lineNumber: 122,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-d28eeda0550bc52" + " " + "slider__text__wrapper",
+                                                                        className: "jsx-40127537325a9236" + " " + "slider__text__wrapper",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                            className: "jsx-d28eeda0550bc52" + " " + `slider__text ${expandedSlides[testimonial.id] ? 'expanded' : 'collapsed'}`,
+                                                                            className: "jsx-40127537325a9236" + " " + `slider__text ${expandedSlides[testimonial.id] ? 'expanded' : 'collapsed'}`,
                                                                             children: [
                                                                                 expandedSlides[testimonial.id] ? testimonial.text : testimonial.shortText,
                                                                                 testimonial.text !== testimonial.shortText && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                     onClick: ()=>toggleReadMore(testimonial.id),
-                                                                                    className: "jsx-d28eeda0550bc52" + " " + "see-more-link",
-                                                                                    children: expandedSlides[testimonial.id] ? 'See less' : 'See more'
+                                                                                    className: "jsx-40127537325a9236" + " " + "see-more-link",
+                                                                                    children: expandedSlides[testimonial.id] ? ' See less' : ' See more'
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                    lineNumber: 117,
-                                                                                    columnNumber: 33
+                                                                                    lineNumber: 134,
+                                                                                    columnNumber: 35
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 111,
+                                                                            lineNumber: 128,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 110,
+                                                                        lineNumber: 127,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-d28eeda0550bc52" + " " + "slider__author__info",
+                                                                        className: "jsx-40127537325a9236" + " " + "slider__author__info",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-d28eeda0550bc52" + " " + "slider__author__info__content",
+                                                                            className: "jsx-40127537325a9236" + " " + "slider__author__info__content",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                                                                className: "jsx-d28eeda0550bc52" + " " + "author-name",
+                                                                                className: "jsx-40127537325a9236" + " " + "author-name",
                                                                                 children: testimonial.author
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                lineNumber: 130,
+                                                                                lineNumber: 145,
                                                                                 columnNumber: 33
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 129,
+                                                                            lineNumber: 144,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 128,
+                                                                        lineNumber: 143,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 104,
+                                                                lineNumber: 121,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 103,
+                                                            lineNumber: 120,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                    lineNumber: 95,
+                                                    lineNumber: 112,
                                                     columnNumber: 23
                                                 }, this)
                                             }, testimonial.id, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 94,
+                                                lineNumber: 111,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                        lineNumber: 73,
+                                        lineNumber: 87,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                    lineNumber: 72,
+                                    lineNumber: 86,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                lineNumber: 71,
+                                lineNumber: 85,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                            lineNumber: 70,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                    lineNumber: 55,
+                    lineNumber: 69,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                lineNumber: 54,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "d28eeda0550bc52",
-                children: ".testimonial__item__content{justify-content:center;align-items:center;gap:40px;padding:40px 0;display:flex}.author__icon{flex-shrink:0}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px;transition:transform .3s}.author__icon img:hover{transform:scale(1.05)}.testimonial__content{flex:1;max-width:700px}.single__slider__item{text-align:left}.slider__rating{margin-bottom:20px}.topic-title{color:#1b1b1b;margin:0;font-size:1.5rem;font-weight:600;line-height:1.3}.slider__text__wrapper{position:relative}.slider__text{font-size:var(--p);color:#333;white-space:pre-line;margin-bottom:8px;line-height:1.6;transition:max-height .3s}.slider__text.collapsed{-webkit-line-clamp:4;text-overflow:ellipsis;-webkit-box-orient:vertical;max-height:6.4em;display:-webkit-box;overflow:hidden}.slider__text.expanded{max-height:none;display:block}.see-more-link{color:#c8b08a;font-size:var(--p);cursor:pointer;margin-left:10px;font-family:inherit;font-weight:500;text-decoration:none;transition:all .2s;display:inline-block}.see-more-link:hover{color:#a08960;text-decoration:underline}.slider__author__info{align-items:center;gap:15px;margin-top:20px;display:flex}.author-name{color:#1b1b1b;margin:0;font-size:1.1rem;font-weight:600}@media (width>=769px) and (width<=1024px){.testimonial__item__content{gap:30px;padding:35px 0}.author__icon img{border:4px solid #c8b08a;width:140px;height:140px}.topic-title{font-size:1.4rem}.slider__text,.see-more-link{font-size:.95rem}.author-name{font-size:1.05rem}}@media (width<=768px){.testimonial__item__content{text-align:center;flex-direction:column;align-items:center;gap:25px;padding:30px 15px}.author__icon{justify-content:center;margin-bottom:0;display:flex}.author__icon img{border:4px solid #c8b08a;width:120px;height:120px}.testimonial__content{text-align:center;width:100%}.single__slider__item{text-align:center}.slider__rating{text-align:center;margin-bottom:15px}.topic-title{text-align:center;font-size:1.3rem}.slider__text{text-align:center;margin-bottom:8px;font-size:.95rem}.slider__text.collapsed{max-height:5.7em}.see-more-link{text-align:center;margin:8px auto 0;font-size:.95rem;display:block}.slider__author__info{text-align:center;justify-content:center}.author-name{text-align:center;font-size:1rem}}@media (width<=480px){.testimonial__item__content{gap:20px;padding:25px 10px}.author__icon img{border:3px solid #c8b08a;width:100px;height:100px}.topic-title{font-size:1.2rem}.slider__text{font-size:.9rem}.slider__text.collapsed{max-height:5.4em}.see-more-link{font-size:.9rem}.author-name{font-size:.95rem}}@media (width<=320px){.testimonial__item__content{gap:15px;padding:20px 8px}.author__icon img{border:3px solid #c8b08a;width:80px;height:80px}.topic-title{font-size:1.1rem}.slider__text{font-size:.85rem}.slider__text.collapsed{max-height:5.1em}.see-more-link{font-size:.85rem}.author-name{font-size:.9rem}}"
+                id: "40127537325a9236",
+                children: ".testimonial__item__content{justify-content:center;align-items:center;gap:40px;padding:40px 0;display:flex}.author__icon{flex-shrink:0}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px;transition:transform .3s}.author__icon img:hover{transform:scale(1.05)}.testimonial__content{flex:1;max-width:700px}.single__slider__item{text-align:left}.slider__rating{margin-bottom:20px}.topic-title{color:#1b1b1b;margin:0;font-size:1.5rem;font-weight:600;line-height:1.3}.slider__text__wrapper{position:relative}.slider__text{font-size:var(--p);color:#333;white-space:pre-line;margin-bottom:8px;line-height:1.6;transition:max-height .4s ease-in-out}.slider__text.collapsed{-webkit-line-clamp:4;text-overflow:ellipsis;-webkit-box-orient:vertical;max-height:6.4em;display:-webkit-box;overflow:hidden}.slider__text.expanded{max-height:none;display:block}.see-more-link{color:#c8b08a;font-size:var(--p);cursor:pointer;font-family:inherit;font-weight:500;text-decoration:none;transition:all .2s;display:inline}.see-more-link:hover{color:#a08960;text-decoration:underline}.slider__author__info{align-items:center;gap:15px;margin-top:20px;display:flex}.author-name{color:#1b1b1b;margin:0;font-size:1.1rem;font-weight:600}@media (width>=769px) and (width<=1024px){.testimonial__item__content{gap:30px;padding:35px 0}.author__icon img{border:4px solid #c8b08a;width:140px;height:140px}.topic-title{font-size:1.4rem}.slider__text,.see-more-link{font-size:.95rem}.author-name{font-size:1.05rem}}@media (width<=768px){.testimonial__item__content{text-align:center;flex-direction:column;align-items:center;gap:25px;padding:30px 15px}.author__icon{justify-content:center;margin-bottom:0;display:flex}.author__icon img{border:4px solid #c8b08a;width:120px;height:120px}.testimonial__content{text-align:center;width:100%}.single__slider__item{text-align:center}.slider__rating{text-align:center;margin-bottom:15px}.topic-title{text-align:center;font-size:1.3rem}.slider__text{text-align:center;margin-bottom:8px;font-size:.95rem}.slider__text.collapsed{max-height:5.7em}.see-more-link{text-align:center;font-size:.95rem;display:inline}.slider__author__info{text-align:center;justify-content:center}.author-name{text-align:center;font-size:1rem}}@media (width<=480px){.testimonial__item__content{gap:20px;padding:25px 10px}.author__icon img{border:3px solid #c8b08a;width:100px;height:100px}.topic-title{font-size:1.2rem}.slider__text{font-size:.9rem}.slider__text.collapsed{max-height:5.4em}.see-more-link{font-size:.9rem}.author-name{font-size:.95rem}}@media (width<=320px){.testimonial__item__content{gap:15px;padding:20px 8px}.author__icon img{border:3px solid #c8b08a;width:80px;height:80px}.topic-title{font-size:1.1rem}.slider__text{font-size:.85rem}.slider__text.collapsed{max-height:5.1em}.see-more-link{font-size:.85rem}.author-name{font-size:.9rem}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
