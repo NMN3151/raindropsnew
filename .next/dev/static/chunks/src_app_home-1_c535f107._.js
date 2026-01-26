@@ -503,6 +503,38 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
                                                                                     lineNumber: 206,
                                                                                     columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                    role: "menuitem",
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        href: "/travelpartners",
+                                                                                        onClick: (e)=>handleNavigation(e, "/travelpartners"),
+                                                                                        children: "Travel Partners"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
+                                                                                        lineNumber: 217,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
+                                                                                    lineNumber: 216,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                    role: "menuitem",
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        href: "/living",
+                                                                                        onClick: (e)=>handleNavigation(e, "/living"),
+                                                                                        children: "A Living Partnership"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
+                                                                                        lineNumber: 228,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
+                                                                                    lineNumber: 227,
+                                                                                    columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
@@ -529,12 +561,12 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                         children: "Beautiful Sri Lanka"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                        lineNumber: 220,
+                                                                        lineNumber: 240,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 219,
+                                                                    lineNumber: 239,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -550,12 +582,12 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                         children: "Privacy & Policy"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                        lineNumber: 233,
+                                                                        lineNumber: 253,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 232,
+                                                                    lineNumber: 252,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -571,12 +603,12 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                         children: "Contact Us"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                        lineNumber: 246,
+                                                                        lineNumber: 266,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 245,
+                                                                    lineNumber: 265,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -592,12 +624,12 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                         children: "Location & Weather"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                        lineNumber: 259,
+                                                                        lineNumber: 279,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 258,
+                                                                    lineNumber: 278,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
@@ -628,7 +660,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 children: "Wellness"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 286,
+                                                                lineNumber: 306,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -637,19 +669,19 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 287,
+                                                                lineNumber: 307,
                                                                 columnNumber: 25
                                                             }, this),
                                                             " "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 296,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 275,
+                                                    lineNumber: 295,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -668,7 +700,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 children: "Dining"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 302,
+                                                                lineNumber: 322,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -677,19 +709,19 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 303,
+                                                                lineNumber: 323,
                                                                 columnNumber: 25
                                                             }, this),
                                                             " "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                        lineNumber: 292,
+                                                        lineNumber: 312,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 291,
+                                                    lineNumber: 311,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -708,7 +740,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 children: "Rain Lab"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 318,
+                                                                lineNumber: 338,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -717,19 +749,19 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 319,
+                                                                lineNumber: 339,
                                                                 columnNumber: 25
                                                             }, this),
                                                             " "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                        lineNumber: 308,
+                                                        lineNumber: 328,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 307,
+                                                    lineNumber: 327,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -748,7 +780,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 children: "Rooms"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 335,
+                                                                lineNumber: 355,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -757,19 +789,19 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 336,
+                                                                lineNumber: 356,
                                                                 columnNumber: 25
                                                             }, this),
                                                             " "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                        lineNumber: 325,
+                                                        lineNumber: 345,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 324,
+                                                    lineNumber: 344,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -788,7 +820,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 children: "Gallery"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 353,
+                                                                lineNumber: 373,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -797,19 +829,19 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 354,
+                                                                lineNumber: 374,
                                                                 columnNumber: 25
                                                             }, this),
                                                             " "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                        lineNumber: 343,
+                                                        lineNumber: 363,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 342,
+                                                    lineNumber: 362,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
@@ -846,7 +878,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                     children: "Phone"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 365,
+                                                    lineNumber: 385,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -857,14 +889,14 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             className: "flaticon-phone-flip"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 367,
+                                                            lineNumber: 387,
                                                             columnNumber: 21
                                                         }, this),
                                                         "USA: +1 312 242 1662"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 366,
+                                                    lineNumber: 386,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -875,20 +907,20 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             className: "flaticon-phone-flip"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 371,
+                                                            lineNumber: 391,
                                                             columnNumber: 21
                                                         }, this),
                                                         " SriLanka: +94 774 48 48 48"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 370,
+                                                    lineNumber: 390,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                            lineNumber: 364,
+                                            lineNumber: 384,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -899,7 +931,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                     children: "Email"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 377,
+                                                    lineNumber: 397,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -910,20 +942,20 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             className: "flaticon-envelope"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 382,
+                                                            lineNumber: 402,
                                                             columnNumber: 21
                                                         }, this),
                                                         "info@raindrops.lk"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 378,
+                                                    lineNumber: 398,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                            lineNumber: 376,
+                                            lineNumber: 396,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -934,7 +966,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                     children: "Address"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 387,
+                                                    lineNumber: 407,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -945,31 +977,31 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             className: "flaticon-marker"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 389,
+                                                            lineNumber: 409,
                                                             columnNumber: 21
                                                         }, this),
                                                         "Sinharaja ,Dolagahawaththa ,Mederipitiya ,Deniyaya"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 388,
+                                                    lineNumber: 408,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                            lineNumber: 386,
+                                            lineNumber: 406,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                    lineNumber: 363,
+                                    lineNumber: 383,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                lineNumber: 362,
+                                lineNumber: 382,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -988,7 +1020,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                 "aria-label": "Close"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                lineNumber: 399,
+                                lineNumber: 419,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1014,7 +1046,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             children: "Home"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 420,
+                                                            lineNumber: 440,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1023,18 +1055,18 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 421,
+                                                            lineNumber: 441,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 410,
+                                                    lineNumber: 430,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                lineNumber: 409,
+                                                lineNumber: 429,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1055,7 +1087,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                 children: "About"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 442,
+                                                                lineNumber: 462,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1075,7 +1107,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 453,
+                                                                    lineNumber: 473,
                                                                     columnNumber: 27
                                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                     className: "fa-solid fa-plus",
@@ -1086,18 +1118,18 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 462,
+                                                                    lineNumber: 482,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 443,
+                                                                lineNumber: 463,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                        lineNumber: 431,
+                                                        lineNumber: 451,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1128,7 +1160,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                                 children: "About Us"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                                lineNumber: 497,
+                                                                                lineNumber: 517,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1148,7 +1180,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                                     }
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                                    lineNumber: 508,
+                                                                                    lineNumber: 528,
                                                                                     columnNumber: 31
                                                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                                     className: "fa-solid fa-plus",
@@ -1159,18 +1191,18 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                                     }
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                                    lineNumber: 517,
+                                                                                    lineNumber: 537,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                                lineNumber: 498,
+                                                                                lineNumber: 518,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                        lineNumber: 482,
+                                                                        lineNumber: 502,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1191,12 +1223,12 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                                     children: "The Story"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                                    lineNumber: 536,
+                                                                                    lineNumber: 556,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                                lineNumber: 535,
+                                                                                lineNumber: 555,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1210,24 +1242,24 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                                     children: "Insight Partners (You)"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                                    lineNumber: 545,
+                                                                                    lineNumber: 565,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                                lineNumber: 544,
+                                                                                lineNumber: 564,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                        lineNumber: 528,
+                                                                        lineNumber: 548,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 477,
+                                                                lineNumber: 497,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1242,12 +1274,12 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                     children: "Beautiful Sri Lanka"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 557,
+                                                                    lineNumber: 577,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 556,
+                                                                lineNumber: 576,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1262,12 +1294,12 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                     children: "Privacy & Policy"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 570,
+                                                                    lineNumber: 590,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 569,
+                                                                lineNumber: 589,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1282,12 +1314,12 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                     children: "Contact Us"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 583,
+                                                                    lineNumber: 603,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 582,
+                                                                lineNumber: 602,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1302,24 +1334,24 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                                     children: "Location & Weather"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                    lineNumber: 596,
+                                                                    lineNumber: 616,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                                lineNumber: 595,
+                                                                lineNumber: 615,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                        lineNumber: 473,
+                                                        lineNumber: 493,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                lineNumber: 426,
+                                                lineNumber: 446,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1338,7 +1370,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             children: "Wellness"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 623,
+                                                            lineNumber: 643,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1347,18 +1379,18 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 624,
+                                                            lineNumber: 644,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 613,
+                                                    lineNumber: 633,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                lineNumber: 612,
+                                                lineNumber: 632,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1377,7 +1409,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             children: "Rooms"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 640,
+                                                            lineNumber: 660,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1386,18 +1418,18 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 641,
+                                                            lineNumber: 661,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 630,
+                                                    lineNumber: 650,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                lineNumber: 629,
+                                                lineNumber: 649,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1416,7 +1448,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             children: "Gallery"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 657,
+                                                            lineNumber: 677,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1425,18 +1457,18 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 658,
+                                                            lineNumber: 678,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 647,
+                                                    lineNumber: 667,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                lineNumber: 646,
+                                                lineNumber: 666,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1455,7 +1487,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             children: "Dining"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 674,
+                                                            lineNumber: 694,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1464,18 +1496,18 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 675,
+                                                            lineNumber: 695,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 664,
+                                                    lineNumber: 684,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                lineNumber: 663,
+                                                lineNumber: 683,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1494,7 +1526,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             children: "Rain Lab"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 691,
+                                                            lineNumber: 711,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1503,40 +1535,40 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                            lineNumber: 692,
+                                                            lineNumber: 712,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                    lineNumber: 681,
+                                                    lineNumber: 701,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                                lineNumber: 680,
+                                                lineNumber: 700,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                        lineNumber: 407,
+                                        lineNumber: 427,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                    lineNumber: 406,
+                                    lineNumber: 426,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                                lineNumber: 405,
+                                lineNumber: 425,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
-                        lineNumber: 398,
+                        lineNumber: 418,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1740,6 +1772,10 @@ function SideMenu({ isOpen, onClose }) {
                             href: "/Insight"
                         },
                         {
+                            label: "Travel Partners",
+                            href: "/travelpartners"
+                        },
+                        {
                             label: "A Living Partnership",
                             href: "/living"
                         }
@@ -1831,7 +1867,7 @@ function SideMenu({ isOpen, onClose }) {
                                 children: "×"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 182,
+                                lineNumber: 183,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1861,17 +1897,17 @@ function SideMenu({ isOpen, onClose }) {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 231,
+                                        lineNumber: 232,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                    lineNumber: 227,
+                                    lineNumber: 228,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 215,
+                                lineNumber: 216,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -1930,7 +1966,7 @@ function SideMenu({ isOpen, onClose }) {
                                                             children: item.label
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 284,
+                                                            lineNumber: 285,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1944,13 +1980,13 @@ function SideMenu({ isOpen, onClose }) {
                                                             children: "▼"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 312,
+                                                            lineNumber: 313,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 271,
+                                                    lineNumber: 272,
                                                     columnNumber: 21
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     onClick: ()=>handleNavigation(item.href),
@@ -1984,7 +2020,7 @@ function SideMenu({ isOpen, onClose }) {
                                                     children: item.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 328,
+                                                    lineNumber: 329,
                                                     columnNumber: 21
                                                 }, this),
                                                 item.dropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2044,18 +2080,18 @@ function SideMenu({ isOpen, onClose }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 424,
+                                                                                    lineNumber: 425,
                                                                                     columnNumber: 35
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 382,
+                                                                            lineNumber: 383,
                                                                             columnNumber: 33
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                        lineNumber: 381,
+                                                                        lineNumber: 382,
                                                                         columnNumber: 31
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2100,22 +2136,22 @@ function SideMenu({ isOpen, onClose }) {
                                                                                         children: nestedItem.label
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                        lineNumber: 459,
+                                                                                        lineNumber: 460,
                                                                                         columnNumber: 39
                                                                                     }, this)
                                                                                 }, `nested-${index}-${subIndex}-${nestedIndex}`, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 456,
+                                                                                    lineNumber: 457,
                                                                                     columnNumber: 37
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 442,
+                                                                            lineNumber: 443,
                                                                             columnNumber: 33
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                        lineNumber: 441,
+                                                                        lineNumber: 442,
                                                                         columnNumber: 31
                                                                     }, this)
                                                                 ]
@@ -2153,38 +2189,38 @@ function SideMenu({ isOpen, onClose }) {
                                                                     children: subItem.label
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 506,
+                                                                    lineNumber: 507,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 505,
+                                                                lineNumber: 506,
                                                                 columnNumber: 29
                                                             }, this)
                                                         }, `sub-${index}-${subIndex}`, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 377,
+                                                            lineNumber: 378,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 365,
+                                                    lineNumber: 366,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, `menu-${index}`, true, {
                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                            lineNumber: 254,
+                                            lineNumber: 255,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                    lineNumber: 252,
+                                    lineNumber: 253,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 245,
+                                lineNumber: 246,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2202,13 +2238,13 @@ function SideMenu({ isOpen, onClose }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 558,
+                                lineNumber: 559,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                        lineNumber: 159,
+                        lineNumber: 160,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2259,7 +2295,7 @@ function SideMenu({ isOpen, onClose }) {
                                 children: "×"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 605,
+                                lineNumber: 606,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2282,7 +2318,7 @@ function SideMenu({ isOpen, onClose }) {
                                         children: "FEATURED EXPERIENCES"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 648,
+                                        lineNumber: 649,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2334,17 +2370,17 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "VILLA EXPERIENCE"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 710,
+                                                                lineNumber: 711,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 698,
+                                                            lineNumber: 699,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 678,
+                                                        lineNumber: 679,
                                                         columnNumber: 17
                                                     }, this),
                                                     isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2363,7 +2399,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "Villa Experience"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 729,
+                                                                lineNumber: 730,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2376,7 +2412,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "Nestled in the heart of the Sinharaja rainforest, Raindrops Villa offers a serene retreat surrounded by lush greenery."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 740,
+                                                                lineNumber: 741,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2402,25 +2438,25 @@ function SideMenu({ isOpen, onClose }) {
                                                                         children: "→"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                        lineNumber: 767,
+                                                                        lineNumber: 768,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 751,
+                                                                lineNumber: 752,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 724,
+                                                        lineNumber: 725,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 671,
+                                                lineNumber: 672,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2464,17 +2500,17 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "WELLNESS WITH MUSE"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 813,
+                                                                lineNumber: 814,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 801,
+                                                            lineNumber: 802,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 781,
+                                                        lineNumber: 782,
                                                         columnNumber: 17
                                                     }, this),
                                                     isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2493,7 +2529,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "Wellness with Muse"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 832,
+                                                                lineNumber: 833,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2506,7 +2542,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "Real-time EEG brainwave tracking for improved focus and optimized mental performance."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 843,
+                                                                lineNumber: 844,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2532,31 +2568,31 @@ function SideMenu({ isOpen, onClose }) {
                                                                         children: "→"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                        lineNumber: 870,
+                                                                        lineNumber: 871,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 854,
+                                                                lineNumber: 855,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 827,
+                                                        lineNumber: 828,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 774,
+                                                lineNumber: 775,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 662,
+                                        lineNumber: 663,
                                         columnNumber: 13
                                     }, this),
                                     !isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2580,7 +2616,7 @@ function SideMenu({ isOpen, onClose }) {
                                                         children: "Villa Experience"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 889,
+                                                        lineNumber: 890,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2593,7 +2629,7 @@ function SideMenu({ isOpen, onClose }) {
                                                         children: "Nestled in the heart of the Sinharaja rainforest, Raindrops Villa offers a serene retreat surrounded by lush greenery."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 900,
+                                                        lineNumber: 901,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2622,19 +2658,19 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "→"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 930,
+                                                                lineNumber: 931,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 911,
+                                                        lineNumber: 912,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 888,
+                                                lineNumber: 889,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2650,7 +2686,7 @@ function SideMenu({ isOpen, onClose }) {
                                                         children: "Wellness with Muse"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 936,
+                                                        lineNumber: 937,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2663,7 +2699,7 @@ function SideMenu({ isOpen, onClose }) {
                                                         children: "Real-time EEG brainwave tracking for improved focus and optimized mental performance."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 947,
+                                                        lineNumber: 948,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2692,31 +2728,31 @@ function SideMenu({ isOpen, onClose }) {
                                                                 children: "→"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                lineNumber: 977,
+                                                                lineNumber: 978,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                        lineNumber: 958,
+                                                        lineNumber: 959,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 935,
+                                                lineNumber: 936,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 879,
+                                        lineNumber: 880,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 640,
+                                lineNumber: 641,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2741,7 +2777,7 @@ function SideMenu({ isOpen, onClose }) {
                                         children: "GET IN TOUCH"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 995,
+                                        lineNumber: 996,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2788,7 +2824,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Villa - Location"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1040,
+                                                                            lineNumber: 1041,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2802,26 +2838,26 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "Rain drops Wellness Villa Sinharaja, ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1058,
+                                                                                    lineNumber: 1059,
                                                                                     columnNumber: 62
                                                                                 }, this),
                                                                                 "Dolagahawaththa,",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1060,
+                                                                                    lineNumber: 1061,
                                                                                     columnNumber: 25
                                                                                 }, this),
                                                                                 "Mederipitiya ,Deniyaya."
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1050,
+                                                                            lineNumber: 1051,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1039,
+                                                                    lineNumber: 1040,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2839,7 +2875,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Head Office - Sri Lanka"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1066,
+                                                                            lineNumber: 1067,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2853,26 +2889,26 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "INTT Leisure Private Limited",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1085,
+                                                                                    lineNumber: 1086,
                                                                                     columnNumber: 25
                                                                                 }, this),
                                                                                 "No.26/6, Major LV Gunaratna Mawatha, Station Road, Dehiwala,",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1088,
+                                                                                    lineNumber: 1089,
                                                                                     columnNumber: 25
                                                                                 }, this),
                                                                                 "Sri Lanka."
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1076,
+                                                                            lineNumber: 1077,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1065,
+                                                                    lineNumber: 1066,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2887,7 +2923,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Head Office - USA"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1094,
+                                                                            lineNumber: 1095,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2901,32 +2937,32 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "INT Terminal, ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1112,
+                                                                                    lineNumber: 1113,
                                                                                     columnNumber: 39
                                                                                 }, this),
                                                                                 "1803 Wicklow Road Naperville, ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1113,
+                                                                                    lineNumber: 1114,
                                                                                     columnNumber: 55
                                                                                 }, this),
                                                                                 " IL 60564, Chicago, USA."
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1104,
+                                                                            lineNumber: 1105,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1093,
+                                                                    lineNumber: 1094,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 1033,
+                                                            lineNumber: 1034,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2950,7 +2986,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Telephone"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1127,
+                                                                            lineNumber: 1128,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2964,20 +3000,20 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "+94 774 48 48 48 ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1145,
+                                                                                    lineNumber: 1146,
                                                                                     columnNumber: 42
                                                                                 }, this),
                                                                                 "+1 312-242-1662"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1137,
+                                                                            lineNumber: 1138,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1126,
+                                                                    lineNumber: 1127,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2992,7 +3028,7 @@ function SideMenu({ isOpen, onClose }) {
                                                                             children: "Email"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1151,
+                                                                            lineNumber: 1152,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3006,37 +3042,37 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 "info@raindrops.lk ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                                    lineNumber: 1169,
+                                                                                    lineNumber: 1170,
                                                                                     columnNumber: 43
                                                                                 }, this),
                                                                                 "info@intterminal.com"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                            lineNumber: 1161,
+                                                                            lineNumber: 1162,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                                    lineNumber: 1150,
+                                                                    lineNumber: 1151,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                            lineNumber: 1120,
+                                                            lineNumber: 1121,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 1024,
+                                                    lineNumber: 1025,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 1015,
+                                                lineNumber: 1016,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3076,36 +3112,36 @@ function SideMenu({ isOpen, onClose }) {
                                                     children: "Book Now"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                    lineNumber: 1184,
+                                                    lineNumber: 1185,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                                lineNumber: 1178,
+                                                lineNumber: 1179,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                        lineNumber: 1008,
+                                        lineNumber: 1009,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                                lineNumber: 985,
+                                lineNumber: 986,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                        lineNumber: 581,
+                        lineNumber: 582,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                lineNumber: 139,
+                lineNumber: 140,
                 columnNumber: 7
             }, this),
             shouldRender && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3122,7 +3158,7 @@ function SideMenu({ isOpen, onClose }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/SideMenu.jsx",
-                lineNumber: 1224,
+                lineNumber: 1225,
                 columnNumber: 9
             }, this)
         ]
@@ -3827,17 +3863,33 @@ function HeaderOne() {
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                                                 role: "menuitem",
                                                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                    href: "/travelpartners",
+                                                                                                    onClick: (e)=>handleNavigation(e, "/travelpartners"),
+                                                                                                    children: "Travel Partners"
+                                                                                                }, void 0, false, {
+                                                                                                    fileName: "[project]/src/app/home-1/Header.jsx",
+                                                                                                    lineNumber: 516,
+                                                                                                    columnNumber: 35
+                                                                                                }, this)
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/src/app/home-1/Header.jsx",
+                                                                                                lineNumber: 515,
+                                                                                                columnNumber: 33
+                                                                                            }, this),
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                                role: "menuitem",
+                                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                                                     href: "/living",
                                                                                                     onClick: (e)=>handleNavigation(e, "/living"),
                                                                                                     children: "A Living Partnership"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                                    lineNumber: 515,
+                                                                                                    lineNumber: 528,
                                                                                                     columnNumber: 35
                                                                                                 }, this)
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                                lineNumber: 514,
+                                                                                                lineNumber: 527,
                                                                                                 columnNumber: 33
                                                                                             }, this)
                                                                                         ]
@@ -3860,12 +3912,12 @@ function HeaderOne() {
                                                                                     children: "Contact Us"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 527,
+                                                                                    lineNumber: 540,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 526,
+                                                                                lineNumber: 539,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -3876,12 +3928,12 @@ function HeaderOne() {
                                                                                     children: "Privacy & Policy"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 535,
+                                                                                    lineNumber: 548,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 534,
+                                                                                lineNumber: 547,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -3892,12 +3944,12 @@ function HeaderOne() {
                                                                                     children: "Location & Weather"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 543,
+                                                                                    lineNumber: 556,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 542,
+                                                                                lineNumber: 555,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -3908,12 +3960,12 @@ function HeaderOne() {
                                                                                     children: "Beautiful Sri Lanka"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 551,
+                                                                                    lineNumber: 564,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 550,
+                                                                                lineNumber: 563,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         ]
@@ -3972,17 +4024,17 @@ function HeaderOne() {
                                                             children: "Reserve Now"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 601,
+                                                            lineNumber: 614,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Header.jsx",
-                                                        lineNumber: 574,
+                                                        lineNumber: 587,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                    lineNumber: 569,
+                                                    lineNumber: 582,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3994,23 +4046,23 @@ function HeaderOne() {
                                                             alt: "menu"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 609,
+                                                            lineNumber: 622,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Header.jsx",
-                                                        lineNumber: 608,
+                                                        lineNumber: 621,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                    lineNumber: 604,
+                                                    lineNumber: 617,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                            lineNumber: 568,
+                                            lineNumber: 581,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -4039,31 +4091,31 @@ function HeaderOne() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                lineNumber: 616,
+                                lineNumber: 629,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     marginTop: "-20px"
                                 },
-                                className: "jsx-3478accadf3750c2" + " " + "rts__section advance__search__section is__home__one",
+                                className: "jsx-b2864fe93c2b8958" + " " + "rts__section advance__search__section is__home__one",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-3478accadf3750c2" + " " + "container",
+                                        className: "jsx-b2864fe93c2b8958" + " " + "container",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-3478accadf3750c2" + " " + "row",
+                                            className: "jsx-b2864fe93c2b8958" + " " + "row",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                                 action: "#",
                                                 method: "post",
-                                                className: "jsx-3478accadf3750c2" + " " + "advance__search",
+                                                className: "jsx-b2864fe93c2b8958" + " " + "advance__search",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-3478accadf3750c2" + " " + "advance__search__wrapper",
+                                                    className: "jsx-b2864fe93c2b8958" + " " + "advance__search__wrapper",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             style: {
                                                                 minWidth: 260
                                                             },
-                                                            className: "jsx-3478accadf3750c2" + " " + "query__input",
+                                                            className: "jsx-b2864fe93c2b8958" + " " + "query__input",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$datepicker$2f$dist$2f$index$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                 ref: datePickerRef,
                                                                 placeholderText: " 📆︎ Check-In / Check-Out",
@@ -4086,27 +4138,27 @@ function HeaderOne() {
                                                                         cursor: "pointer",
                                                                         backgroundColor: "#fff"
                                                                     },
-                                                                    className: "jsx-3478accadf3750c2"
+                                                                    className: "jsx-b2864fe93c2b8958"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                    lineNumber: 651,
+                                                                    lineNumber: 664,
                                                                     columnNumber: 29
                                                                 }, void 0)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                lineNumber: 641,
+                                                                lineNumber: 654,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 640,
+                                                            lineNumber: 653,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             style: {
                                                                 position: "relative"
                                                             },
-                                                            className: "jsx-3478accadf3750c2" + " " + "query__input guest-input",
+                                                            className: "jsx-b2864fe93c2b8958" + " " + "query__input guest-input",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                     id: "guests",
@@ -4129,34 +4181,34 @@ function HeaderOne() {
                                                                         zIndex: 1,
                                                                         marginLeft: "4px"
                                                                     },
-                                                                    className: "jsx-3478accadf3750c2" + " " + "guest-summary",
+                                                                    className: "jsx-b2864fe93c2b8958" + " " + "guest-summary",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             style: {
                                                                                 color: "#666"
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2",
+                                                                            className: "jsx-b2864fe93c2b8958",
                                                                             children: "Adults/ Child/ Rooms"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 697,
+                                                                            lineNumber: 710,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             style: {
                                                                                 marginLeft: 8
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2",
+                                                                            className: "jsx-b2864fe93c2b8958",
                                                                             children: openGuest ? "▴" : "▾"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 700,
+                                                                            lineNumber: 713,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                    lineNumber: 674,
+                                                                    lineNumber: 687,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 openGuest && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4175,7 +4227,7 @@ function HeaderOne() {
                                                                         borderRadius: 8,
                                                                         boxShadow: "0 6px 18px rgba(0,0,0,0.08)"
                                                                     },
-                                                                    className: "jsx-3478accadf3750c2" + " " + "guest-dropdown",
+                                                                    className: "jsx-b2864fe93c2b8958" + " " + "guest-dropdown",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             style: {
@@ -4184,20 +4236,20 @@ function HeaderOne() {
                                                                                 alignItems: "center",
                                                                                 marginBottom: 10
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2" + " " + "guest-row",
+                                                                            className: "jsx-b2864fe93c2b8958" + " " + "guest-row",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                             style: {
                                                                                                 fontWeight: 600
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Adults"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 736,
+                                                                                            lineNumber: 749,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4205,17 +4257,17 @@ function HeaderOne() {
                                                                                                 fontSize: 12,
                                                                                                 color: "#666"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Ages 13 or above"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 737,
+                                                                                            lineNumber: 750,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 735,
+                                                                                    lineNumber: 748,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4224,7 +4276,7 @@ function HeaderOne() {
                                                                                         alignItems: "center",
                                                                                         gap: 8
                                                                                     },
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                             type: "button",
@@ -4238,11 +4290,11 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 748,
+                                                                                            lineNumber: 761,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4250,11 +4302,11 @@ function HeaderOne() {
                                                                                                 minWidth: 24,
                                                                                                 textAlign: "center"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: adults
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 763,
+                                                                                            lineNumber: 776,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4269,23 +4321,23 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 768,
+                                                                                            lineNumber: 781,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 741,
+                                                                                    lineNumber: 754,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 726,
+                                                                            lineNumber: 739,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4295,20 +4347,20 @@ function HeaderOne() {
                                                                                 alignItems: "center",
                                                                                 marginBottom: 10
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2" + " " + "guest-row",
+                                                                            className: "jsx-b2864fe93c2b8958" + " " + "guest-row",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                             style: {
                                                                                                 fontWeight: 600
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Children"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 797,
+                                                                                            lineNumber: 810,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4316,17 +4368,17 @@ function HeaderOne() {
                                                                                                 fontSize: 12,
                                                                                                 color: "#666"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Ages 0–12"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 798,
+                                                                                            lineNumber: 811,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 796,
+                                                                                    lineNumber: 809,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4335,7 +4387,7 @@ function HeaderOne() {
                                                                                         alignItems: "center",
                                                                                         gap: 8
                                                                                     },
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                             type: "button",
@@ -4349,11 +4401,11 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 809,
+                                                                                            lineNumber: 822,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4361,11 +4413,11 @@ function HeaderOne() {
                                                                                                 minWidth: 24,
                                                                                                 textAlign: "center"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: children
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 824,
+                                                                                            lineNumber: 837,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4380,23 +4432,23 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 829,
+                                                                                            lineNumber: 842,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 802,
+                                                                                    lineNumber: 815,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 787,
+                                                                            lineNumber: 800,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4406,20 +4458,20 @@ function HeaderOne() {
                                                                                 alignItems: "center",
                                                                                 marginBottom: 6
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2" + " " + "guest-row",
+                                                                            className: "jsx-b2864fe93c2b8958" + " " + "guest-row",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                             style: {
                                                                                                 fontWeight: 600
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "Rooms"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 858,
+                                                                                            lineNumber: 871,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4427,16 +4479,16 @@ function HeaderOne() {
                                                                                                 fontSize: 12,
                                                                                                 color: "#666"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2"
+                                                                                            className: "jsx-b2864fe93c2b8958"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 859,
+                                                                                            lineNumber: 872,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 857,
+                                                                                    lineNumber: 870,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4445,7 +4497,7 @@ function HeaderOne() {
                                                                                         alignItems: "center",
                                                                                         gap: 8
                                                                                     },
-                                                                                    className: "jsx-3478accadf3750c2",
+                                                                                    className: "jsx-b2864fe93c2b8958",
                                                                                     children: [
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                             type: "button",
@@ -4459,11 +4511,11 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "−"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 870,
+                                                                                            lineNumber: 883,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4471,11 +4523,11 @@ function HeaderOne() {
                                                                                                 minWidth: 24,
                                                                                                 textAlign: "center"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: rooms
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 885,
+                                                                                            lineNumber: 898,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4490,23 +4542,23 @@ function HeaderOne() {
                                                                                                 background: "#fff",
                                                                                                 cursor: "pointer"
                                                                                             },
-                                                                                            className: "jsx-3478accadf3750c2",
+                                                                                            className: "jsx-b2864fe93c2b8958",
                                                                                             children: "+"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                            lineNumber: 890,
+                                                                                            lineNumber: 903,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                    lineNumber: 863,
+                                                                                    lineNumber: 876,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 848,
+                                                                            lineNumber: 861,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4515,7 +4567,7 @@ function HeaderOne() {
                                                                                 justifyContent: "flex-end",
                                                                                 gap: 8
                                                                             },
-                                                                            className: "jsx-3478accadf3750c2",
+                                                                            className: "jsx-b2864fe93c2b8958",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                 type: "button",
                                                                                 onClick: ()=>setOpenGuest(false),
@@ -4525,32 +4577,32 @@ function HeaderOne() {
                                                                                     border: "1px solid #ddd",
                                                                                     background: "#fff"
                                                                                 },
-                                                                                className: "jsx-3478accadf3750c2",
+                                                                                className: "jsx-b2864fe93c2b8958",
                                                                                 children: "Done"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                                lineNumber: 916,
+                                                                                lineNumber: 929,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                            lineNumber: 909,
+                                                                            lineNumber: 922,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                    lineNumber: 707,
+                                                                    lineNumber: 720,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 670,
+                                                            lineNumber: 683,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-3478accadf3750c2" + " " + "query__input",
+                                                            className: "jsx-b2864fe93c2b8958" + " " + "query__input",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                 style: {
                                                                     marginLeft: "4px",
@@ -4561,22 +4613,22 @@ function HeaderOne() {
                                                                 },
                                                                 type: "text",
                                                                 placeholder: " Promo Code",
-                                                                className: "jsx-3478accadf3750c2"
+                                                                className: "jsx-b2864fe93c2b8958"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                lineNumber: 935,
+                                                                lineNumber: 948,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 934,
+                                                            lineNumber: 947,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                             href: buildHotelUrl(),
                                                             target: "_blank",
                                                             rel: "noopener noreferrer",
-                                                            className: "jsx-3478accadf3750c2",
+                                                            className: "jsx-b2864fe93c2b8958",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                 style: {
                                                                     background: "#ffff",
@@ -4588,54 +4640,54 @@ function HeaderOne() {
                                                                 },
                                                                 type: "button",
                                                                 disabled: !startDate || !endDate,
-                                                                className: "jsx-3478accadf3750c2" + " " + "theme-btn search__btn",
+                                                                className: "jsx-b2864fe93c2b8958" + " " + "theme-btn search__btn",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-3478accadf3750c2",
+                                                                    className: "jsx-b2864fe93c2b8958",
                                                                     children: "Check Availability"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                    lineNumber: 967,
+                                                                    lineNumber: 980,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                                lineNumber: 954,
+                                                                lineNumber: 967,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                                            lineNumber: 949,
+                                                            lineNumber: 962,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/Header.jsx",
-                                                    lineNumber: 638,
+                                                    lineNumber: 651,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                                lineNumber: 637,
+                                                lineNumber: 650,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Header.jsx",
-                                            lineNumber: 636,
+                                            lineNumber: 649,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Header.jsx",
-                                        lineNumber: 635,
+                                        lineNumber: 648,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        id: "3478accadf3750c2",
-                                        children: ".advance__search__wrapper.jsx-3478accadf3750c2{z-index:10;position:relative;overflow:visible}.guest-dropdown.jsx-3478accadf3750c2{z-index:9999}.rts__section.advance__search__section.jsx-3478accadf3750c2{z-index:20;position:relative}.react-datepicker.jsx-3478accadf3750c2{transition:opacity .2s}.navigation__menu--item__link.jsx-3478accadf3750c2{cursor:pointer;text-decoration:none;transition:color .3s}.navigation__menu--item__link.jsx-3478accadf3750c2:hover{color:#ab8a62}@media screen and (width<=767px){.desktop-reserve-btn.jsx-3478accadf3750c2{display:none!important}.top-banner-header.jsx-3478accadf3750c2 .container.jsx-3478accadf3750c2>div.jsx-3478accadf3750c2 a[href=\\/].jsx-3478accadf3750c2{left:50%;transform:translate(-50%)}}@media screen and (width<=768px){.advance__search.jsx-3478accadf3750c2{display:none}.container.jsx-3478accadf3750c2>div.jsx-3478accadf3750c2:first-child{margin-top:18px!important}.top-banner-header.jsx-3478accadf3750c2{padding:0 px}.main__header__wrapper.jsx-3478accadf3750c2{align-items:center!important;height:auto!important;min-height:auto!important;padding:10px 0!important}.top-banner-header.jsx-3478accadf3750c2 .container.jsx-3478accadf3750c2>div.jsx-3478accadf3750c2{padding:15px 0}.topbar.jsx-3478accadf3750c2{margin-top:-80px}.top-banner-header.jsx-3478accadf3750c2 img.jsx-3478accadf3750c2{width:140px!important;height:46px!important}}.line.jsx-3478accadf3750c2{display:none}.main__header__wrapper.jsx-3478accadf3750c2{align-items:center!important;height:auto!important;min-height:auto!important;padding:10px 0!important}.topbar.jsx-3478accadf3750c2{margin-top:-80px}.container.jsx-3478accadf3750c2>div.jsx-3478accadf3750c2:first-child{margin-top:18px!important}@media (width>=768px) and (width<=991px){.logo__class.jsx-3478accadf3750c2{margin-right:50px!important}}@media (width>=992px) and (width<=1199px){.logo__class.jsx-3478accadf3750c2{margin-right:80px!important}}@media (width>=1200px) and (width<=1399px){.logo__class.jsx-3478accadf3750c2{margin-right:50px!important}}@media (width>=1400px){.logo__class.jsx-3478accadf3750c2{margin-right:10px!important}}@media screen and (width>=769px) and (width<=1440px){.main__header__wrapper.jsx-3478accadf3750c2{display:none}}"
+                                        id: "b2864fe93c2b8958",
+                                        children: ".advance__search__wrapper.jsx-b2864fe93c2b8958{z-index:10;position:relative;overflow:visible}.guest-dropdown.jsx-b2864fe93c2b8958{z-index:9999}.rts__section.advance__search__section.jsx-b2864fe93c2b8958{z-index:20;position:relative}.react-datepicker.jsx-b2864fe93c2b8958{transition:opacity .2s}.navigation__menu--item__link.jsx-b2864fe93c2b8958{cursor:pointer;text-decoration:none;transition:color .3s}.navigation__menu--item__link.jsx-b2864fe93c2b8958:hover{color:#ab8a62}.sub-submenu.jsx-b2864fe93c2b8958 li[role=menuitem].jsx-b2864fe93c2b8958:last-child{background-color:red;padding-bottom:15px}.submenu.jsx-b2864fe93c2b8958>li[role=menuitem].jsx-b2864fe93c2b8958:last-child{padding-bottom:15px}@media screen and (width<=767px){.desktop-reserve-btn.jsx-b2864fe93c2b8958{display:none!important}.top-banner-header.jsx-b2864fe93c2b8958 .container.jsx-b2864fe93c2b8958>div.jsx-b2864fe93c2b8958 a[href=\\/].jsx-b2864fe93c2b8958{left:50%;transform:translate(-50%)}}@media screen and (width<=768px){.advance__search.jsx-b2864fe93c2b8958{display:none}.container.jsx-b2864fe93c2b8958>div.jsx-b2864fe93c2b8958:first-child{margin-top:18px!important}.top-banner-header.jsx-b2864fe93c2b8958{padding:0 px}.main__header__wrapper.jsx-b2864fe93c2b8958{align-items:center!important;height:auto!important;min-height:auto!important;padding:10px 0!important}.top-banner-header.jsx-b2864fe93c2b8958 .container.jsx-b2864fe93c2b8958>div.jsx-b2864fe93c2b8958{padding:15px 0}.topbar.jsx-b2864fe93c2b8958{margin-top:-80px}.top-banner-header.jsx-b2864fe93c2b8958 img.jsx-b2864fe93c2b8958{width:140px!important;height:46px!important}}.line.jsx-b2864fe93c2b8958{display:none}.main__header__wrapper.jsx-b2864fe93c2b8958{align-items:center!important;height:auto!important;min-height:auto!important;padding:10px 0!important}.topbar.jsx-b2864fe93c2b8958{margin-top:-80px}.container.jsx-b2864fe93c2b8958>div.jsx-b2864fe93c2b8958:first-child{margin-top:18px!important}@media (width>=768px) and (width<=991px){.logo__class.jsx-b2864fe93c2b8958{margin-right:50px!important}}@media (width>=992px) and (width<=1199px){.logo__class.jsx-b2864fe93c2b8958{margin-right:80px!important}}@media (width>=1200px) and (width<=1399px){.logo__class.jsx-b2864fe93c2b8958{margin-right:50px!important}}@media (width>=1400px){.logo__class.jsx-b2864fe93c2b8958{margin-right:10px!important}}@media screen and (width>=769px) and (width<=1440px){.main__header__wrapper.jsx-b2864fe93c2b8958{display:none}}"
                                     }, void 0, false, void 0, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/Header.jsx",
-                                lineNumber: 631,
+                                lineNumber: 644,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -4659,7 +4711,7 @@ function HeaderOne() {
                 onClose: ()=>setIsOffcanvasOpen(false)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/Header.jsx",
-                lineNumber: 1105,
+                lineNumber: 1128,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$home$2d$1$2f$SideMenu$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4667,7 +4719,7 @@ function HeaderOne() {
                 onClose: ()=>setIsMenuOpen(false)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/Header.jsx",
-                lineNumber: 1110,
+                lineNumber: 1133,
                 columnNumber: 7
             }, this)
         ]
@@ -4851,19 +4903,11 @@ function BannerOne() {
                                                     zIndex: 3
                                                 },
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "h6 subtitle__icon",
-                                                        children: "Welcome to Our Wellness Villa"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                        lineNumber: 144,
-                                                        columnNumber: 23
-                                                    }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                         children: "Luxury Stay, Villa Experience Comfort & Elegance"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 145,
                                                         columnNumber: 23
                                                     }, this),
                                                     isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4875,17 +4919,17 @@ function BannerOne() {
                                                                 children: "Reserve Now"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                                lineNumber: 158,
+                                                                lineNumber: 156,
                                                                 columnNumber: 29
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                            lineNumber: 154,
+                                                            lineNumber: 152,
                                                             columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 151,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
@@ -4949,7 +4993,7 @@ function BannerOne() {
                                                 fill: "#F1F1F1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                lineNumber: 189,
+                                                lineNumber: 187,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -4957,23 +5001,23 @@ function BannerOne() {
                                                 fill: "#F1F1F1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                lineNumber: 193,
+                                                lineNumber: 191,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                                        lineNumber: 182,
+                                        lineNumber: 180,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/Banner.jsx",
-                                    lineNumber: 181,
+                                    lineNumber: 179,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                lineNumber: 180,
+                                lineNumber: 178,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4993,7 +5037,7 @@ function BannerOne() {
                                                 fill: "#F1F1F1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                lineNumber: 209,
+                                                lineNumber: 207,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -5001,29 +5045,29 @@ function BannerOne() {
                                                 fill: "#F1F1F1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                                lineNumber: 213,
+                                                lineNumber: 211,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                                        lineNumber: 202,
+                                        lineNumber: 200,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/Banner.jsx",
-                                    lineNumber: 201,
+                                    lineNumber: 199,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Banner.jsx",
-                                lineNumber: 200,
+                                lineNumber: 198,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/Banner.jsx",
-                        lineNumber: 168,
+                        lineNumber: 166,
                         columnNumber: 11
                     }, this)
                 ]
@@ -5062,7 +5106,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
-'use client';
+"use client";
 ;
 ;
 ;
@@ -5089,12 +5133,12 @@ function AboutOne() {
                 }, void 0, false, {
                     fileName: "[project]/src/app/home-1/About.jsx",
                     lineNumber: 16,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/About.jsx",
                 lineNumber: 15,
-                columnNumber: 13
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
@@ -5112,77 +5156,27 @@ function AboutOne() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "jara-mask-1 jarallax image-height pt-0",
                                             "data-rellax-speed": "2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/about/N1.jpg",
-                                                    alt: "Background",
-                                                    fill: true,
-                                                    sizes: "(max-width: 768px) 100vw, 50vw",
-                                                    className: "jarallax-img rellax",
-                                                    priority: false
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 26,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/about/N1.jpg",
-                                                    alt: "Background",
-                                                    fill: true,
-                                                    sizes: "(max-width: 768px) 100vw, 50vw",
-                                                    className: "jarallax-img rellax",
-                                                    priority: false
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 34,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/about/N1.jpg",
-                                                    alt: "Background",
-                                                    fill: true,
-                                                    sizes: "(max-width: 768px) 100vw, 50vw",
-                                                    className: "jarallax-img rellax",
-                                                    priority: false
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 42,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/about/N1.jpg",
-                                                    alt: "Background",
-                                                    fill: true,
-                                                    sizes: "(max-width: 768px) 100vw, 50vw",
-                                                    className: "jarallax-img rellax",
-                                                    priority: false
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 50,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/about/N1.jpg",
-                                                    alt: "Background",
-                                                    fill: true,
-                                                    sizes: "(max-width: 768px) 100vw, 50vw",
-                                                    className: "jarallax-img rellax",
-                                                    priority: false
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 58,
-                                                    columnNumber: 37
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/assets/images/about/N1.jpg",
+                                                alt: "Background",
+                                                fill: true,
+                                                sizes: "(max-width: 768px) 100vw, 50vw",
+                                                className: "jarallax-img rellax rellax-img",
+                                                priority: false
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/home-1/About.jsx",
+                                                lineNumber: 31,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/About.jsx",
-                                            lineNumber: 23,
-                                            columnNumber: 33
+                                            lineNumber: 26,
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
                                         lineNumber: 22,
-                                        columnNumber: 29
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "image__card radius-10 wow fadeInUp",
@@ -5194,64 +5188,66 @@ function AboutOne() {
                                                     className: "flaticon-people"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 70,
-                                                    columnNumber: 37
+                                                    lineNumber: 46,
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 69,
-                                                columnNumber: 33
+                                                lineNumber: 45,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "content",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: [
-                                                        " Exceptional Minds",
+                                                        " ",
+                                                        "Exceptional Minds",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/About.jsx",
-                                                            lineNumber: 74,
-                                                            columnNumber: 58
+                                                            lineNumber: 51,
+                                                            columnNumber: 38
                                                         }, this),
                                                         "At work"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/About.jsx",
-                                                    lineNumber: 74,
-                                                    columnNumber: 37
+                                                    lineNumber: 49,
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 72,
-                                                columnNumber: 33
+                                                lineNumber: 48,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 68,
-                                        columnNumber: 29
+                                        lineNumber: 41,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "image__card__image wow fadeInUp",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             src: "/assets/images/about/N.jpg",
                                             width: 312,
                                             height: 230,
-                                            alt: "About"
+                                            alt: "About Rain Drops",
+                                            loading: "lazy"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/About.jsx",
-                                            lineNumber: 78,
-                                            columnNumber: 33
+                                            lineNumber: 56,
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 77,
-                                        columnNumber: 29
+                                        lineNumber: 55,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/About.jsx",
                                 lineNumber: 21,
-                                columnNumber: 25
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "content",
@@ -5261,88 +5257,89 @@ function AboutOne() {
                                         children: "Where Mind Meets Nature"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 88,
-                                        columnNumber: 29
+                                        lineNumber: 67,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "content__subtitle wow fadeInUp",
                                         "data-wow-delay": ".3s",
                                         children: [
-                                            "A rare and refined wellness experience for those who seek more than a retreat,  they seek themselves. Just a mile from the ",
+                                            "A rare and refined wellness experience for those who seek more than a retreat, they seek themselves. Just a mile from the",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 style: {
-                                                    color: '#a8915b'
+                                                    color: "#a8915b"
                                                 },
                                                 children: "Sinharaja UNESCO Rainforest"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 93,
-                                                columnNumber: 53
+                                                lineNumber: 76,
+                                                columnNumber: 17
                                             }, this),
                                             ", Rain Drops is an intimate sanctuary where original mindfulness, advanced neuroscience, presidential-level culinary mastery, and a private research center come together exclusively for you.",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 94,
-                                                columnNumber: 33
+                                                lineNumber: 83,
+                                                columnNumber: 17
                                             }, this),
-                                            "  ",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 94,
-                                                columnNumber: 44
+                                                lineNumber: 83,
+                                                columnNumber: 27
                                             }, this),
                                             "Here, nature doesn’t just surround you, it welcomes you, aligns with you, and restores you. Your stay is curated to help you cultivate calm and truly enjoy it through: mind-designed cuisine, forest-guided meditations, real-time brain clarity tracking, and villa interiors crafted with natural luxury and quiet elegance.",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 101,
-                                                columnNumber: 34
+                                                lineNumber: 90,
+                                                columnNumber: 17
                                             }, this),
-                                            "  ",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 101,
-                                                columnNumber: 45
+                                                lineNumber: 90,
+                                                columnNumber: 27
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 children: "At Rain Drops, where luxury becomes personal, science becomes human, and the rainforest becomes your private guide to clarity."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                                lineNumber: 102,
-                                                columnNumber: 35
+                                                lineNumber: 91,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/About.jsx",
-                                        lineNumber: 91,
-                                        columnNumber: 29
+                                        lineNumber: 70,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/About.jsx",
-                                lineNumber: 86,
-                                columnNumber: 25
+                                lineNumber: 65,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home-1/About.jsx",
                         lineNumber: 20,
-                        columnNumber: 21
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/home-1/About.jsx",
                     lineNumber: 19,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/About.jsx",
                 lineNumber: 18,
-                columnNumber: 13
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/home-1/About.jsx",
         lineNumber: 14,
-        columnNumber: 9
+        columnNumber: 5
     }, this);
 }
 _s(AboutOne, "OD7bBpZva5O2jO+Puf00hKivP7c=");
@@ -6012,127 +6009,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$sw
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/index.mjs [app-client] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$navigation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/navigation.mjs [app-client] (ecmascript) <export default as Navigation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$autoplay$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Autoplay$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/autoplay.mjs [app-client] (ecmascript) <export default as Autoplay>");
-// 'use client'
-// import React from 'react'
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/swiper-bundle.css'; // Core Swiper styles
-// import { Navigation } from 'swiper/modules';
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/scrollbar';
-// function TestimonialOne() {
-//     return (
-//         <>
-//             {/* client testimonial  */}
-//             <div className="rts__section section__padding testimonial has__shape">
-//                 <div className="container">
-//                     <div className="row mb-40">
-//                         <div className="d-flex align-items-center justify-content-between position-relative">
-//                             <div className="section__content__left">
-//                                 <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-//                                     Testimonial
-//                                 </span>
-//                                 <h2 className="content__title h2 lh-1">What Our Client Say</h2>
-//                             </div>
-//                             <div className="slider__navigation">
-//                                 <div className="nav__btn button-next">
-//                                     <img src="/assets/images/icon/arrow-left-short.svg" alt="" />
-//                                 </div>
-//                                 <div className="nav__btn button-prev">
-//                                     <img src="/assets/images/icon/arrow-right-short.svg" alt="" />
-//                                 </div>
-//                             </div>
-//                         </div>
-//                     </div>
-//                     <div className="row">
-//                         <div className="col-lg-11">
-//                             <div className="">
-//                                 <Swiper
-//                                     className="testimonial__slider overflow-hidden"
-//                                     modules={[Navigation]}
-//                                     direction="horizontal"
-//                                     slidesPerView={1}
-//                                     spaceBetween={0}
-//                                     loop={true}
-//                                     centeredSlides={true}
-//                                     autoplay="false"
-//                                     navigation={{
-//                                         nextEl: ".button-next",
-//                                         prevEl: ".button-prev",
-//                                     }}
-//                                     speed={1000}
-//                                     effect="slide"
-//                                 >
-//                                     <SwiperSlide>
-//                                         <div className="testimonial__item__content">
-//                                             <div className="author__icon">
-//                                                   <img src="https://i.postimg.cc/kgz1YJtL/ludema.jpg" alt="" />
-//                                             </div>
-//                                             <div className="testimonial__content">
-//                                                 <div className="single__slider__item ">
-//                                                     <div className="slider__rating mb-20">
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star-sharp-half-stroke" /> */}
-//                                                          <h4 className="topic-title"style={{ fontSize: '1.8rem' }}>Where Beauty Meets Mindfulness</h4>
-//                                                     </div>
-//                                                    <span className="slider__text d-block mb-20" style={{ fontSize: '1.125rem', lineHeight: '1.3' }}>
-//                                                        Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation.
-// That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends.
-//                                                     </span>
-//                                                     <div className="slider__author__info">
-//                                                         <div className="slider__author__info__content">
-//                                                             <h6 className="mb-0"style={{ fontSize: '1.2rem' }}>Dr. Jim Ludema</h6>
-//                                                             {/* <span>COO of Apex Solutions</span> */}
-//                                                         </div>
-//                                                     </div>
-//                                                 </div>
-//                                             </div>
-//                                         </div>
-//                                     </SwiperSlide>
-//                                     <SwiperSlide>
-//                                         <div className="testimonial__item__content">
-//                                             <div className="author__icon">
-//                                                 <img src="https://i.postimg.cc/XYGxCRDB/ludema2.jpg" alt="" />
-//                                             </div>
-//                                             <div className="testimonial__content">
-//                                                 <div className="single__slider__item ">
-//                                                     <div className="slider__rating mb-20">
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star" /> */}
-//                                                         {/* <i className="flaticon-star-sharp-half-stroke" /> */}
-//                                                          <h4 className="topic-title"style={{ fontSize: '1.8rem' }}>An Unforgettable Journey</h4>
-//                                                     </div>
-//                                                   <span className="slider__text d-block mb-20" style={{ fontSize: '1.125rem', lineHeight: '1.3' }}>
-//                                                        The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years.
-//                                                        Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life.
-//                                                     </span>
-//                                                     <div className="slider__author__info">
-//                                                         <div className="slider__author__info__content">
-//                                                             <h6 className="mb-0"style={{ fontSize: '1.2rem' }}>Dr. Beverly Ludema</h6>
-//                                                             {/* <span>COO of Apex Solutions</span> */}
-//                                                         </div>
-//                                                     </div>
-//                                                 </div>
-//                                             </div>
-//                                         </div>
-//                                     </SwiperSlide>
-//                                 </Swiper>
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//             {/* client testimonial  end */}
-//         </>
-//     )
-// }
-// export default TestimonialOne
 "use client";
 ;
 ;
@@ -6148,64 +6024,64 @@ function TestimonialOne() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-28b5419449c9da3e" + " " + "rts__section section__padding testimonial has__shape",
+                className: "jsx-589c09c631ba1ca1" + " " + "rts__section section__padding testimonial has__shape",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-28b5419449c9da3e" + " " + "container",
+                    className: "jsx-589c09c631ba1ca1" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-28b5419449c9da3e" + " " + "row ",
+                            className: "jsx-589c09c631ba1ca1" + " " + "row ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-28b5419449c9da3e" + " " + "row justify-content-center text-center mb-40",
+                                className: "jsx-589c09c631ba1ca1" + " " + "row justify-content-center text-center mb-40",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-aos": "fade-up",
                                     "data-aos-delay": "300",
-                                    className: "jsx-28b5419449c9da3e" + " " + "col-lg-6",
+                                    className: "jsx-589c09c631ba1ca1" + " " + "col-lg-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-28b5419449c9da3e" + " " + "section__topbar",
+                                        className: "jsx-589c09c631ba1ca1" + " " + "section__topbar",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-28b5419449c9da3e" + " " + "h6 subtitle__icon__three mx-auto",
+                                                className: "jsx-589c09c631ba1ca1" + " " + "h6 subtitle__icon__three mx-auto",
                                                 children: "Testimonial"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 148,
+                                                lineNumber: 21,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-28b5419449c9da3e" + " " + "content__title h2 lh-1",
+                                                className: "jsx-589c09c631ba1ca1" + " " + "content__title h2 lh-1",
                                                 children: "what our client say"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 151,
+                                                lineNumber: 24,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                        lineNumber: 147,
+                                        lineNumber: 20,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                    lineNumber: 146,
+                                    lineNumber: 19,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                lineNumber: 145,
+                                lineNumber: 18,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                            lineNumber: 144,
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-28b5419449c9da3e" + " " + "row",
+                            className: "jsx-589c09c631ba1ca1" + " " + "row",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-28b5419449c9da3e" + " " + "col-lg-11",
+                                className: "jsx-589c09c631ba1ca1" + " " + "col-lg-11",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-28b5419449c9da3e" + " " + "",
+                                    className: "jsx-589c09c631ba1ca1" + " " + "",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Swiper"], {
                                         className: "testimonial__slider overflow-hidden",
                                         modules: [
@@ -6231,243 +6107,317 @@ function TestimonialOne() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-28b5419449c9da3e" + " " + "testimonial__item__content",
+                                                    className: "jsx-589c09c631ba1ca1" + " " + "testimonial__item__content",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-28b5419449c9da3e" + " " + "author__icon",
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "author__icon",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: "https://i.postimg.cc/kgz1YJtL/ludema.jpg",
-                                                                alt: "",
-                                                                className: "jsx-28b5419449c9da3e"
+                                                                alt: "Dr. Jim Ludema",
+                                                                loading: "lazy",
+                                                                className: "jsx-589c09c631ba1ca1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 57,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 183,
+                                                            lineNumber: 56,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-28b5419449c9da3e" + " " + "testimonial__content",
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "testimonial__content",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-28b5419449c9da3e" + " " + "single__slider__item ",
+                                                                className: "jsx-589c09c631ba1ca1" + " " + "single__slider__item",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__rating mb-20",
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__rating mb-20",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                            style: {
-                                                                                fontSize: "1.8rem"
-                                                                            },
-                                                                            className: "jsx-28b5419449c9da3e" + " " + "topic-title",
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "topic-title",
                                                                             children: "Where Beauty Meets Mindfulness"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 192,
+                                                                            lineNumber: 66,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 191,
+                                                                        lineNumber: 65,
                                                                         columnNumber: 27
                                                                     }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        style: {
-                                                                            fontSize: "1.125rem",
-                                                                            lineHeight: "1.3"
-                                                                        },
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__text d-block mb-20",
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__text",
                                                                         children: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation. That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 199,
+                                                                        lineNumber: 70,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__author__info",
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-28b5419449c9da3e" + " " + "slider__author__info__content",
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info__content",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                                                                style: {
-                                                                                    fontSize: "1.2rem"
-                                                                                },
-                                                                                className: "jsx-28b5419449c9da3e" + " " + "mb-0",
+                                                                                className: "jsx-589c09c631ba1ca1" + " " + "author-name",
                                                                                 children: "Dr. Jim Ludema"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                lineNumber: 212,
+                                                                                lineNumber: 80,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 211,
+                                                                            lineNumber: 79,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 210,
+                                                                        lineNumber: 78,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 64,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 189,
+                                                            lineNumber: 63,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                    lineNumber: 182,
+                                                    lineNumber: 55,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 181,
+                                                lineNumber: 54,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-28b5419449c9da3e" + " " + "testimonial__item__content",
+                                                    className: "jsx-589c09c631ba1ca1" + " " + "testimonial__item__content",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-28b5419449c9da3e" + " " + "author__icon",
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "author__icon",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: "https://i.postimg.cc/XYGxCRDB/ludema2.jpg",
-                                                                alt: "",
-                                                                className: "jsx-28b5419449c9da3e"
+                                                                alt: "Dr. Beverly Ludema",
+                                                                loading: "lazy",
+                                                                className: "jsx-589c09c631ba1ca1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 227,
+                                                                lineNumber: 92,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 226,
+                                                            lineNumber: 91,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-28b5419449c9da3e" + " " + "testimonial__content",
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "testimonial__content",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-28b5419449c9da3e" + " " + "single__slider__item ",
+                                                                className: "jsx-589c09c631ba1ca1" + " " + "single__slider__item",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__rating mb-20",
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__rating mb-20",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                            style: {
-                                                                                fontSize: "1.8rem"
-                                                                            },
-                                                                            className: "jsx-28b5419449c9da3e" + " " + "topic-title",
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "topic-title",
                                                                             children: "An Unforgettable Journey"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 235,
+                                                                            lineNumber: 101,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 234,
+                                                                        lineNumber: 100,
                                                                         columnNumber: 27
                                                                     }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        style: {
-                                                                            fontSize: "1.125rem",
-                                                                            lineHeight: "1.3"
-                                                                        },
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__text d-block mb-20",
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__text",
                                                                         children: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years. Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 242,
+                                                                        lineNumber: 105,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-28b5419449c9da3e" + " " + "slider__author__info",
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-28b5419449c9da3e" + " " + "slider__author__info__content",
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info__content",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                                                                style: {
-                                                                                    fontSize: "1.2rem"
-                                                                                },
-                                                                                className: "jsx-28b5419449c9da3e" + " " + "mb-0",
+                                                                                className: "jsx-589c09c631ba1ca1" + " " + "author-name",
                                                                                 children: "Dr. Beverly Ludema"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                lineNumber: 255,
+                                                                                lineNumber: 115,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 254,
+                                                                            lineNumber: 114,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 253,
+                                                                        lineNumber: 113,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 233,
+                                                                lineNumber: 99,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 232,
+                                                            lineNumber: 98,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                    lineNumber: 225,
+                                                    lineNumber: 90,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 224,
+                                                lineNumber: 89,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-589c09c631ba1ca1" + " " + "testimonial__item__content",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "author__icon",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                                src: "/assets/images/travelpartners/MariaRakhmanova.jpeg",
+                                                                alt: "Rainforest retreat experience",
+                                                                className: "jsx-589c09c631ba1ca1"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                lineNumber: 130,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                            lineNumber: 129,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "jsx-589c09c631ba1ca1" + " " + "testimonial__content",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-589c09c631ba1ca1" + " " + "single__slider__item",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__rating mb-20",
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "topic-title",
+                                                                            children: "Heaven-like Nature & Deep Mindful Moments"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                            lineNumber: 138,
+                                                                            columnNumber: 29
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                        lineNumber: 137,
+                                                                        columnNumber: 27
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__text",
+                                                                        children: "Rain Drops Wellness Villa felt like heaven from the moment I arrived. The location is absolutely beautiful, surrounded by nature in a way that feels rare and deeply peaceful. What truly stood out to me was the service. The staff were incredibly friendly, attentive, and genuinely caring. I felt that every request was handled with warmth and respect, and it honestly felt like each guest is truly valued. In my opinion, the level of service here is a strong contender for some of the best hospitality in Sri Lanka. The mindfulness experiences were another highlight of my stay. Walking through the Sinharaja rainforest with a very knowledgeable and professional guide they arranged for me, learning about the flora and fauna, spending time by a creek, enjoying a meal by the river, and even experiencing the natural fish therapy in the water. all of it felt thoughtfully arranged and deeply calming. Rain Drops is not just a place to stay, but an experience that connects you to nature, mindfulness, and genuine hospitality"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                        lineNumber: 143,
+                                                                        columnNumber: 27
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info",
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "jsx-589c09c631ba1ca1" + " " + "slider__author__info__content",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
+                                                                                className: "jsx-589c09c631ba1ca1" + " " + "author-name",
+                                                                                children: "Maria Rakhmanova"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                                lineNumber: 154,
+                                                                                columnNumber: 31
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                            lineNumber: 153,
+                                                                            columnNumber: 29
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                        lineNumber: 152,
+                                                                        columnNumber: 27
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                lineNumber: 136,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                            lineNumber: 135,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                    lineNumber: 128,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                lineNumber: 127,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                        lineNumber: 161,
+                                        lineNumber: 34,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                    lineNumber: 160,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                lineNumber: 159,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                            lineNumber: 158,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                    lineNumber: 143,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                lineNumber: 142,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "28b5419449c9da3e",
-                children: "@media (width<=768px){.testimonial__item__content{text-align:center!important;flex-direction:column!important;align-items:center!important;display:flex!important}.author__icon{justify-content:center!important;margin-bottom:25px!important;display:flex!important}.author__icon img{object-fit:cover!important;border:4px solid #c8b08a!important;border-radius:50%!important;width:100px!important;height:300px!important}.testimonial__content{text-align:center!important;width:100%!important}.slider__rating{text-align:center!important;margin-bottom:15px!important}.slider__rating h4{text-align:center!important;margin:0 auto!important;font-size:1.4rem!important}.slider__text{text-align:center!important;margin-bottom:20px!important;padding:0 10px!important;font-size:1rem!important;line-height:1.5!important}.slider__author__info{text-align:center!important;justify-content:center!important}.slider__author__info__content h6{text-align:center!important;font-size:1.1rem!important}@media (width<=320px){.author__icon img{object-fit:cover;width:50px;height:50px;border:3px solid #c8b08a!important;border-radius:50%!important}.testimonial__item__content{justify-content:center!important;align-items:center!important;gap:15px!important;padding:20px 0!important}.slider__rating h4{font-size:1.2rem!important}.slider__text{padding:0 5px!important;font-size:.9rem!important}.slider__author__info__content h6{font-size:1rem!important}@media (width>=769px) and (width<=1024px){.author__icon img{width:140px!important;height:140px!important}.slider__rating h4{font-size:1.6rem!important}.slider__text{font-size:1.1rem!important}}.testimonial__item__content{justify-content:center;align-items:center;gap:30px;padding:30px 0;display:flex}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px}.testimonial__content{flex:1;max-width:700px}}}"
+                id: "589c09c631ba1ca1",
+                children: ".testimonial__item__content{justify-content:center;align-items:center;gap:40px;padding:40px 0;display:flex}.author__icon{flex-shrink:0}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px;transition:transform .3s}.author__icon img:hover{transform:scale(1.05)}.testimonial__content{flex:1;max-width:700px}.single__slider__item{text-align:left}.slider__rating{margin-bottom:20px}.topic-title{color:#1b1b1b;margin:0;font-size:1.5rem;font-weight:600;line-height:1.3}.slider__text{font-size:var(--p);margin-bottom:20px;line-height:1.6}.slider__author__info{align-items:center;gap:15px;display:flex}.author-name{color:#1b1b1b;margin:0;font-size:1.1rem;font-weight:600}@media (width>=769px) and (width<=1024px){.testimonial__item__content{gap:30px;padding:35px 0}.author__icon img{border:4px solid #c8b08a;width:140px;height:140px}.topic-title{font-size:1.4rem}.slider__text{font-size:.95rem}.author-name{font-size:1.05rem}}@media (width<=768px){.testimonial__item__content{text-align:center;flex-direction:column;align-items:center;gap:25px;padding:30px 15px}.author__icon{justify-content:center;margin-bottom:0;display:flex}.author__icon img{border:4px solid #c8b08a;width:120px;height:120px}.testimonial__content{text-align:center;width:100%}.single__slider__item{text-align:center}.slider__rating{text-align:center;margin-bottom:15px}.topic-title{text-align:center;font-size:1.3rem}.slider__text{text-align:center;margin-bottom:15px;font-size:.95rem}.slider__author__info{text-align:center;justify-content:center}.author-name{text-align:center;font-size:1rem}}@media (width<=480px){.testimonial__item__content{gap:20px;padding:25px 10px}.author__icon img{border:3px solid #c8b08a;width:100px;height:100px}.topic-title{font-size:1.2rem}.slider__text{font-size:.9rem}.author-name{font-size:.95rem}}@media (width<=320px){.testimonial__item__content{gap:15px;padding:20px 8px}.author__icon img{border:3px solid #c8b08a;width:80px;height:80px}.topic-title{font-size:1.1rem}.slider__text{font-size:.85rem}.author-name{font-size:.9rem}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
@@ -6573,16 +6523,16 @@ function SignaturePrograms() {
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: sectionRef,
-        className: "jsx-c4ef81ff73a1d87b" + " " + "signature__outer",
+        className: "jsx-19f71b9c766f777b" + " " + "signature__outer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-c4ef81ff73a1d87b" + " " + "container",
+                className: "jsx-19f71b9c766f777b" + " " + "container",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c4ef81ff73a1d87b" + " " + "header-section",
+                        className: "jsx-19f71b9c766f777b" + " " + "header-section",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "h6 subtitle__icon__three mx-auto",
+                                className: "jsx-19f71b9c766f777b" + " " + "h6 subtitle__icon__three mx-auto",
                                 children: "Story"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6593,7 +6543,7 @@ function SignaturePrograms() {
                                 style: {
                                     marginBottom: "70px"
                                 },
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "section__title",
+                                className: "jsx-19f71b9c766f777b" + " " + "section__title",
                                 children: [
                                     " ",
                                     "The Story"
@@ -6610,10 +6560,10 @@ function SignaturePrograms() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c4ef81ff73a1d87b" + " " + `story-content ${isVisible ? "animate-in delay-2" : ""}`,
+                        className: "jsx-19f71b9c766f777b" + " " + `story-content ${isVisible ? "animate-in delay-2" : ""}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text1",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text1",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
@@ -6621,7 +6571,7 @@ function SignaturePrograms() {
                                             fontFamily: "BrittanySignature",
                                             fontSize: 19
                                         },
-                                        className: "jsx-c4ef81ff73a1d87b",
+                                        className: "jsx-19f71b9c766f777b",
                                         children: [
                                             " ",
                                             "Rain Drops"
@@ -6635,7 +6585,7 @@ function SignaturePrograms() {
                                     "was born from a simple but powerful idea:",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        className: "jsx-c4ef81ff73a1d87b",
+                                        className: "jsx-19f71b9c766f777b",
                                         children: "when nature and the human mind meet, clarity happens."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6649,18 +6599,18 @@ function SignaturePrograms() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text",
                                 children: [
                                     "Business icon",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "https://diangomes.com/",
-                                        className: "jsx-c4ef81ff73a1d87b",
+                                        className: "jsx-19f71b9c766f777b",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                             style: {
                                                 color: "#AB8A62"
                                             },
-                                            className: "jsx-c4ef81ff73a1d87b",
+                                            className: "jsx-19f71b9c766f777b",
                                             children: "Dian Gomes"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6677,12 +6627,12 @@ function SignaturePrograms() {
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "https://www.linkedin.com/in/gaminihewawasam",
-                                        className: "jsx-c4ef81ff73a1d87b",
+                                        className: "jsx-19f71b9c766f777b",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                             style: {
                                                 color: "#AB8A62"
                                             },
-                                            className: "jsx-c4ef81ff73a1d87b",
+                                            className: "jsx-19f71b9c766f777b",
                                             children: "Dr. GB Hewawasam"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6703,7 +6653,7 @@ function SignaturePrograms() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text"
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Story.jsx",
                                 lineNumber: 128,
@@ -6716,16 +6666,16 @@ function SignaturePrograms() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c4ef81ff73a1d87b" + " " + `pillars-hero ${isVisible ? "animate-in delay-3" : ""}`,
+                        className: "jsx-19f71b9c766f777b" + " " + `pillars-hero ${isVisible ? "animate-in delay-3" : ""}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-c4ef81ff73a1d87b" + " " + "hero-image-container",
+                            className: "jsx-19f71b9c766f777b" + " " + "hero-image-container",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-c4ef81ff73a1d87b" + " " + "slideshow-wrapper",
+                                    className: "jsx-19f71b9c766f777b" + " " + "slideshow-wrapper",
                                     children: images.map((image, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: image,
                                             alt: `Pillar ${index + 1}`,
-                                            className: "jsx-c4ef81ff73a1d87b" + " " + `hero-image ${index === currentImageIndex ? "active" : ""}`
+                                            className: "jsx-19f71b9c766f777b" + " " + `hero-image ${index === currentImageIndex ? "active" : ""}`
                                         }, index, false, {
                                             fileName: "[project]/src/app/home-1/Story.jsx",
                                             lineNumber: 139,
@@ -6737,23 +6687,23 @@ function SignaturePrograms() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-c4ef81ff73a1d87b" + " " + "pillars-overlay",
+                                    className: "jsx-19f71b9c766f777b" + " " + "pillars-overlay",
                                     children: pillars.map((pillar, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             onMouseEnter: ()=>{
                                                 handlePillarHover(index);
                                                 setActiveHover(pillar.id);
                                             },
                                             onMouseLeave: ()=>setActiveHover(null),
-                                            className: "jsx-c4ef81ff73a1d87b" + " " + `pillar-overlay-item ${currentImageIndex !== index ? "disabled" : ""}`,
+                                            className: "jsx-19f71b9c766f777b" + " " + `pillar-overlay-item ${currentImageIndex !== index ? "disabled" : ""}`,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 onClick: ()=>setActiveHover(activeHover === pillar.id ? null : pillar.id),
-                                                className: "jsx-c4ef81ff73a1d87b" + " " + `pillar-content ${activeHover === pillar.id ? "show-description" : ""}`,
+                                                className: "jsx-19f71b9c766f777b" + " " + `pillar-content ${activeHover === pillar.id ? "show-description" : ""}`,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         style: {
                                                             fontWeight: "600"
                                                         },
-                                                        className: "jsx-c4ef81ff73a1d87b" + " " + "pillar-overlay-title",
+                                                        className: "jsx-19f71b9c766f777b" + " " + "pillar-overlay-title",
                                                         children: pillar.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6764,7 +6714,7 @@ function SignaturePrograms() {
                                                         style: {
                                                             fontWeight: "600"
                                                         },
-                                                        className: "jsx-c4ef81ff73a1d87b" + " " + "pillar-overlay-description",
+                                                        className: "jsx-19f71b9c766f777b" + " " + "pillar-overlay-description",
                                                         children: pillar.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6799,13 +6749,13 @@ function SignaturePrograms() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-c4ef81ff73a1d87b" + " " + `bottom-content ${isVisible ? "animate-in delay-6" : ""}`,
+                        className: "jsx-19f71b9c766f777b" + " " + `bottom-content ${isVisible ? "animate-in delay-6" : ""}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 style: {
                                     fontSize: "18px"
                                 },
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text-des",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text-des",
                                 children: "Study, Investigate, practice"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6813,7 +6763,7 @@ function SignaturePrograms() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text-des",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text-des",
                                 children: "These principles shape everything we do, from mindful architecture to the way we help guests understand themselves through nature. Rain Drops is not just a place to stay. It is a place to slow down, learn, and transform. Come experience the rainforest in quiet luxury. Discover a new skill, new insight, or new clarity that travels home with you. Because at Rain Drops, we believe:"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6821,9 +6771,9 @@ function SignaturePrograms() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-c4ef81ff73a1d87b" + " " + "story-text2",
+                                className: "jsx-19f71b9c766f777b" + " " + "story-text2",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    className: "jsx-c4ef81ff73a1d87b",
+                                    className: "jsx-19f71b9c766f777b",
                                     children: '"Nature is not outside of you — it is within you."'
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/Story.jsx",
@@ -6848,8 +6798,8 @@ function SignaturePrograms() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "c4ef81ff73a1d87b",
-                children: '.signature__outer.jsx-c4ef81ff73a1d87b{background:#fff;padding:6rem 0;position:relative;overflow:hidden}.container.jsx-c4ef81ff73a1d87b{max-width:1200px;margin:0 auto;padding:0 2rem}.header-section.jsx-c4ef81ff73a1d87b{text-align:center;margin-bottom:1rem;transform:translateY(-20px)}.header-section.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s forwards fadeInDown}.section_title.jsx-c4ef81ff73a1d87b:before,.section_title.jsx-c4ef81ff73a1d87b:after{content:"⟡";color:#c9a961;font-size:1.5rem;position:absolute;top:50%;transform:translateY(-50%)}.section_title1.jsx-c4ef81ff73a1d87b{margin-bottom:-1rem}.section_title.jsx-c4ef81ff73a1d87b:before{left:0}.section_title.jsx-c4ef81ff73a1d87b:after{right:0}.subtitle.jsx-c4ef81ff73a1d87b{text-align:center;color:#666;opacity:0;margin-bottom:5rem;font-size:16px;transform:translateY(-20px)}.subtitle.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s .2s forwards fadeInDown}.story-content.jsx-c4ef81ff73a1d87b{opacity:0;max-width:1200px;margin:0 auto 5rem;transform:translateY(20px)}.story-content.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s .4s forwards fadeInUp}.story-text1.jsx-c4ef81ff73a1d87b{text-align:center;margin-top:-50px;font-size:16px}.story-text2.jsx-c4ef81ff73a1d87b{text-align:center}.story-text.jsx-c4ef81ff73a1d87b{color:#444;text-align:left;margin-bottom:2rem;font-size:16px}.story-text-des.jsx-c4ef81ff73a1d87b{color:#444;text-align:left;margin-top:-30px;margin-bottom:2rem;font-size:16px}.story-text.highlight.jsx-c4ef81ff73a1d87b{color:#333;font-size:1.3rem;font-weight:400}.story-text.jsx-c4ef81ff73a1d87b strong.jsx-c4ef81ff73a1d87b{color:#000;font-weight:600}.pillars-hero.jsx-c4ef81ff73a1d87b{opacity:0;margin:5rem 0;transform:translateY(30px)}.pillars-hero.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s .6s forwards fadeInUp}.hero-image-container.jsx-c4ef81ff73a1d87b{border-radius:4px;width:100%;max-width:1200px;margin:0 auto;position:relative;overflow:hidden}.slideshow-wrapper.jsx-c4ef81ff73a1d87b{width:100%;min-height:600px;position:relative}.hero-image.jsx-c4ef81ff73a1d87b{object-fit:cover;opacity:0;width:100%;height:100%;min-height:600px;transition:opacity 1s ease-in-out;position:absolute;top:0;left:0}.hero-image.active.jsx-c4ef81ff73a1d87b{opacity:1}.pillars-overlay.jsx-c4ef81ff73a1d87b{z-index:5;background:linear-gradient(#0000 0%,#0009 100%);justify-content:space-around;align-items:flex-end;padding:0;display:flex;position:absolute;bottom:0;left:0;right:0}.pillar-overlay-item.jsx-c4ef81ff73a1d87b{color:#fff;cursor:pointer;flex:1;align-items:flex-end;min-height:120px;display:flex;position:relative}.pillar-overlay-item.disabled.jsx-c4ef81ff73a1d87b{opacity:.4;cursor:not-allowed}.pillar-overlay-item.disabled.jsx-c4ef81ff73a1d87b:hover .pillar-content.jsx-c4ef81ff73a1d87b{transform:translateY(0)}.pillar-overlay-item.jsx-c4ef81ff73a1d87b:not(:last-child):after{content:"";background-image:url(/assets/images/story/png.png);background-position:50%;background-repeat:no-repeat;background-size:contain;width:40px;height:100px;position:absolute;bottom:40px;right:0}.pillar-content.jsx-c4ef81ff73a1d87b{cursor:pointer;width:100%;padding:2rem;transition:transform .4s;transform:translateY(0)}.pillar-content.show-description.jsx-c4ef81ff73a1d87b{transform:translateY(-30px)}.pillar-overlay-item.disabled.jsx-c4ef81ff73a1d87b .pillar-content.jsx-c4ef81ff73a1d87b{cursor:default}.pillar-overlay-title.jsx-c4ef81ff73a1d87b{color:#fff;font-size:1.5rem;font-weight:300;font-family:var(--jost);letter-spacing:2px;text-transform:capitalize;margin:0 0 1rem;transition:all .3s}.pillar-overlay-description.jsx-c4ef81ff73a1d87b{opacity:0;text-shadow:1px 1px 6px #000000e6;max-height:0;margin:0;font-size:1rem;font-weight:300;line-height:1.6;transition:max-height .4s,opacity .4s;overflow:hidden}.pillar-content.show-description.jsx-c4ef81ff73a1d87b .pillar-overlay-description.jsx-c4ef81ff73a1d87b{opacity:1;max-height:150px}.bottom-content.jsx-c4ef81ff73a1d87b{opacity:0;max-width:1200px;margin:4rem auto 0;transform:translateY(20px)}.bottom-content.animate-in.jsx-c4ef81ff73a1d87b{animation:.8s 1.2s forwards fadeInUp}@keyframes fadeInDown{to{opacity:1;transform:translateY(0)}}@keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}@media (width<=1024px){.section_title.jsx-c4ef81ff73a1d87b{padding:0 3rem;font-size:2.2rem}.pillar-overlay-title.jsx-c4ef81ff73a1d87b{font-size:2rem}.pillar-content.jsx-c4ef81ff73a1d87b{padding:1.5rem}}@media (width<=768px){.signature__outer.jsx-c4ef81ff73a1d87b{padding:4rem 0}.container.jsx-c4ef81ff73a1d87b{padding:0 1.5rem}.section_title.jsx-c4ef81ff73a1d87b{letter-spacing:2px;padding:0 2.5rem;font-size:1.8rem}.section_title.jsx-c4ef81ff73a1d87b:before,.section_title.jsx-c4ef81ff73a1d87b:after{font-size:1.2rem}.slideshow-wrapper.jsx-c4ef81ff73a1d87b,.hero-image.jsx-c4ef81ff73a1d87b{min-height:500px}.pillars-overlay.jsx-c4ef81ff73a1d87b{flex-direction:column;align-items:stretch;gap:0}.pillar-overlay-item.jsx-c4ef81ff73a1d87b{min-height:100px}.pillar-overlay-item.jsx-c4ef81ff73a1d87b:not(:last-child):after{display:none}.pillar-overlay-title.jsx-c4ef81ff73a1d87b{font-size:1.8rem}.pillar-content.jsx-c4ef81ff73a1d87b{padding:1.5rem}.story-text.jsx-c4ef81ff73a1d87b{font-size:1rem}}@media (width<=480px){.signature__outer.jsx-c4ef81ff73a1d87b{padding:6rem 0}.container.jsx-c4ef81ff73a1d87b{padding:0 1rem}.section_title.jsx-c4ef81ff73a1d87b{letter-spacing:1px;padding:0 2rem;font-size:1.4rem}.section_title.jsx-c4ef81ff73a1d87b:before,.section_title.jsx-c4ef81ff73a1d87b:after{font-size:1rem}.subtitle.jsx-c4ef81ff73a1d87b{margin-bottom:5rem;font-size:1rem}.slideshow-wrapper.jsx-c4ef81ff73a1d87b,.hero-image.jsx-c4ef81ff73a1d87b{min-height:400px}.pillar-overlay-item.jsx-c4ef81ff73a1d87b{min-height:80px}.pillar-overlay-title.jsx-c4ef81ff73a1d87b{font-size:1.5rem}.pillar-overlay-description.jsx-c4ef81ff73a1d87b{font-size:.9rem}.pillar-content.jsx-c4ef81ff73a1d87b{padding:1rem}.pillar-content.show-description.jsx-c4ef81ff73a1d87b{transform:translateY(-20px)}.story-text.jsx-c4ef81ff73a1d87b,.story-text-des.jsx-c4ef81ff73a1d87b{text-align:center;justify-content:center;font-size:.95rem}}'
+                id: "19f71b9c766f777b",
+                children: '.signature__outer.jsx-19f71b9c766f777b{background:#fff;padding:6rem 0 120px;position:relative;overflow:hidden}.container.jsx-19f71b9c766f777b{max-width:1200px;margin:0 auto;padding:0 2rem}.header-section.jsx-19f71b9c766f777b{text-align:center;margin-bottom:1rem;transform:translateY(-20px)}.header-section.animate-in.jsx-19f71b9c766f777b{animation:.8s forwards fadeInDown}.section_title.jsx-19f71b9c766f777b:before,.section_title.jsx-19f71b9c766f777b:after{content:"⟡";color:#c9a961;font-size:1.5rem;position:absolute;top:50%;transform:translateY(-50%)}.section_title1.jsx-19f71b9c766f777b{margin-bottom:-1rem}.section_title.jsx-19f71b9c766f777b:before{left:0}.section_title.jsx-19f71b9c766f777b:after{right:0}.subtitle.jsx-19f71b9c766f777b{text-align:center;color:#666;opacity:0;margin-bottom:5rem;font-size:16px;transform:translateY(-20px)}.subtitle.animate-in.jsx-19f71b9c766f777b{animation:.8s .2s forwards fadeInDown}.story-content.jsx-19f71b9c766f777b{opacity:0;max-width:1200px;margin:0 auto 5rem;transform:translateY(20px)}.story-content.animate-in.jsx-19f71b9c766f777b{animation:.8s .4s forwards fadeInUp}.story-text1.jsx-19f71b9c766f777b{text-align:center;margin-top:-50px;font-size:16px}.story-text2.jsx-19f71b9c766f777b{text-align:center}.story-text.jsx-19f71b9c766f777b{color:#444;text-align:left;margin-bottom:2rem;font-size:16px}.story-text-des.jsx-19f71b9c766f777b{color:#444;text-align:left;margin-top:-30px;margin-bottom:2rem;font-size:16px}.story-text.highlight.jsx-19f71b9c766f777b{color:#333;font-size:1.3rem;font-weight:400}.story-text.jsx-19f71b9c766f777b strong.jsx-19f71b9c766f777b{color:#000;font-weight:600}.pillars-hero.jsx-19f71b9c766f777b{opacity:0;margin:5rem 0;transform:translateY(30px)}.pillars-hero.animate-in.jsx-19f71b9c766f777b{animation:.8s .6s forwards fadeInUp}.hero-image-container.jsx-19f71b9c766f777b{border-radius:4px;width:100%;max-width:1200px;margin:0 auto;position:relative;overflow:hidden}.slideshow-wrapper.jsx-19f71b9c766f777b{width:100%;min-height:600px;position:relative}.hero-image.jsx-19f71b9c766f777b{object-fit:cover;opacity:0;width:100%;height:100%;min-height:600px;transition:opacity 1s ease-in-out;position:absolute;top:0;left:0}.hero-image.active.jsx-19f71b9c766f777b{opacity:1}.pillars-overlay.jsx-19f71b9c766f777b{z-index:5;background:linear-gradient(#0000 0%,#0009 100%);justify-content:space-around;align-items:flex-end;padding:0;display:flex;position:absolute;bottom:0;left:0;right:0}.pillar-overlay-item.jsx-19f71b9c766f777b{color:#fff;cursor:pointer;flex:1;align-items:flex-end;min-height:120px;display:flex;position:relative}.pillar-overlay-item.disabled.jsx-19f71b9c766f777b{opacity:.4;cursor:not-allowed}.pillar-overlay-item.disabled.jsx-19f71b9c766f777b:hover .pillar-content.jsx-19f71b9c766f777b{transform:translateY(0)}.pillar-overlay-item.jsx-19f71b9c766f777b:not(:last-child):after{content:"";background-image:url(/assets/images/story/png.png);background-position:50%;background-repeat:no-repeat;background-size:contain;width:40px;height:100px;position:absolute;bottom:40px;right:0}.pillar-content.jsx-19f71b9c766f777b{cursor:pointer;width:100%;padding:2rem;transition:transform .4s;transform:translateY(0)}.pillar-content.show-description.jsx-19f71b9c766f777b{transform:translateY(-30px)}.pillar-overlay-item.disabled.jsx-19f71b9c766f777b .pillar-content.jsx-19f71b9c766f777b{cursor:default}.pillar-overlay-title.jsx-19f71b9c766f777b{color:#fff;font-size:1.5rem;font-weight:300;font-family:var(--jost);letter-spacing:2px;text-transform:capitalize;margin:0 0 1rem;transition:all .3s}.pillar-overlay-description.jsx-19f71b9c766f777b{opacity:0;text-shadow:1px 1px 6px #000000e6;max-height:0;margin:0;font-size:1rem;font-weight:300;line-height:1.6;transition:max-height .4s,opacity .4s;overflow:hidden}.pillar-content.show-description.jsx-19f71b9c766f777b .pillar-overlay-description.jsx-19f71b9c766f777b{opacity:1;max-height:150px}.bottom-content.jsx-19f71b9c766f777b{opacity:0;max-width:1200px;margin:4rem auto 0;transform:translateY(20px)}.bottom-content.animate-in.jsx-19f71b9c766f777b{animation:.8s 1.2s forwards fadeInUp}@keyframes fadeInDown{to{opacity:1;transform:translateY(0)}}@keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}@media (width<=1024px){.section_title.jsx-19f71b9c766f777b{padding:0 3rem;font-size:2.2rem}.pillar-overlay-title.jsx-19f71b9c766f777b{font-size:2rem}.pillar-content.jsx-19f71b9c766f777b{padding:1.5rem}}@media (width<=768px){.signature__outer.jsx-19f71b9c766f777b{padding:4rem 0}.container.jsx-19f71b9c766f777b{padding:0 1.5rem}.section_title.jsx-19f71b9c766f777b{letter-spacing:2px;padding:0 2.5rem;font-size:1.8rem}.section_title.jsx-19f71b9c766f777b:before,.section_title.jsx-19f71b9c766f777b:after{font-size:1.2rem}.slideshow-wrapper.jsx-19f71b9c766f777b,.hero-image.jsx-19f71b9c766f777b{min-height:500px}.pillars-overlay.jsx-19f71b9c766f777b{flex-direction:column;align-items:stretch;gap:0}.pillar-overlay-item.jsx-19f71b9c766f777b{min-height:100px}.pillar-overlay-item.jsx-19f71b9c766f777b:not(:last-child):after{display:none}.pillar-overlay-title.jsx-19f71b9c766f777b{font-size:1.8rem}.pillar-content.jsx-19f71b9c766f777b{padding:1.5rem}.story-text.jsx-19f71b9c766f777b{font-size:1rem}}@media (width<=480px){.signature__outer.jsx-19f71b9c766f777b{padding:6rem 0}.container.jsx-19f71b9c766f777b{padding:0 1rem}.section_title.jsx-19f71b9c766f777b{letter-spacing:1px;padding:0 2rem;font-size:1.4rem}.section_title.jsx-19f71b9c766f777b:before,.section_title.jsx-19f71b9c766f777b:after{font-size:1rem}.subtitle.jsx-19f71b9c766f777b{margin-bottom:5rem;font-size:1rem}.slideshow-wrapper.jsx-19f71b9c766f777b,.hero-image.jsx-19f71b9c766f777b{min-height:400px}.pillar-overlay-item.jsx-19f71b9c766f777b{min-height:80px}.pillar-overlay-title.jsx-19f71b9c766f777b{font-size:1.5rem}.pillar-overlay-description.jsx-19f71b9c766f777b{font-size:.9rem}.pillar-content.jsx-19f71b9c766f777b{padding:1rem}.pillar-content.show-description.jsx-19f71b9c766f777b{transform:translateY(-20px)}.story-text.jsx-19f71b9c766f777b,.story-text-des.jsx-19f71b9c766f777b{text-align:center;justify-content:center;font-size:.95rem}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
@@ -7112,7 +7062,7 @@ function Mindmeets() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
             [
-                "8f1f6d9b48061eba",
+                "89478c465edf95a",
                 [
                     phi1Width * 0.3,
                     phi1Height * 0.3,
@@ -7135,7 +7085,7 @@ function Mindmeets() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                     [
-                        "8f1f6d9b48061eba",
+                        "89478c465edf95a",
                         [
                             phi1Width * 0.3,
                             phi1Height * 0.3,
@@ -7157,7 +7107,7 @@ function Mindmeets() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                         [
-                            "8f1f6d9b48061eba",
+                            "89478c465edf95a",
                             [
                                 phi1Width * 0.3,
                                 phi1Height * 0.3,
@@ -7180,7 +7130,7 @@ function Mindmeets() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                 [
-                                    "8f1f6d9b48061eba",
+                                    "89478c465edf95a",
                                     [
                                         phi1Width * 0.3,
                                         phi1Height * 0.3,
@@ -7202,7 +7152,7 @@ function Mindmeets() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                     [
-                                        "8f1f6d9b48061eba",
+                                        "89478c465edf95a",
                                         [
                                             phi1Width * 0.3,
                                             phi1Height * 0.3,
@@ -7231,7 +7181,7 @@ function Mindmeets() {
                                         },
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7261,7 +7211,7 @@ function Mindmeets() {
                                             },
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                 [
-                                                    "8f1f6d9b48061eba",
+                                                    "89478c465edf95a",
                                                     [
                                                         phi1Width * 0.3,
                                                         phi1Height * 0.3,
@@ -7309,7 +7259,7 @@ function Mindmeets() {
                                         },
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7347,7 +7297,7 @@ function Mindmeets() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                 [
-                                    "8f1f6d9b48061eba",
+                                    "89478c465edf95a",
                                     [
                                         phi1Width * 0.3,
                                         phi1Height * 0.3,
@@ -7369,7 +7319,7 @@ function Mindmeets() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                     [
-                                        "8f1f6d9b48061eba",
+                                        "89478c465edf95a",
                                         [
                                             phi1Width * 0.3,
                                             phi1Height * 0.3,
@@ -7392,7 +7342,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7420,7 +7370,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7448,7 +7398,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7470,7 +7420,7 @@ function Mindmeets() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                 [
-                                                    "8f1f6d9b48061eba",
+                                                    "89478c465edf95a",
                                                     [
                                                         phi1Width * 0.3,
                                                         phi1Height * 0.3,
@@ -7502,7 +7452,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7524,7 +7474,7 @@ function Mindmeets() {
                                         children: points.map((p, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                     [
-                                                        "8f1f6d9b48061eba",
+                                                        "89478c465edf95a",
                                                         [
                                                             phi1Width * 0.3,
                                                             phi1Height * 0.3,
@@ -7554,7 +7504,7 @@ function Mindmeets() {
                                                         },
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                             [
-                                                                "8f1f6d9b48061eba",
+                                                                "89478c465edf95a",
                                                                 [
                                                                     phi1Width * 0.3,
                                                                     phi1Height * 0.3,
@@ -7581,7 +7531,7 @@ function Mindmeets() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                             [
-                                                                "8f1f6d9b48061eba",
+                                                                "89478c465edf95a",
                                                                 [
                                                                     phi1Width * 0.3,
                                                                     phi1Height * 0.3,
@@ -7605,7 +7555,7 @@ function Mindmeets() {
                                                             p.italic && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                                     [
-                                                                        "8f1f6d9b48061eba",
+                                                                        "89478c465edf95a",
                                                                         [
                                                                             phi1Width * 0.3,
                                                                             phi1Height * 0.3,
@@ -7634,7 +7584,7 @@ function Mindmeets() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                                     [
-                                                                        "8f1f6d9b48061eba",
+                                                                        "89478c465edf95a",
                                                                         [
                                                                             phi1Width * 0.3,
                                                                             phi1Height * 0.3,
@@ -7661,7 +7611,7 @@ function Mindmeets() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                                     [
-                                                                        "8f1f6d9b48061eba",
+                                                                        "89478c465edf95a",
                                                                         [
                                                                             phi1Width * 0.3,
                                                                             phi1Height * 0.3,
@@ -7685,7 +7635,7 @@ function Mindmeets() {
                                                                     p.italic && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                                             [
-                                                                                "8f1f6d9b48061eba",
+                                                                                "89478c465edf95a",
                                                                                 [
                                                                                     phi1Width * 0.3,
                                                                                     phi1Height * 0.3,
@@ -7736,7 +7686,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7764,7 +7714,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7792,7 +7742,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7816,7 +7766,7 @@ function Mindmeets() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                     [
-                                                        "8f1f6d9b48061eba",
+                                                        "89478c465edf95a",
                                                         [
                                                             phi1Width * 0.3,
                                                             phi1Height * 0.3,
@@ -7850,7 +7800,7 @@ function Mindmeets() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                             [
-                                                "8f1f6d9b48061eba",
+                                                "89478c465edf95a",
                                                 [
                                                     phi1Width * 0.3,
                                                     phi1Height * 0.3,
@@ -7873,7 +7823,7 @@ function Mindmeets() {
                                             href: "/research",
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].dynamic([
                                                 [
-                                                    "8f1f6d9b48061eba",
+                                                    "89478c465edf95a",
                                                     [
                                                         phi1Width * 0.3,
                                                         phi1Height * 0.3,
@@ -7926,7 +7876,7 @@ function Mindmeets() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "8f1f6d9b48061eba",
+                id: "89478c465edf95a",
                 dynamic: [
                     phi1Width * 0.3,
                     phi1Height * 0.3,
@@ -7943,7 +7893,7 @@ function Mindmeets() {
                     phi1Width,
                     phi1Height
                 ],
-                children: `.philosophy__section.__jsx-style-dynamic-selector{background:#fff;padding:60px 0}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{line-height:1.6}.philosophy-image.__jsx-style-dynamic-selector{height:715px;transition:transform .4s}.philosophy-image.__jsx-style-dynamic-selector:hover{transform:translateY(-8px)}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{transition:transform .3s;box-shadow:0 10px 30px #00000026}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector:hover{transform:scale(1.05)}.learn-more-btn.__jsx-style-dynamic-selector{color:#fff;cursor:pointer;background:#ab8a62;border:none;border-radius:6px;padding:12px 28px;font-size:1rem;font-weight:500;text-decoration:none;transition:all .3s;display:inline-block}.learn-more-btn.__jsx-style-dynamic-selector:hover{background:#7a6432;transform:translateY(-3px);box-shadow:0 5px 15px #0003}@media (width<=375px){.philosophy__section.__jsx-style-dynamic-selector{padding:30px 0}.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.85rem}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.85rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:8px;height:200px;margin-bottom:1rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:120px!important;right:-10px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.3}px!important;height:${phi1Height * 0.3}px!important;border:3px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start;margin-bottom:1rem}.philosophy__point.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{flex-shrink:0;width:20px!important;height:20px!important;margin-right:10px!important}.learn-more-btn.__jsx-style-dynamic-selector{align-items:center;margin-left:70px;padding:11px 24px;font-size:15px}}@media (width>=375px) and (width<=423px){.philosophy__section.__jsx-style-dynamic-selector{padding:35px 0}.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1.2rem;font-size:1.6rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.9rem}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.9rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:8px;height:220px;margin-bottom:1rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:140px!important;right:-12px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.35}px!important;height:${phi1Height * 0.35}px!important;border:3px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start;margin-bottom:1rem}.learn-more-btn.__jsx-style-dynamic-selector{width:auto;margin-left:100px;padding:11px 24px;font-size:.95rem}.text2.__jsx-style-dynamic-selector{margin-left:85px}}@media (width>=424px) and (width<=767px){.philosophy__section.__jsx-style-dynamic-selector{padding:40px 0}.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1.5rem;font-size:1.8rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.95rem}.philosophy__highlight.__jsx-style-dynamic-selector{text-align:left}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.95rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:10px;height:280px;margin-bottom:1.5rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:180px!important;right:-15px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.45}px!important;height:${phi1Height * 0.45}px!important;border:4px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start}.learn-more-btn.__jsx-style-dynamic-selector{align-items:center;margin-left:120px;padding:11px 24px;font-size:15px}.text2.__jsx-style-dynamic-selector{margin-left:90px}}@media (width>=768px) and (width<=991px){.philosophy__section.__jsx-style-dynamic-selector{padding:50px 0}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:1.5rem;font-size:2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:1rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:12px;height:420px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:280px!important;right:-20px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.6}px!important;height:${phi1Height * 0.6}px!important;border:4px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start}.text2.__jsx-style-dynamic-selector{margin-left:95px}}@media (width>=992px) and (width<=1199px){.philosophy__section.__jsx-style-dynamic-selector{padding:60px 0}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:1.8rem;font-size:2.5rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left}.philosophy-image.__jsx-style-dynamic-selector{border-radius:12px;height:700px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:620px!important;right:-25px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.75}px!important;height:${phi1Height * 0.75}px!important;border:4px solid #fff!important}.text2.__jsx-style-dynamic-selector{margin-left:95px}}@media (width>=1200px) and (width<=1399px){.philosophy__section.__jsx-style-dynamic-selector{padding:70px 0}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left}.philosophy-image.__jsx-style-dynamic-selector{border-radius:15px;height:600px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:450px!important;right:-25px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.85}px!important;height:${phi1Height * 0.85}px!important;border:5px solid #fff!important}.text2.__jsx-style-dynamic-selector{margin-left:115px}}@media (width>=1400px){.philosophy__section.__jsx-style-dynamic-selector{padding:80px 0}.text2.__jsx-style-dynamic-selector{margin-left:95px}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:2.2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left;line-height:1.7}.philosophy-image.__jsx-style-dynamic-selector{border-radius:15px;height:615px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:420px!important;right:-30px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width}px!important;height:${phi1Height}px!important;border:5px solid #fff!important}}@media (height<=500px) and (orientation:landscape){.philosophy-image.__jsx-style-dynamic-selector{height:250px!important}.small-top-image.__jsx-style-dynamic-selector{top:160px!important}}.fallback-image.__jsx-style-dynamic-selector{font-size:1.2rem;font-weight:500}.philosophy-image-wrapper.__jsx-style-dynamic-selector{margin-bottom:2rem}.philosophy-content.__jsx-style-dynamic-selector{padding:0 15px}.philosophy__point.__jsx-style-dynamic-selector{align-items:flex-start}.point-text.__jsx-style-dynamic-selector{flex:1}`
+                children: `.philosophy__section.__jsx-style-dynamic-selector{background:#fff;padding:6rem 0 120px}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{line-height:1.6}.philosophy-image.__jsx-style-dynamic-selector{height:715px;transition:transform .4s}.philosophy-image.__jsx-style-dynamic-selector:hover{transform:translateY(-8px)}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{transition:transform .3s;box-shadow:0 10px 30px #00000026}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector:hover{transform:scale(1.05)}.learn-more-btn.__jsx-style-dynamic-selector{color:#fff;cursor:pointer;background:#ab8a62;border:none;border-radius:6px;padding:12px 28px;font-size:1rem;font-weight:500;text-decoration:none;transition:all .3s;display:inline-block}.learn-more-btn.__jsx-style-dynamic-selector:hover{background:#7a6432;transform:translateY(-3px);box-shadow:0 5px 15px #0003}@media (width<=375px){.philosophy__section.__jsx-style-dynamic-selector{padding:30px 0}.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.85rem}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.85rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:8px;height:200px;margin-bottom:1rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:120px!important;right:-10px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.3}px!important;height:${phi1Height * 0.3}px!important;border:3px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start;margin-bottom:1rem}.philosophy__point.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{flex-shrink:0;width:20px!important;height:20px!important;margin-right:10px!important}.learn-more-btn.__jsx-style-dynamic-selector{align-items:center;margin-left:70px;padding:11px 24px;font-size:15px}}@media (width>=375px) and (width<=423px){.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1.2rem;font-size:1.6rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.9rem}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.9rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:8px;height:220px;margin-bottom:1rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:140px!important;right:-12px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.35}px!important;height:${phi1Height * 0.35}px!important;border:3px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start;margin-bottom:1rem}.learn-more-btn.__jsx-style-dynamic-selector{width:auto;margin-left:100px;padding:11px 24px;font-size:.95rem}.text2.__jsx-style-dynamic-selector{margin-left:85px}}@media (width>=424px) and (width<=767px){.section__title.__jsx-style-dynamic-selector{text-align:center;margin-bottom:1.5rem;font-size:1.8rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector{text-align:center;font-size:.95rem}.philosophy__highlight.__jsx-style-dynamic-selector{text-align:left}.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:.95rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:10px;height:280px;margin-bottom:1.5rem}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:180px!important;right:-15px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.45}px!important;height:${phi1Height * 0.45}px!important;border:4px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start}.learn-more-btn.__jsx-style-dynamic-selector{align-items:center;margin-left:120px;padding:11px 24px;font-size:15px}.text2.__jsx-style-dynamic-selector{margin-left:90px}}@media (width>=768px) and (width<=991px){.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:1.5rem;font-size:2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left;font-size:1rem}.philosophy-image.__jsx-style-dynamic-selector{border-radius:12px;height:420px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:280px!important;right:-20px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.6}px!important;height:${phi1Height * 0.6}px!important;border:4px solid #fff!important}.philosophy__point.__jsx-style-dynamic-selector{text-align:left;justify-content:flex-start}.text2.__jsx-style-dynamic-selector{margin-left:95px}}@media (width>=992px) and (width<=1199px){.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:1.8rem;font-size:2.5rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left}.philosophy-image.__jsx-style-dynamic-selector{border-radius:12px;height:700px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:620px!important;right:-25px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.75}px!important;height:${phi1Height * 0.75}px!important;border:4px solid #fff!important}.text2.__jsx-style-dynamic-selector{margin-left:95px}}@media (width>=1200px) and (width<=1399px){.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left}.philosophy-image.__jsx-style-dynamic-selector{border-radius:15px;height:600px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:450px!important;right:-25px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width * 0.85}px!important;height:${phi1Height * 0.85}px!important;border:5px solid #fff!important}.text2.__jsx-style-dynamic-selector{margin-left:115px}}@media (width>=1400px){.text2.__jsx-style-dynamic-selector{margin-left:95px}.section__title.__jsx-style-dynamic-selector{text-align:left;margin-bottom:2.2rem}.philosophy__intro.__jsx-style-dynamic-selector,.philosophy__description.__jsx-style-dynamic-selector,.philosophy__highlight.__jsx-style-dynamic-selector,.philosophy__cta.__jsx-style-dynamic-selector,.point-text.__jsx-style-dynamic-selector{text-align:left;line-height:1.7}.philosophy-image.__jsx-style-dynamic-selector{border-radius:15px;height:615px}.small-top-image.__jsx-style-dynamic-selector{position:absolute!important;top:420px!important;right:-30px!important}.small-top-image.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:${phi1Width}px!important;height:${phi1Height}px!important;border:5px solid #fff!important}}@media (height<=500px) and (orientation:landscape){.philosophy-image.__jsx-style-dynamic-selector{height:250px!important}.small-top-image.__jsx-style-dynamic-selector{top:160px!important}}.fallback-image.__jsx-style-dynamic-selector{font-size:1.2rem;font-weight:500}.philosophy-image-wrapper.__jsx-style-dynamic-selector{margin-bottom:2rem}.philosophy-content.__jsx-style-dynamic-selector{padding:0 15px}.philosophy__point.__jsx-style-dynamic-selector{align-items:flex-start}.point-text.__jsx-style-dynamic-selector{flex:1}`
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
@@ -8157,19 +8107,19 @@ function InnerDiscoverySection() {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            className: "jsx-579a5f31d939e07" + " " + "inner-discovery-section",
+            className: "jsx-76c58d709631b0d9" + " " + "inner-discovery-section",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-579a5f31d939e07" + " " + "container",
+                    className: "jsx-76c58d709631b0d9" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-579a5f31d939e07" + " " + "mobile-layout",
+                            className: "jsx-76c58d709631b0d9" + " " + "mobile-layout",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-579a5f31d939e07" + " " + "mobile-title-section",
+                                    className: "jsx-76c58d709631b0d9" + " " + "mobile-title-section",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "jsx-579a5f31d939e07" + " " + "main-title",
+                                            className: "jsx-76c58d709631b0d9" + " " + "main-title",
                                             children: [
                                                 "THE",
                                                 " ",
@@ -8179,7 +8129,7 @@ function InnerDiscoverySection() {
                                                         fontFamily: "BrittanySignature",
                                                         fontSize: "1.5em"
                                                     },
-                                                    className: "jsx-579a5f31d939e07",
+                                                    className: "jsx-76c58d709631b0d9",
                                                     children: "Rain Drops"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Wellness.jsx",
@@ -8189,7 +8139,7 @@ function InnerDiscoverySection() {
                                                 " ",
                                                 "INNER",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                    className: "jsx-579a5f31d939e07"
+                                                    className: "jsx-76c58d709631b0d9"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Wellness.jsx",
                                                     lineNumber: 167,
@@ -8203,7 +8153,7 @@ function InnerDiscoverySection() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-579a5f31d939e07" + " " + "subtitle",
+                                            className: "jsx-76c58d709631b0d9" + " " + "subtitle",
                                             children: "Tell Us What You Seek — We'll Shape the Journey."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Wellness.jsx",
@@ -8217,9 +8167,9 @@ function InnerDiscoverySection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-579a5f31d939e07" + " " + "mobile-carousel-wrapper",
+                                    className: "jsx-76c58d709631b0d9" + " " + "mobile-carousel-wrapper",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-579a5f31d939e07" + " " + "swiper-container-custom",
+                                        className: "jsx-76c58d709631b0d9" + " " + "swiper-container-custom",
                                         children: [
                                             isClient && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Swiper"], {
                                                 ref: swiperRef,
@@ -8240,21 +8190,21 @@ function InnerDiscoverySection() {
                                                 children: programs.map((p, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             onClick: ()=>window.open(FLIPBOOK_LINKS[idx], "_blank", "fullscreen=yes"),
-                                                            className: "jsx-579a5f31d939e07" + " " + "program-card cursor-pointer group",
+                                                            className: "jsx-76c58d709631b0d9" + " " + "program-card cursor-pointer group",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                     src: p.image,
                                                                     alt: p.title,
-                                                                    className: "jsx-579a5f31d939e07" + " " + "program-img"
+                                                                    className: "jsx-76c58d709631b0d9" + " " + "program-img"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/Wellness.jsx",
                                                                     lineNumber: 203,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "jsx-579a5f31d939e07" + " " + "absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg",
+                                                                    className: "jsx-76c58d709631b0d9" + " " + "absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        className: "jsx-579a5f31d939e07" + " " + "text-white font-medium text-sm bg-black/60 px-4 py-2 rounded-full",
+                                                                        className: "jsx-76c58d709631b0d9" + " " + "text-white font-medium text-sm bg-black/60 px-4 py-2 rounded-full",
                                                                         children: "Click to Preview"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
@@ -8283,10 +8233,10 @@ function InnerDiscoverySection() {
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-579a5f31d939e07" + " " + "custom-bullets",
+                                                className: "jsx-76c58d709631b0d9" + " " + "custom-bullets",
                                                 children: programs.map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                         onClick: ()=>goToSlide(i),
-                                                        className: "jsx-579a5f31d939e07" + " " + `custom-bullet ${activeIndex === i ? "active" : ""}`
+                                                        className: "jsx-76c58d709631b0d9" + " " + `custom-bullet ${activeIndex === i ? "active" : ""}`
                                                     }, i, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
                                                         lineNumber: 221,
@@ -8309,36 +8259,33 @@ function InnerDiscoverySection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-579a5f31d939e07" + " " + "mobile-form-section",
+                                    className: "jsx-76c58d709631b0d9" + " " + "mobile-form-section",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                         onSubmit: onSubmit,
-                                        className: "jsx-579a5f31d939e07" + " " + "discovery-form",
+                                        className: "jsx-76c58d709631b0d9" + " " + "discovery-form",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                style: {
-                                                    color: "black"
-                                                },
                                                 name: "program",
                                                 required: true,
                                                 defaultValue: "",
-                                                className: "jsx-579a5f31d939e07" + " " + "input-field",
+                                                className: "jsx-76c58d709631b0d9" + " " + "input-field",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         value: "",
                                                         disabled: true,
-                                                        className: "jsx-579a5f31d939e07",
+                                                        className: "jsx-76c58d709631b0d9",
                                                         children: "Select Programs"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 243,
+                                                        lineNumber: 242,
                                                         columnNumber: 19
                                                     }, this),
                                                     programs.map((p)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                            className: "jsx-579a5f31d939e07",
+                                                            className: "jsx-76c58d709631b0d9",
                                                             children: p.title
                                                         }, p.id, false, {
                                                             fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                            lineNumber: 247,
+                                                            lineNumber: 246,
                                                             columnNumber: 21
                                                         }, this))
                                                 ]
@@ -8348,17 +8295,17 @@ function InnerDiscoverySection() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-579a5f31d939e07" + " " + "grid-2",
+                                                className: "jsx-76c58d709631b0d9" + " " + "grid-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                         type: "text",
                                                         placeholder: "Full Name",
                                                         name: "name",
                                                         required: true,
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 252,
+                                                        lineNumber: 251,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -8366,20 +8313,20 @@ function InnerDiscoverySection() {
                                                         placeholder: "Email",
                                                         name: "email",
                                                         required: true,
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 259,
+                                                        lineNumber: 258,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 251,
+                                                lineNumber: 250,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-579a5f31d939e07" + " " + "grid-3",
+                                                className: "jsx-76c58d709631b0d9" + " " + "grid-3",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                         type: "date",
@@ -8394,10 +8341,10 @@ function InnerDiscoverySection() {
                                                                 setToDate("");
                                                             }
                                                         },
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 269,
+                                                        lineNumber: 268,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -8408,139 +8355,139 @@ function InnerDiscoverySection() {
                                                         value: toDate,
                                                         min: fromDate || "",
                                                         onChange: (e)=>setToDate(e.target.value),
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 284,
+                                                        lineNumber: 283,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 268,
+                                                lineNumber: 267,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "text",
                                                 placeholder: "Fitness Level",
                                                 name: "fitness",
-                                                className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 296,
+                                                lineNumber: 295,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "text",
                                                 placeholder: "Food Preferences",
                                                 name: "food",
-                                                className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 302,
+                                                lineNumber: 301,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                 placeholder: "Any Health Notes",
                                                 rows: "2",
                                                 name: "health",
-                                                className: "jsx-579a5f31d939e07" + " " + "input-field textarea"
+                                                className: "jsx-76c58d709631b0d9" + " " + "input-field textarea"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 309,
+                                                lineNumber: 308,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                 placeholder: "Any Additional Requests",
                                                 rows: "2",
                                                 name: "requests",
-                                                className: "jsx-579a5f31d939e07" + " " + "input-field textarea"
+                                                className: "jsx-76c58d709631b0d9" + " " + "input-field textarea"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 315,
+                                                lineNumber: 314,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-579a5f31d939e07" + " " + "guidance-row",
+                                                className: "jsx-76c58d709631b0d9" + " " + "guidance-row",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "jsx-579a5f31d939e07",
+                                                        className: "jsx-76c58d709631b0d9",
                                                         children: "Do you want mindfulness guidance?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 323,
+                                                        lineNumber: 322,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-579a5f31d939e07" + " " + "radio-group",
+                                                        className: "jsx-76c58d709631b0d9" + " " + "radio-group",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                className: "jsx-579a5f31d939e07",
+                                                                className: "jsx-76c58d709631b0d9",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                         type: "radio",
                                                                         name: "guide",
                                                                         value: "Yes",
-                                                                        className: "jsx-579a5f31d939e07"
+                                                                        className: "jsx-76c58d709631b0d9"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                        lineNumber: 326,
+                                                                        lineNumber: 325,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     " Yes"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 325,
+                                                                lineNumber: 324,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                className: "jsx-579a5f31d939e07",
+                                                                className: "jsx-76c58d709631b0d9",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                         type: "radio",
                                                                         name: "guide",
                                                                         value: "No",
-                                                                        className: "jsx-579a5f31d939e07"
+                                                                        className: "jsx-76c58d709631b0d9"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                        lineNumber: 329,
+                                                                        lineNumber: 328,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     " No"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 328,
+                                                                lineNumber: 327,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 324,
+                                                        lineNumber: 323,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 322,
+                                                lineNumber: 321,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "submit",
-                                                className: "jsx-579a5f31d939e07" + " " + "submit-btn",
+                                                className: "jsx-76c58d709631b0d9" + " " + "submit-btn",
                                                 children: "Submit Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 334,
+                                                lineNumber: 333,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-579a5f31d939e07" + " " + "result-message",
+                                                className: "jsx-76c58d709631b0d9" + " " + "result-message",
                                                 children: result
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 337,
+                                                lineNumber: 336,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -8561,15 +8508,15 @@ function InnerDiscoverySection() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-579a5f31d939e07" + " " + "desktop-layout",
+                            className: "jsx-76c58d709631b0d9" + " " + "desktop-layout",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-579a5f31d939e07" + " " + "content-grid",
+                                className: "jsx-76c58d709631b0d9" + " " + "content-grid",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-579a5f31d939e07" + " " + "form-section",
+                                        className: "jsx-76c58d709631b0d9" + " " + "form-section",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-579a5f31d939e07" + " " + "main-title",
+                                                className: "jsx-76c58d709631b0d9" + " " + "main-title",
                                                 children: [
                                                     "THE",
                                                     " ",
@@ -8579,86 +8526,83 @@ function InnerDiscoverySection() {
                                                             fontFamily: "BrittanySignature",
                                                             fontSize: 35
                                                         },
-                                                        className: "jsx-579a5f31d939e07",
+                                                        className: "jsx-76c58d709631b0d9",
                                                         children: "Rain Drops"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 349,
+                                                        lineNumber: 348,
                                                         columnNumber: 19
                                                     }, this),
                                                     " ",
                                                     "INNER",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                        className: "jsx-579a5f31d939e07"
+                                                        className: "jsx-76c58d709631b0d9"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 359,
+                                                        lineNumber: 358,
                                                         columnNumber: 19
                                                     }, this),
                                                     "DISCOVERY SERIES"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 347,
+                                                lineNumber: 346,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-579a5f31d939e07" + " " + "subtitle",
+                                                className: "jsx-76c58d709631b0d9" + " " + "subtitle",
                                                 children: "Tell Us What You Seek — We'll Shape the Journey."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 362,
+                                                lineNumber: 361,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                                 onSubmit: onSubmit,
-                                                className: "jsx-579a5f31d939e07" + " " + "discovery-form",
+                                                className: "jsx-76c58d709631b0d9" + " " + "discovery-form",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                        style: {
-                                                            color: "black"
-                                                        },
                                                         name: "program",
                                                         required: true,
                                                         defaultValue: "",
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field",
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 value: "",
                                                                 disabled: true,
-                                                                className: "jsx-579a5f31d939e07",
+                                                                className: "jsx-76c58d709631b0d9",
                                                                 children: "Select Programs"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 373,
+                                                                lineNumber: 371,
                                                                 columnNumber: 21
                                                             }, this),
                                                             programs.map((p)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                    className: "jsx-579a5f31d939e07",
+                                                                    className: "jsx-76c58d709631b0d9",
                                                                     children: p.title
                                                                 }, p.id, false, {
                                                                     fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                    lineNumber: 377,
+                                                                    lineNumber: 375,
                                                                     columnNumber: 23
                                                                 }, this))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 366,
+                                                        lineNumber: 365,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-579a5f31d939e07" + " " + "grid-2",
+                                                        className: "jsx-76c58d709631b0d9" + " " + "grid-2",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                 type: "text",
                                                                 placeholder: "Full Name",
                                                                 name: "name",
                                                                 required: true,
-                                                                className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                                className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 382,
+                                                                lineNumber: 380,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -8666,20 +8610,20 @@ function InnerDiscoverySection() {
                                                                 placeholder: "Email",
                                                                 name: "email",
                                                                 required: true,
-                                                                className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                                className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 389,
+                                                                lineNumber: 387,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 381,
+                                                        lineNumber: 379,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-579a5f31d939e07" + " " + "grid-3",
+                                                        className: "jsx-76c58d709631b0d9" + " " + "grid-3",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                 type: "date",
@@ -8694,10 +8638,10 @@ function InnerDiscoverySection() {
                                                                         setToDate("");
                                                                     }
                                                                 },
-                                                                className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                                className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 399,
+                                                                lineNumber: 397,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -8708,157 +8652,157 @@ function InnerDiscoverySection() {
                                                                 value: toDate,
                                                                 min: fromDate || "",
                                                                 onChange: (e)=>setToDate(e.target.value),
-                                                                className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                                className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 414,
+                                                                lineNumber: 412,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 398,
+                                                        lineNumber: 396,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                         type: "text",
                                                         placeholder: "Fitness Level",
                                                         name: "fitness",
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 426,
+                                                        lineNumber: 424,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                         type: "text",
                                                         placeholder: "Food Preferences",
                                                         name: "food",
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field"
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 432,
+                                                        lineNumber: 430,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                         placeholder: "Any Health Notes",
                                                         rows: "2",
                                                         name: "health",
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field textarea"
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field textarea"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 439,
+                                                        lineNumber: 437,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                         placeholder: "Any Additional Requests",
                                                         rows: "2",
                                                         name: "requests",
-                                                        className: "jsx-579a5f31d939e07" + " " + "input-field textarea"
+                                                        className: "jsx-76c58d709631b0d9" + " " + "input-field textarea"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 445,
+                                                        lineNumber: 443,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-579a5f31d939e07" + " " + "guidance-row",
+                                                        className: "jsx-76c58d709631b0d9" + " " + "guidance-row",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "jsx-579a5f31d939e07",
+                                                                className: "jsx-76c58d709631b0d9",
                                                                 children: "Do you want mindfulness guidance?"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 453,
+                                                                lineNumber: 451,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-579a5f31d939e07" + " " + "radio-group",
+                                                                className: "jsx-76c58d709631b0d9" + " " + "radio-group",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "jsx-579a5f31d939e07",
+                                                                        className: "jsx-76c58d709631b0d9",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                 type: "radio",
                                                                                 name: "guide",
                                                                                 value: "Yes",
-                                                                                className: "jsx-579a5f31d939e07"
+                                                                                className: "jsx-76c58d709631b0d9"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                                lineNumber: 456,
+                                                                                lineNumber: 454,
                                                                                 columnNumber: 25
                                                                             }, this),
                                                                             " Yes"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                        lineNumber: 455,
+                                                                        lineNumber: 453,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "jsx-579a5f31d939e07",
+                                                                        className: "jsx-76c58d709631b0d9",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                 type: "radio",
                                                                                 name: "guide",
                                                                                 value: "No",
-                                                                                className: "jsx-579a5f31d939e07"
+                                                                                className: "jsx-76c58d709631b0d9"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                                lineNumber: 459,
+                                                                                lineNumber: 457,
                                                                                 columnNumber: 25
                                                                             }, this),
                                                                             " No"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                        lineNumber: 458,
+                                                                        lineNumber: 456,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 454,
+                                                                lineNumber: 452,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 452,
+                                                        lineNumber: 450,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                         type: "submit",
-                                                        className: "jsx-579a5f31d939e07" + " " + "submit-btn",
+                                                        className: "jsx-76c58d709631b0d9" + " " + "submit-btn",
                                                         children: "Submit Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 464,
+                                                        lineNumber: 462,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "jsx-579a5f31d939e07" + " " + "result-message",
+                                                        className: "jsx-76c58d709631b0d9" + " " + "result-message",
                                                         children: result
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                        lineNumber: 467,
+                                                        lineNumber: 465,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                lineNumber: 365,
+                                                lineNumber: 364,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                        lineNumber: 346,
+                                        lineNumber: 345,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-579a5f31d939e07" + " " + "carousel-wrapper",
+                                        className: "jsx-76c58d709631b0d9" + " " + "carousel-wrapper",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-579a5f31d939e07" + " " + "swiper-container-custom",
+                                            className: "jsx-76c58d709631b0d9" + " " + "swiper-container-custom",
                                             children: [
                                                 isClient && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Swiper"], {
                                                     ref: swiperRef,
@@ -8895,83 +8839,83 @@ function InnerDiscoverySection() {
                                                     children: programs.map((p, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 onClick: ()=>window.open(FLIPBOOK_LINKS[idx], "_blank", "fullscreen=yes"),
-                                                                className: "jsx-579a5f31d939e07" + " " + "program-card cursor-pointer group",
+                                                                className: "jsx-76c58d709631b0d9" + " " + "program-card cursor-pointer group",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                         src: p.image,
                                                                         alt: p.title,
-                                                                        className: "jsx-579a5f31d939e07" + " " + "program-img"
+                                                                        className: "jsx-76c58d709631b0d9" + " " + "program-img"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                        lineNumber: 503,
+                                                                        lineNumber: 501,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-579a5f31d939e07" + " " + "absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg",
+                                                                        className: "jsx-76c58d709631b0d9" + " " + "absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "jsx-579a5f31d939e07" + " " + "text-white font-medium text-lg bg-black/60 px-6 py-3 rounded-full",
+                                                                            className: "jsx-76c58d709631b0d9" + " " + "text-white font-medium text-lg bg-black/60 px-6 py-3 rounded-full",
                                                                             children: "Click to Preview"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                            lineNumber: 509,
+                                                                            lineNumber: 507,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                        lineNumber: 508,
+                                                                        lineNumber: 506,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                                lineNumber: 493,
+                                                                lineNumber: 491,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, p.id, false, {
                                                             fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                            lineNumber: 492,
+                                                            lineNumber: 490,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                    lineNumber: 475,
+                                                    lineNumber: 473,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-579a5f31d939e07" + " " + "custom-bullets",
+                                                    className: "jsx-76c58d709631b0d9" + " " + "custom-bullets",
                                                     children: programs.map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                             onClick: ()=>goToSlide(i),
-                                                            className: "jsx-579a5f31d939e07" + " " + `custom-bullet ${activeIndex === i ? "active" : ""}`
+                                                            className: "jsx-76c58d709631b0d9" + " " + `custom-bullet ${activeIndex === i ? "active" : ""}`
                                                         }, i, false, {
                                                             fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                            lineNumber: 521,
+                                                            lineNumber: 519,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                                    lineNumber: 519,
+                                                    lineNumber: 517,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                            lineNumber: 473,
+                                            lineNumber: 471,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                        lineNumber: 472,
+                                        lineNumber: 470,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home-1/Wellness.jsx",
-                                lineNumber: 344,
+                                lineNumber: 343,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/Wellness.jsx",
-                            lineNumber: 343,
+                            lineNumber: 342,
                             columnNumber: 11
                         }, this)
                     ]
@@ -8986,12 +8930,12 @@ function InnerDiscoverySection() {
                     iframeUrl: activeFlipbookUrl
                 }, void 0, false, {
                     fileName: "[project]/src/app/home-1/Wellness.jsx",
-                    lineNumber: 537,
+                    lineNumber: 535,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    id: "579a5f31d939e07",
-                    children: ".inner-discovery-section.jsx-579a5f31d939e07{color:#fff;background:url(/assets/images/wellness/wellness_back.png) 50%/cover no-repeat;min-height:auto;padding:60px 20px;overflow:hidden}.radio-group.jsx-579a5f31d939e07{grid-template-columns:auto auto;justify-content:start;gap:10px;display:grid}.container.jsx-579a5f31d939e07{max-width:1400px;margin:0 auto;padding:0 20px}.desktop-layout.jsx-579a5f31d939e07 .content-grid.jsx-579a5f31d939e07{grid-template-columns:1fr 1.1fr;align-items:start;gap:50px;display:grid}.mobile-layout.jsx-579a5f31d939e07{display:none}.main-title.jsx-579a5f31d939e07{color:#fff;letter-spacing:2.5px;margin-bottom:10px;line-height:1.1}.highlight.jsx-579a5f31d939e07{font-family:Dancing Script,cursive}.subtitle.jsx-579a5f31d939e07{opacity:.9;margin-bottom:30px;font-size:14px;line-height:1.4}.discovery-form.jsx-579a5f31d939e07{flex-direction:column;gap:14px;display:flex}.form-section.jsx-579a5f31d939e07{width:100%;max-width:600px}.grid-2.jsx-579a5f31d939e07{grid-template-columns:1fr 1fr;gap:14px;display:grid}.grid-3.jsx-579a5f31d939e07{grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:14px;display:grid}.input-field.jsx-579a5f31d939e07{color:#000;background:#fff;border:1px solid #000;border-radius:6px;min-height:46px;padding:12px 16px;font-size:.95rem}.input-field.jsx-579a5f31d939e07::placeholder{color:#250303;font-size:.9rem}.textarea.jsx-579a5f31d939e07{resize:vertical;min-height:70px;padding-top:12px}.guidance-row.jsx-579a5f31d939e07{color:#fff;justify-content:space-between;align-items:center;margin-top:8px;font-size:.9rem;display:flex}.guidance-row.jsx-579a5f31d939e07 span.jsx-579a5f31d939e07{color:#fff;font-size:.9rem}.submit-btn.jsx-579a5f31d939e07{color:#fff;cursor:pointer;background:#ab8a62;border:none;border-radius:5px;align-self:flex-start;margin-top:10px;padding:14px 40px;transition:all .3s}.submit-btn.jsx-579a5f31d939e07:hover{transform:translateY(-2px)}.result-message.jsx-579a5f31d939e07{text-align:center;color:#fff;margin-top:10px;font-size:.9rem}.radio-group.jsx-579a5f31d939e07 label.jsx-579a5f31d939e07{cursor:pointer;color:#fff;align-items:center;gap:6px;font-size:.9rem;display:flex}.radio-group.jsx-579a5f31d939e07 input[type=radio].jsx-579a5f31d939e07{accent-color:#ab8a62;cursor:pointer;width:16px;height:16px}.carousel-wrapper.jsx-579a5f31d939e07{justify-content:center;align-items:center;display:flex}.mobile-carousel-wrapper.jsx-579a5f31d939e07{width:100%;margin-bottom:40px}.swiper-container-custom.jsx-579a5f31d939e07{width:100%;max-width:1200px;position:relative}.fixed-cards-swiper.jsx-579a5f31d939e07 .swiper-slide{height:auto;width:340px!important}.mobile-cards-swiper.jsx-579a5f31d939e07 .swiper-slide{height:auto;width:300px!important}.program-card.jsx-579a5f31d939e07{border-radius:5px;width:80%;height:100%;transition:transform .3s;position:relative;overflow:hidden}.program-card.jsx-579a5f31d939e07:hover{transform:translateY(-8px)}.program-img.jsx-579a5f31d939e07{object-fit:cover;width:100%;height:420px;display:block}.mobile-cards-swiper.jsx-579a5f31d939e07 .program-card.jsx-579a5f31d939e07{width:100%;margin:0 auto}.mobile-cards-swiper.jsx-579a5f31d939e07 .program-img.jsx-579a5f31d939e07{height:380px}.overlay.jsx-579a5f31d939e07{text-align:center;padding:40px 15px 20px;position:absolute;bottom:0;left:0;right:0}.program-title.jsx-579a5f31d939e07{letter-spacing:1.2px;text-transform:uppercase;color:#fff;font-size:1.2rem;font-weight:400;line-height:1.3}.custom-arrow.jsx-579a5f31d939e07{cursor:pointer;z-index:10;color:#b49a54;background:#fffffff2;border:none;border-radius:50%;justify-content:center;align-items:center;width:48px;height:48px;transition:all .3s;display:flex;position:absolute;top:50%;transform:translateY(-50%);box-shadow:0 4px 15px #0003}.custom-arrow.jsx-579a5f31d939e07:hover{background:#fff;transform:translateY(-50%)scale(1.1)}.prev.jsx-579a5f31d939e07{left:-20px}.next.jsx-579a5f31d939e07{right:-20px}.custom-bullets.jsx-579a5f31d939e07{justify-content:center;gap:10px;margin-top:25px;display:flex}.custom-bullet.jsx-579a5f31d939e07{cursor:pointer;background:#fff9;border:none;border-radius:50%;width:8px;height:8px;padding:0;transition:all .3s}.custom-bullet.active.jsx-579a5f31d939e07{background:#d4af37;transform:scale(1.2)}@media (width<=768px){.desktop-layout.jsx-579a5f31d939e07{display:none}.mobile-layout.jsx-579a5f31d939e07{display:block}.mobile-title-section.jsx-579a5f31d939e07{text-align:center;margin-bottom:30px}.inner-discovery-section.jsx-579a5f31d939e07{padding:50px 15px}.main-title.jsx-579a5f31d939e07{letter-spacing:1.5px;text-align:center;font-size:2.2rem}.subtitle.jsx-579a5f31d939e07{text-align:center;margin-bottom:25px;font-size:.95rem}.mobile-form-section.jsx-579a5f31d939e07{width:100%;max-width:600px;margin:0 auto}.grid-2.jsx-579a5f31d939e07,.grid-3.jsx-579a5f31d939e07{grid-template-columns:1fr;gap:12px}.discovery-form.jsx-579a5f31d939e07{gap:12px}.input-field.jsx-579a5f31d939e07{width:100%;min-height:44px;padding:11px 14px;font-size:.9rem}.textarea.jsx-579a5f31d939e07{min-height:65px}.mobile-cards-swiper.jsx-579a5f31d939e07 .swiper-slide{width:280px!important;height:450px!important}.mobile-cards-swiper.jsx-579a5f31d939e07 .program-card.jsx-579a5f31d939e07{width:100%;height:100%;margin:0 auto}.mobile-cards-swiper.jsx-579a5f31d939e07 .program-img.jsx-579a5f31d939e07{background:#f5f5f5;border-radius:8px;width:100%;object-fit:contain!important;height:100%!important}.custom-arrow.jsx-579a5f31d939e07{width:42px;height:42px}.guidance-row.jsx-579a5f31d939e07{flex-direction:column;align-items:flex-start;gap:10px;margin-top:8px;color:#fff!important;font-size:.9rem!important}.guidance-row.jsx-579a5f31d939e07 span.jsx-579a5f31d939e07{color:#fff;font-size:.9rem;display:block}.radio-group.jsx-579a5f31d939e07{align-items:center;gap:20px;width:100%;display:flex}.radio-group.jsx-579a5f31d939e07 label.jsx-579a5f31d939e07{color:#fff;align-items:center;gap:8px;font-size:.9rem;display:flex}.radio-group.jsx-579a5f31d939e07 input[type=radio].jsx-579a5f31d939e07{accent-color:#ab8a62;width:16px;height:16px}.submit-btn.jsx-579a5f31d939e07{border-radius:5px;align-self:center;width:200px;height:60px;margin:0 auto;display:block}.result-message.jsx-579a5f31d939e07{text-align:center;display:block}}@media (width<=480px){.main-title.jsx-579a5f31d939e07{font-size:1.6rem}.mobile-cards-swiper.jsx-579a5f31d939e07 .swiper-slide{width:260px!important;height:420px!important}.mobile-cards-swiper.jsx-579a5f31d939e07 .program-img.jsx-579a5f31d939e07{object-fit:contain!important}.input-field.jsx-579a5f31d939e07{padding:10px 12px;font-size:.85rem}.input-field.jsx-579a5f31d939e07::placeholder{font-size:.85rem}.fixed-cards-swiper.jsx-579a5f31d939e07 .swiper-slide{width:260px!important}.guidance-row.jsx-579a5f31d939e07{color:#fff;justify-content:space-between;align-items:center;margin-top:8px;display:flex;font-size:.9rem!important}.guidance-row.jsx-579a5f31d939e07 span.jsx-579a5f31d939e07{font-size:.85rem}.radio-group.jsx-579a5f31d939e07 label.jsx-579a5f31d939e07{align-items:center;font-size:.85rem}}@media (width<=360px){.main-title.jsx-579a5f31d939e07{font-size:1.4rem}.mobile-cards-swiper.jsx-579a5f31d939e07 .swiper-slide{width:240px!important;height:400px!important}.mobile-cards-swiper.jsx-579a5f31d939e07 .program-img.jsx-579a5f31d939e07{object-fit:contain!important}.fixed-cards-swiper.jsx-579a5f31d939e07 .swiper-slide{width:240px!important}.guidance-row.jsx-579a5f31d939e07{font-size:.8rem!important}.guidance-row.jsx-579a5f31d939e07 span.jsx-579a5f31d939e07,.radio-group.jsx-579a5f31d939e07 label.jsx-579a5f31d939e07{font-size:.8rem}}@media (width<=1200px){.desktop-layout.jsx-579a5f31d939e07 .content-grid.jsx-579a5f31d939e07{gap:40px}.main-title.jsx-579a5f31d939e07{font-size:2.5rem}}@media (width<=1024px){.desktop-layout.jsx-579a5f31d939e07 .content-grid.jsx-579a5f31d939e07{text-align:center;grid-template-columns:1fr;gap:60px}.main-title.jsx-579a5f31d939e07{font-size:2.8rem}.prev.jsx-579a5f31d939e07{left:5px}.next.jsx-579a5f31d939e07{right:5px}.desktop-layout.jsx-579a5f31d939e07 .submit-btn.jsx-579a5f31d939e07{align-self:center}}@media (width<=640px){.inner-discovery-section.jsx-579a5f31d939e07{color:#fff;background:url(/assets/images/wellness/wellness_back.png) 50%/cover no-repeat;width:100%;padding:40px 16px;overflow:hidden}.container.jsx-579a5f31d939e07{width:100%;max-width:1440px;margin:0 auto;padding:0 16px}.desktop-layout.jsx-579a5f31d939e07 .content-grid.jsx-579a5f31d939e07{flex-direction:column;gap:40px;width:100%;display:flex}.desktop-layout.jsx-579a5f31d939e07 .form-section.jsx-579a5f31d939e07{width:100%;max-width:600px;margin:0 auto}.desktop-layout.jsx-579a5f31d939e07 .main-title.jsx-579a5f31d939e07{letter-spacing:1.5px;color:#fff;text-align:center;margin-bottom:12px;font-family:Inter,sans-serif;font-size:max(1.8rem,min(5vw,2.8rem));font-weight:300;line-height:1.2}}"
+                    id: "76c58d709631b0d9",
+                    children: ".inner-discovery-section.jsx-76c58d709631b0d9{color:#fff;background:url(/assets/images/wellness/wellness_back.png) 50%/cover no-repeat;min-height:auto;padding:60px 20px;overflow:hidden}.radio-group.jsx-76c58d709631b0d9{grid-template-columns:auto auto;justify-content:start;gap:10px;display:grid}.container.jsx-76c58d709631b0d9{max-width:1400px;margin:0 auto;padding:0 20px}.desktop-layout.jsx-76c58d709631b0d9 .content-grid.jsx-76c58d709631b0d9{grid-template-columns:1fr 1.1fr;align-items:start;gap:50px;display:grid}.mobile-layout.jsx-76c58d709631b0d9{display:none}.main-title.jsx-76c58d709631b0d9{color:#fff;letter-spacing:2.5px;margin-bottom:10px;line-height:1.1}.highlight.jsx-76c58d709631b0d9{font-family:Dancing Script,cursive}.subtitle.jsx-76c58d709631b0d9{opacity:.9;margin-bottom:30px;font-size:14px;line-height:1.4}.discovery-form.jsx-76c58d709631b0d9{flex-direction:column;gap:14px;display:flex}.form-section.jsx-76c58d709631b0d9{width:100%;max-width:600px}.grid-2.jsx-76c58d709631b0d9{grid-template-columns:1fr 1fr;gap:14px;display:grid}.grid-3.jsx-76c58d709631b0d9{grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:14px;display:grid}.input-field.jsx-76c58d709631b0d9{color:#676767;background:#fff;border:1px solid #000;border-radius:6px;min-height:46px;padding:12px 16px;font-size:.95rem}.input-field.jsx-76c58d709631b0d9::placeholder{color:#676767;opacity:1;font-size:.9rem}.input-field.jsx-76c58d709631b0d9 option.jsx-76c58d709631b0d9{color:#676767;background:#fff}.input-field.jsx-76c58d709631b0d9 option.jsx-76c58d709631b0d9:disabled{color:#676767}.input-field.jsx-76c58d709631b0d9::-webkit-calendar-picker-indicator{filter:opacity(.5)}.textarea.jsx-76c58d709631b0d9{resize:vertical;min-height:70px;padding-top:12px}.guidance-row.jsx-76c58d709631b0d9{color:#fff;justify-content:space-between;align-items:center;margin-top:8px;font-size:.9rem;display:flex}.guidance-row.jsx-76c58d709631b0d9 span.jsx-76c58d709631b0d9{color:#fff;font-size:.9rem}.submit-btn.jsx-76c58d709631b0d9{color:#fff;cursor:pointer;background:#ab8a62;border:none;border-radius:5px;align-self:flex-start;margin-top:10px;padding:14px 40px;transition:all .3s}.submit-btn.jsx-76c58d709631b0d9:hover{transform:translateY(-2px)}.result-message.jsx-76c58d709631b0d9{text-align:center;color:#fff;margin-top:10px;font-size:.9rem}.radio-group.jsx-76c58d709631b0d9 label.jsx-76c58d709631b0d9{cursor:pointer;color:#fff;align-items:center;gap:6px;font-size:.9rem;display:flex}.radio-group.jsx-76c58d709631b0d9 input[type=radio].jsx-76c58d709631b0d9{accent-color:#ab8a62;cursor:pointer;width:16px;height:16px}.carousel-wrapper.jsx-76c58d709631b0d9{justify-content:center;align-items:center;display:flex}.mobile-carousel-wrapper.jsx-76c58d709631b0d9{width:100%;margin-bottom:40px}.swiper-container-custom.jsx-76c58d709631b0d9{width:100%;max-width:1200px;position:relative}.fixed-cards-swiper.jsx-76c58d709631b0d9 .swiper-slide{height:auto;width:340px!important}.mobile-cards-swiper.jsx-76c58d709631b0d9 .swiper-slide{height:auto;width:300px!important}.program-card.jsx-76c58d709631b0d9{border-radius:5px;width:80%;height:100%;transition:transform .3s;position:relative;overflow:hidden}.program-card.jsx-76c58d709631b0d9:hover{transform:translateY(-8px)}.program-img.jsx-76c58d709631b0d9{object-fit:cover;width:100%;height:420px;display:block}.mobile-cards-swiper.jsx-76c58d709631b0d9 .program-card.jsx-76c58d709631b0d9{width:100%;margin:0 auto}.mobile-cards-swiper.jsx-76c58d709631b0d9 .program-img.jsx-76c58d709631b0d9{height:380px}.overlay.jsx-76c58d709631b0d9{text-align:center;padding:40px 15px 20px;position:absolute;bottom:0;left:0;right:0}.program-title.jsx-76c58d709631b0d9{letter-spacing:1.2px;text-transform:uppercase;color:#fff;font-size:1.2rem;font-weight:400;line-height:1.3}.custom-arrow.jsx-76c58d709631b0d9{cursor:pointer;z-index:10;color:#b49a54;background:#fffffff2;border:none;border-radius:50%;justify-content:center;align-items:center;width:48px;height:48px;transition:all .3s;display:flex;position:absolute;top:50%;transform:translateY(-50%);box-shadow:0 4px 15px #0003}.custom-arrow.jsx-76c58d709631b0d9:hover{background:#fff;transform:translateY(-50%)scale(1.1)}.prev.jsx-76c58d709631b0d9{left:-20px}.next.jsx-76c58d709631b0d9{right:-20px}.custom-bullets.jsx-76c58d709631b0d9{justify-content:center;gap:10px;margin-top:25px;display:flex}.custom-bullet.jsx-76c58d709631b0d9{cursor:pointer;background:#fff9;border:none;border-radius:50%;width:8px;height:8px;padding:0;transition:all .3s}.custom-bullet.active.jsx-76c58d709631b0d9{background:#d4af37;transform:scale(1.2)}@media (width<=768px){.desktop-layout.jsx-76c58d709631b0d9{display:none}.mobile-layout.jsx-76c58d709631b0d9{display:block}.mobile-title-section.jsx-76c58d709631b0d9{text-align:center;margin-bottom:30px}.inner-discovery-section.jsx-76c58d709631b0d9{padding:50px 15px}.main-title.jsx-76c58d709631b0d9{letter-spacing:1.5px;text-align:center;font-size:2.2rem}.subtitle.jsx-76c58d709631b0d9{text-align:center;margin-bottom:25px;font-size:.95rem}.mobile-form-section.jsx-76c58d709631b0d9{width:100%;max-width:600px;margin:0 auto}.grid-2.jsx-76c58d709631b0d9,.grid-3.jsx-76c58d709631b0d9{grid-template-columns:1fr;gap:12px}.discovery-form.jsx-76c58d709631b0d9{gap:12px}.input-field.jsx-76c58d709631b0d9{width:100%;min-height:44px;padding:11px 14px;font-size:.9rem}.textarea.jsx-76c58d709631b0d9{min-height:65px}.mobile-cards-swiper.jsx-76c58d709631b0d9 .swiper-slide{width:280px!important;height:450px!important}.mobile-cards-swiper.jsx-76c58d709631b0d9 .program-card.jsx-76c58d709631b0d9{width:100%;height:100%;margin:0 auto}.mobile-cards-swiper.jsx-76c58d709631b0d9 .program-img.jsx-76c58d709631b0d9{background:#f5f5f5;border-radius:8px;width:100%;object-fit:contain!important;height:100%!important}.custom-arrow.jsx-76c58d709631b0d9{width:42px;height:42px}.guidance-row.jsx-76c58d709631b0d9{flex-direction:column;align-items:flex-start;gap:10px;margin-top:8px;color:#fff!important;font-size:.9rem!important}.guidance-row.jsx-76c58d709631b0d9 span.jsx-76c58d709631b0d9{color:#fff;font-size:.9rem;display:block}.radio-group.jsx-76c58d709631b0d9{align-items:center;gap:20px;width:100%;display:flex}.radio-group.jsx-76c58d709631b0d9 label.jsx-76c58d709631b0d9{color:#fff;align-items:center;gap:8px;font-size:.9rem;display:flex}.radio-group.jsx-76c58d709631b0d9 input[type=radio].jsx-76c58d709631b0d9{accent-color:#ab8a62;width:16px;height:16px}.submit-btn.jsx-76c58d709631b0d9{border-radius:5px;align-self:center;width:200px;height:60px;margin:0 auto;display:block}.result-message.jsx-76c58d709631b0d9{text-align:center;display:block}}@media (width<=480px){.main-title.jsx-76c58d709631b0d9{font-size:1.6rem}.mobile-cards-swiper.jsx-76c58d709631b0d9 .swiper-slide{width:260px!important;height:420px!important}.mobile-cards-swiper.jsx-76c58d709631b0d9 .program-img.jsx-76c58d709631b0d9{object-fit:contain!important}.input-field.jsx-76c58d709631b0d9{padding:10px 12px;font-size:.85rem}.input-field.jsx-76c58d709631b0d9::placeholder{font-size:.85rem}.fixed-cards-swiper.jsx-76c58d709631b0d9 .swiper-slide{width:260px!important}.guidance-row.jsx-76c58d709631b0d9{color:#fff;justify-content:space-between;align-items:center;margin-top:8px;display:flex;font-size:.9rem!important}.guidance-row.jsx-76c58d709631b0d9 span.jsx-76c58d709631b0d9{font-size:.85rem}.radio-group.jsx-76c58d709631b0d9 label.jsx-76c58d709631b0d9{align-items:center;font-size:.85rem}}@media (width<=360px){.main-title.jsx-76c58d709631b0d9{font-size:1.4rem}.mobile-cards-swiper.jsx-76c58d709631b0d9 .swiper-slide{width:240px!important;height:400px!important}.mobile-cards-swiper.jsx-76c58d709631b0d9 .program-img.jsx-76c58d709631b0d9{object-fit:contain!important}.fixed-cards-swiper.jsx-76c58d709631b0d9 .swiper-slide{width:240px!important}.guidance-row.jsx-76c58d709631b0d9{font-size:.8rem!important}.guidance-row.jsx-76c58d709631b0d9 span.jsx-76c58d709631b0d9,.radio-group.jsx-76c58d709631b0d9 label.jsx-76c58d709631b0d9{font-size:.8rem}}@media (width<=1200px){.desktop-layout.jsx-76c58d709631b0d9 .content-grid.jsx-76c58d709631b0d9{gap:40px}.main-title.jsx-76c58d709631b0d9{font-size:2.5rem}}@media (width<=1024px){.desktop-layout.jsx-76c58d709631b0d9 .content-grid.jsx-76c58d709631b0d9{text-align:center;grid-template-columns:1fr;gap:60px}.main-title.jsx-76c58d709631b0d9{font-size:2.8rem}.prev.jsx-76c58d709631b0d9{left:5px}.next.jsx-76c58d709631b0d9{right:5px}.desktop-layout.jsx-76c58d709631b0d9 .submit-btn.jsx-76c58d709631b0d9{align-self:center}}@media (width<=640px){.inner-discovery-section.jsx-76c58d709631b0d9{color:#fff;background:url(/assets/images/wellness/wellness_back.png) 50%/cover no-repeat;width:100%;padding:40px 16px;overflow:hidden}.container.jsx-76c58d709631b0d9{width:100%;max-width:1440px;margin:0 auto;padding:0 16px}.desktop-layout.jsx-76c58d709631b0d9 .content-grid.jsx-76c58d709631b0d9{flex-direction:column;gap:40px;width:100%;display:flex}.desktop-layout.jsx-76c58d709631b0d9 .form-section.jsx-76c58d709631b0d9{width:100%;max-width:600px;margin:0 auto}.desktop-layout.jsx-76c58d709631b0d9 .main-title.jsx-76c58d709631b0d9{letter-spacing:1.5px;color:#fff;text-align:center;margin-bottom:12px;font-family:Inter,sans-serif;font-size:max(1.8rem,min(5vw,2.8rem));font-weight:300;line-height:1.2}}"
                 }, void 0, false, void 0, this)
             ]
         }, void 0, true, {
@@ -9029,18 +8973,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function NutritionPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-bf19cb3d38549572" + " " + "rts__section nutrition__section section__padding position-relative",
+        className: "jsx-344eab78471e4eb4" + " " + "rts__section nutrition__section section__padding position-relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-bf19cb3d38549572" + " " + "container",
+                className: "jsx-344eab78471e4eb4" + " " + "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-bf19cb3d38549572" + " " + "row g-5 align-items-start",
+                    className: "jsx-344eab78471e4eb4" + " " + "row g-5 align-items-start",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-bf19cb3d38549572" + " " + "col-12 col-lg-6 order-2 order-lg-1",
+                            className: "jsx-344eab78471e4eb4" + " " + "col-12 col-lg-6 order-2 order-lg-1",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-bf19cb3d38549572" + " " + "nutrition-image-wrapper",
+                                    className: "jsx-344eab78471e4eb4" + " " + "nutrition-image-wrapper",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/assets/images/nutrition/nutrition.png",
                                         alt: "Mindful Dining",
@@ -9058,7 +9002,7 @@ function NutritionPage() {
                                             e.target.innerHTML = "Nutrition Image";
                                             e.target.classList.add("fallback-image");
                                         },
-                                        className: "jsx-bf19cb3d38549572" + " " + "nutrition-image w-100 rounded-3"
+                                        className: "jsx-344eab78471e4eb4" + " " + "nutrition-image w-100 rounded-3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                         lineNumber: 13,
@@ -9070,14 +9014,14 @@ function NutritionPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-bf19cb3d38549572" + " " + "d-block d-lg-none text-center mt-4",
+                                    className: "jsx-344eab78471e4eb4" + " " + "d-block d-lg-none text-center mt-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/dining",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             style: {
                                                 maxWidth: "280px"
                                             },
-                                            className: "jsx-bf19cb3d38549572" + " " + "nutrition__btn w-100",
+                                            className: "jsx-344eab78471e4eb4" + " " + "nutrition__btn w-100",
                                             children: "Discover Our Menu"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9101,13 +9045,13 @@ function NutritionPage() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-bf19cb3d38549572" + " " + "col-12 col-lg-6 order-1 order-lg-2 position-relative",
+                            className: "jsx-344eab78471e4eb4" + " " + "col-12 col-lg-6 order-1 order-lg-2 position-relative",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-bf19cb3d38549572" + " " + "nutrition-content",
+                                    className: "jsx-344eab78471e4eb4" + " " + "nutrition-content",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "section__title",
+                                            className: "jsx-344eab78471e4eb4" + " " + "section__title",
                                             children: "Mindful Eating — Crafted by a Presidential Chef"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9115,7 +9059,7 @@ function NutritionPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "nutrition__subtitle mb-2",
+                                            className: "jsx-344eab78471e4eb4" + " " + "nutrition__subtitle mb-2",
                                             children: "Where Culinary Art Meets Inner Clarity"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9124,18 +9068,18 @@ function NutritionPage() {
                                         }, this),
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                            className: "jsx-bf19cb3d38549572"
+                                            className: "jsx-344eab78471e4eb4"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                             lineNumber: 53,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "nutrition__description mb-3",
+                                            className: "jsx-344eab78471e4eb4" + " " + "nutrition__description mb-3",
                                             children: [
                                                 "At Rain Drops, dining becomes a mindful ritual. Every dish is designed to calm the mind, awaken the senses, and nourish the body from within. At the center of this experience is Chef Sadha, Sri Lanka’s Presidential Chef, whose rare mastery elevates food into wellness. Guided by intention, compassion, and the rhythm of nature, he creates cuisine that harmonizes luxury with purity. ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                    className: "jsx-bf19cb3d38549572"
+                                                    className: "jsx-344eab78471e4eb4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                                     lineNumber: 62,
@@ -9143,7 +9087,7 @@ function NutritionPage() {
                                                 }, this),
                                                 " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                    className: "jsx-bf19cb3d38549572"
+                                                    className: "jsx-344eab78471e4eb4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                                     lineNumber: 62,
@@ -9156,14 +9100,14 @@ function NutritionPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "mt-1",
+                                            className: "jsx-344eab78471e4eb4" + " " + "mt-1 our-kitchen-list",
                                             children: [
                                                 "Our kitchen draws from:",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    className: "jsx-bf19cb3d38549572" + " " + "mt-2",
+                                                    className: "jsx-344eab78471e4eb4" + " " + "mt-2",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-bf19cb3d38549572",
+                                                            className: "jsx-344eab78471e4eb4",
                                                             children: "Rainforest-fresh, locally sourced ingredients"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9171,7 +9115,7 @@ function NutritionPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-bf19cb3d38549572",
+                                                            className: "jsx-344eab78471e4eb4",
                                                             children: "Menus shaped by neuroscience and original mindfulness"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9179,7 +9123,7 @@ function NutritionPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-bf19cb3d38549572",
+                                                            className: "jsx-344eab78471e4eb4",
                                                             children: "Guidance from our U.S.-based nutrition advisor"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9187,7 +9131,7 @@ function NutritionPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "jsx-bf19cb3d38549572",
+                                                            className: "jsx-344eab78471e4eb4",
                                                             children: "Seasonal dishes that promote calm, clarity, and natural energy"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9201,11 +9145,11 @@ function NutritionPage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-bf19cb3d38549572" + " " + "_subtitle",
+                                                    className: "jsx-344eab78471e4eb4" + " " + "_subtitle",
                                                     children: [
                                                         "From sunrise teas to serene evening meals, every plate at RainDrops gently brings you back to yourself.",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                            className: "jsx-bf19cb3d38549572"
+                                                            className: "jsx-344eab78471e4eb4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                                             lineNumber: 79,
@@ -9213,7 +9157,7 @@ function NutritionPage() {
                                                         }, this),
                                                         " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                                            className: "jsx-bf19cb3d38549572"
+                                                            className: "jsx-344eab78471e4eb4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                                             lineNumber: 79,
@@ -9232,10 +9176,10 @@ function NutritionPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "_subtitle",
+                                            className: "jsx-344eab78471e4eb4" + " " + "_subtitle",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    className: "jsx-bf19cb3d38549572",
+                                                    className: "jsx-344eab78471e4eb4",
                                                     children: "“Food becomes healing when cooked with intention and eaten with awareness.” -"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9243,7 +9187,7 @@ function NutritionPage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-bf19cb3d38549572" + " " + "chef-signature",
+                                                    className: "jsx-344eab78471e4eb4" + " " + "chef-signature",
                                                     children: "Chef Sadha"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9257,11 +9201,11 @@ function NutritionPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-bf19cb3d38549572" + " " + "d-none d-lg-block mt-3",
+                                            className: "jsx-344eab78471e4eb4" + " " + "d-none d-lg-block mt-3",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/dining",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: "jsx-bf19cb3d38549572" + " " + "nutrition__btn",
+                                                    className: "jsx-344eab78471e4eb4" + " " + "nutrition__btn",
                                                     children: "Discover Our Menu"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home-1/Nutrition.jsx",
@@ -9285,11 +9229,11 @@ function NutritionPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-bf19cb3d38549572" + " " + "watermark_img",
+                                    className: "jsx-344eab78471e4eb4" + " " + "watermark_img",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/assets/images/nutrition/wm.png",
                                         alt: "Mindful Eating",
-                                        className: "jsx-bf19cb3d38549572"
+                                        className: "jsx-344eab78471e4eb4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Nutrition.jsx",
                                         lineNumber: 98,
@@ -9318,8 +9262,8 @@ function NutritionPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "bf19cb3d38549572",
-                children: '.nutrition__section.jsx-bf19cb3d38549572{background:#fff;margin-top:20px}.nutrition__subtitle.jsx-bf19cb3d38549572{font-size:20px;line-height:1.5}@font-face{font-family:BrittanyAngella-Ear54;src:url(/font/BrittanySignature.ttf)format("truetype");font-weight:400;font-style:normal;font-display:swap}.chef-signature.jsx-bf19cb3d38549572{letter-spacing:.02em;color:#b19852;margin-bottom:20px;margin-left:8px;font-family:BrittanyAngella-Ear54,Great Vibes,cursive;font-size:1.9rem;font-style:italic;line-height:1.8;display:inline-block}.nutrition__description.mb-3.jsx-bf19cb3d38549572{margin-bottom:.75rem!important}.mt-2.jsx-bf19cb3d38549572{margin-top:.5rem!important}.mt-3.jsx-bf19cb3d38549572{margin-top:1rem}.watermark_img.jsx-bf19cb3d38549572{pointer-events:none;z-index:10;opacity:.92;width:420px;height:420px;position:absolute;bottom:-40px;right:-100px}.watermark_img.jsx-bf19cb3d38549572 img.jsx-bf19cb3d38549572{object-fit:contain;width:100%;height:100%}@media (width<=1399px){.watermark_img.jsx-bf19cb3d38549572{width:380px;height:380px;bottom:-80px;right:-80px}}@media (width<=1199px){.watermark_img.jsx-bf19cb3d38549572{width:340px;height:340px;bottom:0;right:-60px}.chef-signature.jsx-bf19cb3d38549572{display:block}}@media (width<=991px){.watermark_img.jsx-bf19cb3d38549572{width:280px;height:280px;bottom:-60px;right:-40px}}@media (width<=767px){.watermark_img.jsx-bf19cb3d38549572{width:240px;height:240px;bottom:-30px;right:-30px}}@media (width<=575px){.watermark_img.jsx-bf19cb3d38549572{opacity:.7;width:200px;height:200px;bottom:10px;right:10px}.section__title.jsx-bf19cb3d38549572,.nutrition__subtitle.jsx-bf19cb3d38549572,.nutrition__description.jsx-bf19cb3d38549572,._subtitle.jsx-bf19cb3d38549572{text-align:center}.nutrition-image-wrapper.jsx-bf19cb3d38549572 img.jsx-bf19cb3d38549572{height:80%}}.nutrition-image.jsx-bf19cb3d38549572{height:760px;transition:transform .4s}.nutrition-image.jsx-bf19cb3d38549572:hover{transform:translateY(-8px)}.nutrition__btn.jsx-bf19cb3d38549572{color:#fff;background-color:#ab8a62;border:none;border-radius:10px;padding:12px 32px;font-size:16px;font-weight:500;transition:all .3s;box-shadow:0 4px 12px #d9770633}.nutrition__btn.jsx-bf19cb3d38549572:hover{background-color:#b8955e;transform:translateY(-2px)}@media (width<=575px){.watermark_img.jsx-bf19cb3d38549572{opacity:.7;width:250px;height:250px;bottom:60px}}'
+                id: "344eab78471e4eb4",
+                children: '.nutrition__section.jsx-344eab78471e4eb4{background:#fff;padding:6rem 0 120px}.our-kitchen-list.jsx-344eab78471e4eb4{font-size:var(--p)}.nutrition__subtitle.jsx-344eab78471e4eb4{font-size:20px;line-height:1.5}@font-face{font-family:BrittanyAngella-Ear54;src:url(/font/BrittanySignature.ttf)format("truetype");font-weight:400;font-style:normal;font-display:swap}.chef-signature.jsx-344eab78471e4eb4{letter-spacing:.02em;color:#b19852;margin-bottom:20px;margin-left:8px;font-family:BrittanyAngella-Ear54,Great Vibes,cursive;font-size:1.9rem;font-style:italic;line-height:1.8;display:inline-block}.nutrition__description.mb-3.jsx-344eab78471e4eb4{font-size:var(--p);margin-bottom:.75rem!important}.mt-2.jsx-344eab78471e4eb4{margin-top:.5rem!important}.mt-3.jsx-344eab78471e4eb4{margin-top:1rem}.watermark_img.jsx-344eab78471e4eb4{pointer-events:none;z-index:10;opacity:.92;width:420px;height:420px;position:absolute;bottom:-40px;right:-100px}.watermark_img.jsx-344eab78471e4eb4 img.jsx-344eab78471e4eb4{object-fit:contain;width:100%;height:100%}@media (width<=1399px){.watermark_img.jsx-344eab78471e4eb4{width:380px;height:380px;bottom:-80px;right:-80px}}@media (width<=1199px){.watermark_img.jsx-344eab78471e4eb4{width:340px;height:340px;bottom:0;right:-60px}.chef-signature.jsx-344eab78471e4eb4{display:block}}@media (width<=991px){.watermark_img.jsx-344eab78471e4eb4{width:280px;height:280px;bottom:-60px;right:-40px}}@media (width<=767px){.watermark_img.jsx-344eab78471e4eb4{width:240px;height:240px;bottom:-30px;right:-30px}}@media (width<=575px){.watermark_img.jsx-344eab78471e4eb4{opacity:.7;width:200px;height:200px;bottom:10px;right:10px}.section__title.jsx-344eab78471e4eb4,.nutrition__subtitle.jsx-344eab78471e4eb4,.nutrition__description.jsx-344eab78471e4eb4,._subtitle.jsx-344eab78471e4eb4{text-align:center}.nutrition-image-wrapper.jsx-344eab78471e4eb4 img.jsx-344eab78471e4eb4{height:80%}}.nutrition-image.jsx-344eab78471e4eb4{height:760px;transition:transform .4s}.nutrition-image.jsx-344eab78471e4eb4:hover{transform:translateY(-8px)}.nutrition__btn.jsx-344eab78471e4eb4{color:#fff;background-color:#ab8a62;border:none;border-radius:10px;padding:12px 32px;font-size:16px;font-weight:500;transition:all .3s;box-shadow:0 4px 12px #d9770633}.nutrition__btn.jsx-344eab78471e4eb4:hover{background-color:#b8955e;transform:translateY(-2px)}@media (width<=575px){.watermark_img.jsx-344eab78471e4eb4{opacity:.7;width:250px;height:250px;bottom:60px}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
@@ -9354,20 +9298,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function MindfulnessNeurosciencePage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-591e8871eb5780a" + " " + "rts__section neuroscience__section section__padding",
+        className: "jsx-eee6333cbb5892b2" + " " + "rts__section neuroscience__section section__padding",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-591e8871eb5780a" + " " + "container",
+                className: "jsx-eee6333cbb5892b2" + " " + "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-591e8871eb5780a" + " " + "row g-5 align-items-start",
+                    className: "jsx-eee6333cbb5892b2" + " " + "row g-5 align-items-start",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-591e8871eb5780a" + " " + "col-12 col-lg-6 order-1 order-lg-1",
+                            className: "jsx-eee6333cbb5892b2" + " " + "col-12 col-lg-6 order-1 order-lg-1",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-591e8871eb5780a" + " " + "neuroscience-content",
+                                className: "jsx-eee6333cbb5892b2" + " " + "neuroscience-content",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "jsx-591e8871eb5780a" + " " + "section__title",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "section__title",
                                         children: " Mindfulness Meets Neuroscience at Rain drops"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9375,7 +9319,7 @@ function MindfulnessNeurosciencePage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience__subtitle mb-4",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__subtitle mb-4",
                                         children: "Experience Calm, Measured by Nature and Mind"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9383,7 +9327,7 @@ function MindfulnessNeurosciencePage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience__description mb-4",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__description mb-4",
                                         children: "At Rain Drops Wellness Resort, ancient mindfulness meets modern science. Join our signature Mindfulness of Breathing and Loving-Friendliness Session, guided by Dr. GB Hewawasam and enhanced by Muse™ neurofeedback headbands — the same technology used by neuroscientists to track real-time calm and focus. Each guest receives a complimentary one-hour session, surrounded by the living serenity of the Sinharaja Rainforest. Feel your mind settle, your breath deepen, and your awareness expand — as nature, science, and mindfulness become one."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9394,9 +9338,9 @@ function MindfulnessNeurosciencePage() {
                                         style: {
                                             fontStyle: 'italic'
                                         },
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience__description wow fadeInUp",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__description wow fadeInUp",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                            className: "jsx-591e8871eb5780a",
+                                            className: "jsx-eee6333cbb5892b2",
                                             children: "Rain Drops — Where the Mind Learns to Breathe."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9412,9 +9356,9 @@ function MindfulnessNeurosciencePage() {
                                         style: {
                                             fontStyle: 'italic'
                                         },
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience__description wow fadeInUp",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__description wow fadeInUp",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                            className: "jsx-591e8871eb5780a",
+                                            className: "jsx-eee6333cbb5892b2",
                                             children: " Discover the Experience — Book Your Stay Today."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9427,11 +9371,11 @@ function MindfulnessNeurosciencePage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-591e8871eb5780a" + " " + "d-none d-lg-block",
+                                        className: "jsx-eee6333cbb5892b2" + " " + "d-none d-lg-block",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             href: "/neuroscience",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "jsx-591e8871eb5780a" + " " + "neuroscience__btn",
+                                                className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__btn",
                                                 children: "Discover Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9460,10 +9404,10 @@ function MindfulnessNeurosciencePage() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-591e8871eb5780a" + " " + "col-12 col-lg-6 order-2 order-lg-2",
+                            className: "jsx-eee6333cbb5892b2" + " " + "col-12 col-lg-6 order-2 order-lg-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-591e8871eb5780a" + " " + "neuroscience-image-wrapper",
+                                    className: "jsx-eee6333cbb5892b2" + " " + "neuroscience-image-wrapper",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/assets/images/neroscience/muse2.jpg",
                                         alt: "Mindfulness Meets Neuroscience",
@@ -9481,7 +9425,7 @@ function MindfulnessNeurosciencePage() {
                                             e.target.innerHTML = 'Neuroscience Image';
                                             e.target.classList.add('fallback-image');
                                         },
-                                        className: "jsx-591e8871eb5780a" + " " + "neuroscience-image w-100 rounded-3"
+                                        className: "jsx-eee6333cbb5892b2" + " " + "neuroscience-image w-100 rounded-3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/Neroscience.jsx",
                                         lineNumber: 49,
@@ -9493,14 +9437,14 @@ function MindfulnessNeurosciencePage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-591e8871eb5780a" + " " + "d-block d-lg-none text-center mt-4",
+                                    className: "jsx-eee6333cbb5892b2" + " " + "d-block d-lg-none text-center mt-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/neuroscience",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             style: {
                                                 maxWidth: '280px'
                                             },
-                                            className: "jsx-591e8871eb5780a" + " " + "neuroscience__btn w-100",
+                                            className: "jsx-eee6333cbb5892b2" + " " + "neuroscience__btn w-100",
                                             children: "Discover Now"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/home-1/Neroscience.jsx",
@@ -9535,8 +9479,8 @@ function MindfulnessNeurosciencePage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "591e8871eb5780a",
-                children: ".neuroscience__section.jsx-591e8871eb5780a{background:#f8f5f0;margin-top:-50px}.content__title.jsx-591e8871eb5780a{text-align:center;justify-content:center;line-height:1.2}.neuroscience__tagline.jsx-591e8871eb5780a,.neuroscience__cta-text.jsx-591e8871eb5780a{font-size:15px}.neuroscience-image.jsx-591e8871eb5780a{height:671px;transition:transform .4s}.neuroscience-image.jsx-591e8871eb5780a:hover{transform:translateY(-8px)}.neuroscience__btn.jsx-591e8871eb5780a{color:#fff;cursor:pointer;background-color:#ab8a62;border:none;border-radius:8px;margin-top:30px;padding:14px 36px;font-size:16px;font-weight:500;transition:all .3s;box-shadow:0 4px 12px #bda6714d}.neuroscience__btn.jsx-591e8871eb5780a:hover{background-color:#b8955e;transform:translateY(-2px);box-shadow:0 6px 16px #bda67166}.neuroscience__btn.jsx-591e8871eb5780a:active{transform:translateY(0)}@media (width<=575.98px){.content__title.jsx-591e8871eb5780a{text-align:center;font-size:1.6rem}.neuroscience__section.jsx-591e8871eb5780a{background:#f8f5f0;margin-top:20px}.section__title.jsx-591e8871eb5780a{text-align:center;margin-bottom:1rem}.neuroscience__subtitle.jsx-591e8871eb5780a{text-align:center;font-size:1.5rem}.neuroscience__description.jsx-591e8871eb5780a{text-align:center;font-size:.95rem}.neuroscience__tagline.jsx-591e8871eb5780a,.neuroscience__cta-text.jsx-591e8871eb5780a{text-align:center;font-size:.9rem}.neuroscience-image.jsx-591e8871eb5780a{border-radius:8px;height:220px}.neuroscience__btn.jsx-591e8871eb5780a{padding:12px 28px;font-size:15px}}@media (width>=576px) and (width<=767.98px){.content__title.jsx-591e8871eb5780a{text-align:left;font-size:1.8rem}.neuroscience__subtitle.jsx-591e8871eb5780a{font-size:1.6rem}.neuroscience__description.jsx-591e8871eb5780a{font-size:1rem}.neuroscience-image.jsx-591e8871eb5780a{height:300px}}@media (width>=768px) and (width<=991.98px){.content__title.jsx-591e8871eb5780a{font-size:2rem}.neuroscience__subtitle.jsx-591e8871eb5780a{font-size:1.8rem}.neuroscience__description.jsx-591e8871eb5780a{font-size:1.05rem}.neuroscience-image.jsx-591e8871eb5780a{height:420px}}@media (width>=992px) and (width<=1199.98px){.content__title.jsx-591e8871eb5780a{font-size:2.25rem}.neuroscience__subtitle.jsx-591e8871eb5780a{font-size:2rem}.neuroscience__description.jsx-591e8871eb5780a{font-size:1.125rem}.neuroscience-image.jsx-591e8871eb5780a{height:550px}}@media (width>=1200px){.content__title.jsx-591e8871eb5780a{font-size:2.6rem}.neuroscience__subtitle.jsx-591e8871eb5780a{font-size:20px}.neuroscience__description.jsx-591e8871eb5780a{font-size:18px}.neuroscience__tagline.jsx-591e8871eb5780a,.neuroscience__cta-text.jsx-591e8871eb5780a{font-size:15px}.neuroscience-image.jsx-591e8871eb5780a{height:671px}}.fallback-image.jsx-591e8871eb5780a{font-size:1.2rem;font-weight:500}"
+                id: "eee6333cbb5892b2",
+                children: ".neuroscience__section.jsx-eee6333cbb5892b2{background:#f8f5f0;margin-top:-50px}.content__title.jsx-eee6333cbb5892b2{text-align:center;justify-content:center;line-height:1.2}.neuroscience__subtitle.jsx-eee6333cbb5892b2,.neuroscience__description.jsx-eee6333cbb5892b2,.neuroscience__tagline.jsx-eee6333cbb5892b2,.neuroscience__cta-text.jsx-eee6333cbb5892b2{line-height:1.6;font-size:var(--p)}.neuroscience__tagline.jsx-eee6333cbb5892b2,.neuroscience__cta-text.jsx-eee6333cbb5892b2{font-size:15px}.neuroscience-image.jsx-eee6333cbb5892b2{height:671px;transition:transform .4s}.neuroscience-image.jsx-eee6333cbb5892b2:hover{transform:translateY(-8px)}.neuroscience__btn.jsx-eee6333cbb5892b2{color:#fff;cursor:pointer;background-color:#ab8a62;border:none;border-radius:8px;margin-top:30px;padding:14px 36px;font-size:16px;font-weight:500;transition:all .3s;box-shadow:0 4px 12px #bda6714d}.neuroscience__btn.jsx-eee6333cbb5892b2:hover{background-color:#b8955e;transform:translateY(-2px);box-shadow:0 6px 16px #bda67166}.neuroscience__btn.jsx-eee6333cbb5892b2:active{transform:translateY(0)}@media (width<=575.98px){.content__title.jsx-eee6333cbb5892b2{text-align:center;font-size:1.6rem}.neuroscience__section.jsx-eee6333cbb5892b2{background:#f8f5f0;margin-top:20px}.section__title.jsx-eee6333cbb5892b2{text-align:center;margin-bottom:1rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{text-align:center;font-size:1.5rem}.neuroscience__tagline.jsx-eee6333cbb5892b2,.neuroscience__cta-text.jsx-eee6333cbb5892b2{text-align:center;font-size:.9rem}.neuroscience-image.jsx-eee6333cbb5892b2{border-radius:8px;height:220px}.neuroscience__btn.jsx-eee6333cbb5892b2{padding:12px 28px;font-size:15px}}@media (width>=576px) and (width<=767.98px){.content__title.jsx-eee6333cbb5892b2{text-align:left;font-size:1.8rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{font-size:1.6rem}.neuroscience-image.jsx-eee6333cbb5892b2{height:300px}}@media (width>=768px) and (width<=991.98px){.content__title.jsx-eee6333cbb5892b2{font-size:2rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{font-size:1.8rem}.neuroscience-image.jsx-eee6333cbb5892b2{height:420px}}@media (width>=992px) and (width<=1199.98px){.content__title.jsx-eee6333cbb5892b2{font-size:2.25rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{font-size:2rem}.neuroscience-image.jsx-eee6333cbb5892b2{height:550px}}@media (width>=1200px){.content__title.jsx-eee6333cbb5892b2{font-size:2.6rem}.neuroscience__subtitle.jsx-eee6333cbb5892b2{font-size:20px}.neuroscience__tagline.jsx-eee6333cbb5892b2,.neuroscience__cta-text.jsx-eee6333cbb5892b2{font-size:15px}.neuroscience-image.jsx-eee6333cbb5892b2{height:671px}}.fallback-image.jsx-eee6333cbb5892b2{font-size:1.2rem;font-weight:500}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {

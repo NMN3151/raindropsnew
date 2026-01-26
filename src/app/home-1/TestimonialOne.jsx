@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css"; 
 import { Navigation, Autoplay } from "swiper/modules";
@@ -10,6 +10,45 @@ import "swiper/css/scrollbar";
 import "swiper/css/autoplay"; 
 
 function TestimonialOne() {
+  const [expandedSlides, setExpandedSlides] = useState({});
+
+  const toggleReadMore = (slideIndex) => {
+    setExpandedSlides(prev => ({
+      ...prev,
+      [slideIndex]: !prev[slideIndex]
+    }));
+  };
+
+  const testimonials = [
+    {
+      id: 0,
+      image: "https://i.postimg.cc/kgz1YJtL/ludema.jpg",
+      alt: "Dr. Jim Ludema",
+      title: "Where Beauty Meets Mindfulness",
+      text: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation. That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends.",
+      author: "Dr. Jim Ludema",
+      shortText: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation. That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends."
+    },
+    {
+      id: 1,
+      image: "https://i.postimg.cc/XYGxCRDB/ludema2.jpg",
+      alt: "Dr. Beverly Ludema",
+      title: "An Unforgettable Journey",
+      text: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years. Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life.",
+      author: "Dr. Beverly Ludema",
+      shortText: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years. Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life."
+    },
+    {
+      id: 2,
+      image: "/assets/images/travelpartners/MariaRakhmanova.jpeg",
+      alt: "Rainforest retreat experience",
+      title: "Heaven-like Nature & Deep Mindful Moments",
+      text: "Rain Drops Wellness Villa felt like heaven from the moment I arrived. The location is absolutely beautiful, surrounded by nature in a way that feels rare and deeply peaceful.\n\nWhat truly stood out to me was the service. The staff were incredibly friendly, attentive, and genuinely caring. I felt that every request was handled with warmth and respect, and it honestly felt like each guest is truly valued. In my opinion, the level of service here is a strong contender for some of the best hospitality in Sri Lanka.\n\nThe mindfulness experiences were another highlight of my stay. Walking through the Sinharaja rainforest with a very knowledgeable and professional guide they arranged for me, learning about the flora and fauna, spending time by a creek, enjoying a meal by the river, and even experiencing the natural fish therapy in the water. all of it felt thoughtfully arranged and deeply calming.\n\nRain Drops is not just a place to stay, but an experience that connects you to nature, mindfulness, and genuine hospitality",
+      author: "Maria Rakhmanova",
+      shortText: "Rain Drops Wellness Villa felt like heaven from the moment I arrived. The location is absolutely beautiful, surrounded by nature in a way that feels rare and deeply peaceful. What truly stood out to me was the service. The staff were incredibly friendly, attentive..."
+    }
+  ];
+
   return (
     <>
       <div className="rts__section section__padding testimonial has__shape">
@@ -51,76 +90,53 @@ function TestimonialOne() {
                   speed={1000}
                   effect="slide"
                 >
-                  <SwiperSlide>
-                    <div className="testimonial__item__content">
-                      <div className="author__icon">
-                        <img
-                          src="https://i.postimg.cc/kgz1YJtL/ludema.jpg"
-                          alt="Dr. Jim Ludema"
-                          loading="lazy"
-                        />
-                      </div>
-                      <div className="testimonial__content">
-                        <div className="single__slider__item">
-                          <div className="slider__rating mb-20">
-                            <h4 className="topic-title">
-                              Where Beauty Meets Mindfulness
-                            </h4>
-                          </div>
-                          <p className="slider__text">
-                            Sri Lanka's natural beauty was both awe-inspiring
-                            and soothing. A true highlight for Beverly and me
-                            was discovering Buddhist mindfulness and meditation.
-                            That quiet moment of learning brought clarity,
-                            peace, and gratitude—something we'll carry with us
-                            long after this beautiful journey ends.
-                          </p>
-                          <div className="slider__author__info">
-                            <div className="slider__author__info__content">
-                              <h6 className="author-name">
-                                Dr. Jim Ludema
-                              </h6>
+                  {testimonials.map((testimonial) => (
+                    <SwiperSlide key={testimonial.id}>
+                      <div className="testimonial__item__content">
+                        <div className="author__icon">
+                          <img
+                            src={testimonial.image}
+                            alt={testimonial.alt}
+                            loading="lazy"
+                          />
+                        </div>
+                        <div className="testimonial__content">
+                          <div className="single__slider__item">
+                            <div className="slider__rating mb-20">
+                              <h4 className="topic-title">
+                                {testimonial.title}
+                              </h4>
+                            </div>
+                            <div className="slider__text__wrapper">
+                              <p className={`slider__text ${expandedSlides[testimonial.id] ? 'expanded' : 'collapsed'}`}>
+                                {expandedSlides[testimonial.id] 
+                                  ? testimonial.text 
+                                  : testimonial.shortText}
+
+                                  {testimonial.text !== testimonial.shortText && (
+                                <span 
+                                  className="see-more-link"
+                                  onClick={() => toggleReadMore(testimonial.id)}
+                                >
+                                  {expandedSlides[testimonial.id] ? 'See less' : 'See more'}
+                                </span>
+                              )}
+
+                              </p>
+                              
+                            </div>
+                            <div className="slider__author__info">
+                              <div className="slider__author__info__content">
+                                <h6 className="author-name">
+                                  {testimonial.author}
+                                </h6>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="testimonial__item__content">
-                      <div className="author__icon">
-                        <img
-                          src="https://i.postimg.cc/XYGxCRDB/ludema2.jpg"
-                          alt="Dr. Beverly Ludema"
-                          loading="lazy"
-                        />
-                      </div>
-                      <div className="testimonial__content">
-                        <div className="single__slider__item">
-                          <div className="slider__rating mb-20">
-                            <h4 className="topic-title">
-                              An Unforgettable Journey
-                            </h4>
-                          </div>
-                          <p className="slider__text">
-                            The serene landscapes and rich cultural experiences
-                            in Lanka exceeded all our expectations. We found
-                            ourselves immersed in traditions that date back
-                            thousands of years. Each day brought new discoveries
-                            and moments of connection that transformed not just
-                            our vacation, but our perspective on life.
-                          </p>
-                          <div className="slider__author__info">
-                            <div className="slider__author__info__content">
-                              <h6 className="author-name">
-                                Dr. Beverly Ludema
-                              </h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
+                    </SwiperSlide>
+                  ))}
                 </Swiper>
               </div>
             </div>
@@ -132,10 +148,11 @@ function TestimonialOne() {
         /* ========== DESKTOP STYLES (Default) ========== */
         .testimonial__item__content {
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           justify-content: center;
           gap: 40px;
           padding: 40px 0;
+          align-items: center;
         }
         
         .author__icon {
@@ -176,16 +193,55 @@ function TestimonialOne() {
           color: #1b1b1b;
         }
         
+        .slider__text__wrapper {
+          position: relative;
+        }
+        
         .slider__text {
           font-size: var(--p);
-          margin-bottom: 20px;
+          margin-bottom: 8px;
           line-height: 1.6;
+          color: #333;
+          white-space: pre-line;
+          transition: max-height 0.3s ease;
+        }
+        
+        .slider__text.collapsed {
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-height: 6.4em;
+        }
+        
+        .slider__text.expanded {
+          display: block;
+          max-height: none;
+        }
+        
+        .see-more-link {
+          display: inline-block;
+          color: #c8b08a;
+          font-size: var(--p);
+          font-weight: 500;
+          cursor: pointer;
+          text-decoration: none;
+          transition: all 0.2s ease;
+          font-family: inherit;
+          margin-left: 10px;
+        }
+        
+        .see-more-link:hover {
+          color: #a08960;
+          text-decoration: underline;
         }
         
         .slider__author__info {
           display: flex;
           align-items: center;
           gap: 15px;
+          margin-top: 20px;
         }
         
         .author-name {
@@ -213,6 +269,10 @@ function TestimonialOne() {
           }
           
           .slider__text {
+            font-size: 0.95rem;
+          }
+          
+          .see-more-link {
             font-size: 0.95rem;
           }
           
@@ -265,7 +325,18 @@ function TestimonialOne() {
           .slider__text {
             font-size: 0.95rem;
             text-align: center;
-            margin-bottom: 15px;
+            margin-bottom: 8px;
+          }
+          
+          .slider__text.collapsed {
+            max-height: 5.7em;
+          }
+          
+          .see-more-link {
+            display: block;
+            text-align: center;
+            margin: 8px auto 0;
+            font-size: 0.95rem;
           }
           
           .slider__author__info {
@@ -300,6 +371,14 @@ function TestimonialOne() {
             font-size: 0.9rem;
           }
           
+          .slider__text.collapsed {
+            max-height: 5.4em;
+          }
+          
+          .see-more-link {
+            font-size: 0.9rem;
+          }
+          
           .author-name {
             font-size: 0.95rem;
           }
@@ -323,6 +402,14 @@ function TestimonialOne() {
           }
           
           .slider__text {
+            font-size: 0.85rem;
+          }
+          
+          .slider__text.collapsed {
+            max-height: 5.1em;
+          }
+          
+          .see-more-link {
             font-size: 0.85rem;
           }
           

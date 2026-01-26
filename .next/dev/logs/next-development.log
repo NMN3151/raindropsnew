@@ -1,7 +1,6 @@
-[00:00:21.397] Server  LOG     ✓ Ready in 16.9s
-[00:00:24.585] Server  LOG     ○ Compiling / ...
-[00:00:26.132] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:26.132] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.768] Server  LOG     ✓ Ready in 1398ms
+[00:00:14.444] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.901] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -44,1133 +43,188 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
       ...
 
-[00:00:26.132] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:26.132] Browser LOG     Autoplay started
-[00:00:26.132] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:26.132] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:01:23.596] Server  LOG     ✓ Compiled in 140ms
-[00:01:26.153] Server  LOG     ✓ Compiled in 32ms
-[00:02:35.472] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <head> body  
+[00:00:14.901] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:14.901] Browser LOG     Autoplay started
+[00:00:14.901] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:14.901] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:40.709] Server  LOG     ✓ Compiled in 322ms
+[00:01:59.342] Server  LOG     ✓ Compiled in 21ms
+[00:08:34.282] Server  LOG     ✓ Compiled in 21ms
+[00:08:34.492] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[00:08:43.129] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:43.326] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
+
+If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
+[00:08:43.327] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
+
+If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
+[00:08:43.340] Server  LOG     ✓ Compiled in 23ms
+[00:08:44.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:45.492] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:08:45.493] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:08:45.493] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
                       <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <Script>
-                          <Script>
->                         <body>
-                            ...
-                              <SegmentViewNode type="page" pagePath="page.tsx">
-                                <SegmentTrieNode>
-                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                                  <Page params={Promise} searchParams={Promise}>
-                                    <SEO>
->                                   <head>
-                                    ...
-                            ...
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
                   ...
+      ...
 
-[00:02:35.472] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. body <head>
-[00:02:35.673] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:35.674] Browser LOG     Autoplay started
-[00:02:35.674] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:35.674] Browser LOG     Autoplay started
-[00:02:35.674] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:35.674] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:07:55.373] Server  LOG     ✓ Compiled in 242ms
-[00:07:55.881] Browser ERROR   ./src/app/contact/page.jsx:61:25
+[00:08:45.493] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:08:45.493] Browser LOG     Autoplay started
+[00:08:45.493] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:08:45.493] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:08:51.326] Server  LOG     ✓ Compiled in 18ms
+[00:09:26.509] Server  LOG     ✓ Compiled in 18ms
+[00:10:46.177] Server  LOG     ✓ Compiled in 18ms
+[00:13:34.694] Server  LOG     ✓ Compiled in 21ms
+[00:16:53.492] Server  LOG     ✓ Compiled in 20ms
+[00:18:20.805] Server  LOG     ✓ Compiled in 23ms
+[00:18:46.262] Server  LOG     ✓ Compiled in 86ms
+[00:18:46.361] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:19:30.926] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:19:33.526] Server  LOG     ✓ Compiled in 32ms
+[00:20:01.592] Server  LOG     ✓ Compiled in 19ms
+[00:23:55.393] Server  LOG     ✓ Compiled in 233ms
+[00:24:45.109] Server  LOG     ✓ Compiled in 24ms
+[00:24:45.194] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:25:09.830] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:25:14.813] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:25:26.680] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:25:41.427] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:25:42.446] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:25:44.138] Server  LOG     ✓ Compiled in 40ms
+[00:25:54.325] Server  LOG     ✓ Compiled in 33ms
+[00:25:58.660] Server  LOG     ✓ Compiled in 34ms
+[00:26:09.542] Server  LOG     ✓ Compiled in 21ms
+[00:26:09.627] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:16.496] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:37.245] Server  LOG     ✓ Compiled in 53ms
+[00:26:37.360] Browser ERROR   ./src/app/home-1/TestimonialOne.jsx:118:32
 Parsing ecmascript source code failed
-  59 |             <
-  60 |             
-> 61 |             <FooterOne />
-     |                         ^
-  62 |             <BackToTop />
-  63 |         </>
-  64 |     )
+  116 |                               {testimonial.text !== testimonial.shortText && (
+  117 |                                 
+> 118 |                               )}
+      |                                ^
+  119 |                             </div>
+  120 |                             <div className="slider__author__info">
+  121 |                               <div className="slider__author__info__content">
 
-Expression expected
-[00:07:55.881] Browser ERROR   ./src/app/contact/page.jsx:63:10
-Parsing ecmascript source code failed
-  61 |             <FooterOne />
-  62 |             <BackToTop />
-> 63 |         </>
-     |          ^^
-  64 |     )
-  65 | }
-  66 |
-
-Unterminated regexp literal
-[00:07:56.240] Server  LOG     ✓ Compiled in 15ms
-[00:07:56.889] Browser ERROR   ./src/app/contact/page.jsx:61:25
-Parsing ecmascript source code failed
-  59 |             <RouteInstructions
-  60 |             
-> 61 |             <FooterOne />
-     |                         ^
-  62 |             <BackToTop />
-  63 |         </>
-  64 |     )
-
-Expression expected
-[00:07:56.889] Browser ERROR   ./src/app/contact/page.jsx:63:10
-Parsing ecmascript source code failed
-  61 |             <FooterOne />
-  62 |             <BackToTop />
-> 63 |         </>
-     |          ^^
-  64 |     )
-  65 | }
-  66 |
-
-Unterminated regexp literal
-[00:07:57.780] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:57.872] Server  ERROR   ⨯ ReferenceError: RouteInstructions is not defined
-[00:07:57.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:58.889] Browser ERROR   uncaughtError: ReferenceError: RouteInstructions is not defined
-[00:08:09.225] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:09.226] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:09.226] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:09.335] Server  ERROR   ⨯ ReferenceError: RouteInstructions is not defined
-[00:08:09.348] Server  LOG     ✓ Compiled in 18ms
-[00:08:09.433] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:09.874] Browser ERROR   uncaughtError: ReferenceError: RouteInstructions is not defined
-[00:08:27.156] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
+Expected '</', got '}'
 
 Import traces:
   Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
+    ./src/app/home-1/TestimonialOne.jsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.159] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.161] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.163] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.166] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.168] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.170] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.172] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.174] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.177] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.179] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.181] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:27.190] Server  LOG     ✓ Compiled in 45ms
-[00:08:27.888] Browser ERROR   ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './RouteInstructions'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from './RouteInstructions';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:08:38.773] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.775] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.777] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.781] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.784] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.786] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.787] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.789] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.792] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.794] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.796] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.798] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:38.808] Server  LOG     ✓ Compiled in 23ms
-[00:08:39.872] Browser ERROR   ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve ''
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  '';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:08:40.361] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.363] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.365] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.367] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.371] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.373] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.375] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.377] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.379] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.382] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.383] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.385] Server  ERROR   ⨯ ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:08:40.406] Server  LOG     ✓ Compiled in 26ms
-[00:08:40.881] Browser ERROR   ./src/app/contact/page.jsx:12:1
-Module not found: Can't resolve './'
-  10 | import SEO from "../components/SEO";
-  11 | import StructuredData from '../components/StructuredData'
-> 12 | import RouteInstructions from  './';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 |
-  15 |
-
-Import traces:
-  Client Component Browser:
-    ./src/app/contact/page.jsx [Client Component Browser]
-    ./src/app/contact/page.jsx [Server Component]
-
-  Client Component SSR:
-    ./src/app/contact/page.jsx [Client Component SSR]
-    ./src/app/contact/page.jsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:08:42.431] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:42.432] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:42.432] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:42.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:07.838] Server  LOG     ✓ Compiled in 19ms
-[00:13:13.503] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:46.738] Server  LOG     ✓ Compiled in 16ms
-[00:13:50.622] Server  LOG     ✓ Compiled in 24ms
-[00:13:53.314] Server  LOG     ✓ Compiled in 17ms
-[00:14:09.686] Server  LOG     ✓ Compiled in 17ms
-[00:14:12.969] Server  LOG     ✓ Compiled in 24ms
-[00:14:15.848] Server  LOG     ✓ Compiled in 15ms
-[00:14:18.292] Server  LOG     ✓ Compiled in 18ms
-[00:14:20.436] Server  LOG     ✓ Compiled in 16ms
-[00:14:39.539] Server  LOG     ✓ Compiled in 16ms
-[00:14:42.304] Server  LOG     ✓ Compiled in 16ms
-[00:15:18.738] Server  LOG     ✓ Compiled in 18ms
-[00:15:48.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:18.536] Server  LOG     ✓ Compiled in 76ms
-[00:16:23.536] Server  LOG     ✓ Compiled in 61ms
-[00:16:27.169] Server  LOG     ✓ Compiled in 91ms
-[00:16:31.336] Server  LOG     ✓ Compiled in 78ms
-[00:16:58.043] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:21.872] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:21.989] Server  LOG     ✓ Compiled in 26ms
-[00:19:22.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:28.022] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:28.131] Server  LOG     ✓ Compiled in 22ms
-[00:19:28.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:40.282] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:40.395] Server  LOG     ✓ Compiled in 22ms
-[00:19:40.851] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:50.702] Server  LOG     ✓ Compiled in 25ms
-[00:19:50.806] Browser ERROR   uncaughtError: ReferenceError: RouteInstructions is not defined
-[00:20:07.510] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:20:07.677] Server  LOG     ✓ Compiled in 56ms
-[00:20:08.033] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:21.985] Server  LOG     ✓ Compiled in 27ms
-[00:20:22.939] Server  LOG     ✓ Compiled in 36ms
-[00:20:28.747] Server  LOG     ✓ Compiled in 23ms
-[00:21:05.084] Server  LOG     ✓ Compiled in 22ms
-[00:21:11.983] Server  LOG     ✓ Compiled in 19ms
-[00:22:02.561] Server  LOG     ✓ Compiled in 17ms
-[00:22:31.220] Server  LOG     ✓ Compiled in 16ms
-[00:22:35.187] Server  LOG     ✓ Compiled in 18ms
-[00:23:12.477] Server  LOG     ✓ Compiled in 42ms
-[00:23:28.920] Server  LOG     ✓ Compiled in 15ms
-[00:23:49.102] Server  LOG     ✓ Compiled in 16ms
-[00:24:13.252] Server  LOG     ✓ Compiled in 29ms
-[00:27:24.186] Server  LOG     ✓ Compiled in 35ms
-[00:27:56.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:15.839] Server  LOG     ✓ Compiled in 9ms
-[00:28:24.371] Server  LOG     ✓ Compiled in 8ms
-[00:30:18.240] Server  LOG     ✓ Compiled in 17ms
-[00:30:20.754] Server  LOG     ✓ Compiled in 15ms
-[00:30:21.521] Server  LOG     ✓ Compiled in 19ms
-[00:30:22.937] Server  LOG     ✓ Compiled in 15ms
-[00:31:27.110] Server  LOG     ✓ Compiled in 17ms
-[00:31:29.871] Server  LOG     ✓ Compiled in 16ms
-[00:32:37.703] Server  LOG     ✓ Compiled in 15ms
-[00:32:39.144] Server  LOG     ✓ Compiled in 8ms
-[00:32:41.200] Server  LOG     ✓ Compiled in 18ms
-[00:33:04.069] Server  LOG     ✓ Compiled in 16ms
-[00:33:07.939] Server  LOG     ✓ Compiled in 9ms
-[00:33:59.571] Server  LOG     ✓ Compiled in 16ms
-[00:34:03.140] Server  LOG     ✓ Compiled in 18ms
-[00:35:09.989] Server  LOG     ✓ Compiled in 32ms
-[00:35:16.280] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:35:16.392] Server  LOG     ✓ Compiled in 24ms
-[00:35:16.842] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:22.331] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:35:22.445] Server  LOG     ✓ Compiled in 12ms
-[00:35:22.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:26.687] Server  LOG     ✓ Compiled in 31ms
-[00:36:01.815] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:34.554] Server  LOG     ✓ Compiled in 31ms
-[00:36:38.486] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:36:38.606] Server  LOG     ✓ Compiled in 21ms
-[00:36:38.942] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:37:01.188] Server  LOG     ✓ Compiled in 17ms
-[00:37:04.402] Server  LOG     ✓ Compiled in 31ms
-[00:37:07.335] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/contact/page.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:37:07.449] Server  LOG     ✓ Compiled in 17ms
-[00:37:07.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:37:45.104] Server  LOG     ✓ Compiled in 15ms
-[00:38:04.687] Server  LOG     ✓ Compiled in 14ms
-[00:38:32.805] Server  LOG     ✓ Compiled in 17ms
-[00:38:34.653] Server  LOG     ✓ Compiled in 16ms
-[00:38:50.189] Server  LOG     ✓ Compiled in 18ms
-[00:38:55.437] Server  LOG     ✓ Compiled in 23ms
-[00:39:02.071] Server  LOG     ✓ Compiled in 16ms
-[00:44:38.703] Server  LOG     ✓ Compiled in 18ms
-[00:44:39.627] Server  LOG     ✓ Compiled in 18ms
-[00:44:51.620] Server  LOG     ✓ Compiled in 17ms
-[00:45:01.254] Server  LOG     ✓ Compiled in 15ms
-[00:50:50.107] Server  LOG     ✓ Compiled in 55ms
-[00:50:51.657] Server  LOG     ✓ Compiled in 58ms
+    ./src/app/home-1/TestimonialOne.jsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:26:49.114] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:55.543] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:27:16.768] Server  LOG     ✓ Compiled in 26ms
+[00:27:19.058] Server  LOG     ✓ Compiled in 24ms
+[00:28:03.926] Server  LOG     ✓ Compiled in 22ms
+[00:28:06.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:07.943] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:28:07.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:07.943] Browser LOG     Autoplay started
+[00:28:07.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:07.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:07.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:10.693] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:49.886] Server  LOG     ✓ Compiled in 23ms
+[00:28:54.157] Server  LOG     ✓ Compiled in 22ms
+[00:29:00.527] Server  LOG     ✓ Compiled in 22ms
+[00:29:04.473] Server  LOG     ✓ Compiled in 24ms
+[00:29:13.191] Server  LOG     ✓ Compiled in 21ms
+[00:29:36.843] Server  LOG     ✓ Compiled in 24ms
+[00:29:36.927] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:43.723] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:49.864] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:53.314] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:54.677] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:55.845] Server  LOG     ✓ Compiled in 21ms
