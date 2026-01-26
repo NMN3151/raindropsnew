@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import React from "react";
+import RouteInstructions from  './Routeinstructions';
 
 export default function ContactOne() {
   const [result, setResult] = useState("");
@@ -204,12 +205,16 @@ export default function ContactOne() {
             </div>
           </div>
         </div>
+
+        <RouteInstructions />
+        
+
       </div>
 
       <style jsx>{`
         .contact__section {
           background: #ffffffff;
-          min-height: 100vh;
+          min-height: 80vh;
           padding: 80px 0;
            font-size: 20px;
         }

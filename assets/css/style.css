@@ -595,16 +595,16 @@ p:last-child {
 }
 
 .pt-120 {
-  padding: 6rem 0 120px;
+  padding: 3rem 0 120px;
 }
 @media screen and (max-width: 1200px) {
   .pt-120 {
-    padding: 6rem 0 120px;
+    padding: 3rem 0 120px;
   }
 }
 @media screen and (max-width: 992px) {
   .pt-120 {
-   padding: 6rem 0 120px;
+   padding: 3rem 0 120px;
   }
 }
 @media screen and (max-width: 768pxa) {
@@ -8295,7 +8295,7 @@ margin-top: 20px;
   background-color: var(--rts-gray);
 }
 .facilities__area.py-90 {
-  padding: 6rem 0 120px;
+  padding: 3rem 0 120px;
 }
 
 .section__wrapper {

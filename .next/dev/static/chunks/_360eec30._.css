@@ -34574,18 +34574,18 @@ p:last-child {
 }
 
 .pt-120 {
-  padding: 6rem 0 120px;
+  padding: 3rem 0 120px;
 }
 
 @media screen and (max-width: 1200px) {
   .pt-120 {
-    padding: 6rem 0 120px;
+    padding: 3rem 0 120px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .pt-120 {
-    padding: 6rem 0 120px;
+    padding: 3rem 0 120px;
   }
 }
 
@@ -38126,7 +38126,7 @@ textarea:focus, input:focus, textarea:focus-visible, input:focus-visible {
 }
 
 .facilities__area.py-90 {
-  padding: 6rem 0 120px;
+  padding: 3rem 0 120px;
 }
 
 .section__wrapper {
