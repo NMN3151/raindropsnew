@@ -6002,13 +6002,6 @@ textarea:focus, input:focus, textarea:focus-visible, input:focus-visible {
   font-size: 25px;
 }
 
-@media screen and (max-width: 768px) {
-  .testimonial__item__content .slider__text {
-    font-size: 26px;
-    line-height: 40px;
-  }
-}
-
 .testimonial.has__shape.is__home__four .section__shape {
   max-width: max-content;
   position: absolute;

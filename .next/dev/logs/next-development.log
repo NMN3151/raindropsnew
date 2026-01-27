@@ -1,6 +1,7 @@
-[00:00:01.768] Server  LOG     ✓ Ready in 1398ms
-[00:00:14.444] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.901] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:24.747] Server  LOG     ✓ Ready in 19.8s
+[00:00:27.796] Server  LOG     ○ Compiling / ...
+[00:00:31.289] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:31.961] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -43,341 +44,537 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
       ...
 
-[00:00:14.901] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:14.901] Browser LOG     Autoplay started
-[00:00:14.901] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:14.901] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:01:40.709] Server  LOG     ✓ Compiled in 322ms
-[00:01:59.342] Server  LOG     ✓ Compiled in 21ms
-[00:08:34.282] Server  LOG     ✓ Compiled in 21ms
-[00:08:34.492] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
-[00:08:43.129] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:43.326] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
-
-If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
-[00:08:43.327] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
-
-If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
-[00:08:43.340] Server  LOG     ✓ Compiled in 23ms
-[00:08:44.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:45.492] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:08:45.493] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:08:45.493] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
+[00:00:31.961] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:31.961] Browser LOG     Autoplay started
+[00:00:31.961] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:31.961] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:52.622] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
 
   ...
-    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
-      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-        <LoadingBoundary name="/" loading={null}>
-          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                    <SegmentViewNode type="page" pagePath="page.tsx">
-                      <SegmentTrieNode>
-                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                        <Page params={Promise} searchParams={Promise}>
-                          <SEO>
-                          <head>
-                            <StructuredData data={{@context:"...", ...}}>
-                              <script
-+                               type="application/ld+json"
--                               type={null}
-                                dangerouslySetInnerHTML={{
-+                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
--                                 __html: ""
-                                }}
--                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
--                               nomodule=""
-                              >
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/weather" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="weather/pa...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+                <page params={Promise} searchParams={Promise}>
+                  <TopBar>
+                  <HeaderOne>
+                  <div>
+                  <Location>
+                  <Setting>
+                  <Setting2>
+                    <div className="jsx-16f81d...">
+                      <div className="jsx-16f81d...">
+                        <div className="jsx-16f81d...">
+                          <div className="jsx-16f81d...">
+                            <div className="jsx-16f81d...">
+                              <p>
+>                             <p className="jsx-16f81dbeee336798 raindrop-text">
+>                               <ul data-wow-delay="0.2s" className="jsx-16f81dbeee336798 raindrop-text">
                           ...
                     ...
                   ...
-      ...
+            ...
+          ...
 
-[00:08:45.493] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:08:45.493] Browser LOG     Autoplay started
-[00:08:45.493] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:08:45.493] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:08:51.326] Server  LOG     ✓ Compiled in 18ms
-[00:09:26.509] Server  LOG     ✓ Compiled in 18ms
-[00:10:46.177] Server  LOG     ✓ Compiled in 18ms
-[00:13:34.694] Server  LOG     ✓ Compiled in 21ms
-[00:16:53.492] Server  LOG     ✓ Compiled in 20ms
-[00:18:20.805] Server  LOG     ✓ Compiled in 23ms
-[00:18:46.262] Server  LOG     ✓ Compiled in 86ms
-[00:18:46.361] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:19:30.926] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:19:33.526] Server  LOG     ✓ Compiled in 32ms
-[00:20:01.592] Server  LOG     ✓ Compiled in 19ms
-[00:23:55.393] Server  LOG     ✓ Compiled in 233ms
-[00:24:45.109] Server  LOG     ✓ Compiled in 24ms
-[00:24:45.194] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:25:09.830] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:25:14.813] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:25:26.680] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:25:41.427] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:25:42.446] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:25:44.138] Server  LOG     ✓ Compiled in 40ms
-[00:25:54.325] Server  LOG     ✓ Compiled in 33ms
-[00:25:58.660] Server  LOG     ✓ Compiled in 34ms
-[00:26:09.542] Server  LOG     ✓ Compiled in 21ms
-[00:26:09.627] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:26:16.496] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:26:37.245] Server  LOG     ✓ Compiled in 53ms
-[00:26:37.360] Browser ERROR   ./src/app/home-1/TestimonialOne.jsx:118:32
-Parsing ecmascript source code failed
-  116 |                               {testimonial.text !== testimonial.shortText && (
-  117 |                                 
-> 118 |                               )}
-      |                                ^
-  119 |                             </div>
-  120 |                             <div className="slider__author__info">
-  121 |                               <div className="slider__author__info__content">
+[00:00:52.622] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
 
-Expected '</', got '}'
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/weather" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="weather/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Location>
+                <Setting>
+                <Setting2>
+                <Setting3>
+                <Setting4>
+                <Weather>
+                  <div className="jsx-34eb03...">
+                    <div className="jsx-34eb03...">
+                      <div>
+                      <div className="jsx-34eb03...">
+                        <div>
+                        <div className="jsx-34eb03...">
+                          <div className="jsx-34eb03...">
+                            <h2>
+>                           <p className="jsx-34eb03450f2a251c philosophy__highlight">
+                              <div className="text-conte...">
+                                <div className="paragraph-...">
+>                                 <p className="intro-text">
+                                  ...
+                                ...
+                            ...
+                      ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[00:00:52.622] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:00:52.622] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/weather" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="weather/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
+              <page params={Promise} searchParams={Promise}>
+                <TopBar>
+                <HeaderOne>
+                <div>
+                <Location>
+                <Setting>
+                <Setting2>
+                <Setting3>
+                <Setting4>
+                <Weather>
+                  <div className="jsx-34eb03...">
+                    <div className="jsx-34eb03...">
+                      <div>
+                      <div className="jsx-34eb03...">
+                        <div>
+                        <div className="jsx-34eb03...">
+                          <div className="jsx-34eb03...">
+                            <h2>
+>                           <p className="jsx-34eb03450f2a251c philosophy__highlight">
+                              <div className="text-conte...">
+>                               <div className="paragraph-group">
+                                ...
+                            ...
+                      ...
+                      ...
+                    ...
+                ...
+          ...
+        ...
+
+[00:00:52.622] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:00:52.622] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:54.010] Browser WARN    Image with src "/assets/images/weather/bsnake.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:54.010] Browser WARN    Image with src "/assets/images/weather/snake-6704375_1280.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:20.482] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve './Routeinstructions'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  './Routeinstructions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
 
 Import traces:
   Client Component Browser:
-    ./src/app/home-1/TestimonialOne.jsx [Client Component Browser]
-    ./src/app/page.tsx [Client Component Browser]
-    ./src/app/page.tsx [Server Component]
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
 
   Client Component SSR:
-    ./src/app/home-1/TestimonialOne.jsx [Client Component SSR]
-    ./src/app/page.tsx [Client Component SSR]
-    ./src/app/page.tsx [Server Component]
-[00:26:49.114] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:26:55.543] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:27:16.768] Server  LOG     ✓ Compiled in 26ms
-[00:27:19.058] Server  LOG     ✓ Compiled in 24ms
-[00:28:03.926] Server  LOG     ✓ Compiled in 22ms
-[00:28:06.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:07.943] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+https://nextjs.org/docs/messages/module-not-found
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+[00:01:20.485] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve './Routeinstructions'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  './Routeinstructions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
 
-  ...
-    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
-      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-        <LoadingBoundary name="/" loading={null}>
-          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                    <SegmentViewNode type="page" pagePath="page.tsx">
-                      <SegmentTrieNode>
-                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                        <Page params={Promise} searchParams={Promise}>
-                          <SEO>
-                          <head>
-                            <StructuredData data={{@context:"...", ...}}>
-                              <script
-+                               type="application/ld+json"
--                               type={null}
-                                dangerouslySetInnerHTML={{
-+                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
--                                 __html: ""
-                                }}
--                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
--                               nomodule=""
-                              >
-                          ...
-                    ...
-                  ...
-      ...
 
-[00:28:07.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:07.943] Browser LOG     Autoplay started
-[00:28:07.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:07.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:07.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:10.693] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:49.886] Server  LOG     ✓ Compiled in 23ms
-[00:28:54.157] Server  LOG     ✓ Compiled in 22ms
-[00:29:00.527] Server  LOG     ✓ Compiled in 22ms
-[00:29:04.473] Server  LOG     ✓ Compiled in 24ms
-[00:29:13.191] Server  LOG     ✓ Compiled in 21ms
-[00:29:36.843] Server  LOG     ✓ Compiled in 24ms
-[00:29:36.927] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:29:43.723] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:29:49.864] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:29:53.314] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:29:54.677] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:29:55.845] Server  LOG     ✓ Compiled in 21ms
-[00:35:19.477] Server  LOG     ✓ Compiled in 25ms
-[00:35:20.494] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:36:02.430] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:36:54.520] Server  LOG     ✓ Compiled in 22ms
-[00:40:14.741] Server  LOG     ✓ Compiled in 31ms
-[00:40:15.759] Server  LOG     ✓ Compiled in 32ms
-[00:40:17.911] Server  LOG     ✓ Compiled in 23ms
-[00:40:18.493] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:40:20.140] Server  LOG     ✓ Compiled in 33ms
-[00:40:28.609] Server  LOG     ✓ Compiled in 43ms
-[00:42:37.267] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:42:37.645] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
-      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-        <LoadingBoundary name="/" loading={null}>
-          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                    <SegmentViewNode type="page" pagePath="page.tsx">
-                      <SegmentTrieNode>
-                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                        <Page params={Promise} searchParams={Promise}>
-                          <SEO>
-                          <head>
-                            <StructuredData data={{@context:"...", ...}}>
-                              <script
-+                               type="application/ld+json"
--                               type={null}
-                                dangerouslySetInnerHTML={{
-+                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
--                                 __html: ""
-                                }}
--                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
--                               nomodule=""
-                              >
-                          ...
-                    ...
-                  ...
-      ...
-
-[00:42:37.645] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:42:37.645] Browser LOG     Autoplay started
-[00:42:37.645] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:42:37.645] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:47:58.777] Server  LOG     ✓ Compiled in 43ms
-[00:48:02.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:48:02.750] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
-      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-        <LoadingBoundary name="/" loading={null}>
-          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                    <SegmentViewNode type="page" pagePath="page.tsx">
-                      <SegmentTrieNode>
-                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                        <Page params={Promise} searchParams={Promise}>
-                          <SEO>
-                          <head>
-                            <StructuredData data={{@context:"...", ...}}>
-                              <script
-+                               type="application/ld+json"
--                               type={null}
-                                dangerouslySetInnerHTML={{
-+                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
--                                 __html: ""
-                                }}
--                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
--                               nomodule=""
-                              >
-                          ...
-                    ...
-                  ...
-      ...
-
-[00:48:02.750] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:48:02.750] Browser LOG     Autoplay started
-[00:48:02.750] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:48:02.750] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:48:05.960] Server  LOG     ✓ Compiled in 45ms
-[00:48:06.076] Browser ERROR   ./src/app/page.tsx:11:1
-Export default doesn't exist in target module
-   9 | import FacilitiesOne from "./home-1/FacilitiesOne";
-  10 | import RoomOne from "./home-1/RoomOne";
-> 11 | import TestimonialOne from "./home-1/TestimonialOne";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import Story from "./home-1/Story"; 
-  13 | import VideoOne from "./home-1/VideoOne";
-  14 | import Philosophy from "./home-1/Philosophy";
-
-The export default was not found in module [project]/src/app/home-1/TestimonialOne.jsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 
 Import traces:
   Client Component Browser:
-    ./src/app/page.tsx [Client Component Browser]
-    ./src/app/page.tsx [Server Component]
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
 
   Client Component SSR:
-    ./src/app/page.tsx [Client Component SSR]
-    ./src/app/page.tsx [Server Component]
-[00:48:06.076] Browser ERROR   ./src/app/page.tsx:11:1
-Export default doesn't exist in target module
-   9 | import FacilitiesOne from "./home-1/FacilitiesOne";
-  10 | import RoomOne from "./home-1/RoomOne";
-> 11 | import TestimonialOne from "./home-1/TestimonialOne";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import Story from "./home-1/Story"; 
-  13 | import VideoOne from "./home-1/VideoOne";
-  14 | import Philosophy from "./home-1/Philosophy";
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
 
-The export default was not found in module [project]/src/app/home-1/TestimonialOne.jsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:20.488] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve './Routeinstructions'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  './Routeinstructions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
 
 Import traces:
   Client Component Browser:
-    ./src/app/page.tsx [Client Component Browser]
-    ./src/app/page.tsx [Server Component]
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
 
   Client Component SSR:
-    ./src/app/page.tsx [Client Component SSR]
-    ./src/app/page.tsx [Server Component]
-[00:48:28.107] Server  LOG     ✓ Compiled in 38ms
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:20.491] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve './Routeinstructions'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  './Routeinstructions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:20.496] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve './Routeinstructions'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  './Routeinstructions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:20.498] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve './Routeinstructions'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  './Routeinstructions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:20.512] Server  LOG     ✓ Compiled in 572ms
+[00:01:20.625] Browser ERROR   ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve './Routeinstructions'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  './Routeinstructions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:31.070] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  '../';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:31.073] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  '../';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:31.076] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  '../';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:31.080] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  '../';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:31.083] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  '../';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:31.086] Server  ERROR   ⨯ ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  '../';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:31.111] Server  LOG     ✓ Compiled in 29ms
+[00:01:31.226] Browser ERROR   ./src/app/weather/Location.jsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 | import React from "react";
+> 3 | import RouteInstructions from  '../';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | function Location() {
+  6 |  
+
+Import traces:
+  Client Component Browser:
+    ./src/app/weather/Location.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Client Component Browser]
+    ./src/app/weather/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/weather/Location.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Client Component SSR]
+    ./src/app/weather/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:01.722] Server  LOG     ✓ Compiled in 40ms
+[00:02:06.899] Server  LOG     ✓ Compiled in 35ms
+[00:02:10.246] Server  LOG     ✓ Compiled in 36ms
+[00:02:14.465] Server  LOG     ✓ Compiled in 29ms
+[00:02:20.484] Server  LOG     ✓ Compiled in 30ms
+[00:02:32.388] Server  LOG     ✓ Compiled in 28ms
+[00:02:33.001] Server  LOG     ✓ Compiled in 31ms
+[00:02:34.640] Server  LOG     ✓ Compiled in 21ms
+[00:31:22.554] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <head> body  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <Script>
+                          <Script>
+>                         <body>
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                                  <Page params={Promise} searchParams={Promise}>
+                                    <SEO>
+>                                   <head>
+                                    ...
+                            ...
+                  ...
+
+[00:31:22.554] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. body <head>
+[00:31:22.801] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:31:22.802] Browser LOG     Autoplay started
+[00:31:22.802] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:31:22.802] Browser LOG     Autoplay started
+[00:31:22.802] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:31:22.802] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters

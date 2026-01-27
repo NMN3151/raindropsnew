@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import RouteInstructions from  '../contact/Routeinstructions';
 
 function Location() {
  
@@ -125,6 +126,7 @@ function Location() {
                 </p>
               </div>
             </div>
+
           </div>
         </div>
         <p className="content__subtitle wow fadeInUp">
@@ -146,6 +148,8 @@ function Location() {
             referrerPolicy="no-referrer-when-downgrade"
           />
         </div>
+      <RouteInstructions />
+
       </div>
 
       <style jsx>{`

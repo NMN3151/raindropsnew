@@ -5876,7 +5876,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$mo
 ;
 function TestimonialOne() {
     const [expandedSlides, setExpandedSlides] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
+    const [isMobile, setIsMobile] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [currentSlide, setCurrentSlide] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     const swiperRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const checkMobile = ()=>{
+            setIsMobile(window.innerWidth <= 768);
+        };
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return ()=>window.removeEventListener('resize', checkMobile);
+    }, []);
     const toggleReadMore = (slideIndex)=>{
         const isExpanding = !expandedSlides[slideIndex];
         setExpandedSlides((prev)=>({
@@ -5894,6 +5904,18 @@ function TestimonialOne() {
             }
         }
     };
+    // Handle slide change - only collapse if user navigated away from expanded slide
+    const handleSlideChange = (swiper)=>{
+        const newSlide = swiper.realIndex;
+        // Only collapse and resume if moving to a different slide
+        if (newSlide !== currentSlide) {
+            setCurrentSlide(newSlide);
+            setExpandedSlides({});
+            if (swiperRef.current && swiperRef.current.autoplay) {
+                swiperRef.current.autoplay.start();
+            }
+        }
+    };
     const testimonials = [
         {
             id: 0,
@@ -5902,7 +5924,7 @@ function TestimonialOne() {
             title: "Where Beauty Meets Mindfulness",
             text: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation. That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends.",
             author: "Dr. Jim Ludema",
-            shortText: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation. That quiet moment of learning brought clarity, peace, and gratitude—something we'll carry with us long after this beautiful journey ends."
+            shortText: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation..."
         },
         {
             id: 1,
@@ -5911,7 +5933,7 @@ function TestimonialOne() {
             title: "An Unforgettable Journey",
             text: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years. Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life.",
             author: "Dr. Beverly Ludema",
-            shortText: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years. Each day brought new discoveries and moments of connection that transformed not just our vacation, but our perspective on life."
+            shortText: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years..."
         },
         {
             id: 2,
@@ -5920,74 +5942,100 @@ function TestimonialOne() {
             title: "Heaven-like Nature & Deep Mindful Moments",
             text: "Rain Drops Wellness Villa felt like heaven from the moment I arrived. The location is absolutely beautiful, surrounded by nature in a way that feels rare and deeply peaceful.\n\nWhat truly stood out to me was the service. The staff were incredibly friendly, attentive, and genuinely caring. I felt that every request was handled with warmth and respect, and it honestly felt like each guest is truly valued. In my opinion, the level of service here is a strong contender for some of the best hospitality in Sri Lanka.\n\nThe mindfulness experiences were another highlight of my stay. Walking through the Sinharaja rainforest with a very knowledgeable and professional guide they arranged for me, learning about the flora and fauna, spending time by a creek, enjoying a meal by the river, and even experiencing the natural fish therapy in the water. all of it felt thoughtfully arranged and deeply calming.\n\nRain Drops is not just a place to stay, but an experience that connects you to nature, mindfulness, and genuine hospitality",
             author: "Maria Rakhmanova",
-            shortText: "Rain Drops Wellness Villa felt like heaven from the moment I arrived. The location is absolutely beautiful, surrounded by nature in a way that feels rare and deeply peaceful. What truly stood out to me was the service. The staff were incredibly friendly, attentive..."
+            shortText: "Rain Drops Wellness Villa felt like heaven from the moment I arrived. The location is absolutely beautiful, surrounded by nature in a way that feels rare and deeply peaceful..."
         }
     ];
+    const shouldShowButton = (testimonial)=>{
+        // Mobile: Show for all testimonials
+        if (isMobile) {
+            return true;
+        }
+        // Desktop: Show only for Maria (id: 2)
+        return testimonial.id === 2;
+    };
+    const getDisplayText = (testimonial)=>{
+        // If expanded, always show full text
+        if (expandedSlides[testimonial.id]) {
+            return testimonial.text;
+        }
+        // If collapsed
+        // For Maria (id: 2): Always show shortText when collapsed (both mobile and desktop)
+        if (testimonial.id === 2) {
+            return testimonial.shortText;
+        }
+        // For others on mobile: show shortText
+        if (isMobile) {
+            return testimonial.shortText;
+        }
+        // For others on desktop: show full text
+        return testimonial.text;
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-40127537325a9236" + " " + "rts__section section__padding testimonial has__shape",
+                className: "jsx-97fe87040c84c23" + " " + "rts__section section__padding testimonial has__shape",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-40127537325a9236" + " " + "container",
+                    className: "jsx-97fe87040c84c23" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-40127537325a9236" + " " + "row ",
+                            className: "jsx-97fe87040c84c23" + " " + "row ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-40127537325a9236" + " " + "row justify-content-center text-center mb-40",
+                                className: "jsx-97fe87040c84c23" + " " + "row justify-content-center text-center mb-40",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-aos": "fade-up",
                                     "data-aos-delay": "300",
-                                    className: "jsx-40127537325a9236" + " " + "col-lg-6",
+                                    className: "jsx-97fe87040c84c23" + " " + "col-lg-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-40127537325a9236" + " " + "section__topbar",
+                                        className: "jsx-97fe87040c84c23" + " " + "section__topbar",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-40127537325a9236" + " " + "h6 subtitle__icon__three mx-auto",
+                                                className: "jsx-97fe87040c84c23" + " " + "h6 subtitle__icon__three mx-auto",
                                                 children: "Testimonial"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 74,
+                                                lineNumber: 132,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-40127537325a9236" + " " + "content__title h2 lh-1",
+                                                className: "jsx-97fe87040c84c23" + " " + "content__title h2 lh-1",
                                                 children: "what our client say"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 77,
+                                                lineNumber: 135,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                        lineNumber: 73,
+                                        lineNumber: 131,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                    lineNumber: 72,
+                                    lineNumber: 130,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                lineNumber: 71,
+                                lineNumber: 129,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                            lineNumber: 70,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-40127537325a9236" + " " + "row",
+                            className: "jsx-97fe87040c84c23" + " " + "row",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-40127537325a9236" + " " + "col-lg-11",
+                                className: "jsx-97fe87040c84c23" + " " + "col-lg-11",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-40127537325a9236" + " " + "",
+                                    className: "jsx-97fe87040c84c23" + " " + "",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Swiper"], {
                                         onSwiper: (swiper)=>{
                                             swiperRef.current = swiper;
                                         },
+                                        onSlideChange: handleSlideChange,
                                         className: "testimonial__slider overflow-hidden",
                                         modules: [
                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$navigation$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__["Navigation"],
@@ -5999,9 +6047,9 @@ function TestimonialOne() {
                                         loop: true,
                                         centeredSlides: true,
                                         autoplay: {
-                                            delay: 3000,
+                                            delay: 5000,
                                             disableOnInteraction: false,
-                                            pauseOnMouseEnter: true
+                                            pauseOnMouseEnter: false
                                         },
                                         navigation: {
                                             nextEl: ".button-next",
@@ -6011,149 +6059,149 @@ function TestimonialOne() {
                                         effect: "slide",
                                         children: testimonials.map((testimonial)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-40127537325a9236" + " " + "testimonial__item__content",
+                                                    className: "jsx-97fe87040c84c23" + " " + "testimonial__item__content",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-40127537325a9236" + " " + "author__icon",
+                                                            className: "jsx-97fe87040c84c23" + " " + "author__icon",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: testimonial.image,
                                                                 alt: testimonial.alt,
                                                                 loading: "lazy",
-                                                                className: "jsx-40127537325a9236"
+                                                                className: "jsx-97fe87040c84c23"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 114,
+                                                                lineNumber: 173,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 113,
+                                                            lineNumber: 172,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-40127537325a9236" + " " + "testimonial__content",
+                                                            className: "jsx-97fe87040c84c23" + " " + "testimonial__content",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-40127537325a9236" + " " + "single__slider__item",
+                                                                className: "jsx-97fe87040c84c23" + " " + "single__slider__item",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-40127537325a9236" + " " + "slider__rating mb-20",
+                                                                        className: "jsx-97fe87040c84c23" + " " + "slider__rating",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                            className: "jsx-40127537325a9236" + " " + "topic-title",
+                                                                            className: "jsx-97fe87040c84c23" + " " + "topic-title",
                                                                             children: testimonial.title
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 123,
+                                                                            lineNumber: 182,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 122,
+                                                                        lineNumber: 181,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-40127537325a9236" + " " + "slider__text__wrapper",
-                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                            className: "jsx-40127537325a9236" + " " + `slider__text ${expandedSlides[testimonial.id] ? 'expanded' : 'collapsed'}`,
-                                                                            children: [
-                                                                                expandedSlides[testimonial.id] ? testimonial.text : testimonial.shortText,
-                                                                                testimonial.text !== testimonial.shortText && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                    onClick: ()=>toggleReadMore(testimonial.id),
-                                                                                    className: "jsx-40127537325a9236" + " " + "see-more-link",
-                                                                                    children: expandedSlides[testimonial.id] ? ' See less' : ' See more'
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                    lineNumber: 134,
-                                                                                    columnNumber: 35
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 128,
-                                                                            columnNumber: 31
-                                                                        }, this)
-                                                                    }, void 0, false, {
+                                                                        className: "jsx-97fe87040c84c23" + " " + "slider__text__wrapper",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                                className: "jsx-97fe87040c84c23" + " " + `slider__text ${expandedSlides[testimonial.id] ? 'expanded' : 'collapsed'}`,
+                                                                                children: getDisplayText(testimonial)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                                lineNumber: 187,
+                                                                                columnNumber: 31
+                                                                            }, this),
+                                                                            shouldShowButton(testimonial) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                                                onClick: ()=>toggleReadMore(testimonial.id),
+                                                                                className: "jsx-97fe87040c84c23" + " " + "see-more-btn",
+                                                                                children: expandedSlides[testimonial.id] ? 'See less' : 'See more'
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
+                                                                                lineNumber: 193,
+                                                                                columnNumber: 33
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 127,
+                                                                        lineNumber: 186,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-40127537325a9236" + " " + "slider__author__info",
+                                                                        className: "jsx-97fe87040c84c23" + " " + "slider__author__info",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-40127537325a9236" + " " + "slider__author__info__content",
+                                                                            className: "jsx-97fe87040c84c23" + " " + "slider__author__info__content",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                                                                className: "jsx-40127537325a9236" + " " + "author-name",
+                                                                                className: "jsx-97fe87040c84c23" + " " + "author-name",
                                                                                 children: testimonial.author
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                                lineNumber: 145,
+                                                                                lineNumber: 203,
                                                                                 columnNumber: 33
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                            lineNumber: 144,
+                                                                            lineNumber: 202,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                        lineNumber: 143,
+                                                                        lineNumber: 201,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                                lineNumber: 121,
+                                                                lineNumber: 180,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                            lineNumber: 120,
+                                                            lineNumber: 179,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 171,
                                                     columnNumber: 23
                                                 }, this)
                                             }, testimonial.id, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                                lineNumber: 111,
+                                                lineNumber: 170,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                        lineNumber: 87,
+                                        lineNumber: 145,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                    lineNumber: 86,
+                                    lineNumber: 144,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                                lineNumber: 85,
+                                lineNumber: 143,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                            lineNumber: 84,
+                            lineNumber: 142,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                    lineNumber: 69,
+                    lineNumber: 127,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
-                lineNumber: 68,
+                lineNumber: 126,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "40127537325a9236",
-                children: ".testimonial__item__content{justify-content:center;align-items:center;gap:40px;padding:40px 0;display:flex}.author__icon{flex-shrink:0}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px;transition:transform .3s}.author__icon img:hover{transform:scale(1.05)}.testimonial__content{flex:1;max-width:700px}.single__slider__item{text-align:left}.slider__rating{margin-bottom:20px}.topic-title{color:#1b1b1b;margin:0;font-size:1.5rem;font-weight:600;line-height:1.3}.slider__text__wrapper{position:relative}.slider__text{font-size:var(--p);color:#333;white-space:pre-line;margin-bottom:8px;line-height:1.6;transition:max-height .4s ease-in-out}.slider__text.collapsed{-webkit-line-clamp:4;text-overflow:ellipsis;-webkit-box-orient:vertical;max-height:6.4em;display:-webkit-box;overflow:hidden}.slider__text.expanded{max-height:none;display:block}.see-more-link{color:#c8b08a;font-size:var(--p);cursor:pointer;font-family:inherit;font-weight:500;text-decoration:none;transition:all .2s;display:inline}.see-more-link:hover{color:#a08960;text-decoration:underline}.slider__author__info{align-items:center;gap:15px;margin-top:20px;display:flex}.author-name{color:#1b1b1b;margin:0;font-size:1.1rem;font-weight:600}@media (width>=769px) and (width<=1024px){.testimonial__item__content{gap:30px;padding:35px 0}.author__icon img{border:4px solid #c8b08a;width:140px;height:140px}.topic-title{font-size:1.4rem}.slider__text,.see-more-link{font-size:.95rem}.author-name{font-size:1.05rem}}@media (width<=768px){.testimonial__item__content{text-align:center;flex-direction:column;align-items:center;gap:25px;padding:30px 15px}.author__icon{justify-content:center;margin-bottom:0;display:flex}.author__icon img{border:4px solid #c8b08a;width:120px;height:120px}.testimonial__content{text-align:center;width:100%}.single__slider__item{text-align:center}.slider__rating{text-align:center;margin-bottom:15px}.topic-title{text-align:center;font-size:1.3rem}.slider__text{text-align:center;margin-bottom:8px;font-size:.95rem}.slider__text.collapsed{max-height:5.7em}.see-more-link{text-align:center;font-size:.95rem;display:inline}.slider__author__info{text-align:center;justify-content:center}.author-name{text-align:center;font-size:1rem}}@media (width<=480px){.testimonial__item__content{gap:20px;padding:25px 10px}.author__icon img{border:3px solid #c8b08a;width:100px;height:100px}.topic-title{font-size:1.2rem}.slider__text{font-size:.9rem}.slider__text.collapsed{max-height:5.4em}.see-more-link{font-size:.9rem}.author-name{font-size:.95rem}}@media (width<=320px){.testimonial__item__content{gap:15px;padding:20px 8px}.author__icon img{border:3px solid #c8b08a;width:80px;height:80px}.topic-title{font-size:1.1rem}.slider__text{font-size:.85rem}.slider__text.collapsed{max-height:5.1em}.see-more-link{font-size:.85rem}.author-name{font-size:.9rem}}"
+                id: "97fe87040c84c23",
+                children: ".testimonial__item__content{justify-content:center;align-items:center;gap:40px;padding:40px 20px;display:flex}.author__icon{flex-shrink:0}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px;transition:transform .3s}.author__icon img:hover{transform:scale(1.05)}.testimonial__content{flex:1;max-width:700px}.single__slider__item{text-align:left}.slider__rating{margin-bottom:20px}.topic-title{color:#1b1b1b;margin:0;font-size:1.5rem;font-weight:600;line-height:1.3}.slider__text__wrapper{position:relative}.slider__text{color:#333;white-space:pre-line;margin-bottom:12px;font-size:1rem;line-height:1.7;transition:all .4s ease-in-out}.slider__text.collapsed{-webkit-line-clamp:4;text-overflow:ellipsis;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.slider__text.expanded{-webkit-line-clamp:unset;display:block}.see-more-btn{color:#c8b08a;cursor:pointer;background:0 0;border:none;margin-left:5px;padding:0;font-family:inherit;font-size:1rem;font-weight:500;transition:all .2s;display:inline}.see-more-btn:hover{color:#a08960;text-decoration:underline}.slider__author__info{align-items:center;gap:15px;margin-top:20px;display:flex}.author-name{color:#1b1b1b;margin:0;font-size:1.1rem;font-weight:600}@media (width>=769px) and (width<=1024px){.testimonial__item__content{gap:30px;padding:35px 15px}.author__icon img{border:4px solid #c8b08a;width:140px;height:140px}.topic-title{font-size:1.35rem}.slider__text{font-size:.95rem;line-height:1.6}.see-more-btn{font-size:.95rem}.author-name{font-size:1.05rem}}@media (width<=768px){.testimonial__item__content{text-align:center;flex-direction:column;align-items:center;gap:20px;padding:30px 20px}.author__icon{justify-content:center;margin-bottom:0;display:flex}.author__icon img{border:5px solid #c8b08a;width:140px;height:140px;box-shadow:0 4px 15px #0000001a}.testimonial__content{text-align:center;width:100%;max-width:100%}.single__slider__item{text-align:center}.slider__rating{text-align:center;margin-bottom:16px}.topic-title{text-align:center;font-size:1.25rem;line-height:1.4}.slider__text{text-align:center;margin-bottom:12px;font-size:.95rem;line-height:1.65}.slider__text.collapsed{-webkit-line-clamp:3;text-overflow:ellipsis;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.slider__text.expanded{-webkit-line-clamp:unset;display:block}.see-more-btn{color:#fff;cursor:pointer;background:linear-gradient(135deg,#c8b08a 0%,#b39975 100%);border:none;border-radius:30px;width:fit-content;margin:12px auto 0;padding:12px 28px;font-family:inherit;font-size:.9rem;font-weight:600;transition:all .3s;display:block;box-shadow:0 3px 10px #c8b08a4d}.see-more-btn:hover{background:linear-gradient(135deg,#b39975 0%,#a08960 100%);transform:translateY(-2px);box-shadow:0 5px 15px #c8b08a66}.see-more-btn:active{transform:translateY(0);box-shadow:0 2px 8px #c8b08a4d}.slider__author__info{text-align:center;justify-content:center;margin-top:18px}.author-name{text-align:center;font-size:1.05rem;font-weight:700}}@media (width<=480px){.testimonial__item__content{gap:18px;padding:25px 15px}.author__icon img{border:4px solid #c8b08a;width:120px;height:120px}.topic-title{font-size:1.15rem;line-height:1.35}.slider__text{margin-bottom:10px;font-size:.9rem;line-height:1.6}.slider__text.collapsed{-webkit-line-clamp:3}.see-more-btn{padding:11px 26px;font-size:.875rem}.author-name{font-size:1rem}.slider__rating{margin-bottom:14px}.slider__author__info{margin-top:16px}}@media (width<=360px){.testimonial__item__content{gap:15px;padding:20px 12px}.author__icon img{border:3px solid #c8b08a;width:100px;height:100px}.topic-title{font-size:1.05rem;line-height:1.3}.slider__text{margin-bottom:8px;font-size:.85rem;line-height:1.55}.slider__text.collapsed{-webkit-line-clamp:3}.see-more-btn{padding:10px 24px;font-size:.85rem}.author-name{font-size:.95rem}.slider__rating{margin-bottom:12px}.slider__author__info{margin-top:14px}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);

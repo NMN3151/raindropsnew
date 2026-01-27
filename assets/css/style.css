@@ -10247,13 +10247,7 @@ margin-top: 20px;
   font-size: 25px;
   color: var(--heading-color);
 }
- 
-@media screen and (max-width: 768px) {
-  .testimonial__item__content .slider__text {
-    font-size: 26px;
-    line-height: 40px;
-  }
-}
+
 
 .testimonial.has__shape.is__home__four .section__shape {
   position: absolute;

@@ -1,7 +1,7 @@
 {
   "app": {
-    "[project]/src/app/_not-found/page": [],
-    "[project]/src/app/page": []
+    "[project]/src/app/page": [],
+    "[project]/src/app/weather/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},
