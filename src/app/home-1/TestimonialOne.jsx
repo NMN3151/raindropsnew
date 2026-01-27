@@ -445,11 +445,14 @@ function TestimonialOne() {
           .see-more-btn:hover {
             background: linear-gradient(135deg, #b39975 0%, #a08960 100%);
             transform: translateY(-2px);
+            text-decoration: none;
+            color: white;
             box-shadow: 0 5px 15px rgba(200, 176, 138, 0.4);
           }
 
           .see-more-btn:active {
             transform: translateY(0);
+            color: white;
             box-shadow: 0 2px 8px rgba(200, 176, 138, 0.3);
           }
           

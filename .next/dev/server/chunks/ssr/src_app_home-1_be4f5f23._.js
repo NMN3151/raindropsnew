@@ -5973,23 +5973,23 @@ function TestimonialOne() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-97fe87040c84c23" + " " + "rts__section section__padding testimonial has__shape",
+                className: "jsx-178e4f6c5f1fa552" + " " + "rts__section section__padding testimonial has__shape",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-97fe87040c84c23" + " " + "container",
+                    className: "jsx-178e4f6c5f1fa552" + " " + "container",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-97fe87040c84c23" + " " + "row ",
+                            className: "jsx-178e4f6c5f1fa552" + " " + "row ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-97fe87040c84c23" + " " + "row justify-content-center text-center mb-40",
+                                className: "jsx-178e4f6c5f1fa552" + " " + "row justify-content-center text-center mb-40",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-aos": "fade-up",
                                     "data-aos-delay": "300",
-                                    className: "jsx-97fe87040c84c23" + " " + "col-lg-6",
+                                    className: "jsx-178e4f6c5f1fa552" + " " + "col-lg-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-97fe87040c84c23" + " " + "section__topbar",
+                                        className: "jsx-178e4f6c5f1fa552" + " " + "section__topbar",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-97fe87040c84c23" + " " + "h6 subtitle__icon__three mx-auto",
+                                                className: "jsx-178e4f6c5f1fa552" + " " + "h6 subtitle__icon__three mx-auto",
                                                 children: "Testimonial"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
@@ -5997,7 +5997,7 @@ function TestimonialOne() {
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "jsx-97fe87040c84c23" + " " + "content__title h2 lh-1",
+                                                className: "jsx-178e4f6c5f1fa552" + " " + "content__title h2 lh-1",
                                                 children: "what our client say"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
@@ -6026,11 +6026,11 @@ function TestimonialOne() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-97fe87040c84c23" + " " + "row",
+                            className: "jsx-178e4f6c5f1fa552" + " " + "row",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-97fe87040c84c23" + " " + "col-lg-11",
+                                className: "jsx-178e4f6c5f1fa552" + " " + "col-lg-11",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-97fe87040c84c23" + " " + "",
+                                    className: "jsx-178e4f6c5f1fa552" + " " + "",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Swiper"], {
                                         onSwiper: (swiper)=>{
                                             swiperRef.current = swiper;
@@ -6059,15 +6059,15 @@ function TestimonialOne() {
                                         effect: "slide",
                                         children: testimonials.map((testimonial)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-97fe87040c84c23" + " " + "testimonial__item__content",
+                                                    className: "jsx-178e4f6c5f1fa552" + " " + "testimonial__item__content",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-97fe87040c84c23" + " " + "author__icon",
+                                                            className: "jsx-178e4f6c5f1fa552" + " " + "author__icon",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: testimonial.image,
                                                                 alt: testimonial.alt,
                                                                 loading: "lazy",
-                                                                className: "jsx-97fe87040c84c23"
+                                                                className: "jsx-178e4f6c5f1fa552"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
                                                                 lineNumber: 173,
@@ -6079,14 +6079,14 @@ function TestimonialOne() {
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-97fe87040c84c23" + " " + "testimonial__content",
+                                                            className: "jsx-178e4f6c5f1fa552" + " " + "testimonial__content",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-97fe87040c84c23" + " " + "single__slider__item",
+                                                                className: "jsx-178e4f6c5f1fa552" + " " + "single__slider__item",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-97fe87040c84c23" + " " + "slider__rating",
+                                                                        className: "jsx-178e4f6c5f1fa552" + " " + "slider__rating",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                            className: "jsx-97fe87040c84c23" + " " + "topic-title",
+                                                                            className: "jsx-178e4f6c5f1fa552" + " " + "topic-title",
                                                                             children: testimonial.title
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
@@ -6099,10 +6099,10 @@ function TestimonialOne() {
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-97fe87040c84c23" + " " + "slider__text__wrapper",
+                                                                        className: "jsx-178e4f6c5f1fa552" + " " + "slider__text__wrapper",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                                className: "jsx-97fe87040c84c23" + " " + `slider__text ${expandedSlides[testimonial.id] ? 'expanded' : 'collapsed'}`,
+                                                                                className: "jsx-178e4f6c5f1fa552" + " " + `slider__text ${expandedSlides[testimonial.id] ? 'expanded' : 'collapsed'}`,
                                                                                 children: getDisplayText(testimonial)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
@@ -6111,7 +6111,7 @@ function TestimonialOne() {
                                                                             }, this),
                                                                             shouldShowButton(testimonial) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                                 onClick: ()=>toggleReadMore(testimonial.id),
-                                                                                className: "jsx-97fe87040c84c23" + " " + "see-more-btn",
+                                                                                className: "jsx-178e4f6c5f1fa552" + " " + "see-more-btn",
                                                                                 children: expandedSlides[testimonial.id] ? 'See less' : 'See more'
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
@@ -6125,11 +6125,11 @@ function TestimonialOne() {
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-97fe87040c84c23" + " " + "slider__author__info",
+                                                                        className: "jsx-178e4f6c5f1fa552" + " " + "slider__author__info",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-97fe87040c84c23" + " " + "slider__author__info__content",
+                                                                            className: "jsx-178e4f6c5f1fa552" + " " + "slider__author__info__content",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                                                                className: "jsx-97fe87040c84c23" + " " + "author-name",
+                                                                                className: "jsx-178e4f6c5f1fa552" + " " + "author-name",
                                                                                 children: testimonial.author
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/home-1/TestimonialOne.jsx",
@@ -6200,8 +6200,8 @@ function TestimonialOne() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "97fe87040c84c23",
-                children: ".testimonial__item__content{justify-content:center;align-items:center;gap:40px;padding:40px 20px;display:flex}.author__icon{flex-shrink:0}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px;transition:transform .3s}.author__icon img:hover{transform:scale(1.05)}.testimonial__content{flex:1;max-width:700px}.single__slider__item{text-align:left}.slider__rating{margin-bottom:20px}.topic-title{color:#1b1b1b;margin:0;font-size:1.5rem;font-weight:600;line-height:1.3}.slider__text__wrapper{position:relative}.slider__text{color:#333;white-space:pre-line;margin-bottom:12px;font-size:1rem;line-height:1.7;transition:all .4s ease-in-out}.slider__text.collapsed{-webkit-line-clamp:4;text-overflow:ellipsis;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.slider__text.expanded{-webkit-line-clamp:unset;display:block}.see-more-btn{color:#c8b08a;cursor:pointer;background:0 0;border:none;margin-left:5px;padding:0;font-family:inherit;font-size:1rem;font-weight:500;transition:all .2s;display:inline}.see-more-btn:hover{color:#a08960;text-decoration:underline}.slider__author__info{align-items:center;gap:15px;margin-top:20px;display:flex}.author-name{color:#1b1b1b;margin:0;font-size:1.1rem;font-weight:600}@media (width>=769px) and (width<=1024px){.testimonial__item__content{gap:30px;padding:35px 15px}.author__icon img{border:4px solid #c8b08a;width:140px;height:140px}.topic-title{font-size:1.35rem}.slider__text{font-size:.95rem;line-height:1.6}.see-more-btn{font-size:.95rem}.author-name{font-size:1.05rem}}@media (width<=768px){.testimonial__item__content{text-align:center;flex-direction:column;align-items:center;gap:20px;padding:30px 20px}.author__icon{justify-content:center;margin-bottom:0;display:flex}.author__icon img{border:5px solid #c8b08a;width:140px;height:140px;box-shadow:0 4px 15px #0000001a}.testimonial__content{text-align:center;width:100%;max-width:100%}.single__slider__item{text-align:center}.slider__rating{text-align:center;margin-bottom:16px}.topic-title{text-align:center;font-size:1.25rem;line-height:1.4}.slider__text{text-align:center;margin-bottom:12px;font-size:.95rem;line-height:1.65}.slider__text.collapsed{-webkit-line-clamp:3;text-overflow:ellipsis;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.slider__text.expanded{-webkit-line-clamp:unset;display:block}.see-more-btn{color:#fff;cursor:pointer;background:linear-gradient(135deg,#c8b08a 0%,#b39975 100%);border:none;border-radius:30px;width:fit-content;margin:12px auto 0;padding:12px 28px;font-family:inherit;font-size:.9rem;font-weight:600;transition:all .3s;display:block;box-shadow:0 3px 10px #c8b08a4d}.see-more-btn:hover{background:linear-gradient(135deg,#b39975 0%,#a08960 100%);transform:translateY(-2px);box-shadow:0 5px 15px #c8b08a66}.see-more-btn:active{transform:translateY(0);box-shadow:0 2px 8px #c8b08a4d}.slider__author__info{text-align:center;justify-content:center;margin-top:18px}.author-name{text-align:center;font-size:1.05rem;font-weight:700}}@media (width<=480px){.testimonial__item__content{gap:18px;padding:25px 15px}.author__icon img{border:4px solid #c8b08a;width:120px;height:120px}.topic-title{font-size:1.15rem;line-height:1.35}.slider__text{margin-bottom:10px;font-size:.9rem;line-height:1.6}.slider__text.collapsed{-webkit-line-clamp:3}.see-more-btn{padding:11px 26px;font-size:.875rem}.author-name{font-size:1rem}.slider__rating{margin-bottom:14px}.slider__author__info{margin-top:16px}}@media (width<=360px){.testimonial__item__content{gap:15px;padding:20px 12px}.author__icon img{border:3px solid #c8b08a;width:100px;height:100px}.topic-title{font-size:1.05rem;line-height:1.3}.slider__text{margin-bottom:8px;font-size:.85rem;line-height:1.55}.slider__text.collapsed{-webkit-line-clamp:3}.see-more-btn{padding:10px 24px;font-size:.85rem}.author-name{font-size:.95rem}.slider__rating{margin-bottom:12px}.slider__author__info{margin-top:14px}}"
+                id: "178e4f6c5f1fa552",
+                children: ".testimonial__item__content{justify-content:center;align-items:center;gap:40px;padding:40px 20px;display:flex}.author__icon{flex-shrink:0}.author__icon img{object-fit:cover;border:5px solid #c8b08a;border-radius:50%;width:160px;height:160px;transition:transform .3s}.author__icon img:hover{transform:scale(1.05)}.testimonial__content{flex:1;max-width:700px}.single__slider__item{text-align:left}.slider__rating{margin-bottom:20px}.topic-title{color:#1b1b1b;margin:0;font-size:1.5rem;font-weight:600;line-height:1.3}.slider__text__wrapper{position:relative}.slider__text{color:#333;white-space:pre-line;margin-bottom:12px;font-size:1rem;line-height:1.7;transition:all .4s ease-in-out}.slider__text.collapsed{-webkit-line-clamp:4;text-overflow:ellipsis;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.slider__text.expanded{-webkit-line-clamp:unset;display:block}.see-more-btn{color:#c8b08a;cursor:pointer;background:0 0;border:none;margin-left:5px;padding:0;font-family:inherit;font-size:1rem;font-weight:500;transition:all .2s;display:inline}.see-more-btn:hover{color:#a08960;text-decoration:underline}.slider__author__info{align-items:center;gap:15px;margin-top:20px;display:flex}.author-name{color:#1b1b1b;margin:0;font-size:1.1rem;font-weight:600}@media (width>=769px) and (width<=1024px){.testimonial__item__content{gap:30px;padding:35px 15px}.author__icon img{border:4px solid #c8b08a;width:140px;height:140px}.topic-title{font-size:1.35rem}.slider__text{font-size:.95rem;line-height:1.6}.see-more-btn{font-size:.95rem}.author-name{font-size:1.05rem}}@media (width<=768px){.testimonial__item__content{text-align:center;flex-direction:column;align-items:center;gap:20px;padding:30px 20px}.author__icon{justify-content:center;margin-bottom:0;display:flex}.author__icon img{border:5px solid #c8b08a;width:140px;height:140px;box-shadow:0 4px 15px #0000001a}.testimonial__content{text-align:center;width:100%;max-width:100%}.single__slider__item{text-align:center}.slider__rating{text-align:center;margin-bottom:16px}.topic-title{text-align:center;font-size:1.25rem;line-height:1.4}.slider__text{text-align:center;margin-bottom:12px;font-size:.95rem;line-height:1.65}.slider__text.collapsed{-webkit-line-clamp:3;text-overflow:ellipsis;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.slider__text.expanded{-webkit-line-clamp:unset;display:block}.see-more-btn{color:#fff;cursor:pointer;background:linear-gradient(135deg,#c8b08a 0%,#b39975 100%);border:none;border-radius:30px;width:fit-content;margin:12px auto 0;padding:12px 28px;font-family:inherit;font-size:.9rem;font-weight:600;transition:all .3s;display:block;box-shadow:0 3px 10px #c8b08a4d}.see-more-btn:hover{color:#fff;background:linear-gradient(135deg,#b39975 0%,#a08960 100%);text-decoration:none;transform:translateY(-2px);box-shadow:0 5px 15px #c8b08a66}.see-more-btn:active{color:#fff;transform:translateY(0);box-shadow:0 2px 8px #c8b08a4d}.slider__author__info{text-align:center;justify-content:center;margin-top:18px}.author-name{text-align:center;font-size:1.05rem;font-weight:700}}@media (width<=480px){.testimonial__item__content{gap:18px;padding:25px 15px}.author__icon img{border:4px solid #c8b08a;width:120px;height:120px}.topic-title{font-size:1.15rem;line-height:1.35}.slider__text{margin-bottom:10px;font-size:.9rem;line-height:1.6}.slider__text.collapsed{-webkit-line-clamp:3}.see-more-btn{padding:11px 26px;font-size:.875rem}.author-name{font-size:1rem}.slider__rating{margin-bottom:14px}.slider__author__info{margin-top:16px}}@media (width<=360px){.testimonial__item__content{gap:15px;padding:20px 12px}.author__icon img{border:3px solid #c8b08a;width:100px;height:100px}.topic-title{font-size:1.05rem;line-height:1.3}.slider__text{margin-bottom:8px;font-size:.85rem;line-height:1.55}.slider__text.collapsed{-webkit-line-clamp:3}.see-more-btn{padding:10px 24px;font-size:.85rem}.author-name{font-size:.95rem}.slider__rating{margin-bottom:12px}.slider__author__info{margin-top:14px}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);

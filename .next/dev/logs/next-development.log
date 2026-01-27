@@ -578,3 +578,74 @@ See this log for the ancestor stack trace. body <head>
 [00:31:22.802] Browser LOG     Autoplay started
 [00:31:22.802] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [00:31:22.802] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:42:05.231] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:06.036] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:42:06.036] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:42:06.036] Browser LOG     Autoplay started
+[00:42:06.036] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:42:06.036] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:43:37.246] Server  LOG     ✓ Compiled in 430ms
+[00:43:43.771] Server  LOG     ✓ Compiled in 32ms
+[00:43:54.907] Server  LOG     ✓ Compiled in 24ms
+[00:43:59.355] Server  LOG     ✓ Compiled in 23ms
+[00:44:02.485] Server  LOG     ✓ Compiled in 25ms
+[00:44:13.900] Server  LOG     ✓ Compiled in 22ms
+[00:44:15.565] Server  LOG     ✓ Compiled in 23ms
+[00:44:16.941] Server  LOG     ✓ Compiled in 23ms
+[00:44:26.785] Server  LOG     ✓ Compiled in 31ms
+[00:44:27.782] Server  LOG     ✓ Compiled in 25ms
+[00:44:36.141] Server  LOG     ✓ Compiled in 23ms
+[00:44:46.341] Server  LOG     ✓ Compiled in 24ms
+[00:44:51.616] Server  LOG     ✓ Compiled in 24ms
+[00:44:52.674] Server  LOG     ✓ Compiled in 22ms
+[00:45:02.087] Server  LOG     ✓ Compiled in 24ms
+[00:45:03.190] Server  LOG     ✓ Compiled in 24ms
+[00:45:07.681] Server  LOG     ✓ Compiled in 26ms
+[00:45:14.491] Server  LOG     ✓ Compiled in 30ms
+[00:45:24.723] Server  LOG     ✓ Compiled in 21ms
+[00:45:25.356] Server  LOG     ✓ Compiled in 26ms
+[00:45:31.406] Server  LOG     ✓ Compiled in 62ms
+[00:45:36.399] Server  LOG     ✓ Compiled in 24ms
+[00:45:37.292] Server  LOG     ✓ Compiled in 71ms
