@@ -78,7 +78,7 @@ function TopBar() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         className: "link__item gap-10",
-                                        href: "mailto: info@raindrops.lk",
+                                        href: "mailto: booking@intterminal.com",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                 className: "flaticon-envelope"
@@ -87,7 +87,7 @@ function TopBar() {
                                                 lineNumber: 49,
                                                 columnNumber: 19
                                             }, this),
-                                            " info@raindrops.lk"
+                                            " booking@intterminal.com"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/home-1/TopBar.jsx",
@@ -924,7 +924,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "mailto:info@raindrops.lk",
+                                                    href: "mailto:booking@intterminal.com",
                                                     onClick: handleLinkClick,
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
@@ -934,7 +934,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                             lineNumber: 402,
                                                             columnNumber: 21
                                                         }, this),
-                                                        "info@raindrops.lk"
+                                                        "booking@intterminal.com"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/home-1/OffcanvasMenu.jsx",
@@ -2999,11 +2999,11 @@ function SideMenu({ isOpen, onClose }) {
                                                                                 marginTop: "-25px"
                                                                             },
                                                                             children: [
-                                                                                "info@raindrops.lk ",
+                                                                                "booking@intterminal.com ",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/src/app/home-1/SideMenu.jsx",
                                                                                     lineNumber: 1170,
-                                                                                    columnNumber: 43
+                                                                                    columnNumber: 49
                                                                                 }, this),
                                                                                 "info@intterminal.com"
                                                                             ]
@@ -11347,7 +11347,7 @@ function FooterOne() {
                                                             className: "jsx-1270acf2b3a8274d",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    href: "mailto:info@raindrops.lk",
+                                                                    href: "mailto:booking@intterminal.com",
                                                                     style: {
                                                                         color: "rgba(255,255,255,0.8)",
                                                                         textDecoration: "none",
@@ -11357,7 +11357,7 @@ function FooterOne() {
                                                                     },
                                                                     onMouseEnter: (e)=>e.target.style.color = "#fff",
                                                                     onMouseLeave: (e)=>e.target.style.color = "rgba(255,255,255,0.8)",
-                                                                    children: "info@raindrops.lk"
+                                                                    children: "booking@intterminal.com"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/home-1/FooterOne.jsx",
                                                                     lineNumber: 956,

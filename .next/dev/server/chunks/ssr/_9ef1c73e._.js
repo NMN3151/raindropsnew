@@ -80,7 +80,7 @@ function RootLayout({ children }) {
                             "@type": "ContactPoint",
                             "telephone": "+94-77-123-4567",
                             "contactType": "Customer Service",
-                            "email": "info@raindrops.lk"
+                            "email": "booking@intterminal.com"
                         },
                         "sameAs": [
                             "https://web.facebook.com/profile.php?id=61583529392042#",

@@ -181,7 +181,7 @@ export default function ContactOne() {
                           <div className="contact__info__item">
                             <h4>Email</h4>
                             <p>
-                              info@raindrops.lk <br />
+                              booking@intterminal.com <br />
                               info@intterminal.com
                             </p>
                           </div>

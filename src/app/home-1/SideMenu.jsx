@@ -1167,7 +1167,7 @@ function SideMenu({ isOpen, onClose }) {
                           marginTop: "-25px",
                         }}
                       >
-                        info@raindrops.lk <br />
+                        booking@intterminal.com <br />
                         info@intterminal.com
                       </p>
                     </div>

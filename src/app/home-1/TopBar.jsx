@@ -44,9 +44,9 @@ function TopBar() {
                 </Link>
                 <Link
                   className="link__item gap-10"
-                  href="mailto: info@raindrops.lk"
+                  href="mailto: booking@intterminal.com"
                 >
-                  <i className="flaticon-envelope" /> info@raindrops.lk
+                  <i className="flaticon-envelope" /> booking@intterminal.com
                 </Link>
               </div>
             </div>

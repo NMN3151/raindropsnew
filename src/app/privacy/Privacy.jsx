@@ -676,7 +676,7 @@ function PrivacyPolicy() {
             style={{ textAlign: "center", color: "#7f8c8d", fontSize: "14px" }}
           >
             For any questions regarding these policies, please contact us at
-            info@raindrops.lk
+            booking@intterminal.com
           </p>
         </div>
       </div>

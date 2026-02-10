@@ -396,11 +396,11 @@ function OffcanvasMenu({ isOpen, onClose }) {
                 <div className="item">
                   <span className="h6">Email</span>
                   <Link
-                    href="mailto:info@raindrops.lk"
+                    href="mailto:booking@intterminal.com"
                     onClick={handleLinkClick}
                   >
                     <i className="flaticon-envelope" />
-                    info@raindrops.lk
+                    booking@intterminal.com
                   </Link>
                 </div>
                 <div className="item">

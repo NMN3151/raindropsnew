@@ -954,7 +954,7 @@ function FooterOne() {
                     }}
                   >
                     <Link
-                      href="mailto:info@raindrops.lk"
+                      href="mailto:booking@intterminal.com"
                       style={{
                         color: "rgba(255,255,255,0.8)",
                         textDecoration: "none",
@@ -967,7 +967,7 @@ function FooterOne() {
                         (e.target.style.color = "rgba(255,255,255,0.8)")
                       }
                     >
-                      info@raindrops.lk
+                      booking@intterminal.com
                     </Link>
                     <Link
                       href="mailto:info@intterminal.com"
