@@ -24,7 +24,7 @@ export default function MindfulDining() {
               <div className="text-content">
                 <p className="text-description">
                   At Rain Drops, dining is an experience that connects your five
-                  senses with nature.We invite you to slow down, breathe, and
+                  senses with nature. We invite you to slow down, breathe, and
                   truly enjoy each flavor — just as the rainforest does
                   everything, calmly and completely.
                 </p>
@@ -32,6 +32,7 @@ export default function MindfulDining() {
             </div>
           </div>
 
+          {/* Center Image Column */}
           <div className="center-column">
             <div className="image-container">
               <Image
@@ -39,7 +40,7 @@ export default function MindfulDining() {
                 alt="Mindful Dining Experience"
                 fill
                 className="center-image"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 700px"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 800px"
                 onError={(e) => {
                   e.target.style.display = "none";
                   e.target.parentElement.querySelector(
@@ -62,25 +63,28 @@ export default function MindfulDining() {
               <div className="text-content-right">
                 <p className="text-description">
                   <span style={{ fontWeight: "600" }}>
-                    {" "}
-                    You'll find our meals:{" "}
+                    You'll find our meals:
                   </span>
                   <br />
                   <br />
                   <span style={{ fontWeight: "600" }}>
-                    {" "}
                     Naturally sourced -{" "}
                   </span>
                   <br />
-                  fresh, local, and pure <br />
+                  fresh, local, and pure
+                  <br />
                   <br />
                   <span style={{ fontWeight: "600" }}>
-                    Scientifically balanced - <br />
+                    Scientifically balanced -
+                    <br />
                   </span>
-                  designed to support energy, <br /> focus, and calm <br />
+                  designed to support energy,
+                  <br /> focus, and calm
+                  <br />
                   <br />
                   <span style={{ fontWeight: "600" }}>
-                    Mindfully prepared - <br />
+                    Mindfully prepared -
+                    <br />
                   </span>
                   cooked with care and loving attention
                 </p>
@@ -92,6 +96,8 @@ export default function MindfulDining() {
       </div>
 
       <style jsx>{`
+
+        /* ── Outer Section ── */
         .signature__outer {
           padding: 6rem 0;
           position: relative;
@@ -99,25 +105,25 @@ export default function MindfulDining() {
           width: 100%;
         }
 
+        /* ── Container ── */
         .container {
           width: 100%;
           max-width: 100%;
           margin: 0 auto;
-          padding: 0 80px;
+          padding: 0 40px;
         }
 
+        /* ── Grid Layout ── */
         .layout-wrapper {
           display: grid;
-          grid-template-columns: 1fr 1.2fr 1fr;
+          grid-template-columns: 0.8fr 1.6fr 0.8fr;
           gap: 0;
           align-items: center;
-          min-height: 500px;
-          height: 500px;
           width: 100%;
           position: relative;
         }
 
-        /* Side Columns - Text Boxes */
+        /* ── Side Columns ── */
         .side-column {
           display: flex;
           justify-content: center;
@@ -127,13 +133,11 @@ export default function MindfulDining() {
         }
 
         .text-box {
-          width: 80%;
-          height: 70%;
-          min-height: 400px;
-          max-height: 450px;
-          background: #ffffffff;
-          padding: 2.5rem 2rem;
+          width: 85%;
+          background: #ffffff;
+          padding: 5.5rem 2rem;
           display: flex;
+          height: 80%;
           align-items: center;
           transition: all 0.3s ease;
           border-radius: 8px;
@@ -144,15 +148,19 @@ export default function MindfulDining() {
           box-shadow: 0 25px 80px rgba(0, 0, 0, 0.15);
         }
 
+        /* Left box overlaps image left edge */
         .left-column .text-box {
-          margin-right: -180px;
+          margin-right: -100px;
           z-index: 2;
+          position: relative;
           background: #a8b49c;
         }
 
+        /* Right box overlaps image right edge */
         .right-column .text-box {
-          margin-left: -180px;
+          margin-left: -100px;
           z-index: 2;
+          position: relative;
           background: #bda67194;
         }
 
@@ -169,32 +177,11 @@ export default function MindfulDining() {
           text-align: left;
         }
 
-        .text-title {
-          color: #000000ff;
-          font-size: 2rem;
-          font-weight: 600;
-          margin: 0;
-          position: relative;
-          padding-bottom: 1rem;
-        }
-
-        .text-title::after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 60px;
-          height: 3px;
-          background: linear-gradient(135deg, #a8915b, #bda671);
-          border-radius: 2px;
-        }
-
         .text-description {
-          font-size: 1.1rem;
+          font-size: 1rem;
           font-weight: 400;
-          color: #000000ff;
-          line-height: 1.7;
+          color: #1a1a1a;
+          line-height: 1.75;
           margin: 0;
         }
 
@@ -205,72 +192,41 @@ export default function MindfulDining() {
           width: 100%;
         }
 
-        .feature-item {
-          display: flex;
-          align-items: center;
-          gap: 1rem;
-          padding: 1rem;
-          background: rgba(168, 145, 91, 0.05);
-          border-radius: 10px;
-          transition: all 0.3s ease;
-        }
-
-        .feature-item:hover {
-          background: rgba(168, 145, 91, 0.1);
-          transform: translateX(5px);
-        }
-
-        .feature-icon {
-          font-size: 1.5rem;
-          flex-shrink: 0;
-        }
-
-        .feature-item span:last-child {
-          font-size: 1rem;
-          font-weight: 500;
-          color: #1b1b1b;
-          text-align: left;
-          flex: 1;
-        }
-
-        /* Center Column - Image Box */
+        /* ── Center Image Column ── */
         .center-column {
-          padding: 0 20px;
+          padding: 0;
           display: flex;
           justify-content: center;
           align-items: center;
           height: 100%;
           width: 100%;
           position: relative;
-          z-index: 3;
+          z-index: 1;
         }
 
         .image-container {
           position: relative;
-          width: 100%;
-          height: 100%;
-          min-height: 550px;
-          max-height: 600px;
+          width: 95%;
+          min-height: 500px;
           overflow: hidden;
-          background: #f8f8f8;
           border-radius: 0;
-          z-index: 3;
         }
 
-        .center-image {
-          object-fit: contain; /* Changed from 'cover' to 'contain' */
-          object-position: center;
-          transition: all 0.4s ease;
-          position: relative;
-          z-index: 3;
+        /* Next.js Image fix — needs :global to apply through scoped jsx */
+        :global(.center-image) {
+          object-fit: cover !important;
+          object-position: center !important;
+          transition: transform 0.5s ease !important;
         }
 
-        .center-image:hover {
-          transform: scale(1.05);
+        .image-container:hover :global(.center-image) {
+          transform: scale(1.04);
         }
 
         .image-fallback {
           display: none;
+          position: absolute;
+          inset: 0;
           width: 100%;
           height: 100%;
           background: linear-gradient(135deg, #8a8a6a, #a0a07a);
@@ -280,7 +236,6 @@ export default function MindfulDining() {
           text-align: center;
           padding: 2rem;
           flex-direction: column;
-          position: relative;
           z-index: 2;
         }
 
@@ -303,102 +258,59 @@ export default function MindfulDining() {
           opacity: 0.9;
         }
 
-        /* Large Desktop (1601px - 2559px) */
-        @media (min-width: 1601px) and (max-width: 2559px) {
+        /* ── Large Desktop (1601px+) ── */
+        @media (min-width: 1601px) {
           .layout-wrapper {
-            min-height: 550px;
-            height: 550px;
-          }
-
-          .text-box {
-            min-height: 450px;
-            max-height: 500px;
-          }
-
-          .image-container {
-            min-height: 600px;
-            max-height: 650px;
+            grid-template-columns: 0.8fr 1.6fr 0.8fr;
           }
 
           .left-column .text-box {
-            margin-right: -200px;
+            margin-right: -120px;
           }
 
           .right-column .text-box {
-            margin-left: -200px;
+            margin-left: -120px;
+          }
+
+          .image-container {
+            max-height: 580px;
           }
         }
 
-        /* ---------- LAPTOP FIX (1024px - 1600px) ---------- */
+        /* ── Laptop (1024px - 1600px) ── */
         @media (min-width: 1024px) and (max-width: 1600px) {
           .layout-wrapper {
-            display: grid;
-            grid-template-columns: 1fr 1.2fr 1fr;
-            align-items: center;
-            gap: 0px;
-            width: 100%;
-            padding: 20px 40px;
-
-            /* IMPORTANT: Removes fixed height problems */
-            height: auto;
-            min-height: 420px;
+            grid-template-columns: 0.8fr 1.6fr 0.8fr;
+            padding: 0;
           }
 
-          /* ---- TEXT BOXES ---- */
           .text-box {
-            padding: 2rem 1.6rem;
+            padding: 2rem 1.5rem;
             width: 90%;
-
-            /* Automatic, no forcing */
-            height: auto;
           }
 
-          /* 🔥 Overlap balanced (works on all laptops) */
           .left-column .text-box {
-            margin-right: -80px; /* Balanced overlap */
+            margin-right: -80px;
           }
 
           .right-column .text-box {
-            margin-left: -80px; /* Balanced overlap */
-          }
-
-          /* Font scaling safe */
-          .text-description {
-            font-size: 1rem;
-            line-height: 1.6;
-          }
-
-          /* ---- CENTER IMAGE ---- */
-          .center-column {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            margin-left: -80px;
           }
 
           .image-container {
-            width: 100%;
-            max-width: 520px;
-
-            /* 🔥 Dynamic height — prevents tall image issue */
-            height: auto;
-
-            /* Maintain aspect ratio */
-            aspect-ratio: 3 / 4;
-
-            overflow: hidden;
+            min-height: 460px;
+            max-height: 560px;
           }
 
-          .image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+          .text-description {
+            font-size: 0.95rem;
           }
         }
 
-        /* Tablet (768px - 1023px) */
+        /* ── Tablet (768px - 1023px) ── */
         @media (min-width: 768px) and (max-width: 1023px) {
           .signature__outer {
-            padding: 6rem 0;
+            padding: 5rem 0;
           }
 
           .container {
@@ -407,54 +319,33 @@ export default function MindfulDining() {
 
           .layout-wrapper {
             grid-template-columns: 1fr;
-            gap: 3rem;
-            min-height: auto;
-            height: auto;
+            gap: 2rem;
           }
 
           .center-column {
             order: -1;
-            z-index: 1;
-            height: 400px;
           }
 
           .image-container {
-            min-height: 400px;
-            max-height: 450px;
-            border-radius: 20px;
-            z-index: 1;
+            aspect-ratio: 16 / 9;
+            min-height: auto;
+            max-height: none;
+            border-radius: 12px;
           }
 
           .text-box {
-            min-height: 100%;
-            max-height: none;
-            padding: 2.5rem 2rem;
-            border-radius: 20px;
             width: 100%;
-            margin: 0;
-            z-index: 1;
-            height: auto;
+            margin: 0 !important;
+            border-radius: 12px;
           }
 
           .left-column .text-box,
           .right-column .text-box {
-            margin: 0;
-          }
-
-          .text-content {
-            gap: 1.5rem;
-          }
-
-          .text-title {
-            font-size: 1.8rem;
-          }
-
-          .feature-list {
-            gap: 0.8rem;
+            margin: 0 !important;
           }
         }
 
-        /* Mobile (425px - 767px) */
+        /* ── Mobile (425px - 767px) ── */
         @media (min-width: 425px) and (max-width: 767px) {
           .signature__outer {
             padding: 4rem 0;
@@ -466,148 +357,80 @@ export default function MindfulDining() {
 
           .layout-wrapper {
             grid-template-columns: 1fr;
-            gap: 2rem;
-            min-height: auto;
-            height: auto;
+            gap: 1.5rem;
           }
 
           .center-column {
             order: -1;
-            z-index: 1;
-            height: 350px;
           }
 
           .image-container {
-            min-height: 350px;
-            max-height: 400px;
-            border-radius: 15px;
-            z-index: 1;
+            aspect-ratio: 4 / 3;
+            min-height: auto;
+            max-height: none;
+            border-radius: 10px;
           }
 
           .text-box {
-            min-height: auto;
-            max-height: none;
-            padding: 2rem 1.5rem;
-            border-radius: 15px;
             width: 100%;
-            z-index: 1;
-            height: auto;
+            padding: 1.8rem 1.5rem;
+            border-radius: 10px;
           }
 
-          .text-content {
-            gap: 1.5rem;
-          }
-
-          .text-title {
-            font-size: 1.6rem;
-            padding-bottom: 0.75rem;
-          }
-
-          .text-title::after {
-            width: 50px;
+          .left-column .text-box,
+          .right-column .text-box {
+            margin: 0 !important;
           }
 
           .text-description {
-            font-size: 1rem;
-            line-height: 1.6;
-          }
-
-          .feature-item {
-            padding: 0.8rem;
-          }
-
-          .feature-icon {
-            font-size: 1.3rem;
-          }
-
-          .feature-item span:last-child {
-            font-size: 0.9rem;
+            font-size: 0.95rem;
           }
         }
 
-        /* Small Mobile (≤424px) */
-        @media (max-width: 425px) {
+        /* ── Small Mobile (≤424px) ── */
+        @media (max-width: 424px) {
           .signature__outer {
             padding: 3rem 0;
           }
+
           .container {
             padding: 0 15px;
           }
 
           .layout-wrapper {
             grid-template-columns: 1fr;
-            gap: 1.5rem;
-            min-height: auto;
-            height: auto;
+            gap: 1.25rem;
           }
 
           .center-column {
             order: -1;
-            z-index: 1;
-            height: 300px;
           }
 
           .image-container {
-            min-height: 300px;
-            max-height: 350px;
-            border-radius: 5px;
-            z-index: 1;
+            aspect-ratio: 4 / 3;
+            min-height: auto;
+            max-height: none;
+            border-radius: 8px;
           }
 
           .text-box {
-            min-height: auto;
-            max-height: none;
-            padding: 1.5rem 1rem;
-            border-radius: 12px;
             width: 100%;
-            z-index: 1;
-            height: auto;
+            padding: 1.5rem 1.2rem;
+            border-radius: 8px;
           }
 
-          .right-column .text-box,
-          .left-column .text-box {
-            margin: 0;
-            height: auto;
-          }
-
-          .text-content {
-            gap: 1.25rem;
-          }
-
-          .text-title {
-            font-size: 1.4rem;
-            padding-bottom: 0.5rem;
-          }
-
-          .text-title::after {
-            width: 40px;
-            height: 2px;
+          .left-column .text-box,
+          .right-column .text-box {
+            margin: 0 !important;
           }
 
           .text-description {
             font-size: 0.9rem;
-            line-height: 1.5;
-          }
-
-          .feature-list {
-            gap: 0.5rem;
-          }
-
-          .feature-item {
-            padding: 0.7rem;
-            gap: 0.8rem;
-          }
-
-          .feature-icon {
-            font-size: 1.2rem;
-          }
-
-          .feature-item span:last-child {
-            font-size: 0.85rem;
+            line-height: 1.6;
           }
         }
 
-        /* Animation for content */
+        /* ── Animations ── */
         @keyframes fadeInUp {
           from {
             opacity: 0;

@@ -376,7 +376,7 @@ function GalleryFive() {
           <div className="gallery-header">
             <div className="gallery-eyebrow">Gallery</div>
             <h2 className="gallery-title">
-              A Place Where <strong>Nature Breathes</strong>
+              A Place Where Nature Breathes
             </h2>
             <p className="gallery-description">
               Nestled in the heart of Sinharaja Forest, our villa offers a serene
