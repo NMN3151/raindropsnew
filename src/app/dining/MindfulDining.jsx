@@ -32,11 +32,10 @@ export default function MindfulDining() {
             </div>
           </div>
 
-          {/* Center Image Column */}
           <div className="center-column">
             <div className="image-container">
               <Image
-                src="/assets/images/nutrition/tt.png"
+                src="/assets/images/nutrition/tt.JPG"
                 alt="Mindful Dining Experience"
                 fill
                 className="center-image"
@@ -48,7 +47,6 @@ export default function MindfulDining() {
                   ).style.display = "flex";
                 }}
               />
-              {/* content */}
               <div className="image-fallback">
                 <div className="fallback-content">
                   <span className="fallback-icon">🍽️</span>

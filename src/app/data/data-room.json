@@ -7,6 +7,13 @@
         "image1":"/assets/images/pages/room/still1.jpeg",
         "image2":"/assets/images/pages/room/still.jpeg",
         "image3":"/assets/images/pages/room/stillcard3.jpeg",
+        "image10":"/assets/images/pages/room/stillcard5.JPG",
+        "image11":"/assets/images/pages/room/stillcard6.JPG",
+
+         "extraimage2":"/assets/images/pages/room/extraimage2.JPG",
+        "extraimage3":"/assets/images/pages/room/extraimage3.JPG",
+
+
         "title": " The Lion’s Edge Suite  ",
         "title2": "Still",
         "about": "Still is designed for travelers seeking the art of doing nothing. From the moment you open your balcony door, time slows.",
@@ -28,6 +35,14 @@
         "image1":"/assets/images/pages/room/poolside2.jpeg",
         "image2":"/assets/images/pages/room/poolside1.jpeg",
         "image3":"/assets/images/pages/room/poolsidecard3.jpeg",
+        "image4":"/assets/images/pages/room/poolsidecard4.JPG",
+        
+        "image10":"/assets/images/pages/room/stillcard5.JPG",
+        "image11":"/assets/images/pages/room/stillcard6.JPG",
+
+        "extraimage1":"/assets/images/pages/room/extraimage1.JPG",
+
+
         "bannerImg": "/assets/images/pages/room/poolside4b.jpeg",
         "title": " Aqua Tranquil  ",
         "title2": "The Poolside Villa",
@@ -51,6 +66,12 @@
         "image1":"/assets/images/pages/room/nr3.jpeg",
         "image2":"/assets/images/pages/room/nr4.jpeg",
         "image3":"/assets/images/pages/room/nrcard3.jpeg",
+        
+        "image10":"/assets/images/pages/room/stillcard5.JPG",
+        "image11":"/assets/images/pages/room/stillcard6.JPG",
+
+        "extraimage1":"/assets/images/pages/room/extraimage1.JPG",
+
         "title": " The Haven Bloom  ", 
         "title2": "The Garden Villa",
         "about": "Hidden among lush greenery, The Haven Bloom is your private garden sanctuary — a villa surrounded by roses, hummingbirds, and the fragrance of rain.",
@@ -73,6 +94,17 @@
         "image1":"/assets/images/pages/room/wisper.jpeg",
         "image2":"/assets/images/pages/room/wisper1.jpeg",
         "image3":"/assets/images/pages/room/wispercard3.jpeg",
+        "image5":"/assets/images/pages/room/stillcard5.JPG",
+        "image6":"/assets/images/pages/room/stillcard6.JPG",
+        
+        "image10":"/assets/images/pages/room/stillcard5.JPG",
+        "image11":"/assets/images/pages/room/stillcard6.JPG",
+
+
+        "extraimage2":"/assets/images/pages/room/extraimage2.JPG",
+        "extraimage3":"/assets/images/pages/room/extraimage3.JPG",
+
+
         "title": "The Lion’s Edge Suite  ",
         "title2": "Whisper",
         "about": "Step into Whisper, the first of the Lion’s Edge Suites — an intimate villa for two that overlooks the endless green of Sinharaja.",
@@ -95,6 +127,12 @@
         "image1":"/assets/images/pages/room/lv1.jpeg",
         "image2":"/assets/images/pages/room/lv2.jpeg",
         "image3":"/assets/images/pages/room/lvcard3.jpeg",
+        
+        "image10":"/assets/images/pages/room/stillcard5.JPG",
+        "image11":"/assets/images/pages/room/stillcard6.JPG",
+
+        "extraimage1":"/assets/images/pages/room/extraimage1.JPG",
+        
         "title": "The Scholar's Grove",
         "title2": "Library Villa",
         "about": "At the heart of Rain Drops lies The Scholar’s Grove, our grandest villa and the crown jewel of the retreat.",
@@ -117,6 +155,14 @@
         "image1":"/assets/images/pages/room/echo.jpeg",
         "image2":"/assets/images/pages/room/echo1.jpeg",
         "image3":"/assets/images/pages/room/echocard3.jpeg",
+        
+        "image10":"/assets/images/pages/room/stillcard5.JPG",
+        "image11":"/assets/images/pages/room/stillcard6.JPG",
+
+         "extraimage2":"/assets/images/pages/room/extraimage2.JPG",
+        "extraimage3":"/assets/images/pages/room/extraimage3.JPG",
+
+        
         "title": "The Lion’s Edge Suite ",
         "title2": "Echo",
         "about": "Echo mirrors the breath of the forest. The open layout fills with morning mist and soft sunlight",
@@ -139,6 +185,9 @@
        "image1":"/assets/images/pages/room/nr6.jpeg",
        "image2":"/assets/images/pages/room/nr2.jpeg",
          "image3":"/assets/images/pages/room/wispercard3.jpeg",
+         
+        "image10":"/assets/images/pages/room/stillcard5.JPG",
+        "image11":"/assets/images/pages/room/stillcard6.JPG",
         "title": "Your Villa, Your Way",
         "title2": "Fully Customized",
         "about": "Custom Villa Experience – (Flexible Room Configuration) Your Villa, Your Way Design a villa combination tailored to your group size, purpose, and style of stay.",

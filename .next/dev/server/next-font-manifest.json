@@ -1,6 +1,7 @@
 {
   "app": {
-    "[project]/src/app/page": []
+    "[project]/raindropsnew/src/app/gallery/page": [],
+    "[project]/raindropsnew/src/app/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

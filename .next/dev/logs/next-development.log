@@ -1,7 +1,7 @@
-[00:00:25.151] Server  LOG     ✓ Ready in 20.2s
-[00:00:28.203] Server  LOG     ○ Compiling / ...
-[00:00:32.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:33.136] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:58.567] Server  LOG     ✓ Ready in 51.8s
+[00:01:01.583] Server  LOG     ○ Compiling / ...
+[00:01:22.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:24.429] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -22,7 +22,7 @@ It can also happen if the client has a browser extension installed which messes 
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                    <SegmentViewNode type="page" pagePath="page.tsx">
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
                       <SegmentTrieNode>
                       <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
                         <Page params={Promise} searchParams={Promise}>
@@ -36,7 +36,7 @@ It can also happen if the client has a browser extension installed which messes 
 +                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
 -                                 __html: ""
                                 }}
--                               src="/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
 -                               nomodule=""
                               >
                           ...
@@ -44,7 +44,7 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
       ...
 
-[00:00:33.136] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:33.136] Browser LOG     Autoplay started
-[00:00:33.136] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:33.136] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:24.430] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:24.430] Browser LOG     Autoplay started
+[00:01:24.430] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:24.430] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
