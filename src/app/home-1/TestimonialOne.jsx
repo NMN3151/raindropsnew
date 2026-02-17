@@ -34,23 +34,18 @@ function TestimonialOne() {
       [slideIndex]: !prev[slideIndex]
     }));
 
-    // Control autoplay based on expand/collapse
     if (swiperRef.current && swiperRef.current.autoplay) {
       if (isExpanding) {
-        // Stop autoplay when expanding
         swiperRef.current.autoplay.stop();
       } else {
-        // Resume autoplay when collapsing
         swiperRef.current.autoplay.start();
       }
     }
   };
 
-  // Handle slide change - only collapse if user navigated away from expanded slide
   const handleSlideChange = (swiper) => {
     const newSlide = swiper.realIndex;
     
-    // Only collapse and resume if moving to a different slide
     if (newSlide !== currentSlide) {
       setCurrentSlide(newSlide);
       setExpandedSlides({});
@@ -64,6 +59,15 @@ function TestimonialOne() {
   const testimonials = [
     {
       id: 0,
+      image: "/assets/images/travelpartners/testimonialstwomembers.JPG",
+      alt: "Fransisca Gibhard",
+      title: "An Amazing Stay at Raindrops Wellness Villa",
+      text: "We really enjoyed our stay at Raindrops Wellness Villa. It was absolutely amazing from beginning to end — we just loved it. The entire experience was very, very nice, and we had such a good time throughout our stay. The staff were incredibly kind and friendly. They helped us every day and made sure we had everything we needed. We truly felt cared for and well looked after. The food was outstanding — very tasty, fresh, and professionally prepared. We especially loved trying the traditional rice and curry, which was absolutely delicious. Everything was done with such care and attention. We also felt very safe during our stay, which made the experience even more relaxing and enjoyable. We would definitely come back someday and highly recommend Raindrops Wellness Villa to others.",
+      author: "Fransisca Gibhard",
+      shortText: "We really enjoyed our stay at Raindrops Wellness Villa. It was absolutely amazing from beginning to end — we just loved it. The staff were incredibly kind and friendly, and the traditional rice and curry was delicious..."
+    },
+    {
+      id: 1,
       image: "https://i.postimg.cc/kgz1YJtL/ludema.jpg",
       alt: "Dr. Jim Ludema",
       title: "Where Beauty Meets Mindfulness",
@@ -72,7 +76,7 @@ function TestimonialOne() {
       shortText: "Sri Lanka's natural beauty was both awe-inspiring and soothing. A true highlight for Beverly and me was discovering Buddhist mindfulness and meditation..."
     },
     {
-      id: 1,
+      id: 2,
       image: "https://i.postimg.cc/XYGxCRDB/ludema2.jpg",
       alt: "Dr. Beverly Ludema",
       title: "An Unforgettable Journey",
@@ -81,7 +85,7 @@ function TestimonialOne() {
       shortText: "The serene landscapes and rich cultural experiences in Lanka exceeded all our expectations. We found ourselves immersed in traditions that date back thousands of years..."
     },
     {
-      id: 2,
+      id: 3,
       image: "/assets/images/travelpartners/MariaRakhmanova.jpeg",
       alt: "Rainforest retreat experience",
       title: "Heaven-like Nature & Deep Mindful Moments",
@@ -91,34 +95,16 @@ function TestimonialOne() {
     }
   ];
 
+  // ── UPDATED: show button for ALL testimonials on both mobile and desktop ──
   const shouldShowButton = (testimonial) => {
-    // Mobile: Show for all testimonials
-    if (isMobile) {
-      return true;
-    }
-    // Desktop: Show only for Maria (id: 2)
-    return testimonial.id === 2;
+    return true;
   };
 
   const getDisplayText = (testimonial) => {
-    // If expanded, always show full text
     if (expandedSlides[testimonial.id]) {
       return testimonial.text;
     }
-    
-    // If collapsed
-    // For Maria (id: 2): Always show shortText when collapsed (both mobile and desktop)
-    if (testimonial.id === 2) {
-      return testimonial.shortText;
-    }
-    
-    // For others on mobile: show shortText
-    if (isMobile) {
-      return testimonial.shortText;
-    }
-    
-    // For others on desktop: show full text
-    return testimonial.text;
+    return testimonial.shortText;
   };
 
   return (
@@ -188,7 +174,6 @@ function TestimonialOne() {
                                 {getDisplayText(testimonial)}
                               </p>
 
-                              {/* Show button based on logic */}
                               {shouldShowButton(testimonial) && (
                                 <button 
                                   className="see-more-btn"
@@ -409,7 +394,6 @@ function TestimonialOne() {
             line-height: 1.65;
           }
           
-          /* Show truncated text on mobile when collapsed */
           .slider__text.collapsed {
             display: -webkit-box;
             -webkit-line-clamp: 3;
@@ -418,7 +402,6 @@ function TestimonialOne() {
             text-overflow: ellipsis;
           }
           
-          /* Show full text when expanded */
           .slider__text.expanded {
             display: block;
             -webkit-line-clamp: unset;
@@ -449,7 +432,6 @@ function TestimonialOne() {
             color: white;
             box-shadow: 0 5px 15px rgba(200, 176, 138, 0.4);
           }
-            // dwadwadwad
 
           .see-more-btn:active {
             transform: translateY(0);

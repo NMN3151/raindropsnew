@@ -77,7 +77,7 @@ function BannerOne() {
                   loop
                   playsInline
                   preload="none"
-                  poster="/assets/images/banner/A.jpg"
+                  poster="/assets/images/banner/A.png"
                   style={{
                     width: "100%",
                     height: "100%",
@@ -87,12 +87,9 @@ function BannerOne() {
                     left: 0,
                   }}
                 >
+                 
                   <source
-                    src="https://res.cloudinary.com/dbkxkqkik/video/upload/q_auto,f_auto/new_web_hero_2_1_m3eapd.webm"
-                    type="video/webm"
-                  />
-                  <source
-                    src="https://res.cloudinary.com/dbkxkqkik/video/upload/q_auto,f_auto/new_web_hero_2_1_m3eapd.mp4"
+                    src="/assets/videos/new_web_hero3.mp4"
                     type="video/mp4"
                   />
                 </video>
