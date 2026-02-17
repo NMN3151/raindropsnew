@@ -70,23 +70,7 @@ function BannerOne() {
                   position: "relative",
                 }}
               >
-                {/* <video
-                  src="/assets/images/banner/hero 8.mp4"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="none"
-                  poster="/assets/images/banner/A.jpg"
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                  }}
-                /> */}
+                {/* Video */}
                 <video
                   autoPlay
                   muted
@@ -104,15 +88,29 @@ function BannerOne() {
                   }}
                 >
                   <source
-                    src="https://res.cloudinary.com/dbkxkqkik/video/upload/q_auto,f_auto/hero_8_ht3gsu.webm"
+                    src="https://res.cloudinary.com/dbkxkqkik/video/upload/q_auto,f_auto/new_web_hero_2_1_m3eapd.webm"
                     type="video/webm"
                   />
                   <source
-                    src="https://res.cloudinary.com/dbkxkqkik/video/upload/q_auto,f_auto/hero_8_ht3gsu.mp4"
+                    src="https://res.cloudinary.com/dbkxkqkik/video/upload/q_auto,f_auto/new_web_hero_2_1_m3eapd.mp4"
                     type="video/mp4"
                   />
                 </video>
+
+                {/* Dark Overlay */}
+                <div
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                    backgroundColor: "rgba(0, 0, 0, 0.4)", // 40% dark overlay
+                    zIndex: 1,
+                  }}
+                />
               </div>
+
               <div
                 className="container"
                 style={{
@@ -141,7 +139,6 @@ function BannerOne() {
                         zIndex: 3,
                       }}
                     >
-                      
                       <h1>
                         Luxury Stay, Villa Experience Comfort &amp; Elegance
                       </h1>
@@ -163,6 +160,7 @@ function BannerOne() {
               </div>
             </SwiperSlide>
           </div>
+
           <div
             className="rts__slider__nav"
             style={{
