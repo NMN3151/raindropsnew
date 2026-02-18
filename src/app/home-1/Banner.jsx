@@ -76,7 +76,7 @@ function BannerOne() {
                   muted
                   loop
                   playsInline
-                  preload="none"
+                  preload="auto"
                   poster="/assets/images/banner/A.png"
                   style={{
                     width: "100%",
