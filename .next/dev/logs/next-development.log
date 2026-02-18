@@ -146,3 +146,109 @@ It can also happen if the client has a browser extension installed which messes 
 [00:14:43.815] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [00:14:43.815] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [00:15:02.447] Server  LOG     ✓ Finished filesystem cache database compaction in 25.6s
+[00:31:30.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:30.969] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:31:30.969] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:31:30.969] Browser LOG     Autoplay started
+[00:31:30.969] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:31:30.969] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:31:37.603] Server  LOG     ○ Compiling /room-home ...
+[00:39:58.546] Server  LOG     ✓ Compiled in 129ms
+[00:40:00.148] Server  LOG     ✓ Compiled in 32ms
+[00:42:00.162] Server  LOG     ✓ Compiled in 18ms
+[00:42:03.084] Server  LOG     ✓ Compiled in 18ms
+[00:42:19.565] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:51.474] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:45:23.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:34.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:00.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:54.648] Server  LOG     ✓ Compiled in 2.5s
+[00:53:57.013] Server  LOG     ✓ Compiled in 123ms
+[00:54:22.798] Server  LOG     ✓ Compiled in 81ms
+[00:54:27.115] Server  LOG     ✓ Compiled in 47ms
+[00:55:02.482] Server  LOG     ✓ Compiled in 20ms
+[00:55:03.650] Server  LOG     ✓ Compiled in 37ms
+[00:55:03.849] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. assets/images/insta/G2.jpg
+[00:55:10.181] Server  LOG     ✓ Compiled in 36ms
+[00:55:12.895] Server  LOG     ✓ Compiled in 45ms
+[00:55:19.081] Server  LOG     ✓ Compiled in 28ms
+[00:56:02.750] Server  LOG     ✓ Compiled in 44ms
+[00:56:13.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:57.697] Server  LOG     ✓ Compiled in 77ms
+[00:57:01.932] Server  LOG     ✓ Compiled in 25ms
+[00:57:03.152] Server  LOG     ✓ Compiled in 22ms
+[00:57:51.930] Server  LOG     ✓ Compiled in 110ms
+[00:57:56.630] Server  LOG     ✓ Compiled in 98ms
+[00:58:03.348] Server  LOG     ✓ Compiled in 104ms
+[00:58:12.089] Server  LOG     ✓ Compiled in 209ms
+[00:58:17.265] Server  LOG     ✓ Compiled in 27ms
+[00:58:17.520] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. assets/images/insta/G30.JPG
+[00:58:17.853] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. assets/images/insta/G30.JPG
+[00:58:25.874] Server  LOG     ✓ Compiled in 22ms
+[00:58:31.398] Server  LOG     ✓ Compiled in 35ms
+[00:58:44.498] Server  LOG     ✓ Compiled in 22ms
+[00:58:47.392] Server  LOG     ✓ Compiled in 77ms
+[00:59:42.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:46.764] Server  LOG     ✓ Compiled in 99ms
+[01:00:50.913] Server  LOG     ✓ Compiled in 28ms
+[01:00:55.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:31.612] Server  LOG     ✓ Compiled in 40ms
+[01:01:34.930] Server  LOG     ✓ Compiled in 27ms
+[01:01:35.348] Server  LOG     ✓ Compiled in 22ms
+[01:01:50.043] Server  LOG     ✓ Compiled in 23ms
+[01:01:52.082] Server  LOG     ✓ Compiled in 22ms
+[01:01:54.073] Server  LOG     ✓ Compiled in 26ms
+[01:01:55.395] Server  LOG     ✓ Compiled in 58ms
+[01:02:18.350] Server  LOG     ✓ Compiled in 24ms
+[01:02:20.096] Server  LOG     ✓ Compiled in 22ms
+[01:02:25.837] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:02.022] Server  LOG     ✓ Compiled in 3.3s
+[01:03:04.553] Server  LOG     ✓ Compiled in 38ms
+[01:03:10.930] Server  LOG     ✓ Compiled in 24ms
+[01:03:12.234] Server  LOG     ✓ Compiled in 36ms
+[01:03:22.914] Server  LOG     ✓ Compiled in 45ms
+[01:03:27.632] Server  LOG     ✓ Compiled in 42ms
+[01:03:30.433] Server  LOG     ✓ Compiled in 28ms
+[01:03:54.308] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

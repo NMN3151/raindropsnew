@@ -17,7 +17,7 @@ function BreadcrumbOne({ title, description, bgImage }) {
             <div
                 className="rts__section page__hero__height page__hero__bg"
                 style={{ 
-                    backgroundImage: `url(${bgImage || '/assets/images/insta/G7.jpg'})`, 
+                    backgroundImage: `url(${bgImage || '/assets/images/insta/G7.png'})`, 
                     width: '100%', 
                     height: '102vh', 
                     position: 'relative',

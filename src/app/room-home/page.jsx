@@ -61,8 +61,7 @@ function page() {
                 description="A step up from the standard room, often with better views, more space, and additional amenities."
             />
             </div>
-            {/* <Booking/> */}
-            {/* <AdvanceForm /> */}
+        
             <RoomSix />
             <TestimonialOne />
             <FooterOne />
