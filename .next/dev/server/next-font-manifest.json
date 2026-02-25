@@ -1,11 +1,7 @@
 {
   "app": {
     "[project]/raindropsnew/src/app/_not-found/page": [],
-    "[project]/raindropsnew/src/app/dining/page": [],
-    "[project]/raindropsnew/src/app/gallery/page": [],
-    "[project]/raindropsnew/src/app/page": [],
-    "[project]/raindropsnew/src/app/room-home/page": [],
-    "[project]/raindropsnew/src/app/room/[slug]/page": []
+    "[project]/raindropsnew/src/app/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

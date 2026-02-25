@@ -63,10 +63,10 @@ function TestimonialOne() {
       alt: "Fransisca Gibhard",
       title: "An Amazing Stay at Raindrops Wellness Villa",
       text: "We really enjoyed our stay at Raindrops Wellness Villa. It was absolutely amazing from beginning to end — we just loved it. The entire experience was very, very nice, and we had such a good time throughout our stay. The staff were incredibly kind and friendly. They helped us every day and made sure we had everything we needed. We truly felt cared for and well looked after. The food was outstanding — very tasty, fresh, and professionally prepared. We especially loved trying the traditional rice and curry, which was absolutely delicious. Everything was done with such care and attention. We also felt very safe during our stay, which made the experience even more relaxing and enjoyable. We would definitely come back someday and highly recommend Raindrops Wellness Villa to others.",
-      author: "Fransisca Gibhard",
+      author: "Fransisca Gibhard & Laura Henzen",
       shortText: "We really enjoyed our stay at Raindrops Wellness Villa. It was absolutely amazing from beginning to end — we just loved it. The staff were incredibly kind and friendly, and the traditional rice and curry was delicious..."
     },
-    {
+    { 
       id: 1,
       image: "https://i.postimg.cc/kgz1YJtL/ludema.jpg",
       alt: "Dr. Jim Ludema",
