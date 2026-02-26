@@ -501,3 +501,475 @@ It can also happen if the client has a browser extension installed which messes 
 [00:28:32.273] Browser LOG     Autoplay started
 [00:28:32.273] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [00:28:32.273] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:37:19.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:20.831] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:37:20.831] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:37:20.831] Browser LOG     Autoplay started
+[00:37:20.831] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:37:20.831] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:39:51.203] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:52.285] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:39:52.285] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:39:52.285] Browser LOG     Autoplay started
+[00:39:52.285] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:39:52.285] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:40:24.728] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:25.686] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:40:25.686] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:40:25.686] Browser LOG     Autoplay started
+[00:40:25.686] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:40:25.686] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:43:09.007] Server  LOG     ✓ Compiled in 71ms
+[00:43:14.884] Server  LOG     ✓ Compiled in 18ms
+[00:43:28.806] Server  LOG     ✓ Compiled in 23ms
+[00:43:30.738] Server  LOG     ✓ Compiled in 12ms
+[00:44:06.966] Server  LOG     ✓ Compiled in 18ms
+[00:44:13.674] Server  LOG     ✓ Compiled in 3ms
+[00:46:16.004] Server  LOG     ✓ Compiled in 20ms
+[00:46:59.139] Server  LOG     ✓ Compiled in 9ms
+[00:47:06.023] Server  LOG     ✓ Compiled in 28ms
+[00:47:10.789] Server  LOG     ✓ Compiled in 18ms
+[00:47:11.575] Browser ERROR   uncaughtError: Error: Image with src "/assets/images/about/N2.jpg" is missing required "width" property.
+[00:47:15.660] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:47:16.066] Server  LOG     ✓ Compiled in 10ms
+[00:47:16.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:18.148] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:47:18.148] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:47:18.148] Browser LOG     Autoplay started
+[00:47:18.148] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:47:18.148] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:47:27.606] Server  LOG     ✓ Compiled in 23ms
+[00:47:49.336] Server  LOG     ✓ Compiled in 20ms
+[00:48:32.057] Server  LOG     ✓ Compiled in 18ms
+[00:50:05.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:06.165] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:50:06.165] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:06.165] Browser LOG     Autoplay started
+[00:50:06.165] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[00:50:06.165] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:06.165] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:06.165] Browser WARN    Image with src "/assets/images/about/N2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:32.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:33.906] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:50:33.906] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:33.906] Browser LOG     Autoplay started
+[00:50:33.906] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[00:50:33.906] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:33.906] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:33.906] Browser WARN    Image with src "/assets/images/about/N2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:35.434] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:36.295] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:50:36.295] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:36.295] Browser LOG     Autoplay started
+[00:50:36.295] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[00:50:36.295] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:36.295] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:36.295] Browser WARN    Image with src "/assets/images/about/N2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:39.589] Server  LOG     ✓ Compiled in 24ms
+[00:50:41.922] Server  LOG     ✓ Compiled in 10ms
+[00:50:46.805] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:47.703] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:50:47.703] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:47.703] Browser LOG     Autoplay started
+[00:50:47.703] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[00:50:47.703] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:47.703] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:47.703] Browser WARN    Image with src "/assets/images/about/N2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:14.523] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:14.918] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:52:14.918] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:52:14.918] Browser LOG     Autoplay started
+[00:52:14.918] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[00:52:14.918] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:52:14.918] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:52:14.918] Browser WARN    Image with src "/assets/images/about/N2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:28.057] Server  LOG     ✓ Compiled in 23ms
+[00:52:28.573] Browser WARN    Image with src "/assets/images/about/N1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:28.574] Browser WARN    Image with src "/assets/images/about/N1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:40.870] Server  LOG     ✓ Compiled in 11ms
+[00:52:55.772] Server  LOG     ✓ Compiled in 22ms
+[00:53:25.506] Server  LOG     ✓ Compiled in 17ms
+[00:53:26.574] Browser WARN    Image with src "/assets/images/about/N3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:50.475] Server  LOG     ✓ Compiled in 12ms
+[00:53:52.688] Server  LOG     ✓ Compiled in 22ms
+[00:54:13.424] Server  LOG     ✓ Compiled in 7ms
+[00:54:46.624] Server  LOG     ✓ Compiled in 25ms
+[00:54:54.439] Server  LOG     ✓ Compiled in 19ms

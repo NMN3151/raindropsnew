@@ -27,15 +27,19 @@ function AboutOne() {
                   className="jara-mask-1 jarallax image-height pt-0"
                   data-rellax-speed="2"
                 >
-                  {/* Ensure rellax-img is present */}
-                  <Image
-                    src="/assets/images/about/N1.jpg"
+                 <Image
+  src="/assets/images/about/N3.jpg"
+  alt="Background"
+  fill
+/>
+                  {/* <Image
+                    src="/assets/images/about/N2.jpg"
                     alt="Background"
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="jarallax-img rellax rellax-img"
                     priority={false} // lazy loaded
-                  />
+                  /> */}
                 </div>
               </div>
               <div

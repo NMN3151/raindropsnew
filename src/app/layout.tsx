@@ -125,13 +125,16 @@ export default function RootLayout({
             align-items: center;
             gap: 12px;
           }
+            .mobile-reserve-btn{
+            margin-top: 20px;
+            }
 
           @media (max-width: 768px) {
             .banner__slide__content h1 {
               font-size: clamp(26px, 7vw, 40px);
             }
             .banner__slide__content .sub-heading1 {
-              font-size: clamp(14px, 3.5vw, 18px);
+              font-size: clamp(20px, 3.5vw, 20px);
             }
             .banner__slide__content .sub-heading2 {
               font-size: clamp(12px, 3vw, 14px);
