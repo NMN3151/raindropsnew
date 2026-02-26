@@ -1,7 +1,7 @@
-[00:00:35.734] Server  LOG     ✓ Ready in 30.6s
-[00:00:38.756] Server  LOG     ○ Compiling / ...
-[00:00:47.662] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:48.019] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:34.391] Server  LOG     ✓ Ready in 29.6s
+[00:00:37.558] Server  LOG     ○ Compiling / ...
+[00:00:45.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:46.575] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -44,12 +44,417 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
       ...
 
-[00:00:48.019] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:48.019] Browser LOG     Autoplay started
-[00:00:48.019] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:48.019] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:34.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:34.741] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:46.575] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:46.575] Browser LOG     Autoplay started
+[00:00:46.575] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:46.575] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:48.587] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <head> body  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"/", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <Script>
+                          <Script>
+>                         <body>
+                            <style>
+                            ...
+                              <SegmentViewNode type="page" pagePath="/raindrops...">
+                                <SegmentTrieNode>
+                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                                  <Page params={Promise} searchParams={Promise}>
+                                    <SEO>
+>                                   <head>
+                                    ...
+                            ...
+                  ...
+
+[00:03:48.587] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. body <head>
+[00:03:48.587] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:48.587] Browser LOG     Autoplay started
+[00:03:48.587] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:48.587] Browser LOG     Autoplay started
+[00:03:48.587] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:48.587] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:04:37.527] Server  LOG     ✓ Compiled in 776ms
+[00:04:38.574] Browser ERROR   ./raindropsnew/src/app/home-1/Banner.jsx:263:18
+Parsing ecmascript source code failed
+  261 |           </span>
+  262 |         </div>
+> 263 |         </Swiper>
+      |                  ^
+> 264 |       </div>
+      | ^^^^^^^
+  265 |       {/* banner area end */}
+  266 |     </>
+  267 |   );
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+[00:04:51.893] Server  LOG     ✓ Compiled in 15ms
+[00:04:52.575] Browser ERROR   ./raindropsnew/src/app/home-1/Banner.jsx:263:18
+Parsing ecmascript source code failed
+  261 |           </span>
+  262 |         </div>
+> 263 |         </Swiper>
+      |                  ^
+> 264 |       </div>
+      | ^^^^^^^
+  265 |       {/* banner area end */}
+  266 |     </>
+  267 |   );
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+[00:04:52.576] Browser ERROR   ./raindropsnew/src/app/home-1/Banner.jsx:263:18
+Parsing ecmascript source code failed
+  261 |           </span>
+  262 |         </div>
+> 263 |         </Swiper>
+      |                  ^
+> 264 |       </div>
+      | ^^^^^^^
+  265 |       {/* banner area end */}
+  266 |     </>
+  267 |   );
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+[00:05:03.575] Browser ERROR   ./raindropsnew/src/app/home-1/Banner.jsx:264:18
+Parsing ecmascript source code failed
+  262 |         </div>
+  263 |           </div>
+> 264 |         </Swiper>
+      |                  ^
+> 265 |       </div>
+      | ^^^^^^^
+  266 |       {/* banner area end */}
+  267 |     </>
+  268 |   );
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+[00:05:31.025] Server  LOG     ✓ Compiled in 382ms
+[00:05:31.576] Browser ERROR   ./raindropsnew/src/app/home-1/Banner.jsx:187:27
+Parsing ecmascript source code failed
+  185 |           </span>
+  186 |         </div>
+> 187 |             </SwiperSlide>
+      |                           ^
+> 188 |           </div>
+      | ^^^^^^^^^^^
+  189 |
+  190 |           <div
+  191 |             className="rts__slider__nav"
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+[00:06:30.141] Server  LOG     ✓ Compiled in 24ms
+[00:06:40.107] Server  LOG     ✓ Compiled in 24ms
+[00:06:41.490] Server  LOG     ✓ Compiled in 23ms
+[00:06:44.853] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:45.223] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:06:45.223] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:06:45.223] Browser LOG     Autoplay started
+[00:06:45.223] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:06:45.223] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:07:06.982] Server  LOG     ✓ Compiled in 20ms
+[00:07:10.191] Server  LOG     ✓ Compiled in 20ms
+[00:07:22.213] Server  LOG     ✓ Compiled in 19ms
+[00:11:12.340] Server  LOG     ✓ Compiled in 67ms
+[00:14:06.478] Server  LOG     ✓ Compiled in 21ms
+[00:14:07.523] Server  LOG     ✓ Compiled in 16ms
+[00:15:46.608] Server  LOG     ✓ Compiled in 236ms
+[00:15:47.574] Browser ERROR   ./raindropsnew/src/app/home-1/Banner.jsx:150:29
+Parsing ecmascript source code failed
+  148 |                           style={{
+  149 |                             color: "#ffffff",
+> 150 |                             ,
+      |                             ^
+  151 |                           }}
+  152 |                         >
+  153 |                           Luxury Stay, Villa Experience Comfort & Elegance
+
+Expected '</', got ','
+
+Import traces:
+  Client Component Browser:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Client Component Browser]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raindropsnew/src/app/home-1/Banner.jsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Client Component SSR]
+    ./raindropsnew/src/app/page.tsx [Server Component]
+[00:15:51.780] Server  LOG     ✓ Compiled in 18ms
+[00:19:46.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:46.733] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:19:46.733] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:19:46.733] Browser LOG     Autoplay started
+[00:19:46.733] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:19:46.733] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:22.620] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:23.574] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:21:23.574] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:23.574] Browser LOG     Autoplay started
+[00:21:23.574] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:23.574] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:23:31.240] Server  LOG     ✓ Compiled in 35ms
+[00:24:36.074] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:36.837] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:24:36.837] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:24:36.837] Browser LOG     Autoplay started
+[00:24:36.837] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:24:36.837] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:25:30.210] Server  LOG     ✓ Compiled in 20ms
+[00:25:34.371] Server  LOG     ✓ Compiled in 18ms
+[00:25:38.819] Server  LOG     ✓ Compiled in 17ms
+[00:25:44.890] Server  LOG     ✓ Compiled in 21ms
+[00:25:48.407] Server  LOG     ✓ Compiled in 25ms
+[00:27:03.759] Server  LOG     ✓ Compiled in 26ms
+[00:27:05.761] Server  LOG     ✓ Compiled in 19ms
+[00:28:31.972] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:32.272] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -92,52 +497,7 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
       ...
 
-[00:02:34.741] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:34.741] Browser LOG     Autoplay started
-[00:02:34.741] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:34.741] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:20.795] Server  LOG     ✓ Compiled in 37ms
-[00:06:27.106] Server  LOG     ✓ Compiled in 25ms
-[00:06:29.440] Server  LOG     ✓ Compiled in 34ms
-[00:06:30.843] Server  LOG     ✓ Compiled in 23ms
-[00:06:33.506] Server  LOG     ✓ Compiled in 23ms
-[00:06:36.082] Server  LOG     ✓ Compiled in 22ms
-[00:07:05.351] Server  LOG     ✓ Compiled in 27ms
-[00:07:44.417] Server  LOG     ✓ Compiled in 30ms
-[00:08:16.250] Server  LOG     ✓ Compiled in 23ms
-[00:08:17.516] Server  LOG     ✓ Compiled in 22ms
-[00:08:19.658] Server  LOG     ✓ Compiled in 51ms
-[00:08:22.096] Server  LOG     ✓ Compiled in 21ms
-[00:08:31.298] Server  LOG     ✓ Compiled in 22ms
-[00:08:33.161] Server  LOG     ✓ Compiled in 25ms
-[00:08:33.919] Server  LOG     ✓ Compiled in 30ms
-[00:09:21.091] Server  LOG     ✓ Compiled in 27ms
-[00:10:13.898] Server  LOG     ✓ Compiled in 27ms
-[00:10:14.922] Server  LOG     ✓ Compiled in 34ms
-[00:10:16.537] Server  LOG     ✓ Compiled in 27ms
-[00:10:19.636] Server  LOG     ✓ Compiled in 29ms
-[00:10:49.242] Server  LOG     ✓ Compiled in 25ms
-[00:12:49.335] Server  LOG     ✓ Compiled in 25ms
-[00:13:18.794] Server  LOG     ✓ Compiled in 24ms
-[01:14:07.240] Server  LOG     ✓ Compiled in 330ms
-[01:14:14.274] Server  LOG     ✓ Compiled in 28ms
-[01:27:46.744] Server  LOG     ✓ Compiled in 155ms
-[01:36:21.060] Server  LOG     ✓ Compiled in 29ms
-[01:36:59.554] Server  LOG     ✓ Compiled in 30ms
-[01:37:04.628] Server  LOG     ✓ Compiled in 23ms
-[01:37:24.344] Server  LOG     ✓ Compiled in 34ms
-[01:37:25.377] Server  LOG     ✓ Compiled in 31ms
-[01:41:16.544] Server  LOG     ✓ Compiled in 27ms
-[01:41:16.627] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[01:47:24.675] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[01:47:33.198] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[01:47:39.877] Server  LOG     ✓ Compiled in 27ms
-[01:47:42.477] Server  LOG     ✓ Compiled in 23ms
-[01:47:44.627] Server  LOG     ✓ Compiled in 29ms
-[01:47:49.159] Server  LOG     ✓ Compiled in 21ms
-[01:47:50.143] Server  LOG     ✓ Compiled in 50ms
-[01:47:52.544] Server  LOG     ✓ Compiled in 27ms
-[01:47:54.043] Server  LOG     ✓ Compiled in 28ms
-[01:47:56.626] Server  LOG     ✓ Compiled in 21ms
-[01:48:08.359] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[01:48:10.659] Server  LOG     ✓ Compiled in 26ms
+[00:28:32.272] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:32.273] Browser LOG     Autoplay started
+[00:28:32.273] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:32.273] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters

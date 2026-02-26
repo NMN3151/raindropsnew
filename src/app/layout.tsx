@@ -17,6 +17,14 @@ import "../../assets/css/style.css";
 import "react-datepicker/dist/react-datepicker.css";
 import 'aos/dist/aos.css';
 import Script from 'next/script';
+import { Cinzel } from 'next/font/google';
+
+const cinzel = Cinzel({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  display: 'swap',
+  variable: '--font-cinzel',
+});
 
 export const metadata: Metadata = {
   title: "Rain Drops Villa - Luxury Stay Villa Experience Comfort & Elegance",
@@ -35,14 +43,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      {/* ← Remove the manual <head> completely */}
-      
-      {/* Correct way: Put JSON-LD using next/script (outside any <head>) */}
+    <html lang="en" className={cinzel.variable}>
       <Script
         id="organization-schema"
         type="application/ld+json"
-        strategy="afterInteractive"   // ← This is safe and recommended
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -60,7 +65,7 @@ export default function RootLayout({
             },
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+94-77-123-4567",   // ← Put your real phone
+              "telephone": "+94-77-123-4567",
               "contactType": "Customer Service",
               "email": "booking@intterminal.com"
             },
@@ -72,25 +77,70 @@ export default function RootLayout({
         }}
       />
 
-       <Script
-          id="ga4"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      <Script
+        id="ga4"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-NQSZCD56');
-            `,
-          }}
-        />
-
+          `,
+        }}
+      />
 
       <body>
-        
+
+        {/* Global banner typography overrides */}
+        <style>{`
+          .banner__slide__content h1 {
+  color: #ffffff;
+  font-size: clamp(32px, 5vw, 72px);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: var(--font-cinzel);
+  font-weight: 400;
+}
+
+          .banner__slide__content .sub-heading1 {
+            color: #ffffff;
+            font-size: 35px;
+            opacity: 0.9;
+            font-family: 'Gilda Display', serif;
+          }
+
+          .banner__slide__content .sub-heading2 {
+            color: #ffffff;
+            font-size: 20px;
+            opacity: 0.75;
+            font-family: 'Lato', sans-serif;
+            font-weight: regular;
+          }
+
+          .heading-holder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+          }
+
+          @media (max-width: 768px) {
+            .banner__slide__content h1 {
+              font-size: clamp(26px, 7vw, 40px);
+            }
+            .banner__slide__content .sub-heading1 {
+              font-size: clamp(14px, 3.5vw, 18px);
+            }
+            .banner__slide__content .sub-heading2 {
+              font-size: clamp(12px, 3vw, 14px);
+            }
+          }
+        `}</style>
+
         {children}
-        
+
         <Script
           src="/assets/js/smoothscroll.js"
           strategy="afterInteractive"

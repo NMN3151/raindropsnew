@@ -1,8 +1,10 @@
 {
   "pages": {},
   "app": {
-    "[project]/raindropsnew/src/app/page": []
+    "[project]/raindropsnew/src/app/page": [
+      "static/media/cc014fcb166cf364-s.p.e32417d2.woff2"
+    ]
   },
-  "appUsingSizeAdjust": false,
+  "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false
 }

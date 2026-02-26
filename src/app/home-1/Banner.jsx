@@ -87,7 +87,6 @@ function BannerOne() {
                     left: 0,
                   }}
                 >
-                 
                   <source
                     src="/assets/videos/new_web_hero3.mp4"
                     type="video/mp4"
@@ -127,7 +126,7 @@ function BannerOne() {
                   className="row justify-content-center"
                   style={{ width: "100%" }}
                 >
-                  <div className="col-lg-10">
+                  <div>
                     <div
                       className="banner__slide__content"
                       style={{
@@ -136,9 +135,32 @@ function BannerOne() {
                         zIndex: 3,
                       }}
                     >
-                      <h1>
-                        Luxury Stay, Villa Experience Comfort &amp; Elegance
-                      </h1>
+                      <div
+                        className="heading-holder"
+                         
+                      >
+                        <h1
+                           
+                        >
+                          Luxury Stay, Villa Experience Comfort & Elegance
+                        </h1>
+
+                        <span
+                          className="sub-heading1"
+                          style={{ color: "#ffffff" }}
+                        >
+                          Arrive. Exhale. Become Still.
+                        </span>
+
+                        <span
+                          className="sub-heading2"
+                          style={{ color: "#ffffff" }}
+                        >
+                          Where UNESCO rainforest elegance and original
+                          mindfulness practices restore luminous clarity and
+                          effortless calm.
+                        </span>
+                      </div>
 
                       {/* Mobile-only Reserve Now Button */}
                       {isMobile && (
