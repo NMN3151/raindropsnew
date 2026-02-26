@@ -1,45 +1,4 @@
-/*
-Template Name: Moonlit - Hotel and Resturant HTML Template
-Author: Reacthemes
-Author URI: https://themeforest.net/user/reacthemes
-Tags: Hotel, Resturant, Spa, Message, Honeymoon, Booking
-Version: 1.0
  
- 
- 
-----------------------
-
-1. Variable
-1. mixin
-3. reset
-4. typography
-5. Spacing
-6. loader
-7. common
-8. animation
-9. input
-10. components
-11. common style
-12. banner
-13. about
-14. rooms
-15. testimonial
-16. video
-17. offer
-18. advance__search
-19. newsletter
-20. facility
-21. blog
-22. service
-23. team
-24. resturant-menu
-25. gallery
-26. event
-27. offcanvase__menu
-28. contact
-29. form
-30. footer
--------------*/
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
@@ -100,6 +59,7 @@ Version: 1.0
   --transition: all .4s ease;
 }
 
+ 
 .rts__footer.is__footer__two.has__background__image, .event__newsletter__bg, .newsletter.is__home__four.has__background, .page__hero__bg {
   background-size: cover;
   background-position: center;
@@ -8376,13 +8336,23 @@ margin-top: 20px;
   background-image: url("/assets/images/shape/section__style__two.svg");
   background-repeat: no-repeat;
 }
-.subtitle__icon__three, .subtitle__icon__four {
+
+.subtitle__icon__three,
+.subtitle__icon_about_section,
+.subtitle__icon__four {
   position: relative;
   display: inline-block;
   margin-bottom: 15px;
   color: var(--heading-color);
 }
-.subtitle__icon__three::before, .subtitle__icon__four::before {
+
+.subtitle__icon_about_section {
+  left: 60px;
+}
+
+.subtitle__icon__three::before,
+.subtitle__icon_about_section::before,
+.subtitle__icon__four::before {
   position: absolute;
   content: "";
   left: -65px;
@@ -8392,7 +8362,10 @@ margin-top: 20px;
   background-image: url("/assets/images/shape/section__style__three-1.svg");
   background-repeat: no-repeat;
 }
-.subtitle__icon__three::after, .subtitle__icon__four::after {
+
+.subtitle__icon__three::after,
+.subtitle__icon_about_section::after,
+.subtitle__icon__four::after {
   position: absolute;
   content: "";
   right: -65px;
@@ -8402,29 +8375,37 @@ margin-top: 20px;
   background-image: url("/assets/images/shape/section__style__three-2.svg");
   background-repeat: no-repeat;
 }
+
 .subtitle__icon__four::before {
   left: -45px;
   width: 30px;
   background-image: url("/assets/images/shape/section__three-1.svg");
 }
+
 .subtitle__icon__four::after {
   width: 30px;
   right: -45px;
   background-image: url("/assets/images/shape/section__three-2.svg");
 }
+
 .subtitle__icon__five {
   left: 45px;
 }
+
 .subtitle__icon__five::before {
   left: -45px;
   width: 30px;
   background-image: url("/assets/images/shape/section__three-1.svg");
 }
 
-.section__topbar.is__home__two .subtitle__icon__three::before, .section__topbar.is__home__two .subtitle__icon__four::before, .section__topbar.is__home__two .subtitle__icon__three::after, .section__topbar.is__home__two .subtitle__icon__four::after {
+.section__topbar.is__home__two .subtitle__icon__three::before,
+.section__topbar.is__home__two .subtitle__icon_about_section::before,
+.section__topbar.is__home__two .subtitle__icon__four::before,
+.section__topbar.is__home__two .subtitle__icon__three::after,
+.section__topbar.is__home__two .subtitle__icon_about_section::after,
+.section__topbar.is__home__two .subtitle__icon__four::after {
   filter: brightness(100);
 }
-
 .jarallax > .jarallax-img, picture.jarallax-img img {
   position: absolute;
   object-fit: cover;

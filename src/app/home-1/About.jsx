@@ -28,7 +28,7 @@ function AboutOne() {
                   data-rellax-speed="2"
                 >
                  <Image
-  src="/assets/images/about/N3.jpg"
+  src="/assets/images/about/N1.jpg"
   alt="Background"
   fill
 />
@@ -67,7 +67,13 @@ function AboutOne() {
               </div>
             </div>
             <div className="content">
-              {/* <span className="h6 subtitle__icon__two d-block wow fadeInUp">About Us</span> */}
+
+              <span className="h6 subtitle__icon_about_section mx-auto">
+                  Arrive. Exhale. Become Still.
+                </span>
+
+
+            
               <h2 className="content__title wow fadeInUp">
                 Where Mind Meets Nature
               </h2>
@@ -92,17 +98,25 @@ function AboutOne() {
                 tracking, and villa interiors crafted with natural luxury and
                 quiet elegance.
                 <br></br> <br></br>
-                <strong>
-                  At Rain Drops, where luxury becomes personal, science becomes
-                  human, and the rainforest becomes your private guide to
-                  clarity.
-                </strong>
+                 
               </p>
-              {/* <Link href="#" className="theme-btn btn-style fill no-border wow fadeInUp" data-wow-delay=".5s"> */}
-              {/* <span>Learn More</span> */}
-              {/* </Link> */}
+         
             </div>
           </div>
+      <p
+  style={{
+    display: "block",
+    textAlign: "center",
+    fontFamily: "var(--font-cinzel)",
+    marginTop: "2rem",
+    fontSize: "18px",
+    color: "#28282b",
+  }}
+>
+  At Rain Drops, where luxury becomes personal, science becomes human, and the
+  rainforest becomes your private guide to clarity.
+</p>
+
         </div>
       </div>
     </div>

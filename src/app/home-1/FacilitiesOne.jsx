@@ -20,14 +20,21 @@ function FacilitiesOne() {
         </div>
         <div className="container">
           <div className="row justify-content-center text-center mb-40">
-            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-              <div className="section__topbar">
-                <span className="h6 subtitle__icon__three mx-auto">
-                  Facilities
-                </span>
-                <h2 className="section__title"> Villa Facilities</h2>
-              </div>
-            </div>
+          <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+  <div className="section__topbar_about">
+    {/* <span className="h6 subtitle__icon__three mx-auto">
+      Villa Facilities
+    </span> */}
+    <h2 className="section__title">  Facilities</h2>
+
+    <p
+      className="content__subtitle wow fadeInUp"
+      data-wow-delay=".3s"
+    >
+      Where UNESCO rainforest elegance and original mindfulness practices restore luminous clarity and effortless calm.
+    </p>
+  </div>
+</div>
           </div>
           <div className="row g-4">
             <div

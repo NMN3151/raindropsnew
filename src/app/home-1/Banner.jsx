@@ -139,18 +139,11 @@ function BannerOne() {
                         className="heading-holder"
                          
                       >
-                        <h1
-                           
-                        >
+                        <h1>
                           Luxury Stay, Villa Experience Comfort & Elegance
                         </h1>
 
-                        <span
-                          className="sub-heading1"
-                          style={{ color: "#ffffff" }}
-                        >
-                          Arrive. Exhale. Become Still.
-                        </span>
+                     
 
                         <span
                           className="sub-heading2"

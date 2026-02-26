@@ -104,12 +104,7 @@ export default function RootLayout({
   font-weight: 400;
 }
 
-          .banner__slide__content .sub-heading1 {
-            color: #ffffff;
-            font-size: 35px;
-            opacity: 0.9;
-            font-family: 'Gilda Display', serif;
-          }
+         
 
           .banner__slide__content .sub-heading2 {
             color: #ffffff;
