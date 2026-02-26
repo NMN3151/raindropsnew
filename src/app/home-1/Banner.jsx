@@ -145,14 +145,7 @@ function BannerOne() {
 
                      
 
-                        <span
-                          className="sub-heading2"
-                          style={{ color: "#ffffff" }}
-                        >
-                          Where UNESCO rainforest elegance and original
-                          mindfulness practices restore luminous clarity and
-                          effortless calm.
-                        </span>
+                     
                       </div>
 
                       {/* Mobile-only Reserve Now Button */}
