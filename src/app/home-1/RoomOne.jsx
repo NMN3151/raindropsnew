@@ -26,7 +26,7 @@ function RoomOne({ className }) {
         <div className="row justify-content-center text-center mb-40">
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div className="section__topbar">
-              <span className="h6 subtitle__icon__three mx-auto">Rooms</span>
+              <span className="h6 subtitle__icon__three mx-auto">Experience</span>
               <h2 className="section__title"> Our Rooms</h2>
             </div>
           </div>

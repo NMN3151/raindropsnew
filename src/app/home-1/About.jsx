@@ -27,11 +27,11 @@ function AboutOne() {
                   className="jara-mask-1 jarallax image-height pt-0"
                   data-rellax-speed="2"
                 >
-                 <Image
-  src="/assets/images/about/N1.jpg"
-  alt="Background"
-  fill
-/>
+                  <Image
+                    src="/assets/images/about/N1.jpg"
+                    alt="Background"
+                    fill
+                  />
                   {/* <Image
                     src="/assets/images/about/N2.jpg"
                     alt="Background"
@@ -67,16 +67,16 @@ function AboutOne() {
               </div>
             </div>
             <div className="content">
-
               <span className="h6 subtitle__icon_about_section mx-auto">
-                  Arrive. Exhale. Become Still.
-                </span>
+                RainDrops wellness villa
+              </span>
 
-
-            
               <h2 className="content__title wow fadeInUp">
                 Where Mind Meets Nature
               </h2>
+
+              <p className="arrivetext">Arrive. Exhale. Become Still.</p>
+
               <p
                 className="content__subtitle wow fadeInUp"
                 data-wow-delay=".3s"
@@ -98,27 +98,107 @@ function AboutOne() {
                 tracking, and villa interiors crafted with natural luxury and
                 quiet elegance.
                 <br></br> <br></br>
-                 
               </p>
-         
             </div>
           </div>
-      <p
-  style={{
-    display: "block",
-    textAlign: "center",
-    fontFamily: "var(--font-cinzel)",
-    marginTop: "2rem",
-    fontSize: "18px",
-    color: "#28282b",
-  }}
->
-  At Rain Drops, where luxury becomes personal, science becomes human, and the
-  rainforest becomes your private guide to clarity.
-</p>
-
+          <div className="atraindropscontainer">
+            <p>
+              At Rain Drops, where luxury becomes personal, science becomes
+              human, and the rainforest becomes your private guide to clarity.
+            </p>
+          </div>
         </div>
       </div>
+
+      <style jsx>{`
+        .arrivetext {
+          color: black;
+          font-weight: semi-bold;
+          font-family: "Crimson Text", serif;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+
+        .atraindropscontainer {
+          max-width: 950px;
+          margin: 60px auto 0 auto;
+          padding: 0px 40px;
+          text-align: center;
+          border-radius: 6px;
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+          position: relative;
+        }
+
+        .atraindropscontainer p {
+          font-family: "Cinzel";
+          font-size: 16px;
+          color: #000000;
+          line-height: 1.8;
+          letter-spacing: 0.5px;
+          margin: 0;
+        }
+
+        .atraindropscontainer::before {
+          content: "“";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 0px;
+          left: 35px;
+        }
+
+        .atraindropscontainer::after {
+          content: "”";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          bottom: 0px;
+          right: 275px;
+        }
+
+
+
+        @media (max-width: 1024px) {
+          .atraindropscontainer {
+            margin: 0px auto 0 auto;
+          }
+
+        
+        }
+
+
+
+
+        @media (max-width: 768px) {
+
+ 
+
+           
+          .atraindropscontainer {
+           max-width: 250px;
+           margin-top: 20px;
+          }
+
+          .atraindropscontainer p {
+            font-size: 16px;
+            line-height: 1.8;
+          }
+
+          .atraindropscontainer::before {
+            font-size: 36px;
+            top: 5px;
+            left: 35px;
+          }
+
+          .atraindropscontainer::after {
+            font-size: 36px;
+            bottom: 5px;
+            right: 50px;
+          }
+        }
+      `}</style>
     </div>
   );
 }

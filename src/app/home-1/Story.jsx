@@ -14,7 +14,7 @@ export default function SignaturePrograms() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 }
+      { threshold: 0.2 },
     );
 
     if (sectionRef.current) {
@@ -167,7 +167,7 @@ export default function SignaturePrograms() {
                     }`}
                     onClick={() =>
                       setActiveHover(
-                        activeHover === pillar.id ? null : pillar.id
+                        activeHover === pillar.id ? null : pillar.id,
                       )
                     }
                   >
@@ -194,7 +194,9 @@ export default function SignaturePrograms() {
         <div
           className={`bottom-content ${isVisible ? "animate-in delay-6" : ""}`}
         >
-          <h2 className="story-text-des"   style={{ fontSize: "18px" }}>Study, Investigate, practice</h2>
+          <h2 className="story-text-des" style={{ fontSize: "18px" }}>
+            Study, Investigate, practice
+          </h2>
           <p className="story-text-des">
             These principles shape everything we do, from mindful architecture
             to the way we help guests understand themselves through nature. Rain
@@ -204,13 +206,52 @@ export default function SignaturePrograms() {
             travels home with you. Because at Rain Drops, we believe:
           </p>
 
-          <p className="story-text2">
-            <strong>"Nature is not outside of you — it is within you."</strong>
-          </p>
+          <div className="atraindropscontainer">
+            <p>Nature is not outside of you — it is within you.</p>
+          </div>
         </div>
       </div>
 
       <style jsx>{`
+        .atraindropscontainer {
+          max-width: 600px;
+          margin: 60px auto 0 auto;
+          padding: 20px 40px;
+          text-align: center;
+          border-radius: 6px;
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+          position: relative;
+        }
+
+        .atraindropscontainer p {
+          font-family: "Cinzel";
+          font-size: 16px;
+          color: #000000;
+          line-height: 1.8;
+          letter-spacing: 0.5px;
+          margin: 0;
+        }
+
+        .atraindropscontainer::before {
+          content: "“";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 13px;
+          left: 70px;
+        }
+
+        .atraindropscontainer::after {
+          content: "”";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 13px;
+          right: 70px;
+        }
+
         .signature__outer {
           padding: 6rem 0 120px;
           background: #ffffff;
@@ -447,7 +488,9 @@ export default function SignaturePrograms() {
           max-height: 0;
           opacity: 0;
           overflow: hidden;
-          transition: max-height 0.4s ease, opacity 0.4s ease;
+          transition:
+            max-height 0.4s ease,
+            opacity 0.4s ease;
           text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
         }
 
@@ -552,6 +595,29 @@ export default function SignaturePrograms() {
         }
 
         @media (max-width: 480px) {
+
+
+          .atraindropscontainer::before {
+          content: "“";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 13px;
+          left: 10px;
+        }
+
+        .atraindropscontainer::after {
+          content: "”";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 83px;
+          right: 20px;
+        }
+
+
           .signature__outer {
             padding: 6rem 0;
           }
@@ -606,11 +672,11 @@ export default function SignaturePrograms() {
             text-align: center;
             justify-content: center;
           }
-            .story-text-des{
-             font-size: 0.95rem;
-             text-align: center;
-             justify-content: center;
-            }
+          .story-text-des {
+            font-size: 0.95rem;
+            text-align: center;
+            justify-content: center;
+          }
         }
       `}</style>
     </div>

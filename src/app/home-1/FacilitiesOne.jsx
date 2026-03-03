@@ -22,10 +22,7 @@ function FacilitiesOne() {
           <div className="row justify-content-center text-center mb-40">
           <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
   <div className="section__topbar_about">
-    {/* <span className="h6 subtitle__icon__three mx-auto">
-      Villa Facilities
-    </span> */}
-    <h2 className="section__title">  Facilities</h2>
+    <span className="h6 subtitle__icon__three mx-auto">Facilities</span>
 
     <p
       className="content__subtitle wow fadeInUp"

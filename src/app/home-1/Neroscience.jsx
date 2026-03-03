@@ -1,43 +1,48 @@
-'use client';
-import Link from 'next/link';
-import React from 'react';
+"use client";
+import Link from "next/link";
+import React from "react";
 
 export default function MindfulnessNeurosciencePage() {
   return (
     <div className="rts__section neuroscience__section section__padding">
       <div className="container">
         <div className="row g-5 align-items-start">
-
           {/* Content - Left on desktop, first on mobile */}
           <div className="col-12 col-lg-6 order-1 order-lg-1">
             <div className="neuroscience-content">
-              <h2 className="section__title"> Mindfulness Meets Neuroscience at Rain drops</h2>   
+              <h2 className="section__title">
+                {" "}
+                Mindfulness Meets Neuroscience at Rain drops
+              </h2>
               {/* <h2 className="content__title h2 mb-4 lh-1"> */}
-                {/* Mindfulness Meets Neuroscience */}
+              {/* Mindfulness Meets Neuroscience */}
               {/* </h2> */}
-               
+
               <p className="neuroscience__subtitle mb-4">
                 Experience Calm, Measured by Nature and Mind
               </p>
 
               <p className="neuroscience__description mb-4">
-                At Rain Drops Wellness Resort, ancient mindfulness meets modern science. Join our signature Mindfulness of Breathing and Loving-Friendliness Session, guided by Dr. GB Hewawasam and enhanced by Muse™ neurofeedback headbands — the same technology used by neuroscientists to track real-time calm and focus. Each guest receives a complimentary one-hour session, surrounded by the living serenity of the Sinharaja Rainforest. Feel your mind settle, your breath deepen, and your awareness expand — as nature, science, and mindfulness become one.
+                At Rain Drops Wellness Resort, ancient mindfulness meets modern
+                science. Join our signature Mindfulness of Breathing and
+                Loving-Friendliness Session, guided by Dr. GB Hewawasam and
+                enhanced by Muse™ neurofeedback headbands — the same technology
+                used by neuroscientists to track real-time calm and focus. Each
+                guest receives a complimentary one-hour session, surrounded by
+                the living serenity of the Sinharaja Rainforest. Feel your mind
+                settle, your breath deepen, and your awareness expand — as
+                nature, science, and mindfulness become one.
               </p>
 
-              <p className="neuroscience__description wow fadeInUp" style={{fontStyle: 'italic'}}>
-               <strong>Rain Drops — Where the Mind Learns to Breathe.</strong> 
-              </p>
-
-              <p className="neuroscience__description wow fadeInUp" style={{fontStyle: 'italic' }}  >
-               <strong> Discover the Experience — Book Your Stay Today.</strong>
-              </p>
+              <div className="atraindropscontainer">
+                <p>Rain Drops — Where the Mind Learns to Breathe. </p>
+                <p>Discover the Experience — Book Your Stay Today. </p>
+              </div>
 
               {/* Button only in content on desktop */}
               <div className="d-none d-lg-block">
                 <Link href="/neuroscience">
-                <button className="neuroscience__btn">
-                  Discover Now
-                </button>
+                  <button className="neuroscience__btn">Discover Now</button>
                 </Link>
               </div>
             </div>
@@ -50,17 +55,17 @@ export default function MindfulnessNeurosciencePage() {
                 src="/assets/images/neroscience/muse2.jpg"
                 alt="Mindfulness Meets Neuroscience"
                 className="neuroscience-image w-100 rounded-3"
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: "cover" }}
                 onError={(e) => {
-                  e.target.style.backgroundColor = '#f5f5f5';
-                  e.target.style.display = 'flex';
-                  e.target.style.alignItems = 'center';
-                  e.target.style.justifyContent = 'center';
-                  e.target.style.color = '#666';
-                  e.target.style.fontSize = '1.2rem';
-                  e.target.style.fontWeight = '500';
-                  e.target.innerHTML = 'Neuroscience Image';
-                  e.target.classList.add('fallback-image');
+                  e.target.style.backgroundColor = "#f5f5f5";
+                  e.target.style.display = "flex";
+                  e.target.style.alignItems = "center";
+                  e.target.style.justifyContent = "center";
+                  e.target.style.color = "#666";
+                  e.target.style.fontSize = "1.2rem";
+                  e.target.style.fontWeight = "500";
+                  e.target.innerHTML = "Neuroscience Image";
+                  e.target.classList.add("fallback-image");
                 }}
               />
             </div>
@@ -68,9 +73,12 @@ export default function MindfulnessNeurosciencePage() {
             {/* Button under image on mobile only */}
             <div className="d-block d-lg-none text-center mt-4">
               <Link href="/neuroscience">
-              <button className="neuroscience__btn w-100" style={{ maxWidth: '280px' }}>
-                Discover Now
-              </button>
+                <button
+                  className="neuroscience__btn w-100"
+                  style={{ maxWidth: "280px" }}
+                >
+                  Discover Now
+                </button>
               </Link>
             </div>
           </div>
@@ -79,6 +87,50 @@ export default function MindfulnessNeurosciencePage() {
 
       {/* Responsive Styles - Mobile First */}
       <style jsx>{`
+        .atraindropscontainer {
+          max-width: 600px;
+          padding: 30px 5px;
+          background-color: #ffffff;
+          text-align: center;
+          border-radius: 8px;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* softer elegant shadow */
+          position: relative;
+          margin-bottom: 20px;
+        }
+
+        .atraindropscontainer p {
+          font-family: "Cinzel", serif;
+          font-size: 16px;
+          color: #000000;
+          line-height: 1.8;
+          letter-spacing: 0.5px;
+          margin: 0;
+        }
+
+        /* Left quote */
+        .atraindropscontainer::before {
+          content: "“";
+          color: #000000;
+          font-family: serif;
+          font-size: 42px;
+          position: absolute;
+          top: 25px;
+          left: 50px;
+          opacity: 0.7;
+        }
+
+        /* Right quote */
+        .atraindropscontainer::after {
+          content: "”";
+          color: #000000;
+          font-family: serif;
+          font-size: 42px;
+          position: absolute;
+          bottom: 30px;
+          right: 50px;
+          opacity: 0.7;
+        }
+
         .neuroscience__section {
           background: #f8f5f0;
           margin-top: -50px;
@@ -94,8 +146,8 @@ export default function MindfulnessNeurosciencePage() {
         .neuroscience__description,
         .neuroscience__tagline,
         .neuroscience__cta-text {
-             line-height: 1.6;
-        
+          line-height: 1.6;
+
           font-size: var(--p);
         }
 
@@ -125,7 +177,6 @@ export default function MindfulnessNeurosciencePage() {
           cursor: pointer;
           transition: all 0.3s ease;
           box-shadow: 0 4px 12px rgba(189, 166, 113, 0.3);
-         
         }
 
         .neuroscience__btn:hover {
@@ -140,23 +191,49 @@ export default function MindfulnessNeurosciencePage() {
 
         /* Mobile (≤575px) */
         @media (max-width: 575.98px) {
+
+
+        .atraindropscontainer::before {
+  content: "“";
+  color: #000000;
+  font-family: serif;
+  font-size: 42px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  opacity: 0.7;
+}
+
+/* Right quote */
+.atraindropscontainer::after {
+  content: "”";
+  color: #000000;
+  font-family: serif;
+  font-size: 42px;
+  position: absolute;
+  bottom: 15px;
+  right: 10px ;
+  opacity: 0.7;
+}
+
+
+
           .content__title {
             font-size: 1.6rem;
             text-align: center;
           }
- .neuroscience__section {
-   background: #f8f5f0;
-   margin-top: 20px;
- }
-           .section__title {
+          .neuroscience__section {
+            background: #f8f5f0;
+            margin-top: 20px;
+          }
+          .section__title {
             text-align: center;
             margin-bottom: 1rem;
-          } 
+          }
           .neuroscience__subtitle {
             font-size: 1.5rem;
             text-align: center;
           }
- 
 
           .neuroscience__tagline,
           .neuroscience__cta-text {
@@ -186,8 +263,6 @@ export default function MindfulnessNeurosciencePage() {
             font-size: 1.6rem;
           }
 
-       
-
           .neuroscience-image {
             height: 300px;
           }
@@ -203,8 +278,6 @@ export default function MindfulnessNeurosciencePage() {
             font-size: 1.8rem;
           }
 
-          
-
           .neuroscience-image {
             height: 420px;
           }
@@ -212,6 +285,34 @@ export default function MindfulnessNeurosciencePage() {
 
         /* Desktop (992px - 1199px) */
         @media (min-width: 992px) and (max-width: 1199.98px) {
+
+         .atraindropscontainer {
+          padding: 10px 5px;
+        }
+
+      
+        /* Left quote */
+        .atraindropscontainer::before {
+          content: "“";
+          top: 10px;
+          left: 20px;
+          opacity: 0.7;
+        }
+
+        /* Right quote */
+        .atraindropscontainer::after {
+          content: "”";
+          bottom: 2px;
+          right: 20px;
+          opacity: 0.7;
+        }
+
+
+
+
+
+
+
           .content__title {
             font-size: 2.25rem;
           }
@@ -219,7 +320,6 @@ export default function MindfulnessNeurosciencePage() {
           .neuroscience__subtitle {
             font-size: 2rem;
           }
- 
 
           .neuroscience-image {
             height: 550px;
@@ -228,15 +328,14 @@ export default function MindfulnessNeurosciencePage() {
 
         /* Large Desktop (≥1200px) - Desktop design preserved */
         @media (min-width: 1200px) {
+        
           .content__title {
             font-size: 2.6rem;
           }
 
           .neuroscience__subtitle {
-            font-size:  20px;
+            font-size: 20px;
           }
-
-         
 
           .neuroscience__tagline,
           .neuroscience__cta-text {

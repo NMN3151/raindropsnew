@@ -140,7 +140,7 @@ function BannerOne() {
                          
                       >
                         <h1>
-                          Luxury Stay, Villa Experience Comfort & Elegance
+                          Luxury Stay, Villa Experience, Comfort & Elegance
                         </h1>
 
                      

@@ -79,11 +79,13 @@ function NutritionPage() {
                   <br /> <br />
                 </p>
               </div>
+              <div className="atraindropscontainer">
+                <p>
+                  Food becomes healing when cooked with intention and eaten with
+                  awareness.{" "}
+                </p>
+              </div>
               <p className="_subtitle">
-                <strong>
-                  “Food becomes healing when cooked with intention and eaten
-                  with awareness.” -
-                </strong>
                 <span className="chef-signature">Chef Sadha</span>
               </p>
               <div className="d-none d-lg-block mt-3">
@@ -102,6 +104,52 @@ function NutritionPage() {
       </div>
 
       <style jsx>{`
+
+   .atraindropscontainer {
+  max-width: 500px;
+  padding: 30px 50px;
+  background-color: #ffffff;       
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* softer elegant shadow */
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.atraindropscontainer p {
+  font-family: "Cinzel", serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* Left quote */
+.atraindropscontainer::before {
+  content: "“";
+  color: #000000;
+  font-family: serif;
+  font-size: 42px;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  opacity: 0.7;
+}
+
+/* Right quote */
+.atraindropscontainer::after {
+  content: "”";
+  color: #000000;
+  font-family: serif;
+  font-size: 42px;
+  position: absolute;
+  bottom: 30px;
+  right: 45px;
+  opacity: 0.7;
+}
+
+
         /* Your original styles + only gap fix */
         .nutrition__section {
           background: #ffffff;
@@ -153,10 +201,10 @@ function NutritionPage() {
         /* Watermark - Perfect on all devices */
         .watermark_img {
           position: absolute;
-          bottom: -40px;
+          bottom: 200px;
           right: -100px;
-          width: 420px;
-          height: 420px;
+          width: 400px;
+          height: 400px;
           pointer-events: none;
           z-index: 10;
           opacity: 0.92;
@@ -169,6 +217,31 @@ function NutritionPage() {
         }
 
         @media (max-width: 1399px) {
+
+          .atraindropscontainer {
+  padding: 30px 30px;
+  
+}
+
+        .atraindropscontainer::before {
+  content: "“";
+ 
+  top: 15px;
+  left: 12px;
+  opacity: 0.7;
+}
+
+/* Right quote */
+.atraindropscontainer::after {
+  content: "”";
+  bottom: 30px;
+  right: 25px;
+  opacity: 0.7;
+}
+
+
+
+
           .watermark_img {
             width: 380px;
             height: 380px;
@@ -178,10 +251,10 @@ function NutritionPage() {
         }
         @media (max-width: 1199px) {
           .watermark_img {
-            width: 340px;
-            height: 340px;
-            bottom: 0px;
-            right: -60px;
+            width: 280px;
+            height: 280px;
+            bottom: -100px;
+            right: 0px;
           }
           .chef-signature {
             display: block;
@@ -255,10 +328,11 @@ function NutritionPage() {
           transform: translateY(-2px);
         }
     @media (max-width: 575px) {
+
     .watermark_img {
       width: 250px;
       height: 250px;
-      bottom: 60px;
+      bottom: 260px;
       opacity: 0.7;
     }
       `}</style>

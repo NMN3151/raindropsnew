@@ -134,10 +134,9 @@ function Mindmeets() {
                 align your rhythm with nature's flow.
               </p>
 
-              <p className="philosophy__cta">
-                {" "}
-                <strong>@Rain Drops — Experience the Experience.</strong>
-              </p>
+              <div className="atraindropscontainer">
+                <p>@Rain Drops — Experience the Experience.</p>
+              </div>
 
               {/* 🔘 Read More Button */}
               <div className="mt-4">
@@ -152,6 +151,44 @@ function Mindmeets() {
 
       {/* Enhanced Responsive Styles */}
       <style jsx>{`
+        .atraindropscontainer {
+          max-width: 500px;
+          padding: 20px 40px;
+          text-align: center;
+          border-radius: 6px;
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+          position: relative;
+        }
+
+        .atraindropscontainer p {
+          font-family: "Cinzel";
+          font-size: 16px;
+          color: #000000;
+          line-height: 1.8;
+          letter-spacing: 0.5px;
+          margin: 0;
+        }
+
+        .atraindropscontainer::before {
+          content: "“";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 13px;
+          left: 30px;
+        }
+
+        .atraindropscontainer::after {
+          content: "”";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 13px;
+          right: 30px;
+        }
+
         .philosophy__section {
           background: #ffffff;
           padding: 6rem 0 120px;
@@ -186,7 +223,7 @@ function Mindmeets() {
         /* ---- Button Styles ---- */
         .learn-more-btn {
           display: inline-block;
-          background: #AB8A62;
+          background: #ab8a62;
           color: white;
           padding: 12px 28px;
           border-radius: 6px;
@@ -206,6 +243,30 @@ function Mindmeets() {
 
         /* Extra Small Mobile Devices (up to 375px) */
         @media (max-width: 375px) {
+
+         .atraindropscontainer::before {
+          content: "“";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 13px;
+          left: 30px;
+        }
+
+        .atraindropscontainer::after {
+          content: "”";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 80px;
+          right: 40px;
+        }
+
+
+
+        
           .philosophy__section {
             padding: 30px 0;
           }
@@ -270,7 +331,6 @@ function Mindmeets() {
         /* Small Mobile Devices (375px to 575px) */
         @media (min-width: 375px) and (max-width: 423px) {
         
-
           .section__title {
             font-size: 1.6rem;
             text-align: center;
@@ -327,8 +387,12 @@ function Mindmeets() {
 
         /* Mobile Large (576px to 767px) */
         @media (min-width: 424px) and (max-width: 767px) {
-         
 
+
+        
+
+
+        
           .section__title {
             font-size: 1.8rem;
             text-align: center;
@@ -387,7 +451,6 @@ function Mindmeets() {
 
         /* Tablet (768px to 991px) */
         @media (min-width: 768px) and (max-width: 991px) {
-         
           .section__title {
             font-size: 2rem;
             text-align: left;
@@ -431,7 +494,26 @@ function Mindmeets() {
 
         /* Small Laptop (992px to 1199px) */
         @media (min-width: 992px) and (max-width: 1199px) {
-          
+
+        .atraindropscontainer::before {
+          content: "“";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 13px;
+          left: 30px;
+        }
+
+        .atraindropscontainer::after {
+          content: "”";
+          color: #1f1f1f;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 50px;
+          right: 110px;
+        }
 
           .section__title {
             font-size: 2.5rem;
@@ -471,8 +553,6 @@ function Mindmeets() {
 
         /* Desktop (1200px to 1399px) */
         @media (min-width: 1200px) and (max-width: 1399px) {
-          
-
           .section__title {
             text-align: left;
             margin-bottom: 2rem;
@@ -510,7 +590,6 @@ function Mindmeets() {
 
         /* Large Desktop (1400px and above) */
         @media (min-width: 1400px) {
-          
           .text2 {
             margin-left: 95px;
           }
