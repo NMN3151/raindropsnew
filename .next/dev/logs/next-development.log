@@ -1261,3 +1261,698 @@ It can also happen if the client has a browser extension installed which messes 
 [02:22:08.414] Browser WARN    Rellax: The elements you're trying to select don't exist.
 [02:22:08.414] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [02:22:08.414] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[02:30:00.541] Server  LOG     ✓ Compiled in 80ms
+[02:30:04.872] Server  LOG     ✓ Compiled in 65ms
+[02:30:08.138] Server  LOG     ✓ Compiled in 49ms
+[02:30:35.440] Server  LOG     ✓ Compiled in 64ms
+[02:30:38.004] Server  LOG     ✓ Compiled in 74ms
+[02:30:50.467] Server  LOG     ✓ Compiled in 54ms
+[02:30:53.026] Server  LOG     ✓ Compiled in 86ms
+[02:31:01.675] Server  LOG     ✓ Compiled in 55ms
+[02:31:07.957] Server  LOG     ✓ Compiled in 51ms
+[02:31:10.040] Server  LOG     ✓ Compiled in 47ms
+[02:31:34.636] Server  LOG     ✓ Compiled in 47ms
+[02:31:36.630] Server  LOG     ✓ Compiled in 49ms
+[02:31:44.642] Server  LOG     ✓ Compiled in 48ms
+[02:31:50.397] Server  LOG     ✓ Compiled in 70ms
+[02:31:59.874] Server  LOG     ✓ Compiled in 58ms
+[02:32:03.271] Server  LOG     ✓ Compiled in 53ms
+[02:32:36.776] Server  LOG     ✓ Compiled in 53ms
+[02:33:21.279] Server  LOG     ✓ Compiled in 47ms
+[02:33:22.844] Server  LOG     ✓ Compiled in 50ms
+[02:34:09.092] Server  LOG     ✓ Compiled in 59ms
+[02:34:16.156] Server  LOG     ✓ Compiled in 52ms
+[02:34:19.890] Server  LOG     ✓ Compiled in 55ms
+[02:34:21.152] Server  LOG     ✓ Compiled in 49ms
+[02:34:23.729] Server  LOG     ✓ Compiled in 52ms
+[02:34:24.990] Server  LOG     ✓ Compiled in 46ms
+[02:35:05.735] Server  LOG     ✓ Compiled in 58ms
+[02:35:12.163] Server  LOG     ✓ Compiled in 60ms
+[02:35:45.105] Server  LOG     ✓ Compiled in 52ms
+[02:35:49.623] Server  LOG     ✓ Compiled in 53ms
+[02:36:26.534] Server  LOG     ✓ Compiled in 47ms
+[02:36:29.138] Server  LOG     ✓ Compiled in 46ms
+[02:37:56.287] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:37:57.731] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[02:37:57.731] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[02:37:57.731] Browser LOG     Autoplay started
+[02:37:57.731] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[02:37:57.731] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[02:37:57.731] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[02:38:38.296] Server  LOG     ✓ Compiled in 49ms
+[02:38:40.772] Server  LOG     ✓ Compiled in 58ms
+[02:39:08.133] Server  LOG     ✓ Compiled in 61ms
+[02:39:12.912] Server  LOG     ✓ Compiled in 54ms
+[02:40:24.276] Server  LOG     ✓ Compiled in 53ms
+[02:40:25.906] Server  LOG     ✓ Compiled in 53ms
+[02:40:58.772] Server  LOG     ✓ Compiled in 50ms
+[02:41:01.951] Server  LOG     ✓ Compiled in 22ms
+[02:41:04.490] Server  LOG     ✓ Compiled in 20ms
+[02:41:06.784] Server  LOG     ✓ Compiled in 45ms
+[02:41:09.772] Server  LOG     ✓ Compiled in 19ms
+[02:41:16.507] Server  LOG     ✓ Compiled in 20ms
+[02:41:18.191] Server  LOG     ✓ Compiled in 10ms
+[02:43:47.783] Server  LOG     ✓ Compiled in 22ms
+[02:43:52.838] Server  LOG     ✓ Compiled in 24ms
+[02:44:12.724] Server  LOG     ✓ Compiled in 23ms
+[02:44:13.474] Server  LOG     ✓ Compiled in 20ms
+[02:44:19.651] Server  LOG     ✓ Compiled in 22ms
+[02:44:21.173] Server  LOG     ✓ Compiled in 23ms
+[02:44:24.656] Server  LOG     ✓ Compiled in 26ms
+[02:44:26.648] Server  LOG     ✓ Compiled in 9ms
+[02:44:43.899] Server  LOG     ✓ Compiled in 25ms
+[02:44:52.403] Server  LOG     ✓ Compiled in 24ms
+[02:45:01.306] Server  LOG     ✓ Compiled in 20ms
+[02:45:24.007] Server  LOG     ✓ Compiled in 23ms
+[02:45:26.557] Server  LOG     ✓ Compiled in 19ms
+[02:45:29.475] Server  LOG     ✓ Compiled in 19ms
+[02:45:32.449] Server  LOG     ✓ Compiled in 21ms
+[02:45:35.138] Server  LOG     ✓ Compiled in 19ms
+[02:45:37.549] Server  LOG     ✓ Compiled in 23ms
+[02:45:40.438] Server  LOG     ✓ Compiled in 8ms
+[02:45:41.308] Server  LOG     ✓ Compiled in 26ms
+[02:46:18.598] Server  LOG     ✓ Compiled in 21ms
+[02:46:27.642] Server  LOG     ✓ Compiled in 18ms
+[02:46:32.000] Server  LOG     ✓ Compiled in 20ms
+[02:46:47.805] Server  LOG     ✓ Compiled in 21ms
+[02:46:52.478] Server  LOG     ✓ Compiled in 34ms
+[02:47:06.985] Server  LOG     ✓ Compiled in 19ms
+[02:48:28.202] Server  LOG     ✓ Compiled in 63ms
+[02:48:29.426] Server  LOG     ✓ Compiled in 26ms
+[02:48:31.057] Server  LOG     ✓ Compiled in 36ms
+[02:48:33.108] Server  LOG     ✓ Compiled in 26ms
+[02:48:36.675] Server  LOG     ✓ Compiled in 28ms
+[02:48:39.580] Server  LOG     ✓ Compiled in 25ms
+[02:48:47.706] Server  LOG     ✓ Compiled in 24ms
+[02:48:52.163] Server  LOG     ✓ Compiled in 27ms
+[02:49:49.736] Server  LOG     ✓ Compiled in 24ms
+[02:49:51.110] Server  LOG     ✓ Compiled in 26ms
+[02:49:53.854] Server  LOG     ✓ Compiled in 22ms
+[02:49:56.919] Server  LOG     ✓ Compiled in 23ms
+[02:50:00.537] Server  LOG     ✓ Compiled in 30ms
+[02:50:06.270] Server  LOG     ✓ Compiled in 22ms
+[02:50:16.298] Server  LOG     ✓ Compiled in 24ms
+[02:50:19.338] Server  LOG     ✓ Compiled in 24ms
+[02:50:32.645] Server  LOG     ✓ Compiled in 28ms
+[02:50:37.026] Server  LOG     ✓ Compiled in 27ms
+[02:50:39.503] Server  LOG     ✓ Compiled in 26ms
+[02:50:43.289] Server  LOG     ✓ Compiled in 24ms
+[02:50:49.057] Server  LOG     ✓ Compiled in 29ms
+[02:51:01.373] Server  LOG     ✓ Compiled in 25ms
+[02:51:02.440] Server  LOG     ✓ Compiled in 26ms
+[02:51:05.325] Server  LOG     ✓ Compiled in 24ms
+[02:51:20.141] Server  LOG     ✓ Compiled in 25ms
+[02:51:25.904] Server  LOG     ✓ Compiled in 23ms
+[02:51:41.690] Server  LOG     ✓ Compiled in 23ms
+[02:51:44.358] Server  LOG     ✓ Compiled in 40ms
+[02:51:52.959] Server  LOG     ✓ Compiled in 26ms
+[02:51:54.207] Server  LOG     ✓ Compiled in 22ms
+[02:52:09.740] Server  LOG     ✓ Compiled in 25ms
+[02:52:11.208] Server  LOG     ✓ Compiled in 23ms
+[02:52:13.648] Server  LOG     ✓ Compiled in 24ms
+[02:52:16.425] Server  LOG     ✓ Compiled in 22ms
+[02:52:39.524] Server  LOG     ✓ Compiled in 24ms
+[02:52:44.756] Server  LOG     ✓ Compiled in 26ms
+[02:52:45.358] Server  LOG     ✓ Compiled in 24ms
+[02:52:48.608] Server  LOG     ✓ Compiled in 27ms
+[02:52:51.108] Server  LOG     ✓ Compiled in 28ms
+[02:52:55.024] Server  LOG     ✓ Compiled in 28ms
+[02:52:57.641] Server  LOG     ✓ Compiled in 33ms
+[02:53:00.105] Server  LOG     ✓ Compiled in 24ms
+[02:53:01.741] Server  LOG     ✓ Compiled in 26ms
+[02:54:02.558] Server  LOG     ✓ Compiled in 24ms
+[02:54:05.974] Server  LOG     ✓ Compiled in 24ms
+[02:54:07.492] Server  LOG     ✓ Compiled in 26ms
+[02:54:42.373] Server  LOG     ✓ Compiled in 25ms
+[02:54:44.933] Server  LOG     ✓ Compiled in 25ms
+[02:54:45.942] Server  LOG     ✓ Compiled in 25ms
+[02:54:51.106] Server  LOG     ✓ Compiled in 26ms
+[02:55:00.189] Server  LOG     ✓ Compiled in 24ms
+[02:55:03.873] Server  LOG     ✓ Compiled in 29ms
+[02:55:08.106] Server  LOG     ✓ Compiled in 27ms
+[02:55:12.555] Server  LOG     ✓ Compiled in 27ms
+[02:55:17.310] Server  LOG     ✓ Compiled in 25ms
+[02:55:37.356] Server  LOG     ✓ Compiled in 23ms
+[02:55:39.297] Server  LOG     ✓ Compiled in 27ms
+[02:55:41.250] Server  LOG     ✓ Compiled in 23ms
+[02:55:44.926] Server  LOG     ✓ Compiled in 25ms
+[02:55:47.524] Server  LOG     ✓ Compiled in 23ms
+[02:55:56.573] Server  LOG     ✓ Compiled in 29ms
+[02:55:59.174] Server  LOG     ✓ Compiled in 32ms
+[02:56:02.037] Server  LOG     ✓ Compiled in 25ms
+[02:56:04.404] Server  LOG     ✓ Compiled in 26ms
+[02:56:07.272] Server  LOG     ✓ Compiled in 84ms
+[02:56:13.071] Server  LOG     ✓ Compiled in 23ms
+[02:56:15.423] Server  LOG     ✓ Compiled in 25ms
+[02:56:20.471] Server  LOG     ✓ Compiled in 25ms
+[02:56:27.039] Server  LOG     ✓ Compiled in 24ms
+[02:56:39.987] Server  LOG     ✓ Compiled in 25ms
+[02:56:41.890] Server  LOG     ✓ Compiled in 25ms
+[02:56:55.371] Server  LOG     ✓ Compiled in 24ms
+[02:57:00.889] Server  LOG     ✓ Compiled in 26ms
+[02:57:02.175] Server  LOG     ✓ Compiled in 30ms
+[02:57:05.077] Server  LOG     ✓ Compiled in 24ms
+[02:57:07.655] Server  LOG     ✓ Compiled in 26ms
+[02:57:12.143] Server  LOG     ✓ Compiled in 32ms
+[02:59:07.720] Server  LOG     ✓ Compiled in 53ms
+[02:59:10.165] Server  LOG     ✓ Compiled in 25ms
+[02:59:13.806] Server  LOG     ✓ Compiled in 25ms
+[02:59:15.500] Server  LOG     ✓ Compiled in 52ms
+[02:59:17.450] Server  LOG     ✓ Compiled in 24ms
+[02:59:23.405] Server  LOG     ✓ Compiled in 23ms
+[02:59:37.321] Server  LOG     ✓ Compiled in 27ms
+[02:59:39.656] Server  LOG     ✓ Compiled in 38ms
+[02:59:41.430] Server  LOG     ✓ Compiled in 25ms
+[02:59:43.407] Server  LOG     ✓ Compiled in 26ms
+[03:00:15.891] Server  LOG     ✓ Compiled in 30ms
+[03:02:17.023] Server  LOG     ✓ Compiled in 25ms
+[03:02:18.124] Server  LOG     ✓ Compiled in 26ms
+[03:02:20.087] Server  LOG     ✓ Compiled in 25ms
+[03:02:21.708] Server  LOG     ✓ Compiled in 29ms
+[03:02:23.073] Server  LOG     ✓ Compiled in 26ms
+[03:02:27.423] Server  LOG     ✓ Compiled in 24ms
+[03:02:36.306] Server  LOG     ✓ Compiled in 24ms
+[03:02:37.660] Server  LOG     ✓ Compiled in 25ms
+[03:02:41.108] Server  LOG     ✓ Compiled in 29ms
+[03:02:46.319] Server  LOG     ✓ Compiled in 216ms
+[03:02:47.891] Server  LOG     ✓ Compiled in 23ms
+[03:03:05.939] Server  LOG     ✓ Compiled in 29ms
+[03:03:09.572] Server  LOG     ✓ Compiled in 23ms
+[03:03:10.624] Server  LOG     ✓ Compiled in 24ms
+[03:03:13.471] Server  LOG     ✓ Compiled in 25ms
+[03:03:17.870] Server  LOG     ✓ Compiled in 25ms
+[03:03:20.222] Server  LOG     ✓ Compiled in 24ms
+[03:03:21.839] Server  LOG     ✓ Compiled in 23ms
+[03:03:22.957] Server  LOG     ✓ Compiled in 27ms
+[03:03:27.637] Server  LOG     ✓ Compiled in 24ms
+[03:03:35.073] Server  LOG     ✓ Compiled in 23ms
+[03:03:36.988] Server  LOG     ✓ Compiled in 22ms
+[03:03:41.989] Server  LOG     ✓ Compiled in 23ms
+[03:03:45.055] Server  LOG     ✓ Compiled in 22ms
+[03:03:48.574] Server  LOG     ✓ Compiled in 29ms
+[03:03:54.054] Server  LOG     ✓ Compiled in 26ms
+[03:04:01.502] Server  LOG     ✓ Compiled in 24ms
+[03:04:04.880] Server  LOG     ✓ Compiled in 25ms
+[03:04:09.389] Server  LOG     ✓ Compiled in 25ms
+[03:04:10.507] Server  LOG     ✓ Compiled in 24ms
+[03:04:12.762] Server  LOG     ✓ Compiled in 66ms
+[03:04:15.952] Server  LOG     ✓ Compiled in 27ms
+[03:04:18.334] Server  LOG     ✓ Compiled in 24ms
+[03:04:20.756] Server  LOG     ✓ Compiled in 23ms
+[03:04:24.263] Server  LOG     ✓ Compiled in 23ms
+[03:04:26.772] Server  LOG     ✓ Compiled in 27ms
+[03:04:28.404] Server  LOG     ✓ Compiled in 25ms
+[03:04:42.004] Server  LOG     ✓ Compiled in 23ms
+[03:04:46.799] Server  LOG     ✓ Compiled in 25ms
+[03:04:59.856] Server  LOG     ✓ Compiled in 25ms
+[03:05:02.353] Server  LOG     ✓ Compiled in 22ms
+[03:05:07.523] Server  LOG     ✓ Compiled in 27ms
+[03:05:33.287] Server  LOG     ✓ Compiled in 25ms
+[03:05:36.805] Server  LOG     ✓ Compiled in 28ms
+[03:05:38.854] Server  LOG     ✓ Compiled in 23ms
+[03:05:42.956] Server  LOG     ✓ Compiled in 29ms
+[03:05:43.499] Server  LOG     ✓ Compiled in 24ms
+[03:06:29.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:06:30.911] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[03:06:30.912] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[03:06:30.912] Browser LOG     Autoplay started
+[03:06:30.912] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[03:06:30.912] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[03:06:30.912] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:08:06.291] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:08:07.779] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[04:08:07.779] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:08:07.779] Browser LOG     Autoplay started
+[04:08:07.779] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[04:08:07.779] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:08:07.779] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:08:52.138] Server  LOG     ✓ Compiled in 204ms
+[04:08:53.305] Server  LOG     ✓ Compiled in 34ms
+[04:08:59.084] Server  LOG     ✓ Compiled in 24ms
+[04:09:14.889] Server  LOG     ✓ Compiled in 25ms
+[04:09:17.544] Server  LOG     ✓ Compiled in 22ms
+[04:10:11.838] Server  LOG     ✓ Compiled in 27ms
+[04:10:30.155] Server  LOG     ✓ Compiled in 25ms
+[04:10:36.821] Server  LOG     ✓ Compiled in 24ms
+[04:10:44.606] Server  LOG     ○ Compiling /research ...
+[04:11:35.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:53.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:54.158] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[04:11:54.158] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:11:54.158] Browser LOG     Autoplay started
+[04:11:54.158] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[04:11:54.158] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:11:54.158] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:13:08.088] Server  LOG     ✓ Compiled in 328ms
+[04:13:10.020] Server  LOG     ✓ Compiled in 28ms
+[04:15:44.486] Server  LOG     ✓ Compiled in 38ms
+[04:15:51.718] Server  LOG     ✓ Compiled in 22ms
+[04:15:53.846] Server  LOG     ✓ Compiled in 54ms
+[04:15:56.336] Server  LOG     ✓ Compiled in 23ms
+[04:15:58.106] Server  LOG     ✓ Compiled in 22ms
+[04:16:04.051] Server  LOG     ✓ Compiled in 25ms
+[04:16:09.152] Server  LOG     ✓ Compiled in 22ms
+[04:16:10.005] Server  LOG     ✓ Compiled in 22ms
+[04:16:54.052] Server  LOG     ✓ Compiled in 25ms
+[04:16:59.726] Server  LOG     ✓ Compiled in 22ms
+[04:17:00.671] Server  LOG     ✓ Compiled in 20ms
+[04:17:04.566] Server  LOG     ✓ Compiled in 23ms
+[04:17:05.803] Server  LOG     ✓ Compiled in 23ms
+[04:19:51.356] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:19:52.350] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[04:19:52.350] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:19:52.350] Browser LOG     Autoplay started
+[04:19:52.350] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[04:19:52.350] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:19:52.350] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:21:08.369] Server  LOG     ✓ Compiled in 18ms
+[04:21:10.420] Server  LOG     ✓ Compiled in 362ms
+[04:21:18.771] Server  LOG     ✓ Compiled in 19ms
+[04:21:19.656] Server  LOG     ✓ Compiled in 17ms
+[04:21:25.636] Server  LOG     ✓ Compiled in 16ms
+[04:21:28.223] Server  LOG     ✓ Compiled in 16ms
+[04:21:30.901] Server  LOG     ✓ Compiled in 18ms
+[04:23:09.520] Server  LOG     ✓ Compiled in 21ms
+[04:23:19.162] Server  LOG     ✓ Compiled in 14ms
+[04:23:23.253] Server  LOG     ✓ Compiled in 15ms
+[04:23:26.855] Server  LOG     ✓ Compiled in 15ms
+[04:23:47.221] Server  LOG     ✓ Compiled in 17ms
+[04:23:48.984] Server  LOG     ✓ Compiled in 20ms
+[04:23:51.638] Server  LOG     ✓ Compiled in 15ms
+[04:23:55.086] Server  LOG     ✓ Compiled in 19ms
+[04:24:00.771] Server  LOG     ✓ Compiled in 18ms
+[04:24:21.252] Server  LOG     ✓ Compiled in 20ms
+[04:24:23.384] Server  LOG     ✓ Compiled in 19ms
+[04:24:56.909] Server  LOG     ✓ Compiled in 18ms
+[04:24:59.503] Server  LOG     ✓ Compiled in 57ms
+[04:25:02.601] Server  LOG     ✓ Compiled in 20ms
+[04:25:03.840] Server  LOG     ✓ Compiled in 27ms
+[04:25:05.022] Server  LOG     ✓ Compiled in 18ms
+[04:25:07.470] Server  LOG     ✓ Compiled in 16ms
+[04:25:10.335] Server  LOG     ✓ Compiled in 19ms
+[04:25:10.742] Server  LOG     ✓ Compiled in 21ms
+[04:25:22.323] Server  LOG     ✓ Compiled in 19ms
+[04:25:27.731] Server  LOG     ✓ Compiled in 19ms
+[04:25:29.268] Server  LOG     ✓ Compiled in 18ms
+[04:25:37.303] Server  LOG     ✓ Compiled in 18ms
+[04:25:39.087] Server  LOG     ✓ Compiled in 16ms
+[04:25:42.631] Server  LOG     ✓ Compiled in 20ms
+[04:25:43.849] Server  LOG     ✓ Compiled in 18ms
+[04:25:44.606] Server  LOG     ✓ Compiled in 17ms
+[04:25:52.703] Server  LOG     ✓ Compiled in 15ms
+[04:26:03.721] Server  LOG     ✓ Compiled in 15ms
+[04:26:06.078] Server  LOG     ✓ Compiled in 15ms
+[04:26:09.051] Server  LOG     ✓ Compiled in 17ms
+[04:26:09.921] Server  LOG     ✓ Compiled in 18ms
+[04:26:16.353] Server  LOG     ✓ Compiled in 15ms
+[04:26:32.397] Server  LOG     ✓ Compiled in 19ms
+[04:26:33.455] Server  LOG     ✓ Compiled in 18ms
+[04:26:35.180] Server  LOG     ✓ Compiled in 15ms
+[04:27:00.885] Server  LOG     ✓ Compiled in 16ms
+[04:27:38.194] Server  LOG     ✓ Compiled in 16ms
+[04:28:19.801] Server  LOG     ✓ Compiled in 17ms
+[04:28:42.853] Server  LOG     ✓ Compiled in 90ms
+[04:28:45.956] Server  LOG     ✓ Compiled in 29ms
+[04:28:48.468] Server  LOG     ✓ Compiled in 29ms
+[04:28:49.504] Server  LOG     ✓ Compiled in 27ms
+[04:29:12.627] Server  LOG     ✓ Compiled in 29ms
+[04:29:16.054] Server  LOG     ✓ Compiled in 31ms
+[04:29:20.861] Server  LOG     ✓ Compiled in 36ms
+[04:29:32.155] Server  LOG     ✓ Compiled in 31ms
+[04:29:34.811] Server  LOG     ✓ Compiled in 31ms
+[04:29:46.102] Server  LOG     ✓ Compiled in 37ms
+[04:29:46.967] Server  LOG     ✓ Compiled in 35ms
+[04:29:52.297] Server  LOG     ✓ Compiled in 32ms
+[04:29:56.329] Server  LOG     ✓ Compiled in 28ms
+[04:29:59.257] Server  LOG     ✓ Compiled in 28ms
+[04:30:08.737] Server  LOG     ✓ Compiled in 37ms
+[04:30:22.372] Server  LOG     ✓ Compiled in 33ms
+[04:30:28.146] Server  LOG     ✓ Compiled in 35ms
+[04:30:34.245] Server  LOG     ✓ Compiled in 37ms
+[04:30:53.011] Server  LOG     ✓ Compiled in 27ms
+[04:31:00.145] Server  LOG     ✓ Compiled in 35ms
+[04:31:00.251] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <h2> h2  
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="/raindrops...">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                  <Page params={Promise} searchParams={Promise}>
+                    <SEO>
+                    <head>
+                    <div>
+                    <TopBar>
+                    <HeaderOne>
+                    <div>
+                    <AboutOne>
+                    <FacilitiesOne>
+                    <RoomOne>
+                    <SignaturePrograms>
+                    <VideoOne>
+                    <Mindmeets>
+                    <InnerDiscoverySection>
+                      <section className="jsx-76c58d...">
+                        <div className="jsx-76c58d...">
+                          <div className="jsx-76c58d...">
+                            <div className="jsx-76c58d...">
+>                             <h2 className="jsx-76c58d709631b0d9 main-title">
+>                               <h2 className="jsx-76c58d709631b0d9">
+                                ...
+                              ...
+                            ...
+                          ...
+                        ...
+                    ...
+              ...
+            ...
+
+[04:31:05.788] Server  LOG     ✓ Compiled in 24ms
+[04:31:10.788] Server  LOG     ✓ Compiled in 29ms
+[04:31:13.436] Server  LOG     ✓ Compiled in 66ms
+[04:31:18.366] Server  LOG     ✓ Compiled in 28ms
+[04:31:22.218] Server  LOG     ✓ Compiled in 35ms
+[04:31:34.729] Server  LOG     ✓ Compiled in 38ms
+[04:31:36.737] Server  LOG     ✓ Compiled in 33ms
+[04:31:42.285] Server  LOG     ✓ Compiled in 28ms
+[04:31:47.253] Server  LOG     ✓ Compiled in 34ms
+[04:31:51.886] Server  LOG     ✓ Compiled in 27ms
+[04:32:00.947] Server  LOG     ✓ Compiled in 27ms
+[04:33:26.458] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:33:27.545] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[04:33:27.545] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:33:27.545] Browser LOG     Autoplay started
+[04:33:27.545] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[04:33:27.545] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:33:27.545] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:34:06.481] Server  LOG     ✓ Compiled in 30ms
+[04:34:07.839] Server  LOG     ✓ Compiled in 43ms
+[04:34:49.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:34:50.412] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="/raindrops...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                        <Page params={Promise} searchParams={Promise}>
+                          <SEO>
+                          <head>
+                            <StructuredData data={{@context:"...", ...}}>
+                              <script
++                               type="application/ld+json"
+-                               type={null}
+                                dangerouslySetInnerHTML={{
++                                 __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Rain ..."
+-                                 __html: ""
+                                }}
+-                               src="/_next/static/chunks/26476_next_dist_build_polyfills_polyfill-nomodule.js"
+-                               nomodule=""
+                              >
+                          ...
+                    ...
+                  ...
+      ...
+
+[04:34:50.412] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:34:50.412] Browser LOG     Autoplay started
+[04:34:50.412] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[04:34:50.412] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:34:50.412] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[04:36:13.903] Server  LOG     ✓ Compiled in 28ms
+[04:36:16.454] Server  LOG     ✓ Compiled in 31ms
+[04:36:19.161] Server  LOG     ✓ Compiled in 28ms

@@ -595,7 +595,9 @@ export default function SignaturePrograms() {
         }
 
         @media (max-width: 480px) {
-
+           .atraindropscontainer{
+           padding: 15px 30px;
+           }
 
           .atraindropscontainer::before {
           content: "“";
@@ -613,7 +615,7 @@ export default function SignaturePrograms() {
           font-family: serif;
           font-size: 40px;
           position: absolute;
-          top: 83px;
+          top: 45px;
           right: 20px;
         }
 

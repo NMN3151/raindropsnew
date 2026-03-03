@@ -8376,6 +8376,39 @@ margin-top: 20px;
   background-repeat: no-repeat;
 }
 
+
+
+
+
+
+
+
+.subtitle__icon_about_section::before {
+  position: absolute;
+  content: "";
+  left: -65px;
+  bottom: 35%;
+  width: 52px;
+  height: 12px;
+  background-image: url("/assets/images/shape/section__style__three-1.svg");
+  background-repeat: no-repeat;
+}
+.subtitle__icon_about_section::after  {
+  position: absolute;
+  content: "";
+  right: -65px;
+  bottom: 35%;
+  width: 52px;
+  height: 12px;
+  background-image: url("/assets/images/shape/section__style__three-2.svg");
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
 .subtitle__icon__four::before {
   left: -45px;
   width: 30px;
@@ -8421,9 +8454,20 @@ margin-top: 20px;
   }
 }
 @media screen and (max-width: 425px) {
-  .subtitle__icon_about_section{
+
+ .subtitle__icon_about_section{
     font-size: 15px;
+    left: 70px;
   }
+
+  .arrivetext{
+    text-align: center;
+  }
+
+
+  
+
+  
   .jarallax,
   .jarallax > .jarallax-img,
   picture.jarallax-img,

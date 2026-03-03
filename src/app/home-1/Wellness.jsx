@@ -152,13 +152,24 @@ function InnerDiscoverySection() {
           <div className="mobile-layout">
             {/* Title for mobile */}
             <div className="mobile-title-section">
-              <h2 className="main-title">
-                THE{" "}
+
+
+              < h2 className="main-title">
+
+                    THE Rain Drops INNER DISCOVERY SERIES
+                  </h2>
+
+
+              {/* <h2 className="main-title">
+               
+                  
+
+
+
+                THE{" "}   
                 <span
                   style={{
-                    fontStyle: "italic",
-                    fontFamily: "BrittanySignature",
-                    fontSize: "1.5em",
+                    fontSize: "1em",
                   }}
                 >
                   Rain Drops
@@ -166,7 +177,9 @@ function InnerDiscoverySection() {
                 INNER
                 <br />
                 DISCOVERY SERIES
-              </h2>
+              </h2> */}
+
+
               <p className="subtitle">
                 Tell Us What You Seek — We'll Shape the Journey.
               </p>
@@ -991,7 +1004,7 @@ function InnerDiscoverySection() {
             .guidance-row {
               display: flex;
               justify-content: space-between;
-              align-items: center;
+              align-items: flex-start;
               font-size: 0.9rem !important;
               margin-top: 8px;
               color: white;
@@ -1056,7 +1069,7 @@ function InnerDiscoverySection() {
               text-align: center;
             }
             .main-title {
-              font-size: 2.8rem;
+              font-size: 28px;
             }
             .prev {
               left: 5px;

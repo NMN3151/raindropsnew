@@ -112,11 +112,12 @@ function AboutOne() {
 
       <style jsx>{`
         .arrivetext {
-          color: black;
+          color: var(--rts-heading);
           font-weight: semi-bold;
           font-family: "Crimson Text", serif;
           font-size: 20px;
           margin-bottom: 30px;
+
         }
 
         .atraindropscontainer {
@@ -168,6 +169,10 @@ function AboutOne() {
         
         }
 
+ 
+
+
+
 
 
 
@@ -177,25 +182,27 @@ function AboutOne() {
 
            
           .atraindropscontainer {
-           max-width: 250px;
+           max-width: 300px;
            margin-top: 20px;
+           padding: 20px 20px;
+
           }
 
           .atraindropscontainer p {
-            font-size: 16px;
-            line-height: 1.8;
+            font-size: 15px;
+            line-height: 1.7;
           }
 
           .atraindropscontainer::before {
             font-size: 36px;
             top: 5px;
-            left: 35px;
+            left: 15px;
           }
 
           .atraindropscontainer::after {
             font-size: 36px;
-            bottom: 5px;
-            right: 50px;
+            bottom: 15px;
+            right: 15px;
           }
         }
       `}</style>

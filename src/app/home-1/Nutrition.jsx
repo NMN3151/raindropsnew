@@ -226,7 +226,7 @@ function NutritionPage() {
         .atraindropscontainer::before {
   content: "“";
  
-  top: 15px;
+  top: 20px;
   left: 12px;
   opacity: 0.7;
 }
@@ -234,8 +234,8 @@ function NutritionPage() {
 /* Right quote */
 .atraindropscontainer::after {
   content: "”";
-  bottom: 30px;
-  right: 25px;
+  bottom: 25px;
+  right: 35px;
   opacity: 0.7;
 }
 

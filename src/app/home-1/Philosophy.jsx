@@ -152,7 +152,7 @@ function Mindmeets() {
       {/* Enhanced Responsive Styles */}
       <style jsx>{`
         .atraindropscontainer {
-          max-width: 500px;
+          max-width: 5000px;
           padding: 20px 40px;
           text-align: center;
           border-radius: 6px;
@@ -244,14 +244,20 @@ function Mindmeets() {
         /* Extra Small Mobile Devices (up to 375px) */
         @media (max-width: 375px) {
 
+         .atraindropscontainer{
+         max-width: 300px;
+         padding: 15px 15px;
+         }
+
+       
          .atraindropscontainer::before {
           content: "“";
           color: #1f1f1f;
           font-family: serif;
           font-size: 40px;
           position: absolute;
-          top: 13px;
-          left: 30px;
+          top: 12px;
+          left: 5px;
         }
 
         .atraindropscontainer::after {
@@ -260,8 +266,8 @@ function Mindmeets() {
           font-family: serif;
           font-size: 40px;
           position: absolute;
-          top: 80px;
-          right: 40px;
+          top: 45px;
+          right: 47px;
         }
 
 
@@ -330,6 +336,10 @@ function Mindmeets() {
 
         /* Small Mobile Devices (375px to 575px) */
         @media (min-width: 375px) and (max-width: 423px) {
+
+
+         
+ 
         
           .section__title {
             font-size: 1.6rem;
@@ -384,6 +394,13 @@ function Mindmeets() {
             margin-left: 85px;
           }
         }
+
+
+
+
+        
+
+
 
         /* Mobile Large (576px to 767px) */
         @media (min-width: 424px) and (max-width: 767px) {
@@ -451,6 +468,8 @@ function Mindmeets() {
 
         /* Tablet (768px to 991px) */
         @media (min-width: 768px) and (max-width: 991px) {
+
+        
           .section__title {
             font-size: 2rem;
             text-align: left;
@@ -494,6 +513,8 @@ function Mindmeets() {
 
         /* Small Laptop (992px to 1199px) */
         @media (min-width: 992px) and (max-width: 1199px) {
+
+
 
         .atraindropscontainer::before {
           content: "“";
@@ -553,6 +574,10 @@ function Mindmeets() {
 
         /* Desktop (1200px to 1399px) */
         @media (min-width: 1200px) and (max-width: 1399px) {
+                      .atraindropscontainer{
+        padding: 15px 300px;
+        }
+
           .section__title {
             text-align: left;
             margin-bottom: 2rem;
@@ -628,6 +653,7 @@ function Mindmeets() {
 
         /* Landscape Mobile Optimization */
         @media (max-height: 500px) and (orientation: landscape) {
+        
           .philosophy-image {
             height: 250px !important;
           }
@@ -648,7 +674,7 @@ function Mindmeets() {
         }
 
         .philosophy-content {
-          padding: 0 15px;
+          padding: 0 3px;
         }
 
         /* Improve list item alignment */

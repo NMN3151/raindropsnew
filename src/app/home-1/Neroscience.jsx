@@ -35,8 +35,8 @@ export default function MindfulnessNeurosciencePage() {
               </p>
 
               <div className="atraindropscontainer">
-                <p>Rain Drops — Where the Mind Learns to Breathe. </p>
-                <p>Discover the Experience — Book Your Stay Today. </p>
+                <p>Rain Drops - Where the Mind Learns to Breathe. </p>
+                <p>Discover the Experience - Book Your Stay Today. </p>
               </div>
 
               {/* Button only in content on desktop */}
@@ -193,28 +193,34 @@ export default function MindfulnessNeurosciencePage() {
         @media (max-width: 575.98px) {
 
 
-        .atraindropscontainer::before {
-  content: "“";
-  color: #000000;
-  font-family: serif;
-  font-size: 42px;
-  position: absolute;
-  top: 15px;
-  left: 10px;
-  opacity: 0.7;
-}
+        .atraindropscontainer p {
+          letter-spacing: 0px;
+          line-height: 1.6;
+        }
 
-/* Right quote */
-.atraindropscontainer::after {
-  content: "”";
-  color: #000000;
-  font-family: serif;
-  font-size: 42px;
-  position: absolute;
-  bottom: 15px;
-  right: 10px ;
-  opacity: 0.7;
-}
+
+        .atraindropscontainer::before {
+              content: "“";
+              color: #000000;
+              font-family: serif;
+              font-size: 42px;
+              position: absolute;
+              top: 20px;
+        left: 6px;
+              opacity: 0.7;
+            }
+
+            /* Right quote */
+            .atraindropscontainer::after {
+                    content: "”";
+                    color: #000;
+                    opacity: .7;
+                    font-family: serif;
+                    font-size: 42px;
+                    position: absolute;
+                    bottom: 28px;
+                    right: 48px;
+            }
 
 
 
