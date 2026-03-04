@@ -616,7 +616,7 @@ export default function SignaturePrograms() {
           font-size: 40px;
           position: absolute;
                   top: 40px;
-        right: 96px;
+        right: 60px;
         }
 
 

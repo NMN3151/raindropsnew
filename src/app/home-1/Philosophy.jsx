@@ -353,7 +353,7 @@ function Mindmeets() {
           font-size: 40px;
           position: absolute;
           top: 45px;
-          right: 110px;
+          right: 53px;
         }
          
  
