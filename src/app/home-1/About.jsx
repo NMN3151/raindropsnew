@@ -188,7 +188,7 @@ function AboutOne() {
 
            
           .atraindropscontainer {
-           max-width: 320px;
+           max-width: 330px;
            margin-top: 20px;
            padding: 20px 20px;
 
