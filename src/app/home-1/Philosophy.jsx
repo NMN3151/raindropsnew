@@ -139,7 +139,7 @@ function Mindmeets() {
               </div>
 
               {/* 🔘 Read More Button */}
-              <div className="mt-4">
+              <div className="mt-4 readmorebtnholder">
                 <a href="/research" className="learn-more-btn">
                   Read More
                 </a>
@@ -244,9 +244,18 @@ function Mindmeets() {
         /* Extra Small Mobile Devices (up to 375px) */
         @media (max-width: 375px) {
 
+
+        .readmorebtnholder{
+        display: flex;
+    justify-content: center;
+        }
+
+       
+
          .atraindropscontainer{
          max-width: 300px;
          padding: 15px 15px;
+         margin: 0px auto;
          }
 
        
@@ -328,7 +337,7 @@ function Mindmeets() {
 
           .learn-more-btn {
             align-items: center;
-            margin-left: 70px;
+            margin-left: 0px;
             font-size: 15px;
             padding: 11px 24px;
           }

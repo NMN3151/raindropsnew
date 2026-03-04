@@ -207,8 +207,8 @@ function AboutOne() {
 
           .atraindropscontainer::after {
             font-size: 36px;
-            bottom: 15px;
-            right: 15px;
+        bottom: 20px;
+        right: 65px;
           }
         }
       `}</style>

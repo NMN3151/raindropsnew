@@ -238,7 +238,7 @@ export default function MindfulnessNeurosciencePage() {
                     font-size: 42px;
                     position: absolute;
                     bottom: 28px;
-                    right: 48px;
+                    right: 90px;
             }
 
 
