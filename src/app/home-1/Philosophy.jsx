@@ -134,8 +134,13 @@ function Mindmeets() {
                 align your rhythm with nature's flow.
               </p>
 
+              {/* ── UPDATED QUOTE BLOCK ── */}
               <div className="atraindropscontainer">
-                <p>@Rain Drops — Experience the Experience.</p>
+                <p className="quote-text">
+                  <span className="quote-mark quote-open">&ldquo;</span>
+                  @Rain Drops — Experience the Experience.
+                  <span className="quote-mark quote-close">&rdquo;</span>
+                </p>
               </div>
 
               {/* 🔘 Read More Button */}
@@ -151,43 +156,7 @@ function Mindmeets() {
 
       {/* Enhanced Responsive Styles */}
       <style jsx>{`
-        .atraindropscontainer {
-          max-width: 500px;
-          padding: 20px 40px;
-          text-align: center;
-          border-radius: 6px;
-          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
-          position: relative;
-        }
-
-        .atraindropscontainer p {
-          font-family: "Cinzel";
-          font-size: 16px;
-          color: #000000;
-          line-height: 1.8;
-          letter-spacing: 0.5px;
-          margin: 0;
-        }
-
-        .atraindropscontainer::before {
-          content: "“";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 13px;
-          left: 40px;
-        }
-
-        .atraindropscontainer::after {
-          content: "”";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 13px;
-          right: 40px;
-        }
+        
 
         .philosophy__section {
           background: #ffffff;
@@ -241,44 +210,57 @@ function Mindmeets() {
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
+        /* ── Quote Block ── */
+        .atraindropscontainer {
+          padding: 20px 40px;
+          text-align: center;
+          border-radius: 6px;
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+          position: relative;
+          margin: 0px auto;
+          font-family: 'Cinzel';
+          margin-top: 20px;
+        }
+
+        .quote-text {
+          font-size: 16px;
+          color: #333;
+          text-align: center;
+          margin: 0;
+          line-height: 1.8;
+          display: inline;
+        }
+
+        .quote-mark {
+          font-family: Georgia, serif;
+          font-size: 1.4rem;
+          line-height: 1;
+          color: #333;
+          user-select: none;
+          display: inline;
+          vertical-align: middle;
+              font-size: 30px;
+    font-weight: bold;
+        }
+
+        .quote-open {
+          margin-right: 0.25rem;
+        }
+
+        .quote-close {
+          margin-left: 0.25rem;
+        }
+
         /* Extra Small Mobile Devices (up to 375px) */
         @media (max-width: 375px) {
 
 
         .readmorebtnholder{
         display: flex;
-    justify-content: center;
+         justify-content: center;
         }
 
-       
-
-         .atraindropscontainer{
-         max-width: 300px;
-         padding: 15px 15px;
-         margin: 0px auto;
-         }
-
-       
-         .atraindropscontainer::before {
-          content: "“";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 12px;
-          left: 5px;
-        }
-
-        .atraindropscontainer::after {
-          content: "”";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 45px;
-          right: 47px;
-        }
-
+        
 
 
         
@@ -341,21 +323,19 @@ function Mindmeets() {
             font-size: 15px;
             padding: 11px 24px;
           }
+
+          .atraindropscontainer {
+            padding: 1.2rem 1.2rem;
+          }
+
+          .quote-text {
+            font-size: 0.95rem;
+          }
         }
 
         /* Small Mobile Devices (375px to 575px) */
         @media (min-width: 375px) and (max-width: 423px) {
-
-          .atraindropscontainer::after {
-          content: "”";
-          color: #000000;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 45px;
-          right: 53px;
-        }
-         
+ 
  
         
           .section__title {
@@ -410,21 +390,24 @@ function Mindmeets() {
           .text2 {
             margin-left: 85px;
           }
+
+          .atraindropscontainer {
+            padding: 1.2rem 1.2rem;
+          }
+
+          .quote-text {
+            font-size: 0.95rem;
+          }
         }
-
-
-
-
-        
-
-
 
         /* Mobile Large (576px to 767px) */
         @media (min-width: 424px) and (max-width: 767px) {
+ 
 
-
-        
-
+        .readmorebtnholder{
+        display: flex;
+         justify-content: center;
+        }
 
         
           .section__title {
@@ -474,12 +457,15 @@ function Mindmeets() {
 
           .learn-more-btn {
             align-items: center;
-            margin-left: 120px;
             font-size: 15px;
             padding: 11px 24px;
           }
           .text2 {
             margin-left: 90px;
+          }
+
+          .atraindropscontainer {
+            padding: 1.5rem 2rem;
           }
         }
 
@@ -531,27 +517,7 @@ function Mindmeets() {
         /* Small Laptop (992px to 1199px) */
         @media (min-width: 992px) and (max-width: 1199px) {
 
-
-
-        .atraindropscontainer::before {
-          content: "“";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 13px;
-          left: 30px;
-        }
-
-        .atraindropscontainer::after {
-          content: "”";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 50px;
-          right: 110px;
-        }
+ 
 
           .section__title {
             font-size: 2.5rem;
@@ -591,9 +557,7 @@ function Mindmeets() {
 
         /* Desktop (1200px to 1399px) */
         @media (min-width: 1200px) and (max-width: 1399px) {
-                      .atraindropscontainer{
-        padding: 15px 300px;
-        }
+                     
 
           .section__title {
             text-align: left;

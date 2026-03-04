@@ -32,14 +32,6 @@ function AboutOne() {
                     alt="Background"
                     fill
                   />
-                  {/* <Image
-                    src="/assets/images/about/N2.jpg"
-                    alt="Background"
-                    fill
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className="jarallax-img rellax rellax-img"
-                    priority={false} // lazy loaded
-                  /> */}
                 </div>
               </div>
               <div
@@ -91,7 +83,7 @@ function AboutOne() {
                 mastery, and a private research center come together exclusively
                 for you.
                 <br></br> <br></br>
-                Here, nature doesn’t just surround you, it welcomes you, aligns
+                Here, nature doesn't just surround you, it welcomes you, aligns
                 with you, and restores you. Your stay is curated to help you
                 cultivate calm and truly enjoy it through: mind-designed
                 cuisine, forest-guided meditations, real-time brain clarity
@@ -101,12 +93,17 @@ function AboutOne() {
               </p>
             </div>
           </div>
+
+          {/* ── UPDATED QUOTE BLOCK ── */}
           <div className="atraindropscontainer">
-            <p>
+            <p className="quote-text">
+              <span className="quote-mark quote-open">&ldquo;</span>
               At Rain Drops, where luxury becomes personal, science becomes
               human, and the rainforest becomes your private guide to clarity.
+              <span className="quote-mark quote-close">&rdquo;</span>
             </p>
           </div>
+
         </div>
       </div>
 
@@ -114,7 +111,6 @@ function AboutOne() {
 
       .content__title{
       margin-bottom: 0px;
-
       }
       
         .arrivetext {
@@ -123,92 +119,64 @@ function AboutOne() {
           font-family: "Crimson Text", serif;
           font-size: 20px;
           margin-bottom: 40px;
-
         }
 
+        /* ── Quote Block ── */
         .atraindropscontainer {
-          max-width: 950px;
-          margin: 60px auto 0 auto;
-          padding: 0px 40px;
+          max-width: 1120px;
+          padding: 20px 40px;
           text-align: center;
           border-radius: 6px;
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
           position: relative;
+          margin: 0px auto;
+          font-family: 'Cinzel';
+          margin-top: 20px;
         }
 
-        .atraindropscontainer p {
-          font-family: "Cinzel";
+        .quote-text {
           font-size: 16px;
-          color: #000000;
-          line-height: 1.8;
-          letter-spacing: 0.5px;
+          color: #333;
+          text-align: center;
           margin: 0;
+          line-height: 1.8;
+          display: inline;
         }
 
-        .atraindropscontainer::before {
-          content: "“";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 0px;
-          left: 35px;
+        .quote-mark {
+          font-family: Georgia, serif;
+          font-size: 30px;
+          line-height: 1;
+          color: #333;
+          user-select: none;
+          display: inline;
+          vertical-align: middle;
+           font-weight: bold;
         }
 
-        .atraindropscontainer::after {
-          content: "”";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          bottom: 0px;
-          right: 275px;
+        .quote-open {
+          margin-right: 0.25rem;
         }
 
-
-
-        @media (max-width: 1024px) {
-          .atraindropscontainer {
-            margin: 0px auto 0 auto;
-          }
-
-        
+        .quote-close {
+          margin-left: 0.25rem;
         }
-
- 
-
-
-
-
-
 
         @media (max-width: 768px) {
-
- 
-
-           
           .atraindropscontainer {
-           max-width: 330px;
-           margin-top: 20px;
-           padding: 20px 20px;
+            padding: 1.5rem 2rem;
+            margin: 0px 15px 0px 15px;
 
           }
+        }
 
-          .atraindropscontainer p {
-            font-size: 15px;
-            line-height: 1.7;
+        @media (max-width: 480px) {
+          .atraindropscontainer {
+            padding: 1.2rem 1.2rem;
           }
 
-          .atraindropscontainer::before {
-            font-size: 36px;
-            top: 5px;
-            left: 15px;
-          }
-
-          .atraindropscontainer::after {
-            font-size: 36px;
-        bottom: 20px;
-        right: 65px;
+          .quote-text {
+            font-size: 0.95rem;
           }
         }
       `}</style>

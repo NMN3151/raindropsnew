@@ -14,13 +14,8 @@ export default function MindfulnessNeurosciencePage() {
                 {" "}
                 Mindfulness Meets Neuroscience at Rain drops
               </h2>
-               
 
-              
-
-
-                <p className="arrivetext">Experience Calm, Measured by Nature and Mind</p>
-
+              <p className="arrivetext">Experience Calm, Measured by Nature and Mind</p>
 
               <p className="neuroscience__description mb-4">
                 At Rain Drops Wellness Resort, ancient mindfulness meets modern
@@ -34,9 +29,16 @@ export default function MindfulnessNeurosciencePage() {
                 nature, science, and mindfulness become one.
               </p>
 
+              {/* ── UPDATED QUOTE BLOCK ── */}
               <div className="atraindropscontainer">
-                <p>Rain Drops - Where the Mind Learns to Breathe. </p>
-                <p>Discover the Experience - Book Your Stay Today. </p>
+                <div className="quote-inner">
+                  <span className="quote-mark quote-open">&ldquo;</span>
+                  <div className="quote-lines">
+                    <p className="quote-text">Rain Drops - Where the Mind Learns to Breathe.</p>
+                    <p className="quote-text">Discover the Experience - Book Your Stay Today.</p>
+                  </div>
+                  <span className="quote-mark quote-close">&rdquo;</span>
+                </div>
               </div>
 
               {/* Button only in content on desktop */}
@@ -88,66 +90,16 @@ export default function MindfulnessNeurosciencePage() {
       {/* Responsive Styles - Mobile First */}
       <style jsx>{`
 
+        .section__title {
+          margin-bottom: 0px;
+        }
 
- .section__title{
-      margin-bottom: 0px;
-      }
-
-
- .arrivetext {
+        .arrivetext {
           color: var(--rts-heading);
           font-weight: semi-bold;
           font-family: "Crimson Text", serif;
           font-size: 20px;
           margin-bottom: 40px;
-
-        }
-
-
-
-        
-        .atraindropscontainer {
-          max-width: 600px;
-          padding: 30px 5px;
-          background-color: #ffffff;
-          text-align: center;
-          border-radius: 8px;
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* softer elegant shadow */
-          position: relative;
-          margin-bottom: 20px;
-        }
-
-        .atraindropscontainer p {
-          font-family: "Cinzel", serif;
-          font-size: 16px;
-          color: #000000;
-          line-height: 1.8;
-          letter-spacing: 0.5px;
-          margin: 0;
-        }
-
-        /* Left quote */
-        .atraindropscontainer::before {
-          content: "“";
-          color: #000000;
-          font-family: serif;
-          font-size: 42px;
-          position: absolute;
-          top: 25px;
-          left: 50px;
-          opacity: 0.7;
-        }
-
-        /* Right quote */
-        .atraindropscontainer::after {
-          content: "”";
-          color: #000000;
-          font-family: serif;
-          font-size: 42px;
-          position: absolute;
-          bottom: 30px;
-          right: 50px;
-          opacity: 0.7;
         }
 
         .neuroscience__section {
@@ -166,7 +118,6 @@ export default function MindfulnessNeurosciencePage() {
         .neuroscience__tagline,
         .neuroscience__cta-text {
           line-height: 1.6;
-
           font-size: var(--p);
         }
 
@@ -208,40 +159,62 @@ export default function MindfulnessNeurosciencePage() {
           transform: translateY(0);
         }
 
-        /* Mobile (≤575px) */
-        @media (max-width: 575.98px) {
-
-
-        .atraindropscontainer p {
-          letter-spacing: 0px;
-          line-height: 1.6;
+        /* ── Quote Block ── */
+        .atraindropscontainer {
+          max-width: 1120px;
+          padding: 20px 40px;
+          text-align: center;
+          border-radius: 6px;
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+          position: relative;
+          margin: 0px auto;
+          font-family: 'Cinzel';
+          margin-top: 20px;
         }
 
+        .quote-inner {
+          display: flex;
+          align-items: center;
+          gap: 0.6rem;
+          justify-content: center;
+        }
 
-        .atraindropscontainer::before {
-              content: "“";
-              color: #000000;
-              font-family: serif;
-              font-size: 42px;
-              position: absolute;
-              top: 20px;
-        left: 6px;
-              opacity: 0.7;
-            }
+        .quote-mark {
+          font-family: Georgia, serif;
+          font-size: 30px;
+          font-weight: bold;
+          line-height: 1;
+          color: #333;
+          user-select: none;
+          flex-shrink: 0;
+        }
 
-            /* Right quote */
-            .atraindropscontainer::after {
-                    content: "”";
-                    color: #000;
-                    opacity: .7;
-                    font-family: serif;
-                    font-size: 42px;
-                    position: absolute;
-                    bottom: 28px;
-                    right: 90px;
-            }
+        .quote-open {
+          align-self: flex-start;
+          margin-top: 0.1rem;
+        }
 
+        .quote-close {
+          align-self: flex-end;
+          margin-bottom: 0.1rem;
+        }
 
+        .quote-lines {
+          display: flex;
+          flex-direction: column;
+          gap: 0.2rem;
+        }
+
+        .quote-text {
+          font-size: 16px;
+          color: #333;
+          text-align: center;
+          margin: 0;
+          line-height: 1.7;
+        }
+
+        /* Mobile (≤575px) */
+        @media (max-width: 575.98px) {
 
           .content__title {
             font-size: 1.6rem;
@@ -275,6 +248,18 @@ export default function MindfulnessNeurosciencePage() {
             font-size: 15px;
             padding: 12px 28px;
           }
+
+          .atraindropscontainer {
+            padding: 1.2rem 1rem;
+          }
+
+          .quote-text {
+            font-size: 0.9rem;
+          }
+
+          .quote-mark {
+            font-size: 24px;
+          }
         }
 
         /* Mobile Large (576px - 767px) */
@@ -290,6 +275,10 @@ export default function MindfulnessNeurosciencePage() {
 
           .neuroscience-image {
             height: 300px;
+          }
+
+          .atraindropscontainer {
+            padding: 1.5rem 2rem;
           }
         }
 
@@ -310,34 +299,6 @@ export default function MindfulnessNeurosciencePage() {
 
         /* Desktop (992px - 1199px) */
         @media (min-width: 992px) and (max-width: 1199.98px) {
-
-         .atraindropscontainer {
-          padding: 10px 5px;
-        }
-
-      
-        /* Left quote */
-        .atraindropscontainer::before {
-          content: "“";
-          top: 10px;
-          left: 20px;
-          opacity: 0.7;
-        }
-
-        /* Right quote */
-        .atraindropscontainer::after {
-          content: "”";
-          bottom: 2px;
-          right: 20px;
-          opacity: 0.7;
-        }
-
-
-
-
-
-
-
           .content__title {
             font-size: 2.25rem;
           }
@@ -353,7 +314,6 @@ export default function MindfulnessNeurosciencePage() {
 
         /* Large Desktop (≥1200px) - Desktop design preserved */
         @media (min-width: 1200px) {
-        
           .content__title {
             font-size: 2.6rem;
           }

@@ -200,57 +200,25 @@ export default function SignaturePrograms() {
           <p className="story-text-des">
             These principles shape everything we do, from mindful architecture
             to the way we help guests understand themselves through nature. Rain
-            Drops is not just a place to stay. It is a place to slow down,
+            Drops is not just a place to stay. It is a place to slow down,
             learn, and transform. Come experience the rainforest in quiet
             luxury. Discover a new skill, new insight, or new clarity that
             travels home with you. Because at Rain Drops, we believe:
           </p>
 
+          {/* ── UPDATED QUOTE BLOCK ── */}
           <div className="atraindropscontainer">
-            <p>Nature is not outside of you — it is within you.</p>
+            <p className="quote-text">
+              <span className="quote-mark quote-open">&ldquo;</span>
+              Nature is not outside of you — it is within you.
+              <span className="quote-mark quote-close">&rdquo;</span>
+            </p>
           </div>
         </div>
       </div>
 
       <style jsx>{`
-        .atraindropscontainer {
-          max-width: 600px;
-          margin: 60px auto 0 auto;
-          padding: 20px 40px;
-          text-align: center;
-          border-radius: 6px;
-          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
-          position: relative;
-        }
-
-        .atraindropscontainer p {
-          font-family: "Cinzel";
-          font-size: 16px;
-          color: #000000;
-          line-height: 1.8;
-          letter-spacing: 0.5px;
-          margin: 0;
-        }
-
-        .atraindropscontainer::before {
-          content: "“";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 13px;
-          left: 70px;
-        }
-
-        .atraindropscontainer::after {
-          content: "”";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 13px;
-          right: 70px;
-        }
+         
 
         .signature__outer {
           padding: 6rem 0 120px;
@@ -511,6 +479,49 @@ export default function SignaturePrograms() {
           animation: fadeInUp 0.8s ease forwards 1.2s;
         }
 
+        /* ── UPDATED: Quote Block ── */
+        .atraindropscontainer {
+           max-width: 580px;
+          padding: 20px 40px;
+          text-align: center;
+          border-radius: 6px;
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+          position: relative;
+          margin: 0px auto;
+          font-family: 'Cinzel';
+
+
+        }
+
+        .quote-text {
+          font-size: 16px;
+          color: #333;
+          text-align: center;
+          margin: 0;
+          line-height: 1.8;
+          display: inline;
+        }
+
+        .quote-mark {
+          font-family: Georgia, serif;
+          font-size: 1.4rem;
+          line-height: 1;
+          color: #333;
+          user-select: none;
+          display: inline;
+          vertical-align: middle;
+          font-weight: bold;
+    font-size: 30px;
+        }
+
+        .quote-open {
+          margin-right: 0.25rem;
+        }
+
+        .quote-close {
+          margin-left: 0.25rem;
+        }
+
         /* Animations */
         @keyframes fadeInDown {
           to {
@@ -592,33 +603,15 @@ export default function SignaturePrograms() {
           .story-text {
             font-size: 1rem;
           }
+
+          .atraindropscontainer {
+            padding: 1.5rem 2rem;
+          }
         }
 
         @media (max-width: 480px) {
-           .atraindropscontainer{
-           padding: 15px 30px;
-           }
-
-          .atraindropscontainer::before {
-          content: "“";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-          top: 13px;
-          left: 10px;
-        }
-
-        .atraindropscontainer::after {
-          content: "”";
-          color: #1f1f1f;
-          font-family: serif;
-          font-size: 40px;
-          position: absolute;
-                  top: 40px;
-        right: 60px;
-        }
-
+          
+         
 
           .signature__outer {
             padding: 6rem 0;
@@ -678,6 +671,14 @@ export default function SignaturePrograms() {
             font-size: 0.95rem;
             text-align: center;
             justify-content: center;
+          }
+
+          .atraindropscontainer {
+            padding: 1.2rem 1.2rem;
+          }
+
+          .quote-text {
+            font-size: 0.95rem;
           }
         }
       `}</style>

@@ -81,9 +81,11 @@ function NutritionPage() {
                 </p>
               </div>
               <div className="atraindropscontainer">
-                <p>
-                  Food becomes healing when cooked with intention and eaten with
-                  awareness.{" "}
+                <p className="quote-text">
+                  <span className="quote-mark quote-open">&ldquo;</span>
+                  At Rain Drops, where luxury becomes personal, science becomes
+                  human, and the rainforest becomes your private guide to clarity.
+                  <span className="quote-mark quote-close">&rdquo;</span>
                 </p>
               </div>
               <p className="_subtitle">
@@ -96,7 +98,6 @@ function NutritionPage() {
               </div>
             </div>
 
-            {/* Watermark - Bottom Right */}
             <div className="watermark_img">
               <img src="/assets/images/nutrition/wm.png" alt="Mindful Eating" />
             </div>
@@ -105,6 +106,53 @@ function NutritionPage() {
       </div>
 
       <style jsx>{`
+
+
+
+/* ── Quote Block ── */
+        .atraindropscontainer {
+          max-width: 1120px;
+          padding: 20px 40px;
+          text-align: center;
+          border-radius: 6px;
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+          position: relative;
+          margin: 0px auto;
+          font-family: 'Cinzel';
+          margin-top: 20px;
+          margin-bottom: 30px;
+        }
+
+        .quote-text {
+          font-size: 16px;
+          color: #333;
+          text-align: center;
+          margin: 0;
+          line-height: 1.8;
+          display: inline;
+        }
+
+        .quote-mark {
+          font-family: Georgia, serif;
+          font-size: 30px;
+          line-height: 1;
+          color: #333;
+          user-select: none;
+          display: inline;
+          vertical-align: middle;
+           font-weight: bold;
+        }
+
+        .quote-open {
+          margin-right: 0.25rem;
+        }
+
+        .quote-close {
+          margin-left: 0.25rem;
+        }
+
+
+
 
       .section__title{
       margin-bottom: 0px;
@@ -121,50 +169,7 @@ function NutritionPage() {
         }
 
 
-
-   .atraindropscontainer {
-  max-width: 500px;
-  padding: 30px 50px;
-  background-color: #ffffff;       
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* softer elegant shadow */
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.atraindropscontainer p {
-  font-family: "Cinzel", serif;
-  font-size: 16px;
-  color: #000000;
-  line-height: 1.8;
-  letter-spacing: 0.5px;
-  margin: 0;
-}
-
-/* Left quote */
-.atraindropscontainer::before {
-  content: "“";
-  color: #000000;
-  font-family: serif;
-  font-size: 42px;
-  position: absolute;
-  top: 15px;
-  left: 25px;
-  opacity: 0.7;
-}
-
-/* Right quote */
-.atraindropscontainer::after {
-  content: "”";
-  color: #000000;
-  font-family: serif;
-  font-size: 42px;
-  position: absolute;
-  bottom: 30px;
-  right: 45px;
-  opacity: 0.7;
-}
+ 
 
 
         /* Your original styles + only gap fix */
@@ -218,7 +223,7 @@ function NutritionPage() {
         /* Watermark - Perfect on all devices */
         .watermark_img {
           position: absolute;
-          bottom: 200px;
+          bottom: 250px;
           right: -100px;
           width: 400px;
           height: 400px;
@@ -234,28 +239,7 @@ function NutritionPage() {
         }
 
         @media (max-width: 1399px) {
-
-          .atraindropscontainer {
-  padding: 30px 30px;
-  
-}
-
-        .atraindropscontainer::before {
-  content: "“";
  
-  top: 20px;
-  left: 12px;
-  opacity: 0.7;
-}
-
-/* Right quote */
-.atraindropscontainer::after {
-  content: "”";
-  bottom: 25px;
-  right: 35px;
-  opacity: 0.7;
-}
-
 
 
 
@@ -349,7 +333,7 @@ function NutritionPage() {
     .watermark_img {
       width: 250px;
       height: 250px;
-      bottom: 260px;
+      bottom: 320px;
       opacity: 0.7;
     }
       `}</style>
