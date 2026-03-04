@@ -75,7 +75,7 @@ function RoomDetailsPage() {
             <div className="col-xxl-11 col-xl-8">
               <div className="room__details">
 
-                <span className="price">{roomPost.price}</span>
+                {/* <span className="price">{roomPost.price}</span> */}
                 <h2 className="room__title">{roomPost.title}</h2>
                 <h2 className="room__title2">{roomPost.title2}</h2>
                 <div className="room__meta"></div>

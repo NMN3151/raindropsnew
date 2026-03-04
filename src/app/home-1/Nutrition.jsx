@@ -47,10 +47,11 @@ function NutritionPage() {
               <h2 className="section__title">
                 Mindful Eating — Crafted by a Presidential Chef
               </h2>
-              <p className="nutrition__subtitle mb-2">
-                Where Culinary Art Meets Inner Clarity
-              </p>{" "}
-              <br />
+
+              <p className="arrivetext">Where Culinary Art Meets Inner Clarity</p>
+
+
+               
               {/* Long paragraph */}
               <p className="nutrition__description mb-3">
                 At Rain Drops, dining becomes a mindful ritual. Every dish is
@@ -104,6 +105,22 @@ function NutritionPage() {
       </div>
 
       <style jsx>{`
+
+      .section__title{
+      margin-bottom: 0px;
+      }
+
+
+ .arrivetext {
+          color: var(--rts-heading);
+          font-weight: semi-bold;
+          font-family: "Crimson Text", serif;
+          font-size: 20px;
+          margin-bottom: 40px;
+
+        }
+
+
 
    .atraindropscontainer {
   max-width: 500px;

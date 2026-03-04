@@ -54,16 +54,21 @@ function FooterOne() {
       }
         /* Mobile Responsive Styles */
         @media (max-width: 575px) {
+          .new_wrapper{
+              align-items: flex-start !important;
+          }
+
+            
             .submit_btn{
-            margin-bottom: 120px;
+              margin-bottom: 15px !important;
             }
 
           .footer__newsletter {
             flex-direction: column !important;
             gap: 20px !important;
             padding: 30px 20px !important;
-            align-items: center !important;
-            text-align: center;
+            align-items: flex-start !important;
+            text-align: left !important;
           }
 
           .footer__newsletter > div:first-child {
@@ -89,10 +94,10 @@ function FooterOne() {
            
           .rts__form {
             width: 100% !important;
-            height:150px;
             flex-direction: column !important;
-            align-items: center !important;
+            align-items: flex-start !important;
             gap: 15px !important;
+            
           }
 
           .rts__form form {
@@ -108,11 +113,11 @@ function FooterOne() {
           }
            
           .rts__form > div {
-            flex-direction: row !important;
-            align-items: center !important;
-            gap: 12px !important;
-            justify-content: center !important;
-            
+            flex-direction: column;
+            justify-content: flex-start !important;
+            align-items: left !important;
+            gap: 0px !important;
+            width: 100% !important;
           }
 
           .rts__form > div span {
@@ -207,17 +212,43 @@ function FooterOne() {
             font-size: 10px !important;
           }
 
-          .social_links{
-            align-items: left;
-            justify-content: left;
-            margin-left: -200px;
+          .social_links {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            gap: 12px !important;
+            margin-left: 0 !important;
           }
-            .subscribe_txt{
-            text-align:left;
-            }
+
+          /* ── subscribe_txt mobile fix ── */
+          .subscribe_txt {
+            text-align: left !important;
+            max-width: 100% !important;
+            width: 100% !important;
+            margin-right: 0 !important;
+          }
+
+          .subscribe_txt p {
+            font-size: 13px !important;
+            line-height: 1.7 !important;
+            white-space: normal !important;
+            overflow-wrap: break-word !important;
+            word-break: normal !important;
+          }
+
+          .subscribe_txt p br {
+            display: none !important;
+          }
+          /* ───────────────────────────── */
         }
 
         @media (max-width: 375px) {
+
+          .rts__form{
+            display: flex;
+          }
+
           .footer__newsletter {
             padding: 25px 15px !important;
           }
@@ -250,20 +281,45 @@ function FooterOne() {
             font-size: 10px !important;
           }
 
-          .social_links{
-            align-items: left;
-            justify content: left;
-            margin-left: -160px;
+          .social_links {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            gap: 10px !important;
+            margin-left: 0 !important;
           }
+
+          .rts__form > div {
+            justify-content: flex-start !important;
+          }
+
+          /* ── subscribe_txt 375px fix ── */
+          .subscribe_txt p {
+            font-size: 12px !important;
+          }
+
+          .subscribe_txt p br {
+            display: none !important;
+          }
+          /* ────────────────────────────── */
         }
 
-         @media (max-width: 320px) {
-        .social_links{
-            align-items: left;
-            justify content: left;
-            margin-left: -110px;
+        @media (max-width: 320px) {
+          .social_links {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            gap: 8px !important;
+            margin-left: 0 !important;
+            margin-top: 15px;
           }
-         }
+
+          .rts__form > div {
+            justify-content: flex-start !important;
+          }
+        }
 
 
       `}</style>
@@ -301,12 +357,13 @@ function FooterOne() {
                   />
                 </Link>
               </div>
+
+              {/* ── Subscribe text: <br/> removed so it wraps naturally ── */}
               <div className="subscribe_txt" style={{ color: "#fff" }}>
                 <p style={{ margin: 0, fontSize: "14px", lineHeight: "1.6" }}>
                   Subscribe to{" "}
                   <em style={{ fontStyle: "italic" }}>Rain Drops</em> Wellness
                   Villa updates and receive exclusive offers, mindful
-                  <br />
                   experiences, and special announcements.
                 </p>
               </div>
@@ -343,6 +400,7 @@ function FooterOne() {
 
                 {/* Button and Social Links row - same width as input */}
                 <div
+                  className="new_wrapper"
                   style={{
                     display: "flex",
                     justifyContent: "space-between",

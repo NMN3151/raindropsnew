@@ -14,13 +14,13 @@ export default function MindfulnessNeurosciencePage() {
                 {" "}
                 Mindfulness Meets Neuroscience at Rain drops
               </h2>
-              {/* <h2 className="content__title h2 mb-4 lh-1"> */}
-              {/* Mindfulness Meets Neuroscience */}
-              {/* </h2> */}
+               
 
-              <p className="neuroscience__subtitle mb-4">
-                Experience Calm, Measured by Nature and Mind
-              </p>
+              
+
+
+                <p className="arrivetext">Experience Calm, Measured by Nature and Mind</p>
+
 
               <p className="neuroscience__description mb-4">
                 At Rain Drops Wellness Resort, ancient mindfulness meets modern
@@ -87,6 +87,25 @@ export default function MindfulnessNeurosciencePage() {
 
       {/* Responsive Styles - Mobile First */}
       <style jsx>{`
+
+
+ .section__title{
+      margin-bottom: 0px;
+      }
+
+
+ .arrivetext {
+          color: var(--rts-heading);
+          font-weight: semi-bold;
+          font-family: "Crimson Text", serif;
+          font-size: 20px;
+          margin-bottom: 40px;
+
+        }
+
+
+
+        
         .atraindropscontainer {
           max-width: 600px;
           padding: 30px 5px;

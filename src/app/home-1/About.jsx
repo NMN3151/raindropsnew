@@ -111,12 +111,18 @@ function AboutOne() {
       </div>
 
       <style jsx>{`
+
+      .content__title{
+      margin-bottom: 0px;
+
+      }
+      
         .arrivetext {
           color: var(--rts-heading);
           font-weight: semi-bold;
           font-family: "Crimson Text", serif;
           font-size: 20px;
-          margin-bottom: 30px;
+          margin-bottom: 40px;
 
         }
 
@@ -182,7 +188,7 @@ function AboutOne() {
 
            
           .atraindropscontainer {
-           max-width: 300px;
+           max-width: 320px;
            margin-top: 20px;
            padding: 20px 20px;
 

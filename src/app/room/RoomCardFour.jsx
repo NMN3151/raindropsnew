@@ -25,9 +25,9 @@ function RoomCardFour(props) {
                             />
                         </Link>
                     </div>
-                    <div className="room__price__tag">
+                    {/* <div className="room__price__tag">
                         <span className="h6 d-block">{Price || ''}</span>
-                    </div>
+                    </div> */}
                 </div>
                 
                 <div className="room__card__meta">

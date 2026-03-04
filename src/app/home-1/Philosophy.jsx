@@ -152,7 +152,7 @@ function Mindmeets() {
       {/* Enhanced Responsive Styles */}
       <style jsx>{`
         .atraindropscontainer {
-          max-width: 5000px;
+          max-width: 500px;
           padding: 20px 40px;
           text-align: center;
           border-radius: 6px;
@@ -176,7 +176,7 @@ function Mindmeets() {
           font-size: 40px;
           position: absolute;
           top: 13px;
-          left: 30px;
+          left: 40px;
         }
 
         .atraindropscontainer::after {
@@ -186,7 +186,7 @@ function Mindmeets() {
           font-size: 40px;
           position: absolute;
           top: 13px;
-          right: 30px;
+          right: 40px;
         }
 
         .philosophy__section {
