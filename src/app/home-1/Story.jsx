@@ -615,8 +615,8 @@ export default function SignaturePrograms() {
           font-family: serif;
           font-size: 40px;
           position: absolute;
-          top: 45px;
-          right: 30px;
+                  top: 40px;
+        right: 96px;
         }
 
 

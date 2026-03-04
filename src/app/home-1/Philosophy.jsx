@@ -346,7 +346,15 @@ function Mindmeets() {
         /* Small Mobile Devices (375px to 575px) */
         @media (min-width: 375px) and (max-width: 423px) {
 
-
+          .atraindropscontainer::after {
+          content: "”";
+          color: #000000;
+          font-family: serif;
+          font-size: 40px;
+          position: absolute;
+          top: 45px;
+          right: 110px;
+        }
          
  
         
