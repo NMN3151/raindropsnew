@@ -476,7 +476,7 @@ function PrivacyPolicy() {
               </li>
               <li>
                 <strong style={{ color: "#AB8A62" }}>Check-out</strong>
-                :Check-out at 12:00 noon
+                :Check-out at 11:00 noon
               </li>
             </ul>
             <p style={{ marginTop: "15px", color: "#666" }}>
