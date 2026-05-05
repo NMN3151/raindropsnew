@@ -365,8 +365,7 @@ function PrivacyPolicy() {
               healing rather than spa treatments. Here, the{" "}
               <strong style={{ color: "#AB8A62" }}>forest</strong>, the&nbsp;
               <strong style={{ color: "#AB8A62" }}>quiet</strong>, and your{" "}
-              <strong style={{ color: "#AB8A62" }}>own breath </strong>own
-              breath offer the deepest form of restoration.
+              <strong style={{ color: "#AB8A62" }}>own breath </strong> offer the deepest form of restoration.
             </p>
           </div>
         </div>
@@ -397,8 +396,7 @@ function PrivacyPolicy() {
             <div className="content__subtitle wow fadeInUp">
               <p>
                 Our team will connect with you to understand
-                <strong style={{ color: "#AB8A62" }}>&nbsp;who you are </strong>who
-                you are, so we can shape the journey that most supports your
+                <strong style={{ color: "#AB8A62" }}>&nbsp;who you are </strong>, so we can shape the journey that most supports your
                 calmness, clarity, and inner discovery. This is a core part of
                 our&nbsp;
                 <strong style={{ color: "#AB8A62" }}>

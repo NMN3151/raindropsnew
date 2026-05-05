@@ -37,7 +37,7 @@ export default function RouteInstructions() {
                   <li>
                     <span className="bullet">•</span>
                     <span className="instruction-text">
-                      <strong>DO NOT</strong> go on Pallegama - Mideripitiya Rd 
+                      <strong>DO NOT</strong> go on Pallegama - Mederipitiya Rd 
                     </span>
                   </li>
                  

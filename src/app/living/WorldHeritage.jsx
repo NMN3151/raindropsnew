@@ -50,9 +50,9 @@ function WorldHeritage() {
                   generations because:
                 </p>
                 <ul style={{ textDecoration: "none" }}>
-                  <li>It is there water</li>
-                  <li>It is there food</li>
-                  <li>It is there future</li>
+                  <li>It is their water</li>
+                  <li>It is their food</li>
+                  <li>It is their future</li>
                 </ul>
 
                 <div className="">
