@@ -1,9 +1,9 @@
 {
   "app": {
-    "[project]/raindropsnew/src/app/page": [
+    "[project]/raindropsnew/src/app/dining/page": [
       "static/media/cc014fcb166cf364-s.p.e32417d2.woff2"
     ],
-    "[project]/raindropsnew/src/app/privacy/page": [
+    "[project]/raindropsnew/src/app/page": [
       "static/media/cc014fcb166cf364-s.p.e32417d2.woff2"
     ]
   },

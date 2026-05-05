@@ -57,10 +57,7 @@ function Chef() {
                   Every dish at Rain Drops reflects:</p>
 
 
-               <p className="chef-quote wow fadeInUp" data-wow-delay=".3s">
-                   Trained in multicultural cuisines and known for exceptional performance under pressure, he has mastered the balance between flavor, nutrition, and artistry. His philosophy is simple:
-                  "Healthy food must taste divine — and make your body feel lighter."
-                  Every dish at Rain Drops reflects:</p>
+              
 
 
 

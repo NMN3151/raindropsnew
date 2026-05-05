@@ -1,7 +1,7 @@
-[00:00:49.536] Server  LOG     ✓ Ready in 44s
-[00:00:52.592] Server  LOG     ○ Compiling / ...
-[00:01:42.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:42.445] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:52.797] Server  LOG     ✓ Ready in 43.6s
+[00:00:55.847] Server  LOG     ○ Compiling / ...
+[00:01:23.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:23.500] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -44,156 +44,12 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
       ...
 
-[00:01:42.445] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:01:42.445] Browser LOG     Autoplay started
-[00:01:42.445] Browser WARN    Rellax: The elements you're trying to select don't exist.
-[00:01:42.445] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:01:42.446] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:01:45.525] Browser WARN    Image with src "/assets/images/about/N1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:09.740] Server  LOG     ✓ Compiled in 1313ms
-[00:02:11.026] Server  LOG     ✓ Compiled in 23ms
-[00:04:19.176] Server  LOG     ✓ Compiled in 21ms
-[00:04:20.428] Server  LOG     ✓ Compiled in 22ms
-[00:06:52.262] Server  LOG     ✓ Compiled in 2.3s
-[00:06:52.445] Browser ERROR   ./raindropsnew/src/app/home-1/Signature.jsx:17:10
-Parsing ecmascript source code failed
-  15 |     }
-  16 |   }, []);
-> 17 |   return (
-     |          ^
-> 18 |      
-     | ^^^^^
-> 19 |   );
-     | ^^^^
-  20 | }
-  21 |
-
-Parenthesized expression cannot be empty
-
-Import traces:
-  Client Component Browser:
-    ./raindropsnew/src/app/home-1/Signature.jsx [Client Component Browser]
-    ./raindropsnew/src/app/page.tsx [Client Component Browser]
-    ./raindropsnew/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./raindropsnew/src/app/home-1/Signature.jsx [Client Component SSR]
-    ./raindropsnew/src/app/page.tsx [Client Component SSR]
-    ./raindropsnew/src/app/page.tsx [Server Component]
-[00:06:54.444] Browser ERROR   ./raindropsnew/src/app/home-1/Signature.jsx:9:10
-Parsing ecmascript source code failed
-   7 |
-   8 |  
->  9 |   return (
-     |          ^
-> 10 |      
-     | ^^^^^
-> 11 |   );
-     | ^^^^
-  12 | }
-  13 |
-
-Parenthesized expression cannot be empty
-
-Import traces:
-  Client Component Browser:
-    ./raindropsnew/src/app/home-1/Signature.jsx [Client Component Browser]
-    ./raindropsnew/src/app/page.tsx [Client Component Browser]
-    ./raindropsnew/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./raindropsnew/src/app/home-1/Signature.jsx [Client Component SSR]
-    ./raindropsnew/src/app/page.tsx [Client Component SSR]
-    ./raindropsnew/src/app/page.tsx [Server Component]
-[00:07:32.701] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <ul> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="privacy/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/privacy" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="/raindrops...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function page} serverProvidedParams={{...}}>
-                    <page params={Promise} searchParams={Promise}>
-                      <TopBar>
-                      <HeaderOne>
-                      <div>
-                      <PrivacyPolicy>
-                        <JSXStyle>
-                        <div className="jsx-1a13bd...">
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div>
-                          <div className="jsx-1a13bd...">
-                            <h2>
-                            <div className="jsx-1a13bd...">
->                             <p className="jsx-1a13bd39e1399242">
->                               <ul className="jsx-1a13bd39e1399242 bullet-list">
-                              ...
-                          ...
-                      ...
-                ...
-              ...
-
-[00:07:32.701] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:08:15.436] Server  LOG     ✓ Compiled in 352ms
-[00:08:25.400] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <head> body  
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="/raindrops...">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en" className="cinzel_c4d...">
-                          <Script>
-                          <Script>
->                         <body>
-                            <style>
-                            ...
-                              <SegmentViewNode type="page" pagePath="/raindrops...">
-                                <SegmentTrieNode>
-                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                                  <Page params={Promise} searchParams={Promise}>
-                                    <SEO>
->                                   <head>
-                                    ...
-                            ...
-                  ...
-
-[00:08:25.400] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. body <head>
-[00:08:25.400] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:08:25.400] Browser LOG     Autoplay started
-[00:08:25.400] Browser WARN    Rellax: The elements you're trying to select don't exist.
-[00:08:25.400] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:08:25.400] Browser LOG     Autoplay started
-[00:08:25.400] Browser WARN    Rellax: The elements you're trying to select don't exist.
-[00:08:25.400] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:08:25.400] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:23.500] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:23.500] Browser LOG     Autoplay started
+[00:01:23.500] Browser WARN    Rellax: The elements you're trying to select don't exist.
+[00:01:23.500] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:23.500] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:26.516] Browser WARN    Image with src "/assets/images/about/N1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:43.277] Server  LOG     ○ Compiling /dining ...
+[00:02:04.601] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:24.785] Server  LOG     ✓ Compiled in 2.1s
